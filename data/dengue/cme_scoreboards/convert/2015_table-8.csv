@@ -1,7 +1,0 @@
-"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By"
-"2015-09-20T12:00Z","6.55","----","2015-09-18T17:10Z","36.28","----","WSA-ENLIL + Cone (Met Office) ","Met Office (Met Office)"," Detail"
-"2015-09-20T17:14Z(-7.0h, +7.0h)","11.78","----","2015-09-18T17:44Z","35.72","Max Kp Range: 4.0 - 6.0","WSA-ENLIL + Cone (GSFC SWRC) ","Anna Chulaki (CCMC)"," Detail"
-"2015-09-20T21:00Z","15.55","----","2015-09-19T00:30Z","28.95","Max Kp Range: -- - 5.0","WSA-ENLIL + Cone (NOAA/SWPC) ","Leila Mays (GSFC)"," Detail"
-"2015-09-21T09:00Z","27.55","25.0","2015-09-19T06:15Z","23.20","Max Kp Range: 4.0 - 7.0","WSA-ENLIL + Cone (Met Office) ","Met Office (Met Office)"," Detail"
-"2015-09-21T07:00Z(-12.0h, +12.0h)","25.55","15.0","2015-09-19T11:43Z","17.73","Max Kp Range: 2.0 - 5.0","Other (SIDC) ","Leila Mays (GSFC)"," Detail"
-"2015-09-20T22:50Z","17.38","20.0","---","---","Max Kp Range: 3.33333 - 5.75"," Average of all Methods ","Auto Generated (CCMC)"," Detail"

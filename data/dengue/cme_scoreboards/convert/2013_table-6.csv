@@ -1,8 +1,0 @@
-"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By"
-"2013-10-02T14:39Z(-7.0h, +7.0h)","13.32","----","2013-09-30T03:32Z","45.80","Max Kp Range: 3.0 - 5.0","WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail"
-"2013-10-03T00:00Z(-6.0h, +6.0h)","22.67","----","2013-09-30T12:59Z","36.35","Max Kp Range: -- - 5.0","Other (SIDC) ","Leila Mays (GSFC)"," Detail"
-"2013-10-02T19:00Z","17.67","----","2013-09-30T15:05Z","34.25","Max Kp Range: -- - 6.0","WSA-ENLIL + Cone (NOAA/SWPC) ","Leila Mays (GSFC)"," Detail"
-"2013-10-02T21:00Z(-7.0h, +7.0h)","19.67","----","2013-10-01T01:39Z","23.68","----"," WSA-ENLIL + Cone ","RWC Jeju (KSWC)"," Detail"
-"2013-10-02T04:42Z(-10.9h, +9.4h)","3.37","----","2013-10-01T17:33Z","7.78","Max Kp Range: 3.0 - 6.0","Ensemble WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail"
-"2013-10-02T06:15Z(-10.0h, +10.0h)","4.92","----","2013-10-01T20:16Z","5.07","----"," STOA ","Leila Mays (GSFC)"," Detail"
-"2013-10-02T14:56Z","13.60","----","---","---","Max Kp Range: 3.0 - 5.5"," Average of all Methods ","Auto Generated (CCMC)"," Detail"
