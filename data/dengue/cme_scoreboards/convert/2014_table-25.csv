@@ -1,0 +1,4 @@
+"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By"
+"2014-06-15T06:00Z(-6.0h, +6.0h)","-47.67","----","2014-06-13T13:00Z","88.67","----","Other (SIDC) ","Leila Mays (GSFC)"," Detail"
+"2014-06-16T06:00Z(-7.0h, +7.0h)","-23.67","----","2014-06-13T18:45Z","82.92","----","WSA-ENLIL + Cone (GSFC SWRC) ","Anna Chulaki (CCMC)"," Detail"
+"2014-06-15T18:00Z","-35.67","----","---","---","----"," Average of all Methods ","Auto Generated (CCMC)"," Detail"

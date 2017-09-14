@@ -1,0 +1,7 @@
+"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By"
+"2014-08-19T00:00Z","-5.97","----","2014-08-16T01:17Z","76.68","----","WSA-ENLIL + Cone (KSWC) ","RWC Jeju (KSWC)"," Detail"
+"2014-08-18T08:30Z(-7.0h, +7.0h)","-21.47","----","2014-08-16T03:52Z","74.10","Max Kp Range: 4.0 - 6.0","WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail"
+"2014-08-19T12:00Z","6.03","----","2014-08-16T12:30Z","65.47","Max Kp Range: -- - 5.0","WSA-ENLIL + Cone (NOAA/SWPC) ","Leila Mays (GSFC)"," Detail"
+"2014-08-19T18:00Z(-6.0h, +6.0h)","12.03","----","2014-08-16T13:20Z","64.63","----","Other (SIDC) ","Leila Mays (GSFC)"," Detail"
+"2014-08-18T07:36Z(-11.3h, +11.3h)","-22.37","75.0","2014-08-17T15:02Z","38.93","Max Kp Range: 3.0 - 8.0","Ensemble WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail"
+"2014-08-18T23:37Z","-6.35","75.0","---","---","Max Kp Range: 3.5 - 6.33333"," Average of all Methods ","Auto Generated (CCMC)"," Detail"

@@ -1,0 +1,546 @@
+!SESSION 2017-09-05 07:11:11.990 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+
+!ENTRY org.eclipse.osgi 4 0 2017-09-05 07:11:12.227
+!MESSAGE error loading hook: org.eclipse.fx.osgi.fxloader.FXClassLoadingConfigurator
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/osgi/baseadaptor/HookConfigurator
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.eclipse.osgi.internal.hookregistry.HookRegistry.loadConfigurators(HookRegistry.java:185)
+	at org.eclipse.osgi.internal.hookregistry.HookRegistry.initialize(HookRegistry.java:106)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:66)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:31)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:303)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:239)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.osgi.baseadaptor.HookConfigurator
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 26 more
+
+!ENTRY org.eclipse.osgi 4 0 2017-09-05 07:11:12.228
+!MESSAGE error loading hook: org.eclipse.fx.osgi.patch.PFConfigurator
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/osgi/baseadaptor/HookConfigurator
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.eclipse.osgi.internal.hookregistry.HookRegistry.loadConfigurators(HookRegistry.java:185)
+	at org.eclipse.osgi.internal.hookregistry.HookRegistry.initialize(HookRegistry.java:106)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:66)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:31)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:303)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:239)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.osgi.baseadaptor.HookConfigurator
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 26 more
+
+!ENTRY org.springsource.ide.eclipse.gradle.ui 4 0 2017-09-05 07:11:12.809
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springsource.ide.eclipse.gradle.ui [673]
+  Unresolved requirement: Require-Bundle: org.springsource.ide.eclipse.gradle.core
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1628)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1607)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1579)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1522)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.springsource.ide.eclipse.gradle.ui.taskview 4 0 2017-09-05 07:11:12.811
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springsource.ide.eclipse.gradle.ui.taskview [674]
+  Unresolved requirement: Require-Bundle: org.springsource.ide.eclipse.gradle.core
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1628)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1607)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1579)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1522)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.net 1 0 2017-09-05 07:11:27.052
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2017-09-05 07:11:32.083
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2017-09-05 07:11:32.083
+!MESSAGE Could not load repository template extension contributed by 'org.springsource.ide.eclipse.dashboard.ui' with connectorKind 'jira'
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2017-09-05 07:11:32.083
+!MESSAGE Could not load repository template extension contributed by 'org.springsource.ide.eclipse.dashboard.ui' with connectorKind 'jira'
+
+!ENTRY org.eclipse.mylyn.tasks.core 1 0 2017-09-05 07:11:37.757
+!MESSAGE Migrating task repository credentials from keyring.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2017-09-05 07:11:41.070
+!MESSAGE Project facet jst.web has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2017-09-05 07:11:41.070
+!MESSAGE Project facet jst.webfragment has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY org.eclipse.osgi 4 0 2017-09-05 07:11:46.456
+!MESSAGE An error occurred while automatically activating bundle org.springframework.ide.eclipse.uaa (641).
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.springframework.ide.eclipse.uaa.UaaPlugin.start() of bundle org.springframework.ide.eclipse.uaa.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.WorkbenchPlugin.lambda$0(WorkbenchPlugin.java:288)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:285)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:53)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2747)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.lang.NoClassDefFoundError: org/bouncycastle/asn1/DEREncodable
+	at org.bouncycastle.openpgp.PGPKeyRing.readSignaturesAndTrust(Unknown Source)
+	at org.bouncycastle.openpgp.PGPKeyRing.readUserIDs(Unknown Source)
+	at org.bouncycastle.openpgp.PGPPublicKeyRing.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.PGPObjectFactory.nextObject(Unknown Source)
+	at org.springframework.uaa.client.util.PgpUtils.getPublicKey(PgpUtils.java:72)
+	at org.springframework.uaa.client.util.PgpUtils.validateConfigurationSignature(PgpUtils.java:39)
+	at org.springframework.uaa.client.internal.UaaConfigurationProcessor.updateConfiguration(UaaConfigurationProcessor.java:124)
+	at org.springframework.uaa.client.internal.UaaServiceImpl.<init>(UaaServiceImpl.java:94)
+	at org.springframework.uaa.client.internal.TransmissionAwareUaaServiceImpl.<init>(TransmissionAwareUaaServiceImpl.java:61)
+	at org.springframework.ide.eclipse.internal.uaa.client.QueueingUaaServiceExtension.<init>(QueueingUaaServiceExtension.java:46)
+	at org.springframework.ide.eclipse.internal.uaa.UaaManager.<init>(UaaManager.java:130)
+	at org.springframework.ide.eclipse.uaa.UaaPlugin.start(UaaPlugin.java:64)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 27 more
+Caused by: java.lang.ClassNotFoundException: org.bouncycastle.asn1.DEREncodable cannot be found by org.springframework.roo.wrapping.bcpg-jdk15_1.45.0.0001
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:433)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 43 more
+Root exception:
+java.lang.NoClassDefFoundError: org/bouncycastle/asn1/DEREncodable
+	at org.bouncycastle.openpgp.PGPKeyRing.readSignaturesAndTrust(Unknown Source)
+	at org.bouncycastle.openpgp.PGPKeyRing.readUserIDs(Unknown Source)
+	at org.bouncycastle.openpgp.PGPPublicKeyRing.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.PGPObjectFactory.nextObject(Unknown Source)
+	at org.springframework.uaa.client.util.PgpUtils.getPublicKey(PgpUtils.java:72)
+	at org.springframework.uaa.client.util.PgpUtils.validateConfigurationSignature(PgpUtils.java:39)
+	at org.springframework.uaa.client.internal.UaaConfigurationProcessor.updateConfiguration(UaaConfigurationProcessor.java:124)
+	at org.springframework.uaa.client.internal.UaaServiceImpl.<init>(UaaServiceImpl.java:94)
+	at org.springframework.uaa.client.internal.TransmissionAwareUaaServiceImpl.<init>(TransmissionAwareUaaServiceImpl.java:61)
+	at org.springframework.ide.eclipse.internal.uaa.client.QueueingUaaServiceExtension.<init>(QueueingUaaServiceExtension.java:46)
+	at org.springframework.ide.eclipse.internal.uaa.UaaManager.<init>(UaaManager.java:130)
+	at org.springframework.ide.eclipse.uaa.UaaPlugin.start(UaaPlugin.java:64)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.WorkbenchPlugin.lambda$0(WorkbenchPlugin.java:288)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:285)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:53)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2747)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.lang.ClassNotFoundException: org.bouncycastle.asn1.DEREncodable cannot be found by org.springframework.roo.wrapping.bcpg-jdk15_1.45.0.0001
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:433)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 43 more
+
+!ENTRY org.eclipse.ui.workbench 4 2 2017-09-05 07:11:46.458
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in org.springframework.ide.eclipse.uaa was unable to load class org.springframework.ide.eclipse.internal.uaa.Startup.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.WorkbenchPlugin.lambda$0(WorkbenchPlugin.java:288)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:285)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:53)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2747)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.lang.ClassNotFoundException: An error occurred while automatically activating bundle org.springframework.ide.eclipse.uaa (641).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:112)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 10 more
+Caused by: org.osgi.framework.BundleException: Exception in org.springframework.ide.eclipse.uaa.UaaPlugin.start() of bundle org.springframework.ide.eclipse.uaa.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	... 20 more
+Caused by: java.lang.NoClassDefFoundError: org/bouncycastle/asn1/DEREncodable
+	at org.bouncycastle.openpgp.PGPKeyRing.readSignaturesAndTrust(Unknown Source)
+	at org.bouncycastle.openpgp.PGPKeyRing.readUserIDs(Unknown Source)
+	at org.bouncycastle.openpgp.PGPPublicKeyRing.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.PGPObjectFactory.nextObject(Unknown Source)
+	at org.springframework.uaa.client.util.PgpUtils.getPublicKey(PgpUtils.java:72)
+	at org.springframework.uaa.client.util.PgpUtils.validateConfigurationSignature(PgpUtils.java:39)
+	at org.springframework.uaa.client.internal.UaaConfigurationProcessor.updateConfiguration(UaaConfigurationProcessor.java:124)
+	at org.springframework.uaa.client.internal.UaaServiceImpl.<init>(UaaServiceImpl.java:94)
+	at org.springframework.uaa.client.internal.TransmissionAwareUaaServiceImpl.<init>(TransmissionAwareUaaServiceImpl.java:61)
+	at org.springframework.ide.eclipse.internal.uaa.client.QueueingUaaServiceExtension.<init>(QueueingUaaServiceExtension.java:46)
+	at org.springframework.ide.eclipse.internal.uaa.UaaManager.<init>(UaaManager.java:130)
+	at org.springframework.ide.eclipse.uaa.UaaPlugin.start(UaaPlugin.java:64)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 27 more
+Caused by: java.lang.ClassNotFoundException: org.bouncycastle.asn1.DEREncodable cannot be found by org.springframework.roo.wrapping.bcpg-jdk15_1.45.0.0001
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:433)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 43 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2017-09-05 07:11:46.459
+!MESSAGE Plug-in org.springframework.ide.eclipse.uaa was unable to load class org.springframework.ide.eclipse.internal.uaa.Startup.
+!STACK 0
+java.lang.ClassNotFoundException: An error occurred while automatically activating bundle org.springframework.ide.eclipse.uaa (641).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:112)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.WorkbenchPlugin.lambda$0(WorkbenchPlugin.java:288)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:285)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:53)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2747)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: org.osgi.framework.BundleException: Exception in org.springframework.ide.eclipse.uaa.UaaPlugin.start() of bundle org.springframework.ide.eclipse.uaa.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	... 20 more
+Caused by: java.lang.NoClassDefFoundError: org/bouncycastle/asn1/DEREncodable
+	at org.bouncycastle.openpgp.PGPKeyRing.readSignaturesAndTrust(Unknown Source)
+	at org.bouncycastle.openpgp.PGPKeyRing.readUserIDs(Unknown Source)
+	at org.bouncycastle.openpgp.PGPPublicKeyRing.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.PGPObjectFactory.nextObject(Unknown Source)
+	at org.springframework.uaa.client.util.PgpUtils.getPublicKey(PgpUtils.java:72)
+	at org.springframework.uaa.client.util.PgpUtils.validateConfigurationSignature(PgpUtils.java:39)
+	at org.springframework.uaa.client.internal.UaaConfigurationProcessor.updateConfiguration(UaaConfigurationProcessor.java:124)
+	at org.springframework.uaa.client.internal.UaaServiceImpl.<init>(UaaServiceImpl.java:94)
+	at org.springframework.uaa.client.internal.TransmissionAwareUaaServiceImpl.<init>(TransmissionAwareUaaServiceImpl.java:61)
+	at org.springframework.ide.eclipse.internal.uaa.client.QueueingUaaServiceExtension.<init>(QueueingUaaServiceExtension.java:46)
+	at org.springframework.ide.eclipse.internal.uaa.UaaManager.<init>(UaaManager.java:130)
+	at org.springframework.ide.eclipse.uaa.UaaPlugin.start(UaaPlugin.java:64)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 27 more
+Caused by: java.lang.ClassNotFoundException: org.bouncycastle.asn1.DEREncodable cannot be found by org.springframework.roo.wrapping.bcpg-jdk15_1.45.0.0001
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:433)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 43 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2017-09-05 07:11:46.459
+!MESSAGE Plug-in org.springframework.ide.eclipse.uaa was unable to load class org.springframework.ide.eclipse.internal.uaa.Startup.
+!STACK 0
+java.lang.ClassNotFoundException: An error occurred while automatically activating bundle org.springframework.ide.eclipse.uaa (641).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:112)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.WorkbenchPlugin.lambda$0(WorkbenchPlugin.java:288)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:285)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:53)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2747)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: org.osgi.framework.BundleException: Exception in org.springframework.ide.eclipse.uaa.UaaPlugin.start() of bundle org.springframework.ide.eclipse.uaa.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	... 20 more
+Caused by: java.lang.NoClassDefFoundError: org/bouncycastle/asn1/DEREncodable
+	at org.bouncycastle.openpgp.PGPKeyRing.readSignaturesAndTrust(Unknown Source)
+	at org.bouncycastle.openpgp.PGPKeyRing.readUserIDs(Unknown Source)
+	at org.bouncycastle.openpgp.PGPPublicKeyRing.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.PGPObjectFactory.nextObject(Unknown Source)
+	at org.springframework.uaa.client.util.PgpUtils.getPublicKey(PgpUtils.java:72)
+	at org.springframework.uaa.client.util.PgpUtils.validateConfigurationSignature(PgpUtils.java:39)
+	at org.springframework.uaa.client.internal.UaaConfigurationProcessor.updateConfiguration(UaaConfigurationProcessor.java:124)
+	at org.springframework.uaa.client.internal.UaaServiceImpl.<init>(UaaServiceImpl.java:94)
+	at org.springframework.uaa.client.internal.TransmissionAwareUaaServiceImpl.<init>(TransmissionAwareUaaServiceImpl.java:61)
+	at org.springframework.ide.eclipse.internal.uaa.client.QueueingUaaServiceExtension.<init>(QueueingUaaServiceExtension.java:46)
+	at org.springframework.ide.eclipse.internal.uaa.UaaManager.<init>(UaaManager.java:130)
+	at org.springframework.ide.eclipse.uaa.UaaPlugin.start(UaaPlugin.java:64)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 27 more
+Caused by: java.lang.ClassNotFoundException: org.bouncycastle.asn1.DEREncodable cannot be found by org.springframework.roo.wrapping.bcpg-jdk15_1.45.0.0001
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:433)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 43 more
+
+!ENTRY org.eclipse.ui 4 0 2017-09-05 07:11:46.459
+!MESSAGE Unable to execute early startup code for the org.eclipse.ui.IStartup extension contributed by the 'org.springframework.ide.eclipse.uaa' plug-in.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in org.springframework.ide.eclipse.uaa was unable to load class org.springframework.ide.eclipse.internal.uaa.Startup.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.WorkbenchPlugin.lambda$0(WorkbenchPlugin.java:288)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:285)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:53)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2747)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.lang.ClassNotFoundException: An error occurred while automatically activating bundle org.springframework.ide.eclipse.uaa (641).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:112)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 10 more
+Caused by: org.osgi.framework.BundleException: Exception in org.springframework.ide.eclipse.uaa.UaaPlugin.start() of bundle org.springframework.ide.eclipse.uaa.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	... 20 more
+Caused by: java.lang.NoClassDefFoundError: org/bouncycastle/asn1/DEREncodable
+	at org.bouncycastle.openpgp.PGPKeyRing.readSignaturesAndTrust(Unknown Source)
+	at org.bouncycastle.openpgp.PGPKeyRing.readUserIDs(Unknown Source)
+	at org.bouncycastle.openpgp.PGPPublicKeyRing.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.PGPObjectFactory.nextObject(Unknown Source)
+	at org.springframework.uaa.client.util.PgpUtils.getPublicKey(PgpUtils.java:72)
+	at org.springframework.uaa.client.util.PgpUtils.validateConfigurationSignature(PgpUtils.java:39)
+	at org.springframework.uaa.client.internal.UaaConfigurationProcessor.updateConfiguration(UaaConfigurationProcessor.java:124)
+	at org.springframework.uaa.client.internal.UaaServiceImpl.<init>(UaaServiceImpl.java:94)
+	at org.springframework.uaa.client.internal.TransmissionAwareUaaServiceImpl.<init>(TransmissionAwareUaaServiceImpl.java:61)
+	at org.springframework.ide.eclipse.internal.uaa.client.QueueingUaaServiceExtension.<init>(QueueingUaaServiceExtension.java:46)
+	at org.springframework.ide.eclipse.internal.uaa.UaaManager.<init>(UaaManager.java:130)
+	at org.springframework.ide.eclipse.uaa.UaaPlugin.start(UaaPlugin.java:64)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 27 more
+Caused by: java.lang.ClassNotFoundException: org.bouncycastle.asn1.DEREncodable cannot be found by org.springframework.roo.wrapping.bcpg-jdk15_1.45.0.0001
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:433)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 43 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2017-09-05 07:11:46.460
+!MESSAGE Plug-in org.springframework.ide.eclipse.uaa was unable to load class org.springframework.ide.eclipse.internal.uaa.Startup.
+!STACK 0
+java.lang.ClassNotFoundException: An error occurred while automatically activating bundle org.springframework.ide.eclipse.uaa (641).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:112)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.WorkbenchPlugin.lambda$0(WorkbenchPlugin.java:288)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:52)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:285)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:53)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2747)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: org.osgi.framework.BundleException: Exception in org.springframework.ide.eclipse.uaa.UaaPlugin.start() of bundle org.springframework.ide.eclipse.uaa.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:800)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	... 20 more
+Caused by: java.lang.NoClassDefFoundError: org/bouncycastle/asn1/DEREncodable
+	at org.bouncycastle.openpgp.PGPKeyRing.readSignaturesAndTrust(Unknown Source)
+	at org.bouncycastle.openpgp.PGPKeyRing.readUserIDs(Unknown Source)
+	at org.bouncycastle.openpgp.PGPPublicKeyRing.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.PGPObjectFactory.nextObject(Unknown Source)
+	at org.springframework.uaa.client.util.PgpUtils.getPublicKey(PgpUtils.java:72)
+	at org.springframework.uaa.client.util.PgpUtils.validateConfigurationSignature(PgpUtils.java:39)
+	at org.springframework.uaa.client.internal.UaaConfigurationProcessor.updateConfiguration(UaaConfigurationProcessor.java:124)
+	at org.springframework.uaa.client.internal.UaaServiceImpl.<init>(UaaServiceImpl.java:94)
+	at org.springframework.uaa.client.internal.TransmissionAwareUaaServiceImpl.<init>(TransmissionAwareUaaServiceImpl.java:61)
+	at org.springframework.ide.eclipse.internal.uaa.client.QueueingUaaServiceExtension.<init>(QueueingUaaServiceExtension.java:46)
+	at org.springframework.ide.eclipse.internal.uaa.UaaManager.<init>(UaaManager.java:130)
+	at org.springframework.ide.eclipse.uaa.UaaPlugin.start(UaaPlugin.java:64)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	... 27 more
+Caused by: java.lang.ClassNotFoundException: org.bouncycastle.asn1.DEREncodable cannot be found by org.springframework.roo.wrapping.bcpg-jdk15_1.45.0.0001
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:433)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 43 more
