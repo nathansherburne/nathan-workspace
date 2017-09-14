@@ -82,8 +82,8 @@ def extractLeafTables(htmlfilename):
 
 def get_epilog(progname):
     return '''
-Examples   : %s -i mypage.html
-           : %s -i *.html -o CSVs/
+Examples   : python %s  mypage.html -r
+           : python %s  *.html -o output/CSVs/
 ''' % (progname, progname)
 
 class html2csv(HTMLParser.HTMLParser):

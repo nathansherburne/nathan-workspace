@@ -1,24 +1,22 @@
-Dengue Data Scraping
+Data Scraping
 ====================================
 
 
-
-
-Scraping: get_dengue_data.py
+Scraping: download_data.py
 ------------
 Libraries: urllib2, BeautifulSoup, Selenium
 
 ```
-usage: get_dengue_data.py [-h] [-o dir] -d {MX,TW,PE,Rio,PAHO,TN}
+usage: download_data.py [-h] [-o dir] -d {MX,TW,PE,Rio,PAHO,TN, CME}
 
 optional arguments:
   -h, --help            show this help message and exit
   -o dir, --output dir  the output directory
-  -d {MX,TW,PE,Rio,PAHO}, --dataset {MX,TW,PE,Rio,PAHO}
+  -d {MX,TW,PE,Rio,PAHO,TN,CME}, --dataset {MX,TW,PE,Rio,PAHO,TN,CME}
                         the data set to download
 
 Example:
-    get_dengue_data.py -d PAHO -o paho/PDFs/
+    download_data.py -d PAHO -o paho/PDFs/
 ```
 
 Converting: PDF2CSV.jar
@@ -72,8 +70,53 @@ Small adjustments needed:
 - Handle certain fonts
 - Detect inversely colored tables. (Right now it only detects dark lines).
 
+Converting: HTML2CSV.py
+----------------
+Libraries: HTMLParser
 
-Converting: PDF2CSV.py ()
+```
+usage: HTML2CSV.py [-h] [-o dir] [-r] file [file ...]
+
+A coarse HTML tables to CSV (Comma-Separated Values) converter.
+
+positional arguments:
+  file                  the HTML file(s) you want to convert to CSV.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -o dir, --output dir  the output directory
+  -r, --recursive       To get all leaf tables from HTML with nested tables
+
+Examples   : HTML2CSV.py -i mypage.html
+           : HTML2CSV.py -i *.html -o CSVs/
+
+```
+
+Automating: crontab
+--------------------
+Crontab is a list of commands that you want to run on a regular schedule.
+
+```
+Crontab:
+- use 'env EDITOR=vim crontab -e' to add/change a scheduled script
+- use 'crontab -l' to display all scheduled events
+
+*     *     *   *    *        command to be executed
+-     -     -   -    -
+|     |     |   |    |
+|     |     |   |    +----- day of week (0 - 6) (Sunday=0)
+|     |     |   +------- month (1 - 12)
+|     |     +--------- day of        month (1 - 31)
+|     +----------- hour (0 - 23)
++------------- min (0 - 59)
+
+Example: 
+Including this line in your crontab will run command every day at noon:
+
+0 12 * * * cd ~/Dengue/Peru/Code/Python && ./download_PDFs_weekly.py
+```
+
+Converting: PDF2CSV.py (depricated in favor of Java)
 -------------------
 Libraries: pdfminer
 
@@ -176,78 +219,8 @@ See this [tutorial](http://www.degeneratestate.org/posts/2016/Jun/15/extracting-
 
 This method uses LTTextLine(s) and LTChar(s) along with their bbox attribute to determine cell positions. Basically each LTTextLine is sorted first by its y-coordinate (i.e. by row), and then by its x-coordinate (i.e. by column). The text attribute is then extracted from this 2-dimensional, ordered list.
     
-Converting: denguelib/java/PDF2CSV
-----------------
-Libraries: PDFBox
-
-```
-usage: java -jar PDF2CSV.jar
- -i,--input <arg>    input file path
- -o,--output <arg>   output file
-
- Example   : java -jar PDF2CSV.jar -i rio/data/PDFs/weekly/* -o rio/data/CSVs/individual/weekly/
-```
-
-Similar to pdfminer, but more low level. Each page of a PDF is processed by the engine, which can extract the points which make up rectangles. These points are used to create vertical and horizonal lines. The lines are compared, and every intersection between each pair of vertical and horizontal lines are used to generate more points. During the process, the relationship between points is maintained by defining "neighboors" for each point. Each point can have a nieghboor above, below, left, and right of it. These relationships are important because, after all the points are generated into a grid-like structure, we can then use the neighboor relationships to define meaningful rectangles. Once these rectangles are generated, they can be used to extract the text that they contain(like in the pdfminer "By Cell Boundaries" example).
-
-It has only been successfully tested on Rio's weekly PDFs. Much, much more work is required for this to be anywhere close to a general solution.
-
     
-Converting: HTML2CSV.py
-----------------
-Libraries: HTMLParser
 
-```
-HTML2CSV - version 2002-09-20 - http://sebsauvage.net
-A coarse HTML tables to CSV (Comma-Separated Values) converter.
-
-Syntax    : python HTML2CSV.py source.html
-
-Arguments : source.html is the HTML file you want to convert to CSV.
-            By default, the file will be converted to csv with the same
-            name and the csv extension (source.html -> source.csv)
-            You can use * and ?.
-
-Examples   : python HTML2CSV.py mypage.html
-           : python HTML2CSV.py *.html
-
-This program is public domain.
-Author : Sebastien SAUVAGE http://sebsauvage.net
-```
-
-Automating: crontab
---------------------
-Crontab is a list of commands that you want to run on a regular schedule.
-
-```
-Crontab:
-- use 'env EDITOR=vim crontab -e' to add/change a scheduled script
-- use 'crontab -l' to display all scheduled events
-
-*     *     *   *    *        command to be executed
--     -     -   -    -
-|     |     |   |    |
-|     |     |   |    +----- day of week (0 - 6) (Sunday=0)
-|     |     |   +------- month (1 - 12)
-|     |     +--------- day of        month (1 - 31)
-|     +----------- hour (0 - 23)
-+------------- min (0 - 59)
-
-Example: 
-Including this line in your crontab will run command every day at noon:
-
-0 12 * * * cd ~/Dengue/Peru/Code/Python && ./download_PDFs_weekly.py
-```
-
-PDF to CSV Problems and Progress
-----------------------------------
-###pdfminer
-- python 2
-- slow (O(n^2)) table-extraction
-    - analysing layout sorts rectangles
-    - works great with small tables/PDF (PAHO's ~50x12)
-    - impossibly slow for PDFs with large tables (Rio's ~200x52 PDF)
-    - also depends on PDF's formatting (i.e. redundant vs. sparse rectangles)
 
 ------------------------------
 To convert this README to PDF, use:
