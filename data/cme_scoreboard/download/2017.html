@@ -1,0 +1,6452 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>  
+  <head>
+  	<link rel="stylesheet" type="text/css" media="all" href="/CMEscoreboard/resources/css/styles.css">   
+    <title>
+    CME Scoreboard
+</title>
+</head>
+<body>
+<table border="2" cellpadding="2" cellspacing="2" align="left">
+    <tr>
+        <td colspan="2" align="left">
+            
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>CME ScoreBoard Header</title>
+<link rel="shortcut icon" href="/CMEscoreboard/resources/images/myfavicon.ico;jsessionid=98074AD12893F36083B20D4C0A37F7EE" type="image/x-icon">
+<link rel="icon" href="/CMEscoreboard/resources/images/myfavicon.ico;jsessionid=98074AD12893F36083B20D4C0A37F7EE" type="image/x-icon">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43747106-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true"></script>
+</head>
+<body>
+<H1><img src="/CMEscoreboard/resources/images/ccmcLogo.png;jsessionid=98074AD12893F36083B20D4C0A37F7EE" alt="CCMC"/><img src="/CMEscoreboard/resources/images/swrcLogo.png;jsessionid=98074AD12893F36083B20D4C0A37F7EE" alt="SWRC"/>CME ScoreBoard</H1>
+</body>
+</html>
+        </td>
+    </tr>
+    <tr>
+        <td width="100%">
+            
+
+
+
+
+
+
+<html>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery_cookie.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript">
+$(document).ready(function() {
+	//if visit_status cookie is not set 
+	if ($.cookie("visit_status") != "1"){
+		//set the visit_status cookie to 1 and it will expire in 1 day
+		$.cookie("visit_status", "1", { expires: 1 });
+		//show alert pop up here
+		alert("Research-Based CME Scoreboard.\n\nYou are attempting to access data that contains \"Experimental Research Information\" provided by the scientific community.  This information is intended for research purpose only.\n\nIf you are NOT a member of the Research Community, please visit NOAA's Space Weather Prediction center (http://swpc.noaa.gov) for official U.S. Government space weather forecasts.");
+	}
+    //alert("Research-Based Space Weather Forecasting Method Scoreboard.\n\nYou are attempting to access data that contains \"Experimental Research Information\" provided by the scientific community.  This information is intended for research purpose only.\n\nIf you are NOT a member of the Research Community, please visit NOAA's Space Weather Prediction center (http://swpc.noaa.gov) for official U.S. Government space weather forecasts.");
+}); 
+</script>
+
+<script>
+	function cmevalidate()
+	{
+		var confirmMessage="Are you sure you want to delete the CME?";
+		
+		if(confirm(confirmMessage) == false)
+			{
+				return false;
+			}
+		else{
+			return true;
+		}
+	}
+</script>
+
+<head>
+	<title>CME Scoreboard</title>
+</head>
+<body>
+
+
+  
+  
+  	<a href="/CMEscoreboard/login;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> Login </a>
+  
+
+
+<br>
+
+
+<br>
+
+<h2>CME Scoreboard</h2>
+<U><I>CME arrival time predictions from the research community:</I></U><br><br>
+The CME scoreboard is part of the the <a href="https://ccmc.gsfc.nasa.gov/assessment/topics/helio-cme-arrival.php">CME Arrival Time & Impact Working Team</a> in the Community-wide <a href="https://ccmc.gsfc.nasa.gov/assessment/index.php">International Forum for Space Weather Modeling Capabilities Assessment.</a><br><br>
+The CME Scoreboard (developed at the Community Coordinated Modeling Center, <a href="http://ccmc.gsfc.nasa.gov/">CCMC</a>) is a research-based forecasting methods validation activity which provides a central location for the community to:
+<ul><li>submit their forecast in real-time</li>
+<li>quickly view all forecasts at once in real-time</li>
+<li>compare forecasting methods when the event has arrived</li>
+</ul>
+
+Using this system:
+<ul>
+<li>Anyone can view prediction tables
+<li>Users can enter in your CME shock arrival time forecast after logging in:
+	<ul>
+		<li>Registered Users: Begin by finding your CME under the "Active CMEs" section, then click "Add Prediction" and select your forecasting "Method Type" from the list. (Click <a href=http://kauai.ccmc.gsfc.nasa.gov/SWSSUM/user/add>here</a> to register for an account.)</li>
+		<li>Power Users: If you do not see your CME listed under the "Active CMEs" section, click <a href="/CMEscoreboard/CME/add;jsessionid=98074AD12893F36083B20D4C0A37F7EE ">"Add CME"</a> to get started (Click <a href=http://kauai.ccmc.gsfc.nasa.gov/SWSSUM/user/requestPrivilege>here</a> to request power user privileges).  To enter the actual CME shock arrival time, click <I>"Edit CME"</I> after you are done entering your prediction(s).
+	</ul>
+<li><a href="http://swrc.gsfc.nasa.gov/main/cmemodels">Click here to see a list of registered methods</a>. If you would like to register your prediction method, please send an email to <a href="mailto:m.leila.mays@nasa.gov">M. Leila Mays</a> or <a href="mailto:yihua.zheng@nasa.gov">Yihua Zheng</a> with your model/technique details. 
+<li><a href="http://ccmc.gsfc.nasa.gov/RoR_WWW/SWREDI/2014/CMEScoreboardDemo_201502_MLeilaMays.pdf">Click here for more detailed instructions. </a>
+</ul>
+
+<h3>Active CMEs:</h3>
+
+
+
+
+
+No Active CME<br>
+
+
+<h3>Past CMEs:</h3>
+
+
+<table border=1>
+<tr>
+<td>
+<b>CME: 2017-09-10T16:00:00-CME-001</b>
+
+</td>
+</tr>
+<tr>
+<td>Actual Shock Arrival Time: 2017-09-12T19:26Z</td>
+</tr>
+
+<tr>
+<td>
+Observed Geomagnetic Storm Parameters:<br>
+
+
+Max Kp: 5.0<br>
+
+
+Dst min. in nT: -50 <br>
+
+
+Dst min. time: 2017-09-13T01:00Z <br>
+  
+
+CME Note: Associated with X8.2 flare from AR 12673.  Arrival at of CME-associated disturbance DSCOVR has not clear flux-rope signature, disturbance only.
+
+</td>
+</tr>
+
+<tr>
+
+<td>
+
+
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery_cookie.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery.tablesorter.min.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$.tablesorter.addParser({
+		id: 'abs',
+		is: function(s) { return false; },
+		format: function(s){ return Math.abs(s); },
+		type: 'numeric'
+	});
+	
+	$.tablesorter.addParser({
+		id: 'customDate',
+		is: function() { return false; },
+		format: function(s){
+			s = s.split("(");
+			s = s[0];
+			s= s.replace(/\-/g, " ");
+			s = s.replace(/:/g," ");
+			s = s.replace(/T/g," ");
+			s = s.replace(/Z/g," ");
+			s = s.split(" ");
+			return $.tablesorter.formatFloat(new Date(s[0], s[1]-1, s[2], s[3], s[4]).getTime());
+		},
+		type: 'numeric'
+	});
+	
+	$("table").tablesorter({
+		headers: {
+			0: { sorter: 'customDate'},
+			1: { sorter: 'abs'},
+			2: { sorter: 'abs'},
+			3: { sorter: 'customDate'},
+			4: { sorter: 'abs'}
+		}
+	});
+
+});			 
+	 
+  
+</script>
+
+<script>
+	function validate()
+	{
+		var confirmMessage="Are you sure you want to delete the prediction?";
+		
+		if(confirm(confirmMessage) == false)
+			{
+				return false;
+			}
+		else{
+			return true;
+		}
+	}
+</script>
+ 
+
+
+
+<table class="tablesorter" border=1>
+<thead>
+<tr>
+<th>Predicted Shock Arrival Time</th>
+<th>Difference (hrs)</th>
+<th>Confidence (%)</th>
+<th>Submitted On</th>
+<th>Lead Time (hrs)</th>
+<th>Predicted Geomagnetic Storm Parameter(s)</th>
+<th>Method</th>
+<th>Submitted By</th>
+</tr>
+</thead>
+<tbody> 
+
+<tr>
+<td>2017-09-13T04:00Z
+
+(-7.0h, +7.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+8.57
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-10T20:04Z</td>
+<td align="right">
+47.37
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://swrc.gsfc.nasa.gov">WSA-ENLIL + Cone (GSFC SWRC) </a>
+  
+  
+
+</td>
+
+<td>Leila Mays (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/761;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-13T18:00Z
+
+
+
+</td>
+
+<td align="right">
+
+
+22.57
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-11T03:25Z</td>
+<td align="right">
+40.02
+</td>
+
+
+
+<td>
+
+
+
+Max Kp Range: -- - 6.0<br>
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.swpc.noaa.gov/products/wsa-enlil-solar-wind-prediction">WSA-ENLIL + Cone (NOAA/SWPC) </a>
+  
+  
+
+</td>
+
+<td>Leila Mays (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/769;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-11T12:00Z
+
+(-12.0h, +12.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+-31.43
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-11T08:29Z</td>
+<td align="right">
+34.95
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.sidc.oma.be/products/presto/">Other (SIDC) </a>
+  
+  
+
+</td>
+
+<td>Leila Mays (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/763;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-12T05:00Z
+
+(-7.0h, +7.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+-14.43
+
+</td>
+
+<td align="right">
+
+
+70.0
+
+</td>
+
+ 
+<td>2017-09-11T08:54Z</td>
+<td align="right">
+34.53
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 4.0 - 6.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	Other 
+  
+
+</td>
+
+<td>Jingjing Wang (NSSC SEPC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/765;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-13T02:00Z
+
+(-7.0h, +7.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+6.57
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-11T09:42Z</td>
+<td align="right">
+33.73
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://swrc.gsfc.nasa.gov">WSA-ENLIL + Cone (GSFC SWRC) </a>
+  
+  
+
+</td>
+
+<td>Leila Mays (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/767;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-13T02:34Z
+
+(-6.0h, +6.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+7.13
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-11T11:35Z</td>
+<td align="right">
+31.85
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	EAM (Effective Acceleration Model) 
+  
+
+</td>
+
+<td>Evangelos Paouris (UoA)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/764;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-12T07:00Z
+
+(-12.0h, +12.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+-12.43
+
+</td>
+
+<td align="right">
+
+
+60.0
+
+</td>
+
+ 
+<td>2017-09-11T12:07Z</td>
+<td align="right">
+31.32
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 5.0 - 7.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.metoffice.gov.uk/publicsector/emergencies/space-weather">WSA-ENLIL + Cone (Met Office) </a>
+  
+  
+
+</td>
+
+<td>Met Office (Met Office)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/766;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-12T08:00Z
+
+(-7.0h, +7.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+-11.43
+
+</td>
+
+<td align="right">
+
+
+50.0
+
+</td>
+
+ 
+<td>2017-09-11T14:16Z</td>
+<td align="right">
+29.17
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 3.0 - 5.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.sidc.oma.be/products/presto/">Other (SIDC) </a>
+  
+  
+
+</td>
+
+<td>Leila Mays (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/771;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-12T01:30Z
+
+(-3.0h, +3.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+-17.93
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-11T14:29Z</td>
+<td align="right">
+28.95
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://rac.ncra.tifr.res.in/ort.html">Ooty IPS </a>
+  
+  
+
+</td>
+
+<td>Aleksandre Taktakishvili (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/768;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-12T16:06Z
+
+(-5.4h, +7.7h)
+
+
+
+</td>
+
+<td align="right">
+
+
+-3.33
+
+</td>
+
+<td align="right">
+
+
+13.0
+
+</td>
+
+ 
+<td>2017-09-11T16:28Z</td>
+<td align="right">
+26.97
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 3.0 - 4.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://swrc.gsfc.nasa.gov/main/ensannounce">Ensemble WSA-ENLIL + Cone (GSFC SWRC) </a>
+  
+  
+
+</td>
+
+<td>Leila Mays (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/770;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-12T14:49Z
+
+
+
+</td>
+
+<td align="right">
+
+
+-4.62
+
+</td>
+
+<td align="right">
+
+
+48.25
+
+</td>
+
+
+ 
+<td>---</td>
+<td>---</td>
+
+
+<td>
+
+
+Max Kp Range: 3.75 - 5.6<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	Average of all Methods 
+  
+
+</td>
+
+<td>Auto Generated (CCMC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/762;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+</tbody>
+</table>
+
+ 
+ 
+ 
+</td>
+</tr>
+
+</table>
+<br>
+
+<table border=1>
+<tr>
+<td>
+<b>CME: 2017-09-06T12:24:00-CME-001</b>
+
+</td>
+</tr>
+<tr>
+<td>Actual Shock Arrival Time: 2017-09-07T22:30Z</td>
+</tr>
+
+<tr>
+<td>
+Observed Geomagnetic Storm Parameters:<br>
+
+
+Max Kp: 8.0<br>
+
+
+Dst min. in nT: -142 <br>
+
+
+Dst min. time: 2017-09-08T02:00Z <br>
+  
+
+CME Note: Associated with X9.3 flare from AR 12673.
+
+</td>
+</tr>
+
+<tr>
+
+<td>
+
+
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery_cookie.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery.tablesorter.min.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$.tablesorter.addParser({
+		id: 'abs',
+		is: function(s) { return false; },
+		format: function(s){ return Math.abs(s); },
+		type: 'numeric'
+	});
+	
+	$.tablesorter.addParser({
+		id: 'customDate',
+		is: function() { return false; },
+		format: function(s){
+			s = s.split("(");
+			s = s[0];
+			s= s.replace(/\-/g, " ");
+			s = s.replace(/:/g," ");
+			s = s.replace(/T/g," ");
+			s = s.replace(/Z/g," ");
+			s = s.split(" ");
+			return $.tablesorter.formatFloat(new Date(s[0], s[1]-1, s[2], s[3], s[4]).getTime());
+		},
+		type: 'numeric'
+	});
+	
+	$("table").tablesorter({
+		headers: {
+			0: { sorter: 'customDate'},
+			1: { sorter: 'abs'},
+			2: { sorter: 'abs'},
+			3: { sorter: 'customDate'},
+			4: { sorter: 'abs'}
+		}
+	});
+
+});			 
+	 
+  
+</script>
+
+<script>
+	function validate()
+	{
+		var confirmMessage="Are you sure you want to delete the prediction?";
+		
+		if(confirm(confirmMessage) == false)
+			{
+				return false;
+			}
+		else{
+			return true;
+		}
+	}
+</script>
+ 
+
+
+
+<table class="tablesorter" border=1>
+<thead>
+<tr>
+<th>Predicted Shock Arrival Time</th>
+<th>Difference (hrs)</th>
+<th>Confidence (%)</th>
+<th>Submitted On</th>
+<th>Lead Time (hrs)</th>
+<th>Predicted Geomagnetic Storm Parameter(s)</th>
+<th>Method</th>
+<th>Submitted By</th>
+</tr>
+</thead>
+<tbody> 
+
+<tr>
+<td>2017-09-08T18:27Z
+
+(-7.0h, +7.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+19.95
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-06T17:23Z</td>
+<td align="right">
+29.12
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 3.0 - 5.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://swrc.gsfc.nasa.gov">WSA-ENLIL + Cone (GSFC SWRC) </a>
+  
+  
+
+</td>
+
+<td>Barbara Thompson (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/745;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-08T17:00Z
+
+(-12.0h, +12.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+18.50
+
+</td>
+
+<td align="right">
+
+
+80.0
+
+</td>
+
+ 
+<td>2017-09-06T22:40Z</td>
+<td align="right">
+23.83
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 4.0 - 6.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.sidc.oma.be/products/presto/">Other (SIDC) </a>
+  
+  
+
+</td>
+
+<td>Yaireska Collado (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/757;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-08T22:00Z
+
+
+
+</td>
+
+<td align="right">
+
+
+23.50
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-06T23:24Z</td>
+<td align="right">
+23.10
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 5.0 - 7.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.swpc.noaa.gov/products/wsa-enlil-solar-wind-prediction">WSA-ENLIL + Cone (NOAA/SWPC) </a>
+  
+  
+
+</td>
+
+<td>Yaireska Collado (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/756;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-08T10:25Z
+
+
+
+</td>
+
+<td align="right">
+
+
+11.92
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-07T02:13Z</td>
+<td align="right">
+20.28
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://spaceweather.uma.es/shocks.html">SARM </a>
+  
+  
+
+</td>
+
+<td>Marlon Nunez (UMA)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/743;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-08T06:00Z
+
+(-3.0h, +3.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+7.50
+
+</td>
+
+<td align="right">
+
+
+80.0
+
+</td>
+
+ 
+<td>2017-09-07T05:00Z</td>
+<td align="right">
+17.50
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 5.0 - 8.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.metoffice.gov.uk/publicsector/emergencies/space-weather">WSA-ENLIL + Cone (Met Office) </a>
+  
+  
+
+</td>
+
+<td>Met Office (Met Office)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/746;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-08T08:00Z
+
+(-3.0h, +3.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+9.50
+
+</td>
+
+<td align="right">
+
+
+70.0
+
+</td>
+
+ 
+<td>2017-09-07T05:40Z</td>
+<td align="right">
+16.83
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://swe.uni-graz.at/index.php/services/cme-forecast">DBM + ESWF </a>
+  
+  
+
+</td>
+
+<td>Manuela Temmer (UNIGRAZ)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/747;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-08T13:00Z
+
+(-7.0h, +7.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+14.50
+
+</td>
+
+<td align="right">
+
+
+90.0
+
+</td>
+
+ 
+<td>2017-09-07T08:25Z</td>
+<td align="right">
+14.08
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 5.0 - 7.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	Other 
+  
+
+</td>
+
+<td>Jingjing Wang (NSSC SEPC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/749;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-08T07:32Z
+
+(-5.0h, +6.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+9.03
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-07T08:33Z</td>
+<td align="right">
+13.95
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://oh.geof.unizg.hr/DBM/dbm.php">DBM </a>
+  
+  
+
+</td>
+
+<td>Mateja Dumbovic (UNIGRAZ)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/750;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-08T10:16Z
+
+(-4.0h, +4.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+11.77
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-07T09:00Z</td>
+<td align="right">
+13.50
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	EAM (Effective Acceleration Model) 
+  
+
+</td>
+
+<td>Evangelos Paouris (UoA)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/748;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-08T16:30Z
+
+
+(+14.0h)
+
+
+</td>
+
+<td align="right">
+
+
+18.00
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-07T12:32Z</td>
+<td align="right">
+9.97
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	ElEvo 
+  
+
+</td>
+
+<td>Tanja Amerstorfer (SRI)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/751;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-08T15:48Z
+
+(-9.0h, +10.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+17.30
+
+</td>
+
+<td align="right">
+
+
+100.0
+
+</td>
+
+ 
+<td>2017-09-07T14:53Z</td>
+<td align="right">
+7.62
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 4.0 - 6.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://swrc.gsfc.nasa.gov/main/ensannounce">Ensemble WSA-ENLIL + Cone (GSFC SWRC) </a>
+  
+  
+
+</td>
+
+<td>Hayley Austin (CCMC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/755;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-08T13:52Z
+
+
+
+</td>
+
+<td align="right">
+
+
+15.37
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-07T15:46Z</td>
+<td align="right">
+6.73
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.spaceweather.ac.cn/groupmodel.php?group=sigma">SPM2 </a>
+  
+  
+
+</td>
+
+<td>Xinhua Zhao (NSSC CAS)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/752;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-08T10:42Z
+
+
+
+</td>
+
+<td align="right">
+
+
+12.20
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-07T15:55Z</td>
+<td align="right">
+6.58
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.spaceweather.ac.cn/groupmodel.php?group=sigma">SPM </a>
+  
+  
+
+</td>
+
+<td>Xinhua Zhao (NSSC CAS)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/753;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-08T06:00Z
+
+(-2.0h, +2.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+7.50
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-07T16:30Z</td>
+<td align="right">
+6.00
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://rac.ncra.tifr.res.in/ort.html">Ooty IPS </a>
+  
+  
+
+</td>
+
+<td>Aleksandre Taktakishvili (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/754;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-08T16:00Z
+
+
+
+</td>
+
+<td align="right">
+
+
+17.50
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-09T12:59Z</td>
+<td align="right">
+-38.48
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://enlil-web.sws.bom.gov.au/ips_enlil.php?run=OPS-AUTORUN&url=1">WSA-ENLIL + Cone (BoM) </a>
+  
+  
+
+</td>
+
+<td>Yaireska Collado (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/760;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-08T12:46Z
+
+
+
+</td>
+
+<td align="right">
+
+
+14.27
+
+</td>
+
+<td align="right">
+
+
+84.0
+
+</td>
+
+
+ 
+<td>---</td>
+<td>---</td>
+
+
+<td>
+
+
+Max Kp Range: 4.33333 - 6.5<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	Average of all Methods 
+  
+
+</td>
+
+<td>Auto Generated (CCMC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/744;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+</tbody>
+</table>
+
+ 
+ 
+ 
+</td>
+</tr>
+
+</table>
+<br>
+
+<table border=1>
+<tr>
+<td>
+<b>CME: 2017-09-04T20:36:00-CME-001</b>
+
+</td>
+</tr>
+<tr>
+<td>Actual Shock Arrival Time: 2017-09-06T23:08Z</td>
+</tr>
+
+<tr>
+<td>
+Observed Geomagnetic Storm Parameters:<br>
+
+
+Max Kp: 4.0<br>
+
+
+Dst min. in nT: -23 <br>
+
+
+Dst min. time: 2017-09-07T09:00Z <br>
+  
+
+CME Note: Associated with M5.5 flare from AR 12673. CME start time was updated from 2017-09-04T23:06Z.  Note that there was also a CME starting on 2017-09-04T19:39Z that was slightly slower but in a similar direction and was likely "merged" with the faster 2017-09-04T20:36Z CME.
+
+</td>
+</tr>
+
+<tr>
+
+<td>
+
+
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery_cookie.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery.tablesorter.min.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$.tablesorter.addParser({
+		id: 'abs',
+		is: function(s) { return false; },
+		format: function(s){ return Math.abs(s); },
+		type: 'numeric'
+	});
+	
+	$.tablesorter.addParser({
+		id: 'customDate',
+		is: function() { return false; },
+		format: function(s){
+			s = s.split("(");
+			s = s[0];
+			s= s.replace(/\-/g, " ");
+			s = s.replace(/:/g," ");
+			s = s.replace(/T/g," ");
+			s = s.replace(/Z/g," ");
+			s = s.split(" ");
+			return $.tablesorter.formatFloat(new Date(s[0], s[1]-1, s[2], s[3], s[4]).getTime());
+		},
+		type: 'numeric'
+	});
+	
+	$("table").tablesorter({
+		headers: {
+			0: { sorter: 'customDate'},
+			1: { sorter: 'abs'},
+			2: { sorter: 'abs'},
+			3: { sorter: 'customDate'},
+			4: { sorter: 'abs'}
+		}
+	});
+
+});			 
+	 
+  
+</script>
+
+<script>
+	function validate()
+	{
+		var confirmMessage="Are you sure you want to delete the prediction?";
+		
+		if(confirm(confirmMessage) == false)
+			{
+				return false;
+			}
+		else{
+			return true;
+		}
+	}
+</script>
+ 
+
+
+
+<table class="tablesorter" border=1>
+<thead>
+<tr>
+<th>Predicted Shock Arrival Time</th>
+<th>Difference (hrs)</th>
+<th>Confidence (%)</th>
+<th>Submitted On</th>
+<th>Lead Time (hrs)</th>
+<th>Predicted Geomagnetic Storm Parameter(s)</th>
+<th>Method</th>
+<th>Submitted By</th>
+</tr>
+</thead>
+<tbody> 
+
+<tr>
+<td>2017-09-06T14:51Z
+
+(-7.0h, +7.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+-8.28
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-05T01:38Z</td>
+<td align="right">
+45.50
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 5.0 - 7.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://swrc.gsfc.nasa.gov">WSA-ENLIL + Cone (GSFC SWRC) </a>
+  
+  
+
+</td>
+
+<td>Leila Mays (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/729;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-06T17:07Z
+
+
+
+</td>
+
+<td align="right">
+
+
+-6.02
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-05T02:27Z</td>
+<td align="right">
+44.68
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://spaceweather.uma.es/shocks.html">SARM </a>
+  
+  
+
+</td>
+
+<td>Marlon Nunez (UMA)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/733;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-06T12:00Z
+
+(-8.0h, +8.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+-11.13
+
+</td>
+
+<td align="right">
+
+
+90.0
+
+</td>
+
+ 
+<td>2017-09-05T08:42Z</td>
+<td align="right">
+38.43
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 5.0 - 8.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.sidc.oma.be/products/presto/">Other (SIDC) </a>
+  
+  
+
+</td>
+
+<td>Yaireska Collado (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/736;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-07T06:00Z
+
+
+
+</td>
+
+<td align="right">
+
+
+6.87
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-05T08:44Z</td>
+<td align="right">
+38.40
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 5.0 - 7.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	Other 
+  
+
+</td>
+
+<td>Yaireska Collado (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/742;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-06T06:45Z
+
+(-4.0h, +4.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+-16.38
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-05T09:40Z</td>
+<td align="right">
+37.47
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	EAM (Effective Acceleration Model) 
+  
+
+</td>
+
+<td>Evangelos Paouris (UoA)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/734;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-07T06:00Z
+
+(-6.0h, +6.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+6.87
+
+</td>
+
+<td align="right">
+
+
+80.0
+
+</td>
+
+ 
+<td>2017-09-05T10:20Z</td>
+<td align="right">
+36.80
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://swe.uni-graz.at/index.php/services/cme-forecast">DBM + ESWF </a>
+  
+  
+
+</td>
+
+<td>Manuela Temmer (UNIGRAZ)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/735;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-06T18:00Z
+
+
+
+</td>
+
+<td align="right">
+
+
+-5.13
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-05T12:30Z</td>
+<td align="right">
+34.63
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 5.0 - 7.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.swpc.noaa.gov/products/wsa-enlil-solar-wind-prediction">WSA-ENLIL + Cone (NOAA/SWPC) </a>
+  
+  
+
+</td>
+
+<td>Yaireska Collado (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/737;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-06T22:00Z
+
+(-6.0h, +6.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+-1.13
+
+</td>
+
+<td align="right">
+
+
+70.0
+
+</td>
+
+ 
+<td>2017-09-05T14:45Z</td>
+<td align="right">
+32.38
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 5.0 - 8.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.metoffice.gov.uk/publicsector/emergencies/space-weather">WSA-ENLIL + Cone (Met Office) </a>
+  
+  
+
+</td>
+
+<td>Met Office (Met Office)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/738;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-07T03:45Z
+
+(-7.0h, +7.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+4.62
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-05T19:34Z</td>
+<td align="right">
+27.57
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 4.0 - 6.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://swrc.gsfc.nasa.gov">WSA-ENLIL + Cone (GSFC SWRC) </a>
+  
+  
+
+</td>
+
+<td>Barbara Thompson (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/739;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-07T09:02Z
+
+(-8.1h, +14.1h)
+
+
+
+</td>
+
+<td align="right">
+
+
+9.90
+
+</td>
+
+<td align="right">
+
+
+89.0
+
+</td>
+
+ 
+<td>2017-09-05T20:31Z</td>
+<td align="right">
+26.62
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 4.0 - 7.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://swrc.gsfc.nasa.gov/main/ensannounce">Ensemble WSA-ENLIL + Cone (GSFC SWRC) </a>
+  
+  
+
+</td>
+
+<td>Barbara Thompson (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/741;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-07T06:00Z
+
+
+
+</td>
+
+<td align="right">
+
+
+6.87
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-07T15:22Z</td>
+<td align="right">
+-16.23
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 5.0 - 7.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	Other 
+  
+
+</td>
+
+<td>Yaireska Collado (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/759;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-06T22:00Z
+
+
+
+</td>
+
+<td align="right">
+
+
+-1.13
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-09-08T17:00Z</td>
+<td align="right">
+-41.87
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://enlil-web.sws.bom.gov.au/ips_enlil.php?run=OPS-AUTORUN&url=1">WSA-ENLIL + Cone (BoM) </a>
+  
+  
+
+</td>
+
+<td>Yaireska Collado (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/758;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-06T21:57Z
+
+
+
+</td>
+
+<td align="right">
+
+
+-1.18
+
+</td>
+
+<td align="right">
+
+
+82.25
+
+</td>
+
+
+ 
+<td>---</td>
+<td>---</td>
+
+
+<td>
+
+
+Max Kp Range: 4.75 - 7.125<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	Average of all Methods 
+  
+
+</td>
+
+<td>Auto Generated (CCMC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/730;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+</tbody>
+</table>
+
+ 
+ 
+ 
+</td>
+</tr>
+
+</table>
+<br>
+
+<table border=1>
+<tr>
+<td>
+<b>CME: 2017-08-28T18:39:00-CME-001</b>
+
+</td>
+</tr>
+<tr>
+<td>This CME did not hit Earth!</td>
+</tr>
+
+<tr>
+<td>
+Observed Geomagnetic Storm Parameters:<br>
+
+----<br>
+
+
+
+  
+
+CME Note: Start time should be updated to reflect start time in C2. Source is an eruption seen at 15:31Z in SDO AIA 193 near AR2672.
+
+</td>
+</tr>
+
+<tr>
+
+<td>
+
+
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery_cookie.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery.tablesorter.min.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$.tablesorter.addParser({
+		id: 'abs',
+		is: function(s) { return false; },
+		format: function(s){ return Math.abs(s); },
+		type: 'numeric'
+	});
+	
+	$.tablesorter.addParser({
+		id: 'customDate',
+		is: function() { return false; },
+		format: function(s){
+			s = s.split("(");
+			s = s[0];
+			s= s.replace(/\-/g, " ");
+			s = s.replace(/:/g," ");
+			s = s.replace(/T/g," ");
+			s = s.replace(/Z/g," ");
+			s = s.split(" ");
+			return $.tablesorter.formatFloat(new Date(s[0], s[1]-1, s[2], s[3], s[4]).getTime());
+		},
+		type: 'numeric'
+	});
+	
+	$("table").tablesorter({
+		headers: {
+			0: { sorter: 'customDate'},
+			1: { sorter: 'abs'},
+			2: { sorter: 'abs'},
+			3: { sorter: 'customDate'},
+			4: { sorter: 'abs'}
+		}
+	});
+
+});			 
+	 
+  
+</script>
+
+<script>
+	function validate()
+	{
+		var confirmMessage="Are you sure you want to delete the prediction?";
+		
+		if(confirm(confirmMessage) == false)
+			{
+				return false;
+			}
+		else{
+			return true;
+		}
+	}
+</script>
+ 
+
+
+
+<table class="tablesorter" border=1>
+<thead>
+<tr>
+<th>Predicted Shock Arrival Time</th>
+<th>Difference (hrs)</th>
+<th>Confidence (%)</th>
+<th>Submitted On</th>
+<th>Lead Time (hrs)</th>
+<th>Predicted Geomagnetic Storm Parameter(s)</th>
+<th>Method</th>
+<th>Submitted By</th>
+</tr>
+</thead>
+<tbody> 
+
+<tr>
+<td>2017-09-01T06:00Z
+
+(-7.0h, +7.0h)
+
+
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-08-29T15:35Z</td>
+<td align="right">
+62.42
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://swrc.gsfc.nasa.gov">WSA-ENLIL + Cone (GSFC SWRC) </a>
+  
+  
+
+</td>
+
+<td>Hayley Austin (CCMC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/727;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-09-01T06:00Z
+
+
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+
+ 
+<td>---</td>
+<td>---</td>
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	Average of all Methods 
+  
+
+</td>
+
+<td>Auto Generated (CCMC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/728;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+</tbody>
+</table>
+
+ 
+ 
+ 
+</td>
+</tr>
+
+</table>
+<br>
+
+<table border=1>
+<tr>
+<td>
+<b>CME: 2017-07-14T01:36:00-CME-001</b>
+
+</td>
+</tr>
+<tr>
+<td>Actual Shock Arrival Time: 2017-07-16T05:14Z</td>
+</tr>
+
+<tr>
+<td>
+Observed Geomagnetic Storm Parameters:<br>
+
+
+Max Kp: 6.0<br>
+
+
+Dst min. in nT: -69 <br>
+
+
+Dst min. time: 2017-07-16T16:00Z <br>
+  
+
+CME Note: There was an M2.4 flare starting at 01:07, clear dimmings and rising/opening loops.
+
+</td>
+</tr>
+
+<tr>
+
+<td>
+
+
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery_cookie.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery.tablesorter.min.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$.tablesorter.addParser({
+		id: 'abs',
+		is: function(s) { return false; },
+		format: function(s){ return Math.abs(s); },
+		type: 'numeric'
+	});
+	
+	$.tablesorter.addParser({
+		id: 'customDate',
+		is: function() { return false; },
+		format: function(s){
+			s = s.split("(");
+			s = s[0];
+			s= s.replace(/\-/g, " ");
+			s = s.replace(/:/g," ");
+			s = s.replace(/T/g," ");
+			s = s.replace(/Z/g," ");
+			s = s.split(" ");
+			return $.tablesorter.formatFloat(new Date(s[0], s[1]-1, s[2], s[3], s[4]).getTime());
+		},
+		type: 'numeric'
+	});
+	
+	$("table").tablesorter({
+		headers: {
+			0: { sorter: 'customDate'},
+			1: { sorter: 'abs'},
+			2: { sorter: 'abs'},
+			3: { sorter: 'customDate'},
+			4: { sorter: 'abs'}
+		}
+	});
+
+});			 
+	 
+  
+</script>
+
+<script>
+	function validate()
+	{
+		var confirmMessage="Are you sure you want to delete the prediction?";
+		
+		if(confirm(confirmMessage) == false)
+			{
+				return false;
+			}
+		else{
+			return true;
+		}
+	}
+</script>
+ 
+
+
+
+<table class="tablesorter" border=1>
+<thead>
+<tr>
+<th>Predicted Shock Arrival Time</th>
+<th>Difference (hrs)</th>
+<th>Confidence (%)</th>
+<th>Submitted On</th>
+<th>Lead Time (hrs)</th>
+<th>Predicted Geomagnetic Storm Parameter(s)</th>
+<th>Method</th>
+<th>Submitted By</th>
+</tr>
+</thead>
+<tbody> 
+
+<tr>
+<td>2017-07-16T18:00Z
+
+
+
+</td>
+
+<td align="right">
+
+
+12.77
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-07-14T09:25Z</td>
+<td align="right">
+43.82
+</td>
+
+
+
+<td>
+
+
+
+Max Kp Range: -- - 6.0<br>
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.swpc.noaa.gov/products/wsa-enlil-solar-wind-prediction">WSA-ENLIL + Cone (NOAA/SWPC) </a>
+  
+  
+
+</td>
+
+<td>Leila Mays (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/722;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-07-16T12:00Z
+
+(-12.0h, +12.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+6.77
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-07-14T12:50Z</td>
+<td align="right">
+40.40
+</td>
+
+
+
+<td>
+
+
+
+Max Kp Range: -- - 5.0<br>
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	DBM (SIDC) 
+  
+
+</td>
+
+<td>Leila Mays (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/726;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-07-16T15:00Z
+
+
+
+</td>
+
+<td align="right">
+
+
+9.77
+
+</td>
+
+<td align="right">
+
+
+90.0
+
+</td>
+
+ 
+<td>2017-07-14T13:20Z</td>
+<td align="right">
+39.90
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 4.0 - 7.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.metoffice.gov.uk/publicsector/emergencies/space-weather">WSA-ENLIL + Cone (Met Office) </a>
+  
+  
+
+</td>
+
+<td>Met Office (Met Office)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/719;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-07-16T21:42Z
+
+(-7.0h, +7.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+16.47
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-07-14T13:29Z</td>
+<td align="right">
+39.75
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 2.0 - 5.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://swrc.gsfc.nasa.gov">WSA-ENLIL + Cone (GSFC SWRC) </a>
+  
+  
+
+</td>
+
+<td>Barbara Thompson (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/721;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-07-16T08:53Z
+
+
+
+</td>
+
+<td align="right">
+
+
+3.65
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-07-14T15:50Z</td>
+<td align="right">
+37.40
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://spaceweather.uma.es/shocks.html">SARM </a>
+  
+  
+
+</td>
+
+<td>Marlon Nunez (UMA)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/723;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-07-16T16:51Z
+
+(-12.2h, +11.75h)
+
+
+
+</td>
+
+<td align="right">
+
+
+11.62
+
+</td>
+
+<td align="right">
+
+
+97.0
+
+</td>
+
+ 
+<td>2017-07-14T18:47Z</td>
+<td align="right">
+34.45
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 3.0 - 5.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://swrc.gsfc.nasa.gov/main/ensannounce">Ensemble WSA-ENLIL + Cone (GSFC SWRC) </a>
+  
+  
+
+</td>
+
+<td>Leila Mays (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/725;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-07-16T08:48Z
+
+(-5.0h, +5.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+3.57
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-07-14T20:20Z</td>
+<td align="right">
+32.90
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	EAM (Effective Acceleration Model) 
+  
+
+</td>
+
+<td>Evangelos Paouris (UoA)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/724;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-07-16T14:27Z
+
+
+
+</td>
+
+<td align="right">
+
+
+9.22
+
+</td>
+
+<td align="right">
+
+
+93.5
+
+</td>
+
+
+ 
+<td>---</td>
+<td>---</td>
+
+
+<td>
+
+
+Max Kp Range: 3.0 - 5.6<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	Average of all Methods 
+  
+
+</td>
+
+<td>Auto Generated (CCMC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/720;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+</tbody>
+</table>
+
+ 
+ 
+ 
+</td>
+</tr>
+
+</table>
+<br>
+
+<table border=1>
+<tr>
+<td>
+<b>CME: 2017-06-28T16:24:00-CME-001</b>
+
+</td>
+</tr>
+<tr>
+<td>Actual Shock Arrival Time: 2017-07-01T16:26Z</td>
+</tr>
+
+<tr>
+<td>
+Observed Geomagnetic Storm Parameters:<br>
+
+
+Max Kp: 5.0<br>
+
+
+  
+
+CME Note: Start time of the CME was modified
+
+</td>
+</tr>
+
+<tr>
+
+<td>
+
+
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery_cookie.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery.tablesorter.min.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$.tablesorter.addParser({
+		id: 'abs',
+		is: function(s) { return false; },
+		format: function(s){ return Math.abs(s); },
+		type: 'numeric'
+	});
+	
+	$.tablesorter.addParser({
+		id: 'customDate',
+		is: function() { return false; },
+		format: function(s){
+			s = s.split("(");
+			s = s[0];
+			s= s.replace(/\-/g, " ");
+			s = s.replace(/:/g," ");
+			s = s.replace(/T/g," ");
+			s = s.replace(/Z/g," ");
+			s = s.split(" ");
+			return $.tablesorter.formatFloat(new Date(s[0], s[1]-1, s[2], s[3], s[4]).getTime());
+		},
+		type: 'numeric'
+	});
+	
+	$("table").tablesorter({
+		headers: {
+			0: { sorter: 'customDate'},
+			1: { sorter: 'abs'},
+			2: { sorter: 'abs'},
+			3: { sorter: 'customDate'},
+			4: { sorter: 'abs'}
+		}
+	});
+
+});			 
+	 
+  
+</script>
+
+<script>
+	function validate()
+	{
+		var confirmMessage="Are you sure you want to delete the prediction?";
+		
+		if(confirm(confirmMessage) == false)
+			{
+				return false;
+			}
+		else{
+			return true;
+		}
+	}
+</script>
+ 
+
+
+
+<table class="tablesorter" border=1>
+<thead>
+<tr>
+<th>Predicted Shock Arrival Time</th>
+<th>Difference (hrs)</th>
+<th>Confidence (%)</th>
+<th>Submitted On</th>
+<th>Lead Time (hrs)</th>
+<th>Predicted Geomagnetic Storm Parameter(s)</th>
+<th>Method</th>
+<th>Submitted By</th>
+</tr>
+</thead>
+<tbody> 
+
+<tr>
+<td>2017-07-02T21:00Z
+
+(-18.0h, +18.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+28.57
+
+</td>
+
+<td align="right">
+
+
+70.0
+
+</td>
+
+ 
+<td>2017-06-29T08:22Z</td>
+<td align="right">
+56.07
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 3.0 - 6.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.metoffice.gov.uk/publicsector/emergencies/space-weather">WSA-ENLIL + Cone (Met Office) </a>
+  
+  
+
+</td>
+
+<td>Met Office (Met Office)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/713;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-07-03T12:00Z
+
+(-12.0h, +12.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+43.57
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-06-29T10:02Z</td>
+<td align="right">
+54.40
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.sidc.oma.be/products/presto/">Other (SIDC) </a>
+  
+  
+
+</td>
+
+<td>Yaireska Collado (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/717;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-07-02T19:30Z
+
+(-7.0h, +7.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+27.07
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-06-29T17:45Z</td>
+<td align="right">
+46.68
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://swrc.gsfc.nasa.gov">WSA-ENLIL + Cone (GSFC SWRC) </a>
+  
+  
+
+</td>
+
+<td>Yaireska Collado (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/715;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-07-03T02:20Z
+
+
+
+</td>
+
+<td align="right">
+
+
+33.90
+
+</td>
+
+<td align="right">
+
+
+70.0
+
+</td>
+
+
+ 
+<td>---</td>
+<td>---</td>
+
+
+<td>
+
+
+Max Kp Range: 3.0 - 6.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	Average of all Methods 
+  
+
+</td>
+
+<td>Auto Generated (CCMC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/714;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-07-03T04:50Z
+
+(-3.5h, +3.5h)
+
+
+
+</td>
+
+<td align="right">
+
+
+36.40
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-06-30T09:40Z</td>
+<td align="right">
+30.77
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	EAM (Effective Acceleration Model) 
+  
+
+</td>
+
+<td>Evangelos Paouris (UoA)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/718;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+</tbody>
+</table>
+
+ 
+ 
+ 
+</td>
+</tr>
+
+</table>
+<br>
+
+<table border=1>
+<tr>
+<td>
+<b>CME: 2017-05-23T06:00:00-CME-001</b>
+
+</td>
+</tr>
+<tr>
+<td>Actual Shock Arrival Time: 2017-05-27T14:47Z</td>
+</tr>
+
+<tr>
+<td>
+Observed Geomagnetic Storm Parameters:<br>
+
+----<br>
+
+
+
+  
+
+</td>
+</tr>
+
+<tr>
+
+<td>
+
+
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery_cookie.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery.tablesorter.min.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$.tablesorter.addParser({
+		id: 'abs',
+		is: function(s) { return false; },
+		format: function(s){ return Math.abs(s); },
+		type: 'numeric'
+	});
+	
+	$.tablesorter.addParser({
+		id: 'customDate',
+		is: function() { return false; },
+		format: function(s){
+			s = s.split("(");
+			s = s[0];
+			s= s.replace(/\-/g, " ");
+			s = s.replace(/:/g," ");
+			s = s.replace(/T/g," ");
+			s = s.replace(/Z/g," ");
+			s = s.split(" ");
+			return $.tablesorter.formatFloat(new Date(s[0], s[1]-1, s[2], s[3], s[4]).getTime());
+		},
+		type: 'numeric'
+	});
+	
+	$("table").tablesorter({
+		headers: {
+			0: { sorter: 'customDate'},
+			1: { sorter: 'abs'},
+			2: { sorter: 'abs'},
+			3: { sorter: 'customDate'},
+			4: { sorter: 'abs'}
+		}
+	});
+
+});			 
+	 
+  
+</script>
+
+<script>
+	function validate()
+	{
+		var confirmMessage="Are you sure you want to delete the prediction?";
+		
+		if(confirm(confirmMessage) == false)
+			{
+				return false;
+			}
+		else{
+			return true;
+		}
+	}
+</script>
+ 
+
+
+
+<table class="tablesorter" border=1>
+<thead>
+<tr>
+<th>Predicted Shock Arrival Time</th>
+<th>Difference (hrs)</th>
+<th>Confidence (%)</th>
+<th>Submitted On</th>
+<th>Lead Time (hrs)</th>
+<th>Predicted Geomagnetic Storm Parameter(s)</th>
+<th>Method</th>
+<th>Submitted By</th>
+</tr>
+</thead>
+<tbody> 
+
+<tr>
+<td>2017-05-26T18:00Z
+
+(-7.0h, +7.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+-20.78
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-05-23T21:18Z</td>
+<td align="right">
+89.48
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 2.0 - 4.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://swrc.gsfc.nasa.gov">WSA-ENLIL + Cone (GSFC SWRC) </a>
+  
+  
+
+</td>
+
+<td>Yaireska Collado (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/709;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-05-26T15:00Z
+
+
+
+</td>
+
+<td align="right">
+
+
+-23.78
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-05-24T08:20Z</td>
+<td align="right">
+78.45
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 3.0 - 6.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.metoffice.gov.uk/publicsector/emergencies/space-weather">WSA-ENLIL + Cone (Met Office) </a>
+  
+  
+
+</td>
+
+<td>Met Office (Met Office)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/707;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-05-26T12:00Z
+
+(-12.0h, +12.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+-26.78
+
+</td>
+
+<td align="right">
+
+
+20.0
+
+</td>
+
+ 
+<td>2017-05-24T13:24Z</td>
+<td align="right">
+73.38
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 3.0 - 5.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.sidc.oma.be/products/presto/">Other (SIDC) </a>
+  
+  
+
+</td>
+
+<td>Yaireska Collado (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/710;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-05-27T21:07Z
+
+(-4.0h, +4.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+6.33
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-05-25T09:23Z</td>
+<td align="right">
+53.40
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	EAM (Effective Acceleration Model) 
+  
+
+</td>
+
+<td>Evangelos Paouris (UoA)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/711;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-05-27T15:00Z
+
+(-12.0h, +12.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+0.22
+
+</td>
+
+<td align="right">
+
+
+20.0
+
+</td>
+
+ 
+<td>2017-05-25T13:42Z</td>
+<td align="right">
+49.08
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 3.0 - 5.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.sidc.oma.be/products/presto/">Other (SIDC) </a>
+  
+  
+
+</td>
+
+<td>Leila Mays (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/712;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-05-27T01:49Z
+
+
+
+</td>
+
+<td align="right">
+
+
+-12.97
+
+</td>
+
+<td align="right">
+
+
+20.0
+
+</td>
+
+
+ 
+<td>---</td>
+<td>---</td>
+
+
+<td>
+
+
+Max Kp Range: 2.75 - 5.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	Average of all Methods 
+  
+
+</td>
+
+<td>Auto Generated (CCMC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/708;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+</tbody>
+</table>
+
+ 
+ 
+ 
+</td>
+</tr>
+
+</table>
+<br>
+
+<table border=1>
+<tr>
+<td>
+<b>CME: 2017-05-13T22:00:00-CME-001</b>
+
+</td>
+</tr>
+<tr>
+<td>This CME did not hit Earth!</td>
+</tr>
+
+<tr>
+<td>
+Observed Geomagnetic Storm Parameters:<br>
+
+----<br>
+
+
+
+  
+
+</td>
+</tr>
+
+<tr>
+
+<td>
+
+
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery_cookie.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery.tablesorter.min.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$.tablesorter.addParser({
+		id: 'abs',
+		is: function(s) { return false; },
+		format: function(s){ return Math.abs(s); },
+		type: 'numeric'
+	});
+	
+	$.tablesorter.addParser({
+		id: 'customDate',
+		is: function() { return false; },
+		format: function(s){
+			s = s.split("(");
+			s = s[0];
+			s= s.replace(/\-/g, " ");
+			s = s.replace(/:/g," ");
+			s = s.replace(/T/g," ");
+			s = s.replace(/Z/g," ");
+			s = s.split(" ");
+			return $.tablesorter.formatFloat(new Date(s[0], s[1]-1, s[2], s[3], s[4]).getTime());
+		},
+		type: 'numeric'
+	});
+	
+	$("table").tablesorter({
+		headers: {
+			0: { sorter: 'customDate'},
+			1: { sorter: 'abs'},
+			2: { sorter: 'abs'},
+			3: { sorter: 'customDate'},
+			4: { sorter: 'abs'}
+		}
+	});
+
+});			 
+	 
+  
+</script>
+
+<script>
+	function validate()
+	{
+		var confirmMessage="Are you sure you want to delete the prediction?";
+		
+		if(confirm(confirmMessage) == false)
+			{
+				return false;
+			}
+		else{
+			return true;
+		}
+	}
+</script>
+ 
+
+
+
+<table class="tablesorter" border=1>
+<thead>
+<tr>
+<th>Predicted Shock Arrival Time</th>
+<th>Difference (hrs)</th>
+<th>Confidence (%)</th>
+<th>Submitted On</th>
+<th>Lead Time (hrs)</th>
+<th>Predicted Geomagnetic Storm Parameter(s)</th>
+<th>Method</th>
+<th>Submitted By</th>
+</tr>
+</thead>
+<tbody> 
+
+<tr>
+<td>2017-05-17T00:00Z
+
+(-4.0h, +15.0h)
+
+
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+<td align="right">
+
+
+60.0
+
+</td>
+
+ 
+<td>2017-05-14T14:07Z</td>
+<td align="right">
+57.88
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 4.0 - 6.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.metoffice.gov.uk/publicsector/emergencies/space-weather">WSA-ENLIL + Cone (Met Office) </a>
+  
+  
+
+</td>
+
+<td>Met Office (Met Office)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/702;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-05-16T17:00Z
+
+
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-05-14T19:21Z</td>
+<td align="right">
+45.65
+</td>
+
+
+
+<td>
+
+
+
+Max Kp Range: -- - 6.0<br>
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.swpc.noaa.gov/products/wsa-enlil-solar-wind-prediction">WSA-ENLIL + Cone (NOAA/SWPC) </a>
+  
+  
+
+</td>
+
+<td>Leila Mays (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/705;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-05-17T12:00Z
+
+(-7.0h, +7.0h)
+
+
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-05-14T19:35Z</td>
+<td align="right">
+64.42
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://swrc.gsfc.nasa.gov">WSA-ENLIL + Cone (GSFC SWRC) </a>
+  
+  
+
+</td>
+
+<td>Alexandra Wold (SWRC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/704;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-05-17T20:00Z
+
+(-12.0h, +12.0h)
+
+
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+<td align="right">
+
+
+40.0
+
+</td>
+
+ 
+<td>2017-05-15T13:50Z</td>
+<td align="right">
+54.17
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 3.0 - 4.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.sidc.oma.be/products/presto/">Other (SIDC) </a>
+  
+  
+
+</td>
+
+<td>Leila Mays (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/706;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-05-17T06:15Z
+
+
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+<td align="right">
+
+
+50.0
+
+</td>
+
+
+ 
+<td>---</td>
+<td>---</td>
+
+
+<td>
+
+
+Max Kp Range: 3.5 - 5.33333<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	Average of all Methods 
+  
+
+</td>
+
+<td>Auto Generated (CCMC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/703;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+</tbody>
+</table>
+
+ 
+ 
+ 
+</td>
+</tr>
+
+</table>
+<br>
+
+<table border=1>
+<tr>
+<td>
+<b>CME: 2017-05-04T21:30:00-CME-001</b>
+
+</td>
+</tr>
+<tr>
+<td>This CME did not hit Earth!</td>
+</tr>
+
+<tr>
+<td>
+Observed Geomagnetic Storm Parameters:<br>
+
+----<br>
+
+
+
+  
+
+</td>
+</tr>
+
+<tr>
+
+<td>
+
+
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery_cookie.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery.tablesorter.min.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$.tablesorter.addParser({
+		id: 'abs',
+		is: function(s) { return false; },
+		format: function(s){ return Math.abs(s); },
+		type: 'numeric'
+	});
+	
+	$.tablesorter.addParser({
+		id: 'customDate',
+		is: function() { return false; },
+		format: function(s){
+			s = s.split("(");
+			s = s[0];
+			s= s.replace(/\-/g, " ");
+			s = s.replace(/:/g," ");
+			s = s.replace(/T/g," ");
+			s = s.replace(/Z/g," ");
+			s = s.split(" ");
+			return $.tablesorter.formatFloat(new Date(s[0], s[1]-1, s[2], s[3], s[4]).getTime());
+		},
+		type: 'numeric'
+	});
+	
+	$("table").tablesorter({
+		headers: {
+			0: { sorter: 'customDate'},
+			1: { sorter: 'abs'},
+			2: { sorter: 'abs'},
+			3: { sorter: 'customDate'},
+			4: { sorter: 'abs'}
+		}
+	});
+
+});			 
+	 
+  
+</script>
+
+<script>
+	function validate()
+	{
+		var confirmMessage="Are you sure you want to delete the prediction?";
+		
+		if(confirm(confirmMessage) == false)
+			{
+				return false;
+			}
+		else{
+			return true;
+		}
+	}
+</script>
+ 
+
+
+
+<table class="tablesorter" border=1>
+<thead>
+<tr>
+<th>Predicted Shock Arrival Time</th>
+<th>Difference (hrs)</th>
+<th>Confidence (%)</th>
+<th>Submitted On</th>
+<th>Lead Time (hrs)</th>
+<th>Predicted Geomagnetic Storm Parameter(s)</th>
+<th>Method</th>
+<th>Submitted By</th>
+</tr>
+</thead>
+<tbody> 
+
+<tr>
+<td>2017-05-09T02:00Z
+
+
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+<td align="right">
+
+
+60.0
+
+</td>
+
+
+ 
+<td>---</td>
+<td>---</td>
+
+
+<td>
+
+
+Max Kp Range: 3.0 - 5.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	Average of all Methods 
+  
+
+</td>
+
+<td>Auto Generated (CCMC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/701;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-05-09T02:00Z
+
+(-9.0h, +6.0h)
+
+
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+<td align="right">
+
+
+60.0
+
+</td>
+
+ 
+<td>2017-05-06T01:00Z</td>
+<td align="right">
+73.00
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 3.0 - 5.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.metoffice.gov.uk/publicsector/emergencies/space-weather">WSA-ENLIL + Cone (Met Office) </a>
+  
+  
+
+</td>
+
+<td>Met Office (Met Office)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/700;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+</tbody>
+</table>
+
+ 
+ 
+ 
+</td>
+</tr>
+
+</table>
+<br>
+
+<table border=1>
+<tr>
+<td>
+<b>CME: 2017-04-30T10:40:00-CME-001</b>
+
+</td>
+</tr>
+<tr>
+<td>Actual Shock Arrival Time: 2017-05-04T17:30Z</td>
+</tr>
+
+<tr>
+<td>
+Observed Geomagnetic Storm Parameters:<br>
+
+
+Max Kp: 4.0<br>
+
+
+  
+
+CME Note: CME arrival is not clear since it appears to be combined with a solar sector boundary
+
+</td>
+</tr>
+
+<tr>
+
+<td>
+
+
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery_cookie.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery.tablesorter.min.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$.tablesorter.addParser({
+		id: 'abs',
+		is: function(s) { return false; },
+		format: function(s){ return Math.abs(s); },
+		type: 'numeric'
+	});
+	
+	$.tablesorter.addParser({
+		id: 'customDate',
+		is: function() { return false; },
+		format: function(s){
+			s = s.split("(");
+			s = s[0];
+			s= s.replace(/\-/g, " ");
+			s = s.replace(/:/g," ");
+			s = s.replace(/T/g," ");
+			s = s.replace(/Z/g," ");
+			s = s.split(" ");
+			return $.tablesorter.formatFloat(new Date(s[0], s[1]-1, s[2], s[3], s[4]).getTime());
+		},
+		type: 'numeric'
+	});
+	
+	$("table").tablesorter({
+		headers: {
+			0: { sorter: 'customDate'},
+			1: { sorter: 'abs'},
+			2: { sorter: 'abs'},
+			3: { sorter: 'customDate'},
+			4: { sorter: 'abs'}
+		}
+	});
+
+});			 
+	 
+  
+</script>
+
+<script>
+	function validate()
+	{
+		var confirmMessage="Are you sure you want to delete the prediction?";
+		
+		if(confirm(confirmMessage) == false)
+			{
+				return false;
+			}
+		else{
+			return true;
+		}
+	}
+</script>
+ 
+
+
+
+<table class="tablesorter" border=1>
+<thead>
+<tr>
+<th>Predicted Shock Arrival Time</th>
+<th>Difference (hrs)</th>
+<th>Confidence (%)</th>
+<th>Submitted On</th>
+<th>Lead Time (hrs)</th>
+<th>Predicted Geomagnetic Storm Parameter(s)</th>
+<th>Method</th>
+<th>Submitted By</th>
+</tr>
+</thead>
+<tbody> 
+
+<tr>
+<td>2017-05-03T15:00Z
+
+(-9.0h, +9.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+-26.50
+
+</td>
+
+<td align="right">
+
+
+30.0
+
+</td>
+
+ 
+<td>2017-04-30T22:10Z</td>
+<td align="right">
+91.33
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 3.0 - 5.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.metoffice.gov.uk/publicsector/emergencies/space-weather">WSA-ENLIL + Cone (Met Office) </a>
+  
+  
+
+</td>
+
+<td>Met Office (Met Office)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/698;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-05-03T15:00Z
+
+
+
+</td>
+
+<td align="right">
+
+
+-26.50
+
+</td>
+
+<td align="right">
+
+
+30.0
+
+</td>
+
+
+ 
+<td>---</td>
+<td>---</td>
+
+
+<td>
+
+
+Max Kp Range: 3.0 - 5.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	Average of all Methods 
+  
+
+</td>
+
+<td>Auto Generated (CCMC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/699;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+</tbody>
+</table>
+
+ 
+ 
+ 
+</td>
+</tr>
+
+</table>
+<br>
+
+<table border=1>
+<tr>
+<td>
+<b>CME: 2017-04-18T19:48:00-CME-001</b>
+
+</td>
+</tr>
+<tr>
+<td>Actual Shock Arrival Time: 2017-04-21T11:20Z</td>
+</tr>
+
+<tr>
+<td>
+Observed Geomagnetic Storm Parameters:<br>
+
+
+Max Kp: 5.0<br>
+
+
+  
+
+CME Note: The arrival of this transient appears to be combined with a CH HSS arrival.
+
+</td>
+</tr>
+
+<tr>
+
+<td>
+
+
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery_cookie.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery.tablesorter.min.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$.tablesorter.addParser({
+		id: 'abs',
+		is: function(s) { return false; },
+		format: function(s){ return Math.abs(s); },
+		type: 'numeric'
+	});
+	
+	$.tablesorter.addParser({
+		id: 'customDate',
+		is: function() { return false; },
+		format: function(s){
+			s = s.split("(");
+			s = s[0];
+			s= s.replace(/\-/g, " ");
+			s = s.replace(/:/g," ");
+			s = s.replace(/T/g," ");
+			s = s.replace(/Z/g," ");
+			s = s.split(" ");
+			return $.tablesorter.formatFloat(new Date(s[0], s[1]-1, s[2], s[3], s[4]).getTime());
+		},
+		type: 'numeric'
+	});
+	
+	$("table").tablesorter({
+		headers: {
+			0: { sorter: 'customDate'},
+			1: { sorter: 'abs'},
+			2: { sorter: 'abs'},
+			3: { sorter: 'customDate'},
+			4: { sorter: 'abs'}
+		}
+	});
+
+});			 
+	 
+  
+</script>
+
+<script>
+	function validate()
+	{
+		var confirmMessage="Are you sure you want to delete the prediction?";
+		
+		if(confirm(confirmMessage) == false)
+			{
+				return false;
+			}
+		else{
+			return true;
+		}
+	}
+</script>
+ 
+
+
+
+<table class="tablesorter" border=1>
+<thead>
+<tr>
+<th>Predicted Shock Arrival Time</th>
+<th>Difference (hrs)</th>
+<th>Confidence (%)</th>
+<th>Submitted On</th>
+<th>Lead Time (hrs)</th>
+<th>Predicted Geomagnetic Storm Parameter(s)</th>
+<th>Method</th>
+<th>Submitted By</th>
+</tr>
+</thead>
+<tbody> 
+
+<tr>
+<td>2017-04-21T03:53Z
+
+
+
+</td>
+
+<td align="right">
+
+
+-7.45
+
+</td>
+
+<td align="right">
+
+
+20.0
+
+</td>
+
+ 
+<td>2017-04-19T08:52Z</td>
+<td align="right">
+50.47
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 4.0 - 6.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.sidc.oma.be/products/presto/">Other (SIDC) </a>
+  
+  
+
+</td>
+
+<td>Yaireska Collado (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/695;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-04-21T03:53Z
+
+
+
+</td>
+
+<td align="right">
+
+
+-7.45
+
+</td>
+
+<td align="right">
+
+
+20.0
+
+</td>
+
+
+ 
+<td>---</td>
+<td>---</td>
+
+
+<td>
+
+
+Max Kp Range: 4.0 - 6.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	Average of all Methods 
+  
+
+</td>
+
+<td>Auto Generated (CCMC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/696;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+</tbody>
+</table>
+
+ 
+ 
+ 
+</td>
+</tr>
+
+</table>
+<br>
+
+<table border=1>
+<tr>
+<td>
+<b>CME: 2017-04-01T22:12:00-CME-001</b>
+
+</td>
+</tr>
+<tr>
+<td>This CME did not hit Earth!</td>
+</tr>
+
+<tr>
+<td>
+Observed Geomagnetic Storm Parameters:<br>
+
+----<br>
+
+
+
+  
+
+CME Note: associated with M4.4 flare
+
+</td>
+</tr>
+
+<tr>
+
+<td>
+
+
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery_cookie.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery.tablesorter.min.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$.tablesorter.addParser({
+		id: 'abs',
+		is: function(s) { return false; },
+		format: function(s){ return Math.abs(s); },
+		type: 'numeric'
+	});
+	
+	$.tablesorter.addParser({
+		id: 'customDate',
+		is: function() { return false; },
+		format: function(s){
+			s = s.split("(");
+			s = s[0];
+			s= s.replace(/\-/g, " ");
+			s = s.replace(/:/g," ");
+			s = s.replace(/T/g," ");
+			s = s.replace(/Z/g," ");
+			s = s.split(" ");
+			return $.tablesorter.formatFloat(new Date(s[0], s[1]-1, s[2], s[3], s[4]).getTime());
+		},
+		type: 'numeric'
+	});
+	
+	$("table").tablesorter({
+		headers: {
+			0: { sorter: 'customDate'},
+			1: { sorter: 'abs'},
+			2: { sorter: 'abs'},
+			3: { sorter: 'customDate'},
+			4: { sorter: 'abs'}
+		}
+	});
+
+});			 
+	 
+  
+</script>
+
+<script>
+	function validate()
+	{
+		var confirmMessage="Are you sure you want to delete the prediction?";
+		
+		if(confirm(confirmMessage) == false)
+			{
+				return false;
+			}
+		else{
+			return true;
+		}
+	}
+</script>
+ 
+
+
+
+<table class="tablesorter" border=1>
+<thead>
+<tr>
+<th>Predicted Shock Arrival Time</th>
+<th>Difference (hrs)</th>
+<th>Confidence (%)</th>
+<th>Submitted On</th>
+<th>Lead Time (hrs)</th>
+<th>Predicted Geomagnetic Storm Parameter(s)</th>
+<th>Method</th>
+<th>Submitted By</th>
+</tr>
+</thead>
+<tbody> 
+
+<tr>
+<td>2017-04-05T10:00Z
+
+(-12.0h, +12.0h)
+
+
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-04-02T13:07Z</td>
+<td align="right">
+68.88
+</td>
+
+
+
+<td>
+
+
+Max Kp Range: 3.0 - 5.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.sidc.oma.be/products/presto/">Other (SIDC) </a>
+  
+  
+
+</td>
+
+<td>Leila Mays (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/693;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-04-05T10:00Z
+
+
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+
+ 
+<td>---</td>
+<td>---</td>
+
+
+<td>
+
+
+Max Kp Range: 3.0 - 5.0<br>
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	Average of all Methods 
+  
+
+</td>
+
+<td>Auto Generated (CCMC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/694;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+</tbody>
+</table>
+
+ 
+ 
+ 
+</td>
+</tr>
+
+</table>
+<br>
+
+<table border=1>
+<tr>
+<td>
+<b>CME: 2017-03-19T18:24:00-CME-001</b>
+
+</td>
+</tr>
+<tr>
+<td>Actual Shock Arrival Time: 2017-03-23T08:51Z</td>
+</tr>
+
+<tr>
+<td>
+Observed Geomagnetic Storm Parameters:<br>
+
+
+Max Kp: 4.0<br>
+
+
+  
+
+CME Note: CME start time is not completely accurate since it is a very faint partial halo.  It was changed from 2017-03-20T06:00Z to 2017-03-19T18:24Z.  The shock arrival is not clear since CME may have been combined and picked up by the HSS that arrived at Earth on 2017-03-21T00:00Z.
+
+</td>
+</tr>
+
+<tr>
+
+<td>
+
+
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery_cookie.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript" src="/CMEscoreboard/resources/js/jquery.tablesorter.min.js;jsessionid=98074AD12893F36083B20D4C0A37F7EE"> </script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$.tablesorter.addParser({
+		id: 'abs',
+		is: function(s) { return false; },
+		format: function(s){ return Math.abs(s); },
+		type: 'numeric'
+	});
+	
+	$.tablesorter.addParser({
+		id: 'customDate',
+		is: function() { return false; },
+		format: function(s){
+			s = s.split("(");
+			s = s[0];
+			s= s.replace(/\-/g, " ");
+			s = s.replace(/:/g," ");
+			s = s.replace(/T/g," ");
+			s = s.replace(/Z/g," ");
+			s = s.split(" ");
+			return $.tablesorter.formatFloat(new Date(s[0], s[1]-1, s[2], s[3], s[4]).getTime());
+		},
+		type: 'numeric'
+	});
+	
+	$("table").tablesorter({
+		headers: {
+			0: { sorter: 'customDate'},
+			1: { sorter: 'abs'},
+			2: { sorter: 'abs'},
+			3: { sorter: 'customDate'},
+			4: { sorter: 'abs'}
+		}
+	});
+
+});			 
+	 
+  
+</script>
+
+<script>
+	function validate()
+	{
+		var confirmMessage="Are you sure you want to delete the prediction?";
+		
+		if(confirm(confirmMessage) == false)
+			{
+				return false;
+			}
+		else{
+			return true;
+		}
+	}
+</script>
+ 
+
+
+
+<table class="tablesorter" border=1>
+<thead>
+<tr>
+<th>Predicted Shock Arrival Time</th>
+<th>Difference (hrs)</th>
+<th>Confidence (%)</th>
+<th>Submitted On</th>
+<th>Lead Time (hrs)</th>
+<th>Predicted Geomagnetic Storm Parameter(s)</th>
+<th>Method</th>
+<th>Submitted By</th>
+</tr>
+</thead>
+<tbody> 
+
+<tr>
+<td>2017-03-24T00:00Z
+
+(-7.0h, +7.0h)
+
+
+
+</td>
+
+<td align="right">
+
+
+15.15
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-03-20T14:57Z</td>
+<td align="right">
+65.90
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://swrc.gsfc.nasa.gov">WSA-ENLIL + Cone (GSFC SWRC) </a>
+  
+  
+
+</td>
+
+<td>Yaireska Collado (GSFC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/697;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-03-24T18:00Z
+
+
+
+</td>
+
+<td align="right">
+
+
+33.15
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+ 
+<td>2017-03-20T17:37Z</td>
+<td align="right">
+63.23
+</td>
+
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+	<a href="http://www.metoffice.gov.uk/publicsector/emergencies/space-weather">WSA-ENLIL + Cone (Met Office) </a>
+  
+  
+
+</td>
+
+<td>Met Office (Met Office)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/691;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+<tr>
+<td>2017-03-24T09:00Z
+
+
+
+</td>
+
+<td align="right">
+
+
+24.15
+
+</td>
+
+<td align="right">
+
+----
+
+
+</td>
+
+
+ 
+<td>---</td>
+<td>---</td>
+
+
+<td>
+
+----
+
+
+
+
+
+
+</td>
+
+<td>
+
+  
+  
+	Average of all Methods 
+  
+
+</td>
+
+<td>Auto Generated (CCMC)</td>
+
+<td>
+<a href="/CMEscoreboard/prediction/detail/692;jsessionid=98074AD12893F36083B20D4C0A37F7EE "> Detail</a>
+</td> 
+
+
+
+
+ 
+
+</tbody>
+</table>
+
+ 
+ 
+ 
+</td>
+</tr>
+
+</table>
+<br>
+
+
+
+
+
+<h4><a href="/CMEscoreboard/PreviousPredictions/2016;jsessionid=98074AD12893F36083B20D4C0A37F7EE ">Previous Predictions in 2016</a></h4>
+<h4><a href="/CMEscoreboard/PreviousPredictions/2015;jsessionid=98074AD12893F36083B20D4C0A37F7EE ">Previous Predictions in 2015</a></h4>
+<h4><a href="/CMEscoreboard/PreviousPredictions/2014;jsessionid=98074AD12893F36083B20D4C0A37F7EE ">Previous Predictions in 2014</a></h4>
+<h4><a href="/CMEscoreboard/PreviousPredictions/2013;jsessionid=98074AD12893F36083B20D4C0A37F7EE ">Previous Predictions in 2013</a></h4>
+
+</body>
+</html>
+
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2"  align="left">
+            
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<p>
+<a href="http://ccmc.gsfc.nasa.gov/submissions/CCMC_Rules.doc">CCMC 
+Rules of the Road</a>:<B><I> CCMC requests that users notify the CCMC, CME 
+model/technique developers and submitting forecasters/researchers before 
+performing event and validation studies with data from the CME Arrival 
+Time Scoreboard.  It is recommended that such studies be performed with 
+the knowledge and collaboration of developers and submitting 
+forecasters/researchers.</I></B><br><br>
+
+
+<a href=http://swc.ccmc.gsfc.nasa.gov/main/?q=disclaimer>Important Disclaimer Notice</a><br><br>
+
+<B><I>
+If you are looking for the official U.S. Government forecast for space weather, please go to NOAA's Space Weather Prediction Center (<a href=http://swpc.noaa.gov>http://swpc.noaa.gov</a>). This "Experimental Research Information" consists of preliminary NASA research products and should be interpreted and used accordingly.
+</I></B>
+<br><br><I><a href="mailto:maria.m.kuznetsova@nasa.gov">NASA Official: Dr. Maria Kuznetsova</a></I>
+<br><I><a href="mailto:chiu.wiegand@nasa.gov">Curator: Chiu Wiegand</a></I>
+
+</p>
+
+</body>
+</html>
+        </td>
+    </tr>
+</table>
+</body>  
+</html>

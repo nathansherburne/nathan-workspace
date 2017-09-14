@@ -17,7 +17,7 @@ def main(argv):
         parser = argparse.ArgumentParser()
         parser.add_argument("-o", "--output", metavar="dir", type=is_dir, help="the output directory")
         parser.add_argument("-d", "--dataset", type=str, required=True, choices=['MX', 'TW', 'PE', 'Rio', 'PAHO', 'LK', 'TN', 'CME'], help="the data set to download")
-        parser.add_argument("-u", "--update", action='store_true', default=False)
+        parser.add_argument("-u", "--update", action='store_true', default=False, help="Downloads only the current data")
         args = parser.parse_args()
         
         if args.output:

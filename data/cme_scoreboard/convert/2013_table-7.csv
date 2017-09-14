@@ -1,0 +1,6 @@
+"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By"
+"2013-09-23T00:00Z","----","----","2013-09-19T15:37Z","80.38","----","Other (SIDC) ","Leila Mays (GSFC)"," Detail"
+"2013-09-23T07:00Z","----","----","2013-09-19T17:05Z","85.92","----","WSA-ENLIL + Cone (NOAA/SWPC) ","Leila Mays (GSFC)"," Detail"
+"2013-09-24T05:21Z","----","----","2013-09-19T19:16Z","106.08","----","DBM ","Leila Mays (GSFC)"," Detail"
+"2013-09-23T08:00Z(-7.0h, +7.0h)","----","----","2013-09-20T15:41Z","64.32","----","WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail"
+"2013-09-23T11:05Z","----","----","---","---","----"," Average of all Methods ","Auto Generated (CCMC)"," Detail"
