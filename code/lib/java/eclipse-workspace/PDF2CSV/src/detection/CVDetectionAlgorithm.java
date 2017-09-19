@@ -16,6 +16,7 @@ import image_processing.ImageProcessor;
 import technology.tabula.Page;
 import technology.tabula.Rectangle;
 import technology.tabula.detectors.DetectionAlgorithm;
+import utils.RemoveAllText;
 
 public class CVDetectionAlgorithm implements DetectionAlgorithm {
 
@@ -24,13 +25,16 @@ public class CVDetectionAlgorithm implements DetectionAlgorithm {
 		List<Rectangle> tabula_tables = new ArrayList<Rectangle>();
 		try {
 			PDPage pdpage = page.getPDPage();
-			int page_num = page.getPageNumber() - 1;
+			//int page_num = page.getPageNumber() - 1; // Is this necessary??
 			PDDocument document = new PDDocument();
 			document.importPage(pdpage);
-			PDFRenderer pdfRenderer = new PDFRenderer(document);
+			RemoveAllText textRemover = new RemoveAllText(document);
+			PDDocument noTextDoc = textRemover.getNoTextDocument();
+			PDFRenderer pdfRenderer = new PDFRenderer(noTextDoc);
 			BufferedImage buf_image;
-			buf_image = pdfRenderer.renderImageWithDPI(page_num, 300, ImageType.RGB);
+			buf_image = pdfRenderer.renderImageWithDPI(0, 300, ImageType.RGB);
 			document.close();
+			noTextDoc.close();
 			ImageProcessor loc = new ImageProcessor(buf_image);
 			List<Rect> cv_tables = loc.getTableRects();
 			Mat image = loc.getImage();

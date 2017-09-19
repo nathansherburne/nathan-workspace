@@ -1,20 +1,18 @@
-ROOT_DIR = "~/nathan/Dengue/sri_lanka/"
-DATA_DIR = paste0(ROOT_DIR, "data/")
-CSV_DIR = paste0(DATA_DIR, "CSVs/")
-OUT_DIR = paste0(CSV_DIR, "master/")
-WEEKLY_DIR = paste0(CSV_DIR, "weekly/")
-MONTHLY_DIR = paste0(CSV_DIR, "monthly/")
+ROOT_DIR = "~/nathan/data/dengue/sri_lanka/"
+DATA_DIR = paste0(ROOT_DIR, "convert/")
+OUT_DIR = paste0(ROOT_DIR, "merge/")
 
-CSV.filenames.w = list.files(WEEKLY_DIR, pattern="*.csv")
-CSV.filenames.m = list.files(MONTHLY_DIR, pattern="*.csv")
+CSV.filenames = list.files(DATA_DIR, pattern="*.csv")
+CSV.filenames.w = CSV.filenames[grep("week", CSV.filenames)]
+CSV.filenames.m = CSV.filenames[grep("month", CSV.filenames)]
 
 dfs.w.all = lapply(CSV.filenames.w, function(filename) {
-  df = read.csv(paste0(WEEKLY_DIR, filename), stringsAsFactors = FALSE, row.names = NULL)
+  df = read.csv(paste0(DATA_DIR, filename), stringsAsFactors = FALSE, row.names = NULL)
   colnames(df) <- c(colnames(df)[-1],"x")
   df$x <- NULL
   return(df)
   })
-dfs.m.all = lapply(CSV.filenames.m, function(filename) read.csv(paste0(MONTHLY_DIR, filename), stringsAsFactors = FALSE))
+dfs.m.all = lapply(CSV.filenames.m, function(filename) read.csv(paste0(DATA_DIR, filename), stringsAsFactors = FALSE))
 
 years.w = as.vector(sapply(CSV.filenames.w, function(filename) substr(filename, 1, 4)))
 years.m = as.vector(sapply(CSV.filenames.m, function(filename) substr(filename, 1, 4)))

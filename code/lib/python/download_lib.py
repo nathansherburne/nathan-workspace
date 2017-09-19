@@ -382,10 +382,6 @@ def getTaiwanData(out_dir, update_only=False):
     f.close()
 
 def getSriLankaData(out_dir, update_only=False):
-    if not os.path.exists(os.path.join(out_dir, 'weekly')):
-        os.makedirs(os.path.join(out_dir, 'weekly'))
-    if not os.path.exists(os.path.join(out_dir, 'monthly')):
-        os.makedirs(os.path.join(out_dir, 'monthly'))
     sri_URL_monthly = "http://www.epid.gov.lk/web/index.php?option=com_casesanddeaths#"
     sri_URL_weekly = "http://www.epid.gov.lk/web/index.php?option=com_casesanddeaths&section=trends&lang=en#"
     sri_URLs = [sri_URL_monthly, sri_URL_weekly]
@@ -418,7 +414,7 @@ def getSriLankaData(out_dir, update_only=False):
             table_xpath = "//table[@class='" + table_ids[i] + "']"
             table = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, table_xpath)))
             table_html = table.get_attribute('outerHTML')
-            html_file = open(os.path.join(out_dir, data_freq[i], year + '_' + data_freq[i] + '.html'), 'w')
+            html_file = open(os.path.join(out_dir, year + '_' + data_freq[i] + '.html'), 'w')
             html_file.write(table_html.encode('utf8'))
             html_file.close()
             if update_only:  # Most recent data is first in the dropdown.

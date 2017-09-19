@@ -2,20 +2,24 @@ package driver;
 
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FilenameFilter;
 import java.io.FileWriter;
+import java.io.FilenameFilter;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
+import org.apache.commons.cli.DefaultParser;
 import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
-import org.apache.commons.cli.DefaultParser;
 import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.pdmodel.font.PDFont;
+import org.apache.pdfbox.pdmodel.font.PDType0Font;
 import org.opencv.core.Core;
 
 import detection.CVDetectionAlgorithm;
@@ -29,8 +33,6 @@ import technology.tabula.detectors.DetectionAlgorithm;
 import technology.tabula.extractors.BasicExtractionAlgorithm;
 import technology.tabula.extractors.SpreadsheetExtractionAlgorithm;
 import technology.tabula.writers.CSVWriter;
-import technology.tabula.writers.JSONWriter;
-import technology.tabula.writers.TSVWriter;
 import technology.tabula.writers.Writer;
 
 public class MyCommandLineApp {
@@ -45,16 +47,15 @@ public class MyCommandLineApp {
 
 	private Appendable defaultOutput;
 	private List<Integer> pages;
-	private OutputFormat outputFormat;
 	private String password;
 	private TableExtractor tableExtractor;
+	private String outputDirectory;
 
 	public MyCommandLineApp(Appendable defaultOutput, CommandLine line) throws ParseException {
 		this.defaultOutput = defaultOutput;
 		this.pages = MyCommandLineApp.whichPages(line);
-		this.outputFormat = MyCommandLineApp.whichOutputFormat(line);
 		this.tableExtractor = MyCommandLineApp.createExtractor(line);
-
+		this.outputDirectory = MyCommandLineApp.whichOutputDirectory(line);
 		if (line.hasOption('s')) {
 			this.password = line.getOptionValue('s');
 		}
@@ -94,7 +95,7 @@ public class MyCommandLineApp {
 			if (!pdfDirectory.isDirectory()) {
 				throw new ParseException("Directory does not exist or is not a directory");
 			}
-			extractDirectoryTables(line, pdfDirectory);
+			extractDirectoryTables(pdfDirectory);
 			return;
 		}
 
@@ -106,10 +107,10 @@ public class MyCommandLineApp {
 		if (!pdfFile.exists()) {
 			throw new ParseException("File does not exist");
 		}
-		extractFileTables(line, pdfFile);
+		extractFile(pdfFile);
 	}
 
-	public void extractDirectoryTables(CommandLine line, File pdfDirectory) throws ParseException {
+	public void extractDirectoryTables(File pdfDirectory) throws ParseException {
 		File[] pdfs = pdfDirectory.listFiles(new FilenameFilter() {
 			public boolean accept(File dir, String name) {
 				return name.endsWith(".pdf");
@@ -117,46 +118,15 @@ public class MyCommandLineApp {
 		});
 
 		for (File pdfFile : pdfs) {
-			File outputFile = new File(getOutputFilename(pdfFile));
-			extractFileInto(pdfFile, outputFile);
+			extractFile(pdfFile);
 		}
 	}
 
-	public void extractFileTables(CommandLine line, File pdfFile) throws ParseException {
-		if (!line.hasOption('o')) {
-			extractFile(pdfFile, this.defaultOutput);
-			return;
-		}
-
-		File outputFile = new File(line.getOptionValue('o'));
-		extractFileInto(pdfFile, outputFile);
-	}
-
-	public void extractFileInto(File pdfFile, File outputFile) throws ParseException {
-		BufferedWriter bufferedWriter = null;
-		try {
-			FileWriter fileWriter = new FileWriter(outputFile.getAbsoluteFile());
-			bufferedWriter = new BufferedWriter(fileWriter);
-
-			outputFile.createNewFile();
-			extractFile(pdfFile, bufferedWriter);
-		} catch (IOException e) {
-			throw new ParseException("Cannot create file " + outputFile);
-		} finally {
-			if (bufferedWriter != null) {
-				try {
-					bufferedWriter.close();
-				} catch (IOException e) {
-					System.out.println("Error in closing the BufferedWriter" + e);
-				}
-			}
-		}
-	}
-
-	private void extractFile(File pdfFile, Appendable outFile) throws ParseException {
+	private void extractFile(File pdfFile) throws ParseException {
 		PDDocument pdfDocument = null;
 		try {
 			pdfDocument = this.password == null ? PDDocument.load(pdfFile) : PDDocument.load(pdfFile, this.password);
+			// TODO: PDFont font = PDType0Font.load(pdfDocument, new File("src/tests/resources/fonts/arial.ttf"));
 			PageIterator pageIterator = getPageIterator(pdfDocument);
 			List<Table> tables = new ArrayList<Table>();
 
@@ -164,7 +134,7 @@ public class MyCommandLineApp {
 				Page page = pageIterator.next();
 				tables.addAll(tableExtractor.extractTables(page));
 			}
-			writeTables(tables, outFile);
+			writeTables(tables, getOutputFilename(pdfFile));
 		} catch (IOException e) {
 			throw new ParseException(e.getMessage());
 		} finally {
@@ -184,19 +154,6 @@ public class MyCommandLineApp {
 	}
 
 	// CommandLine parsing methods
-
-	private static OutputFormat whichOutputFormat(CommandLine line) throws ParseException {
-		if (!line.hasOption('f')) {
-			return OutputFormat.CSV;
-		}
-
-		try {
-			return OutputFormat.valueOf(line.getOptionValue('f'));
-		} catch (IllegalArgumentException e) {
-			throw new ParseException(String.format("format %s is illegal. Available formats: %s",
-					line.getOptionValue('f'), Utils.join(",", OutputFormat.formatNames())));
-		}
-	}
 
 	private static List<Integer> whichPages(CommandLine line) throws ParseException {
 		String pagesOption = line.hasOption('p') ? line.getOptionValue('p') : "1";
@@ -266,15 +223,15 @@ public class MyCommandLineApp {
 				.build());
 		o.addOption(Option.builder("o")
 				.longOpt("outfile")
-				.desc("Write output to <file> instead of STDOUT. Default: -")
+				.desc("Output directory. Default is the the current working directory.")
 				.hasArg()
 				.argName("OUTFILE")
 				.build());
 		o.addOption(Option.builder("f")
-				.longOpt("format")
-				.desc("Output format: (" + Utils.join(",", OutputFormat.formatNames()) + "). Default: CSV")
+				.longOpt("stdout")
+				.desc("Print output to STDOUT")
 				.hasArg()
-				.argName("FORMAT")
+				.argName("STDOUT")
 				.build());
 		o.addOption(Option.builder("s")
 				.longOpt("password")
@@ -354,49 +311,45 @@ public class MyCommandLineApp {
 		}
 	}
 
-	private void writeTables(List<Table> tables, Appendable out) throws IOException {
-		Writer writer = null;
-		switch (outputFormat) {
-		case CSV:
-			writer = new CSVWriter();
-			break;
-		case JSON:
-			writer = new JSONWriter();
-			break;
-		case TSV:
-			writer = new TSVWriter();
-			break;
+	private void writeTables(List<Table> tables, String outputfilename) throws IOException, ParseException {
+		Writer writer = new CSVWriter();
+		int i = 0;
+		String[] tokens = outputfilename.split("\\.(?=[^\\.]+$)");
+		for(Table table : tables) {
+			String tablefilename = tokens[0] + "-table-" + Integer.toString(i++) + "." + tokens[1];
+			Path absolute_path = Paths.get(outputDirectory, tablefilename);
+			System.out.println(tablefilename);
+			File table_file = new File(absolute_path.toString());
+			BufferedWriter bufferedWriter = null;
+	        try {
+	            FileWriter fileWriter = new FileWriter(table_file);
+	            bufferedWriter = new BufferedWriter(fileWriter);
+	            table_file.createNewFile();
+	            writer.write(bufferedWriter, table);
+	        } catch (IOException e) {
+	            throw new ParseException("Cannot create file " + table_file);
+	        } finally {
+	            if (bufferedWriter != null) {
+	                try {
+	                    bufferedWriter.close();
+	                } catch (IOException e) {
+	                    System.out.println("Error in closing the BufferedWriter" + e);
+	                }
+	            }
+	        }
 		}
-		writer.write(out, tables);
 	}
 
 	private String getOutputFilename(File pdfFile) {
 		String extension = ".csv";
-		switch (outputFormat) {
-		case CSV:
-			extension = ".csv";
-			break;
-		case JSON:
-			extension = ".json";
-			break;
-		case TSV:
-			extension = ".tsv";
-			break;
-		}
-		return pdfFile.getPath().replaceFirst("(\\.pdf|)$", extension);
+		return pdfFile.getName().replaceFirst("(\\.pdf|)$", extension);
 	}
-
-	private enum OutputFormat {
-		CSV, TSV, JSON;
-
-		static String[] formatNames() {
-			OutputFormat[] values = OutputFormat.values();
-			String[] rv = new String[values.length];
-			for (int i = 0; i < values.length; i++) {
-				rv[i] = values[i].name();
-			}
-			return rv;
+	
+	private static String whichOutputDirectory(CommandLine line) {
+		if (line.hasOption('o')) {
+			return line.getOptionValue('o');
 		}
+		return Paths.get(System.getProperty("user.dir")).toString();
 	}
 
 	private enum ExtractionMethod {
