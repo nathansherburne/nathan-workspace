@@ -1,10 +1,16 @@
 package image_processing;
 
+import java.awt.Color;
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferByte;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 import org.opencv.core.Core;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
@@ -13,6 +19,7 @@ import org.opencv.core.MatOfPoint;
 import org.opencv.core.MatOfPoint2f;
 import org.opencv.core.Point;
 import org.opencv.core.Rect;
+import org.opencv.core.Scalar;
 import org.opencv.core.Size;
 import org.opencv.imgproc.Imgproc;
 
@@ -21,20 +28,25 @@ import utils.MyUtils;
 public class ImageProcessor {
 	private BufferedImage original;
 	private Mat image;
-	private Mat gray, bw, mask, horizontal, vertical, joints, closed, blur, bh;
+	private Mat edges, bw, horizontal, vertical, mask, closed, blur, hough;
 	private List<Rect> boundRects;
 	private List<Rect> tables;
-	private int line_scale;
-	private int hole_scale;
-
+	private int line_scale, hole_scale, table_scale;
+	private Region[] regions = null;
+	private List<Line2D.Float> verticalRulings;
+	private List<Line2D.Float> horizontalRulings;
+	
 	public ImageProcessor(BufferedImage src) throws IOException {
 		original = src;
 		this.image = initialize(src);
 		tables = new ArrayList<Rect>();
-		line_scale = 30; // play with this variable in order to increase/decrease the amount of lines to
+		line_scale = 20; // play with this variable in order to increase/decrease the amount of lines to
 							// be detected.
 		hole_scale = 300; // play with this variable in order to increase/decrease the amount of holes to
 							// be detected.
+		table_scale = 25; // Must be at least a 15th of the area of the page to be considered.
+		verticalRulings = new ArrayList<Line2D.Float>();
+		horizontalRulings = new ArrayList<Line2D.Float>();
 		process();
 	}
 
@@ -95,14 +107,6 @@ public class ImageProcessor {
 		return MyUtils.toBufferedImage(bw);
 	}
 
-	public BufferedImage gray() {
-		return MyUtils.toBufferedImage(gray);
-	}
-
-	public BufferedImage joints() {
-		return MyUtils.toBufferedImage(joints);
-	}
-
 	public BufferedImage closed() {
 		return MyUtils.toBufferedImage(closed);
 	}
@@ -110,9 +114,9 @@ public class ImageProcessor {
 	public BufferedImage blurred() {
 		return MyUtils.toBufferedImage(blur);
 	}
-	
-	public BufferedImage bh() {
-		return MyUtils.toBufferedImage2(bh);
+
+	public BufferedImage hough() {
+		return MyUtils.toBufferedImage(hough);
 	}
 
 	/**
@@ -242,17 +246,10 @@ public class ImageProcessor {
 		return Imgproc.boundingRect(contour_poly);
 	}
 
-	private List<Rect> getRois(List<MatOfPoint> contours) {
+	private List<Rect> getRects(Mat bw) {
+		List<MatOfPoint> contours = getOuterContours(bw);
 		List<Rect> rects = new ArrayList<Rect>();
-
 		for (int i = 0; i < contours.size(); i++) {
-			// find the area of each contour
-			double area = Imgproc.contourArea(contours.get(i));
-			// // filter individual lines of blobs that might exist and they do not
-			// represent a table
-			if (area < 100) // value is randomly chosen, you will need to find that by yourself with trial
-							// and error procedure
-				continue;
 			Rect boundRect = getBoundRect(contours.get(i));
 			rects.add(boundRect);
 		}
@@ -280,34 +277,156 @@ public class ImageProcessor {
 		return gray;
 	}
 
-	private void process() {
-		// Use Canny edge detector to make lines white no matter what the
-		// background/line colors are.
-		bw = new Mat();
-		Imgproc.Canny(image, bw, 50, 150, 3, true);
+	private Region[] getRegions(Mat image) {
+		Mat labeled = new Mat(image.size(), image.type());
+
+		// Extract components
+		Mat rectComponents = Mat.zeros(new Size(0, 0), 0);
+		Mat centComponents = Mat.zeros(new Size(0, 0), 0);
+		Imgproc.connectedComponentsWithStats(image, labeled, rectComponents, centComponents);
+
+		// Collect regions info
+		int[] rectangleInfo = new int[5];
+		double[] centroidInfo = new double[2];
+		Region[] regions = new Region[rectComponents.rows() - 1];
+
+		for (int i = 1; i < rectComponents.rows(); i++) {
+
+			// Extract bounding box
+			rectComponents.row(i).get(0, 0, rectangleInfo);
+			Rect rectangle = new Rect(rectangleInfo[0], rectangleInfo[1], rectangleInfo[2], rectangleInfo[3]);
+
+			// Extract centroids
+			centComponents.row(i).get(0, 0, centroidInfo);
+			Point centroid = new Point(centroidInfo[0], centroidInfo[1]);
+
+			regions[i - 1] = new Region(rectangle, centroid);
+		}
 		
+		return regions;
+	}
+
+	public List<Line2D.Float> getLines(Mat disconnectedLines) {
+		List<Line2D.Float> lines = new ArrayList<Line2D.Float>();
+
+		// Since the input image is supposed to contain a bunch of disconnected lines,
+		// finding "connected components" will actually find the coordinates of the
+		// lines, each line being it's own connected component.
+
+		Region[] lineRegions = getRegions(disconnectedLines);
+		for(int i = 0; i < lineRegions.length; i++) {
+			lines.add(rectToLine(lineRegions[i].getBounding()));
+		}
+		return lines;
+	}
+	
+	public Line2D.Float rectToLine(Rect r) {
+		if(isHorizontal(r)) {
+			float avgY = (r.y + (r.y + r.height)) / 2;
+			return new Line2D.Float(new Point2D.Float(r.x, avgY), new Point2D.Float(r.x + r.width, avgY));
+		}
+		float avgX = (r.x + (r.x + r.width)) / 2;
+		return new Line2D.Float(new Point2D.Float(avgX, r.y), new Point2D.Float(avgX, r.y + r.height));
+	}
+	
+	public boolean isHorizontal(Rect r) {
+		return r.width > r.height;
+	}
+	
+	public List<Line2D.Float> getRulings() {
+		return Stream.concat(horizontalRulings.stream(), verticalRulings.stream())
+        .collect(Collectors.toList());
+	}
+	
+	private void process() {
+		// Some images have white lines on black background. Other images have black
+		// lines on white backgrounds. Use Canny edge detector to make lines white no
+		// matter what the background and line colors are. The important part is not
+		// edge detection, it is making the edges white.
+		edges = new Mat();
+		bw = new Mat();
+		Imgproc.Canny(image, edges, 50, 150, 3, true);
+
 		// Blur to connect corners.
 		blur = new Mat();
-		Imgproc.GaussianBlur(bw, blur, new Size(11.0, 11.0), 0.0);
+		Imgproc.GaussianBlur(edges, blur, new Size(11.0, 11.0), 0.0);
 		Imgproc.adaptiveThreshold(blur, bw, 255, Imgproc.ADAPTIVE_THRESH_MEAN_C, Imgproc.THRESH_BINARY, 5, 0);
-		
-		// Connect in-line line segments.
+
+		// Connect colinear line segments.
 		closed = close(bw);
 		horizontal = getHorizontalLines(closed);
 		vertical = getVerticalLines(closed);
-		
-		joints = getJoints(horizontal, vertical);
+
+		// Connect vertical and horizontal.
 		mask = new Mat();
 		Core.add(horizontal, vertical, mask);
-		
-		bh = new Mat();
-		//Mat kernel = Imgproc.getStructuringElement(Imgproc.MORPH_RECT, new Size(13, 13));
-		//Imgproc.morphologyEx(mask, bh, Imgproc.MORPH_TOPHAT, kernel);
-		Imgproc.connectedComponents(mask, bh);
-		System.out.println(bh.type());
-		System.out.println(bh.depth());
-		List<MatOfPoint> contours = getOuterContours(mask);
-		boundRects = getRois(contours);
-		tables = getTables(boundRects, joints);
+
+		// Find connected components.
+		regions = getRegions(mask);
+
+		// Get ruling lines.
+		horizontalRulings = getLines(horizontal);
+		verticalRulings = getLines(vertical);
+
+		// TDOD: get new hor and ver for joints.
+		// joints = getJoints(horizontal, vertical);
+		// boundRects = getRects(comp);
+		// tables = getTables(boundRects, joints);
+	}
+
+	/**
+	 * 
+	 * @param image
+	 * @param roiRect
+	 * @return a Mat of the original image with all pixels except those in the roi
+	 *         set to 0.
+	 */
+	public Mat getRoi(Mat image, Rect roiRect) {
+		Mat mask = new Mat(image.rows(), image.cols(), 0, new Scalar(0));
+		Mat roi = mask.submat(roiRect);
+		roi.setTo(new Scalar(255));
+		Core.bitwise_and(roi, image, roi);
+		return roi;
+	}
+
+	// Saving for later in case I want to use it.
+	public void houghlines() {
+		List<Line2D.Float> rulings = new ArrayList<Line2D.Float>();
+		Mat lines = new Mat();
+		Imgproc.HoughLinesP(mask, lines, 3, Math.PI / 180, 50, 60, 10);
+		hough = new Mat(mask.rows(), mask.cols(), CvType.CV_8UC3);
+		int colorNum = 0;
+		Color color = MyUtils.KELLY_COLORS[colorNum++];
+		for (int i = 0; i < lines.rows(); i++) {
+			double[] val = lines.get(i, 0);
+			rulings.add(new Line2D.Float(new Point2D.Float((float) val[0], (float) val[1]),
+					new Point2D.Float((float) val[2], (float) val[3])));
+			Point p1 = new Point(val[0], val[1]);
+			Point p2 = new Point(val[2], val[3]);
+			for (int j = 0; j < regions.length; j++) {
+				if (regions[j].getBounding().contains(p1) && regions[j].getBounding().contains(p2)) {
+					color = MyUtils.KELLY_COLORS[j];
+				}
+			}
+			Imgproc.line(hough, p1, p2, new Scalar(color.getBlue(), color.getGreen(), color.getRed()), 2);
+		}
+	}
+
+	public class Region {
+		private Rect bounding;
+		private Point centroid;
+
+		public Region(Rect bounding, Point centroid) {
+			this.bounding = bounding;
+			this.centroid = centroid;
+		}
+
+		public Rect getBounding() {
+			return bounding;
+		}
+
+		public Point getCentroid() {
+			return centroid;
+		}
 	}
 }

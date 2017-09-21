@@ -18,12 +18,10 @@ import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.pdmodel.font.PDFont;
-import org.apache.pdfbox.pdmodel.font.PDType0Font;
 import org.opencv.core.Core;
 
 import detection.CVDetectionAlgorithm;
-import technology.tabula.ObjectExtractor;
+import extraction.MyObjectExtractor;
 import technology.tabula.Page;
 import technology.tabula.PageIterator;
 import technology.tabula.Rectangle;
@@ -134,6 +132,7 @@ public class MyCommandLineApp {
 				Page page = pageIterator.next();
 				tables.addAll(tableExtractor.extractTables(page));
 			}
+			
 			writeTables(tables, getOutputFilename(pdfFile));
 		} catch (IOException e) {
 			throw new ParseException(e.getMessage());
@@ -149,7 +148,8 @@ public class MyCommandLineApp {
 	}
 
 	private PageIterator getPageIterator(PDDocument pdfDocument) throws IOException {
-		ObjectExtractor extractor = new ObjectExtractor(pdfDocument);
+		MyObjectExtractor extractor = new MyObjectExtractor(pdfDocument);
+		//return extractor.extract(0);
 		return (pages == null) ? extractor.extract() : extractor.extract(pages);
 	}
 

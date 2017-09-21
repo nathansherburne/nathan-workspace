@@ -3,3 +3,15 @@
 /image_processing/
 /utils/
 /tests/
+/elements/
+/PageCreator.class
+/Page.class
+/PageArea.class
+/TextGroup.class
+/TextElement.class
+/MyPage.class
+/TextChunk.class
+/Table.class
+/Rulings.class
+/Ruling.class
+/extraction/
