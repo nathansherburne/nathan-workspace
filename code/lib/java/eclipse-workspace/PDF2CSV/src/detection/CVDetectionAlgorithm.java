@@ -35,29 +35,29 @@ public class CVDetectionAlgorithm implements DetectionAlgorithm {
 			buf_image = pdfRenderer.renderImageWithDPI(0, 300, ImageType.RGB);
 			document.close();
 			noTextDoc.close();
-			ImageProcessor loc = new ImageProcessor(buf_image);
-			List<Rect> cv_tables = loc.getTableRects();
-			Mat image = loc.getImage();
+			ImageProcessor loc = new ImageProcessor();
+			//List<Rect> cv_tables = loc.getTableRects();
+			//Mat image = loc.getImage();
 
-			float ver_trans, hor_trans;
-			int rotation = page.getRotation();
-			if (rotation == 90 || rotation == 270) {
-				ver_trans = pdpage.getBBox().getWidth() / image.height();
-				hor_trans = pdpage.getBBox().getHeight() / image.width();
-			} else {
-				ver_trans = pdpage.getBBox().getHeight() / image.height();
-				hor_trans = pdpage.getBBox().getWidth() / image.width();
-			}
-
-			float tab_height, tab_width, tab_left, tab_top;
-			for (Rect table : cv_tables) {
-				tab_height = table.height * ver_trans;
-				tab_width = table.width * hor_trans;
-				tab_left = table.x * hor_trans;
-				tab_top = table.y * ver_trans;
-				Rectangle r = new Rectangle(tab_top, tab_left, tab_width, tab_height);
-				tabula_tables.add(r);
-			}
+//			float ver_trans, hor_trans;
+//			int rotation = page.getRotation();
+//			if (rotation == 90 || rotation == 270) {
+//				ver_trans = pdpage.getBBox().getWidth() / image.height();
+//				hor_trans = pdpage.getBBox().getHeight() / image.width();
+//			} else {
+//				ver_trans = pdpage.getBBox().getHeight() / image.height();
+//				hor_trans = pdpage.getBBox().getWidth() / image.width();
+//			}
+//
+//			float tab_height, tab_width, tab_left, tab_top;
+//			for (Rect table : cv_tables) {
+//				tab_height = table.height * ver_trans;
+//				tab_width = table.width * hor_trans;
+//				tab_left = table.x * hor_trans;
+//				tab_top = table.y * ver_trans;
+//				Rectangle r = new Rectangle(tab_top, tab_left, tab_width, tab_height);
+//				tabula_tables.add(r);
+//			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

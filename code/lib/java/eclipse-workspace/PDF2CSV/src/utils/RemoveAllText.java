@@ -16,7 +16,6 @@
  */
 package utils;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.ArrayList;
@@ -117,12 +116,4 @@ public final class RemoveAllText {
 		}
 		return newTokens;
 	}
-
-	/**
-	 * This will print the usage for this document.
-	 */
-	private static void usage() {
-		System.err.println("Usage: java " + RemoveAllText.class.getName() + " <input-pdf> <output-pdf>");
-	}
-
 }

@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
 
+import image_processing.ImageProcessor;
 import technology.tabula.ObjectExtractor;
 import technology.tabula.Page;
 import technology.tabula.PageIterator;
@@ -28,12 +29,12 @@ public class MyObjectExtractor extends ObjectExtractor {
 
         PDPage p = this.pdfDocument.getPage(pageNumber - 1);
 
-        RulingExtractor re = new RulingExtractor(pdfDocument);
-        re.processPage(pageNumber-1);
-
         TextStripper pdfTextStripper = new TextStripper(this.pdfDocument, pageNumber);
         pdfTextStripper.process();
         Utils.sort(pdfTextStripper.textElements);
+        
+        RulingExtractor re = new RulingExtractor(pdfDocument, new ImageProcessor(), pdfTextStripper);
+        re.processPage(pageNumber-1);
 
         float w, h;
         int pageRotation = p.getRotation();

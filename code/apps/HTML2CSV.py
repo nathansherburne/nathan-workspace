@@ -19,66 +19,74 @@ def main(argv):
     parser.epilog = get_epilog(parser.prog)
     parser.add_argument("input", metavar='file', type=is_html, nargs='+', help="the HTML file(s) you want to convert to CSV.")
     parser.add_argument("-o", "--output", metavar='dir', type=is_dir, default=os.getcwd(), help="the output directory")
-    parser.add_argument("-r", "--recursive", action='store_true', default=False, help="To get all leaf tables from HTML with nested tables")
 
     args = parser.parse_args()
 
     for htmlfilename in args.input:
+        html = open(htmlfilename, 'rb')
         name, ext = os.path.splitext(os.path.basename(htmlfilename))
-        htmlfile = open(htmlfilename, 'rb')
-        if args.recursive:
-            html_tables = getLeafTables(htmlfile)
-        else:
-            html_tables = [htmlfile.read()]
-        i = 0
-        for table in html_tables:
-            outputfilename = name + "_table-" + str(i) + ".csv"
-            csvfile = open(os.path.join(args.output, outputfilename), 'w+b')
-            data = str(table)
-            csvfile.write(getCSV(data))
-            csvfile.close()
-            i += 1
-        htmlfile.close()
+        outputfilename = name + '.csv'
+        saveTable(html, outputfilename, args.output)
+        html.close()
 
 def getCSV(html_stream):
     html_parser = html2csv()
     html_parser.feed(html_stream)
     return html_parser.getCSV(True)
 
-def getLeafTables(htmlfile):
-    soup = BeautifulSoup(htmlfile)
-    tables = soup.find_all("table")
-    leaf_tables = []
-    for table in tables:
-        if len(table.find_all("table")) is not 0:
-            # Only get 'leaf' tables (i.e. tables with no tables inside of them)
-            continue
-        leaf_tables.append(table)
-    return leaf_tables
+def saveTable(html, filename, directory):
+    root = BeautifulSoup(html, "lxml")
+    table_uids = generateNestedUniqueIDs(str(root), 'table')
+    tnum = 0
+    for table in root.find_all('table'):
+        filename = getChildFilename(filename, table_uids[tnum])
+        csvfile = open(os.path.join(directory, filename), 'w+b')
+        csvfile.write(getCSV(str(table)))
+        csvfile.close()
+        tnum += 1
 
-def extractLeafTables(htmlfilename):
-    soup = BeautifulSoup(open(htmlfilename))
-    tables = soup.find_all("table")
+def getChildFilename(filename, childnumber):
+    name, ext = os.path.splitext(os.path.basename(filename))
+    return name + '-' + str(childnumber) + ext
 
-    leaf_tables = []
-    i = 0
-    for table in tables:
-        if len(table.find_all("table")) is not 0:
-            # Only extract 'leaf' tables (i.e. tables with no tables inside of them)
-            continue
+def removeChildTables(html):
+    soup = BeautifulSoup(html, "lxml")
+    [s.extract() for s in soup.find_all('table', recursive=False)]
+    return str(soup)
 
-        rows = []
-        headings = [th.get_text() for th in table.find("tr").find_all("th")]
-        rows.append(headings)
-        for row in table.find_all("tr")[1:]:
-            cells = []
-            for td in row.find_all("td"):
-                cell_content = td.get_text()
-                cell_content = cell_content.replace('\r', '').replace('\n', '').replace('\t', '')
-                cells.append(cell_content)
-            rows.append(cells)
-        leaf_tables.append(rows)
-    return leaf_tables
+def getChildTables(html):
+    soup = BeautifulSoup(html, "lxml")
+    return [str(s) for s in soup.find_all('table', recursive=False)]
+
+def removeTags(html, tags):
+    soup = BeautifulSoup(html, "lxml")
+    for tag in tags:
+        [s.extract() for s in soup.find_all(tag)]
+    return str(soup)
+
+def generateNestedUniqueIDs(html, tag):
+    soup = BeautifulSoup(html, 'lxml')
+    allItems = soup.find_all(tag)
+    uid_nums = [[] for x in xrange(len(allItems))]
+    for i in range(0, len(allItems)):
+        cur_uid = uid_nums[i]
+        prev_uid = uid_nums[i - 1] if i is not 0 else cur_uid
+        if len(prev_uid) > len(cur_uid):
+            # current has a sibling
+            level = prev_uid[len(cur_uid)] + 1
+        else:
+            level = 0
+        for j in range(0, len(allItems[i].find_all(tag)) + 1):
+            uid_nums[i+j].append(level) 
+
+    uids = []
+    for combo in uid_nums:
+        uid = ''
+        for number in combo:
+            uid += '-' + str(number)
+        uids.append(uid)
+
+    return uids
 
 def get_epilog(progname):
     return '''
