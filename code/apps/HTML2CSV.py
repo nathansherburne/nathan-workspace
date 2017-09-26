@@ -39,8 +39,9 @@ def saveTable(html, filename, directory):
     table_uids = generateNestedUniqueIDs(str(root), 'table')
     tnum = 0
     for table in root.find_all('table'):
-        filename = getChildFilename(filename, table_uids[tnum])
-        csvfile = open(os.path.join(directory, filename), 'w+b')
+        table = removeTags(table, ['script', 'table'])
+        unqfilename = getChildFilename(filename, table_uids[tnum])
+        csvfile = open(os.path.join(directory, unqfilename), 'w+b')
         csvfile.write(getCSV(str(table)))
         csvfile.close()
         tnum += 1
@@ -49,17 +50,7 @@ def getChildFilename(filename, childnumber):
     name, ext = os.path.splitext(os.path.basename(filename))
     return name + '-' + str(childnumber) + ext
 
-def removeChildTables(html):
-    soup = BeautifulSoup(html, "lxml")
-    [s.extract() for s in soup.find_all('table', recursive=False)]
-    return str(soup)
-
-def getChildTables(html):
-    soup = BeautifulSoup(html, "lxml")
-    return [str(s) for s in soup.find_all('table', recursive=False)]
-
-def removeTags(html, tags):
-    soup = BeautifulSoup(html, "lxml")
+def removeTags(soup, tags):
     for tag in tags:
         [s.extract() for s in soup.find_all(tag)]
     return str(soup)
