@@ -31,6 +31,13 @@ formatPAHOcsv <- function(df) {
   return(df)
 }
 
+addYearCol <- function(dt, year) {
+  dt = as.data.table(dt)
+  yearCol = rep(year, nrow(dt))
+  dt[, Year := yearCol, ]
+  return(as.data.frame(dt))
+}
+
 remFirstIfLower <- function(str) {
   # Removes the first character in a string if it is lowercase.
   #

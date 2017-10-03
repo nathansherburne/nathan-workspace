@@ -19,10 +19,6 @@ now = datetime.now()
 CURRENT_YEAR = str(now.year)
 
 def getPAHOData(out_dir, update_only=False):
-    if not os.path.exists(out_dir + '/' + 'weekly'):
-        os.makedirs(out_dir + '/' + 'weekly')
-    if not os.path.exists(out_dir + '/' + 'yearly'):
-        os.makedirs(out_dir + '/' + 'yearly')
     url = "http://www.paho.org/hq/index.php?option=com_topics&view=rdmore&cid=6290&Itemid=40734"
     print("Downloading PDFs from " + url)
     print("...")
@@ -54,10 +50,10 @@ def getPAHOData(out_dir, update_only=False):
         if year == CURRENT_YEAR:
             epi_week = re.findall('EW [0-9]+', title)[0].replace(' ','_')
             filename = year + '_' + epi_week + '.pdf'
-            write_path = os.path.join(out_dir, 'weekly', filename)
+            write_path = os.path.join(out_dir, filename)
         else:
             filename = year + '.pdf'
-            write_path = os.path.join(out_dir, 'yearly', filename)
+            write_path = os.path.join(out_dir, filename)
         response = urllib2.urlopen(full_link)
         file = open(write_path, 'w')
         file.write(response.read())
