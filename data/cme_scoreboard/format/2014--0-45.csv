@@ -1,0 +1,6 @@
+"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By",,CME,Actual Shock Arrival Time,Observed Geomagnetic Storm Parameters
+"2014-01-08T00:00Z","9.57","----","2014-01-05T12:27Z","49.98","----","Other (SIDC) ","Leila Mays (GSFC)"," Detail",2014-01-04T212500-CME-001,2014-01-07T1426Z,----
+"2014-01-07T16:03Z(-7.0h, +7.0h)","1.62","----","2014-01-05T16:56Z","45.50","Max Kp Range: 3.0 - 5.0","WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail",2014-01-04T212500-CME-001,2014-01-07T1426Z,----
+"2014-01-07T12:00Z(-12.0h, +12.0h)","-2.43","----","2014-01-05T23:30Z","38.93","----","Other (ips.gov.au) ","Leila Mays (GSFC)"," Detail",2014-01-04T212500-CME-001,2014-01-07T1426Z,----
+"2014-01-07T08:00Z","-6.43","----","2014-01-06T19:26Z","19.00","Max Kp Range: -- - 5.0","WSA-ENLIL + Cone (NOAA/SWPC) ","Leila Mays (GSFC)"," Detail",2014-01-04T212500-CME-001,2014-01-07T1426Z,----
+"2014-01-07T15:00Z","0.57","----","---","---","Max Kp Range: 3.0 - 5.0"," Average of all Methods ","Auto Generated (CCMC)"," Detail",2014-01-04T212500-CME-001,2014-01-07T1426Z,----

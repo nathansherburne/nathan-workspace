@@ -1,0 +1,4 @@
+"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By",,CME,Actual Shock Arrival Time,Observed Geomagnetic Storm Parameters,CME Note
+"2014-11-03T17:50Z","-4.62","----","2014-11-02T13:32Z","32.92","----","Other (SIDC) ","Leila Mays (GSFC)"," Detail",2014-11-01T051200-CME-001,2014-11-03T2227Z,----,LargefilamentinSDO~0420Z
+"2014-11-03T08:00Z(-7.0h, +7.0h)","-14.45","10.0","2014-11-02T23:39Z","22.80","Max Kp Range: 3.0 - 5.0","WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail",2014-11-01T051200-CME-001,2014-11-03T2227Z,----,LargefilamentinSDO~0420Z
+"2014-11-03T12:55Z","-9.53","10.0","---","---","Max Kp Range: 3.0 - 5.0"," Average of all Methods ","Auto Generated (CCMC)"," Detail",2014-11-01T051200-CME-001,2014-11-03T2227Z,----,LargefilamentinSDO~0420Z

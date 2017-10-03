@@ -1,0 +1,6 @@
+"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By",,CME,Actual Shock Arrival Time,Observed Geomagnetic Storm Parameters,CME Note
+"2015-09-09T12:00Z(-12.0h, +12.0h)","34.53","30.0","2015-09-05T09:14Z","64.23","Max Kp Range: 3.0 - 5.0","Other (SIDC) ","Leila Mays (GSFC)"," Detail",2015-09-04T192400-CME-001,2015-09-08T0128Z,----,filamenteruption
+"2015-09-08T20:00Z(-7.0h, +7.0h)","18.53","----","2015-09-05T23:16Z","50.20","Max Kp Range: 2.0 - 4.0","WSA-ENLIL + Cone (GSFC SWRC) ","Alexandra Wold (SWRC)"," Detail",2015-09-04T192400-CME-001,2015-09-08T0128Z,----,filamenteruption
+"2015-09-10T02:00Z","48.53","40.0","2015-09-06T07:39Z","41.82","Max Kp Range: 3.0 - 5.0","WSA-ENLIL + Cone (Met Office) ","Met Office (Met Office)"," Detail",2015-09-04T192400-CME-001,2015-09-08T0128Z,----,filamenteruption
+"2015-09-10T23:00Z","69.53","40.0","2015-09-07T04:20Z","21.13","Max Kp Range: 3.0 - 5.0","WSA-ENLIL + Cone (Met Office) ","Met Office (Met Office)"," Detail",2015-09-04T192400-CME-001,2015-09-08T0128Z,----,filamenteruption
+"2015-09-09T20:15Z","42.78","36.6667","---","---","Max Kp Range: 2.75 - 4.75"," Average of all Methods ","Auto Generated (CCMC)"," Detail",2015-09-04T192400-CME-001,2015-09-08T0128Z,----,filamenteruption

@@ -1,0 +1,9 @@
+"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By",,CME,Actual Shock Arrival Time,Observed Geomagnetic Storm Parameters
+"2014-06-22T18:00Z(-7.0h, +7.0h)","-28.00","----","2014-06-20T00:18Z","93.70","Max Kp Range: 5.0 - 6.0","WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail",2014-06-19T192400-CME-001,2014-06-23T2200Z,----
+"2014-06-22T15:00Z","-31.00","----","2014-06-20T01:22Z","92.63","Max Kp Range: -- - 5.0","WSA-ENLIL + Cone (NOAA/SWPC) ","Leila Mays (GSFC)"," Detail",2014-06-19T192400-CME-001,2014-06-23T2200Z,----
+"2014-06-24T00:00Z(-6.0h, +6.0h)","2.00","----","2014-06-20T08:32Z","85.47","----","Other (SIDC) ","Leila Mays (GSFC)"," Detail",2014-06-19T192400-CME-001,2014-06-23T2200Z,----
+"2014-06-22T07:00Z(-7.0h, +7.0h)","-39.00","----","2014-06-20T15:00Z","79.00","----","WSA-ENLIL + Cone (Met Office) ","Met Office (Met Office)"," Detail",2014-06-19T192400-CME-001,2014-06-23T2200Z,----
+"2014-06-22T21:00Z(-2.0h, +2.0h)","-25.00","----","2014-06-20T21:38Z","72.37","Max Kp Range: 0.7 - 1.0Dst min. in nT: -18 Dst min. time: 2014-06-23T02:00Z ","Rice-ENLIL Dst ","Ramkumar Bala (Rice)"," Detail",2014-06-19T192400-CME-001,2014-06-23T2200Z,----
+"2014-06-22T16:12Z(-5.4h, +7.6h)","-29.80","----","2014-06-20T22:59Z","71.02","Max Kp Range: 3.0 - 7.0","Ensemble WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail",2014-06-19T192400-CME-001,2014-06-23T2200Z,----
+"2014-06-23T00:00Z","-22.00","----","2014-06-21T02:00Z","68.00","----","WSA-ENLIL + Cone (KSWC) ","RWC Jeju (KSWC)"," Detail",2014-06-19T192400-CME-001,2014-06-23T2200Z,----
+"2014-06-22T21:18Z","-24.70","----","---","---","Max Kp Range: 2.9 - 4.75"," Average of all Methods ","Auto Generated (CCMC)"," Detail",2014-06-19T192400-CME-001,2014-06-23T2200Z,----

@@ -1,0 +1,7 @@
+"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By",,CME,Observed Geomagnetic Storm Parameters
+"2015-01-15T08:00Z","----","----","2015-01-12T21:06Z","58.90","----","WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail",2015-01-12T153600-CME-001,----
+"2015-01-14T20:27Z(-7.0h, +7.8h)","----","75.0","2015-01-13T05:08Z","39.32","Max Kp Range: 5.0 - 7.0","Ensemble WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail",2015-01-12T153600-CME-001,----
+"2015-01-14T19:00Z","----","----","2015-01-13T09:45Z","33.25","----","Other (SIDC) ","Leila Mays (GSFC)"," Detail",2015-01-12T153600-CME-001,----
+"2015-01-15T15:00Z","----","----","2015-01-13T12:30Z","50.50","----","WSA-ENLIL + Cone (NOAA/SWPC) ","Leila Mays (GSFC)"," Detail",2015-01-12T153600-CME-001,----
+"2015-01-15T02:00Z","----","----","2015-01-13T21:40Z","28.33","----","WSA-ENLIL + Cone (Met Office) ","Met Office (Met Office)"," Detail",2015-01-12T153600-CME-001,----
+"2015-01-15T03:17Z","----","75.0","---","---","Max Kp Range: 5.0 - 7.0"," Average of all Methods ","Auto Generated (CCMC)"," Detail",2015-01-12T153600-CME-001,----

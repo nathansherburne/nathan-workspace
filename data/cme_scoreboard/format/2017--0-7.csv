@@ -1,0 +1,6 @@
+"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By",,CME,Observed Geomagnetic Storm Parameters
+"2017-05-17T00:00Z(-4.0h, +15.0h)","----","60.0","2017-05-14T14:07Z","57.88","Max Kp Range: 4.0 - 6.0","WSA-ENLIL + Cone (Met Office) ","Met Office (Met Office)"," Detail",2017-05-13T220000-CME-001,----
+"2017-05-16T17:00Z","----","----","2017-05-14T19:21Z","45.65","Max Kp Range: -- - 6.0","WSA-ENLIL + Cone (NOAA/SWPC) ","Leila Mays (GSFC)"," Detail",2017-05-13T220000-CME-001,----
+"2017-05-17T12:00Z(-7.0h, +7.0h)","----","----","2017-05-14T19:35Z","64.42","----","WSA-ENLIL + Cone (GSFC SWRC) ","Alexandra Wold (SWRC)"," Detail",2017-05-13T220000-CME-001,----
+"2017-05-17T20:00Z(-12.0h, +12.0h)","----","40.0","2017-05-15T13:50Z","54.17","Max Kp Range: 3.0 - 4.0","Other (SIDC) ","Leila Mays (GSFC)"," Detail",2017-05-13T220000-CME-001,----
+"2017-05-17T06:15Z","----","50.0","---","---","Max Kp Range: 3.5 - 5.33333"," Average of all Methods ","Auto Generated (CCMC)"," Detail",2017-05-13T220000-CME-001,----

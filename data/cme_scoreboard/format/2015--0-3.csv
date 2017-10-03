@@ -1,0 +1,10 @@
+"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By",,CME,Observed Geomagnetic Storm Parameters
+"2015-11-11T23:00Z","----","----","2015-11-10T05:23Z","41.62","Max Kp Range: -- - 5.0","WSA-ENLIL + Cone (NOAA/SWPC) ","Leila Mays (GSFC)"," Detail",2015-11-09T133600-CME-001,----
+"2015-11-11T20:00Z(-12.0h, +12.0h)","----","50.0","2015-11-10T10:24Z","33.60","Max Kp Range: 3.0 - 5.0","Other (SIDC) ","Leila Mays (GSFC)"," Detail",2015-11-09T133600-CME-001,----
+"2015-11-12T06:00Z(-7.0h, +7.0h)","----","----","2015-11-10T13:42Z","40.30","----","WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail",2015-11-09T133600-CME-001,----
+"2015-11-11T21:58Z(-7.5h, +5.5h)","----","54.0","2015-11-10T16:49Z","29.15","Max Kp Range: 3.0 - 6.0","Ensemble WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail",2015-11-09T133600-CME-001,----
+"2015-11-11T22:00Z(-6.0h, +6.0h)","----","70.0","2015-11-10T17:15Z","28.75","Max Kp Range: 4.0 - 6.0","WSA-ENLIL + Cone (Met Office) ","Met Office (Met Office)"," Detail",2015-11-09T133600-CME-001,----
+"2015-11-11T18:53Z","----","----","2015-11-10T22:49Z","20.07","----","SPM2 ","Xinhua Zhao (NSSC CAS)"," Detail",2015-11-09T133600-CME-001,----
+"2015-11-11T18:39Z","----","----","2015-11-10T22:52Z","19.78","----","SPM ","Xinhua Zhao (NSSC CAS)"," Detail",2015-11-09T133600-CME-001,----
+"2015-11-12T02:00Z","----","----","2015-11-12T14:09Z","-12.15","----","Other (ips.gov.au) ","Leila Mays (GSFC)"," Detail",2015-11-09T133600-CME-001,----
+"2015-11-11T22:33Z","----","58.0","---","---","Max Kp Range: 3.33333 - 5.5"," Average of all Methods ","Auto Generated (CCMC)"," Detail",2015-11-09T133600-CME-001,----

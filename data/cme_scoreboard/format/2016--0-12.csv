@@ -1,0 +1,6 @@
+"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By",,CME,Observed Geomagnetic Storm Parameters
+"2016-04-09T14:00Z","----","10.0","2016-04-07T15:23Z","46.62","Max Kp Range: 4.0 - 5.0","WSA-ENLIL + Cone (Met Office) ","Met Office (Met Office)"," Detail",2016-04-06T140000-CME-001,----
+"2016-04-09T18:00Z(-7.0h, +7.0h)","----","----","2016-04-08T02:57Z","39.05","----","WSA-ENLIL + Cone (GSFC SWRC) ","Karin Muglach (GSFC)"," Detail",2016-04-06T140000-CME-001,----
+"2016-04-09T15:27Z","----","----","2016-04-08T21:55Z","17.53","----","SPM ","Xinhua Zhao (NSSC CAS)"," Detail",2016-04-06T140000-CME-001,----
+"2016-04-09T20:02Z","----","0.0","2016-04-08T21:59Z","22.05","----","SPM2 ","Xinhua Zhao (NSSC CAS)"," Detail",2016-04-06T140000-CME-001,----
+"2016-04-09T16:52Z","----","5.0","---","---","Max Kp Range: 4.0 - 5.0"," Average of all Methods ","Auto Generated (CCMC)"," Detail",2016-04-06T140000-CME-001,----

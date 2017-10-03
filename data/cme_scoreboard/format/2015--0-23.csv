@@ -1,0 +1,5 @@
+"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By",,CME,Actual Shock Arrival Time,Observed Geomagnetic Storm Parameters,Max Kp,CME Note
+"2015-05-07T18:00Z(-7.0h, +7.0h)","41.17","----","2015-05-03T03:53Z","68.95","----","WSA-ENLIL + Cone (GSFC SWRC) ","Yaireska Collado (GSFC)"," Detail",2015-05-02T213600-CME-001,2015-05-06T0050Z,,5.0,largefilamenteruption
+"2015-05-06T16:00Z","15.17","----","2015-05-04T00:30Z","48.33","----","WSA-ENLIL + Cone (NOAA/SWPC) ","Yaireska Collado (GSFC)"," Detail",2015-05-02T213600-CME-001,2015-05-06T0050Z,,5.0,largefilamenteruption
+"2015-05-06T20:40Z","19.83","60.0","---","---","Max Kp Range: 3.0 - 5.0"," Average of all Methods ","Auto Generated (CCMC)"," Detail",2015-05-02T213600-CME-001,2015-05-06T0050Z,,5.0,largefilamenteruption
+"2015-05-06T04:00Z","3.17","60.0","2015-05-05T13:36Z","11.23","Max Kp Range: 3.0 - 5.0","WSA-ENLIL + Cone (Met Office) ","Met Office (Met Office)"," Detail",2015-05-02T213600-CME-001,2015-05-06T0050Z,,5.0,largefilamenteruption
