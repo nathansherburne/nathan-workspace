@@ -25,7 +25,7 @@ public class TableDetectionTester {
 	}
 	
 	public static void main(String[] args) throws InvalidPasswordException, IOException {
-		File test_pdf = new File("src/tests/resources/mixed1.pdf");
+		File test_pdf = new File("src/tests/resources/grid1.pdf");
 		int test_page = 0;
 		
 		PDDocument document = PDDocument.load(test_pdf);
@@ -38,12 +38,14 @@ public class TableDetectionTester {
 		BufferedImage bim = pdfRenderer.renderImageWithDPI(test_page, 300, ImageType.RGB);
 		ImageProcessor proc = new ImageProcessor();
 		
+		
+		
 		TextStripper pdfTextStripper = new TextStripper(document, test_page+1);
         pdfTextStripper.process();
         Utils.sort(pdfTextStripper.textElements);
         //System.out.println(pdfTextStripper.textElements.size());
 		RulingExtractor tester = new RulingExtractor(document, proc, pdfTextStripper);
-		tester.getImpliedRulings(test_page, bim);
+		tester.findImpliedRulings(test_page);
 		//Mat[] images = tester.processImage(bim, 300, 20);
 //		for(int i = images.length - 1; i >= 0 ; i--) {
 //			MyUtils.displayImage(MyUtils.resize(MyUtils.toBufferedImage(images[i]), 1200, 800));

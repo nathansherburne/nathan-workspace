@@ -14,11 +14,11 @@ import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.rendering.ImageType;
 import org.apache.pdfbox.rendering.PDFRenderer;
+import org.apache.pdfbox.text.TextPosition;
 import org.opencv.core.Mat;
 import org.opencv.core.Rect;
 import org.opencv.core.Scalar;
 
-import image_processing.ImageInfo;
 import image_processing.ImageProcessor;
 import technology.tabula.Ruling;
 import technology.tabula.TextElement;
@@ -41,11 +41,9 @@ public class RulingExtractor {
 	}
 
 	public void processPage(int pageNumber) throws IOException {
+		
+		
 
-		PDDocument noTextDoc = getNoTextPage(pageNumber);
-		BufferedImage img = pageToImage(pageNumber, noTextDoc);
-		PDPage page = pdfDocument.getPage(pageNumber);
-		rulings = scaleRulings(page, img, getRulings(img));
 
 		List<TextElement> texts = pdfTextStripper.textElements;
 
@@ -55,50 +53,51 @@ public class RulingExtractor {
 
 	}
 
-	private List<Line2D.Float> getRulings(BufferedImage image) throws IOException {
-		int hole_scale = 300;
-		int line_scale = 20;
-		ImageInfo info = processImage(image, hole_scale, line_scale);
+	public List<Ruling> findPhysicalRulings(int pageNumber) throws IOException {
+		PDDocument noTextDoc = getNoTextPage(pageNumber);
+		BufferedImage image = pageToImage(pageNumber, noTextDoc);
+		Mat img = imageProcessor.img2Mat(image);
+		
+		List<Line2D.Float> verticalRulings = imageProcessor.getVerticalRulings(img);
+		List<Line2D.Float> horizontalRulings = imageProcessor.getHorizontalRulings(img);
 
-		List<Line2D.Float> verticalRulings = imageProcessor.getLines(info.getVerticalLines());
-		List<Line2D.Float> horizontalRulings = imageProcessor.getLines(info.getHorizontalLines());
-
-		return Stream.concat(horizontalRulings.stream(), verticalRulings.stream()).collect(Collectors.toList());
+		List<Line2D.Float> rulings = Stream.concat(horizontalRulings.stream(), verticalRulings.stream()).collect(Collectors.toList());
+		
+		PDPage page = pdfDocument.getPage(pageNumber);
+		List<Ruling> rulings1 = scaleRulings(page, image, rulings);
+		return rulings1;
 	}
 
-	public void getImpliedRulings(int pageNumber, ImageInfo info) throws IOException {
+	public void findImpliedRulings(int pageNumber) throws IOException {
+		BufferedImage image = pageToImage(pageNumber, pdfDocument);
+		Mat img = imageProcessor.img2Mat(image);
+		
 		// Get string location bounding rectangles
 		DrawPrintTextLocations dptl = new DrawPrintTextLocations(pdfDocument);
 		dptl.process(pageNumber);
 
 		Rectangle2D pdfDimension = new Rectangle2D.Double(0, 0, pdfDocument.getPage(pageNumber).getBBox().getWidth(), 
 				pdfDocument.getPage(pageNumber).getBBox().getHeight());
-		Rectangle2D imageDimension = new Rectangle2D.Double(0, 0, info.getImage().width(), info.getImage().height());
+		Rectangle2D imageDimension = new Rectangle2D.Double(0, 0, image.getWidth(), image.getHeight());
 		List<Rect> scaledBboxes = new ArrayList<Rect>();
+		
+		List<TextElement> t = pdfTextStripper.textElements;
+		
 		
 		for(Rectangle2D rect : dptl.getStringBboxes()) {
 			Rectangle2D scaledRect = points2Rect(scaleRectangle(rect, pdfDimension, imageDimension, pdfDocument.getPage(pageNumber).getRotation()));
 			scaledBboxes.add(new Rect((int) scaledRect.getX(), (int) scaledRect.getY(), (int) scaledRect.getWidth(), (int) scaledRect.getHeight()));
 		}
 		
-		Mat binary = info.getBinary();
-		Mat filled = imageProcessor.fill(binary, scaledBboxes);
-		Mat blobs = imageProcessor.verticalClose(filled, 50);
+		List<Line2D.Float> impliedRulings = imageProcessor.getImpliedRulings(img, scaledBboxes);
 		//imageProcessor.getRegions(blobs.submat());
-		MyUtils.displayImage(MyUtils.resize(MyUtils.toBufferedImage(filled), 1200, 800));
-		MyUtils.displayImage(MyUtils.resize(MyUtils.toBufferedImage(blobs), 1200, 800));
+		
 		// For each rectangle, blobify the submat of the image horizontally/vertically
 		// Could use "space width" for horizontal scale
 		// Vertically blob the while image
 		// Instead of blobbing whole image at once, could use each rectangle's string
 		// height to blob one text at a time.
 
-	}
-
-	public ImageInfo processImage(BufferedImage image, int hole_scale, int line_scale) throws IOException {
-		Mat matImage = imageProcessor.img2Mat(image);
-		ImageInfo info = imageProcessor.getInfo(matImage);
-		return info;
 	}
 
 	private BufferedImage pageToImage(int pageNumber, PDDocument doc) throws IOException {

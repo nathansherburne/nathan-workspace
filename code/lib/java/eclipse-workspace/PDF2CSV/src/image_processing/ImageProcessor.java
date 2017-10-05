@@ -2,6 +2,7 @@ package image_processing;
 
 import java.awt.geom.Line2D;
 import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferByte;
 import java.io.IOException;
@@ -20,31 +21,58 @@ import org.opencv.imgproc.Imgproc;
 import utils.MyUtils;
 
 public class ImageProcessor {
-
-	int hole_scale, line_scale;
+	int lineScale = 20;
+	int holeScale = 300;
 	
 	public ImageProcessor() throws IOException {
-		this.hole_scale = 300;
-		this.line_scale = 20;
+
 	}
 	
-	public ImageInfo getInfo(Mat image) {
+	public List<Line2D.Float> getHorizontalRulings(Mat image) {
+		Mat bw = getWorkableBinaryImage(image);
+		Mat horizontal = getHorizontalLines(bw, lineScale);
+		return getLines(horizontal);
+	}
+	
+	public List<Line2D.Float> getVerticalRulings(Mat image) {
+		Mat bw = getWorkableBinaryImage(image);
+		Mat vertical = getVerticalLines(bw, lineScale);
+		return getLines(vertical);
+	}
+	
+	public List<Line2D.Float> getImpliedRulings(Mat image, List<Rect> textBoxes) {
+		Mat bw = getWorkableBinaryImage(image);
+
+		Mat filled = fill(bw, textBoxes);
+		Mat rois = getRois(filled, textBoxes);
+		Mat textBlobs = verticalClose(rois, 100);
+		MyUtils.displayImage(MyUtils.resize(MyUtils.toBufferedImage(bw), 1200, 800));
+		MyUtils.displayImage(MyUtils.resize(MyUtils.toBufferedImage(filled), 1200, 800));
+		MyUtils.displayImage(MyUtils.resize(MyUtils.toBufferedImage(rois), 1200, 800));
+		MyUtils.displayImage(MyUtils.resize(MyUtils.toBufferedImage(textBlobs), 1200, 800));
+
+
+		return new ArrayList<Line2D.Float>();
+	}
+	
+	private Mat getWorkableBinaryImage(Mat image) {
 		// Some images have white lines on black background. Other images have black
 		// lines on white backgrounds. Use Canny edge detector to make lines white no
 		// matter what the background and line colors are. The important part is not
 		// edge detection, it is making the edges white.
 		// Blur to connect corners.
-		Mat edges = canny(image, 50, 150, 3, true);
-		Mat blur = gaussianBlur(edges, new Size(11.0, 11.0), 0.0);
-		Mat bw = adaptiveThreshold(blur, 255, Imgproc.ADAPTIVE_THRESH_MEAN_C, Imgproc.THRESH_BINARY, 5, 0);
-		Mat closed = close(bw, hole_scale);
-		Mat horizontal = getHorizontalLines(closed, line_scale);
-		Mat vertical = getVerticalLines(closed, line_scale);
-		ImageInfo imageInfo = new ImageInfo(image);
-		imageInfo.addBinary(bw);
-		imageInfo.addHorizontalLines(horizontal);
-		imageInfo.addVerticalLines(vertical);
-		return imageInfo;
+		Mat edges = new Mat();
+		Imgproc.Canny(image, edges, 50, 150, 3, true);
+		
+		Mat blur = new Mat();
+		Imgproc.GaussianBlur(edges, blur, new Size(11.0, 11.0), 0.0);
+		
+		Mat bw = new Mat();
+		Imgproc.adaptiveThreshold(blur, bw, 255, Imgproc.ADAPTIVE_THRESH_MEAN_C, Imgproc.THRESH_BINARY, 5, 0);
+		
+		Mat closed = close(bw, holeScale);
+
+		return closed;
 	}
 
 	/**
@@ -62,22 +90,56 @@ public class ImageProcessor {
 		out.put(0, 0, pixels);
 		return out;
 	}
+	
+	/**
+	 * 
+	 * @param image
+	 * @param rects
+	 * @return a Mat of the original image with all pixels except those in the rois
+	 *         set to 0.
+	 */
+	public Mat getRois(Mat image, List<Rect> rects) {
+		Mat mask = new Mat(image.rows(), image.cols(), CvType.CV_8UC1, new Scalar(0));
+		Mat roi = new Mat();
+		for (Rect rect : rects) {
+			roi = mask.submat(rect);
+			roi.setTo(new Scalar(255));
+		}
+		Mat result = new Mat();
+		Core.bitwise_and(mask, image, result);
+		return result;
+	}
+	
+	/**
+	 * 
+	 * @param image
+	 * @param roiRect
+	 * @return a Mat of the original image with all pixels except those in the roi
+	 *         set to 0.
+	 */
+	private Mat getRoi(Mat image, Rect rect) {
+		Mat mask = new Mat(image.rows(), image.cols(), 0, new Scalar(0));
+		Mat roi = mask.submat(rect);
+		roi.setTo(new Scalar(255));
+		Core.bitwise_and(roi, image, roi);
+		return roi;
+	}
 
 	public Mat fill(Mat image, List<Rect> rects) {
+		Mat filled = image.clone();
 		int i = 0;
 		for (Rect rect : rects) {
 			// System.out.println(i++ + ": " + "[" + rect.x + ", " + rect.y + ", " +
 			// rect.width + ", " + rect.height + "]");
 			// System.out.println(image.cols() + ", " + image.rows());
-			image = fill(image, rect);
+			fill(filled, rect);
 		}
-		return image;
+		return filled;
 	}
 
-	public Mat fill(Mat image, Rect rect) {
+	public void fill(Mat image, Rect rect) {
 		Mat submat = image.submat(rect);
 		submat.setTo(new Scalar(255, 255, 255));
-		return image;
 	}
 
 	/**
@@ -94,11 +156,11 @@ public class ImageProcessor {
 	 *            blobbed together.
 	 * @return
 	 */
-	public Mat close(Mat bw, int hole_scale) {
+	private Mat close(Mat bw, int hole_scale) {
 		return verticalClose(horizontalClose(bw, hole_scale), hole_scale);
 	}
 
-	public Mat horizontalClose(Mat bw, int hole_scale) {
+	private Mat horizontalClose(Mat bw, int hole_scale) {
 		Mat closed = bw.clone();
 		int horizontalsize = closed.cols() / hole_scale;
 		Mat horizontalStructure = Imgproc.getStructuringElement(Imgproc.MORPH_RECT, new Size(horizontalsize, 1));
@@ -108,7 +170,7 @@ public class ImageProcessor {
 		return closed;
 	}
 
-	public Mat verticalClose(Mat bw, int hole_scale) {
+	private Mat verticalClose(Mat bw, int hole_scale) {
 		Mat closed = bw.clone();
 		int verticalsize = closed.rows() / hole_scale;
 		Mat verticalStructure = Imgproc.getStructuringElement(Imgproc.MORPH_RECT, new Size(1, verticalsize));
@@ -116,6 +178,20 @@ public class ImageProcessor {
 		Imgproc.erode(closed, closed, verticalStructure);
 		return closed;
 	}
+	
+	private Mat removeLines(Mat bw) {
+		int size = bw.rows() / holeScale;
+		Mat squareStructure = Imgproc.getStructuringElement(Imgproc.MORPH_RECT, new Size(size, size));
+		return open(bw, squareStructure);
+	}
+	
+	private Mat open(Mat bw, Mat structure) {
+		Mat opened = bw.clone();
+		Imgproc.erode(opened, opened, structure);
+		Imgproc.dilate(opened, opened, structure);
+		return opened;
+	}
+	
 
 	/**
 	 * Uses a process called "opening" to remove non-horizontal lines.
@@ -125,7 +201,7 @@ public class ImageProcessor {
 	 *            thresholding).
 	 * @return a binary Mat with only horizontal lines from bw.
 	 */
-	public Mat getHorizontalLines(Mat bw, int line_scale) {
+	private Mat getHorizontalLines(Mat bw, int line_scale) {
 		Mat horizontal = bw.clone();
 		int horizontalsize = horizontal.cols() / line_scale;
 		Mat horizontalStructure = Imgproc.getStructuringElement(Imgproc.MORPH_RECT, new Size(horizontalsize, 1));
@@ -142,7 +218,7 @@ public class ImageProcessor {
 	 *            thresholding).
 	 * @return a binary Mat with only vertical lines from bw.
 	 */
-	public Mat getVerticalLines(Mat bw, int line_scale) {
+	private Mat getVerticalLines(Mat bw, int line_scale) {
 		Mat vertical = bw.clone();
 		int verticalsize = vertical.rows() / line_scale;
 		Mat verticalStructure = Imgproc.getStructuringElement(Imgproc.MORPH_RECT, new Size(1, verticalsize));
@@ -158,7 +234,7 @@ public class ImageProcessor {
 	 * @param image
 	 * @return an array of Regions that are connected components.
 	 */
-	public Region[] getRegions(Mat image) {
+	private Region[] getRegions(Mat image) {
 		Mat labeled = new Mat(image.size(), image.type());
 
 		// Extract components
@@ -196,7 +272,7 @@ public class ImageProcessor {
 	 *            an image of disconnected lines
 	 * @return a list of lines describing the lines in the input image.
 	 */
-	public List<Line2D.Float> getLines(Mat disconnectedLines) {
+	private List<Line2D.Float> getLines(Mat disconnectedLines) {
 		List<Line2D.Float> lines = new ArrayList<Line2D.Float>();
 
 		// Since the input image is supposed to contain a bunch of disconnected lines,
@@ -230,45 +306,7 @@ public class ImageProcessor {
 		return r.width > r.height;
 	}
 
-	/**
-	 * 
-	 * @param image
-	 * @param roiRect
-	 * @return a Mat of the original image with all pixels except those in the roi
-	 *         set to 0.
-	 */
-	public Mat getRoi(Mat image, Rect roiRect) {
-		Mat mask = new Mat(image.rows(), image.cols(), 0, new Scalar(0));
-		Mat roi = mask.submat(roiRect);
-		roi.setTo(new Scalar(255));
-		Core.bitwise_and(roi, image, roi);
-		return roi;
-	}
-
-	public Mat canny(Mat image, double threshold1, double threshold2, int apertureSize, boolean L2gradient) {
-		Mat edges = new Mat();
-		Imgproc.Canny(image, edges, threshold1, threshold2, apertureSize, L2gradient);
-		return edges;
-	}
-
-	public Mat gaussianBlur(Mat src, Size ksize, double sigmaX) {
-		Mat blur = new Mat();
-		Imgproc.GaussianBlur(src, blur, ksize, sigmaX);
-		return blur;
-	}
-
-	public Mat adaptiveThreshold(Mat src, double maxValue, int adaptiveMethod, int thresholdType, int blockSize,
-			double C) {
-		Mat bw = new Mat();
-		Imgproc.adaptiveThreshold(src, bw, maxValue, adaptiveMethod, thresholdType, blockSize, C);
-		return bw;
-	}
-
-	public Mat bitwise_or(Mat image1, Mat image2) {
-		Mat result = new Mat();
-		Core.bitwise_or(image1, image2, result);
-		return result;
-	}
+	
 
 	// // Saving for later in case I want to use it.
 	// public void houghlines() {
