@@ -1,14 +1,31 @@
 package tests;
 
 import java.awt.Color;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.ListIterator;
 
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		for(int i = 0; i < KELLY_COLORS.length; i++) {
-			Color color = KELLY_COLORS[i];
-			System.out.println(color.getBlue() + " " + color.getGreen() + " " +  color.getRed());
+		List<String> list = new ArrayList<String>();
+		list.add("one");
+		list.add("two");
+		list.add("three");
+		list.add("four");
+
+		ListIterator<String> iterator = list.listIterator();
+		while(iterator.hasNext()) {
+			String current = iterator.next();
+			if(current.equals("three")) iterator.add("five");
+			System.out.println(current);
+		}
+		System.out.println();
+		iterator = list.listIterator();
+		while(iterator.hasNext()) {
+			String current = iterator.next();
+			iterator.add("five");
+			System.out.println(current);
 		}
 	}
 	
