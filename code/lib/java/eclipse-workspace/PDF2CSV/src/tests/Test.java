@@ -1,33 +1,19 @@
 package tests;
 
 import java.awt.Color;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.Set;
+import java.util.TreeSet;
+
+import textProcessing.RightMarginPoint;
 
 public class Test {
 
 	public static void main(String[] args) {
-		List<String> list = new ArrayList<String>();
-		list.add("one");
-		list.add("two");
-		list.add("three");
-		list.add("four");
+		Pair<Float> p = new Pair<Float>(0.1f, 0.2f);
 
-		ListIterator<String> iterator = list.listIterator();
-		while(iterator.hasNext()) {
-			String current = iterator.next();
-			if(current.equals("three")) iterator.add("five");
-			System.out.println(current);
-		}
-		System.out.println();
-		iterator = list.listIterator();
-		while(iterator.hasNext()) {
-			String current = iterator.next();
-			iterator.add("five");
-			System.out.println(current);
-		}
 	}
+	
+	
 	
 	private static final Color[] KELLY_COLORS = { 
 			Color.decode("0xFFB300"), // Vivid Yellow

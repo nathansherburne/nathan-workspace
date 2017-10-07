@@ -4,10 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import technology.tabula.HasText;
-import technology.tabula.Rectangle;
 import technology.tabula.RectangularTextContainer;
 import technology.tabula.TextChunk;
-import technology.tabula.TextElement;
 
 
 @SuppressWarnings("serial")

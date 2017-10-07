@@ -3,6 +3,7 @@ package driver;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
@@ -10,13 +11,15 @@ import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
 import org.opencv.core.Core;
 
-import technology.tabula.TextChunk;
 import technology.tabula.TextElement;
 import technology.tabula.TextStripper;
 import technology.tabula.Utils;
 import textProcessing.Block;
 import textProcessing.Document;
 import textProcessing.Line;
+import textProcessing.MarginPoint;
+import textProcessing.Neighborhood;
+import textProcessing.ReferencePoint;
 import textProcessing.Word;
 
 public class Driver {
@@ -94,13 +97,51 @@ public class Driver {
 				document.add(document.createBlock(w, i));
 			}
 		}
-		
+
 		// Merge isolated blocks
-		for( Block b : document.getBlocks()) {
-			// Organize into horizontal neighborhoods
-			
+
+		// Separate blocks into horizontal neighborhoods
+		List<Neighborhood> neighborhoods = new ArrayList<Neighborhood>();
+		ListIterator<Block> blockIterator = document.getBlocks().listIterator();
+		if (blockIterator.hasNext()) {
+			Block b = blockIterator.next();
+			Neighborhood n = new Neighborhood(b);
+			while (blockIterator.hasNext()) {
+				b = blockIterator.next();
+				if (b.horizontallyOverlaps(n)) {
+					n.add(b);
+				} else {
+					neighborhoods.add(n);
+					n = new Neighborhood(b);
+				}
+			}
+			neighborhoods.add(n);
 		}
 
+		float RP_THRESHOLD = 1.0f;
+		for (Neighborhood n : neighborhoods) {
+			
+			ReferencePoint rightRP = new ReferencePoint();
+			Iterator<Float> keyIterator = n.getMargins().keySet().iterator();
+			float currentKey, previousKey;
+			if (keyIterator.hasNext()) {
+				currentKey = keyIterator.next();
+				rightRP.add(n.getMargins().get(currentKey));
+			}
+			while (keyIterator.hasNext()) {
+				previousKey = currentKey;
+				currentKey = keyIterator.next();
+				if (currentKey - previousKey < RP_THRESHOLD) {
+					rightRP.add(n.getMargins().get(currentKey));
+				} else {
+					
+				}
+				MarginPoint mp = n.getMargins().get(x);
+				if (mp.isRight())
+					continue;
+				rightRPs.add(mp);
+			}
+		}
 
 		// TableFinder -> rulings
 		// -> TableExtractor

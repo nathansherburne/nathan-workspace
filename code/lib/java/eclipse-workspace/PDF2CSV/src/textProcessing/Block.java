@@ -40,6 +40,14 @@ public class Block extends RectangularTextContainer<Word> implements HasText {
 			add(w);
 		}
 	}
+	
+	public float getAvgWidthOfSpace() {
+		float avg = 0;
+		for(Word w : getWords()) {
+			avg += w.getWidthOfSpace();
+		}
+		return avg / getWords().size();
+	}
 
 	@Override
 	public String getText() {
