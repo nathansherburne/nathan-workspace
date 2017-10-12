@@ -1,23 +1,28 @@
 package textProcessing;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class MarginPoint {
 	
 	// Do margins need reference counters or should I leave that to ReferencePoints?
 	// As specified, margins do accumulate blocks with EQUAL left or right x.
-	private int ref_counter = 0;
-	protected Block block;
+	protected List<Block> blocksWithThisMP = new ArrayList<Block>();
 	
 	public MarginPoint(Block block) {
-		this.block = block;
-		addReference();  
+		blocksWithThisMP.add(block);
 	}
 	
 	public int getReferenceCount() {
-		return ref_counter;
+		return blocksWithThisMP.size();
 	}
 	
-	public void addReference() {
-		ref_counter++;
+	public List<Block> getRefBlocks() {
+		return blocksWithThisMP;
+	}
+	
+	public void addRefBlock(Block block) {
+		blocksWithThisMP.add(block);
 	}
 	
 	public abstract float getX();

@@ -1,13 +1,13 @@
 package textProcessing;
 
 public class LeftMarginPoint extends MarginPoint {
-	public LeftMarginPoint(float x) {
-		super(x);
+	public LeftMarginPoint(Block block) {
+		super(block);
 	}
 	
 	@Override
 	public float getX() {
-		return block.getLeft();
+		return blocksWithThisMP.get(0).getLeft();
 	}
 
 	@Override

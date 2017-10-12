@@ -1,54 +1,87 @@
 package textProcessing;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
 
 import technology.tabula.HasText;
-import technology.tabula.Rectangle;
 import technology.tabula.RectangularTextContainer;
 
 @SuppressWarnings("serial")
 public class Neighborhood extends RectangularTextContainer<Block> implements HasText {
-
 	private List<Block> blocks = new ArrayList<Block>();
 	private MarginStructure marginStructure;
 
 	public Neighborhood(float top, float left, float width, float height) {
 		super(top, left, width, height);
-		marginStructure = new MarginStructure();
-		marginStructure.addMarginPoints(this);
 	}
 
 	public Neighborhood(Block block) {
 		super(block.y, block.x, block.width, block.height);
 		this.add(block);
-		marginStructure = new MarginStructure(block.getAvgWidthOfSpace());
-		marginStructure.addMarginPoints(block);
+		marginStructure = new MarginStructure();
+		marginStructure.addBlock(block);
 	}
-	
+
 	public MarginStructure getMarginStructure() {
 		return marginStructure;
 	}
 
 	public void add(Block block) {
 		blocks.add(block);
-		marginStructure.addMarginPoints(block);
+		marginStructure.addBlock(block);
+	}
+
+	public void getReferencePoints(float threshold) {
+		List<LeftReferencePoint> LRPs = new ArrayList<LeftReferencePoint>();
+		List<RightReferencePoint> RRPs = new ArrayList<RightReferencePoint>();
+
+		MarginPoint prevLeft, curLeft;
+		LeftReferencePoint leftRP;
+		
+		Iterator<MarginPoint> LMPIterator = getMarginStructure().getLeftMPs().values().iterator();
+		if (LMPIterator.hasNext()) {
+			curLeft = LMPIterator.next();
+			leftRP = new LeftReferencePoint(curLeft);
+			while (LMPIterator.hasNext()) {
+				prevLeft = curLeft;
+				curLeft = LMPIterator.next();
+				if (curLeft.getX() - prevLeft.getX() <= threshold) {
+					leftRP.add(curLeft);
+				} else {
+					LRPs.add(leftRP);
+					leftRP = new LeftReferencePoint(curLeft);
+				}
+			}
+			LRPs.add(leftRP);
+		}
+		
+		MarginPoint prevRight, curRight;
+		RightReferencePoint rightRP;
+		
+		Iterator<MarginPoint> RMPIterator = getMarginStructure().getRightMPs().values().iterator();
+		if (RMPIterator.hasNext()) {
+			curRight = RMPIterator.next();
+			rightRP = new RightReferencePoint(curRight);
+			while (RMPIterator.hasNext()) {
+				prevRight = curRight;
+				curRight = RMPIterator.next();
+				if (curRight.getX() - prevRight.getX() <= threshold) {
+					rightRP.add(curRight);
+				} else {
+					RRPs.add(rightRP);
+					rightRP = new RightReferencePoint(curRight);
+				}
+			}
+			RRPs.add(rightRP);
+		}
+
 	}
 
 	@Override
 	public String getText() {
-		if (isEmpty()) {
-			return "";
-		}
-
-		StringBuilder sb = new StringBuilder();
-		for (Block block : blocks) {
-			sb.append(block.getText());
-		}
-
-		return sb.toString();
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Override

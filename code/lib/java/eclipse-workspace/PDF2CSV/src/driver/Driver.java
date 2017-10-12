@@ -122,21 +122,21 @@ public class Driver {
 		for (Neighborhood n : neighborhoods) {
 			
 			ReferencePoint rightRP = new ReferencePoint();
-			Iterator<Float> keyIterator = n.getMargins().keySet().iterator();
+			Iterator<Float> keyIterator = n.getMarginStructure().keySet().iterator();
 			float currentKey, previousKey;
 			if (keyIterator.hasNext()) {
 				currentKey = keyIterator.next();
-				rightRP.add(n.getMargins().get(currentKey));
+				rightRP.add(n.getMarginStructure().get(currentKey));
 			}
 			while (keyIterator.hasNext()) {
 				previousKey = currentKey;
 				currentKey = keyIterator.next();
 				if (currentKey - previousKey < RP_THRESHOLD) {
-					rightRP.add(n.getMargins().get(currentKey));
+					rightRP.add(n.getMarginStructure().get(currentKey));
 				} else {
 					
 				}
-				MarginPoint mp = n.getMargins().get(x);
+				MarginPoint mp = n.getMarginStructure().get(x);
 				if (mp.isRight())
 					continue;
 				rightRPs.add(mp);

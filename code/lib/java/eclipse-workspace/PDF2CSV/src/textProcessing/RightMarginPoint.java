@@ -1,13 +1,13 @@
 package textProcessing;
 
 public class RightMarginPoint extends MarginPoint {
-	public RightMarginPoint(float x) {
-		super(x);
+	public RightMarginPoint(Block block) {
+		super(block);
 	}
 	
 	@Override
 	public float getX() {
-		return block.getRight();
+		return blocksWithThisMP.get(0).getRight();
 	}
 
 	@Override
