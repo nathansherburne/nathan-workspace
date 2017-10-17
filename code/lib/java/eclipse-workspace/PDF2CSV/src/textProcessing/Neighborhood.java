@@ -1,10 +1,10 @@
 package textProcessing;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import technology.tabula.HasText;
+import technology.tabula.Rectangle;
 import technology.tabula.RectangularTextContainer;
 
 @SuppressWarnings("serial")
@@ -18,9 +18,8 @@ public class Neighborhood extends RectangularTextContainer<Block> implements Has
 
 	public Neighborhood(Block block) {
 		super(block.y, block.x, block.width, block.height);
-		this.add(block);
 		marginStructure = new MarginStructure();
-		marginStructure.addBlock(block);
+		this.add(block);
 	}
 
 	public MarginStructure getMarginStructure() {
@@ -32,50 +31,85 @@ public class Neighborhood extends RectangularTextContainer<Block> implements Has
 		marginStructure.addBlock(block);
 	}
 
-	public void getReferencePoints(float threshold) {
-		List<LeftReferencePoint> LRPs = new ArrayList<LeftReferencePoint>();
-		List<RightReferencePoint> RRPs = new ArrayList<RightReferencePoint>();
+	public void mergeIsolated() {
+		final int MIN_HEIGHT = 2;
+		// get margin points
+		// get reference points
+		for (ReferencePoint rp : marginStructure.getReferencePoints()) {
+			if (rp.getHeight() < MIN_HEIGHT) {
+				if (rp.isLeft()) {
+					// Potentially merge blocks in this RP with neighbors if in range.
+					for (Block b : marginStructure.getBlocks(rp.getMPs())) {
+						potentiallyMergeBlockLeft(b);
+					}
+				}
+				if (rp.isRight()) {
+					for (Block b : marginStructure.getBlocks(rp.getMPs())) {
+						potentiallyMergeBlockRight(b);
+					}
+				}
 
-		MarginPoint prevLeft, curLeft;
-		LeftReferencePoint leftRP;
-		
-		Iterator<MarginPoint> LMPIterator = getMarginStructure().getLeftMPs().values().iterator();
-		if (LMPIterator.hasNext()) {
-			curLeft = LMPIterator.next();
-			leftRP = new LeftReferencePoint(curLeft);
-			while (LMPIterator.hasNext()) {
-				prevLeft = curLeft;
-				curLeft = LMPIterator.next();
-				if (curLeft.getX() - prevLeft.getX() <= threshold) {
-					leftRP.add(curLeft);
-				} else {
-					LRPs.add(leftRP);
-					leftRP = new LeftReferencePoint(curLeft);
+			}
+		}
+		// find reference points L-R within x-range
+		// potentially merge their blocks
+	}
+	
+	public void potentiallyMergeBlockLeft(Block b) {
+		Block neighbor = null;
+		float closest = java.lang.Float.MAX_VALUE;
+		for(Block potentialNeighbor : blocks) {
+			if(potentialNeighbor.equals(b)) {
+				continue;
+			}
+			if(potentialNeighbor.verticallyOverlaps(b)) {
+				float distance = Math.abs(horizontalOverlapValue(b, potentialNeighbor));
+				if(distance < closest) {
+					closest = distance;
+					neighbor = potentialNeighbor;
 				}
 			}
-			LRPs.add(leftRP);
 		}
-		
-		MarginPoint prevRight, curRight;
-		RightReferencePoint rightRP;
-		
-		Iterator<MarginPoint> RMPIterator = getMarginStructure().getRightMPs().values().iterator();
-		if (RMPIterator.hasNext()) {
-			curRight = RMPIterator.next();
-			rightRP = new RightReferencePoint(curRight);
-			while (RMPIterator.hasNext()) {
-				prevRight = curRight;
-				curRight = RMPIterator.next();
-				if (curRight.getX() - prevRight.getX() <= threshold) {
-					rightRP.add(curRight);
-				} else {
-					RRPs.add(rightRP);
-					rightRP = new RightReferencePoint(curRight);
+		if(neighbor == null) return;
+		float spacing = horizontalOverlapValue(b, neighbor);
+		if(spacing >= mergeThreshold(b)) {
+			blocks.remove(b);
+			blocks.remove(neighbor);
+			blocks.add(neighbor.merge(b));
+		}
+	}
+	
+	public void potentiallyMergeBlockRight(Block b) {
+		Block neighbor = null;
+		float closest = java.lang.Float.MAX_VALUE;
+		for(Block potentialNeighbor : blocks) {
+			if(b.equals(potentialNeighbor)) {
+				continue;
+			}
+			if(potentialNeighbor.horizontallyOverlaps(b)) {
+				float distance = Math.abs(horizontalOverlapValue(b, potentialNeighbor));
+				if(distance < closest) {
+					closest = distance;
+					neighbor = potentialNeighbor;
 				}
 			}
-			RRPs.add(rightRP);
 		}
-
+		if(neighbor == null) return;
+		float spacing = horizontalOverlapValue(b, neighbor);
+		if(spacing >= mergeThreshold(b)) {
+			blocks.remove(b);
+			blocks.remove(neighbor);
+			blocks.add(neighbor.merge(b));
+		}
+	}
+	
+	public float mergeThreshold(Block b) {
+		int numberOfSpaces = 3;
+		return b.getAvgWidthOfSpace() * numberOfSpaces * -1;
+	}
+	
+	public float horizontalOverlapValue(Rectangle a, Rectangle b) {
+		return Math.min(a.getRight(), b.getRight()) - Math.max(a.getLeft(), b.getLeft());
 	}
 
 	@Override

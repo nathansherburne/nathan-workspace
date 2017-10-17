@@ -1,19 +1,26 @@
 package textProcessing;
 
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.ArrayList;
 
 public abstract class ReferencePoint {
 	private int ref_counter = 0;
-	private Map<java.lang.Float, MarginPoint> margins = new TreeMap<java.lang.Float, MarginPoint>();
+	private ArrayList<MarginPoint> margins = new ArrayList<MarginPoint>();
 	
 	public ReferencePoint(MarginPoint mp) {
 		add(mp);
 	}
 	
 	public void add(MarginPoint mp) {
-		margins.put(mp.getX(), mp);
-		ref_counter += mp.getReferenceCount();
+		margins.add(mp);
+		ref_counter += mp.getHeight();
+	}
+	
+	public ArrayList<MarginPoint> getMPs() {
+		return margins;
+	}
+	
+	public int getHeight() {
+		return ref_counter;
 	}
 	
 	public abstract boolean isLeft();

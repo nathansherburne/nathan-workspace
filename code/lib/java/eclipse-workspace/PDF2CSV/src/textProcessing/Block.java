@@ -1,6 +1,8 @@
 package textProcessing;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 import technology.tabula.HasText;
@@ -10,7 +12,7 @@ import technology.tabula.TextChunk;
 @SuppressWarnings("serial")
 public class Block extends RectangularTextContainer<Word> implements HasText {
 	
-	private List<Word> words = new ArrayList<Word>();
+	protected List<Word> words = new ArrayList<Word>();
 	
 	public Block(float top, float left, float width, float height) {
 		super(top, left, width, height);
@@ -48,6 +50,73 @@ public class Block extends RectangularTextContainer<Word> implements HasText {
 		}
 		return avg / getWords().size();
 	}
+	
+	public float getAvgWordHeight() {
+		float avg = 0;
+		for(Word w : getWords()) {
+			avg += w.getHeight();
+		}
+		return avg / getWords().size();
+	}
+	
+	public int getNumLines() {
+		return (int) (getHeight() / getAvgWordHeight());
+	}
+	
+	public int numWords() {
+		return words.size();
+	}
+	
+	/**
+	 * Type 1: if each line in the block has exactly one word (or token).
+	 * Type 2: all others
+	 * 
+	 * TODO: define what a "token" is, so that columns with multi-word entries 
+	 * can still be logically defined as Type 1.
+	 * 
+	 * TODO: store the blocks type in the block and update automatically when words are added.
+	 * So that getType() doesn't have to do computation every time.
+	 * 
+	 * @return
+	 */
+	public BLOCK_TYPE getType() {
+		for(Block line : getLines()) {
+			if(line.numWords() != 1) {
+				return BLOCK_TYPE.TYPE2;
+			}
+		}
+		return BLOCK_TYPE.TYPE1;
+	}
+	
+	/**
+	 * Used for Type 1 blocks, since they are usually columns.
+	 * @return
+	 */
+	public List<Block> decompose() {
+		return getLines();
+	}
+	
+	private List<Block> getLines() {
+		List<Block> linesOfBlock = new ArrayList<Block>();
+		
+		Collections.sort(words);
+		Iterator<Word> blockIterator = words.iterator();
+		if(blockIterator.hasNext()) {
+			Word currentWord = blockIterator.next();
+			Line currentLine = new Line(currentWord);
+			while(blockIterator.hasNext()) {
+				currentWord = blockIterator.next();
+				if(currentWord.verticallyOverlaps(currentLine)) {
+					currentLine.add(currentWord);
+				} else {
+					linesOfBlock.add(currentLine);
+					currentLine = new Line(currentWord);
+				}
+			}
+			linesOfBlock.add(currentLine);
+		}
+		return linesOfBlock;
+	}
 
 	@Override
 	public String getText() {
@@ -76,6 +145,11 @@ public class Block extends RectangularTextContainer<Word> implements HasText {
 	
 	public boolean isEmpty() {
 		return words.isEmpty();
+	}
+	
+	public enum BLOCK_TYPE {
+		TYPE1,
+		TYPE2
 	}
 
 }

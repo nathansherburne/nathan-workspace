@@ -1,16 +1,31 @@
 package tests;
 
 import java.awt.Color;
-import java.util.Set;
-import java.util.TreeSet;
+import java.io.File;
+import java.io.IOException;
 
-import textProcessing.RightMarginPoint;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
 
 public class Test {
 
-	public static void main(String[] args) {
-		Pair<Float> p = new Pair<Float>(0.1f, 0.2f);
+	public static void main(String[] args) throws InvalidPasswordException, IOException {
+		File test_pdf = new File("src/tests/resources/sample-tables.pdf");
+		PDDocument pdfDocument = PDDocument.load(test_pdf);
+		pdfDocument.setAllSecurityToBeRemoved(true);
+		int pageToKeep = 1;
+		int origPageNum = pageToKeep;
+		for(int i = 0; i < pdfDocument.getNumberOfPages(); i++) {
+			System.out.println(pdfDocument.getNumberOfPages());
 
+			if(i != pageToKeep) {
+				pdfDocument.removePage(i--);
+				pageToKeep--;
+			}
+		}
+
+		pdfDocument.save("src/tests/resources/sample1-page" + origPageNum + ".pdf");
+		pdfDocument.close();
 	}
 	
 	

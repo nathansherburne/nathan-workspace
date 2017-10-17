@@ -1,51 +1,126 @@
 package textProcessing;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 import java.util.TreeMap;
 
 public class MarginStructure {
-	TreeMap<Float, MarginPoint> rightMarginPoints = new TreeMap<Float, MarginPoint>();
-	TreeMap<Float, MarginPoint> leftMarginPoints = new TreeMap<Float, MarginPoint>();
-	private float marginRange;
+	TreeMap<RightMarginPoint, ArrayList<Block>> rightMarginPoints = new TreeMap<RightMarginPoint, ArrayList<Block>>();
+	TreeMap<LeftMarginPoint, ArrayList<Block>> leftMarginPoints = new TreeMap<LeftMarginPoint, ArrayList<Block>>();
 	
-	public MarginStructure(float marginRange) {
-		this.marginRange = marginRange;
+	public MarginStructure() {
 	}
 	
-	public TreeMap<Float, MarginPoint> getRightMPs() {
+	public TreeMap<RightMarginPoint, ArrayList<Block>> getRightMPs() {
 		return rightMarginPoints;
 	}
 	
-	public TreeMap<Float, MarginPoint> getLeftMPs() {
+	public TreeMap<LeftMarginPoint, ArrayList<Block>> getLeftMPs() {
 		return leftMarginPoints;
 	}
 	
 	public void addBlock(Block block) {
-		MarginPoint lmp = addMarginPoint(block.getLeft(), new LeftMarginPoint(block));
-		if(lmp != null) {
-			lmp.addRefBlock(block);
+		LeftMarginPoint lmp = new LeftMarginPoint(block.getLeft(), block.getNumLines());
+		if(!leftMarginPoints.containsKey(lmp)) {
+			leftMarginPoints.put(lmp, new ArrayList<Block>());
 		}
-		MarginPoint rmp = addMarginPoint(block.getRight(), new RightMarginPoint(block));
-		if(rmp != null) {
-			rmp.addRefBlock(block);
+		leftMarginPoints.get(lmp).add(block);
+		
+		RightMarginPoint rmp = new RightMarginPoint(block.getRight(), block.getNumLines());
+		if(!rightMarginPoints.containsKey(rmp)) {
+			rightMarginPoints.put(rmp, new ArrayList<Block>());
 		}
+		rightMarginPoints.get(rmp).add(block);
 	}
 	
-	private MarginPoint addMarginPoint(Float x, MarginPoint mp) {
+	public int getRefCount(MarginPoint mp) {
 		if(mp.isLeft()) {
-			if(leftMarginPoints.containsKey(x)) {
-				return leftMarginPoints.get(x);
-			}
-			else {
-				leftMarginPoints.put(x, mp);
-			}
-		} else if(mp.isRight()) {
-			if(rightMarginPoints.containsKey(x)) {
-				return rightMarginPoints.get(x);
-			}
-			else {
-				rightMarginPoints.put(x, mp);
+			return leftMarginPoints.get(mp).size();
+		}
+		return rightMarginPoints.get(mp).size();
+	}
+	
+	public ArrayList<Block> getBlocks(MarginPoint mp) {
+		if(mp.isLeft()) {
+			return leftMarginPoints.get(mp);
+		}
+		return rightMarginPoints.get(mp);
+		
+	}
+	
+	public ArrayList<Block> getBlocks(List<MarginPoint> mps) {
+		ArrayList<Block> referencedBlocks = new ArrayList<Block>();
+		for(MarginPoint mp : mps) {
+			referencedBlocks.addAll(getBlocks(mp));
+		}
+		return referencedBlocks;
+	}
+	
+	public double maxBlockWidth(MarginPoint mp) {
+		double maxWidth = 0;
+		for(Block block : getBlocks(mp)) {
+			if(block.getWidth() > maxWidth) {
+				maxWidth = block.getWidth();
 			}
 		}
-		return null;
+		return maxWidth;
+	}
+	
+	public double avgWidthOfSpace(MarginPoint mp) {
+		double avgWidthOfSpace = 0;
+		ArrayList<Block> blocks = getBlocks(mp);
+		for(Block block : blocks) {
+			avgWidthOfSpace += block.getAvgWidthOfSpace();
+		}
+		return avgWidthOfSpace / blocks.size();
+	}
+	
+	public double getRPThreshold(MarginPoint mp) {
+		return avgWidthOfSpace(mp) * 2;
+	}
+	
+	public List<ReferencePoint> getReferencePoints() {
+		List<ReferencePoint> RPs = new ArrayList<ReferencePoint>();
+		LeftMarginPoint prevLeft, curLeft;
+		LeftReferencePoint leftRP;
+
+		Iterator<LeftMarginPoint> LMPIterator = leftMarginPoints.keySet().iterator();
+		if (LMPIterator.hasNext()) {
+			curLeft = LMPIterator.next();
+			leftRP = new LeftReferencePoint(curLeft);
+			while (LMPIterator.hasNext()) {
+				prevLeft = curLeft;
+				curLeft = LMPIterator.next();
+				if (curLeft.getX() - prevLeft.getX() <= getRPThreshold(prevLeft)) {
+					leftRP.add(curLeft);
+				} else {
+					RPs.add(leftRP);
+					leftRP = new LeftReferencePoint(curLeft);
+				}
+			}
+			RPs.add(leftRP);
+		}
+
+		RightMarginPoint prevRight, curRight;
+		RightReferencePoint rightRP;
+
+		Iterator<RightMarginPoint> RMPIterator = getRightMPs().keySet().iterator();
+		if (RMPIterator.hasNext()) {
+			curRight = RMPIterator.next();
+			rightRP = new RightReferencePoint(curRight);
+			while (RMPIterator.hasNext()) {
+				prevRight = curRight;
+				curRight = RMPIterator.next();
+				if (curRight.getX() - prevRight.getX() <= getRPThreshold(prevRight)) {
+					rightRP.add(curRight);
+				} else {
+					RPs.add(rightRP);
+					rightRP = new RightReferencePoint(curRight);
+				}
+			}
+			RPs.add(rightRP);
+		}
+		return RPs;
 	}
 }

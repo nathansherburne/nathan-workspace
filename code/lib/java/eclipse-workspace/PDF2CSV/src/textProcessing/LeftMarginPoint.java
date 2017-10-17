@@ -1,13 +1,8 @@
 package textProcessing;
 
 public class LeftMarginPoint extends MarginPoint {
-	public LeftMarginPoint(Block block) {
-		super(block);
-	}
-	
-	@Override
-	public float getX() {
-		return blocksWithThisMP.get(0).getLeft();
+	public LeftMarginPoint(float x, int height) {
+		super(x, height);
 	}
 
 	@Override
@@ -19,4 +14,5 @@ public class LeftMarginPoint extends MarginPoint {
 	public boolean isRight() {
 		return false;
 	}
+
 }

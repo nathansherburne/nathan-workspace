@@ -1,16 +1,12 @@
 package textProcessing;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import technology.tabula.HasText;
-import technology.tabula.RectangularTextContainer;
 import technology.tabula.TextChunk;
 
 
 @SuppressWarnings("serial")
-public class Line extends RectangularTextContainer<Word> implements HasText {
-	List<Word> words = new ArrayList<Word>();
+public class Line extends Block {
 	
 	public Line(float top, float left, float width, float height) {
 		super(top, left, width, height);
@@ -22,22 +18,20 @@ public class Line extends RectangularTextContainer<Word> implements HasText {
 	}
 	
 	/**
-	 * Adds a text chunk to the line only if it overlaps it.
+	 * Adds a word to the line only if it overlaps it.
 	 * @param t
 	 * @return
 	 */
-	public boolean add(Word t) {
+	@Override
+	public void add(Word t) {
 		if(!t.verticallyOverlaps(this)) {
-			return false;
+			return;
 		}
-		words.add(t);
+		super.add(t);
 		this.merge(t);
-		return true;
+		return;
 	}
 	
-	public List<Word> getWords() {
-		return words;
-	}
 
 	@Override
 	public String getText() {
