@@ -1,22 +1,21 @@
 library(reshape2)
 
-ROOT_DIR = "~/nathan/Dengue/mexico/"
-DATA_DIR = paste0(ROOT_DIR, "data/")
-CSV_OUT_DIR = paste0(DATA_DIR, "CSVs/masterCSV/")
-CSV_DIR = paste0(DATA_DIR, "CSVs/")
-CENSUS_DIR = paste0(DATA_DIR, "census/")
-LIB_DIR = paste0(ROOT_DIR, "code/R/")
+ROOT_DIR = "~/nathan/data/dengue/mexico/"
+DATA_DIR = paste0(ROOT_DIR, "convert/")
+CSV_OUT_DIR = paste0(ROOT_DIR, "merge/cases/")
+CENSUS_DIR = paste0(ROOT_DIR, "merge/auxilliary/")
+LIB_DIR = paste0("~/nathan/code/lib/R/dengue/mexico/code/R/")
 source(paste0(LIB_DIR, "csv_lib.R"))
 
 PopData2010 = read.csv(paste0(CENSUS_DIR, "2010_CENSUS_STATE_POP.csv"), stringsAsFactors = FALSE)
-MasterCensus = read.csv(paste0(CENSUS_DIR, "master/", "Mexico_Census_1980-2010.csv"), stringsAsFactors = FALSE)
+MasterCensus = read.csv(paste0(CENSUS_DIR, "Mexico_Census_1980-2010.csv"), stringsAsFactors = FALSE)
 pop.data.all = split(MasterCensus, MasterCensus$Year)
 
-CSV.filenames = list.files(CSV_DIR, pattern="*.csv")
+CSV.filenames = list.files(DATA_DIR, pattern="*.csv")
 year.set = unlist(lapply(CSV.filenames, function(filename) substr(filename, 1, 4)))
 CSV.data.frames = list()
 for(i in 1:length(CSV.filenames)) {
-  CSV.data.frames[[i]] = read.csv(paste0(CSV_DIR, CSV.filenames[i]), head=TRUE, encoding="UTF-8", stringsAsFactors=FALSE)
+  CSV.data.frames[[i]] = read.csv(paste0(DATA_DIR, CSV.filenames[i]), head=TRUE, encoding="UTF-8", stringsAsFactors=FALSE)
   colnames(CSV.data.frames[[i]])[1] = "State"
 }
 CSV.data.frames = lapply(CSV.data.frames, removeTotals)

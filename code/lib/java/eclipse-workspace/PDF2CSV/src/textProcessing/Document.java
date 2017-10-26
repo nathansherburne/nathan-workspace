@@ -8,7 +8,7 @@ import technology.tabula.TextElement;
 import textProcessing.Block.BLOCK_TYPE;
 
 public class Document {
-	final float LINE_SPACING_THRESHOLD = 1.4f; // Multiplication factor for deciding whether there is a large gap
+	final float LINE_SPACING_THRESHOLD = 4.0f; // Multiplication factor for deciding whether there is a large gap
 	// between two lines.
 
 	List<Line> lines = new ArrayList<Line>();
@@ -39,7 +39,24 @@ public class Document {
 		return neighborhoods;
 	}
 
+	/**
+	 * Right now, the blocks defined by this document's "blocks" variable
+	 * are created by the "createBlocks" method, which uses the ovl() function
+	 * to group words on succeeding and preceding lines recursively.
+	 * 
+	 * But after neighborhoods are created, they merge some blocks and separate
+	 * others. This needs to be more unified (i.e. when a neighborhood re-defines
+	 * a block, the "blocks" variable of this document should be updated).
+	 * 
+	 * For now, if there are no neighborhoods present, the blocks created by 
+	 * createBlocks(), will be returned. If there are neighborhoods created, though
+	 * each neighborhood's blocks will be collected nd all of them returned.
+	 * @return
+	 */
 	public List<Block> getBlocks() {
+		if(neighborhoods.isEmpty()) {
+			return blocks;
+		}
 		List<Block> blocks = new ArrayList<Block>();
 		for (Neighborhood n : neighborhoods) {
 			blocks.addAll(n.getTextElements());
@@ -109,7 +126,7 @@ public class Document {
 			if (te.getText().equals(" ")) {
 				continue;
 			}
-			if (Math.abs(te.getMinX() - word.getMaxX()) < word.getWidthOfSpace() && te.verticallyOverlaps(word)) {
+			if (Math.abs(te.getMinX() - word.getMaxX()) < word.getWidthOfSpace()*2 && te.verticallyOverlaps(word)) {
 				word.add(te);
 			} else {
 				add(word);

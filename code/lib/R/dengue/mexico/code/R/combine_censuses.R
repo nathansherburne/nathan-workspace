@@ -1,19 +1,20 @@
 library(Hmisc)
 
-dBoxDir = "~/Dropbox/LEPR03/nathan/"
-DataDir = paste0(dBoxDir, "Dengue/Mexico/Data/")
-CSVOutDir = paste0(DataDir, "Dengue_Classic/CSVs/masterCSV/")
-CSV.DIR = paste0(DataDir, "Dengue_Classic/CSVs/")
-censusDir = paste0(DataDir, "Census_All/")
-LibDir = paste0(dBoxDir, "Dengue/Mexico/Code/R/")
-source(paste0(LibDir, "csv_lib.R"))
+ROOT_DIR = "~/nathan/data/dengue/mexico/"
+DATA_DIR = paste0(ROOT_DIR, "format/")
+OUT_DIR = paste0(ROOT_DIR, "merge/auxilliary/")
+LIB_DIR = paste0("~/nathan/code/lib/R/dengue/mexico/code/R/")
+source(paste0(LIB_DIR, "csv_lib.R"))
 
 
-CSV.filenames = list.files(censusDir, pattern="*.csv")
-CSV.dfs = lapply(CSV.filenames, function(file) read.csv(paste0(censusDir, file), stringsAsFactors = FALSE))
-years.set = unlist(lapply(CSV.filenames, first.word))
+CSV.filenames = list.files(DATA_DIR, pattern="INEGI_Exporta_.*.csv", full.names=TRUE)
+CSV.dfs = lapply(CSV.filenames, function(file) read.csv(file, stringsAsFactors = FALSE))
+years.set = unlist(lapply(CSV.filenames, function(filename) {
+  name = unlist(strsplit(basename(filename), '[.]'))[1]  # Basename no ext
+  year = unlist(strsplit(name, '[_]'))[3]
+  return(year)
+}))
 CSV.dfs = mapply(addYearCol, CSV.dfs, years.set, SIMPLIFY = FALSE)
 df.ALL = do.call(rbind, CSV.dfs)
 df.ALL = df.ALL[ , c('Year', 'State', 'Population')]
-
-write.csv(df.ALL, paste0(censusDir, 'master/', 'Mexico_Census_1980-2010.csv'), row.names = FALSE)
+write.csv(df.ALL, paste0(OUT_DIR, 'Mexico_Census_1980-2010.csv'), row.names = FALSE)

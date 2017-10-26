@@ -54,7 +54,7 @@ public class Neighborhood extends RectangularTextContainer<Block> implements Has
 
 	public void mergeIsolated() {
 		MarginStructure marginStructure = getMarginStructure();
-		final int MIN_HEIGHT = 2;
+		final int MIN_HEIGHT = 5;
 		// get margin points
 		// get reference points
 		for (ReferencePoint rp : marginStructure.getReferencePoints()) {
