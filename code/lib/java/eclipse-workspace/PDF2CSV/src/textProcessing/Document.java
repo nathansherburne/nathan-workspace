@@ -5,14 +5,16 @@ import java.util.List;
 import java.util.ListIterator;
 
 import technology.tabula.TextElement;
+import textProcessing.Block.BLOCK_TYPE;
 
 public class Document {
-	final float LINE_SPACING_THRESHOLD = 4.0f; // Multiplication factor for deciding whether there is a large gap
+	final float LINE_SPACING_THRESHOLD = 1.4f; // Multiplication factor for deciding whether there is a large gap
 	// between two lines.
 
 	List<Line> lines = new ArrayList<Line>();
 	List<Block> blocks = new ArrayList<Block>();
 	List<Word> words = new ArrayList<Word>();
+	List<Neighborhood> neighborhoods = new ArrayList<Neighborhood>();
 
 	public Document() {
 	}
@@ -33,7 +35,15 @@ public class Document {
 		return words;
 	}
 
+	public List<Neighborhood> getNeighborhoods() {
+		return neighborhoods;
+	}
+
 	public List<Block> getBlocks() {
+		List<Block> blocks = new ArrayList<Block>();
+		for (Neighborhood n : neighborhoods) {
+			blocks.addAll(n.getTextElements());
+		}
 		return blocks;
 	}
 
@@ -90,14 +100,16 @@ public class Document {
 	 *            a sorted list of TextElements
 	 */
 	public void createWords(ArrayList<TextElement> textElements) {
-		// Create Words
 		Word word = new Word(textElements.get(0));
 		for (int i = 1; i < textElements.size(); i++) {
 			TextElement te = textElements.get(i);
+			// Space characters can be disregarded because when the next character comes
+			// around, the distance will have increased by the width of the space and the
+			// next if statement will produce the desired effect.
 			if (te.getText().equals(" ")) {
 				continue;
 			}
-			if (te.getMinX() - word.getMaxX() < word.getWidthOfSpace() && te.verticallyOverlaps(word)) {
+			if (Math.abs(te.getMinX() - word.getMaxX()) < word.getWidthOfSpace() && te.verticallyOverlaps(word)) {
 				word.add(te);
 			} else {
 				add(word);
@@ -170,9 +182,8 @@ public class Document {
 	/**
 	 * Cluster blocks together with their horizontal neighbors.
 	 */
-	private List<Neighborhood> createNeighborhoods() {
-		List<Neighborhood> neighborhoods = new ArrayList<Neighborhood>();
-		ListIterator<Block> blockIterator = getBlocks().listIterator();
+	public void createNeighborhoods() {
+		ListIterator<Block> blockIterator = blocks.listIterator();
 		if (blockIterator.hasNext()) {
 			Block b = blockIterator.next();
 			Neighborhood n = new Neighborhood(b);
@@ -187,14 +198,13 @@ public class Document {
 			}
 			neighborhoods.add(n);
 		}
-		return neighborhoods;
 	}
 
 	/**
 	 * Replaces the current set of blocks with the set of merged blocks.
 	 */
 	public void mergeIsolateBlocks() {
-		this.blocks = mergeIsolatedBlocks(createNeighborhoods());
+		this.blocks = mergeIsolatedBlocks(neighborhoods);
 	}
 
 	private List<Block> mergeIsolatedBlocks(List<Neighborhood> neighborhoods) {
@@ -208,13 +218,41 @@ public class Document {
 	}
 
 	/**
-	 * Unification of Block Abstraction Level:
-	 * Splits Type 1 blocks into lines (i.e. splits them into individual rows).
+	 * Unification of Block Abstraction Level: Splits Type 1 blocks into lines (i.e.
+	 * splits them into individual rows).
+	 * 
+	 * Problems: 1. Cells that have two or more words should be considered Type 1.
+	 * 2. Cells that have two words on separate lines are decomposed.
 	 */
 	public void decomposeType1Blocks() {
-		for(Block block : blocks) {
-			// check to see if block is Type 1, if so decompose
-			
+		for (Neighborhood n : neighborhoods) {
+			List<Block> blocks = n.getTextElements();
+			List<Block> decomposedBlocks = new ArrayList<Block>();
+			ListIterator<Block> iter = blocks.listIterator();
+			while (iter.hasNext()) {
+				Block block = iter.next();
+				// check to see if block is Type 1, if so decompose
+				switch (block.getType()) {
+				case TYPE1:
+					iter.remove();
+					decomposedBlocks.addAll(block.decompose());
+					break;
+				case TYPE2:
+					break;
+				}
+			}
+			blocks.addAll(decomposedBlocks);
+		}
+	}
+
+	public String getTableString() {
+		return neighborhoods.get(1).getTableString();
+	}
+
+	public void printWords() {
+		for (Word w : words) {
+			System.out.println(w.getText());
+			System.out.println(w.getBounds());
 		}
 	}
 }

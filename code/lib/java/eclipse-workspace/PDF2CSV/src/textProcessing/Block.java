@@ -81,7 +81,7 @@ public class Block extends RectangularTextContainer<Word> implements HasText {
 	 */
 	public BLOCK_TYPE getType() {
 		for(Block line : getLines()) {
-			if(line.numWords() != 1) {
+			if(line.numWords() > 3) {
 				return BLOCK_TYPE.TYPE2;
 			}
 		}
