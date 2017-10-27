@@ -1,11 +1,13 @@
 package textProcessing;
 
+import java.awt.geom.Rectangle2D;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
 import technology.tabula.HasText;
+import technology.tabula.Rectangle;
 import technology.tabula.RectangularTextContainer;
 import technology.tabula.TextChunk;
 
@@ -43,6 +45,23 @@ public class Block extends RectangularTextContainer<Word> implements HasText {
 		}
 	}
 	
+	public void removeAll(List<Word> words) {
+		for(Word word : words) {
+			this.words.remove(word);
+		}
+		updateDimensions();
+	}
+	
+	public void updateDimensions() {
+		if(!words.isEmpty()) {
+			Block block = new Block(words.get(0));
+			block.add(words);
+			setRect(block);
+		} else {
+			setRect(new Rectangle());
+		}	
+	}
+	
 	public float getAvgWidthOfSpace() {
 		float avg = 0;
 		for(Word w : getWords()) {
@@ -65,6 +84,12 @@ public class Block extends RectangularTextContainer<Word> implements HasText {
 	
 	public int numWords() {
 		return words.size();
+	}
+	
+	public void setAllWordsExpanded(boolean b) {
+		for(Word w : words) {
+			w.setExpanded(b);
+		}
 	}
 	
 	/**
@@ -92,12 +117,12 @@ public class Block extends RectangularTextContainer<Word> implements HasText {
 	 * Used for Type 1 blocks, since they are usually columns.
 	 * @return
 	 */
-	public List<Block> decompose() {
+	public List<? extends Block> decompose() {
 		return getLines();
 	}
 	
-	private List<Block> getLines() {
-		List<Block> linesOfBlock = new ArrayList<Block>();
+	public List<Line> getLines() {
+		List<Line> linesOfBlock = new ArrayList<Line>();
 		
 		Collections.sort(words);
 		Iterator<Word> blockIterator = words.iterator();

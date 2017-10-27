@@ -12,8 +12,8 @@ public class Word extends TextChunk {
 		super(textElement);
 	}
 	
-	public void setExpanded() {
-		expanded = true;
+	public void setExpanded(boolean b) {
+		expanded = b;
 	}
 	
 	public boolean isExpanded() {

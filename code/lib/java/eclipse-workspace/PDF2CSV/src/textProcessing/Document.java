@@ -1,15 +1,15 @@
 package textProcessing;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
 import technology.tabula.TextElement;
-import textProcessing.Block.BLOCK_TYPE;
 
 public class Document {
-	final float LINE_SPACING_THRESHOLD = 4.0f; // Multiplication factor for deciding whether there is a large gap
-	// between two lines.
+	final float LINE_SPACING_THRESHOLD = 2.0f; // Multiplication factor for deciding whether there is a large gap between two lines.
+	final float SPACE_SCALE = 0.4f; // Multiplication factor for multiplying the definition of width of space.
 
 	List<Line> lines = new ArrayList<Line>();
 	List<Block> blocks = new ArrayList<Block>();
@@ -70,7 +70,7 @@ public class Document {
 
 	public Block createBlock(Word seed, int currentLineNumber) {
 		Block block = new Block(seed);
-		seed.setExpanded();
+		seed.setExpanded(true);
 
 		List<Word> ovlAbove = new ArrayList<Word>();
 		List<Word> ovlBelow = new ArrayList<Word>();
@@ -126,7 +126,7 @@ public class Document {
 			if (te.getText().equals(" ")) {
 				continue;
 			}
-			if (Math.abs(te.getMinX() - word.getMaxX()) < word.getWidthOfSpace()*2 && te.verticallyOverlaps(word)) {
+			if (Math.abs(te.getMinX() - word.getMaxX()) < word.getWidthOfSpace()*SPACE_SCALE && te.verticallyOverlaps(word)) {
 				word.add(te);
 			} else {
 				add(word);
@@ -260,6 +260,69 @@ public class Document {
 			}
 			blocks.addAll(decomposedBlocks);
 		}
+	}
+	
+	public void isolateMergedColumns() {
+		ListIterator<Block> bIter = blocks.listIterator();
+		while(bIter.hasNext()) {
+			Block block = bIter.next();
+			switch (block.getType()) {
+			case TYPE1:
+				break;
+			case TYPE2:
+				block.setAllWordsExpanded(false);
+				List<Line> lines = block.getLines();
+				for (int lineNumber = 0; lineNumber < lines.size(); lineNumber++) {
+					Line currentLine = lines.get(lineNumber);
+					
+					for (Word w : currentLine.getWords()) {
+						if(w.isExpanded()) {
+								continue;
+						}
+						List<Word> splitted_sons = getSplittedSons(w, lines, lineNumber);
+						if(splitted_sons.size() > 1) {
+							Iterator<Word> iter = splitted_sons.iterator();
+							Word son = iter.next();
+							Block splSonBlock = new Block(son);
+							while(iter.hasNext()) {
+								son = iter.next();
+								splSonBlock.add(son);
+							}
+							block.removeAll(splitted_sons);
+							bIter.add(splSonBlock);
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	public List<Word> getSplittedSons(Word seed, List<Line> lines, int currentLineNum) {
+		List<Word> ovlBelow;
+		List<Word> ovlAbove;
+		List<Word> splitted_sons = new ArrayList<Word>();
+		
+		splitted_sons.add(seed);
+		seed.setExpanded(true);
+		if (currentLineNum + 1 >= lines.size()) { // Does not have next line.
+			return splitted_sons;
+		}
+		Line lineBelow = lines.get(currentLineNum + 1);
+		Line currentLine = lines.get(currentLineNum);
+		
+		ovlBelow = getOvlWords(seed, lineBelow);
+		if(ovlBelow.size() == 1) {  // Only one neighbor below.
+			Word singleNeighborBelow = ovlBelow.get(0);
+			ovlAbove = getOvlWords(singleNeighborBelow, currentLine);
+			if(ovlAbove.size() == 1) {  // Only one neighbor above.
+				Word singleNeighborAbove = ovlAbove.get(0);
+				if(singleNeighborAbove.equals(seed)) {
+					// Both words agree. Put them in split sons group and remove from this block.
+					splitted_sons.addAll(getSplittedSons(singleNeighborBelow, lines, currentLineNum+1));
+				}
+			}
+		}
+		return splitted_sons;
 	}
 
 	public String getTableString() {

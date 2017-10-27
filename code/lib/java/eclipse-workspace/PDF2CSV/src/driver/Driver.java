@@ -3,7 +3,7 @@ package driver;
 import java.awt.Color;
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.io.PrintWriter;
 import java.util.List;
 
 import org.apache.commons.cli.CommandLine;
@@ -11,6 +11,7 @@ import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.DefaultParser;
 import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Option;
+import org.apache.commons.cli.OptionBuilder;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.apache.pdfbox.pdmodel.PDDocument;
@@ -23,10 +24,8 @@ import org.opencv.core.Core;
 import technology.tabula.Rectangle;
 import technology.tabula.TextStripper;
 import technology.tabula.Utils;
-import textProcessing.Block;
 import textProcessing.Document;
 import textProcessing.Neighborhood;
-import textProcessing.Tile;
 import utils.MyUtils;
 
 public class Driver {
@@ -38,10 +37,13 @@ public class Driver {
 		//// Command Line Options ////
 		Options options = new Options();
 
-		Option input = new Option("i", "input", true, "input file path (PDF)");
-		input.setRequired(true);
+		Option input = Option.builder("i")
+				.argName("input")
+				.hasArg()
+				.desc("The input PDF file(s)")
+				.build();
 		options.addOption(input);
-
+		
 		Option output = new Option("o", "output", true, "output file (HTML)");
 		output.setRequired(true);
 		options.addOption(output);
@@ -64,13 +66,38 @@ public class Driver {
 			return;
 		}
 
-		String inputFilePath = cmd.getOptionValue("input");
-		String outputFilePath = cmd.getOptionValue("output");
+		String[] inputFiles = cmd.getOptionValues("i");
+		String outputDirectory = cmd.getOptionValue("output");
 		int pageNum = Integer.valueOf(cmd.getOptionValue("page")) - 1;
+		
+		for(int i = 0; i < inputFiles.length; i++) {
+			String outPath = getOutputPath(inputFiles[i], outputDirectory, ".html");
+			PDF2HTML(new File(inputFiles[i]), pageNum, outPath);
+		}
+		
+	}
+	
+	/**
+	 * Generates the String for the output path using the input path/filename as the basename
+	 * for the output, just with a different directory path and a different extension.
+	 * @param inputPath
+	 * @param outputDirectory
+	 * @return
+	 */
+	public static String getOutputPath(String inputPath, String outputDirectory, String ext) {
+		String[] tokens = inputPath.split(".+?/(?=[^/]+$)");
+		String filename = tokens[1];
+		tokens = filename.split("\\.(?=[^\\.]+$)");
+		String basename = tokens[0];
+		String outputPath = outputDirectory + '/' + basename + ext;
+		return outputPath;
+	}
 
+	public static void PDF2HTML(File pdfFile, int pageNum, String outputFilePath)
+			throws InvalidPasswordException, IOException {
+		
 		//// Start ////
-		File pdf = new File(inputFilePath);
-		PDDocument pdfDocument = PDDocument.load(pdf);
+		PDDocument pdfDocument = PDDocument.load(pdfFile);
 
 		// Create Characters
 		TextStripper textStripper = new TextStripper(pdfDocument, pageNum + 1);
@@ -88,21 +115,17 @@ public class Driver {
 		document.createLines();
 		document.createDummyLines();
 		document.createBlocks();
+		document.isolateMergedColumns();
 		document.createNeighborhoods();
-		//document.mergeIsolateBlocks();
-//		for(Block w : document.getBlocks()) {
-//			System.out.println(w.getText());
-//		}
-		
+		document.mergeIsolateBlocks();
+		document.decomposeType1Blocks();
+		//drawing(pdfDocument, pageNum, document);
 
-		//document.decomposeType1Blocks();
+		PrintWriter writer = new PrintWriter(outputFilePath, "UTF-8");
+		writer.print(document.getTableString());
+		writer.close();
 
-		drawing(pdfDocument, pageNum, document);
-		//PrintWriter writer = new PrintWriter(outputFilePath, "UTF-8");
-		///writer.print(document.getTableString());
-		//writer.close();
-		
-		//PDFRenderer renderer = new PDFRenderer(pdfDocument);
+		// PDFRenderer renderer = new PDFRenderer(pdfDocument);
 		pdfDocument.close();
 
 		// TableFinder -> rulings
@@ -112,42 +135,44 @@ public class Driver {
 
 	/// DRAWING ///
 	public static void drawing(PDDocument pdfDocument, int pageNum, Document document) throws IOException {
-		//drawBlocks(pdfDocument, pageNum, document.getBlocks(), Color.RED);
+		// drawBlocks(pdfDocument, pageNum, document.getBlocks(), Color.RED);
 		int c = 0;
 		PDPage page = pdfDocument.getPage(pageNum);
-		Matrix rotationMatrix = getRotationMatrix(page.getRotation(), page.getCropBox().getWidth(), page.getCropBox().getHeight());
+		Matrix rotationMatrix = getRotationMatrix(page.getRotation(), page.getCropBox().getWidth(),
+				page.getCropBox().getHeight());
 		if (rotationMatrix == null) {
 			System.err.println("Unsupported rotation angle (i.e. not 0, 90, 180, or 270.");
 			return;
 		}
-		PDPageContentStream contentStream = new PDPageContentStream(pdfDocument, page, PDPageContentStream.AppendMode.APPEND,
-				true);
+		PDPageContentStream contentStream = new PDPageContentStream(pdfDocument, page,
+				PDPageContentStream.AppendMode.APPEND, true);
 		contentStream.transform(rotationMatrix);
-		
+
 		contentStream.setLineWidth(1.0f);
 		for (Neighborhood n : document.getNeighborhoods()) {
-//			Tile[][] tiles = n.getTiles();
-//			List<Tile> tiles2 = new ArrayList<Tile>();
-//			for (int i = 0; i < tiles.length; i++) {
-//				for (int j = 0; j < tiles[i].length; j++) {
-//					tiles2.add(tiles[i][j]);
-//				}
-//			}
-//			List<Rectangle> ns = new ArrayList<Rectangle>();
-//			ns.add(n);
-//			ns.addAll(tiles2);
+			// Tile[][] tiles = n.getTiles();
+			// List<Tile> tiles2 = new ArrayList<Tile>();
+			// for (int i = 0; i < tiles.length; i++) {
+			// for (int j = 0; j < tiles[i].length; j++) {
+			// tiles2.add(tiles[i][j]);
+			// }
+			// }
+			// List<Rectangle> ns = new ArrayList<Rectangle>();
+			// ns.add(n);
+			// ns.addAll(tiles2);
 			drawBlocks(contentStream, n.getTextElements(), MyUtils.KELLY_COLORS[c++]);
 		}
 		contentStream.close();
-		//drawBlocks(pdfDocument, 0, document.getBlocks(), "src/tests/resources/draw2.pdf", Color.RED);
+		// drawBlocks(pdfDocument, 0, document.getBlocks(),
+		// "src/tests/resources/draw2.pdf", Color.RED);
 		pdfDocument.save("src/tests/resources/blockDrawing.pdf");
 
 	}
 
 	public static Matrix getRotationMatrix(int rotation, float width, float height) throws IOException {
-		System.out.println(rotation);
 		if (rotation == 0) {
-			//return new Matrix(new java.awt.geom.AffineTransform(1, 0, 0, 1, 0, 0)); // Identity matrix
+			// return new Matrix(new java.awt.geom.AffineTransform(1, 0, 0, 1, 0, 0)); //
+			// Identity matrix
 			return new Matrix(new java.awt.geom.AffineTransform(1, 0, 0, -1, 0, height)); // Vertical mirror
 		}
 		if (rotation == 90) {
@@ -160,7 +185,7 @@ public class Driver {
 	}
 
 	public static void drawBlocks(PDPageContentStream contentStream, List<? extends Rectangle> tiles, Color c)
-			throws IOException {	
+			throws IOException {
 		contentStream.setStrokingColor(c);
 		for (Rectangle b : tiles) {
 			contentStream.addRect(b.x, b.y, b.width, b.height);
