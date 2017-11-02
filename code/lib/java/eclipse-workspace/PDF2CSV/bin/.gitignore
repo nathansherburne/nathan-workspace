@@ -1,4 +1,8 @@
+/application/
+/detection/
+/driver/
+/extraction/
+/image_processing/
 /tests/
 /textProcessing/
-/driver/
-/application/
+/utils/

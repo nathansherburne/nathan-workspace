@@ -1,17 +1,20 @@
 package driver;
 
 import java.awt.Color;
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.List;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
 
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.DefaultParser;
 import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Option;
-import org.apache.commons.cli.OptionBuilder;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.apache.pdfbox.pdmodel.PDDocument;
@@ -98,20 +101,10 @@ public class Driver {
 		
 		//// Start ////
 		PDDocument pdfDocument = PDDocument.load(pdfFile);
-
-		// Create Characters
-		TextStripper textStripper = new TextStripper(pdfDocument, pageNum + 1);
-		textStripper.process();
-		if (textStripper.textElements.size() == 0) {
-			System.err.println("Could not extract text from the PDF.");
-			System.exit(1);
-		}
-		// Sort and then combine characters into words (that's why characters must be
-		// sorted, since
-		// they will be evaluated sequentially).
-		Utils.sort(textStripper.textElements);
-		Document document = new Document();
-		document.createWords(textStripper.textElements);
+		
+		Document document = new Document(pdfDocument, 1);
+		
+		document.createWords();
 		document.createLines();
 		document.createDummyLines();
 		document.createBlocks();
@@ -119,11 +112,11 @@ public class Driver {
 		document.createNeighborhoods();
 		document.mergeIsolateBlocks();
 		document.decomposeType1Blocks();
-		//drawing(pdfDocument, pageNum, document);
-
-		PrintWriter writer = new PrintWriter(outputFilePath, "UTF-8");
-		writer.print(document.getTableString());
-		writer.close();
+		drawing(pdfDocument, pageNum, document);
+//
+//		PrintWriter writer = new PrintWriter(outputFilePath, "UTF-8");
+//		writer.print(document.getTableString());
+//		writer.close();
 
 		// PDFRenderer renderer = new PDFRenderer(pdfDocument);
 		pdfDocument.close();
@@ -198,5 +191,16 @@ public class Driver {
 		content.moveTo(xstart, ystart); // moves "pencil" to a position
 		content.lineTo(xend, yend); // creates an invisible line to another position
 		content.stroke(); // makes the line visible
+	}
+	
+	public static void displayImage(BufferedImage img) {
+		JFrame frame = new JFrame();
+		  ImageIcon icon = new ImageIcon(img);
+		  JLabel label = new JLabel(icon);
+		  frame.add(label);
+		  frame.setDefaultCloseOperation
+		         (JFrame.EXIT_ON_CLOSE);
+		  frame.pack();
+		  frame.setVisible(true);
 	}
 }

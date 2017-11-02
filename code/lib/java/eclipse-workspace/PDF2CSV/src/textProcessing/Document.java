@@ -1,22 +1,63 @@
 package textProcessing;
 
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.rendering.ImageType;
+import org.apache.pdfbox.rendering.PDFRenderer;
+
 import technology.tabula.TextElement;
+import technology.tabula.TextStripper;
+import technology.tabula.Utils;
 
 public class Document {
-	final float LINE_SPACING_THRESHOLD = 2.0f; // Multiplication factor for deciding whether there is a large gap between two lines.
+	final float LINE_SPACING_THRESHOLD = 2.0f; // Multiplication factor for deciding whether there is a large gap
+												// between two lines.
 	final float SPACE_SCALE = 0.4f; // Multiplication factor for multiplying the definition of width of space.
 
-	List<Line> lines = new ArrayList<Line>();
-	List<Block> blocks = new ArrayList<Block>();
-	List<Word> words = new ArrayList<Word>();
-	List<Neighborhood> neighborhoods = new ArrayList<Neighborhood>();
+	private PDDocument pdfDocument;
+	private int pageNum;
+	private List<TextElement> textElements = new ArrayList<TextElement>();
+	private List<Line> lines = new ArrayList<Line>();
+	private List<Block> blocks = new ArrayList<Block>();
+	private List<Word> words = new ArrayList<Word>();
+	private List<Neighborhood> neighborhoods = new ArrayList<Neighborhood>();
 
-	public Document() {
+	public Document(File pdfFile, int pageNum) {
+		this.pageNum = pageNum;
+		PDDocument pdfDocument = null;
+		try {
+			pdfDocument = PDDocument.load(pdfFile);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		this.pdfDocument = pdfDocument;
+		init();
+	}
+
+	public Document(PDDocument pdfDocument, int pageNum) {
+		this.pdfDocument = pdfDocument;
+		this.pageNum = pageNum;
+		init();
+	}
+	
+	private void init() {
+		extractText();
+		createWords();
+	}
+
+	public PDDocument getPDDocument() {
+		return pdfDocument;
+	}
+	
+	public int getPageNum() {
+		return pageNum;
 	}
 
 	public void add(Word w) {
@@ -40,21 +81,22 @@ public class Document {
 	}
 
 	/**
-	 * Right now, the blocks defined by this document's "blocks" variable
-	 * are created by the "createBlocks" method, which uses the ovl() function
-	 * to group words on succeeding and preceding lines recursively.
+	 * Right now, the blocks defined by this document's "blocks" variable are
+	 * created by the "createBlocks" method, which uses the ovl() function to group
+	 * words on succeeding and preceding lines recursively.
 	 * 
 	 * But after neighborhoods are created, they merge some blocks and separate
-	 * others. This needs to be more unified (i.e. when a neighborhood re-defines
-	 * a block, the "blocks" variable of this document should be updated).
+	 * others. This needs to be more unified (i.e. when a neighborhood re-defines a
+	 * block, the "blocks" variable of this document should be updated).
 	 * 
-	 * For now, if there are no neighborhoods present, the blocks created by 
+	 * For now, if there are no neighborhoods present, the blocks created by
 	 * createBlocks(), will be returned. If there are neighborhoods created, though
 	 * each neighborhood's blocks will be collected nd all of them returned.
+	 * 
 	 * @return
 	 */
 	public List<Block> getBlocks() {
-		if(neighborhoods.isEmpty()) {
+		if (neighborhoods.isEmpty()) {
 			return blocks;
 		}
 		List<Block> blocks = new ArrayList<Block>();
@@ -113,10 +155,8 @@ public class Document {
 	 * Takes a sorted list of TextElements (characters) and groups them into words
 	 * based on the width of a space character.
 	 * 
-	 * @param textElements
-	 *            a sorted list of TextElements
 	 */
-	public void createWords(ArrayList<TextElement> textElements) {
+	public void createWords() {
 		Word word = new Word(textElements.get(0));
 		for (int i = 1; i < textElements.size(); i++) {
 			TextElement te = textElements.get(i);
@@ -126,7 +166,8 @@ public class Document {
 			if (te.getText().equals(" ")) {
 				continue;
 			}
-			if (Math.abs(te.getMinX() - word.getMaxX()) < word.getWidthOfSpace()*SPACE_SCALE && te.verticallyOverlaps(word)) {
+			if (Math.abs(te.getMinX() - word.getMaxX()) < word.getWidthOfSpace() * SPACE_SCALE
+					&& te.verticallyOverlaps(word)) {
 				word.add(te);
 			} else {
 				add(word);
@@ -134,6 +175,25 @@ public class Document {
 			}
 		}
 		add(word);
+	}
+	
+	public void extractText() {
+		TextStripper textStripper = null;
+		try {
+			textStripper = new TextStripper(pdfDocument, pageNum + 1);
+			textStripper.process();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		if (textStripper.textElements.size() == 0) {
+			System.err.println("Could not extract text from the PDF.");
+			System.exit(1);
+		}
+		// Sort and then combine characters into words (that's why characters must be
+		// sorted, since
+		// they will be evaluated sequentially).
+		Utils.sort(textStripper.textElements);
+		this.textElements = textStripper.textElements;
 	}
 
 	/**
@@ -261,10 +321,10 @@ public class Document {
 			blocks.addAll(decomposedBlocks);
 		}
 	}
-	
+
 	public void isolateMergedColumns() {
 		ListIterator<Block> bIter = blocks.listIterator();
-		while(bIter.hasNext()) {
+		while (bIter.hasNext()) {
 			Block block = bIter.next();
 			switch (block.getType()) {
 			case TYPE1:
@@ -274,17 +334,17 @@ public class Document {
 				List<Line> lines = block.getLines();
 				for (int lineNumber = 0; lineNumber < lines.size(); lineNumber++) {
 					Line currentLine = lines.get(lineNumber);
-					
+
 					for (Word w : currentLine.getWords()) {
-						if(w.isExpanded()) {
-								continue;
+						if (w.isExpanded()) {
+							continue;
 						}
 						List<Word> splitted_sons = getSplittedSons(w, lines, lineNumber);
-						if(splitted_sons.size() > 1) {
+						if (splitted_sons.size() > 1) {
 							Iterator<Word> iter = splitted_sons.iterator();
 							Word son = iter.next();
 							Block splSonBlock = new Block(son);
-							while(iter.hasNext()) {
+							while (iter.hasNext()) {
 								son = iter.next();
 								splSonBlock.add(son);
 							}
@@ -296,12 +356,12 @@ public class Document {
 			}
 		}
 	}
-	
+
 	public List<Word> getSplittedSons(Word seed, List<Line> lines, int currentLineNum) {
 		List<Word> ovlBelow;
 		List<Word> ovlAbove;
 		List<Word> splitted_sons = new ArrayList<Word>();
-		
+
 		splitted_sons.add(seed);
 		seed.setExpanded(true);
 		if (currentLineNum + 1 >= lines.size()) { // Does not have next line.
@@ -309,16 +369,16 @@ public class Document {
 		}
 		Line lineBelow = lines.get(currentLineNum + 1);
 		Line currentLine = lines.get(currentLineNum);
-		
+
 		ovlBelow = getOvlWords(seed, lineBelow);
-		if(ovlBelow.size() == 1) {  // Only one neighbor below.
+		if (ovlBelow.size() == 1) { // Only one neighbor below.
 			Word singleNeighborBelow = ovlBelow.get(0);
 			ovlAbove = getOvlWords(singleNeighborBelow, currentLine);
-			if(ovlAbove.size() == 1) {  // Only one neighbor above.
+			if (ovlAbove.size() == 1) { // Only one neighbor above.
 				Word singleNeighborAbove = ovlAbove.get(0);
-				if(singleNeighborAbove.equals(seed)) {
+				if (singleNeighborAbove.equals(seed)) {
 					// Both words agree. Put them in split sons group and remove from this block.
-					splitted_sons.addAll(getSplittedSons(singleNeighborBelow, lines, currentLineNum+1));
+					splitted_sons.addAll(getSplittedSons(singleNeighborBelow, lines, currentLineNum + 1));
 				}
 			}
 		}
@@ -334,5 +394,17 @@ public class Document {
 			System.out.println(w.getText());
 			System.out.println(w.getBounds());
 		}
+	}
+
+	public BufferedImage getDocumentImage() {
+		PDFRenderer pdfRenderer = new PDFRenderer(getPDDocument());
+		BufferedImage bim = null;
+		try {
+			bim = pdfRenderer.renderImageWithDPI(pageNum, 300, ImageType.RGB);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return bim;
 	}
 }
