@@ -33,7 +33,7 @@ import textProcessing.Tile;
 import utils.MyUtils;
 
 public class Driver {
-	
+
 	public static void main(String[] args) throws InvalidPasswordException, IOException {
 		//// Command Line Options ////
 		Options options = new Options();
@@ -52,9 +52,19 @@ public class Driver {
 
 		Option debugOpt = new Option("d", "debug", false, "save debug PDFs / print debug info");
 		options.addOption(debugOpt);
-		
-		Option minRowsOpt = new Option("m", "min-rows", true, "will not be considered a table if it doesn't have this many rows");
+
+		Option minRowsOpt = new Option("m", "min-rows", true,
+				"will not be considered a table if it doesn't have this many rows");
 		options.addOption(minRowsOpt);
+
+		Option lineSpacingThresholdOpt = new Option("l", "line-spacing", true,
+				"A threshold value for creating dummy lines. A higher threshold means less dummy lines will be inserted");
+		options.addOption(lineSpacingThresholdOpt);
+
+		Option spaceScaleOpt = new Option("s", "space-scale", true,
+				"Used to scale the definition of width of space. A value < 1 will decrease the width of space, "
+				+ "resulting in more words, since a small space in between letters will be considered a 'space' character");
+		options.addOption(spaceScaleOpt);
 
 		CommandLineParser parser = new DefaultParser();
 		HelpFormatter formatter = new HelpFormatter();
@@ -70,15 +80,28 @@ public class Driver {
 			return;
 		}
 
+		// Get command line options into variables
 		String[] inputFiles = cmd.getOptionValues("i");
 		String outputDirectory = cmd.getOptionValue("output");
 		int pageNum = Integer.valueOf(cmd.getOptionValue("page")) - 1;
 		boolean debug = cmd.hasOption("debug");
 		int minRows = Integer.valueOf(cmd.getOptionValue("min-rows"));
+		double lineSpacingThreshold, spaceScale;
+		if(!cmd.hasOption("line-spacing")) {
+			lineSpacingThreshold = 1.0;
+		} else {
+			lineSpacingThreshold = Double.valueOf(cmd.getOptionValue("line-spacing"));
+		}
+		if(!cmd.hasOption("space-scale")) {
+			spaceScale = 1.0;
+		} else {
+			spaceScale = Double.valueOf(cmd.getOptionValue("space-scale"));
+		}
 		
 		for (int i = 0; i < inputFiles.length; i++) {
 			String outPath = getOutputPath(inputFiles[i], outputDirectory, ".html");
-			PDF2HTML(new File(inputFiles[i]), pageNum, outPath, debug, outputDirectory, minRows);
+			PDF2HTML(new File(inputFiles[i]), pageNum, outPath, debug, outputDirectory, minRows, lineSpacingThreshold,
+					spaceScale);
 		}
 
 	}
@@ -101,12 +124,12 @@ public class Driver {
 		return outputPath;
 	}
 
-	public static void PDF2HTML(File pdfFile, int pageNum, String outputFilePath, boolean debug, String debugDir, int minRows)
-			throws InvalidPasswordException, IOException {
+	public static void PDF2HTML(File pdfFile, int pageNum, String outputFilePath, boolean debug, String debugDir,
+			int minRows, double lineSpacingThreshold, double spaceScale) throws InvalidPasswordException, IOException {
 
 		//// Start ////
 		PDDocument pdfDocument = PDDocument.load(pdfFile);
-		Document document = new Document(pdfDocument, pageNum);
+		Document document = new Document(pdfDocument, pageNum, lineSpacingThreshold, spaceScale);
 
 		document.isolateMergedColumns();
 		document.createNeighborhoods();
@@ -116,13 +139,14 @@ public class Driver {
 		int neighborhoodNum = 0;
 
 		if (debug) {
-			//drawBlocks(pdfDocument, pageNum, document, debugDir);
+			// drawBlocks(pdfDocument, pageNum, document, debugDir);
 			drawNeighborhoods(pdfDocument, pageNum, document, debugDir, neighborhoodNum);
+			drawBlocks(pdfDocument, pageNum, document, debugDir);
+			drawTiles(pdfDocument, pageNum, document, debugDir, neighborhoodNum);
 
 			System.out.println("Making neighborhood #: " + (neighborhoodNum + 1) + "/"
 					+ document.getNeighborhoods().size() + " into HTML table.");
 		}
-		
 
 		PrintWriter writer = new PrintWriter(outputFilePath, "UTF-8");
 		writer.print(document.getTableString(neighborhoodNum)); // need to determine the right neighborhood to print
@@ -135,12 +159,11 @@ public class Driver {
 		// -> TableExtractor
 		// -> CSVWriter
 	}
-	
-	
+
 	/// DRAWING ///
-	public static void drawNeighborhoods(PDDocument pdfDocument, int pageNum, Document document, String outputDir, int... which)
-			throws IOException {
-		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum, document, outputDir);
+	public static void drawNeighborhoods(PDDocument pdfDocument, int pageNum, Document document, String outputDir,
+			int... which) throws IOException {
+		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum, document);
 		int neighNum = 0;
 		for (int neighIndex : which) {
 			Neighborhood n = document.getNeighborhoods().get(neighIndex);
@@ -162,17 +185,19 @@ public class Driver {
 			drawBlocks(contentStream, MyUtils.getKellyColor(neighNum++), r);
 		}
 		contentStream.close();
+		flipContentStreamBack(pdfDocument, pageNum, document);
 		pdfDocument.save(outputDir + "neighborhoodDrawing.pdf");
 	}
-	
-	public static void drawTiles(PDDocument pdfDocument, int pageNum, Document document, String outputDir, int minRows)
+
+	public static void drawTiles(PDDocument pdfDocument, int pageNum, Document document, String outputDir, int... which)
 			throws IOException {
-		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum, document, outputDir);
+		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum, document);
 		int colorNum = 0;
-		for (Neighborhood n : document.getNeighborhoods()) {
+		for (int neighIndex : which) {
+			Neighborhood n = document.getNeighborhoods().get(neighIndex);
 			Tile[][] tiles = n.getTiles();
 			if (tiles == null) {
-				//drawBlocks(contentStream, MyUtils.getKellyColor(colorNum++), n);
+				// drawBlocks(contentStream, MyUtils.getKellyColor(colorNum++), n);
 				continue;
 			}
 			List<Tile> tiles2 = new ArrayList<Tile>();
@@ -188,19 +213,21 @@ public class Driver {
 			drawBlocks(contentStream, MyUtils.getKellyColor(colorNum++), r);
 		}
 		contentStream.close();
+		flipContentStreamBack(pdfDocument, pageNum, document);
 		pdfDocument.save(outputDir + "tileDrawing.pdf");
 	}
-	
+
 	public static void drawBlocks(PDDocument pdfDocument, int pageNum, Document document, String outputDir)
 			throws IOException {
-		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum, document, outputDir);
+		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum, document);
 		drawBlocks(contentStream, Color.RED, document.getBlocks().toArray(new Block[document.getBlocks().size()]));
 		contentStream.close();
+		flipContentStreamBack(pdfDocument, pageNum, document);
 		pdfDocument.save(outputDir + "blockDrawing.pdf");
 	}
 
-	public static PDPageContentStream getContentStream(PDDocument pdfDocument, int pageNum, Document document,
-			String outputDir) throws IOException {
+	public static PDPageContentStream getContentStream(PDDocument pdfDocument, int pageNum, Document document)
+			throws IOException {
 		// drawBlocks(pdfDocument, pageNum, document.getBlocks(), Color.RED);
 		PDPage page = pdfDocument.getPage(pageNum);
 		Matrix rotationMatrix = getRotationMatrix(page.getRotation(), page.getCropBox().getWidth(),
@@ -231,9 +258,8 @@ public class Driver {
 		return null; //
 
 	}
-	
-	public static void drawBlocks(PDPageContentStream contentStream, Color c, Rectangle... rects)
-			throws IOException {
+
+	public static void drawBlocks(PDPageContentStream contentStream, Color c, Rectangle... rects) throws IOException {
 		contentStream.setStrokingColor(c);
 		for (Rectangle b : rects) {
 			contentStream.addRect(b.x, b.y, b.width, b.height);
@@ -249,5 +275,24 @@ public class Driver {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.pack();
 		frame.setVisible(true);
+	}
+
+	/**
+	 * If a page is rotated, the content stream is rotated
+	 * transform(AffineTransform) so that when we draw on it, the drawing
+	 * coordinates take into account the rotation of the page. Drawing multiple
+	 * times, however, results in the content stream rotating each time. In effect,
+	 * every other call to a draw() function will be rotated wrongly. It works fine
+	 * if you just call a draw() function once, but the next call will rotate it
+	 * back.
+	 * 
+	 * This function simply performs the rotation without drawing anything.
+	 * 
+	 * @throws IOException
+	 */
+	public static void flipContentStreamBack(PDDocument pdfDocument, int pageNum, Document document)
+			throws IOException {
+		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum, document);
+		contentStream.close();
 	}
 }

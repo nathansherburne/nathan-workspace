@@ -17,9 +17,8 @@ import technology.tabula.TextStripper;
 import technology.tabula.Utils;
 
 public class Document {
-	final float LINE_SPACING_THRESHOLD = 4.0f; // Multiplication factor for deciding whether there is a large gap
-												// between two lines.
-	final float SPACE_SCALE = 0.4f; // Multiplication factor for multiplying the definition of width of space.
+	private double lineSpacingThreshold = 2.0f; // Multiplication factor for deciding whether there is a large gap											// between two lines.
+	private double spaceScale = 0.4f; // Multiplication factor for multiplying the definition of width of space.
 
 	private PDDocument pdfDocument;
 	private int pageNum;
@@ -30,7 +29,13 @@ public class Document {
 	private List<Neighborhood> neighborhoods = new ArrayList<Neighborhood>();
 
 	public Document(File pdfFile, int pageNum) {
+		this(pdfFile, pageNum, 1.0, 1.0);
+	}
+	
+	public Document(File pdfFile, int pageNum, double lineSpacingThreshold, double spaceScale) {
 		this.pageNum = pageNum;
+		this.lineSpacingThreshold = lineSpacingThreshold;
+		this.spaceScale = spaceScale;
 		PDDocument pdfDocument = null;
 		try {
 			pdfDocument = PDDocument.load(pdfFile);
@@ -40,11 +45,17 @@ public class Document {
 		this.pdfDocument = pdfDocument;
 		init();
 	}
-
-	public Document(PDDocument pdfDocument, int pageNum) {
+	
+	public Document(PDDocument pdfDocument, int pageNum, double lineSpacingThreshold, double spaceScale) {
 		this.pdfDocument = pdfDocument;
 		this.pageNum = pageNum;
+		this.lineSpacingThreshold = lineSpacingThreshold;
+		this.spaceScale = spaceScale;
 		init();
+	}
+
+	public Document(PDDocument pdfDocument, int pageNum) {
+		this(pdfDocument, pageNum, 1.0, 1.0);
 	}
 	
 	private void init() {
@@ -184,7 +195,7 @@ public class Document {
 			if (te.getText().equals(" ")) {
 				continue;
 			}
-			if (Math.abs(te.getMinX() - word.getMaxX()) < word.getWidthOfSpace() * SPACE_SCALE
+			if (Math.abs(te.getMinX() - word.getMaxX()) < word.getWidthOfSpace() * spaceScale
 					&& te.verticallyOverlaps(word)) {
 				word.add(te);
 			} else {
@@ -243,7 +254,7 @@ public class Document {
 			while (iterator.hasNext()) {
 				Line previousLine = currentLine;
 				currentLine = iterator.next();
-				if (Math.abs(currentLine.getTop() - previousLine.getBottom()) > LINE_SPACING_THRESHOLD
+				if (Math.abs(currentLine.getTop() - previousLine.getBottom()) > lineSpacingThreshold
 						* Math.min(currentLine.getHeight(), previousLine.getHeight())) {
 					float top = previousLine.getBottom();
 					float left = Math.min(currentLine.getLeft(), previousLine.getLeft());
