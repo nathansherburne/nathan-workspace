@@ -1,7 +1,6 @@
 #!/usr/bin/env python2.7
 import sys, getopt
 import os
-import pdfToCSVlib as p2c
 import argparse
 import download_lib as dw
 from argparse_lib import is_dir
