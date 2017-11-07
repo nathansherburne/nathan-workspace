@@ -24,7 +24,6 @@ import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.pdmodel.PDPageContentStream;
 import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
 import org.apache.pdfbox.util.Matrix;
-import org.opencv.core.Core;
 
 import technology.tabula.Rectangle;
 import textProcessing.Block;
@@ -34,9 +33,6 @@ import textProcessing.Tile;
 import utils.MyUtils;
 
 public class Driver {
-	static {
-		System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
-	}
 	
 	public static void main(String[] args) throws InvalidPasswordException, IOException {
 		//// Command Line Options ////
