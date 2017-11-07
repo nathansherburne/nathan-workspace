@@ -3,7 +3,6 @@ package textProcessing;
 import java.util.ArrayList;
 
 public abstract class ReferencePoint implements Comparable<ReferencePoint> {
-	private int ref_counter = 0;
 	private ArrayList<MarginPoint> margins = new ArrayList<MarginPoint>();
 	private MarginPoint rightMost = null;
 	private MarginPoint leftMost = null;
@@ -14,7 +13,6 @@ public abstract class ReferencePoint implements Comparable<ReferencePoint> {
 
 	public void add(MarginPoint mp) {
 		margins.add(mp);
-		ref_counter += mp.getHeight();
 
 		if (leftMost == null) {
 			leftMost = mp;
@@ -38,10 +36,6 @@ public abstract class ReferencePoint implements Comparable<ReferencePoint> {
 
 	public ArrayList<MarginPoint> getMPs() {
 		return margins;
-	}
-
-	public int getHeight() {
-		return ref_counter;
 	}
 	
 	@Override

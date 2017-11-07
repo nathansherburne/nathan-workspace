@@ -22,6 +22,10 @@ public class MarginStructure {
 	}
 
 	public void addBlock(Block block) {
+		// Margin point height, and thus reference pointer height, must be calculated
+		// on the fly. Margin points do not know their own height since they are simply
+		// the keys that map to a list of blocks. Because of the way maps work in Java,
+		// a key cannot be fetched and updated when its value is updated.
 		LeftMarginPoint lmp = new LeftMarginPoint(block.getLeft(), block.getNumLines());
 		if (!leftMarginPoints.containsKey(lmp)) {
 			leftMarginPoints.put(lmp, new ArrayList<Block>());

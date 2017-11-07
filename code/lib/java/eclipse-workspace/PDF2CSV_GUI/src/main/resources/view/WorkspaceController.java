@@ -50,14 +50,23 @@ public class WorkspaceController implements Initializable {
 		imageView.setImage(imageFX);
 	}
 	
-	public void findWords() {
-		document.createWords();
+	public void drawWords() {
 		pageDrawer.drawWords();
 		setImage(document.getDocumentImage());
 	}
 	
-	public void createLines() {
-		document.createLines();
+	public void drawLines() {
+		pageDrawer.drawLines();
+		setImage(document.getDocumentImage());
+	}
+	
+	public void drawBlocks() {
+		pageDrawer.drawBlocks();
+		setImage(document.getDocumentImage());
+	}
+	
+	public void isolateMergedColumns() {
+		document.isolateMergedColumns();
 	}
 	
 	public void displayImage(BufferedImage img) {

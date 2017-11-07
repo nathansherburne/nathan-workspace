@@ -2,11 +2,9 @@ package textProcessing;
 
 public abstract class MarginPoint implements Comparable<MarginPoint> {
 	private float x;
-	private int height;
 	
 	public MarginPoint(float x, int height) {
 		this.x = x;
-		this.height = height;
 	}
 	// Do margins need reference counters or should I leave that to ReferencePoints?
 	// As specified, margins do accumulate blocks with EQUAL left or right x.	
@@ -50,10 +48,6 @@ public abstract class MarginPoint implements Comparable<MarginPoint> {
 	
 	public float getX() {
 		return x;
-	}
-	
-	public int getHeight() {
-		return height;
 	}
 	
 	public abstract boolean isLeft();

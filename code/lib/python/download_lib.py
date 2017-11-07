@@ -1,5 +1,4 @@
 from BeautifulSoup import BeautifulSoup
-from xvfbwrapper import Xvfb
 import urllib2
 import re
 import os

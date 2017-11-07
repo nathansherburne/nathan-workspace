@@ -54,11 +54,17 @@ public class Neighborhood extends RectangularTextContainer<Block> implements Has
 
 	public void mergeIsolated() {
 		MarginStructure marginStructure = getMarginStructure();
-		final int MIN_HEIGHT = 5;
+		final int MIN_HEIGHT = 3;
 		// get margin points
 		// get reference points
 		for (ReferencePoint rp : marginStructure.getReferencePoints()) {
-			if (rp.getHeight() < MIN_HEIGHT) {
+			// See MarginPoint comments that explain why reference point height must
+			// be calculated on the fly, and not stored in the referencePoint object.
+			int refHeight = 0;
+			for(Block b : marginStructure.getBlocks(rp.getMPs())) {
+				refHeight += b.getNumLines();
+			}
+			if (refHeight < MIN_HEIGHT) {
 				if (rp.isLeft()) {
 					// Potentially merge blocks in this RP with neighbors if in range.
 					for (Block b : marginStructure.getBlocks(rp.getMPs())) {
@@ -166,13 +172,22 @@ public class Neighborhood extends RectangularTextContainer<Block> implements Has
 
 	public Tile[][] getTiles() {
 		Collections.sort(blocks);
-		Table tileStructure = new Table(getHorizontalRulings(), getVerticalRulings());
+		TreeSet<java.lang.Float> horizontalRulings = getHorizontalRulings();
+		TreeSet<java.lang.Float> verticalRulings = getVerticalRulings();
+		if(horizontalRulings.isEmpty() || verticalRulings.isEmpty()) {
+			return null;
+		}
+		Table tileStructure = new Table(horizontalRulings, verticalRulings);
 		return tileStructure.generateTiles(blocks);
 	}
 
 	public String getTableString() {
 		StringBuilder sb = new StringBuilder();
 		Tile[][] tiles = getTiles();
+		if(tiles == null) {
+			System.err.println("Error (Neighborhood.getTableString()): Tiles could not be generated.");
+			System.exit(1);
+		}
 		sb.append("<TABLE>");
 		sb.append(System.getProperty("line.separator"));
 		for (int i = 0; i < tiles.length; i++) {
@@ -190,7 +205,8 @@ public class Neighborhood extends RectangularTextContainer<Block> implements Has
 					// Do nothing
 				}
 				if (curTile.getType() == TILE_TYPE.TYPE2 || curTile.getType() == TILE_TYPE.TYPE3) {
-					sb.append(curTile.getBlock().getText());
+					String tileTextContent = curTile.getBlock().getText();
+					sb.append(tileTextContent);
 					sb.append("</TD>");
 					sb.append(System.getProperty("line.separator"));
 				}

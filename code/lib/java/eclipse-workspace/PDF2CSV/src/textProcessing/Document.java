@@ -17,7 +17,7 @@ import technology.tabula.TextStripper;
 import technology.tabula.Utils;
 
 public class Document {
-	final float LINE_SPACING_THRESHOLD = 2.0f; // Multiplication factor for deciding whether there is a large gap
+	final float LINE_SPACING_THRESHOLD = 4.0f; // Multiplication factor for deciding whether there is a large gap
 												// between two lines.
 	final float SPACE_SCALE = 0.4f; // Multiplication factor for multiplying the definition of width of space.
 
@@ -50,6 +50,14 @@ public class Document {
 	private void init() {
 		extractText();
 		createWords();
+		createLines();
+		createDummyLines();
+		createBlocks();
+		
+		//isolateMergedColumns();
+		//createNeighborhoods();
+		//mergeIsolateBlocks();
+		//decomposeType1Blocks();
 	}
 
 	public PDDocument getPDDocument() {
@@ -79,6 +87,20 @@ public class Document {
 	public List<Neighborhood> getNeighborhoods() {
 		return neighborhoods;
 	}
+	
+	public List<Line> getDummyLines() {
+		List<Line> dummyLines = new ArrayList<>();
+		for(Line line : lines) {
+			if(line.getText().equals("")) {
+				dummyLines.add(line);
+			}
+		}
+		return dummyLines;
+	}
+	
+	public List<Line> getLines() {
+		return lines;
+	}
 
 	/**
 	 * Right now, the blocks defined by this document's "blocks" variable are
@@ -106,11 +128,7 @@ public class Document {
 		return blocks;
 	}
 
-	public List<Line> getLines() {
-		return lines;
-	}
-
-	public Block createBlock(Word seed, int currentLineNumber) {
+	private Block createBlock(Word seed, int currentLineNumber) {
 		Block block = new Block(seed);
 		seed.setExpanded(true);
 
@@ -156,7 +174,7 @@ public class Document {
 	 * based on the width of a space character.
 	 * 
 	 */
-	public void createWords() {
+	private void createWords() {
 		Word word = new Word(textElements.get(0));
 		for (int i = 1; i < textElements.size(); i++) {
 			TextElement te = textElements.get(i);
@@ -177,7 +195,7 @@ public class Document {
 		add(word);
 	}
 	
-	public void extractText() {
+	private void extractText() {
 		TextStripper textStripper = null;
 		try {
 			textStripper = new TextStripper(pdfDocument, pageNum + 1);
@@ -199,7 +217,7 @@ public class Document {
 	/**
 	 * Groups the words in this document into lines.
 	 */
-	public void createLines() {
+	private void createLines() {
 		Line line = new Line(getWords().get(0));
 		for (int i = 1; i < getWords().size(); i++) {
 			Word w = getWords().get(i);
@@ -218,7 +236,7 @@ public class Document {
 	 * dummy lines are important because they distinguish between lines that have no
 	 * text between each other, but are visibly separate.
 	 */
-	public void createDummyLines() {
+	private void createDummyLines() {
 		ListIterator<Line> iterator = getLines().listIterator();
 		if (iterator.hasNext()) {
 			Line currentLine = iterator.next();
@@ -245,7 +263,7 @@ public class Document {
 	 * Organize words into blocks based on the T-Recs table stucturing algorithm.
 	 * See: https://www.dfki.uni-kl.de/~kieni/publications/LNCS_DAS98.pdf
 	 */
-	public void createBlocks() {
+	private void createBlocks() {
 		for (int lineNumber = 0; lineNumber < getLines().size(); lineNumber++) {
 			Line currentLine = getLines().get(lineNumber);
 			for (Word w : currentLine.getWords()) {
@@ -274,6 +292,21 @@ public class Document {
 				}
 			}
 			neighborhoods.add(n);
+		}
+	}
+	
+	/**
+	 * Removes neighborhoods from the list of neighborhoods if they do not have 
+	 * the minimum number of rows.
+	 * @param minRows
+	 */
+	public void removeNonTableNeighborhoods(int minRows) {
+		Iterator<Neighborhood> nIter = neighborhoods.iterator();
+		while(nIter.hasNext()) {
+			Neighborhood n = nIter.next();
+			if(n.getHorizontalRulings().size() < minRows) {
+				nIter.remove();
+			}
 		}
 	}
 
@@ -385,8 +418,8 @@ public class Document {
 		return splitted_sons;
 	}
 
-	public String getTableString() {
-		return neighborhoods.get(1).getTableString();
+	public String getTableString(int neighborhoodNum) {
+		return neighborhoods.get(neighborhoodNum).getTableString();
 	}
 
 	public void printWords() {

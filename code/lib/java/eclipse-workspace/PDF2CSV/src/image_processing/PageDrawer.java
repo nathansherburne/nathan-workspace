@@ -18,35 +18,57 @@ import technology.tabula.Rectangle;
 import textProcessing.Document;
 
 public class PageDrawer {
-	
-	Document document;
-	
+
+	private Document document;
+	private PDPage page;
+	private Matrix rotationMatrix = new Matrix(new java.awt.geom.AffineTransform(1, 0, 0, 1, 0, 0)); // Identity matrix
+	private PDPageContentStream contentStream;
+
 	public PageDrawer(Document document) {
 		this.document = document;
+		init();
 	}
-	
-	public void drawWords() {
+
+	public void init() {
+		this.page = document.getPDDocument().getPage(document.getPageNum());
 		try {
-		List<? extends Rectangle> words = document.getWords();
-		int pageNum = document.getPageNum();
-		PDDocument pdfDocument = document.getPDDocument();
-		
-		PDPage page = pdfDocument.getPage(pageNum);
-		Matrix rotationMatrix = getRotationMatrix(page.getRotation(), page.getCropBox().getWidth(),
-				page.getCropBox().getHeight());
-		if (rotationMatrix == null) {
-			System.err.println("Unsupported rotation angle (i.e. not 0, 90, 180, or 270.");
-			return;
+			this.rotationMatrix = getRotationMatrix(page.getRotation(), page.getCropBox().getWidth(),
+					page.getCropBox().getHeight());
+			if (rotationMatrix == null) {
+				System.err.println("Unsupported rotation angle (i.e. not 0, 90, 180, or 270.");
+				
+			}
+			contentStream = new PDPageContentStream(document.getPDDocument(), page,
+					PDPageContentStream.AppendMode.APPEND, true);
+			contentStream.transform(rotationMatrix);
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
-		PDPageContentStream contentStream = new PDPageContentStream(pdfDocument, page,
-				PDPageContentStream.AppendMode.APPEND, true);
-		contentStream.transform(rotationMatrix);
-		contentStream.setLineWidth(1.0f);
-		drawBlocks(contentStream, words, Color.RED);
-		contentStream.close();
-		pdfDocument.save("/Users/ndsherb/test.pdf");
-		
-		} catch(IOException ioe) {
+	}
+
+	public void drawWords() {
+		List<? extends Rectangle> words = document.getWords();
+		draw(words);
+	}
+
+	public void drawLines() {
+		List<? extends Rectangle> lines = document.getLines();
+		draw(lines);
+	}
+
+	public void drawBlocks() {
+		List<? extends Rectangle> blocks = document.getBlocks();
+		draw(blocks);
+	}
+
+	public void draw(List<? extends Rectangle> rectangles) {
+		try {
+			contentStream = new PDPageContentStream(document.getPDDocument(), page,
+					PDPageContentStream.AppendMode.APPEND, true);
+			contentStream.transform(rotationMatrix);
+			drawBlocks(contentStream, rectangles, Color.RED);
+			contentStream.close();
+		} catch (IOException ioe) {
 			ioe.printStackTrace();
 		}
 	}
@@ -75,21 +97,13 @@ public class PageDrawer {
 		contentStream.stroke();
 	}
 
-	private void drawLine(PDPageContentStream content, float xstart, float ystart, float xend, float yend)
-			throws IOException {
-		content.moveTo(xstart, ystart); // moves "pencil" to a position
-		content.lineTo(xend, yend); // creates an invisible line to another position
-		content.stroke(); // makes the line visible
-	}
-	
 	public void displayImage(BufferedImage img) {
 		JFrame frame = new JFrame();
-		  ImageIcon icon = new ImageIcon(img);
-		  JLabel label = new JLabel(icon);
-		  frame.add(label);
-		  frame.setDefaultCloseOperation
-		         (JFrame.EXIT_ON_CLOSE);
-		  frame.pack();
-		  frame.setVisible(true);
+		ImageIcon icon = new ImageIcon(img);
+		JLabel label = new JLabel(icon);
+		frame.add(label);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.pack();
+		frame.setVisible(true);
 	}
 }

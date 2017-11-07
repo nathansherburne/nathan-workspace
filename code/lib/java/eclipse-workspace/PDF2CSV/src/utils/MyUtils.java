@@ -95,7 +95,24 @@ public class MyUtils {
 		return dimg;
 	}
 
-	public static final Color[] KELLY_COLORS = { 
+	/**
+	 * Gets a Kelly Color. If the index provided is larger than the number of
+	 * Kelly Colors, it will wrap to the beginning.
+	 * 
+	 * Kelly Colors are useful when one needs a relatively small set of distinct
+	 * colors.
+	 * 
+	 * @param index
+	 * @return
+	 */
+	public static Color getKellyColor(int index) {
+		if(index >= KELLY_COLORS.length) {
+			index = index % KELLY_COLORS.length;
+		}
+		return KELLY_COLORS[index];
+	}
+	
+	private static final Color[] KELLY_COLORS = { 
 			Color.decode("0xFFB300"), // Vivid Yellow
 			Color.decode("0x803E75"), // Strong Purple
 			Color.decode("0xFF6800"), // Vivid Orange
@@ -103,7 +120,6 @@ public class MyUtils {
 			Color.decode("0xC10020"), // Vivid Red
 			Color.decode("0xCEA262"), // Grayish Yellow
 			Color.decode("0x817066"), // Medium Gray
-
 			Color.decode("0x007D34"), // Vivid Green
 			Color.decode("0xF6768E"), // Strong Purplish Pink
 			Color.decode("0x00538A"), // Strong Blue
