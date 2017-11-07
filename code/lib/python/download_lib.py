@@ -139,10 +139,6 @@ def getPeruData(out_dir, update_only=False):
                 file.close()
 
 def getRioData(out_dir, update_only=False):
-    if not os.path.exists(out_dir + '/PDFs/'):
-        os.makedirs(out_dir + '/PDFs')
-    if not os.path.exists(out_dir + '/HTMs/'):
-        os.makedirs(out_dir + '/HTMs/')
     url = "http://www.rio.rj.gov.br/web/sms/exibeconteudo?id=2815389"
     #connect to a URL
     website = urllib2.urlopen(url)
@@ -171,14 +167,12 @@ def getRioData(out_dir, update_only=False):
         filename = os.path.basename(link)
         name, ext = os.path.splitext(filename)
         name = name.replace('.','')
-        ext_dir = ext.replace('.','').upper() + 's'
         year = re.findall('\d+', name)[0]
         if 'mes' in name.lower():
             new_filename = year + '_monthly' + ext
-            write_path = os.path.join(out_dir, ext_dir, 'monthly', new_filename)
         else:
             new_filename = year + '_weekly' + ext
-            write_path = os.path.join(out_dir, ext_dir, 'weekly', new_filename)
+        write_path = os.path.join(out_dir, new_filename)
         response = urllib2.urlopen(link)
         file = open(write_path, 'w')
         file.write(response.read())
