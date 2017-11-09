@@ -145,6 +145,48 @@ public class Neighborhood extends RectangularTextContainer<Block> implements Has
 		}
 		return false;
 	}
+	
+	public Block getClosestLeftNeighbor(Block b) {
+		Block neighbor = null;
+		float closest = java.lang.Float.MAX_VALUE;
+		for (Block potentialNeighbor : blocks) {
+			if (potentialNeighbor.equals(b)) {
+				continue;
+			}
+			if(potentialNeighbor.getLeft() > b.getLeft()) {  
+				continue;  // Looking for left neighbor, so don't consider blocks to the right of this block.
+			}
+			if (potentialNeighbor.verticallyOverlaps(b)) {
+				float distance = Math.abs(horizontalOverlapValue(b, potentialNeighbor));
+				if (distance < closest) {
+					closest = distance;
+					neighbor = potentialNeighbor;
+				}
+			}
+		}
+		return neighbor;
+	}
+	
+	public Block getClosestRightNeighbor(Block b) {
+		Block neighbor = null;
+		float closest = java.lang.Float.MAX_VALUE;
+		for (Block potentialNeighbor : blocks) {
+			if (potentialNeighbor.equals(b)) {
+				continue;
+			}
+			if(potentialNeighbor.getRight() > b.getRight()) {  
+				continue;  // Looking for right neighbor, so don't consider blocks to the left of this block.
+			}
+			if (potentialNeighbor.verticallyOverlaps(b)) {
+				float distance = Math.abs(horizontalOverlapValue(b, potentialNeighbor));
+				if (distance < closest) {
+					closest = distance;
+					neighbor = potentialNeighbor;
+				}
+			}
+		}
+		return neighbor;
+	}
 
 	public float mergeThreshold(Block b) {
 		int numberOfSpaces = 3;

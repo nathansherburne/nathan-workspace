@@ -170,12 +170,13 @@ public class Driver {
 
 		//// Start ////
 		PDDocument pdfDocument = PDDocument.load(pdfFile);
-		Document document = new Document(pdfDocument, pageNum, lineSpacingThreshold, spaceScale, roi);
+		Document document = new Document(pdfDocument, pageNum, lineSpacingThreshold, spaceScale);
 
 		document.isolateMergedColumns();
 		document.createNeighborhoods();
 		document.mergeIsolateBlocks();
 		document.decomposeType1Blocks();
+		document.removeBlocksNotInROI(roi);
 		if(minRows != null) {
 			document.removeNonTableNeighborhoods(minRows);
 		}
@@ -221,6 +222,7 @@ public class Driver {
 
 	public static void drawNeighborhoods(PDDocument pdfDocument, int pageNum, Document document, String outputDir,
 			int... which) throws IOException {
+		String outputFilePath = outputDir + "/neighborhoodDrawing.pdf";
 		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum);
 		int neighNum = 0;
 		for (int neighIndex : which) {
@@ -244,11 +246,13 @@ public class Driver {
 		}
 		contentStream.close();
 		flipContentStreamBack(pdfDocument, pageNum);
-		pdfDocument.save(outputDir + "neighborhoodDrawing.pdf");
+		pdfDocument.save(outputFilePath);
+		System.out.println("File saved: " + outputFilePath);
 	}
 
 	public static void drawTiles(PDDocument pdfDocument, int pageNum, Document document, String outputDir, int... which)
 			throws IOException {
+		String outputFilePath = outputDir + "/tileDrawing.pdf";
 		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum);
 		int colorNum = 0;
 		for (int neighIndex : which) {
@@ -272,16 +276,19 @@ public class Driver {
 		}
 		contentStream.close();
 		flipContentStreamBack(pdfDocument, pageNum);
-		pdfDocument.save(outputDir + "tileDrawing.pdf");
+		pdfDocument.save(outputFilePath);
+		System.out.println("File saved: " + outputFilePath);
 	}
 
 	public static void drawBlocks(PDDocument pdfDocument, int pageNum, Document document, String outputDir)
 			throws IOException {
+		String outputFilePath = outputDir + "/blockDrawing.pdf";
 		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum);
 		drawBlocks(contentStream, Color.RED, document.getBlocks().toArray(new Block[document.getBlocks().size()]));
 		contentStream.close();
 		flipContentStreamBack(pdfDocument, pageNum);
-		pdfDocument.save(outputDir + "blockDrawing.pdf");
+		pdfDocument.save(outputFilePath);
+		System.out.println("File saved: " + outputFilePath);
 	}
 
 	public static PDPageContentStream getContentStream(PDDocument pdfDocument, int pageNum)

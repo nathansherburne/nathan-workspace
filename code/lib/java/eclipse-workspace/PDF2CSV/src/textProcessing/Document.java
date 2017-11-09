@@ -2,7 +2,6 @@ package textProcessing;
 
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
-import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -23,14 +22,13 @@ public class Document {
 	private int pageNum = 0;
 
 	private PDDocument pdfDocument;
-	private Rectangle2D roi;
 	private List<TextElement> textElements = new ArrayList<TextElement>();
 	private List<Line> lines = new ArrayList<Line>();
 	private List<Block> blocks = new ArrayList<Block>();
 	private List<Word> words = new ArrayList<Word>();
 	private List<Neighborhood> neighborhoods = new ArrayList<Neighborhood>();
 	
-	public Document(PDDocument pdfDocument, Integer pageNum, Double lineSpacingThreshold, Double spaceScale, Rectangle2D roi) {
+	public Document(PDDocument pdfDocument, Integer pageNum, Double lineSpacingThreshold, Double spaceScale) {
 		this.pdfDocument = pdfDocument;
 		if(pageNum != null) {
 			this.pageNum = pageNum;
@@ -41,7 +39,6 @@ public class Document {
 		if(spaceScale != null) {
 			this.spaceScale = spaceScale;
 		}
-		this.roi = roi;
 		init();
 	}
 	
@@ -210,17 +207,6 @@ public class Document {
 		// they will be evaluated sequentially).
 		Utils.sort(textStripper.textElements);
 		this.textElements = textStripper.textElements;
-		
-		// If there is a region of interest, remove all text outside of it.
-		if(roi != null) {
-			Iterator<TextElement> teIter = this.textElements.iterator();
-			while(teIter.hasNext()) {
-				TextElement te = teIter.next();
-				if(!roi.contains(te)) {
-					teIter.remove();
-				}
-			}
-		}
 	}
 	
 
@@ -319,6 +305,23 @@ public class Document {
 			}
 		}
 	}
+	
+	public void removeBlocksNotInROI(Rectangle2D roi) {
+		Iterator<Neighborhood> nIter = neighborhoods.iterator();
+		while (nIter.hasNext()) {
+			Neighborhood n = nIter.next();
+			Iterator<Block> bIter = n.getTextElements().iterator();
+			while(bIter.hasNext()) {
+				Block b = bIter.next();
+				if(!roi.contains(b)) {
+					bIter.remove();
+				}
+			}
+			if(n.getTextElements().isEmpty()) { // All the blocks in this neighborhood were removed (i.e. outside of ROI).
+				nIter.remove();
+			}
+		}
+	}
 
 	/**
 	 * Replaces the current set of blocks with the set of merged blocks.
@@ -364,6 +367,34 @@ public class Document {
 			blocks.addAll(decomposedBlocks);
 		}
 	}
+	
+	/**
+	 * Merges type 2 blocks that are not significantly more than one space apart.
+	 * 
+	 * DOES NOT WORK YET.
+	 */
+//	public void removeRivers() {
+//		for(Neighborhood n : neighborhoods) {
+//			Collections.sort(n.getTextElements());
+//			ListIterator<Block> bIter = n.getTextElements().listIterator();
+//			while(bIter.hasNext()) {
+//				Block current = bIter.next();
+//				if(current.getType() != Block.BLOCK_TYPE.TYPE2) {
+//					continue;
+//				}
+//				Block leftNeighbor = n.getClosestLeftNeighbor(current);
+//				if(leftNeighbor == null || leftNeighbor.getType() != Block.BLOCK_TYPE.TYPE2) {
+//					continue;
+//				}
+//				float distance = Math.abs(n.horizontalOverlapValue(current, leftNeighbor));
+//				float widthOfSpace = Math.max(current.getAvgWidthOfSpace(), leftNeighbor.getAvgWidthOfSpace());
+//				if(distance <= widthOfSpace) {
+//					bIter.remove();
+//					leftNeighbor.merge(current);
+//				}
+//			}
+//		}
+//	}
 
 	public void isolateMergedColumns() {
 		ListIterator<Block> bIter = blocks.listIterator();
