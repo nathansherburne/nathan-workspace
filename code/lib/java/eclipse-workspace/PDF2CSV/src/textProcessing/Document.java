@@ -1,5 +1,6 @@
 package textProcessing;
 
+import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -17,45 +18,31 @@ import technology.tabula.TextStripper;
 import technology.tabula.Utils;
 
 public class Document {
-	private double lineSpacingThreshold = 2.0f; // Multiplication factor for deciding whether there is a large gap											// between two lines.
-	private double spaceScale = 0.4f; // Multiplication factor for multiplying the definition of width of space.
+	private double lineSpacingThreshold = 1.0f; // Multiplication factor for deciding whether there is a large gap											// between two lines.
+	private double spaceScale = 1.0f; // Multiplication factor for multiplying the definition of width of space.
+	private int pageNum = 0;
 
 	private PDDocument pdfDocument;
-	private int pageNum;
+	private Rectangle2D roi;
 	private List<TextElement> textElements = new ArrayList<TextElement>();
 	private List<Line> lines = new ArrayList<Line>();
 	private List<Block> blocks = new ArrayList<Block>();
 	private List<Word> words = new ArrayList<Word>();
 	private List<Neighborhood> neighborhoods = new ArrayList<Neighborhood>();
-
-	public Document(File pdfFile, int pageNum) {
-		this(pdfFile, pageNum, 1.0, 1.0);
-	}
 	
-	public Document(File pdfFile, int pageNum, double lineSpacingThreshold, double spaceScale) {
-		this.pageNum = pageNum;
-		this.lineSpacingThreshold = lineSpacingThreshold;
-		this.spaceScale = spaceScale;
-		PDDocument pdfDocument = null;
-		try {
-			pdfDocument = PDDocument.load(pdfFile);
-		} catch (IOException e) {
-			e.printStackTrace();
+	public Document(PDDocument pdfDocument, Integer pageNum, Double lineSpacingThreshold, Double spaceScale, Rectangle2D roi) {
+		this.pdfDocument = pdfDocument;
+		if(pageNum != null) {
+			this.pageNum = pageNum;
 		}
-		this.pdfDocument = pdfDocument;
+		if(lineSpacingThreshold != null) {
+			this.lineSpacingThreshold = lineSpacingThreshold;
+		}
+		if(spaceScale != null) {
+			this.spaceScale = spaceScale;
+		}
+		this.roi = roi;
 		init();
-	}
-	
-	public Document(PDDocument pdfDocument, int pageNum, double lineSpacingThreshold, double spaceScale) {
-		this.pdfDocument = pdfDocument;
-		this.pageNum = pageNum;
-		this.lineSpacingThreshold = lineSpacingThreshold;
-		this.spaceScale = spaceScale;
-		init();
-	}
-
-	public Document(PDDocument pdfDocument, int pageNum) {
-		this(pdfDocument, pageNum, 1.0, 1.0);
 	}
 	
 	private void init() {
@@ -223,7 +210,19 @@ public class Document {
 		// they will be evaluated sequentially).
 		Utils.sort(textStripper.textElements);
 		this.textElements = textStripper.textElements;
+		
+		// If there is a region of interest, remove all text outside of it.
+		if(roi != null) {
+			Iterator<TextElement> teIter = this.textElements.iterator();
+			while(teIter.hasNext()) {
+				TextElement te = teIter.next();
+				if(!roi.contains(te)) {
+					teIter.remove();
+				}
+			}
+		}
 	}
+	
 
 	/**
 	 * Groups the words in this document into lines.
@@ -292,14 +291,14 @@ public class Document {
 		ListIterator<Block> blockIterator = blocks.listIterator();
 		if (blockIterator.hasNext()) {
 			Block b = blockIterator.next();
-			Neighborhood n = new Neighborhood(b);
+			Neighborhood n = new Neighborhood(b, spaceScale);
 			while (blockIterator.hasNext()) {
 				b = blockIterator.next();
 				if (b.verticallyOverlaps(n)) {
 					n.add(b);
 				} else {
 					neighborhoods.add(n);
-					n = new Neighborhood(b);
+					n = new Neighborhood(b, spaceScale);
 				}
 			}
 			neighborhoods.add(n);

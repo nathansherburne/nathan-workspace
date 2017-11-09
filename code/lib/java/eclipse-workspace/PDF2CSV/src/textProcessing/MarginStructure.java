@@ -9,8 +9,9 @@ import java.util.TreeMap;
 public class MarginStructure {
 	TreeMap<RightMarginPoint, ArrayList<Block>> rightMarginPoints = new TreeMap<RightMarginPoint, ArrayList<Block>>();
 	TreeMap<LeftMarginPoint, ArrayList<Block>> leftMarginPoints = new TreeMap<LeftMarginPoint, ArrayList<Block>>();
-	
-	public MarginStructure() {
+	private double spaceScale;
+	public MarginStructure(double spaceScale) {
+		this.spaceScale = spaceScale;
 	}
 
 	public TreeMap<RightMarginPoint, ArrayList<Block>> getRightMPs() {
@@ -81,8 +82,13 @@ public class MarginStructure {
 		return avgWidthOfSpace / blocks.size();
 	}
 
+	/**
+	 * RP Threshold is defined as the width of two spaces.
+	 * @param mp
+	 * @return
+	 */
 	public double getRPThreshold(MarginPoint mp) {
-		return avgWidthOfSpace(mp) * 2;
+		return avgWidthOfSpace(mp) * 2 * spaceScale;
 	}
 
 	/**

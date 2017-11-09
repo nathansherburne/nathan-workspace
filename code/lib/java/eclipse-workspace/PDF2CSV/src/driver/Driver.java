@@ -1,6 +1,7 @@
 package driver;
 
 import java.awt.Color;
+import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -63,8 +64,23 @@ public class Driver {
 
 		Option spaceScaleOpt = new Option("s", "space-scale", true,
 				"Used to scale the definition of width of space. A value < 1 will decrease the width of space, "
-				+ "resulting in more words, since a small space in between letters will be considered a 'space' character");
+						+ "resulting in more words, since a small space in between letters will be considered a 'space' character");
 		options.addOption(spaceScaleOpt);
+
+		Option xOpt = new Option("x", "x-coord", true, "x coordinate of top-left of ROI");
+		options.addOption(xOpt);
+
+		Option yOpt = new Option("y", "y-coord", true, "y coordinate of top-left of ROI");
+		options.addOption(yOpt);
+
+		Option wOpt = new Option("w", "width", true, "width of ROI");
+		options.addOption(wOpt);
+
+		Option hOpt = new Option("h", "height", true, "height of ROI");
+		options.addOption(hOpt);
+
+		Option testROIOpt = new Option("t", "roi-test", false, "draw the specified ROI on the PDF, save it, and quit.");
+		options.addOption(testROIOpt);
 
 		CommandLineParser parser = new DefaultParser();
 		HelpFormatter formatter = new HelpFormatter();
@@ -83,25 +99,49 @@ public class Driver {
 		// Get command line options into variables
 		String[] inputFiles = cmd.getOptionValues("i");
 		String outputDirectory = cmd.getOptionValue("output");
-		int pageNum = Integer.valueOf(cmd.getOptionValue("page")) - 1;
 		boolean debug = cmd.hasOption("debug");
-		int minRows = Integer.valueOf(cmd.getOptionValue("min-rows"));
-		double lineSpacingThreshold, spaceScale;
-		if(!cmd.hasOption("line-spacing")) {
-			lineSpacingThreshold = 1.0;
-		} else {
+		Integer pageNum = null;
+		Integer minRows = null;
+		Double lineSpacingThreshold = null; 
+		Double spaceScale = null;
+		Rectangle2D.Float roi = null;
+
+		if(cmd.hasOption("page")) {
+			pageNum = Integer.valueOf(cmd.getOptionValue("page")) - 1;
+		}
+		if(cmd.hasOption("min-rows")) {
+			minRows = Integer.valueOf(cmd.getOptionValue("min-rows"));
+		}
+		if (cmd.hasOption("line-spacing")) {
 			lineSpacingThreshold = Double.valueOf(cmd.getOptionValue("line-spacing"));
 		}
-		if(!cmd.hasOption("space-scale")) {
-			spaceScale = 1.0;
-		} else {
+		if (cmd.hasOption("space-scale")) {
 			spaceScale = Double.valueOf(cmd.getOptionValue("space-scale"));
 		}
+		if (cmd.hasOption("x-coord") && cmd.hasOption("y-coord") && cmd.hasOption("width") && cmd.hasOption("height")) {
+			float x = Float.valueOf(cmd.getOptionValue("x-coord"));
+			float y = Float.valueOf(cmd.getOptionValue("y-coord"));
+			float w = Float.valueOf(cmd.getOptionValue("width"));
+			float h = Float.valueOf(cmd.getOptionValue("height"));
+			roi = new Rectangle2D.Float(x, y, w, h);
+		} else {
+			if (cmd.hasOption("roi-test")) {
+				throw new IOException("invalid options: must supply roi(x, y, w, h) for roi-test");
+			}
+		}
 		
-		for (int i = 0; i < inputFiles.length; i++) {
-			String outPath = getOutputPath(inputFiles[i], outputDirectory, ".html");
-			PDF2HTML(new File(inputFiles[i]), pageNum, outPath, debug, outputDirectory, minRows, lineSpacingThreshold,
-					spaceScale);
+		
+		if (cmd.hasOption("roi-test")) {
+			for (int i = 0; i < inputFiles.length; i++) {
+				String outPath = getOutputPath(inputFiles[i], outputDirectory, "_ROI.pdf");
+				drawROI(new File(inputFiles[i]), pageNum, outPath, roi);
+			}
+		} else {
+			for (int i = 0; i < inputFiles.length; i++) {
+				String outPath = getOutputPath(inputFiles[i], outputDirectory, ".html");
+				PDF2HTML(new File(inputFiles[i]), pageNum, outPath, debug, outputDirectory, minRows,
+						lineSpacingThreshold, spaceScale, roi);
+			}
 		}
 
 	}
@@ -124,23 +164,29 @@ public class Driver {
 		return outputPath;
 	}
 
-	public static void PDF2HTML(File pdfFile, int pageNum, String outputFilePath, boolean debug, String debugDir,
-			int minRows, double lineSpacingThreshold, double spaceScale) throws InvalidPasswordException, IOException {
+	public static void PDF2HTML(File pdfFile, Integer pageNum, String outputFilePath, boolean debug, String debugDir,
+			Integer minRows, Double lineSpacingThreshold, Double spaceScale, Rectangle2D roi)
+			throws InvalidPasswordException, IOException {
 
 		//// Start ////
 		PDDocument pdfDocument = PDDocument.load(pdfFile);
-		Document document = new Document(pdfDocument, pageNum, lineSpacingThreshold, spaceScale);
+		Document document = new Document(pdfDocument, pageNum, lineSpacingThreshold, spaceScale, roi);
 
 		document.isolateMergedColumns();
 		document.createNeighborhoods();
 		document.mergeIsolateBlocks();
 		document.decomposeType1Blocks();
-		document.removeNonTableNeighborhoods(minRows);
+		if(minRows != null) {
+			document.removeNonTableNeighborhoods(minRows);
+		}
 		int neighborhoodNum = 0;
 
+		int[] allNeighs = new int[document.getNeighborhoods().size()];
+		for (int i = 0; i < document.getNeighborhoods().size(); i++) {
+			allNeighs[i] = i;
+		}
 		if (debug) {
-			// drawBlocks(pdfDocument, pageNum, document, debugDir);
-			drawNeighborhoods(pdfDocument, pageNum, document, debugDir, neighborhoodNum);
+			drawNeighborhoods(pdfDocument, pageNum, document, debugDir, allNeighs);
 			drawBlocks(pdfDocument, pageNum, document, debugDir);
 			drawTiles(pdfDocument, pageNum, document, debugDir, neighborhoodNum);
 
@@ -161,9 +207,21 @@ public class Driver {
 	}
 
 	/// DRAWING ///
+
+	public static void drawROI(File pdfFile, int pageNum, String outputFilePath, Rectangle2D roi) throws IOException {
+		PDDocument pdfDocument = PDDocument.load(pdfFile);
+		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum);
+		contentStream.setStrokingColor(Color.RED);
+		contentStream.addRect((float) roi.getX(), (float) roi.getY(), (float) roi.getWidth(), (float) roi.getHeight());
+		contentStream.stroke();
+		contentStream.close();
+		pdfDocument.save(outputFilePath);
+		pdfDocument.close();
+	}
+
 	public static void drawNeighborhoods(PDDocument pdfDocument, int pageNum, Document document, String outputDir,
 			int... which) throws IOException {
-		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum, document);
+		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum);
 		int neighNum = 0;
 		for (int neighIndex : which) {
 			Neighborhood n = document.getNeighborhoods().get(neighIndex);
@@ -181,17 +239,17 @@ public class Driver {
 			List<Rectangle> ns = new ArrayList<Rectangle>();
 			ns.add(n);
 			ns.addAll(tiles2);
-			Rectangle[] r = n.getTextElements().toArray(new Rectangle[n.getTextElements().size()]);
+			Rectangle[] r = n.getType1Blocks().toArray(new Rectangle[n.getType1Blocks().size()]);
 			drawBlocks(contentStream, MyUtils.getKellyColor(neighNum++), r);
 		}
 		contentStream.close();
-		flipContentStreamBack(pdfDocument, pageNum, document);
+		flipContentStreamBack(pdfDocument, pageNum);
 		pdfDocument.save(outputDir + "neighborhoodDrawing.pdf");
 	}
 
 	public static void drawTiles(PDDocument pdfDocument, int pageNum, Document document, String outputDir, int... which)
 			throws IOException {
-		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum, document);
+		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum);
 		int colorNum = 0;
 		for (int neighIndex : which) {
 			Neighborhood n = document.getNeighborhoods().get(neighIndex);
@@ -213,20 +271,20 @@ public class Driver {
 			drawBlocks(contentStream, MyUtils.getKellyColor(colorNum++), r);
 		}
 		contentStream.close();
-		flipContentStreamBack(pdfDocument, pageNum, document);
+		flipContentStreamBack(pdfDocument, pageNum);
 		pdfDocument.save(outputDir + "tileDrawing.pdf");
 	}
 
 	public static void drawBlocks(PDDocument pdfDocument, int pageNum, Document document, String outputDir)
 			throws IOException {
-		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum, document);
+		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum);
 		drawBlocks(contentStream, Color.RED, document.getBlocks().toArray(new Block[document.getBlocks().size()]));
 		contentStream.close();
-		flipContentStreamBack(pdfDocument, pageNum, document);
+		flipContentStreamBack(pdfDocument, pageNum);
 		pdfDocument.save(outputDir + "blockDrawing.pdf");
 	}
 
-	public static PDPageContentStream getContentStream(PDDocument pdfDocument, int pageNum, Document document)
+	public static PDPageContentStream getContentStream(PDDocument pdfDocument, int pageNum)
 			throws IOException {
 		// drawBlocks(pdfDocument, pageNum, document.getBlocks(), Color.RED);
 		PDPage page = pdfDocument.getPage(pageNum);
@@ -290,9 +348,9 @@ public class Driver {
 	 * 
 	 * @throws IOException
 	 */
-	public static void flipContentStreamBack(PDDocument pdfDocument, int pageNum, Document document)
+	public static void flipContentStreamBack(PDDocument pdfDocument, int pageNum)
 			throws IOException {
-		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum, document);
+		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum);
 		contentStream.close();
 	}
 }

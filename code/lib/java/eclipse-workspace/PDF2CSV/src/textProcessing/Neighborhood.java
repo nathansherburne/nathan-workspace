@@ -18,14 +18,15 @@ import textProcessing.Tile.TILE_TYPE;
 public class Neighborhood extends RectangularTextContainer<Block> implements HasText {
 	private List<Block> blocks = new ArrayList<Block>();
 	private MarginStructure marginStructure = null;
-
+	private double spaceScale;
 	public Neighborhood(float top, float left, float width, float height) {
 		super(top, left, width, height);
 	}
 
-	public Neighborhood(Block block) {
+	public Neighborhood(Block block, double spaceScale) {
 		super(block.y, block.x, block.width, block.height);
 		this.add(block);
+		this.spaceScale = spaceScale;
 	}
 
 	public MarginStructure getMarginStructure() {
@@ -36,7 +37,7 @@ public class Neighborhood extends RectangularTextContainer<Block> implements Has
 	}
 
 	private MarginStructure getMarginStructure(List<Block> blocks) {
-		MarginStructure marg = new MarginStructure();
+		MarginStructure marg = new MarginStructure(spaceScale);
 		for (Block b : blocks) {
 			marg.addBlock(b);
 		}
@@ -54,7 +55,7 @@ public class Neighborhood extends RectangularTextContainer<Block> implements Has
 
 	public void mergeIsolated() {
 		MarginStructure marginStructure = getMarginStructure();
-		final int MIN_HEIGHT = 3;
+		final int MIN_HEIGHT = 2;
 		// get margin points
 		// get reference points
 		for (ReferencePoint rp : marginStructure.getReferencePoints()) {
@@ -94,6 +95,9 @@ public class Neighborhood extends RectangularTextContainer<Block> implements Has
 		for (Block potentialNeighbor : blocks) {
 			if (potentialNeighbor.equals(b)) {
 				continue;
+			}
+			if(potentialNeighbor.getLeft() > b.getLeft()) {  
+				continue;  // Merging left, so don't consider merging with blocks to the right of this block.
 			}
 			if (potentialNeighbor.verticallyOverlaps(b)) {
 				float distance = Math.abs(horizontalOverlapValue(b, potentialNeighbor));
@@ -178,7 +182,7 @@ public class Neighborhood extends RectangularTextContainer<Block> implements Has
 			return null;
 		}
 		Table tileStructure = new Table(horizontalRulings, verticalRulings);
-		return tileStructure.generateTiles(blocks);
+		return tileStructure.generateTiles(getType1Blocks());
 	}
 
 	public String getTableString() {
@@ -249,7 +253,7 @@ public class Neighborhood extends RectangularTextContainer<Block> implements Has
 	}
 
 	public TreeSet<java.lang.Float> getVerticalRulings() {
-		MarginStructure marg = getMarginStructure();
+		MarginStructure marg = getMarginStructure(getType1Blocks());
 		List<ReferencePoint> RPs = marg.getReferencePoints();
 		TreeSet<java.lang.Float> columns = new TreeSet<java.lang.Float>();
 		boolean wasRight = false;
