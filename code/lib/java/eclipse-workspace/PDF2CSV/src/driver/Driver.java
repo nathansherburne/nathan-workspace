@@ -58,7 +58,7 @@ public class Driver {
 				"will not be considered a table if it doesn't have this many rows");
 		options.addOption(minRowsOpt);
 
-		Option lineSpacingThresholdOpt = new Option("l", "line-spacing", true,
+		Option lineSpacingThresholdOpt = new Option("n", "line-spacing", true,
 				"A threshold value for creating dummy lines. A higher threshold means less dummy lines will be inserted");
 		options.addOption(lineSpacingThresholdOpt);
 
@@ -67,19 +67,20 @@ public class Driver {
 						+ "resulting in more words, since a small space in between letters will be considered a 'space' character");
 		options.addOption(spaceScaleOpt);
 
-		Option xOpt = new Option("x", "x-coord", true, "x coordinate of top-left of ROI");
+		Option xOpt = new Option("l", "left", true, "Where the left side of ROI is compared to the page (0.0 to 1.0)");
 		options.addOption(xOpt);
 
-		Option yOpt = new Option("y", "y-coord", true, "y coordinate of top-left of ROI");
+		Option yOpt = new Option("t", "top", true, "Where the top of ROI is compared to the page (0.0 to 1.0)");
 		options.addOption(yOpt);
 
-		Option wOpt = new Option("w", "width", true, "width of ROI");
+		Option wOpt = new Option("r", "right", true,
+				"Where the right side of ROI is compared to the page (0.0 to 1.0)");
 		options.addOption(wOpt);
 
-		Option hOpt = new Option("h", "height", true, "height of ROI");
+		Option hOpt = new Option("b", "bottom", true, "Where the bottom of ROI is compared to the page (0.0 to 1.0)");
 		options.addOption(hOpt);
 
-		Option testROIOpt = new Option("t", "roi-test", false, "draw the specified ROI on the PDF, save it, and quit.");
+		Option testROIOpt = new Option("e", "roi-test", false, "draw the specified ROI on the PDF, save it, and quit.");
 		options.addOption(testROIOpt);
 
 		CommandLineParser parser = new DefaultParser();
@@ -100,16 +101,16 @@ public class Driver {
 		String[] inputFiles = cmd.getOptionValues("i");
 		String outputDirectory = cmd.getOptionValue("output");
 		boolean debug = cmd.hasOption("debug");
-		Integer pageNum = null;
+		int pageNum = 0;
 		Integer minRows = null;
-		Double lineSpacingThreshold = null; 
+		Double lineSpacingThreshold = null;
 		Double spaceScale = null;
-		Rectangle2D.Float roi = null;
+		Rectangle2D.Float roiUnscaled = null;
 
-		if(cmd.hasOption("page")) {
+		if (cmd.hasOption("page")) {
 			pageNum = Integer.valueOf(cmd.getOptionValue("page")) - 1;
 		}
-		if(cmd.hasOption("min-rows")) {
+		if (cmd.hasOption("min-rows")) {
 			minRows = Integer.valueOf(cmd.getOptionValue("min-rows"));
 		}
 		if (cmd.hasOption("line-spacing")) {
@@ -118,29 +119,28 @@ public class Driver {
 		if (cmd.hasOption("space-scale")) {
 			spaceScale = Double.valueOf(cmd.getOptionValue("space-scale"));
 		}
-		if (cmd.hasOption("x-coord") && cmd.hasOption("y-coord") && cmd.hasOption("width") && cmd.hasOption("height")) {
-			float x = Float.valueOf(cmd.getOptionValue("x-coord"));
-			float y = Float.valueOf(cmd.getOptionValue("y-coord"));
-			float w = Float.valueOf(cmd.getOptionValue("width"));
-			float h = Float.valueOf(cmd.getOptionValue("height"));
-			roi = new Rectangle2D.Float(x, y, w, h);
+		if (cmd.hasOption("top") && cmd.hasOption("left") && cmd.hasOption("bottom") && cmd.hasOption("right")) {
+			float top = Float.valueOf(cmd.getOptionValue("top"));
+			float left = Float.valueOf(cmd.getOptionValue("left"));
+			float bottom = Float.valueOf(cmd.getOptionValue("bottom"));
+			float right = Float.valueOf(cmd.getOptionValue("right"));
+			roiUnscaled = new Rectangle2D.Float(left, top, right - left, bottom - top);
 		} else {
 			if (cmd.hasOption("roi-test")) {
-				throw new IOException("invalid options: must supply roi(x, y, w, h) for roi-test");
+				throw new IOException("invalid options: must supply top, left, bottom, right for roi-test");
 			}
 		}
-		
-		
+
 		if (cmd.hasOption("roi-test")) {
 			for (int i = 0; i < inputFiles.length; i++) {
 				String outPath = getOutputPath(inputFiles[i], outputDirectory, "_ROI.pdf");
-				drawROI(new File(inputFiles[i]), pageNum, outPath, roi);
+				drawROI(new File(inputFiles[i]), pageNum, outPath, roiUnscaled);
 			}
 		} else {
 			for (int i = 0; i < inputFiles.length; i++) {
 				String outPath = getOutputPath(inputFiles[i], outputDirectory, ".html");
 				PDF2HTML(new File(inputFiles[i]), pageNum, outPath, debug, outputDirectory, minRows,
-						lineSpacingThreshold, spaceScale, roi);
+						lineSpacingThreshold, spaceScale, roiUnscaled);
 			}
 		}
 
@@ -164,20 +164,32 @@ public class Driver {
 		return outputPath;
 	}
 
-	public static void PDF2HTML(File pdfFile, Integer pageNum, String outputFilePath, boolean debug, String debugDir,
-			Integer minRows, Double lineSpacingThreshold, Double spaceScale, Rectangle2D roi)
+	public static void PDF2HTML(File pdfFile, int pageNum, String outputFilePath, boolean debug, String debugDir,
+			Integer minRows, Double lineSpacingThreshold, Double spaceScale, Rectangle2D roiUnscaled)
 			throws InvalidPasswordException, IOException {
 
-		//// Start ////
 		PDDocument pdfDocument = PDDocument.load(pdfFile);
 		Document document = new Document(pdfDocument, pageNum, lineSpacingThreshold, spaceScale);
+
+		Rectangle2D roiScaled = null;
+		float pageHeight = pdfDocument.getPage(pageNum).getBBox().getHeight();
+		float pageWidth = pdfDocument.getPage(pageNum).getBBox().getWidth();
+		if (roiUnscaled != null) {
+			roiScaled = new Rectangle2D.Float(
+					(float) (roiUnscaled.getX() * pageWidth),
+					(float) (roiUnscaled.getY() * pageHeight), 
+					(float) (roiUnscaled.getWidth() * pageWidth),
+					(float) (roiUnscaled.getHeight() * pageHeight));
+		}
 
 		document.isolateMergedColumns();
 		document.createNeighborhoods();
 		document.mergeIsolateBlocks();
 		document.decomposeType1Blocks();
-		document.removeBlocksNotInROI(roi);
-		if(minRows != null) {
+		if(roiScaled != null) {
+			document.removeBlocksNotInROI(roiScaled);
+		}
+		if (minRows != null) {
 			document.removeNonTableNeighborhoods(minRows);
 		}
 		int neighborhoodNum = 0;
@@ -209,11 +221,21 @@ public class Driver {
 
 	/// DRAWING ///
 
-	public static void drawROI(File pdfFile, int pageNum, String outputFilePath, Rectangle2D roi) throws IOException {
+	public static void drawROI(File pdfFile, int pageNum, String outputFilePath, Rectangle2D roiUnscaled) throws IOException {
 		PDDocument pdfDocument = PDDocument.load(pdfFile);
+		Rectangle2D roiScaled = null;
+		float pageHeight = pdfDocument.getPage(pageNum).getBBox().getHeight();
+		float pageWidth = pdfDocument.getPage(pageNum).getBBox().getWidth();
+		if (roiUnscaled != null) {
+			roiScaled = new Rectangle2D.Float(
+					(float) (roiUnscaled.getX() * pageWidth),
+					(float) (roiUnscaled.getY() * pageHeight), 
+					(float) (roiUnscaled.getWidth() * pageWidth),
+					(float) (roiUnscaled.getHeight() * pageHeight));
+		}
 		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum);
 		contentStream.setStrokingColor(Color.RED);
-		contentStream.addRect((float) roi.getX(), (float) roi.getY(), (float) roi.getWidth(), (float) roi.getHeight());
+		contentStream.addRect((float) roiScaled.getX(), (float) roiScaled.getY(), (float) roiScaled.getWidth(), (float) roiScaled.getHeight());
 		contentStream.stroke();
 		contentStream.close();
 		pdfDocument.save(outputFilePath);
@@ -291,8 +313,7 @@ public class Driver {
 		System.out.println("File saved: " + outputFilePath);
 	}
 
-	public static PDPageContentStream getContentStream(PDDocument pdfDocument, int pageNum)
-			throws IOException {
+	public static PDPageContentStream getContentStream(PDDocument pdfDocument, int pageNum) throws IOException {
 		// drawBlocks(pdfDocument, pageNum, document.getBlocks(), Color.RED);
 		PDPage page = pdfDocument.getPage(pageNum);
 		Matrix rotationMatrix = getRotationMatrix(page.getRotation(), page.getCropBox().getWidth(),
@@ -355,8 +376,7 @@ public class Driver {
 	 * 
 	 * @throws IOException
 	 */
-	public static void flipContentStreamBack(PDDocument pdfDocument, int pageNum)
-			throws IOException {
+	public static void flipContentStreamBack(PDDocument pdfDocument, int pageNum) throws IOException {
 		PDPageContentStream contentStream = getContentStream(pdfDocument, pageNum);
 		contentStream.close();
 	}

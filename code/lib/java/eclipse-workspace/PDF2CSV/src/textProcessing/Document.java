@@ -19,7 +19,7 @@ import technology.tabula.Utils;
 public class Document {
 	private double lineSpacingThreshold = 1.0f; // Multiplication factor for deciding whether there is a large gap											// between two lines.
 	private double spaceScale = 1.0f; // Multiplication factor for multiplying the definition of width of space.
-	private int pageNum = 0;
+	private int pageNum;
 
 	private PDDocument pdfDocument;
 	private List<TextElement> textElements = new ArrayList<TextElement>();
@@ -28,11 +28,9 @@ public class Document {
 	private List<Word> words = new ArrayList<Word>();
 	private List<Neighborhood> neighborhoods = new ArrayList<Neighborhood>();
 	
-	public Document(PDDocument pdfDocument, Integer pageNum, Double lineSpacingThreshold, Double spaceScale) {
+	public Document(PDDocument pdfDocument, int pageNum, Double lineSpacingThreshold, Double spaceScale) {
 		this.pdfDocument = pdfDocument;
-		if(pageNum != null) {
-			this.pageNum = pageNum;
-		}
+		this.pageNum = pageNum;
 		if(lineSpacingThreshold != null) {
 			this.lineSpacingThreshold = lineSpacingThreshold;
 		}
