@@ -12,10 +12,84 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-from datetime import datetime
+from datetime import datetime, date, timedelta
 
 now = datetime.now()
 CURRENT_YEAR = str(now.year)
+
+# Script using beautifulsoup to download pdfs from WHO.
+def getWHOData(out_dir, update_only=False):
+    if update_only:
+        url = ("http://www.wpro.who.int/" +
+                "emerging_diseases/DengueSituationUpdates/en/")
+
+        request = urllib2.Request(url)
+        html_page = urllib2.urlopen(request)
+        soup = BeautifulSoup(html_page)
+
+        link = soup.find('a', {"class":"link_media"} )
+        link = link['href']
+
+        dateString = getDate(link)
+        filename = ""+dateString + "_WPRO_WHO.pdf"
+        write_path = out_dir + '/' + filename
+        baseURL = "http://www.wpro.who.int"
+
+        if not os.path.isfile(write_path):
+            download_url = baseURL + link
+            try:
+                response = urllib2.urlopen(download_url)
+            except urllib2.HTTPError:
+               exit(0)
+            file = open( write_path, 'w' )
+            file.write(response.read())
+            print("File downloaded: " + filename)
+            file.close()
+
+    else:
+        year = date.today().year
+        url = ("http://www.wpro.who.int/emerging_diseases/documents/dengue."
+                "updates."+str(year)+"/en/")
+        print("Downloading PDFs from " + url)
+        print("...")
+        request = urllib2.Request(url)
+        html_page = urllib2.urlopen(request)
+        soup = BeautifulSoup(html_page)
+
+        allLinks = []
+        for link in soup.findAll('a', { "class":"link_media" } ):
+            allLinks.append(link)
+
+        for i in range( 0, len(allLinks) ):
+            allLinks[i] = allLinks[i]['href']
+
+        baseURL = "http://www.wpro.who.int"
+
+        for biWeekly in (allLinks):
+            dateString = getDate(biWeekly)
+            filename = ""+dateString + "_WPRO_WHO.pdf"
+            write_path = out_dir + '/' + filename
+
+            if not os.path.isfile(write_path):
+                download_url = baseURL + biWeekly
+                try:
+                    response = urllib2.urlopen(download_url)
+                except urllib2.HTTPError:
+                    exit(0)
+                file = open( write_path, 'w' )
+                file.write(response.read())
+                print("File downloaded: " + filename)
+                file.close()
+
+def getDate(string):
+    c = ""
+    for i in range(0, len(string)):
+        if string[i].isdigit():
+            for j in range (0,9):
+                if string[i+j] == '.':
+                    break
+                c+= string[i+j]
+            return c
 
 def getPAHOData(out_dir, update_only=False):
     url = "http://www.paho.org/hq/index.php?option=com_topics&view=rdmore&cid=6290&Itemid=40734"
@@ -80,26 +154,81 @@ def getMexicoData(out_dir, update_only=False):
             print("File downloaded: " + filename)
             file.close()
 
-def getTennesseeData(out_dir, update_only = False):
-    start_year = 2009
-    end_year = int(CURRENT_YEAR)
-    print end_year
-    if update_only:
-        start_year = end_year
-    for year in range(start_year, (end_year + 1)):
-        if year == start_year:
-            start_week = 32  # Tenessee started recording in week 32 of 2009.
-        else:
-            start_week = 1
-        end_week = 53  # TODO: auto-determine which years have week 53. For now, just handle error.
+# Function to get pdf data from WHO on Dengue. PDF files on Dengue Situation
+# Updates.
+def getWHO2Data(out_dir, update_only=False):
+    # Initialize the current date
+    myDate = date.today()
 
-        for week in range(start_week, end_week):
+    # Set the date to be two weeks before.
+    change = 1 - myDate.weekday()
+    myDate += timedelta(days=change-14)
+
+    # If updating then attempt to download past two Tuesdays and this Tuesday
+    if update_only:
+        # For loop to download twice
+        for year in range( 0, 3 ):
+            # Initialize dateString, filename "YearMonthDate_WPRO_WHO.pdf",
+            # output path.
+            dateString = '{:%Y%m%d}'.format(myDate)
+            filename = dateString + "_WPRO_WHO.pdf"
+            write_path = out_dir + '/' + filename
+
+            # Copy Mexico function and edit appropriately.
+            if not os.path.isfile(write_path):
+                # Initialize string for the unique file date
+                download_url = (
+                        "http://www.wpro.who.int/emerging_diseases/dengue_biweekly_report_"
+                        + dateString + ".pdf?ua=1" )
+                try:
+                    response = urllib2.urlopen(download_url)
+                except urllib2.HTTPError:
+                    exit(0)
+                file = open(write_path, 'w')
+                file.write(response.read())
+                print("File downloaded: " + filename)
+                file.close()
+            myDate += timedelta(days=7)
+
+
+def getTennesseeData(out_dir, update_only = False):
+    firstRecordedYear = 2009
+    firstRecordedWeek = 32  # Tennessee started recording in week 32 of 2009
+    endYear = int(CURRENT_YEAR)
+    if update_only:
+        # Find most recently downloaded PDF file so that
+        # we know when to start downloading.
+        maxYear = firstRecordedYear
+        maxWeek = firstRecordedWeek - 1
+        for filename in os.listdir(out_dir):
+            if filename.endswith(".pdf"):
+                week, year = map(int, re.findall(r'\d+', filename))
+                if year > maxYear:
+                    maxYear = year
+                    maxWeek = week
+                elif year == maxYear and week > maxWeek:
+                    maxWeek = week
+        firstYear = maxYear    # Doesn't handle year boundaries well because we don't 
+        firstWeek = maxWeek+1  # know if there are 52 or 53 weeks in which year.
+    else:
+        firstYear = firstRecordedYear
+        firstWeek = firstRecordedWeek
+    for year in range(firstYear, (endYear + 1)):
+        if year == firstYear:
+            startWeek = firstWeek
+        else:
+            startWeek = 1
+        endWeek = 53  # TODO: auto-determine which years have week 53. For now, just handle error.
+
+        for week in range(startWeek, endWeek):
             url = "http://tn.gov/assets/entities/health/attachments/week" + str(week) + "ILI_spnreport_" + str(year) + ".pdf"
+            filename = os.path.basename(url)
             try:
                 response = urllib2.urlopen(url)
             except:
+                print("Error: Could not find: " + filename)
+                print("--> Invalid address: " + url)
                 continue
-            filename = os.path.basename(url)
             write_path = os.path.join(out_dir, filename)
             file = open(write_path, 'w')
             file.write(response.read())
@@ -129,7 +258,7 @@ def getPeruData(out_dir, update_only=False):
         perus_filename = spl_link[len(spl_link)-1]
         Ep_Wk = spl_link[len(spl_link)-2]
         Year = spl_link[len(spl_link)-3]
-        my_filename = Year + '_' + Ep_Wk + '_' + '_'.join(perus_filename.split('%20')) 
+        my_filename = Year + '_' + Ep_Wk + '_' + '_'.join(perus_filename.split('%20'))
         write_path = out_dir + '/' + my_filename
         if not os.path.isfile(write_path):
                 response = urllib2.urlopen(link)
@@ -153,7 +282,7 @@ def getRioData(out_dir, update_only=False):
     for link in all_links:
         if link.endswith('.pdf') or link.endswith('.htm'):
             links.append(link)
-    
+
     # Only download current year for updates
     if update_only:
         temp = []
@@ -192,7 +321,7 @@ def getTaiwanData(out_dir, update_only=False):
         os.mkdir(out_dir)
     Taiwan_URL = "https://nidss.cdc.gov.tw/en/SingleDisease.aspx?dc=1&dt=4&disease=061"
 
-    chrome_options = webdriver.ChromeOptions()  
+    chrome_options = webdriver.ChromeOptions()
     prefs = {"download.default_directory" : os.path.abspath(out_dir)}
     chrome_options.add_experimental_option("prefs",prefs)
     driver = webdriver.Chrome(chrome_options=chrome_options)
@@ -253,7 +382,7 @@ def getTaiwanData(out_dir, update_only=False):
                 except TimeoutException:
                     # No more options in dropdown
                     break
-                
+
                 # Click 'Query' Button
                 query_Button_ID = "ctl00_NIDSSContentPlace_NIDSS_query1_btnSend"
                 query_Button = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, query_Button_ID)))
@@ -277,7 +406,7 @@ def getTaiwanData(out_dir, update_only=False):
                     regName = regName.replace(" ", "-").lower()
 
                     filename = dataType + ",-" + distName + "," + cityName + "," + regName + ",-" + caseOrigin + ",-" + period + ".csv"
-                    
+
                     f = open(os.path.join(out_dir, filename), 'w')
                     writer = csv.writer(f)
                     writer.writerow( ('Onset Year-Week', 'Number of Confirmed Cases') )
@@ -357,7 +486,7 @@ def getTaiwanData(out_dir, update_only=False):
                 break
 
             # Get dates
-            li_xpath = "//table[@class='note']/tbody[1]/tr[1]/td[1]/ol[1]/li[1]" 
+            li_xpath = "//table[@class='note']/tbody[1]/tr[1]/td[1]/ol[1]/li[1]"
             li = WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.XPATH, li_xpath)))
             li_text = li.text
 
@@ -376,7 +505,7 @@ def getSriLankaData(out_dir, update_only=False):
     sri_URLs = [sri_URL_monthly, sri_URL_weekly]
     monthly_table_id = "viewDeseases"
     weekly_table_id = "viewDeseasesSumry"
-    table_ids = [monthly_table_id, weekly_table_id] 
+    table_ids = [monthly_table_id, weekly_table_id]
     data_freq = ["monthly", "weekly"]
 
 
@@ -395,7 +524,7 @@ def getSriLankaData(out_dir, update_only=False):
                 nextYear.click()
                 # Wait for refresh
                 selected_option = year_xpath
-                WebDriverWait(driver, 10).until(EC.element_located_to_be_selected((By.XPATH, selected_option))) 
+                WebDriverWait(driver, 10).until(EC.element_located_to_be_selected((By.XPATH, selected_option)))
             except TimeoutException:
                 # No more options in dropdown
                 break
