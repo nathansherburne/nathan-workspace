@@ -11,7 +11,7 @@ CSV.filenames = list.files(IN_DIR, pattern="2017_EW.*csv")
 # Order by date 
 CSV.filenames = CSV.filenames[order(CSV.filenames)]
 
-ALL_CSV_df_ugly = lapply(CSV.filenames, function(filename) read.csv(paste0(IN_DIR, filename), stringsAsFactors = FALSE, na.strings=c(""," ", "NA")))
+ALL_CSV_df_ugly = lapply(CSV.filenames, function(filename) read.csv(paste0(IN_DIR, filename), stringsAsFactors = FALSE, na.strings=c(""," ", "NA"), header = FALSE))
 ALL_CSV_df_pretty = lapply(ALL_CSV_df_ugly, formatPAHOcsv) # Format (remove 'total' rows, fix column names, etc...)
 print("Formatting CSV...")
 

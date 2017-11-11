@@ -12,10 +12,10 @@ formatPAHOcsv <- function(df) {
   COL_NAMES = c("Country.or.Subregion", "Week", "Probable", "Probable.Incidence.Rate", 
                 "Lab.Confirm", "Lab.Confirm.Incidence.Rate", "Serotype", "Severe.Dengue", 
                 "Deaths", "Population.x.1000", "(SD/D).x.100", "CFR") 
-  
   names(df) = COL_NAMES
+
   # Remove unwanted rows (total, subtotal, etc...)
-  df = df[-grep("total|country", df$Country.or.Subregion, ignore.case=TRUE), ]
+  df = df[-grep("total|country", df$Country.or.Subregion, ignore.case=TRUE), ]  # This is where the old header (i.e. the new first row) will be removed if it was indeed an actual header.
   # Remove unneeded columns (incidence rate, SD/D ratio, CFR,... can all be calculated)
   drops = c("Probable.Incidence.Rate", "Lab.Confirm.Incidence.Rate", "(SD/D).x.100", "CFR")
   df = df[ , names(df)[!(names(df) %in% drops)]]

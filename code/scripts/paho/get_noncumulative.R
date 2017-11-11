@@ -29,6 +29,8 @@ names(NON_CUMU_df) = mapply(function(name1, name2) {
    return(paste0(year, '_EW_', prev_week, '-', cur_week, '.csv'))
 }, CSV.filenames[-length(CSV.filenames)], CSV.filenames[-1])
 
+respective.years = unlist(lapply(names(NON_CUMU_df), function(name) substr(name, 1, 4)))  # Gets year from each name
+NON_CUMU_df = mapply(function(df, year) addYearCol(df, year), NON_CUMU_df, respective.years, SIMPLIFY = FALSE)
 NON_CUMU_df = lapply(NON_CUMU_df, function(df) setcolorder(df, 
    c("Year", "Week", "Country.or.Subregion", "Probable", "Lab.Confirm", "Severe.Dengue", "Deaths", "New.Serotype", "Cumul.Serotype", "Population.x.1000")))
 

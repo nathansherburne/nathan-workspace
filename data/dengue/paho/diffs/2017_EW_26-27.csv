@@ -1,52 +1,52 @@
 "Year","Week","Country.or.Subregion","Probable","Lab.Confirm","Severe.Dengue","Deaths","New.Serotype","Cumul.Serotype","Population.x.1000"
-2017,"Week 26 - Week 27","Canada",0,0,0,0,NA,NA,NA
-2017,"Week 26 - Week 27","United States",4,13,0,0,NA,"DEN",325128
-2017,"Week 00 - Week 00","Belize",NA,NA,NA,NA,NA,NA,348
-2017,"Week 26 - Week 27","Costa Rica",178,NA,0,0,NA,"DEN 1,2",5002
-2017,"Week 26 - Week 27","El Salvador",68,0,9,0,NA,"DEN 2",6426
-2017,"Week 24 - Week 24","Guatemala",0,0,NA,NA,NA,"DEN 1,2",16255
-2017,"Week 26 - Week 27","Honduras",160,0,2,0,NA,"DEN1,2,3",8721
-2017,"Week 26 - Week 27","Mexico",416,238,41,0,"DEN 4","DEN 1,2,3,4",125236
-2017,"Week 26 - Week 26","Nicaragua",0,0,NA,0,NA,"DEN",6257
-2017,"Week 25 - Week 25","Panama",0,0,0,0,NA,"DEN 1,2",3988
-2017,"Week 20 - Week 20","Bolivia",0,NA,0,NA,NA,NA,11025
-2017,"Week 26 - Week 27","Colombia",646,0,6,-2,NA,"DEN",49529
-2017,"Week 26 - Week 27","Ecuador",196,196,0,0,NA,"DEN",16226
-2017,"Week 26 - Week 27","Peru",183,667,2,1,NA,"DEN 2,3",31161
-2017,"Week 17 - Week 17","Venezuela",0,0,0,0,NA,"DEN",31028
-2017,"Week 26 - Week 27","Argentina",262,5,0,0,NA,"DEN 1",42155
-2017,"Week 25 - Week 25","Brazil",0,NA,49,34,NA,"DEN",203657
-2017,"Week 26 - Week 27","Chile",0,0,0,0,NA,"DEN 2",17924
-2017,"Week 26 - Week 26","Paraguay",0,0,NA,0,NA,"DEN 1",7033
-2017,"Week 26 - Week 27","Uruguay",0,0,0,0,NA,NA,3430
-2017,"Week 25 - Week 25","Cuba",0,NA,NA,NA,NA,"DEN 2,3",11249
-2017,"Week 26 - Week 27","Dominican Republic",29,NA,0,0,NA,"DEN",10652
-2017,"Week 26 - Week 27","Puerto Rico",0,0,0,0,NA,"DEN 2",3680
-2017,"Week 19 - Week 19","American Virgin Islands",0,0,0,0,NA,"DEN",104
-2017,"Week 12 - Week 12","Anguilla",3,0,0,0,NA,"DEN",16
-2017,"Week 16 - Week 24","Antigua & Barbuda",0,0,0,0,NA,NA,92
-2017,"Week 22 - Week 24","Aruba",-29,1,0,0,NA,"DEN",112
-2017,"Week 12 - Week 20","Bahamas",4,0,0,0,NA,NA,388
-2017,"Week 12 - Week 20","Barbados",55,8,0,0,NA,"DEN",291
-2017,"Week 16 - Week 24","Bermuda",0,0,0,0,NA,NA,70
-2017,"Week 12 - Week 20","British Virgin Islands",12,21,0,0,NA,"DEN",33
-2017,"Week 16 - Week 24","Cayman Islands",5,0,0,0,NA,NA,56
-2017,"Week 00 - Week 00","Curacao",0,0,0,0,NA,NA,148
-2017,"Week 08 - Week 27","Dominica",12,0,0,0,NA,NA,74
-2017,"Week 17 - Week 17","French Guiana",0,0,0,0,NA,NA,239
-2017,"Week 16 - Week 20","Grenada",22,22,0,0,NA,"DEN",111
-2017,"Week 22 - Week 22","Guadaloupe",0,0,0,0,NA,NA,411
-2017,"Week 00 - Week 00","Guyana",NA,NA,0,0,NA,NA,808
-2017,"Week 00 - Week 00","Haiti",NA,NA,0,0,NA,NA,10604
-2017,"Week 26 - Week 27","Jamaica",2,0,0,0,NA,"DEN",2813
-2017,"Week 22 - Week 22","Martinique",0,0,0,0,NA,NA,398
-2017,"Week 16 - Week 24","Montserrat",0,0,0,0,NA,NA,5
-2017,"Week 00 - Week 00","Netherlands Antilles",NA,NA,0,0,NA,NA,225
-2017,"Week 22 - Week 22","St. Bartolome",0,0,0,0,NA,NA,9
-2017,"Week 00 - Week 24","St. Kitts & Nevis",NA,NA,0,0,NA,NA,52
-2017,"Week 12 - Week 24","St. Lucia",3,3,0,0,NA,"DEN",164
-2017,"Week 22 - Week 22","St. Martin",0,0,0,0,NA,NA,41
-2017,"Week 16 - Week 16","St. Vincent & the Grenadines",0,0,0,0,NA,NA,103
-2017,"Week 00 - Week 00","Suriname",NA,NA,0,0,NA,NA,548
-2017,"Week 19 - Week 19","Trinidad & Tobago",0,0,0,0,NA,NA,1347
-2017,"Week 16 - Week 16","Turks & Caicos Islands",0,0,0,0,NA,"DEN",50
+"2017","Week 26 - Week 27","Canada",0,0,0,0,NA,NA,NA
+"2017","Week 26 - Week 27","United States",4,13,0,0,NA,"DEN",325128
+"2017","Week 00 - Week 00","Belize",NA,NA,NA,NA,NA,NA,348
+"2017","Week 26 - Week 27","Costa Rica",178,NA,0,0,NA,"DEN 1,2",5002
+"2017","Week 26 - Week 27","El Salvador",68,0,9,0,NA,"DEN 2",6426
+"2017","Week 24 - Week 24","Guatemala",0,0,NA,NA,NA,"DEN 1,2",16255
+"2017","Week 26 - Week 27","Honduras",160,0,2,0,NA,"DEN1,2,3",8721
+"2017","Week 26 - Week 27","Mexico",416,238,41,0,"DEN 4","DEN 1,2,3,4",125236
+"2017","Week 26 - Week 26","Nicaragua",0,0,NA,0,NA,"DEN",6257
+"2017","Week 25 - Week 25","Panama",0,0,0,0,NA,"DEN 1,2",3988
+"2017","Week 20 - Week 20","Bolivia",0,NA,0,NA,NA,NA,11025
+"2017","Week 26 - Week 27","Colombia",646,0,6,-2,NA,"DEN",49529
+"2017","Week 26 - Week 27","Ecuador",196,196,0,0,NA,"DEN",16226
+"2017","Week 26 - Week 27","Peru",183,667,2,1,NA,"DEN 2,3",31161
+"2017","Week 17 - Week 17","Venezuela",0,0,0,0,NA,"DEN",31028
+"2017","Week 26 - Week 27","Argentina",262,5,0,0,NA,"DEN 1",42155
+"2017","Week 25 - Week 25","Brazil",0,NA,49,34,NA,"DEN",203657
+"2017","Week 26 - Week 27","Chile",0,0,0,0,NA,"DEN 2",17924
+"2017","Week 26 - Week 26","Paraguay",0,0,NA,0,NA,"DEN 1",7033
+"2017","Week 26 - Week 27","Uruguay",0,0,0,0,NA,NA,3430
+"2017","Week 25 - Week 25","Cuba",0,NA,NA,NA,NA,"DEN 2,3",11249
+"2017","Week 26 - Week 27","Dominican Republic",29,NA,0,0,NA,"DEN",10652
+"2017","Week 26 - Week 27","Puerto Rico",0,0,0,0,NA,"DEN 2",3680
+"2017","Week 19 - Week 19","American Virgin Islands",0,0,0,0,NA,"DEN",104
+"2017","Week 12 - Week 12","Anguilla",3,0,0,0,NA,"DEN",16
+"2017","Week 16 - Week 24","Antigua & Barbuda",0,0,0,0,NA,NA,92
+"2017","Week 22 - Week 24","Aruba",-29,1,0,0,NA,"DEN",112
+"2017","Week 12 - Week 20","Bahamas",4,0,0,0,NA,NA,388
+"2017","Week 12 - Week 20","Barbados",55,8,0,0,NA,"DEN",291
+"2017","Week 16 - Week 24","Bermuda",0,0,0,0,NA,NA,70
+"2017","Week 12 - Week 20","British Virgin Islands",12,21,0,0,NA,"DEN",33
+"2017","Week 16 - Week 24","Cayman Islands",5,0,0,0,NA,NA,56
+"2017","Week 00 - Week 00","Curacao",0,0,0,0,NA,NA,148
+"2017","Week 08 - Week 27","Dominica",12,0,0,0,NA,NA,74
+"2017","Week 17 - Week 17","French Guiana",0,0,0,0,NA,NA,239
+"2017","Week 16 - Week 20","Grenada",22,22,0,0,NA,"DEN",111
+"2017","Week 22 - Week 22","Guadaloupe",0,0,0,0,NA,NA,411
+"2017","Week 00 - Week 00","Guyana",NA,NA,0,0,NA,NA,808
+"2017","Week 00 - Week 00","Haiti",NA,NA,0,0,NA,NA,10604
+"2017","Week 26 - Week 27","Jamaica",2,0,0,0,NA,"DEN",2813
+"2017","Week 22 - Week 22","Martinique",0,0,0,0,NA,NA,398
+"2017","Week 16 - Week 24","Montserrat",0,0,0,0,NA,NA,5
+"2017","Week 00 - Week 00","Netherlands Antilles",NA,NA,0,0,NA,NA,225
+"2017","Week 22 - Week 22","St. Bartolome",0,0,0,0,NA,NA,9
+"2017","Week 00 - Week 24","St. Kitts & Nevis",NA,NA,0,0,NA,NA,52
+"2017","Week 12 - Week 24","St. Lucia",3,3,0,0,NA,"DEN",164
+"2017","Week 22 - Week 22","St. Martin",0,0,0,0,NA,NA,41
+"2017","Week 16 - Week 16","St. Vincent & the Grenadines",0,0,0,0,NA,NA,103
+"2017","Week 00 - Week 00","Suriname",NA,NA,0,0,NA,NA,548
+"2017","Week 19 - Week 19","Trinidad & Tobago",0,0,0,0,NA,NA,1347
+"2017","Week 16 - Week 16","Turks & Caicos Islands",0,0,0,0,NA,"DEN",50

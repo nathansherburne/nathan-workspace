@@ -15,7 +15,7 @@ def main(argv):
         os.environ["ENVTEST"] = "1"
         parser = argparse.ArgumentParser()
         parser.add_argument("-o", "--output", metavar="dir", type=is_dir, help="the output directory")
-        parser.add_argument("-d", "--dataset", type=str, required=True, choices=['WHO', 'MX', 'TW', 'PE', 'Rio', 'PAHO', 'LK', 'TN', 'CME'], help="the data set to download")
+        parser.add_argument("-d", "--dataset", type=str, required=True, choices=['SD', 'WHO', 'MX', 'TW', 'PE', 'Rio', 'PAHO', 'LK', 'TN', 'CME'], help="the data set to download")
         parser.add_argument("-u", "--update", action='store_true', default=False, help="Downloads only the current data")
         args = parser.parse_args()
 
@@ -24,6 +24,8 @@ def main(argv):
         else:
             out_dir = os.getcwd()
 
+        if args.dataset == "SD":
+            dw.getSanDiegoData(out_dir, args.update)
         if args.dataset == 'WHO':
             dw.getWHOData(out_dir, args.update)
         if args.dataset == 'MX':
