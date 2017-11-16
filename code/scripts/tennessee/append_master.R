@@ -57,17 +57,17 @@ for(i in 1:length(CSV.filenames)) {
     ILI.list = unlist(ILI.list)
     
     # Put all values for the new row into one list.
-    ROW = c(new.file.week.num, as.character(new.file.end.date), ILI.list)
+    NEW.ROW = c(new.file.week.num, as.character(new.file.end.date), ILI.list)
     
     # Append the row to the master
-    master.df = rbind(master.df, ROW)
+    master.df = rbind(master.df, NEW.ROW)
     master.changed = TRUE
   }
 }
 
 if(master.changed) {
   # Write
-  write.csv(master.df, master.filepath, row.names = FALSE)
+  write.csv(master.df, MASTER.FILEPATH, row.names = FALSE)
   print("Master CSV updated!")
 } else {
   print("Master CSV already up to date.")
