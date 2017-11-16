@@ -4,6 +4,7 @@ import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
@@ -17,7 +18,8 @@ import technology.tabula.TextStripper;
 import technology.tabula.Utils;
 
 public class Document {
-	private double lineSpacingThreshold = 1.0f; // Multiplication factor for deciding whether there is a large gap											// between two lines.
+	private double lineSpacingThreshold = 1.0f; // Multiplication factor for deciding whether there is a large gap //
+												// between two lines.
 	private double spaceScale = 1.0f; // Multiplication factor for multiplying the definition of width of space.
 	private int pageNum;
 
@@ -27,36 +29,36 @@ public class Document {
 	private List<Block> blocks = new ArrayList<Block>();
 	private List<Word> words = new ArrayList<Word>();
 	private List<Neighborhood> neighborhoods = new ArrayList<Neighborhood>();
-	
+
 	public Document(PDDocument pdfDocument, int pageNum, Double lineSpacingThreshold, Double spaceScale) {
 		this.pdfDocument = pdfDocument;
 		this.pageNum = pageNum;
-		if(lineSpacingThreshold != null) {
+		if (lineSpacingThreshold != null) {
 			this.lineSpacingThreshold = lineSpacingThreshold;
 		}
-		if(spaceScale != null) {
+		if (spaceScale != null) {
 			this.spaceScale = spaceScale;
 		}
 		init();
 	}
-	
+
 	private void init() {
 		extractText();
 		createWords();
 		createLines();
 		createDummyLines();
 		createBlocks();
-		
-		//isolateMergedColumns();
-		//createNeighborhoods();
-		//mergeIsolateBlocks();
-		//decomposeType1Blocks();
+
+		// isolateMergedColumns();
+		// createNeighborhoods();
+		// mergeIsolateBlocks();
+		// decomposeType1Blocks();
 	}
 
 	public PDDocument getPDDocument() {
 		return pdfDocument;
 	}
-	
+
 	public int getPageNum() {
 		return pageNum;
 	}
@@ -80,17 +82,17 @@ public class Document {
 	public List<Neighborhood> getNeighborhoods() {
 		return neighborhoods;
 	}
-	
+
 	public List<Line> getDummyLines() {
 		List<Line> dummyLines = new ArrayList<>();
-		for(Line line : lines) {
-			if(line.getText().equals("")) {
+		for (Line line : lines) {
+			if (line.getText().equals("")) {
 				dummyLines.add(line);
 			}
 		}
 		return dummyLines;
 	}
-	
+
 	public List<Line> getLines() {
 		return lines;
 	}
@@ -187,7 +189,7 @@ public class Document {
 		}
 		add(word);
 	}
-	
+
 	private void extractText() {
 		TextStripper textStripper = null;
 		try {
@@ -206,7 +208,6 @@ public class Document {
 		Utils.sort(textStripper.textElements);
 		this.textElements = textStripper.textElements;
 	}
-	
 
 	/**
 	 * Groups the words in this document into lines.
@@ -288,34 +289,66 @@ public class Document {
 			neighborhoods.add(n);
 		}
 	}
-	
+
+	public void createNeighborhoodsV2() {
+		Collections.sort(blocks);
+		List<Double> verticalNeighborhoodBreakpoints = new ArrayList<>();
+		verticalNeighborhoodBreakpoints.add(0.0);
+		for (Line spacing : getDummyLines()) {
+			verticalNeighborhoodBreakpoints.add(spacing.getCenterY());
+		}
+		verticalNeighborhoodBreakpoints.add(Double.MAX_VALUE);
+		Iterator<Double> yIter = verticalNeighborhoodBreakpoints.iterator();
+		double upperY = yIter.next();
+		double lowerY = yIter.next();
+		ListIterator<Block> blockIterator = blocks.listIterator();
+		if (blockIterator.hasNext()) {
+			Block b = blockIterator.next();
+			Neighborhood n = new Neighborhood(b, spaceScale);
+			while (blockIterator.hasNext()) {
+				b = blockIterator.next();
+				if (b.getCenterY() < lowerY && b.getCenterY() > upperY) {
+					n.add(b);
+				} else {
+					neighborhoods.add(n);
+					n = new Neighborhood(b, spaceScale);
+					upperY = lowerY;
+					lowerY = yIter.next();
+				}
+			}
+			neighborhoods.add(n);
+		}
+	}
+
 	/**
-	 * Removes neighborhoods from the list of neighborhoods if they do not have 
-	 * the minimum number of rows.
+	 * Removes neighborhoods from the list of neighborhoods if they do not have the
+	 * minimum number of rows.
+	 * 
 	 * @param minRows
 	 */
 	public void removeNonTableNeighborhoods(int minRows) {
 		Iterator<Neighborhood> nIter = neighborhoods.iterator();
-		while(nIter.hasNext()) {
+		while (nIter.hasNext()) {
 			Neighborhood n = nIter.next();
-			if(n.getHorizontalRulings().size() < minRows) {
+			if (n.getHorizontalRulings().size() < minRows) {
 				nIter.remove();
 			}
 		}
 	}
-	
+
 	public void removeBlocksNotInROI(Rectangle2D roi) {
 		Iterator<Neighborhood> nIter = neighborhoods.iterator();
 		while (nIter.hasNext()) {
 			Neighborhood n = nIter.next();
 			Iterator<Block> bIter = n.getTextElements().iterator();
-			while(bIter.hasNext()) {
+			while (bIter.hasNext()) {
 				Block b = bIter.next();
-				if(!roi.contains(b)) {
+				if (!roi.contains(b)) {
 					bIter.remove();
 				}
 			}
-			if(n.getTextElements().isEmpty()) { // All the blocks in this neighborhood were removed (i.e. outside of ROI).
+			if (n.getTextElements().isEmpty()) { // All the blocks in this neighborhood were removed (i.e. outside of
+													// ROI).
 				nIter.remove();
 			}
 		}
@@ -365,34 +398,36 @@ public class Document {
 			blocks.addAll(decomposedBlocks);
 		}
 	}
-	
+
 	/**
 	 * Merges type 2 blocks that are not significantly more than one space apart.
 	 * 
 	 * DOES NOT WORK YET.
 	 */
-//	public void removeRivers() {
-//		for(Neighborhood n : neighborhoods) {
-//			Collections.sort(n.getTextElements());
-//			ListIterator<Block> bIter = n.getTextElements().listIterator();
-//			while(bIter.hasNext()) {
-//				Block current = bIter.next();
-//				if(current.getType() != Block.BLOCK_TYPE.TYPE2) {
-//					continue;
-//				}
-//				Block leftNeighbor = n.getClosestLeftNeighbor(current);
-//				if(leftNeighbor == null || leftNeighbor.getType() != Block.BLOCK_TYPE.TYPE2) {
-//					continue;
-//				}
-//				float distance = Math.abs(n.horizontalOverlapValue(current, leftNeighbor));
-//				float widthOfSpace = Math.max(current.getAvgWidthOfSpace(), leftNeighbor.getAvgWidthOfSpace());
-//				if(distance <= widthOfSpace) {
-//					bIter.remove();
-//					leftNeighbor.merge(current);
-//				}
-//			}
-//		}
-//	}
+	// public void removeRivers() {
+	// for(Neighborhood n : neighborhoods) {
+	// Collections.sort(n.getTextElements());
+	// ListIterator<Block> bIter = n.getTextElements().listIterator();
+	// while(bIter.hasNext()) {
+	// Block current = bIter.next();
+	// if(current.getType() != Block.BLOCK_TYPE.TYPE2) {
+	// continue;
+	// }
+	// Block leftNeighbor = n.getClosestLeftNeighbor(current);
+	// if(leftNeighbor == null || leftNeighbor.getType() != Block.BLOCK_TYPE.TYPE2)
+	// {
+	// continue;
+	// }
+	// float distance = Math.abs(n.horizontalOverlapValue(current, leftNeighbor));
+	// float widthOfSpace = Math.max(current.getAvgWidthOfSpace(),
+	// leftNeighbor.getAvgWidthOfSpace());
+	// if(distance <= widthOfSpace) {
+	// bIter.remove();
+	// leftNeighbor.merge(current);
+	// }
+	// }
+	// }
+	// }
 
 	public void isolateMergedColumns() {
 		ListIterator<Block> bIter = blocks.listIterator();

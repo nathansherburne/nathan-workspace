@@ -183,7 +183,7 @@ public class Driver {
 		}
 
 		document.isolateMergedColumns();
-		document.createNeighborhoods();
+		document.createNeighborhoodsV2();
 		document.mergeIsolateBlocks();
 		document.decomposeType1Blocks();
 		if(roiScaled != null) {
