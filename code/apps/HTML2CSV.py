@@ -19,6 +19,9 @@ def main(argv):
     parser.epilog = get_epilog(parser.prog)
     parser.add_argument("input", metavar='file', type=is_html, nargs='+', help="the HTML file(s) you want to convert to CSV.")
     parser.add_argument("-o", "--output", metavar='dir', type=is_dir, default=os.getcwd(), help="the output directory")
+    parser.add_argument("-n", "--nested", action='store_true', default=False, help="use naming convention for nested tables")
+    parser.add_argument("-m", "--multiple", action='store_true', default=False, help="use naming convention for multiple same-level tables")
+    parser.add_argument("-s", "--single", action='store_true', default=True, help="use naming convention for single table (Default)")
 
     args = parser.parse_args()
 
@@ -26,7 +29,7 @@ def main(argv):
         html = open(htmlfilename, 'rb')
         name, ext = os.path.splitext(os.path.basename(htmlfilename))
         outputfilename = name + '.csv'
-        saveTable(html, outputfilename, args.output)
+        saveTable(html, outputfilename, args)
         html.close()
 
 def getCSV(html_stream):
@@ -34,21 +37,27 @@ def getCSV(html_stream):
     html_parser.feed(html_stream)
     return html_parser.getCSV(True)
 
-def saveTable(html, filename, directory):
+def saveTable(html, filename, args):
+    directory = args.output
     root = BeautifulSoup(html, "lxml")
     table_uids = generateNestedUniqueIDs(str(root), 'table')
     tnum = 0
     for table in root.find_all('table'):
         table = removeTags(table, ['script', 'table'])
-        unqfilename = getChildFilename(filename, table_uids[tnum])
+        if args.nested:  
+            unqfilename = getChildFilename(filename, table_uids[tnum])  # Get a unique nested filename for this table
+        elif args.multiple:
+            unqfilename = getChildFilename(filename, tnum)  # Get a unique filename for this table
+        else:
+            unqfilename = filename
         csvfile = open(os.path.join(directory, unqfilename), 'w+b')
         csvfile.write(getCSV(str(table)))
         csvfile.close()
         tnum += 1
 
-def getChildFilename(filename, childnumber):
+def getChildFilename(filename, childNumber):
     name, ext = os.path.splitext(os.path.basename(filename))
-    return name + '-' + str(childnumber) + ext
+    return name + '-' + str(childNumber) + ext
 
 def removeTags(soup, tags):
     for tag in tags:
