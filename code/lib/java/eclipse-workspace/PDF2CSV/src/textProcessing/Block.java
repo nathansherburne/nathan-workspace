@@ -150,10 +150,10 @@ public class Block extends RectangularTextContainer<Word> implements HasText {
 		
 		StringBuilder sb = new StringBuilder();
 		for(TextChunk word : words) {
-			sb.append(word.getText());
+			sb.append(word.getText() + ' ');
 		}
-		
-		return sb.toString();
+		// trim is to remove the extra whitespace on the end from the for loop.
+		return sb.toString().trim();  
 	}
 
 	@Override

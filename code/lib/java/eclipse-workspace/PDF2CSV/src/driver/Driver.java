@@ -47,15 +47,15 @@ public class Driver {
 		output.setRequired(true);
 		options.addOption(output);
 
-		Option pageOpt = new Option("p", "page", true, "the page number");
-		pageOpt.setRequired(true);
+		Option pageOpt = new Option("p", "page", true, "page number(s). Either a single number or comma separated list. (Default is 1)");
+		pageOpt.setRequired(false);
 		options.addOption(pageOpt);
 
 		Option debugOpt = new Option("d", "debug", false, "save debug PDFs / print debug info");
 		options.addOption(debugOpt);
 
 		Option minRowsOpt = new Option("m", "min-rows", true,
-				"will not be considered a table if it doesn't have this many rows");
+				"will not be considered a table if it doesn't have this many rows. Helps to find the right neighborhood.");
 		options.addOption(minRowsOpt);
 
 		Option lineSpacingThresholdOpt = new Option("n", "line-spacing", true,
@@ -101,14 +101,20 @@ public class Driver {
 		String[] inputFiles = cmd.getOptionValues("i");
 		String outputDirectory = cmd.getOptionValue("output");
 		boolean debug = cmd.hasOption("debug");
-		int pageNum = 0;
+		List<Integer> pages = new ArrayList<>();
 		Integer minRows = null;
 		Double lineSpacingThreshold = null;
 		Double spaceScale = null;
 		Rectangle2D.Float roiUnscaled = null;
 
 		if (cmd.hasOption("page")) {
-			pageNum = Integer.valueOf(cmd.getOptionValue("page")) - 1;
+			String value = cmd.getOptionValue("page");
+			String[] pageNums = value.split("[,]");
+			for(int i = 0; i < pageNums.length; i++) {
+				pages.add(Integer.valueOf(pageNums[i].trim()) - 1); 
+			}
+		} else {
+			pages.add(0);  // Default is first page
 		}
 		if (cmd.hasOption("min-rows")) {
 			minRows = Integer.valueOf(cmd.getOptionValue("min-rows"));
@@ -134,12 +140,12 @@ public class Driver {
 		if (cmd.hasOption("roi-test")) {
 			for (int i = 0; i < inputFiles.length; i++) {
 				String outPath = getOutputPath(inputFiles[i], outputDirectory, "_ROI.pdf");
-				drawROI(new File(inputFiles[i]), pageNum, outPath, roiUnscaled);
+				drawROI(new File(inputFiles[i]), 0, outPath, roiUnscaled);
 			}
 		} else {
 			for (int i = 0; i < inputFiles.length; i++) {
 				String outPath = getOutputPath(inputFiles[i], outputDirectory, ".html");
-				PDF2HTML(new File(inputFiles[i]), pageNum, outPath, debug, outputDirectory, minRows,
+				PDF2HTML(new File(inputFiles[i]), pages, outPath, debug, outputDirectory, minRows,
 						lineSpacingThreshold, spaceScale, roiUnscaled);
 			}
 		}
@@ -163,56 +169,74 @@ public class Driver {
 		String outputPath = outputDirectory + '/' + basename + ext;
 		return outputPath;
 	}
+	
+	/** 
+	 * Example: "/directory/file.txt", "_1" -> "/directory/file_1.txt"
+	 * @param filepath
+	 * @param toAppend
+	 * @return
+	 */
+	public static String addStringBeforeExtension(String filepath, String toAppend) {
+		String[] tokens = filepath.split("\\.(?=[^\\.]+$)");
+		tokens[0] += toAppend;
+		return tokens[0] + '.' + tokens[1];
+	}
 
-	public static void PDF2HTML(File pdfFile, int pageNum, String outputFilePath, boolean debug, String debugDir,
+	public static void PDF2HTML(File pdfFile, List<Integer> pages, String outputFilePath, boolean debug, String debugDir,
 			Integer minRows, Double lineSpacingThreshold, Double spaceScale, Rectangle2D roiUnscaled)
 			throws InvalidPasswordException, IOException {
 
 		PDDocument pdfDocument = PDDocument.load(pdfFile);
-		Document document = new Document(pdfDocument, pageNum, lineSpacingThreshold, spaceScale);
+		
+		for(int pageNum : pages) {
+			Document document = new Document(pdfDocument, pageNum, lineSpacingThreshold, spaceScale);
 
-		Rectangle2D roiScaled = null;
-		float pageHeight = pdfDocument.getPage(pageNum).getBBox().getHeight();
-		float pageWidth = pdfDocument.getPage(pageNum).getBBox().getWidth();
-		if (roiUnscaled != null) {
-			roiScaled = new Rectangle2D.Float(
-					(float) (roiUnscaled.getX() * pageWidth),
-					(float) (roiUnscaled.getY() * pageHeight), 
-					(float) (roiUnscaled.getWidth() * pageWidth),
-					(float) (roiUnscaled.getHeight() * pageHeight));
+			Rectangle2D roiScaled = null;
+			float pageHeight = pdfDocument.getPage(pageNum).getBBox().getHeight();
+			float pageWidth = pdfDocument.getPage(pageNum).getBBox().getWidth();
+			if (roiUnscaled != null) {
+				roiScaled = new Rectangle2D.Float(
+						(float) (roiUnscaled.getX() * pageWidth),
+						(float) (roiUnscaled.getY() * pageHeight), 
+						(float) (roiUnscaled.getWidth() * pageWidth),
+						(float) (roiUnscaled.getHeight() * pageHeight));
+			}
+
+			document.isolateMergedColumns();
+			document.createNeighborhoodsV2();
+			document.mergeIsolateBlocks();
+			document.decomposeType1Blocks();
+			if(roiScaled != null) {
+				document.removeBlocksNotInROI(roiScaled);
+			}
+			if (minRows != null) {
+				document.removeNonTableNeighborhoods(minRows);
+			}
+			int neighborhoodNum = 0;
+
+			int[] allNeighs = new int[document.getNeighborhoods().size()];
+			for (int i = 0; i < document.getNeighborhoods().size(); i++) {
+				allNeighs[i] = i;
+			}
+			if (debug) {
+				drawNeighborhoods(pdfDocument, pageNum, document, debugDir, allNeighs);
+				drawBlocks(pdfDocument, pageNum, document, debugDir);
+				drawTiles(pdfDocument, pageNum, document, debugDir, neighborhoodNum);
+
+				System.out.println("Making neighborhood #: " + (neighborhoodNum + 1) + "/"
+						+ document.getNeighborhoods().size() + " into HTML table.");
+			}
+			
+			String outputPagePath = addStringBeforeExtension(outputFilePath, "_" + String.valueOf(pageNum + 1));
+			PrintWriter writer = new PrintWriter(outputPagePath, "UTF-8");
+			writer.print(document.getTableString(neighborhoodNum)); // need to determine the right neighborhood to print
+			writer.close();
+			System.out.println("HTML file created: " + outputPagePath);
+
 		}
-
-		document.isolateMergedColumns();
-		document.createNeighborhoodsV2();
-		document.mergeIsolateBlocks();
-		document.decomposeType1Blocks();
-		if(roiScaled != null) {
-			document.removeBlocksNotInROI(roiScaled);
-		}
-		if (minRows != null) {
-			document.removeNonTableNeighborhoods(minRows);
-		}
-		int neighborhoodNum = 0;
-
-		int[] allNeighs = new int[document.getNeighborhoods().size()];
-		for (int i = 0; i < document.getNeighborhoods().size(); i++) {
-			allNeighs[i] = i;
-		}
-		if (debug) {
-			drawNeighborhoods(pdfDocument, pageNum, document, debugDir, allNeighs);
-			drawBlocks(pdfDocument, pageNum, document, debugDir);
-			drawTiles(pdfDocument, pageNum, document, debugDir, neighborhoodNum);
-
-			System.out.println("Making neighborhood #: " + (neighborhoodNum + 1) + "/"
-					+ document.getNeighborhoods().size() + " into HTML table.");
-		}
-
-		PrintWriter writer = new PrintWriter(outputFilePath, "UTF-8");
-		writer.print(document.getTableString(neighborhoodNum)); // need to determine the right neighborhood to print
-		writer.close();
-		System.out.println("HTML file created: " + outputFilePath);
-
 		pdfDocument.close();
+
+		
 
 		// TableFinder -> rulings
 		// -> TableExtractor
