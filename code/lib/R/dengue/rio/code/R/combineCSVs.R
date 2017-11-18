@@ -2,30 +2,44 @@
 rm(list=ls())
 
 library(data.table)
-CSVOutDir = "~/Dropbox/LEPR03/nathan/Dengue/Rio/Data/Dengue_Classic/CSVs/master/"
-CSV.DIR = paste0("~/Dropbox/LEPR03/nathan/Dengue/Rio/Data/Dengue_Classic/CSVs/FINAL_individual/weekly/")
+ROOT_DIR = "~/Dropbox/LEPR03/nathan-workspace/"
+OUT_DIR = paste0(ROOT_DIR, "data/dengue/rio/merge/")
+IN_DIR = paste0(ROOT_DIR, "data/dengue/rio/convert/")
 BRAZ_MON_ABBR = c("Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez")
 MY_AREA_NAMES = c('Area 1.0','Area 2.1','Area 2.2','Area 3.1','Area 3.2','Area 3.3','Area 4.0','Area 5.1','Area 5.2','Area 5.3')
 MY_WEEK_NAMES = seq(1:52)
+COLUMN_NAMES = c("Population", seq(1,52), "Total.Cases")
 
-years = c(seq(2000,2010),seq(2016,2017))
+years = c(seq(2000,2010),seq(2015,2017))
 first.year = 2000
 nyears = length(years)
 nWeeks = 52
 
 ### Read in CSVs
-CSV.filenames = list.files(CSV.DIR, pattern="*.csv")
-CSV.data.frames = list()
-for(i in 1:length(CSV.filenames)) {
-  CSV.data.frames[[i]] = read.csv(paste0(CSV.DIR, CSV.filenames[i]), head=TRUE, encoding="UTF-8",stringsAsFactors=FALSE)
-  CSV.data.frames[[i]] = data.frame(CSV.data.frames[[i]][,-1], row.names=CSV.data.frames[[i]][,1]) # Remove index column, replace with 1st column
-}
-
+CSV.filenames = list.files(IN_DIR, pattern="*weekly.csv", full.names = TRUE)
+CSV.data.frames = lapply(CSV.filenames, function(filename) read.csv(filename, header=FALSE, encoding="UTF-8",stringsAsFactors=FALSE, row.names = 1, strip.white = TRUE))
 ### Create master CSV
 names(CSV.data.frames) = years
 CSV.df = c() # Append one year after another onto this
 for(i in 1:length(CSV.data.frames)) {
+  filename = CSV.filenames[i]
+  year = substr(basename(filename), 1, 4)
   df = CSV.data.frames[[i]]
+  colnames(df) = COLUMN_NAMES  # Make my column names for consitency
+  na.columns = which(is.na(colnames(df)))
+  if(length(na.columns) > 0) {
+    df = df[,-na.columns]  # Remove any extra NA columns
+  }
+  if(length(grep("total", rownames(df)[1], ignore.case = TRUE)) == 0) {
+    df = df[-1,]  # If the first row is not "total" row, it is the old header. Remove it.
+  }
+  rownames(df) = gsub("\\[[0-9]*\\]", "", rownames(df))  # Some rownames have superscript note references (e.g. "rowname[1]"). Remove these.
+  # Thousands place is separated by space (e.g. "1 250" instead of "1250").
+  # The ' ' (space) character causes these cells to be interpreted as Strings instead of numbers.
+  numeric = as.data.frame(apply(df,2,function(x)as.numeric(gsub("\\s+|\\.", '',x))))  # Remove spaces and decimal points
+  rownames(numeric) = rownames(df)
+  df = numeric
+
   tot_col_i = grep("total", colnames(df), ignore.case=TRUE)
   pop_col_i = grep("pop", colnames(df), ignore.case=TRUE)
   unk_row_i = grep("ignorado", rownames(df), ignore.case=TRUE)
@@ -40,10 +54,7 @@ for(i in 1:length(CSV.data.frames)) {
   neigh_names = rownames(df)[neigh_rows]
   
   fmt_df = df[neigh_rows,]
-  
-  # Remove all but the week number from column names
-  names(fmt_df) = gsub("[a-zA-z.]", "", names(fmt_df)) 
-  
+
   # Find number of Neighboorhoods in each Admin Region
   end_aRegion = neigh_rows[which(diff(neigh_rows) >= 2)] # Last neighboorhood of each aRegion
   end_aRegion =c(end_aRegion, neigh_rows[length(neigh_rows)]) # Include the last neighboorhood
@@ -69,7 +80,7 @@ for(i in 1:length(CSV.data.frames)) {
   
   # Add Year column
   fmt_df = fmt_df[-c(tot_col_i,pop_col_i)]
-  year_col = rep(years[i], nrow(fmt_df))
+  year_col = rep(year, nrow(fmt_df))
   fmt_df = cbind(fmt_df,Year = year_col)
   
   # Make rownames into an actual column (Neighboorhood column)
@@ -81,7 +92,6 @@ for(i in 1:length(CSV.data.frames)) {
   pop_col = pop_col[-c(start_aRegion,start_pArea,tot_row_i,unk_row_i),]
   #pop_col = rep(pop_col, each=nWeeks)
   fmt_df = cbind(fmt_df,Population = pop_col)
-  
   # Make Unknown row (unk)
   unknown_row = as.numeric(df[unk_row_i,])
   unk_pop = unknown_row[pop_col_i]
@@ -101,7 +111,7 @@ for(i in 1:length(CSV.data.frames)) {
   
   # Sort
   fmt_df = fmt_df[with(fmt_df, order(Year,Planning_Area,Administrative_Region,Neighboorhood)), ]
-  
+  browser()
   CSV.df = rbind(CSV.df,fmt_df)
 }
 
@@ -114,6 +124,6 @@ colnames(CSV.df)[length(CSV.df)] = "Incidence_Per_100000"
 CSV_2000_to_2010_weekly = CSV.df[which(CSV.df$Year <= 2010),]
 CSV_2016_to_2017_weekly = CSV.df[which(CSV.df$Year >= 2016),]
 
-write.csv(CSV.df, paste0(CSVOutDir, "master_all_years_weekly.csv"), row.names = FALSE)
-write.csv(CSV_2000_to_2010_weekly, paste0(CSVOutDir, "master_2000-2010_weekly.csv"), row.names = FALSE)
-write.csv(CSV_2016_to_2017_weekly, paste0(CSVOutDir, "master_2016-2017_weekly.csv"), row.names = FALSE)
+#write.csv(CSV.df, paste0(CSVOutDir, "master_all_years_weekly.csv"), row.names = FALSE)
+#write.csv(CSV_2000_to_2010_weekly, paste0(CSVOutDir, "master_2000-2010_weekly.csv"), row.names = FALSE)
+#write.csv(CSV_2016_to_2017_weekly, paste0(CSVOutDir, "master_2016-2017_weekly.csv"), row.names = FALSE)

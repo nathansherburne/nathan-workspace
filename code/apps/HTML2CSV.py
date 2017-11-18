@@ -45,14 +45,17 @@ def saveTable(html, filename, args):
     for table in root.find_all('table'):
         table = removeTags(table, ['script', 'table'])
         if args.nested:  
-            unqfilename = getChildFilename(filename, table_uids[tnum])  # Get a unique nested filename for this table
+            unqFilename = getChildFilename(filename, table_uids[tnum])  # Get a unique nested filename for this table
         elif args.multiple:
-            unqfilename = getChildFilename(filename, tnum)  # Get a unique filename for this table
+            unqFilename = getChildFilename(filename, tnum)  # Get a unique filename for this table
         else:
-            unqfilename = filename
-        csvfile = open(os.path.join(directory, unqfilename), 'w+b')
+            unqFilename = filename
+        csvfile = open(os.path.join(directory, unqFilename), 'w+b')
         csvfile.write(getCSV(str(table)))
+        print "File created: " + unqFilename
         csvfile.close()
+        if args.single:
+            break
         tnum += 1
 
 def getChildFilename(filename, childNumber):
