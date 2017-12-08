@@ -5,7 +5,7 @@ library(stringr)
 
 ROOT_DIR = "~/Dropbox/LEPR03/nathan-workspace/"
 IN_DIR = paste0(ROOT_DIR, "data/flu/tennessee/convert/")
-MASTER.FILEPATH = "~/Dropbox/LEPR03/data/flu/usa/TN/TN-ILI-2009-todate.csv"
+MASTER.FILEPATH = "~/Dropbox/LEPR03/nathan-workspace/data/flu/tennessee/merge/TN-ILI-2009-todate.csv"
 
 master.df = read.csv(MASTER.FILEPATH, row.names = NULL, stringsAsFactors = FALSE)
 # Find out what the last week in master is

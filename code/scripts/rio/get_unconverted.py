@@ -11,14 +11,14 @@ cvtDir = os.path.join(tenDir, "convert")
 # we know which PDFs still need conversion.
 dwnTimestampPairs = list()
 for filename in os.listdir(dwnDir):
-    if (filename.endswith(".pdf") or filename.endswith(".htm")) and "weekly" in filename:
+    if (filename.endswith(".pdf") or filename.endswith(".htm")) and ("weekly" in filename or "monthly" in filename):
         filepath = os.path.join(dwnDir, filename)
         pair = (filename, os.path.getmtime(filepath))
         dwnTimestampPairs.append(pair)
 
 csvTimestampPairs = list()
 for filename in os.listdir(cvtDir):
-    if filename.endswith(".csv") and "weekly" in filename:
+    if filename.endswith(".csv") and ("weekly" in filename or "monthly" in filename):
         name, ext = filename.split('.')
         filepath = os.path.join(cvtDir, filename)
         pair = (name, os.path.getmtime(filepath))

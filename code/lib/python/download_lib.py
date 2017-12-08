@@ -1,4 +1,4 @@
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 import urllib2
 import re
 import os
@@ -48,7 +48,7 @@ def getWHOData(out_dir, update_only=False):
 
         request = urllib2.Request(url)
         html_page = urllib2.urlopen(request)
-        soup = BeautifulSoup(html_page)
+        soup = BeautifulSoup(html_page,"lxml")
 
         link = soup.find('a', {"class":"link_media"} )
         link = link['href']
@@ -121,7 +121,7 @@ def getPAHOData(out_dir, update_only=False):
     request = urllib2.Request(url)
     request.add_header('User-agent', 'Mozilla/5.0 (Linux i686)')
     html_page = urllib2.urlopen(request)
-    soup = BeautifulSoup(html_page)
+    soup = BeautifulSoup(html_page, "lxml")
 
     all_links_html = []
     for link in soup.findAll('a'):
@@ -217,6 +217,7 @@ def getWHO2Data(out_dir, update_only=False):
 
 
 def getTennesseeData(out_dir, update_only = False):
+    base_url = "http://tn.gov/assets/entities/health/attachments/"
     firstRecordedYear = 2009
     firstRecordedWeek = 32  # Tennessee started recording in week 32 of 2009
     endYear = int(CURRENT_YEAR)
@@ -227,13 +228,24 @@ def getTennesseeData(out_dir, update_only = False):
         maxWeek = firstRecordedWeek - 1
         for filename in os.listdir(out_dir):
             if filename.endswith(".pdf"):
-                week, year = map(int, re.findall(r'\d+', filename))
+                numbers = map(int, re.findall(r'\d+', filename))
+                week = None
+                year = None
+                for number in numbers:
+                    if number > 2000 and number < 2050:
+                        year = number
+                    elif number > 0 and number < 54:
+                        week = number
+                if week is None or year is None:
+                    # Print error to log file
+                    print "Error: could not find week or year number in filename: " + filename
+                    continue
                 if year > maxYear:
                     maxYear = year
                     maxWeek = week
                 elif year == maxYear and week > maxWeek:
                     maxWeek = week
-        firstYear = maxYear    # Doesn't handle year boundaries well because we don't 
+        firstYear = maxYear    # Doesn't handle year boundaries well because we don't
         firstWeek = maxWeek+1  # know if there are 52 or 53 weeks in which year.
     else:
         firstYear = firstRecordedYear
@@ -246,8 +258,14 @@ def getTennesseeData(out_dir, update_only = False):
         endWeek = 53  # TODO: auto-determine which years have week 53. For now, just handle error.
 
         for week in range(startWeek, endWeek):
-            url = "http://tn.gov/assets/entities/health/attachments/week" + str(week) + "ILI_spnreport_" + str(year) + ".pdf"
-            filename = os.path.basename(url)
+            # The format of the url changed in week 47 of 2017.
+            if (year == 2017 and week >= 47) or year > 2017:
+                url = base_url + "ILI_spnreport_" + str(year) + "_" + str(week) + "c.pdf"
+                # Make the filename for the new format the same as they used to be so they are all the same.
+                filename = "week" + str(week) + "ILI_spnreport_" + str(year) + ".pdf"  
+            else:
+                url = base_url + "week" + str(week) + "ILI_spnreport_" + str(year) + ".pdf"
+                filename = os.path.basename(url)
             try:
                 response = urllib2.urlopen(url)
             except:
