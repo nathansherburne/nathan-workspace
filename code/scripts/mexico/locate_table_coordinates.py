@@ -105,15 +105,8 @@ def get_table_bbox(input_file, page_num, col_coords=None, debug=False):
         cv2.imshow("joints", joints)
         cv2.waitKey(0)
 
-
     connectivity = 4
     numLabels, labels, stats, centroids = cv2.connectedComponentsWithStats(mask, connectivity, cv2.CV_32S)
-
-    # Don't consider connected components with very small area (often lines)
-    # or very large area (often just a border around the whole image or something).
-    totalArea = image_width * image_height
-    minArea = totalArea / 100
-    maxArea = totalArea / 2
 
     # Sort the connected components by area so that we can remove joints along the way.
     # For example, if CC#1 contains CC#2 (i.e. CC#2 is smaller than CC#1), then all of
@@ -311,7 +304,7 @@ def get_column_coordinates(input_file, page_num, debug=False):
     # Now that each column is a vertical white bar, we can erode anything else that is not a
     # significant vertical line. This will leave only vertical lines/bars where the columns are
     # aproximately.
-    vscale = 8
+    vscale = 5
     verticalSize = image_height / vscale
     vKernel = np.ones((verticalSize,1),np.uint8)
     just_columns = cv2.erode(merge_words,vKernel,iterations = 1)

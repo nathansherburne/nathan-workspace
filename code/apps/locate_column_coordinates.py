@@ -118,7 +118,7 @@ def main(argv):
     # Now that each column is a vertical white bar, we can erode anything else that is not a
     # significant vertical line. This will leave only vertical lines/bars where the columns are
     # aproximately.
-    vscale = 8
+    vscale = 5
     verticalSize = image_height / vscale
     vKernel = np.ones((verticalSize,1),np.uint8)
     just_columns = cv2.erode(merge_words,vKernel,iterations = 1)

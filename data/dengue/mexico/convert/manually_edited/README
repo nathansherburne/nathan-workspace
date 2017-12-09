@@ -1,0 +1,7 @@
+1985.pdf is a bad PDF in that the column separator line for the row names cuts off Baja California Sur and any other names that are too long.
+
+2003.pdf there are two Baja Californias. I'm assuming that the 2nd one is supposed to be Baja California Sur.
+
+2006.pdf the ’99’ and ‘216’ both went into May as ’99 216’ for the Guerrero row. I’m not sure why since the column boundaries from locate_column_coordinates.py seem alright from the debug images.
+
+2008.pdf they decided to use commas for decimal points in floating point numbers. Changed to period.

@@ -50,7 +50,7 @@ for(i in 1:length(CSV.data.frames)) {
   }
   rownames(df) = gsub("\\[[0-9]*\\]", "", rownames(df))  # Some rownames have superscript note references (e.g. "rowname[1]"). Remove these.
   # Thousands place is separated by space (e.g. "1 250" instead of "1250").
-  # The ' ' (space) character causes these cells to be interpreted as Strings instead of numbers.
+  # Thousands place is also separated by '.'. (1.676.454 instead of 1676454).
   numeric = as.data.frame(apply(df,2,function(x)as.numeric(gsub("\\s+|\\.", '',x))))  # Remove spaces and decimal points
   rownames(numeric) = rownames(df)
   df = numeric
