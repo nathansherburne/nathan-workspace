@@ -47,7 +47,7 @@ public class Driver {
 		output.setRequired(true);
 		options.addOption(output);
 
-		Option pageOpt = new Option("p", "page", true, "page number(s). Either a single number or comma separated list. (Default is 1)");
+		Option pageOpt = new Option("p", "page", true, "page number(s). Either a single number or comma separated list. (Default is all pages)");
 		pageOpt.setRequired(false);
 		options.addOption(pageOpt);
 
@@ -113,8 +113,11 @@ public class Driver {
 			for(int i = 0; i < pageNums.length; i++) {
 				pages.add(Integer.valueOf(pageNums[i].trim()) - 1); 
 			}
+			if(pages.size() == 0) {
+				pages.add(-1);
+			}
 		} else {
-			pages.add(0);  // Default is first page
+			pages.add(-1);  // Default is all pages
 		}
 		if (cmd.hasOption("min-rows")) {
 			minRows = Integer.valueOf(cmd.getOptionValue("min-rows"));
@@ -187,6 +190,14 @@ public class Driver {
 			throws InvalidPasswordException, IOException {
 
 		PDDocument pdfDocument = PDDocument.load(pdfFile);
+		
+		// Default option: All pages. If no pages are specified.
+		if(pages.get(0) == -1) {
+			pages.remove(0);
+			for(int i = 0; i < pdfDocument.getNumberOfPages(); i++) {
+				pages.add(i); 
+			}
+		}
 		
 		for(int pageNum : pages) {
 			Document document = new Document(pdfDocument, pageNum, lineSpacingThreshold, spaceScale);

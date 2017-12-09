@@ -7,6 +7,7 @@ CSV.DIR = paste0("~/Dropbox/LEPR03/nathan/Dengue/Rio/Data/Dengue_Classic/CSVs/FI
 BRAZ_MON_ABBR = c("Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez")
 MY_AREA_NAMES = c('Area 1.0','Area 2.1','Area 2.2','Area 3.1','Area 3.2','Area 3.3','Area 4.0','Area 5.1','Area 5.2','Area 5.3')
 MY_WEEK_NAMES = seq(1:52)
+NEIGHBORHOOD_NAMES = c()
 
 years = c(seq(2000,2010),seq(2016,2017))
 first.year = 2000

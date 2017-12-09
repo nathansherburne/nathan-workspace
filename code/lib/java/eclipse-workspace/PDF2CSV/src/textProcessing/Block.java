@@ -142,12 +142,14 @@ public class Block extends RectangularTextContainer<Word> implements HasText {
 		return linesOfBlock;
 	}
 
+	/** 
+	 * Gets the words of this block separated by spaces as a String.
+	 */
 	@Override
 	public String getText() {
 		if(isEmpty()) {
 			return "";
 		}
-		
 		StringBuilder sb = new StringBuilder();
 		for(TextChunk word : words) {
 			sb.append(word.getText() + ' ');

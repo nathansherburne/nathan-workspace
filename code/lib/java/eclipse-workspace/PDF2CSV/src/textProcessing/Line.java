@@ -31,27 +31,6 @@ public class Line extends Block {
 		this.merge(t);
 		return;
 	}
-	
-
-	@Override
-	public String getText() {
-		if(isEmpty()) {
-			return "";
-		}
-		
-		StringBuilder sb = new StringBuilder();
-		for(TextChunk word : words) {
-			sb.append(word.getText());
-		}
-		
-		return sb.toString();
-	}
-
-	@Override
-	public String getText(boolean arg0) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 	@Override
 	public List<Word> getTextElements() {
