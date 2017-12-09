@@ -3,9 +3,9 @@ import os
 
 # Set up directories
 homDir = os.path.expanduser('~')
-tenDir = os.path.join(homDir, "Dropbox/LEPR03/nathan-workspace/data/flu/san_diego")
-dwnDir = os.path.join(tenDir, "download")
-cvtDir = os.path.join(tenDir, "convert")
+sanDir = os.path.join(homDir, "Dropbox/LEPR03/nathan-workspace/data/flu/san_diego")
+dwnDir = os.path.join(sanDir, "download")
+cvtDir = os.path.join(sanDir, "convert")
 
 # Find the most recently converted HTML file so that
 # we know which PDFs still need conversion.

@@ -4,7 +4,7 @@
 python2.7 ~/Dropbox/LEPR03/nathan-workspace/code/apps/download_data.py -d PAHO -o ~/Dropbox/LEPR03/nathan-workspace/data/dengue/paho/download/ -u
 
 # Convert
-IFS=$'\r\n' GLOBIGNORE='*' command eval  'UNCONVERTED=($(python get_unconverted_PDFs.py))'
+IFS=$'\r\n' GLOBIGNORE='*' command eval  'UNCONVERTED=($(python ~/Dropbox/LEPR03/nathan-workspace/code/scripts/paho/get_unconverted_PDFs.py))'
 if [ ${#errors[@]} -ne 0 ]; then
     PDF2CSV.py -b "${UNCONVERTED[@]}" -o ~/Dropbox/LEPR03/nathan-workspace/data/dengue/paho/convert/
 else

@@ -25,7 +25,6 @@ for(i in 1:length(CSV.filenames)) {
   df = dfs[[i]]
   week.num = str_extract(colnames(df)[1], "\\-*\\d+\\d*")
   year.num = str_extract(str_extract(filename, "InfluenzaWatch_[0-9]*"), "\\-*\\d+\\d*")
-  
   if(year.num == last.row.year.num && week.num > last.row.week.num
      || year.num > last.row.year.num) {  # Only update if this is a new date
     
@@ -109,11 +108,12 @@ for(i in 1:length(CSV.filenames)) {
     master.df.2 = rbind(master.df.2, NEW.ROW)
   }
 }
-
 master.df.2 = master.df.2[with(master.df.2, order(Year, Week)), ]
 write.csv(master.df.1, MASTER.FILEPATH.1, row.names = FALSE)
 write.csv(master.df.2, MASTER.FILEPATH.2, row.names = FALSE)
 
+print(paste0(MASTER.FILEPATH.1, " updated"))
+print(paste0(MASTER.FILEPATH.2, " updated"))
 
 
 

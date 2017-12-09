@@ -1,9 +1,14 @@
-ROOT_DIR = "~/nathan/data/dengue/sri_lanka/"
+#!/usr/bin/env Rscript
+# Setting Constants
+ROOT_DIR = "~/Dropbox/LEPR03/nathan-workspace/data/dengue/sri_lanka/"
 DATA_DIR = paste0(ROOT_DIR, "convert/")
 OUT_DIR = paste0(ROOT_DIR, "merge/")
 
+# Get CSVs in character vectors.
 CSV.filenames = list.files(DATA_DIR, pattern="*.csv")
+# Get list of weekly CSVs
 CSV.filenames.w = CSV.filenames[grep("week", CSV.filenames)]
+# Get list of monthly CSVs
 CSV.filenames.m = CSV.filenames[grep("month", CSV.filenames)]
 
 dfs.w.all = lapply(CSV.filenames.w, function(filename) {
@@ -34,3 +39,4 @@ df.m.all = df.m.all[,c(length(df.m.all), 1:(length(df.m.all)-1))]
 
 write.csv(df.w.all, paste0(OUT_DIR, "master_weekly.csv"), row.names=FALSE)
 write.csv(df.m.all, paste0(OUT_DIR, "master_monthly.csv"), row.names=FALSE)
+

@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/local/bin/
 import sys, getopt
 import os
 import argparse

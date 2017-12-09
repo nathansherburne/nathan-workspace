@@ -46,6 +46,34 @@ numNonZeros <- function(vec) {
   return(length(which(vec != 0)))
 }
 
+fuzzyStringCompare <- function(strings1, strings2) {
+  # Compare two lists of strings for similarities. All pairs of strings between the two
+  # lists are compared, their "distances" computed, and the minumum-distance pair for each
+  # string is returned in a data frame.
+  #
+  # Args:
+  #   strings1: a list of strings
+  #   strings2: a list of strings
+  #
+  # Return:
+  #   match.s1.s2: a data frame specifying string pairs, one from each of the input lists.
+  #                 The data frame contains the index of each string in their corresponding
+  #                 input lists, the strings themselves, and the "distance" between the two
+  #                 strings assigned by the fuzzy comparison.
+  dist.name = adist(strings1, strings2, ignore.case = TRUE)
+  min.name<-apply(dist.name, 1, min)
+  match.s1.s2<-NULL  
+  for(j in 1:nrow(dist.name))
+  {
+    s2.i<-match(min.name[j],dist.name[j,])
+    s1.i<-j
+    match.s1.s2<-rbind(data.frame(s2.i=s2.i,s1.i=s1.i,s2name=strings2[s2.i], s1name=strings1[s1.i], adist=min.name[j]),match.s1.s2)
+  }
+  match.s1.s2 = match.s1.s2[with(match.s1.s2, order(s2.i)), ]
+  return(match.s1.s2)
+}
+
+
 
 
 ##################
