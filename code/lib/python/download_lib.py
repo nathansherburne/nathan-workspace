@@ -217,7 +217,16 @@ def getWHO2Data(out_dir, update_only=False):
 
 
 def getTennesseeData(out_dir, update_only = False):
-    base_url = "http://tn.gov/assets/entities/health/attachments/"
+    # Noticed the base url seems to have changed (12/15/17)
+    #base_url = "http://tn.gov/assets/entities/health/attachments/"  # Original base url
+    # As of 12/15/17 https://www.tn.gov/content/dam/tn/health/documents/ is the base_url for all PDFs up to
+    # 2017 week 39. But starting week 40 the base url is:
+    base_url = "https://www.tn.gov/content/dam/tn/health/documents/cedep-weeklyreports/flu_summary/" #New base url
+    # This will be fine as long as we are only doing updates (i.e. the old urls don't matter) or if they change
+    # the url again.
+    # One way to remedy this would be to go here:
+    # https://www.tn.gov/search-results.html?q=spnreport
+    # And just pull the exact links without having to guess.
     firstRecordedYear = 2009
     firstRecordedWeek = 32  # Tennessee started recording in week 32 of 2009
     endYear = int(CURRENT_YEAR)
