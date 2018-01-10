@@ -113,29 +113,55 @@ def getTaiwanData(out_dir, update_only=False):
                 try:
                     chart = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, chart_class)))
                     # Hamburger button that opens downloads dropdown menu
-                    hamburger_name = "highcharts-button"
-                    hamburger_Button = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, hamburger_name)))
-                    hamburger_Button.click()
                     # TODO: Figure out how to make this work when headless(i.e., crontab or ssh (from shadow)).
                     # The hamburger "button" is not really a button. So it is not clickable when there's no actual display.
                     # I've tried executing the click via webdriver.execute_script(), which executes a JavaScript script.
                     # I've tried using ActionChains to click as well. None of these are able to click the hamburger button
                     # in headless mode.
+                    # Why not just forget the hamburger button and skip to clicking "Download CSV" option:
+                    # The "context menu" (i.e., the html for it) that contains the "Download CSV" option is dynamically created when the 
+                    # hamburger button is clicked for the first time. So we get a NoSuchElement exception if we try to locate the
+                    # "Download CSV" option before clicking the hamburger button.
                     # NOTE: As it is right now, this program can run as long as you run it while on a desktop display.
+                    # Locate the hamburger button
+                    hamburger_name = "highcharts-button"
+                    hamburger_Button = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, hamburger_name)))
+                    # Try to click it
+                    # Method 1:
+                    # Works when run with physical desktop display.
+                    # Doesn't work when run without physical desktop display (i.e., from ssh or shadow)
+                    # Why it doesn't work:
+                    # Error Message: "Element is not clickable at point..."
+                    hamburger_Button.click()  # Click using Selenium .click() function
+
+                    # Method 2:
+                    # Doesn't work at all for hamburger button.
+                    # Why it doesn't work:
+                    # The element must have an "onClick" attribute.
+                    # Error Message: "arguments[0].click is not a function..."
+                    #driver.execute_script("arguments[0].click()", hamburger_Button)  # Click using JavaScript .click() function. 
+            
+                    # Method 3:
+                    # Works when run with physical desktop display.
+                    # Doesn't work when run without physical desktop display.
+                    # Why it doesn't work:
+                    # Not sure. No error messages or exceptions raised. It just has no effect.
+                    #action=ActionChains(driver)
+                    #action.move_to_element(hamburger_Button).click(hamburger_Button).perform()
+                    
+                    # Other things I've tried to make the button clickable / visible:
                     #driver.execute_script("arguments[0].checked = true", hamburger_Button) # Force it to be visible
                     #driver.execute_script("arguments[0].scrollIntoView()", hamburger_Button)
                     #driver.execute_script("arguments[0].style.height='auto'; arguments[0].style.visibility='visible'", hamburger_Button)
-                    #action=ActionChains(driver)
-                    #action.move_to_element(hamburger_Button)
-                    #action.click(hamburger_Button).perform()
-                    #action.click()
                     
-                    # Use JavaScript click() function since the download CSV button is 'not visible' when Selenium is run headless (i.e., in crontab or ssh).
                     # Click "Download CSV" option (option 6 of hamburger button menu)
                     CSV_download_xpath = "//div[@class='highcharts-container']/div[1]/div[1]/div[6]"
-                    CSV_download_button = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH,
-                        CSV_download_xpath)))
-                    CSV_download_button.click() # Doesn't work in headless mode ('i.e., when Crontab runs it while the user is logged off or if you run it from ssh).
+                    try:
+                        CSV_download_button = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, CSV_download_xpath)))
+                    except TimeoutException:
+                        print "Error: Could not locate \"CSV Download\" option. This is probably because the hamburger button was not actually clicked (See comments in code/lib/python/download_lib/taiwan_dwn.py starting at line 114)."
+                        exit(1)
+                    CSV_download_button.click() 
                     #driver.execute_script("arguments[0].click()", CSV_download_button)
                     print "Downloaded CSV for: " + regName + ", " + cityName + ", " + distName
                 except TimeoutException:

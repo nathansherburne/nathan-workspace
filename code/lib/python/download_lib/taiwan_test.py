@@ -42,12 +42,14 @@ def getTaiwanData(out_dir, update_only=False):
     except NoSuchElementException:
         print "Not found"
     hamburger_name = "highcharts-button"
-    hb = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, hamburger_name)))
+    query_xpath = '//*[@id="ctl00_NIDSSContentPlace_NIDSS_query1_btnSend"]'
+
+    hb = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, query_xpath)))
     #action = ActionChains(driver)
     #action.move_to_element(hb).click(hb).perform()
-    driver.execute_script("scroll(250, 0)")
-    #driver.execute_script("arguments[0].click();", hb)
-    hb.click()
+    #driver.execute_script("scroll(250, 0)")
+    driver.execute_script("arguments[0].click();", hb)
+    #hb.click()
     try:
         el = driver.find_element_by_class_name('highcharts-contextmenu')
         print "Found"
