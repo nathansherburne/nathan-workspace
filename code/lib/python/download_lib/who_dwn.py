@@ -39,7 +39,8 @@ def getWHOData(out_dir, update_only=False):
             print("File downloaded: " + write_path)
             file.close()
         else:
-            print "File: " + write_path + " already exists."
+            print "No Update:"
+            print "--> file already exists: " + write_path
 
     else:
         year = date.today().year
@@ -84,7 +85,8 @@ def getWHOData(out_dir, update_only=False):
                 print("File downloaded: " + filename)
                 file.close()
             else:
-                print "File: " + write_path + " already exists."
+                print "Skip Download:"
+                print "--> file already exists: " + write_path
 
 def getDate(string):
     c = ""

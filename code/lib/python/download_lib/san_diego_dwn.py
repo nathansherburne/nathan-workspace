@@ -17,7 +17,7 @@ def getSanDiegoData(out_dir, update_only=True):
     writePath = os.path.join(out_dir, filename)
     if os.path.isfile(writePath):
         print "No Update:"
-        print "--> already downloaded: " + filename
+        print "--> file already exists: " + write_path
         return
     try:
         response = urllib2.urlopen(updateUrl)
