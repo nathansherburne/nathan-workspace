@@ -63,9 +63,13 @@ def getPAHOData(out_dir, update_only=False):
             week = "FINAL"  # Not sure which year ends on EW 52 or 53.
 
         if update_only:
-            if not (year == last_file_year and week > last_file_week) or year > last_file_year:
+            if not ((year == last_file_year and week > last_file_week) or year > last_file_year):
                 # The date of this file is not after the date of our most recent report.
                 # Not a new file. Don't download it.
+                print year
+                print last_file_year
+                print week
+                print last_file_week
                 continue
         filename = str(year) + '_EW_' + str(week) + '.pdf'
         write_path = os.path.join(out_dir, filename)
