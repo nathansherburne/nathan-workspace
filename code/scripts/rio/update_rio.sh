@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Download
-python2.7 ~/Dropbox/LEPR03/nathan-workspace/code/apps/download_data.py -d Rio -o ~/Dropbox/LEPR03/nathan-workspace/data/dengue/rio/download/ -u
+python2.7 ~/Dropbox/LEPR03/nathan-workspace/code/apps/download_data.py -d RIO -o ~/Dropbox/LEPR03/nathan-workspace/data/dengue/rio/download/ -u
 
 
 ## Convert ##
