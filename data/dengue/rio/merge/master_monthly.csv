@@ -11602,7 +11602,7 @@
 "2017","Planning Area 1.0","I Portuária","Caju","20477","September","0",0
 "2017","Planning Area 1.0","I Portuária","Caju","20477","October","1",4.88
 "2017","Planning Area 1.0","I Portuária","Caju","20477","November","0",0
-"2017","Planning Area 1.0","I Portuária","Caju","20477","December","0",0
+"2017","Planning Area 1.0","I Portuária","Caju","20477","December","1",4.88
 "2017","Planning Area 1.0","I Portuária","Gamboa","13108","January","0",0
 "2017","Planning Area 1.0","I Portuária","Gamboa","13108","February","1",7.63
 "2017","Planning Area 1.0","I Portuária","Gamboa","13108","March","2",15.26
@@ -11624,7 +11624,7 @@
 "2017","Planning Area 1.0","I Portuária","Santo Cristo","12330","July","0",0
 "2017","Planning Area 1.0","I Portuária","Santo Cristo","12330","August","1",8.11
 "2017","Planning Area 1.0","I Portuária","Santo Cristo","12330","September","0",0
-"2017","Planning Area 1.0","I Portuária","Santo Cristo","12330","October","2",16.22
+"2017","Planning Area 1.0","I Portuária","Santo Cristo","12330","October","3",24.33
 "2017","Planning Area 1.0","I Portuária","Santo Cristo","12330","November","0",0
 "2017","Planning Area 1.0","I Portuária","Santo Cristo","12330","December","0",0
 "2017","Planning Area 1.0","I Portuária","Saúde","2749","January","0",0
@@ -11648,11 +11648,11 @@
 "2017","Planning Area 1.0","II Centro","Centro","41142","July","1",2.43
 "2017","Planning Area 1.0","II Centro","Centro","41142","August","1",2.43
 "2017","Planning Area 1.0","II Centro","Centro","41142","September","1",2.43
-"2017","Planning Area 1.0","II Centro","Centro","41142","October","0",0
-"2017","Planning Area 1.0","II Centro","Centro","41142","November","0",0
+"2017","Planning Area 1.0","II Centro","Centro","41142","October","1",2.43
+"2017","Planning Area 1.0","II Centro","Centro","41142","November","1",2.43
 "2017","Planning Area 1.0","II Centro","Centro","41142","December","0",0
 "2017","Planning Area 1.0","III Rio Comprido","Catumbi","12556","January","5",39.82
-"2017","Planning Area 1.0","III Rio Comprido","Catumbi","12556","February","6",47.79
+"2017","Planning Area 1.0","III Rio Comprido","Catumbi","12556","February","7",55.75
 "2017","Planning Area 1.0","III Rio Comprido","Catumbi","12556","March","6",47.79
 "2017","Planning Area 1.0","III Rio Comprido","Catumbi","12556","April","2",15.93
 "2017","Planning Area 1.0","III Rio Comprido","Catumbi","12556","May","0",0
@@ -11661,7 +11661,7 @@
 "2017","Planning Area 1.0","III Rio Comprido","Catumbi","12556","August","1",7.96
 "2017","Planning Area 1.0","III Rio Comprido","Catumbi","12556","September","0",0
 "2017","Planning Area 1.0","III Rio Comprido","Catumbi","12556","October","0",0
-"2017","Planning Area 1.0","III Rio Comprido","Catumbi","12556","November","0",0
+"2017","Planning Area 1.0","III Rio Comprido","Catumbi","12556","November","1",7.96
 "2017","Planning Area 1.0","III Rio Comprido","Catumbi","12556","December","0",0
 "2017","Planning Area 1.0","III Rio Comprido","Cidade Nova","5466","January","1",18.29
 "2017","Planning Area 1.0","III Rio Comprido","Cidade Nova","5466","February","4",73.18
@@ -11675,7 +11675,7 @@
 "2017","Planning Area 1.0","III Rio Comprido","Cidade Nova","5466","October","0",0
 "2017","Planning Area 1.0","III Rio Comprido","Cidade Nova","5466","November","0",0
 "2017","Planning Area 1.0","III Rio Comprido","Cidade Nova","5466","December","0",0
-"2017","Planning Area 1.0","III Rio Comprido","Estácio","17189","January","5",29.09
+"2017","Planning Area 1.0","III Rio Comprido","Estácio","17189","January","7",40.72
 "2017","Planning Area 1.0","III Rio Comprido","Estácio","17189","February","4",23.27
 "2017","Planning Area 1.0","III Rio Comprido","Estácio","17189","March","0",0
 "2017","Planning Area 1.0","III Rio Comprido","Estácio","17189","April","2",11.64
@@ -11687,16 +11687,16 @@
 "2017","Planning Area 1.0","III Rio Comprido","Estácio","17189","October","3",17.45
 "2017","Planning Area 1.0","III Rio Comprido","Estácio","17189","November","0",0
 "2017","Planning Area 1.0","III Rio Comprido","Estácio","17189","December","0",0
-"2017","Planning Area 1.0","III Rio Comprido","Rio Comprido","43764","January","16",36.56
-"2017","Planning Area 1.0","III Rio Comprido","Rio Comprido","43764","February","5",11.42
-"2017","Planning Area 1.0","III Rio Comprido","Rio Comprido","43764","March","10",22.85
+"2017","Planning Area 1.0","III Rio Comprido","Rio Comprido","43764","January","17",38.84
+"2017","Planning Area 1.0","III Rio Comprido","Rio Comprido","43764","February","7",15.99
+"2017","Planning Area 1.0","III Rio Comprido","Rio Comprido","43764","March","11",25.13
 "2017","Planning Area 1.0","III Rio Comprido","Rio Comprido","43764","April","2",4.57
 "2017","Planning Area 1.0","III Rio Comprido","Rio Comprido","43764","May","2",4.57
 "2017","Planning Area 1.0","III Rio Comprido","Rio Comprido","43764","June","3",6.85
 "2017","Planning Area 1.0","III Rio Comprido","Rio Comprido","43764","July","1",2.28
 "2017","Planning Area 1.0","III Rio Comprido","Rio Comprido","43764","August","1",2.28
 "2017","Planning Area 1.0","III Rio Comprido","Rio Comprido","43764","September","2",4.57
-"2017","Planning Area 1.0","III Rio Comprido","Rio Comprido","43764","October","1",2.28
+"2017","Planning Area 1.0","III Rio Comprido","Rio Comprido","43764","October","2",4.57
 "2017","Planning Area 1.0","III Rio Comprido","Rio Comprido","43764","November","0",0
 "2017","Planning Area 1.0","III Rio Comprido","Rio Comprido","43764","December","0",0
 "2017","Planning Area 1.0","VII São Cristovão","Benfica","25081","January","5",19.94
@@ -11707,12 +11707,12 @@
 "2017","Planning Area 1.0","VII São Cristovão","Benfica","25081","June","0",0
 "2017","Planning Area 1.0","VII São Cristovão","Benfica","25081","July","0",0
 "2017","Planning Area 1.0","VII São Cristovão","Benfica","25081","August","0",0
-"2017","Planning Area 1.0","VII São Cristovão","Benfica","25081","September","0",0
-"2017","Planning Area 1.0","VII São Cristovão","Benfica","25081","October","0",0
+"2017","Planning Area 1.0","VII São Cristovão","Benfica","25081","September","1",3.99
+"2017","Planning Area 1.0","VII São Cristovão","Benfica","25081","October","1",3.99
 "2017","Planning Area 1.0","VII São Cristovão","Benfica","25081","November","0",0
 "2017","Planning Area 1.0","VII São Cristovão","Benfica","25081","December","0",0
-"2017","Planning Area 1.0","VII São Cristovão","Mangueira","17835","January","0",0
-"2017","Planning Area 1.0","VII São Cristovão","Mangueira","17835","February","1",5.61
+"2017","Planning Area 1.0","VII São Cristovão","Mangueira","17835","January","1",5.61
+"2017","Planning Area 1.0","VII São Cristovão","Mangueira","17835","February","2",11.21
 "2017","Planning Area 1.0","VII São Cristovão","Mangueira","17835","March","0",0
 "2017","Planning Area 1.0","VII São Cristovão","Mangueira","17835","April","0",0
 "2017","Planning Area 1.0","VII São Cristovão","Mangueira","17835","May","0",0
@@ -11724,15 +11724,15 @@
 "2017","Planning Area 1.0","VII São Cristovão","Mangueira","17835","November","0",0
 "2017","Planning Area 1.0","VII São Cristovão","Mangueira","17835","December","0",0
 "2017","Planning Area 1.0","VII São Cristovão","São Cristóvão","26510","January","4",15.09
-"2017","Planning Area 1.0","VII São Cristovão","São Cristóvão","26510","February","5",18.86
+"2017","Planning Area 1.0","VII São Cristovão","São Cristóvão","26510","February","6",22.63
 "2017","Planning Area 1.0","VII São Cristovão","São Cristóvão","26510","March","2",7.54
 "2017","Planning Area 1.0","VII São Cristovão","São Cristóvão","26510","April","3",11.32
-"2017","Planning Area 1.0","VII São Cristovão","São Cristóvão","26510","May","3",11.32
+"2017","Planning Area 1.0","VII São Cristovão","São Cristóvão","26510","May","2",7.54
 "2017","Planning Area 1.0","VII São Cristovão","São Cristóvão","26510","June","1",3.77
 "2017","Planning Area 1.0","VII São Cristovão","São Cristóvão","26510","July","4",15.09
 "2017","Planning Area 1.0","VII São Cristovão","São Cristóvão","26510","August","1",3.77
 "2017","Planning Area 1.0","VII São Cristovão","São Cristóvão","26510","September","0",0
-"2017","Planning Area 1.0","VII São Cristovão","São Cristóvão","26510","October","0",0
+"2017","Planning Area 1.0","VII São Cristovão","São Cristóvão","26510","October","1",3.77
 "2017","Planning Area 1.0","VII São Cristovão","São Cristóvão","26510","November","0",0
 "2017","Planning Area 1.0","VII São Cristovão","São Cristóvão","26510","December","0",0
 "2017","Planning Area 1.0","VII São Cristovão","Vasco da Gama","15482","January","0",0
@@ -11757,7 +11757,7 @@
 "2017","Planning Area 1.0","XXI Ilha de Paquetá","Paquetá","3361","August","0",0
 "2017","Planning Area 1.0","XXI Ilha de Paquetá","Paquetá","3361","September","0",0
 "2017","Planning Area 1.0","XXI Ilha de Paquetá","Paquetá","3361","October","0",0
-"2017","Planning Area 1.0","XXI Ilha de Paquetá","Paquetá","3361","November","0",0
+"2017","Planning Area 1.0","XXI Ilha de Paquetá","Paquetá","3361","November","1",29.75
 "2017","Planning Area 1.0","XXI Ilha de Paquetá","Paquetá","3361","December","0",0
 "2017","Planning Area 1.0","XXIII Santa Teresa","Santa Teresa","40926","January","6",14.66
 "2017","Planning Area 1.0","XXIII Santa Teresa","Santa Teresa","40926","February","5",12.22
@@ -11765,11 +11765,11 @@
 "2017","Planning Area 1.0","XXIII Santa Teresa","Santa Teresa","40926","April","7",17.1
 "2017","Planning Area 1.0","XXIII Santa Teresa","Santa Teresa","40926","May","6",14.66
 "2017","Planning Area 1.0","XXIII Santa Teresa","Santa Teresa","40926","June","2",4.89
-"2017","Planning Area 1.0","XXIII Santa Teresa","Santa Teresa","40926","July","3",7.33
+"2017","Planning Area 1.0","XXIII Santa Teresa","Santa Teresa","40926","July","4",9.77
 "2017","Planning Area 1.0","XXIII Santa Teresa","Santa Teresa","40926","August","1",2.44
 "2017","Planning Area 1.0","XXIII Santa Teresa","Santa Teresa","40926","September","0",0
-"2017","Planning Area 1.0","XXIII Santa Teresa","Santa Teresa","40926","October","1",2.44
-"2017","Planning Area 1.0","XXIII Santa Teresa","Santa Teresa","40926","November","0",0
+"2017","Planning Area 1.0","XXIII Santa Teresa","Santa Teresa","40926","October","4",9.77
+"2017","Planning Area 1.0","XXIII Santa Teresa","Santa Teresa","40926","November","2",4.89
 "2017","Planning Area 1.0","XXIII Santa Teresa","Santa Teresa","40926","December","0",0
 "2017","Planning Area 2.1","IV Botafogo","Botafogo","82890","January","6",7.24
 "2017","Planning Area 2.1","IV Botafogo","Botafogo","82890","February","4",4.83
@@ -11778,11 +11778,11 @@
 "2017","Planning Area 2.1","IV Botafogo","Botafogo","82890","May","0",0
 "2017","Planning Area 2.1","IV Botafogo","Botafogo","82890","June","2",2.41
 "2017","Planning Area 2.1","IV Botafogo","Botafogo","82890","July","2",2.41
-"2017","Planning Area 2.1","IV Botafogo","Botafogo","82890","August","2",2.41
+"2017","Planning Area 2.1","IV Botafogo","Botafogo","82890","August","3",3.62
 "2017","Planning Area 2.1","IV Botafogo","Botafogo","82890","September","2",2.41
 "2017","Planning Area 2.1","IV Botafogo","Botafogo","82890","October","1",1.21
-"2017","Planning Area 2.1","IV Botafogo","Botafogo","82890","November","0",0
-"2017","Planning Area 2.1","IV Botafogo","Botafogo","82890","December","0",0
+"2017","Planning Area 2.1","IV Botafogo","Botafogo","82890","November","1",1.21
+"2017","Planning Area 2.1","IV Botafogo","Botafogo","82890","December","1",1.21
 "2017","Planning Area 2.1","IV Botafogo","Catete","24057","January","2",8.31
 "2017","Planning Area 2.1","IV Botafogo","Catete","24057","February","1",4.16
 "2017","Planning Area 2.1","IV Botafogo","Catete","24057","March","2",8.31
@@ -11792,9 +11792,9 @@
 "2017","Planning Area 2.1","IV Botafogo","Catete","24057","July","0",0
 "2017","Planning Area 2.1","IV Botafogo","Catete","24057","August","1",4.16
 "2017","Planning Area 2.1","IV Botafogo","Catete","24057","September","1",4.16
-"2017","Planning Area 2.1","IV Botafogo","Catete","24057","October","0",0
+"2017","Planning Area 2.1","IV Botafogo","Catete","24057","October","1",4.16
 "2017","Planning Area 2.1","IV Botafogo","Catete","24057","November","0",0
-"2017","Planning Area 2.1","IV Botafogo","Catete","24057","December","0",0
+"2017","Planning Area 2.1","IV Botafogo","Catete","24057","December","1",4.16
 "2017","Planning Area 2.1","IV Botafogo","Cosme Velho","7178","January","0",0
 "2017","Planning Area 2.1","IV Botafogo","Cosme Velho","7178","February","1",13.93
 "2017","Planning Area 2.1","IV Botafogo","Cosme Velho","7178","March","3",41.79
@@ -11816,9 +11816,9 @@
 "2017","Planning Area 2.1","IV Botafogo","Flamengo","50043","July","1",2
 "2017","Planning Area 2.1","IV Botafogo","Flamengo","50043","August","1",2
 "2017","Planning Area 2.1","IV Botafogo","Flamengo","50043","September","1",2
-"2017","Planning Area 2.1","IV Botafogo","Flamengo","50043","October","0",0
+"2017","Planning Area 2.1","IV Botafogo","Flamengo","50043","October","1",2
 "2017","Planning Area 2.1","IV Botafogo","Flamengo","50043","November","0",0
-"2017","Planning Area 2.1","IV Botafogo","Flamengo","50043","December","0",0
+"2017","Planning Area 2.1","IV Botafogo","Flamengo","50043","December","1",2
 "2017","Planning Area 2.1","IV Botafogo","Glória","9661","January","1",10.35
 "2017","Planning Area 2.1","IV Botafogo","Glória","9661","February","3",31.05
 "2017","Planning Area 2.1","IV Botafogo","Glória","9661","March","2",20.7
@@ -11852,9 +11852,9 @@
 "2017","Planning Area 2.1","IV Botafogo","Laranjeiras","45554","July","0",0
 "2017","Planning Area 2.1","IV Botafogo","Laranjeiras","45554","August","0",0
 "2017","Planning Area 2.1","IV Botafogo","Laranjeiras","45554","September","0",0
-"2017","Planning Area 2.1","IV Botafogo","Laranjeiras","45554","October","1",2.2
-"2017","Planning Area 2.1","IV Botafogo","Laranjeiras","45554","November","0",0
-"2017","Planning Area 2.1","IV Botafogo","Laranjeiras","45554","December","0",0
+"2017","Planning Area 2.1","IV Botafogo","Laranjeiras","45554","October","2",4.39
+"2017","Planning Area 2.1","IV Botafogo","Laranjeiras","45554","November","1",2.2
+"2017","Planning Area 2.1","IV Botafogo","Laranjeiras","45554","December","1",2.2
 "2017","Planning Area 2.1","IV Botafogo","Urca","7061","January","0",0
 "2017","Planning Area 2.1","IV Botafogo","Urca","7061","February","1",14.16
 "2017","Planning Area 2.1","IV Botafogo","Urca","7061","March","0",0
@@ -11876,8 +11876,8 @@
 "2017","Planning Area 2.1","V Copacabana","Copacabana","146392","July","5",3.42
 "2017","Planning Area 2.1","V Copacabana","Copacabana","146392","August","0",0
 "2017","Planning Area 2.1","V Copacabana","Copacabana","146392","September","1",0.68
-"2017","Planning Area 2.1","V Copacabana","Copacabana","146392","October","3",2.05
-"2017","Planning Area 2.1","V Copacabana","Copacabana","146392","November","0",0
+"2017","Planning Area 2.1","V Copacabana","Copacabana","146392","October","5",3.42
+"2017","Planning Area 2.1","V Copacabana","Copacabana","146392","November","4",2.73
 "2017","Planning Area 2.1","V Copacabana","Copacabana","146392","December","0",0
 "2017","Planning Area 2.1","V Copacabana","Leme","14799","January","2",13.51
 "2017","Planning Area 2.1","V Copacabana","Leme","14799","February","0",0
@@ -11896,13 +11896,13 @@
 "2017","Planning Area 2.1","VI Lagoa","Gávea","16003","March","3",18.75
 "2017","Planning Area 2.1","VI Lagoa","Gávea","16003","April","0",0
 "2017","Planning Area 2.1","VI Lagoa","Gávea","16003","May","0",0
-"2017","Planning Area 2.1","VI Lagoa","Gávea","16003","June","2",12.5
+"2017","Planning Area 2.1","VI Lagoa","Gávea","16003","June","1",6.25
 "2017","Planning Area 2.1","VI Lagoa","Gávea","16003","July","0",0
 "2017","Planning Area 2.1","VI Lagoa","Gávea","16003","August","0",0
 "2017","Planning Area 2.1","VI Lagoa","Gávea","16003","September","0",0
 "2017","Planning Area 2.1","VI Lagoa","Gávea","16003","October","0",0
 "2017","Planning Area 2.1","VI Lagoa","Gávea","16003","November","0",0
-"2017","Planning Area 2.1","VI Lagoa","Gávea","16003","December","0",0
+"2017","Planning Area 2.1","VI Lagoa","Gávea","16003","December","1",6.25
 "2017","Planning Area 2.1","VI Lagoa","Ipanema","42743","January","4",9.36
 "2017","Planning Area 2.1","VI Lagoa","Ipanema","42743","February","1",2.34
 "2017","Planning Area 2.1","VI Lagoa","Ipanema","42743","March","2",4.68
@@ -11949,7 +11949,7 @@
 "2017","Planning Area 2.1","VI Lagoa","Leblon","46044","August","0",0
 "2017","Planning Area 2.1","VI Lagoa","Leblon","46044","September","0",0
 "2017","Planning Area 2.1","VI Lagoa","Leblon","46044","October","0",0
-"2017","Planning Area 2.1","VI Lagoa","Leblon","46044","November","0",0
+"2017","Planning Area 2.1","VI Lagoa","Leblon","46044","November","1",2.17
 "2017","Planning Area 2.1","VI Lagoa","Leblon","46044","December","0",0
 "2017","Planning Area 2.1","VI Lagoa","São Conrado","10980","January","0",0
 "2017","Planning Area 2.1","VI Lagoa","São Conrado","10980","February","0",0
@@ -11973,7 +11973,7 @@
 "2017","Planning Area 2.1","VI Lagoa","Vidigal","12797","August","2",15.63
 "2017","Planning Area 2.1","VI Lagoa","Vidigal","12797","September","1",7.81
 "2017","Planning Area 2.1","VI Lagoa","Vidigal","12797","October","0",0
-"2017","Planning Area 2.1","VI Lagoa","Vidigal","12797","November","0",0
+"2017","Planning Area 2.1","VI Lagoa","Vidigal","12797","November","1",7.81
 "2017","Planning Area 2.1","VI Lagoa","Vidigal","12797","December","0",0
 "2017","Planning Area 2.1","XXVII Rocinha","Rocinha","69356","January","20",28.84
 "2017","Planning Area 2.1","XXVII Rocinha","Rocinha","69356","February","19",27.39
@@ -11985,7 +11985,7 @@
 "2017","Planning Area 2.1","XXVII Rocinha","Rocinha","69356","August","1",1.44
 "2017","Planning Area 2.1","XXVII Rocinha","Rocinha","69356","September","2",2.88
 "2017","Planning Area 2.1","XXVII Rocinha","Rocinha","69356","October","0",0
-"2017","Planning Area 2.1","XXVII Rocinha","Rocinha","69356","November","0",0
+"2017","Planning Area 2.1","XXVII Rocinha","Rocinha","69356","November","2",2.88
 "2017","Planning Area 2.1","XXVII Rocinha","Rocinha","69356","December","0",0
 "2017","Planning Area 2.2","IX Vila Isabel","Andaraí","39365","January","2",5.08
 "2017","Planning Area 2.2","IX Vila Isabel","Andaraí","39365","February","2",5.08
@@ -11996,7 +11996,7 @@
 "2017","Planning Area 2.2","IX Vila Isabel","Andaraí","39365","July","0",0
 "2017","Planning Area 2.2","IX Vila Isabel","Andaraí","39365","August","0",0
 "2017","Planning Area 2.2","IX Vila Isabel","Andaraí","39365","September","0",0
-"2017","Planning Area 2.2","IX Vila Isabel","Andaraí","39365","October","0",0
+"2017","Planning Area 2.2","IX Vila Isabel","Andaraí","39365","October","1",2.54
 "2017","Planning Area 2.2","IX Vila Isabel","Andaraí","39365","November","0",0
 "2017","Planning Area 2.2","IX Vila Isabel","Andaraí","39365","December","0",0
 "2017","Planning Area 2.2","IX Vila Isabel","Grajaú","38671","January","0",0
@@ -12020,7 +12020,7 @@
 "2017","Planning Area 2.2","IX Vila Isabel","Maracanã","25256","July","1",3.96
 "2017","Planning Area 2.2","IX Vila Isabel","Maracanã","25256","August","0",0
 "2017","Planning Area 2.2","IX Vila Isabel","Maracanã","25256","September","1",3.96
-"2017","Planning Area 2.2","IX Vila Isabel","Maracanã","25256","October","0",0
+"2017","Planning Area 2.2","IX Vila Isabel","Maracanã","25256","October","1",3.96
 "2017","Planning Area 2.2","IX Vila Isabel","Maracanã","25256","November","0",0
 "2017","Planning Area 2.2","IX Vila Isabel","Maracanã","25256","December","0",0
 "2017","Planning Area 2.2","IX Vila Isabel","Vila Isabel","86018","January","10",11.63
@@ -12030,10 +12030,10 @@
 "2017","Planning Area 2.2","IX Vila Isabel","Vila Isabel","86018","May","1",1.16
 "2017","Planning Area 2.2","IX Vila Isabel","Vila Isabel","86018","June","0",0
 "2017","Planning Area 2.2","IX Vila Isabel","Vila Isabel","86018","July","2",2.33
-"2017","Planning Area 2.2","IX Vila Isabel","Vila Isabel","86018","August","1",1.16
-"2017","Planning Area 2.2","IX Vila Isabel","Vila Isabel","86018","September","1",1.16
+"2017","Planning Area 2.2","IX Vila Isabel","Vila Isabel","86018","August","3",3.49
+"2017","Planning Area 2.2","IX Vila Isabel","Vila Isabel","86018","September","0",0
 "2017","Planning Area 2.2","IX Vila Isabel","Vila Isabel","86018","October","1",1.16
-"2017","Planning Area 2.2","IX Vila Isabel","Vila Isabel","86018","November","0",0
+"2017","Planning Area 2.2","IX Vila Isabel","Vila Isabel","86018","November","2",2.33
 "2017","Planning Area 2.2","IX Vila Isabel","Vila Isabel","86018","December","0",0
 "2017","Planning Area 2.2","VIII Tijuca","Alto da Boa Vista","9343","January","1",10.7
 "2017","Planning Area 2.2","VIII Tijuca","Alto da Boa Vista","9343","February","0",0
@@ -12057,7 +12057,7 @@
 "2017","Planning Area 2.2","VIII Tijuca","Praça da Bandeira","8662","August","0",0
 "2017","Planning Area 2.2","VIII Tijuca","Praça da Bandeira","8662","September","0",0
 "2017","Planning Area 2.2","VIII Tijuca","Praça da Bandeira","8662","October","0",0
-"2017","Planning Area 2.2","VIII Tijuca","Praça da Bandeira","8662","November","0",0
+"2017","Planning Area 2.2","VIII Tijuca","Praça da Bandeira","8662","November","1",11.54
 "2017","Planning Area 2.2","VIII Tijuca","Praça da Bandeira","8662","December","0",0
 "2017","Planning Area 2.2","VIII Tijuca","Tijuca","163805","January","5",3.05
 "2017","Planning Area 2.2","VIII Tijuca","Tijuca","163805","February","5",3.05
@@ -12067,10 +12067,10 @@
 "2017","Planning Area 2.2","VIII Tijuca","Tijuca","163805","June","1",0.61
 "2017","Planning Area 2.2","VIII Tijuca","Tijuca","163805","July","3",1.83
 "2017","Planning Area 2.2","VIII Tijuca","Tijuca","163805","August","3",1.83
-"2017","Planning Area 2.2","VIII Tijuca","Tijuca","163805","September","0",0
+"2017","Planning Area 2.2","VIII Tijuca","Tijuca","163805","September","1",0.61
 "2017","Planning Area 2.2","VIII Tijuca","Tijuca","163805","October","0",0
-"2017","Planning Area 2.2","VIII Tijuca","Tijuca","163805","November","0",0
-"2017","Planning Area 2.2","VIII Tijuca","Tijuca","163805","December","0",0
+"2017","Planning Area 2.2","VIII Tijuca","Tijuca","163805","November","1",0.61
+"2017","Planning Area 2.2","VIII Tijuca","Tijuca","163805","December","1",0.61
 "2017","Planning Area 3.1","X Ramos","Bonsucesso","18711","January","4",21.38
 "2017","Planning Area 3.1","X Ramos","Bonsucesso","18711","February","3",16.03
 "2017","Planning Area 3.1","X Ramos","Bonsucesso","18711","March","2",10.69
@@ -12082,7 +12082,7 @@
 "2017","Planning Area 3.1","X Ramos","Bonsucesso","18711","September","2",10.69
 "2017","Planning Area 3.1","X Ramos","Bonsucesso","18711","October","0",0
 "2017","Planning Area 3.1","X Ramos","Bonsucesso","18711","November","0",0
-"2017","Planning Area 3.1","X Ramos","Bonsucesso","18711","December","0",0
+"2017","Planning Area 3.1","X Ramos","Bonsucesso","18711","December","2",10.69
 "2017","Planning Area 3.1","X Ramos","Manguinhos","36160","January","6",16.59
 "2017","Planning Area 3.1","X Ramos","Manguinhos","36160","February","2",5.53
 "2017","Planning Area 3.1","X Ramos","Manguinhos","36160","March","3",8.3
@@ -12092,7 +12092,7 @@
 "2017","Planning Area 3.1","X Ramos","Manguinhos","36160","July","0",0
 "2017","Planning Area 3.1","X Ramos","Manguinhos","36160","August","0",0
 "2017","Planning Area 3.1","X Ramos","Manguinhos","36160","September","0",0
-"2017","Planning Area 3.1","X Ramos","Manguinhos","36160","October","1",2.77
+"2017","Planning Area 3.1","X Ramos","Manguinhos","36160","October","2",5.53
 "2017","Planning Area 3.1","X Ramos","Manguinhos","36160","November","0",0
 "2017","Planning Area 3.1","X Ramos","Manguinhos","36160","December","0",0
 "2017","Planning Area 3.1","X Ramos","Olaria","57514","January","5",8.69
@@ -12104,7 +12104,7 @@
 "2017","Planning Area 3.1","X Ramos","Olaria","57514","July","1",1.74
 "2017","Planning Area 3.1","X Ramos","Olaria","57514","August","0",0
 "2017","Planning Area 3.1","X Ramos","Olaria","57514","September","0",0
-"2017","Planning Area 3.1","X Ramos","Olaria","57514","October","0",0
+"2017","Planning Area 3.1","X Ramos","Olaria","57514","October","1",1.74
 "2017","Planning Area 3.1","X Ramos","Olaria","57514","November","0",0
 "2017","Planning Area 3.1","X Ramos","Olaria","57514","December","0",0
 "2017","Planning Area 3.1","X Ramos","Ramos","40792","January","6",14.71
@@ -12117,20 +12117,20 @@
 "2017","Planning Area 3.1","X Ramos","Ramos","40792","August","0",0
 "2017","Planning Area 3.1","X Ramos","Ramos","40792","September","0",0
 "2017","Planning Area 3.1","X Ramos","Ramos","40792","October","1",2.45
-"2017","Planning Area 3.1","X Ramos","Ramos","40792","November","0",0
+"2017","Planning Area 3.1","X Ramos","Ramos","40792","November","1",2.45
 "2017","Planning Area 3.1","X Ramos","Ramos","40792","December","0",0
 "2017","Planning Area 3.1","XI Penha","Brás de Pina","59222","January","4",6.75
 "2017","Planning Area 3.1","XI Penha","Brás de Pina","59222","February","3",5.07
-"2017","Planning Area 3.1","XI Penha","Brás de Pina","59222","March","7",11.82
-"2017","Planning Area 3.1","XI Penha","Brás de Pina","59222","April","2",3.38
+"2017","Planning Area 3.1","XI Penha","Brás de Pina","59222","March","8",13.51
+"2017","Planning Area 3.1","XI Penha","Brás de Pina","59222","April","3",5.07
 "2017","Planning Area 3.1","XI Penha","Brás de Pina","59222","May","3",5.07
 "2017","Planning Area 3.1","XI Penha","Brás de Pina","59222","June","3",5.07
 "2017","Planning Area 3.1","XI Penha","Brás de Pina","59222","July","0",0
 "2017","Planning Area 3.1","XI Penha","Brás de Pina","59222","August","0",0
 "2017","Planning Area 3.1","XI Penha","Brás de Pina","59222","September","0",0
-"2017","Planning Area 3.1","XI Penha","Brás de Pina","59222","October","0",0
+"2017","Planning Area 3.1","XI Penha","Brás de Pina","59222","October","1",1.69
 "2017","Planning Area 3.1","XI Penha","Brás de Pina","59222","November","0",0
-"2017","Planning Area 3.1","XI Penha","Brás de Pina","59222","December","0",0
+"2017","Planning Area 3.1","XI Penha","Brás de Pina","59222","December","1",1.69
 "2017","Planning Area 3.1","XI Penha","Penha","78678","January","6",7.63
 "2017","Planning Area 3.1","XI Penha","Penha","78678","February","9",11.44
 "2017","Planning Area 3.1","XI Penha","Penha","78678","March","5",6.36
@@ -12140,7 +12140,7 @@
 "2017","Planning Area 3.1","XI Penha","Penha","78678","July","1",1.27
 "2017","Planning Area 3.1","XI Penha","Penha","78678","August","0",0
 "2017","Planning Area 3.1","XI Penha","Penha","78678","September","0",0
-"2017","Planning Area 3.1","XI Penha","Penha","78678","October","0",0
+"2017","Planning Area 3.1","XI Penha","Penha","78678","October","1",1.27
 "2017","Planning Area 3.1","XI Penha","Penha","78678","November","0",0
 "2017","Planning Area 3.1","XI Penha","Penha","78678","December","0",0
 "2017","Planning Area 3.1","XI Penha","Penha Circular","47816","January","4",8.37
@@ -12152,7 +12152,7 @@
 "2017","Planning Area 3.1","XI Penha","Penha Circular","47816","July","0",0
 "2017","Planning Area 3.1","XI Penha","Penha Circular","47816","August","0",0
 "2017","Planning Area 3.1","XI Penha","Penha Circular","47816","September","1",2.09
-"2017","Planning Area 3.1","XI Penha","Penha Circular","47816","October","0",0
+"2017","Planning Area 3.1","XI Penha","Penha Circular","47816","October","2",4.18
 "2017","Planning Area 3.1","XI Penha","Penha Circular","47816","November","0",0
 "2017","Planning Area 3.1","XI Penha","Penha Circular","47816","December","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Bancários","12512","January","2",15.98
@@ -12166,7 +12166,7 @@
 "2017","Planning Area 3.1","XX Ilha do Governador","Bancários","12512","September","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Bancários","12512","October","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Bancários","12512","November","0",0
-"2017","Planning Area 3.1","XX Ilha do Governador","Bancários","12512","December","0",0
+"2017","Planning Area 3.1","XX Ilha do Governador","Bancários","12512","December","1",7.99
 "2017","Planning Area 3.1","XX Ilha do Governador","Cacuia","11013","January","1",9.08
 "2017","Planning Area 3.1","XX Ilha do Governador","Cacuia","11013","February","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Cacuia","11013","March","2",18.16
@@ -12214,7 +12214,7 @@
 "2017","Planning Area 3.1","XX Ilha do Governador","Freguesia (Ilha do Governador)","19437","September","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Freguesia (Ilha do Governador)","19437","October","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Freguesia (Ilha do Governador)","19437","November","0",0
-"2017","Planning Area 3.1","XX Ilha do Governador","Freguesia (Ilha do Governador)","19437","December","0",0
+"2017","Planning Area 3.1","XX Ilha do Governador","Freguesia (Ilha do Governador)","19437","December","1",5.14
 "2017","Planning Area 3.1","XX Ilha do Governador","Galeão","22971","January","4",17.41
 "2017","Planning Area 3.1","XX Ilha do Governador","Galeão","22971","February","3",13.06
 "2017","Planning Area 3.1","XX Ilha do Governador","Galeão","22971","March","2",8.71
@@ -12226,7 +12226,7 @@
 "2017","Planning Area 3.1","XX Ilha do Governador","Galeão","22971","September","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Galeão","22971","October","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Galeão","22971","November","0",0
-"2017","Planning Area 3.1","XX Ilha do Governador","Galeão","22971","December","0",0
+"2017","Planning Area 3.1","XX Ilha do Governador","Galeão","22971","December","1",4.35
 "2017","Planning Area 3.1","XX Ilha do Governador","Jardim Carioca","24848","January","1",4.02
 "2017","Planning Area 3.1","XX Ilha do Governador","Jardim Carioca","24848","February","3",12.07
 "2017","Planning Area 3.1","XX Ilha do Governador","Jardim Carioca","24848","March","4",16.1
@@ -12235,8 +12235,8 @@
 "2017","Planning Area 3.1","XX Ilha do Governador","Jardim Carioca","24848","June","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Jardim Carioca","24848","July","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Jardim Carioca","24848","August","0",0
-"2017","Planning Area 3.1","XX Ilha do Governador","Jardim Carioca","24848","September","2",8.05
-"2017","Planning Area 3.1","XX Ilha do Governador","Jardim Carioca","24848","October","0",0
+"2017","Planning Area 3.1","XX Ilha do Governador","Jardim Carioca","24848","September","1",4.02
+"2017","Planning Area 3.1","XX Ilha do Governador","Jardim Carioca","24848","October","1",4.02
 "2017","Planning Area 3.1","XX Ilha do Governador","Jardim Carioca","24848","November","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Jardim Carioca","24848","December","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Jardim Guanabara","32213","January","1",3.1
@@ -12248,9 +12248,9 @@
 "2017","Planning Area 3.1","XX Ilha do Governador","Jardim Guanabara","32213","July","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Jardim Guanabara","32213","August","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Jardim Guanabara","32213","September","1",3.1
-"2017","Planning Area 3.1","XX Ilha do Governador","Jardim Guanabara","32213","October","0",0
+"2017","Planning Area 3.1","XX Ilha do Governador","Jardim Guanabara","32213","October","1",3.1
 "2017","Planning Area 3.1","XX Ilha do Governador","Jardim Guanabara","32213","November","0",0
-"2017","Planning Area 3.1","XX Ilha do Governador","Jardim Guanabara","32213","December","0",0
+"2017","Planning Area 3.1","XX Ilha do Governador","Jardim Guanabara","32213","December","2",6.21
 "2017","Planning Area 3.1","XX Ilha do Governador","Moneró","6476","January","1",15.44
 "2017","Planning Area 3.1","XX Ilha do Governador","Moneró","6476","February","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Moneró","6476","March","2",30.88
@@ -12260,7 +12260,7 @@
 "2017","Planning Area 3.1","XX Ilha do Governador","Moneró","6476","July","1",15.44
 "2017","Planning Area 3.1","XX Ilha do Governador","Moneró","6476","August","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Moneró","6476","September","1",15.44
-"2017","Planning Area 3.1","XX Ilha do Governador","Moneró","6476","October","0",0
+"2017","Planning Area 3.1","XX Ilha do Governador","Moneró","6476","October","1",15.44
 "2017","Planning Area 3.1","XX Ilha do Governador","Moneró","6476","November","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Moneró","6476","December","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Pitangueiras","11756","January","0",0
@@ -12322,7 +12322,7 @@
 "2017","Planning Area 3.1","XX Ilha do Governador","Tauá","29567","September","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Tauá","29567","October","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Tauá","29567","November","0",0
-"2017","Planning Area 3.1","XX Ilha do Governador","Tauá","29567","December","0",0
+"2017","Planning Area 3.1","XX Ilha do Governador","Tauá","29567","December","1",3.38
 "2017","Planning Area 3.1","XX Ilha do Governador","Zumbi","2016","January","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Zumbi","2016","February","0",0
 "2017","Planning Area 3.1","XX Ilha do Governador","Zumbi","2016","March","0",0
@@ -12369,7 +12369,7 @@
 "2017","Planning Area 3.1","XXXI Vigário Geral","Cordovil","45202","August","1",2.21
 "2017","Planning Area 3.1","XXXI Vigário Geral","Cordovil","45202","September","1",2.21
 "2017","Planning Area 3.1","XXXI Vigário Geral","Cordovil","45202","October","1",2.21
-"2017","Planning Area 3.1","XXXI Vigário Geral","Cordovil","45202","November","0",0
+"2017","Planning Area 3.1","XXXI Vigário Geral","Cordovil","45202","November","2",4.42
 "2017","Planning Area 3.1","XXXI Vigário Geral","Cordovil","45202","December","0",0
 "2017","Planning Area 3.1","XXXI Vigário Geral","Jardim América","25226","January","11",43.61
 "2017","Planning Area 3.1","XXXI Vigário Geral","Jardim América","25226","February","12",47.57
@@ -12380,9 +12380,9 @@
 "2017","Planning Area 3.1","XXXI Vigário Geral","Jardim América","25226","July","0",0
 "2017","Planning Area 3.1","XXXI Vigário Geral","Jardim América","25226","August","0",0
 "2017","Planning Area 3.1","XXXI Vigário Geral","Jardim América","25226","September","1",3.96
-"2017","Planning Area 3.1","XXXI Vigário Geral","Jardim América","25226","October","2",7.93
-"2017","Planning Area 3.1","XXXI Vigário Geral","Jardim América","25226","November","0",0
-"2017","Planning Area 3.1","XXXI Vigário Geral","Jardim América","25226","December","0",0
+"2017","Planning Area 3.1","XXXI Vigário Geral","Jardim América","25226","October","3",11.89
+"2017","Planning Area 3.1","XXXI Vigário Geral","Jardim América","25226","November","1",3.96
+"2017","Planning Area 3.1","XXXI Vigário Geral","Jardim América","25226","December","2",7.93
 "2017","Planning Area 3.1","XXXI Vigário Geral","Parada de Lucas","23923","January","7",29.26
 "2017","Planning Area 3.1","XXXI Vigário Geral","Parada de Lucas","23923","February","2",8.36
 "2017","Planning Area 3.1","XXXI Vigário Geral","Parada de Lucas","23923","March","1",4.18
@@ -12394,7 +12394,7 @@
 "2017","Planning Area 3.1","XXXI Vigário Geral","Parada de Lucas","23923","September","1",4.18
 "2017","Planning Area 3.1","XXXI Vigário Geral","Parada de Lucas","23923","October","0",0
 "2017","Planning Area 3.1","XXXI Vigário Geral","Parada de Lucas","23923","November","0",0
-"2017","Planning Area 3.1","XXXI Vigário Geral","Parada de Lucas","23923","December","0",0
+"2017","Planning Area 3.1","XXXI Vigário Geral","Parada de Lucas","23923","December","1",4.18
 "2017","Planning Area 3.1","XXXI Vigário Geral","Vigário Geral","41820","January","11",26.3
 "2017","Planning Area 3.1","XXXI Vigário Geral","Vigário Geral","41820","February","10",23.91
 "2017","Planning Area 3.1","XXXI Vigário Geral","Vigário Geral","41820","March","6",14.35
@@ -12405,8 +12405,8 @@
 "2017","Planning Area 3.1","XXXI Vigário Geral","Vigário Geral","41820","August","1",2.39
 "2017","Planning Area 3.1","XXXI Vigário Geral","Vigário Geral","41820","September","2",4.78
 "2017","Planning Area 3.1","XXXI Vigário Geral","Vigário Geral","41820","October","2",4.78
-"2017","Planning Area 3.1","XXXI Vigário Geral","Vigário Geral","41820","November","0",0
-"2017","Planning Area 3.1","XXXI Vigário Geral","Vigário Geral","41820","December","0",0
+"2017","Planning Area 3.1","XXXI Vigário Geral","Vigário Geral","41820","November","3",7.17
+"2017","Planning Area 3.1","XXXI Vigário Geral","Vigário Geral","41820","December","1",2.39
 "2017","Planning Area 3.2","XII Inhaúma","Del Castilho","1561","January","0",0
 "2017","Planning Area 3.2","XII Inhaúma","Del Castilho","1561","February","0",0
 "2017","Planning Area 3.2","XII Inhaúma","Del Castilho","1561","March","0",0
@@ -12463,7 +12463,7 @@
 "2017","Planning Area 3.2","XII Inhaúma","Maria da Graça","7972","June","0",0
 "2017","Planning Area 3.2","XII Inhaúma","Maria da Graça","7972","July","1",12.54
 "2017","Planning Area 3.2","XII Inhaúma","Maria da Graça","7972","August","0",0
-"2017","Planning Area 3.2","XII Inhaúma","Maria da Graça","7972","September","0",0
+"2017","Planning Area 3.2","XII Inhaúma","Maria da Graça","7972","September","1",12.54
 "2017","Planning Area 3.2","XII Inhaúma","Maria da Graça","7972","October","0",0
 "2017","Planning Area 3.2","XII Inhaúma","Maria da Graça","7972","November","0",0
 "2017","Planning Area 3.2","XII Inhaúma","Maria da Graça","7972","December","0",0
@@ -12512,7 +12512,7 @@
 "2017","Planning Area 3.2","XIII Méier","Cachambi","42415","July","0",0
 "2017","Planning Area 3.2","XIII Méier","Cachambi","42415","August","1",2.36
 "2017","Planning Area 3.2","XIII Méier","Cachambi","42415","September","0",0
-"2017","Planning Area 3.2","XIII Méier","Cachambi","42415","October","0",0
+"2017","Planning Area 3.2","XIII Méier","Cachambi","42415","October","1",2.36
 "2017","Planning Area 3.2","XIII Méier","Cachambi","42415","November","0",0
 "2017","Planning Area 3.2","XIII Méier","Cachambi","42415","December","0",0
 "2017","Planning Area 3.2","XIII Méier","Encantado","15021","January","0",0
@@ -12534,7 +12534,7 @@
 "2017","Planning Area 3.2","XIII Méier","Engenho de Dentro","4554","May","1",21.96
 "2017","Planning Area 3.2","XIII Méier","Engenho de Dentro","4554","June","0",0
 "2017","Planning Area 3.2","XIII Méier","Engenho de Dentro","4554","July","0",0
-"2017","Planning Area 3.2","XIII Méier","Engenho de Dentro","4554","August","0",0
+"2017","Planning Area 3.2","XIII Méier","Engenho de Dentro","4554","August","1",21.96
 "2017","Planning Area 3.2","XIII Méier","Engenho de Dentro","4554","September","1",21.96
 "2017","Planning Area 3.2","XIII Méier","Engenho de Dentro","4554","October","0",0
 "2017","Planning Area 3.2","XIII Méier","Engenho de Dentro","4554","November","0",0
@@ -12546,23 +12546,23 @@
 "2017","Planning Area 3.2","XIII Méier","Engenho Novo","42172","May","0",0
 "2017","Planning Area 3.2","XIII Méier","Engenho Novo","42172","June","0",0
 "2017","Planning Area 3.2","XIII Méier","Engenho Novo","42172","July","0",0
-"2017","Planning Area 3.2","XIII Méier","Engenho Novo","42172","August","0",0
+"2017","Planning Area 3.2","XIII Méier","Engenho Novo","42172","August","1",2.37
 "2017","Planning Area 3.2","XIII Méier","Engenho Novo","42172","September","0",0
 "2017","Planning Area 3.2","XIII Méier","Engenho Novo","42172","October","0",0
 "2017","Planning Area 3.2","XIII Méier","Engenho Novo","42172","November","0",0
 "2017","Planning Area 3.2","XIII Méier","Engenho Novo","42172","December","0",0
-"2017","Planning Area 3.2","XIII Méier","Jacaré","9276","January","30",323.42
-"2017","Planning Area 3.2","XIII Méier","Jacaré","9276","February","26",280.29
+"2017","Planning Area 3.2","XIII Méier","Jacaré","9276","January","32",344.98
+"2017","Planning Area 3.2","XIII Méier","Jacaré","9276","February","27",291.07
 "2017","Planning Area 3.2","XIII Méier","Jacaré","9276","March","21",226.39
 "2017","Planning Area 3.2","XIII Méier","Jacaré","9276","April","14",150.93
 "2017","Planning Area 3.2","XIII Méier","Jacaré","9276","May","7",75.46
 "2017","Planning Area 3.2","XIII Méier","Jacaré","9276","June","3",32.34
 "2017","Planning Area 3.2","XIII Méier","Jacaré","9276","July","4",43.12
-"2017","Planning Area 3.2","XIII Méier","Jacaré","9276","August","7",75.46
-"2017","Planning Area 3.2","XIII Méier","Jacaré","9276","September","4",43.12
-"2017","Planning Area 3.2","XIII Méier","Jacaré","9276","October","1",10.78
-"2017","Planning Area 3.2","XIII Méier","Jacaré","9276","November","0",0
-"2017","Planning Area 3.2","XIII Méier","Jacaré","9276","December","0",0
+"2017","Planning Area 3.2","XIII Méier","Jacaré","9276","August","9",97.02
+"2017","Planning Area 3.2","XIII Méier","Jacaré","9276","September","5",53.9
+"2017","Planning Area 3.2","XIII Méier","Jacaré","9276","October","3",32.34
+"2017","Planning Area 3.2","XIII Méier","Jacaré","9276","November","3",32.34
+"2017","Planning Area 3.2","XIII Méier","Jacaré","9276","December","1",10.78
 "2017","Planning Area 3.2","XIII Méier","Lins de Vasconcelos","37487","January","0",0
 "2017","Planning Area 3.2","XIII Méier","Lins de Vasconcelos","37487","February","1",2.67
 "2017","Planning Area 3.2","XIII Méier","Lins de Vasconcelos","37487","March","1",2.67
@@ -12573,9 +12573,9 @@
 "2017","Planning Area 3.2","XIII Méier","Lins de Vasconcelos","37487","August","1",2.67
 "2017","Planning Area 3.2","XIII Méier","Lins de Vasconcelos","37487","September","1",2.67
 "2017","Planning Area 3.2","XIII Méier","Lins de Vasconcelos","37487","October","0",0
-"2017","Planning Area 3.2","XIII Méier","Lins de Vasconcelos","37487","November","0",0
+"2017","Planning Area 3.2","XIII Méier","Lins de Vasconcelos","37487","November","1",2.67
 "2017","Planning Area 3.2","XIII Méier","Lins de Vasconcelos","37487","December","0",0
-"2017","Planning Area 3.2","XIII Méier","Méier","49828","January","7",14.05
+"2017","Planning Area 3.2","XIII Méier","Méier","49828","January","9",18.06
 "2017","Planning Area 3.2","XIII Méier","Méier","49828","February","3",6.02
 "2017","Planning Area 3.2","XIII Méier","Méier","49828","March","5",10.03
 "2017","Planning Area 3.2","XIII Méier","Méier","49828","April","1",2.01
@@ -12596,7 +12596,7 @@
 "2017","Planning Area 3.2","XIII Méier","Piedade","43378","July","0",0
 "2017","Planning Area 3.2","XIII Méier","Piedade","43378","August","1",2.31
 "2017","Planning Area 3.2","XIII Méier","Piedade","43378","September","0",0
-"2017","Planning Area 3.2","XIII Méier","Piedade","43378","October","0",0
+"2017","Planning Area 3.2","XIII Méier","Piedade","43378","October","1",2.31
 "2017","Planning Area 3.2","XIII Méier","Piedade","43378","November","0",0
 "2017","Planning Area 3.2","XIII Méier","Piedade","43378","December","0",0
 "2017","Planning Area 3.2","XIII Méier","Pilares","2725","January","3",110.09
@@ -12610,7 +12610,7 @@
 "2017","Planning Area 3.2","XIII Méier","Pilares","2725","September","0",0
 "2017","Planning Area 3.2","XIII Méier","Pilares","2725","October","1",36.7
 "2017","Planning Area 3.2","XIII Méier","Pilares","2725","November","0",0
-"2017","Planning Area 3.2","XIII Méier","Pilares","2725","December","0",0
+"2017","Planning Area 3.2","XIII Méier","Pilares","2725","December","1",36.7
 "2017","Planning Area 3.2","XIII Méier","Riachuelo","12653","January","2",15.81
 "2017","Planning Area 3.2","XIII Méier","Riachuelo","12653","February","1",7.9
 "2017","Planning Area 3.2","XIII Méier","Riachuelo","12653","March","1",7.9
@@ -12624,16 +12624,16 @@
 "2017","Planning Area 3.2","XIII Méier","Riachuelo","12653","November","0",0
 "2017","Planning Area 3.2","XIII Méier","Riachuelo","12653","December","0",0
 "2017","Planning Area 3.2","XIII Méier","Rocha","8766","January","0",0
-"2017","Planning Area 3.2","XIII Méier","Rocha","8766","February","0",0
+"2017","Planning Area 3.2","XIII Méier","Rocha","8766","February","1",11.41
 "2017","Planning Area 3.2","XIII Méier","Rocha","8766","March","0",0
 "2017","Planning Area 3.2","XIII Méier","Rocha","8766","April","1",11.41
 "2017","Planning Area 3.2","XIII Méier","Rocha","8766","May","2",22.82
 "2017","Planning Area 3.2","XIII Méier","Rocha","8766","June","0",0
 "2017","Planning Area 3.2","XIII Méier","Rocha","8766","July","0",0
 "2017","Planning Area 3.2","XIII Méier","Rocha","8766","August","0",0
-"2017","Planning Area 3.2","XIII Méier","Rocha","8766","September","0",0
+"2017","Planning Area 3.2","XIII Méier","Rocha","8766","September","1",11.41
 "2017","Planning Area 3.2","XIII Méier","Rocha","8766","October","0",0
-"2017","Planning Area 3.2","XIII Méier","Rocha","8766","November","0",0
+"2017","Planning Area 3.2","XIII Méier","Rocha","8766","November","1",11.41
 "2017","Planning Area 3.2","XIII Méier","Rocha","8766","December","0",0
 "2017","Planning Area 3.2","XIII Méier","Sampaio","10895","January","2",18.36
 "2017","Planning Area 3.2","XIII Méier","Sampaio","10895","February","4",36.71
@@ -12645,7 +12645,7 @@
 "2017","Planning Area 3.2","XIII Méier","Sampaio","10895","August","0",0
 "2017","Planning Area 3.2","XIII Méier","Sampaio","10895","September","0",0
 "2017","Planning Area 3.2","XIII Méier","Sampaio","10895","October","0",0
-"2017","Planning Area 3.2","XIII Méier","Sampaio","10895","November","0",0
+"2017","Planning Area 3.2","XIII Méier","Sampaio","10895","November","1",9.18
 "2017","Planning Area 3.2","XIII Méier","Sampaio","10895","December","0",0
 "2017","Planning Area 3.2","XIII Méier","São Francisco Xavier","8343","January","0",0
 "2017","Planning Area 3.2","XIII Méier","São Francisco Xavier","8343","February","0",0
@@ -12689,24 +12689,24 @@
 "2017","Planning Area 3.3","XIV Irajá","Colégio","29245","April","9",30.77
 "2017","Planning Area 3.3","XIV Irajá","Colégio","29245","May","3",10.26
 "2017","Planning Area 3.3","XIV Irajá","Colégio","29245","June","1",3.42
-"2017","Planning Area 3.3","XIV Irajá","Colégio","29245","July","0",0
+"2017","Planning Area 3.3","XIV Irajá","Colégio","29245","July","1",3.42
 "2017","Planning Area 3.3","XIV Irajá","Colégio","29245","August","0",0
 "2017","Planning Area 3.3","XIV Irajá","Colégio","29245","September","0",0
 "2017","Planning Area 3.3","XIV Irajá","Colégio","29245","October","2",6.84
-"2017","Planning Area 3.3","XIV Irajá","Colégio","29245","November","0",0
-"2017","Planning Area 3.3","XIV Irajá","Colégio","29245","December","0",0
-"2017","Planning Area 3.3","XIV Irajá","Irajá","96382","January","27",28.01
+"2017","Planning Area 3.3","XIV Irajá","Colégio","29245","November","7",23.94
+"2017","Planning Area 3.3","XIV Irajá","Colégio","29245","December","1",3.42
+"2017","Planning Area 3.3","XIV Irajá","Irajá","96382","January","28",29.05
 "2017","Planning Area 3.3","XIV Irajá","Irajá","96382","February","11",11.41
 "2017","Planning Area 3.3","XIV Irajá","Irajá","96382","March","25",25.94
 "2017","Planning Area 3.3","XIV Irajá","Irajá","96382","April","21",21.79
-"2017","Planning Area 3.3","XIV Irajá","Irajá","96382","May","15",15.56
+"2017","Planning Area 3.3","XIV Irajá","Irajá","96382","May","16",16.6
 "2017","Planning Area 3.3","XIV Irajá","Irajá","96382","June","1",1.04
 "2017","Planning Area 3.3","XIV Irajá","Irajá","96382","July","1",1.04
 "2017","Planning Area 3.3","XIV Irajá","Irajá","96382","August","2",2.08
 "2017","Planning Area 3.3","XIV Irajá","Irajá","96382","September","3",3.11
-"2017","Planning Area 3.3","XIV Irajá","Irajá","96382","October","6",6.23
-"2017","Planning Area 3.3","XIV Irajá","Irajá","96382","November","0",0
-"2017","Planning Area 3.3","XIV Irajá","Irajá","96382","December","0",0
+"2017","Planning Area 3.3","XIV Irajá","Irajá","96382","October","7",7.26
+"2017","Planning Area 3.3","XIV Irajá","Irajá","96382","November","8",8.3
+"2017","Planning Area 3.3","XIV Irajá","Irajá","96382","December","1",1.04
 "2017","Planning Area 3.3","XIV Irajá","Vicente de Carvalho","24964","January","4",16.02
 "2017","Planning Area 3.3","XIV Irajá","Vicente de Carvalho","24964","February","4",16.02
 "2017","Planning Area 3.3","XIV Irajá","Vicente de Carvalho","24964","March","3",12.02
@@ -12717,35 +12717,35 @@
 "2017","Planning Area 3.3","XIV Irajá","Vicente de Carvalho","24964","August","0",0
 "2017","Planning Area 3.3","XIV Irajá","Vicente de Carvalho","24964","September","1",4.01
 "2017","Planning Area 3.3","XIV Irajá","Vicente de Carvalho","24964","October","0",0
-"2017","Planning Area 3.3","XIV Irajá","Vicente de Carvalho","24964","November","0",0
+"2017","Planning Area 3.3","XIV Irajá","Vicente de Carvalho","24964","November","3",12.02
 "2017","Planning Area 3.3","XIV Irajá","Vicente de Carvalho","24964","December","0",0
 "2017","Planning Area 3.3","XIV Irajá","Vila Cosmos","18274","January","3",16.42
 "2017","Planning Area 3.3","XIV Irajá","Vila Cosmos","18274","February","5",27.36
 "2017","Planning Area 3.3","XIV Irajá","Vila Cosmos","18274","March","8",43.78
 "2017","Planning Area 3.3","XIV Irajá","Vila Cosmos","18274","April","1",5.47
-"2017","Planning Area 3.3","XIV Irajá","Vila Cosmos","18274","May","0",0
+"2017","Planning Area 3.3","XIV Irajá","Vila Cosmos","18274","May","1",5.47
 "2017","Planning Area 3.3","XIV Irajá","Vila Cosmos","18274","June","0",0
 "2017","Planning Area 3.3","XIV Irajá","Vila Cosmos","18274","July","0",0
 "2017","Planning Area 3.3","XIV Irajá","Vila Cosmos","18274","August","0",0
-"2017","Planning Area 3.3","XIV Irajá","Vila Cosmos","18274","September","0",0
-"2017","Planning Area 3.3","XIV Irajá","Vila Cosmos","18274","October","2",10.94
-"2017","Planning Area 3.3","XIV Irajá","Vila Cosmos","18274","November","0",0
+"2017","Planning Area 3.3","XIV Irajá","Vila Cosmos","18274","September","1",5.47
+"2017","Planning Area 3.3","XIV Irajá","Vila Cosmos","18274","October","5",27.36
+"2017","Planning Area 3.3","XIV Irajá","Vila Cosmos","18274","November","2",10.94
 "2017","Planning Area 3.3","XIV Irajá","Vila Cosmos","18274","December","0",0
 "2017","Planning Area 3.3","XIV Irajá","Vila da Penha","25465","January","5",19.63
 "2017","Planning Area 3.3","XIV Irajá","Vila da Penha","25465","February","4",15.71
-"2017","Planning Area 3.3","XIV Irajá","Vila da Penha","25465","March","4",15.71
-"2017","Planning Area 3.3","XIV Irajá","Vila da Penha","25465","April","4",15.71
+"2017","Planning Area 3.3","XIV Irajá","Vila da Penha","25465","March","5",19.63
+"2017","Planning Area 3.3","XIV Irajá","Vila da Penha","25465","April","5",19.63
 "2017","Planning Area 3.3","XIV Irajá","Vila da Penha","25465","May","1",3.93
 "2017","Planning Area 3.3","XIV Irajá","Vila da Penha","25465","June","0",0
 "2017","Planning Area 3.3","XIV Irajá","Vila da Penha","25465","July","0",0
 "2017","Planning Area 3.3","XIV Irajá","Vila da Penha","25465","August","0",0
 "2017","Planning Area 3.3","XIV Irajá","Vila da Penha","25465","September","0",0
-"2017","Planning Area 3.3","XIV Irajá","Vila da Penha","25465","October","0",0
+"2017","Planning Area 3.3","XIV Irajá","Vila da Penha","25465","October","2",7.85
 "2017","Planning Area 3.3","XIV Irajá","Vila da Penha","25465","November","0",0
 "2017","Planning Area 3.3","XIV Irajá","Vila da Penha","25465","December","0",0
 "2017","Planning Area 3.3","XIV Irajá","Vista Alegre","8622","January","6",69.59
 "2017","Planning Area 3.3","XIV Irajá","Vista Alegre","8622","February","2",23.2
-"2017","Planning Area 3.3","XIV Irajá","Vista Alegre","8622","March","3",34.79
+"2017","Planning Area 3.3","XIV Irajá","Vista Alegre","8622","March","4",46.39
 "2017","Planning Area 3.3","XIV Irajá","Vista Alegre","8622","April","3",34.79
 "2017","Planning Area 3.3","XIV Irajá","Vista Alegre","8622","May","0",0
 "2017","Planning Area 3.3","XIV Irajá","Vista Alegre","8622","June","0",0
@@ -12753,7 +12753,7 @@
 "2017","Planning Area 3.3","XIV Irajá","Vista Alegre","8622","August","0",0
 "2017","Planning Area 3.3","XIV Irajá","Vista Alegre","8622","September","2",23.2
 "2017","Planning Area 3.3","XIV Irajá","Vista Alegre","8622","October","0",0
-"2017","Planning Area 3.3","XIV Irajá","Vista Alegre","8622","November","0",0
+"2017","Planning Area 3.3","XIV Irajá","Vista Alegre","8622","November","1",11.6
 "2017","Planning Area 3.3","XIV Irajá","Vista Alegre","8622","December","0",0
 "2017","Planning Area 3.3","XV Madureira","Bento Ribeiro","43707","January","2",4.58
 "2017","Planning Area 3.3","XV Madureira","Bento Ribeiro","43707","February","0",0
@@ -12766,7 +12766,7 @@
 "2017","Planning Area 3.3","XV Madureira","Bento Ribeiro","43707","September","0",0
 "2017","Planning Area 3.3","XV Madureira","Bento Ribeiro","43707","October","1",2.29
 "2017","Planning Area 3.3","XV Madureira","Bento Ribeiro","43707","November","0",0
-"2017","Planning Area 3.3","XV Madureira","Bento Ribeiro","43707","December","0",0
+"2017","Planning Area 3.3","XV Madureira","Bento Ribeiro","43707","December","1",2.29
 "2017","Planning Area 3.3","XV Madureira","Campinho","10156","January","1",9.85
 "2017","Planning Area 3.3","XV Madureira","Campinho","10156","February","0",0
 "2017","Planning Area 3.3","XV Madureira","Campinho","10156","March","0",0
@@ -12776,19 +12776,19 @@
 "2017","Planning Area 3.3","XV Madureira","Campinho","10156","July","0",0
 "2017","Planning Area 3.3","XV Madureira","Campinho","10156","August","0",0
 "2017","Planning Area 3.3","XV Madureira","Campinho","10156","September","0",0
-"2017","Planning Area 3.3","XV Madureira","Campinho","10156","October","0",0
+"2017","Planning Area 3.3","XV Madureira","Campinho","10156","October","1",9.85
 "2017","Planning Area 3.3","XV Madureira","Campinho","10156","November","0",0
-"2017","Planning Area 3.3","XV Madureira","Campinho","10156","December","0",0
+"2017","Planning Area 3.3","XV Madureira","Campinho","10156","December","1",9.85
 "2017","Planning Area 3.3","XV Madureira","Cascadura","34456","January","6",17.41
 "2017","Planning Area 3.3","XV Madureira","Cascadura","34456","February","0",0
-"2017","Planning Area 3.3","XV Madureira","Cascadura","34456","March","1",2.9
+"2017","Planning Area 3.3","XV Madureira","Cascadura","34456","March","0",0
 "2017","Planning Area 3.3","XV Madureira","Cascadura","34456","April","1",2.9
 "2017","Planning Area 3.3","XV Madureira","Cascadura","34456","May","0",0
 "2017","Planning Area 3.3","XV Madureira","Cascadura","34456","June","1",2.9
-"2017","Planning Area 3.3","XV Madureira","Cascadura","34456","July","0",0
+"2017","Planning Area 3.3","XV Madureira","Cascadura","34456","July","1",2.9
 "2017","Planning Area 3.3","XV Madureira","Cascadura","34456","August","0",0
 "2017","Planning Area 3.3","XV Madureira","Cascadura","34456","September","0",0
-"2017","Planning Area 3.3","XV Madureira","Cascadura","34456","October","0",0
+"2017","Planning Area 3.3","XV Madureira","Cascadura","34456","October","1",2.9
 "2017","Planning Area 3.3","XV Madureira","Cascadura","34456","November","0",0
 "2017","Planning Area 3.3","XV Madureira","Cascadura","34456","December","0",0
 "2017","Planning Area 3.3","XV Madureira","Cavalcanti","16141","January","3",18.59
@@ -12832,13 +12832,13 @@
 "2017","Planning Area 3.3","XV Madureira","Madureira","50106","March","4",7.98
 "2017","Planning Area 3.3","XV Madureira","Madureira","50106","April","1",2
 "2017","Planning Area 3.3","XV Madureira","Madureira","50106","May","0",0
-"2017","Planning Area 3.3","XV Madureira","Madureira","50106","June","1",2
+"2017","Planning Area 3.3","XV Madureira","Madureira","50106","June","0",0
 "2017","Planning Area 3.3","XV Madureira","Madureira","50106","July","1",2
 "2017","Planning Area 3.3","XV Madureira","Madureira","50106","August","0",0
-"2017","Planning Area 3.3","XV Madureira","Madureira","50106","September","0",0
-"2017","Planning Area 3.3","XV Madureira","Madureira","50106","October","0",0
+"2017","Planning Area 3.3","XV Madureira","Madureira","50106","September","1",2
+"2017","Planning Area 3.3","XV Madureira","Madureira","50106","October","1",2
 "2017","Planning Area 3.3","XV Madureira","Madureira","50106","November","0",0
-"2017","Planning Area 3.3","XV Madureira","Madureira","50106","December","0",0
+"2017","Planning Area 3.3","XV Madureira","Madureira","50106","December","1",2
 "2017","Planning Area 3.3","XV Madureira","Marechal Hermes","48061","January","2",4.16
 "2017","Planning Area 3.3","XV Madureira","Marechal Hermes","48061","February","2",4.16
 "2017","Planning Area 3.3","XV Madureira","Marechal Hermes","48061","March","2",4.16
@@ -12849,7 +12849,7 @@
 "2017","Planning Area 3.3","XV Madureira","Marechal Hermes","48061","August","0",0
 "2017","Planning Area 3.3","XV Madureira","Marechal Hermes","48061","September","0",0
 "2017","Planning Area 3.3","XV Madureira","Marechal Hermes","48061","October","0",0
-"2017","Planning Area 3.3","XV Madureira","Marechal Hermes","48061","November","0",0
+"2017","Planning Area 3.3","XV Madureira","Marechal Hermes","48061","November","1",2.08
 "2017","Planning Area 3.3","XV Madureira","Marechal Hermes","48061","December","0",0
 "2017","Planning Area 3.3","XV Madureira","Oswaldo Cruz","3404","January","2",58.75
 "2017","Planning Area 3.3","XV Madureira","Oswaldo Cruz","3404","February","0",0
@@ -12860,7 +12860,7 @@
 "2017","Planning Area 3.3","XV Madureira","Oswaldo Cruz","3404","July","0",0
 "2017","Planning Area 3.3","XV Madureira","Oswaldo Cruz","3404","August","0",0
 "2017","Planning Area 3.3","XV Madureira","Oswaldo Cruz","3404","September","0",0
-"2017","Planning Area 3.3","XV Madureira","Oswaldo Cruz","3404","October","0",0
+"2017","Planning Area 3.3","XV Madureira","Oswaldo Cruz","3404","October","1",29.38
 "2017","Planning Area 3.3","XV Madureira","Oswaldo Cruz","3404","November","0",0
 "2017","Planning Area 3.3","XV Madureira","Oswaldo Cruz","3404","December","0",0
 "2017","Planning Area 3.3","XV Madureira","Quintino Bocaiúva","31185","January","0",0
@@ -12868,7 +12868,7 @@
 "2017","Planning Area 3.3","XV Madureira","Quintino Bocaiúva","31185","March","0",0
 "2017","Planning Area 3.3","XV Madureira","Quintino Bocaiúva","31185","April","2",6.41
 "2017","Planning Area 3.3","XV Madureira","Quintino Bocaiúva","31185","May","0",0
-"2017","Planning Area 3.3","XV Madureira","Quintino Bocaiúva","31185","June","0",0
+"2017","Planning Area 3.3","XV Madureira","Quintino Bocaiúva","31185","June","1",3.21
 "2017","Planning Area 3.3","XV Madureira","Quintino Bocaiúva","31185","July","0",0
 "2017","Planning Area 3.3","XV Madureira","Quintino Bocaiúva","31185","August","0",0
 "2017","Planning Area 3.3","XV Madureira","Quintino Bocaiúva","31185","September","0",0
@@ -12896,7 +12896,7 @@
 "2017","Planning Area 3.3","XV Madureira","Turiaçu","17246","July","0",0
 "2017","Planning Area 3.3","XV Madureira","Turiaçu","17246","August","0",0
 "2017","Planning Area 3.3","XV Madureira","Turiaçu","17246","September","1",5.8
-"2017","Planning Area 3.3","XV Madureira","Turiaçu","17246","October","0",0
+"2017","Planning Area 3.3","XV Madureira","Turiaçu","17246","October","2",11.6
 "2017","Planning Area 3.3","XV Madureira","Turiaçu","17246","November","0",0
 "2017","Planning Area 3.3","XV Madureira","Turiaçu","17246","December","0",0
 "2017","Planning Area 3.3","XV Madureira","Vaz Lobo","15167","January","2",13.19
@@ -12911,9 +12911,9 @@
 "2017","Planning Area 3.3","XV Madureira","Vaz Lobo","15167","October","0",0
 "2017","Planning Area 3.3","XV Madureira","Vaz Lobo","15167","November","0",0
 "2017","Planning Area 3.3","XV Madureira","Vaz Lobo","15167","December","0",0
-"2017","Planning Area 3.3","XXII Anchieta","Anchieta","55652","January","11",19.77
+"2017","Planning Area 3.3","XXII Anchieta","Anchieta","55652","January","12",21.56
 "2017","Planning Area 3.3","XXII Anchieta","Anchieta","55652","February","8",14.38
-"2017","Planning Area 3.3","XXII Anchieta","Anchieta","55652","March","4",7.19
+"2017","Planning Area 3.3","XXII Anchieta","Anchieta","55652","March","5",8.98
 "2017","Planning Area 3.3","XXII Anchieta","Anchieta","55652","April","0",0
 "2017","Planning Area 3.3","XXII Anchieta","Anchieta","55652","May","1",1.8
 "2017","Planning Area 3.3","XXII Anchieta","Anchieta","55652","June","0",0
@@ -12921,8 +12921,8 @@
 "2017","Planning Area 3.3","XXII Anchieta","Anchieta","55652","August","0",0
 "2017","Planning Area 3.3","XXII Anchieta","Anchieta","55652","September","3",5.39
 "2017","Planning Area 3.3","XXII Anchieta","Anchieta","55652","October","0",0
-"2017","Planning Area 3.3","XXII Anchieta","Anchieta","55652","November","0",0
-"2017","Planning Area 3.3","XXII Anchieta","Anchieta","55652","December","0",0
+"2017","Planning Area 3.3","XXII Anchieta","Anchieta","55652","November","1",1.8
+"2017","Planning Area 3.3","XXII Anchieta","Anchieta","55652","December","1",1.8
 "2017","Planning Area 3.3","XXII Anchieta","Guadalupe","47144","January","0",0
 "2017","Planning Area 3.3","XXII Anchieta","Guadalupe","47144","February","2",4.24
 "2017","Planning Area 3.3","XXII Anchieta","Guadalupe","47144","March","3",6.36
@@ -12936,7 +12936,7 @@
 "2017","Planning Area 3.3","XXII Anchieta","Guadalupe","47144","November","0",0
 "2017","Planning Area 3.3","XXII Anchieta","Guadalupe","47144","December","0",0
 "2017","Planning Area 3.3","XXII Anchieta","Parque Anchieta","26212","January","2",7.63
-"2017","Planning Area 3.3","XXII Anchieta","Parque Anchieta","26212","February","1",3.82
+"2017","Planning Area 3.3","XXII Anchieta","Parque Anchieta","26212","February","0",0
 "2017","Planning Area 3.3","XXII Anchieta","Parque Anchieta","26212","March","1",3.82
 "2017","Planning Area 3.3","XXII Anchieta","Parque Anchieta","26212","April","0",0
 "2017","Planning Area 3.3","XXII Anchieta","Parque Anchieta","26212","May","0",0
@@ -12948,7 +12948,7 @@
 "2017","Planning Area 3.3","XXII Anchieta","Parque Anchieta","26212","November","0",0
 "2017","Planning Area 3.3","XXII Anchieta","Parque Anchieta","26212","December","0",0
 "2017","Planning Area 3.3","XXII Anchieta","Ricardo de Albuquerque","2931","January","5",170.59
-"2017","Planning Area 3.3","XXII Anchieta","Ricardo de Albuquerque","2931","February","5",170.59
+"2017","Planning Area 3.3","XXII Anchieta","Ricardo de Albuquerque","2931","February","6",204.71
 "2017","Planning Area 3.3","XXII Anchieta","Ricardo de Albuquerque","2931","March","0",0
 "2017","Planning Area 3.3","XXII Anchieta","Ricardo de Albuquerque","2931","April","0",0
 "2017","Planning Area 3.3","XXII Anchieta","Ricardo de Albuquerque","2931","May","1",34.12
@@ -12958,30 +12958,30 @@
 "2017","Planning Area 3.3","XXII Anchieta","Ricardo de Albuquerque","2931","September","0",0
 "2017","Planning Area 3.3","XXII Anchieta","Ricardo de Albuquerque","2931","October","0",0
 "2017","Planning Area 3.3","XXII Anchieta","Ricardo de Albuquerque","2931","November","0",0
-"2017","Planning Area 3.3","XXII Anchieta","Ricardo de Albuquerque","2931","December","0",0
+"2017","Planning Area 3.3","XXII Anchieta","Ricardo de Albuquerque","2931","December","1",34.12
 "2017","Planning Area 3.3","XXV Pavuna","Acari","27347","January","4",14.63
 "2017","Planning Area 3.3","XXV Pavuna","Acari","27347","February","3",10.97
 "2017","Planning Area 3.3","XXV Pavuna","Acari","27347","March","5",18.28
 "2017","Planning Area 3.3","XXV Pavuna","Acari","27347","April","4",14.63
 "2017","Planning Area 3.3","XXV Pavuna","Acari","27347","May","1",3.66
 "2017","Planning Area 3.3","XXV Pavuna","Acari","27347","June","0",0
-"2017","Planning Area 3.3","XXV Pavuna","Acari","27347","July","1",3.66
+"2017","Planning Area 3.3","XXV Pavuna","Acari","27347","July","2",7.31
 "2017","Planning Area 3.3","XXV Pavuna","Acari","27347","August","0",0
 "2017","Planning Area 3.3","XXV Pavuna","Acari","27347","September","1",3.66
 "2017","Planning Area 3.3","XXV Pavuna","Acari","27347","October","1",3.66
-"2017","Planning Area 3.3","XXV Pavuna","Acari","27347","November","0",0
+"2017","Planning Area 3.3","XXV Pavuna","Acari","27347","November","1",3.66
 "2017","Planning Area 3.3","XXV Pavuna","Acari","27347","December","0",0
 "2017","Planning Area 3.3","XXV Pavuna","Barros Filho","14049","January","2",14.24
 "2017","Planning Area 3.3","XXV Pavuna","Barros Filho","14049","February","0",0
-"2017","Planning Area 3.3","XXV Pavuna","Barros Filho","14049","March","3",21.35
+"2017","Planning Area 3.3","XXV Pavuna","Barros Filho","14049","March","4",28.47
 "2017","Planning Area 3.3","XXV Pavuna","Barros Filho","14049","April","0",0
 "2017","Planning Area 3.3","XXV Pavuna","Barros Filho","14049","May","0",0
 "2017","Planning Area 3.3","XXV Pavuna","Barros Filho","14049","June","0",0
 "2017","Planning Area 3.3","XXV Pavuna","Barros Filho","14049","July","0",0
 "2017","Planning Area 3.3","XXV Pavuna","Barros Filho","14049","August","1",7.12
 "2017","Planning Area 3.3","XXV Pavuna","Barros Filho","14049","September","2",14.24
-"2017","Planning Area 3.3","XXV Pavuna","Barros Filho","14049","October","0",0
-"2017","Planning Area 3.3","XXV Pavuna","Barros Filho","14049","November","0",0
+"2017","Planning Area 3.3","XXV Pavuna","Barros Filho","14049","October","1",7.12
+"2017","Planning Area 3.3","XXV Pavuna","Barros Filho","14049","November","2",14.24
 "2017","Planning Area 3.3","XXV Pavuna","Barros Filho","14049","December","0",0
 "2017","Planning Area 3.3","XXV Pavuna","Coelho Neto","32423","January","6",18.51
 "2017","Planning Area 3.3","XXV Pavuna","Coelho Neto","32423","February","4",12.34
@@ -12993,7 +12993,7 @@
 "2017","Planning Area 3.3","XXV Pavuna","Coelho Neto","32423","August","2",6.17
 "2017","Planning Area 3.3","XXV Pavuna","Coelho Neto","32423","September","0",0
 "2017","Planning Area 3.3","XXV Pavuna","Coelho Neto","32423","October","0",0
-"2017","Planning Area 3.3","XXV Pavuna","Coelho Neto","32423","November","0",0
+"2017","Planning Area 3.3","XXV Pavuna","Coelho Neto","32423","November","1",3.08
 "2017","Planning Area 3.3","XXV Pavuna","Coelho Neto","32423","December","0",0
 "2017","Planning Area 3.3","XXV Pavuna","Costa Barros","28442","January","4",14.06
 "2017","Planning Area 3.3","XXV Pavuna","Costa Barros","28442","February","6",21.1
@@ -13003,9 +13003,9 @@
 "2017","Planning Area 3.3","XXV Pavuna","Costa Barros","28442","June","0",0
 "2017","Planning Area 3.3","XXV Pavuna","Costa Barros","28442","July","0",0
 "2017","Planning Area 3.3","XXV Pavuna","Costa Barros","28442","August","0",0
-"2017","Planning Area 3.3","XXV Pavuna","Costa Barros","28442","September","0",0
+"2017","Planning Area 3.3","XXV Pavuna","Costa Barros","28442","September","1",3.52
 "2017","Planning Area 3.3","XXV Pavuna","Costa Barros","28442","October","0",0
-"2017","Planning Area 3.3","XXV Pavuna","Costa Barros","28442","November","0",0
+"2017","Planning Area 3.3","XXV Pavuna","Costa Barros","28442","November","1",3.52
 "2017","Planning Area 3.3","XXV Pavuna","Costa Barros","28442","December","0",0
 "2017","Planning Area 3.3","XXV Pavuna","Parque Columbia","9202","January","0",0
 "2017","Planning Area 3.3","XXV Pavuna","Parque Columbia","9202","February","0",0
@@ -13039,22 +13039,22 @@
 "2017","Planning Area 4.0","XVI Jacarepaguá","Anil","24172","June","1",4.14
 "2017","Planning Area 4.0","XVI Jacarepaguá","Anil","24172","July","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Anil","24172","August","0",0
-"2017","Planning Area 4.0","XVI Jacarepaguá","Anil","24172","September","0",0
-"2017","Planning Area 4.0","XVI Jacarepaguá","Anil","24172","October","0",0
-"2017","Planning Area 4.0","XVI Jacarepaguá","Anil","24172","November","0",0
-"2017","Planning Area 4.0","XVI Jacarepaguá","Anil","24172","December","0",0
+"2017","Planning Area 4.0","XVI Jacarepaguá","Anil","24172","September","1",4.14
+"2017","Planning Area 4.0","XVI Jacarepaguá","Anil","24172","October","3",12.41
+"2017","Planning Area 4.0","XVI Jacarepaguá","Anil","24172","November","1",4.14
+"2017","Planning Area 4.0","XVI Jacarepaguá","Anil","24172","December","1",4.14
 "2017","Planning Area 4.0","XVI Jacarepaguá","Curicica","31189","January","4",12.83
 "2017","Planning Area 4.0","XVI Jacarepaguá","Curicica","31189","February","1",3.21
 "2017","Planning Area 4.0","XVI Jacarepaguá","Curicica","31189","March","2",6.41
 "2017","Planning Area 4.0","XVI Jacarepaguá","Curicica","31189","April","2",6.41
-"2017","Planning Area 4.0","XVI Jacarepaguá","Curicica","31189","May","1",3.21
+"2017","Planning Area 4.0","XVI Jacarepaguá","Curicica","31189","May","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Curicica","31189","June","3",9.62
 "2017","Planning Area 4.0","XVI Jacarepaguá","Curicica","31189","July","2",6.41
 "2017","Planning Area 4.0","XVI Jacarepaguá","Curicica","31189","August","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Curicica","31189","September","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Curicica","31189","October","1",3.21
-"2017","Planning Area 4.0","XVI Jacarepaguá","Curicica","31189","November","0",0
-"2017","Planning Area 4.0","XVI Jacarepaguá","Curicica","31189","December","0",0
+"2017","Planning Area 4.0","XVI Jacarepaguá","Curicica","31189","November","4",12.83
+"2017","Planning Area 4.0","XVI Jacarepaguá","Curicica","31189","December","4",12.83
 "2017","Planning Area 4.0","XVI Jacarepaguá","Freguesia (Jacarepaguá)","70511","January","1",1.42
 "2017","Planning Area 4.0","XVI Jacarepaguá","Freguesia (Jacarepaguá)","70511","February","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Freguesia (Jacarepaguá)","70511","March","3",4.25
@@ -13066,7 +13066,7 @@
 "2017","Planning Area 4.0","XVI Jacarepaguá","Freguesia (Jacarepaguá)","70511","September","2",2.84
 "2017","Planning Area 4.0","XVI Jacarepaguá","Freguesia (Jacarepaguá)","70511","October","1",1.42
 "2017","Planning Area 4.0","XVI Jacarepaguá","Freguesia (Jacarepaguá)","70511","November","0",0
-"2017","Planning Area 4.0","XVI Jacarepaguá","Freguesia (Jacarepaguá)","70511","December","0",0
+"2017","Planning Area 4.0","XVI Jacarepaguá","Freguesia (Jacarepaguá)","70511","December","2",2.84
 "2017","Planning Area 4.0","XVI Jacarepaguá","Gardênia Azul","17715","January","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Gardênia Azul","17715","February","2",11.29
 "2017","Planning Area 4.0","XVI Jacarepaguá","Gardênia Azul","17715","March","7",39.51
@@ -13074,11 +13074,11 @@
 "2017","Planning Area 4.0","XVI Jacarepaguá","Gardênia Azul","17715","May","9",50.8
 "2017","Planning Area 4.0","XVI Jacarepaguá","Gardênia Azul","17715","June","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Gardênia Azul","17715","July","1",5.64
-"2017","Planning Area 4.0","XVI Jacarepaguá","Gardênia Azul","17715","August","1",5.64
+"2017","Planning Area 4.0","XVI Jacarepaguá","Gardênia Azul","17715","August","2",11.29
 "2017","Planning Area 4.0","XVI Jacarepaguá","Gardênia Azul","17715","September","0",0
-"2017","Planning Area 4.0","XVI Jacarepaguá","Gardênia Azul","17715","October","0",0
-"2017","Planning Area 4.0","XVI Jacarepaguá","Gardênia Azul","17715","November","0",0
-"2017","Planning Area 4.0","XVI Jacarepaguá","Gardênia Azul","17715","December","0",0
+"2017","Planning Area 4.0","XVI Jacarepaguá","Gardênia Azul","17715","October","1",5.64
+"2017","Planning Area 4.0","XVI Jacarepaguá","Gardênia Azul","17715","November","2",11.29
+"2017","Planning Area 4.0","XVI Jacarepaguá","Gardênia Azul","17715","December","1",5.64
 "2017","Planning Area 4.0","XVI Jacarepaguá","Jacarepaguá","157326","January","4",2.54
 "2017","Planning Area 4.0","XVI Jacarepaguá","Jacarepaguá","157326","February","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Jacarepaguá","157326","March","4",2.54
@@ -13087,9 +13087,9 @@
 "2017","Planning Area 4.0","XVI Jacarepaguá","Jacarepaguá","157326","June","4",2.54
 "2017","Planning Area 4.0","XVI Jacarepaguá","Jacarepaguá","157326","July","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Jacarepaguá","157326","August","0",0
-"2017","Planning Area 4.0","XVI Jacarepaguá","Jacarepaguá","157326","September","2",1.27
-"2017","Planning Area 4.0","XVI Jacarepaguá","Jacarepaguá","157326","October","3",1.91
-"2017","Planning Area 4.0","XVI Jacarepaguá","Jacarepaguá","157326","November","0",0
+"2017","Planning Area 4.0","XVI Jacarepaguá","Jacarepaguá","157326","September","3",1.91
+"2017","Planning Area 4.0","XVI Jacarepaguá","Jacarepaguá","157326","October","8",5.08
+"2017","Planning Area 4.0","XVI Jacarepaguá","Jacarepaguá","157326","November","1",0.64
 "2017","Planning Area 4.0","XVI Jacarepaguá","Jacarepaguá","157326","December","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Pechincha","34709","January","2",5.76
 "2017","Planning Area 4.0","XVI Jacarepaguá","Pechincha","34709","February","0",0
@@ -13097,10 +13097,10 @@
 "2017","Planning Area 4.0","XVI Jacarepaguá","Pechincha","34709","April","4",11.52
 "2017","Planning Area 4.0","XVI Jacarepaguá","Pechincha","34709","May","4",11.52
 "2017","Planning Area 4.0","XVI Jacarepaguá","Pechincha","34709","June","0",0
-"2017","Planning Area 4.0","XVI Jacarepaguá","Pechincha","34709","July","0",0
+"2017","Planning Area 4.0","XVI Jacarepaguá","Pechincha","34709","July","1",2.88
 "2017","Planning Area 4.0","XVI Jacarepaguá","Pechincha","34709","August","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Pechincha","34709","September","3",8.64
-"2017","Planning Area 4.0","XVI Jacarepaguá","Pechincha","34709","October","0",0
+"2017","Planning Area 4.0","XVI Jacarepaguá","Pechincha","34709","October","1",2.88
 "2017","Planning Area 4.0","XVI Jacarepaguá","Pechincha","34709","November","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Pechincha","34709","December","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Praça Seca","64147","January","1",1.56
@@ -13112,7 +13112,7 @@
 "2017","Planning Area 4.0","XVI Jacarepaguá","Praça Seca","64147","July","2",3.12
 "2017","Planning Area 4.0","XVI Jacarepaguá","Praça Seca","64147","August","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Praça Seca","64147","September","0",0
-"2017","Planning Area 4.0","XVI Jacarepaguá","Praça Seca","64147","October","0",0
+"2017","Planning Area 4.0","XVI Jacarepaguá","Praça Seca","64147","October","1",1.56
 "2017","Planning Area 4.0","XVI Jacarepaguá","Praça Seca","64147","November","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Praça Seca","64147","December","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Tanque","37856","January","0",0
@@ -13126,19 +13126,19 @@
 "2017","Planning Area 4.0","XVI Jacarepaguá","Tanque","37856","September","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Tanque","37856","October","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Tanque","37856","November","0",0
-"2017","Planning Area 4.0","XVI Jacarepaguá","Tanque","37856","December","0",0
+"2017","Planning Area 4.0","XVI Jacarepaguá","Tanque","37856","December","1",2.64
 "2017","Planning Area 4.0","XVI Jacarepaguá","Taquara","102126","January","7",6.85
 "2017","Planning Area 4.0","XVI Jacarepaguá","Taquara","102126","February","3",2.94
-"2017","Planning Area 4.0","XVI Jacarepaguá","Taquara","102126","March","12",11.75
+"2017","Planning Area 4.0","XVI Jacarepaguá","Taquara","102126","March","11",10.77
 "2017","Planning Area 4.0","XVI Jacarepaguá","Taquara","102126","April","4",3.92
 "2017","Planning Area 4.0","XVI Jacarepaguá","Taquara","102126","May","7",6.85
 "2017","Planning Area 4.0","XVI Jacarepaguá","Taquara","102126","June","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Taquara","102126","July","3",2.94
-"2017","Planning Area 4.0","XVI Jacarepaguá","Taquara","102126","August","2",1.96
+"2017","Planning Area 4.0","XVI Jacarepaguá","Taquara","102126","August","3",2.94
 "2017","Planning Area 4.0","XVI Jacarepaguá","Taquara","102126","September","1",0.98
-"2017","Planning Area 4.0","XVI Jacarepaguá","Taquara","102126","October","1",0.98
-"2017","Planning Area 4.0","XVI Jacarepaguá","Taquara","102126","November","0",0
-"2017","Planning Area 4.0","XVI Jacarepaguá","Taquara","102126","December","0",0
+"2017","Planning Area 4.0","XVI Jacarepaguá","Taquara","102126","October","3",2.94
+"2017","Planning Area 4.0","XVI Jacarepaguá","Taquara","102126","November","1",0.98
+"2017","Planning Area 4.0","XVI Jacarepaguá","Taquara","102126","December","2",1.96
 "2017","Planning Area 4.0","XVI Jacarepaguá","Vila Valqueire","32279","January","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Vila Valqueire","32279","February","0",0
 "2017","Planning Area 4.0","XVI Jacarepaguá","Vila Valqueire","32279","March","2",6.2
@@ -13158,10 +13158,10 @@
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Barra da Tijuca","135924","May","2",1.47
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Barra da Tijuca","135924","June","0",0
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Barra da Tijuca","135924","July","0",0
-"2017","Planning Area 4.0","XXIV Barra da Tijuca","Barra da Tijuca","135924","August","0",0
+"2017","Planning Area 4.0","XXIV Barra da Tijuca","Barra da Tijuca","135924","August","1",0.74
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Barra da Tijuca","135924","September","0",0
-"2017","Planning Area 4.0","XXIV Barra da Tijuca","Barra da Tijuca","135924","October","0",0
-"2017","Planning Area 4.0","XXIV Barra da Tijuca","Barra da Tijuca","135924","November","0",0
+"2017","Planning Area 4.0","XXIV Barra da Tijuca","Barra da Tijuca","135924","October","4",2.94
+"2017","Planning Area 4.0","XXIV Barra da Tijuca","Barra da Tijuca","135924","November","7",5.15
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Barra da Tijuca","135924","December","0",0
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Camorim","197","January","0",0
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Camorim","197","February","0",0
@@ -13196,9 +13196,9 @@
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Itanhangá","38415","July","1",2.6
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Itanhangá","38415","August","1",2.6
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Itanhangá","38415","September","1",2.6
-"2017","Planning Area 4.0","XXIV Barra da Tijuca","Itanhangá","38415","October","1",2.6
+"2017","Planning Area 4.0","XXIV Barra da Tijuca","Itanhangá","38415","October","3",7.81
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Itanhangá","38415","November","0",0
-"2017","Planning Area 4.0","XXIV Barra da Tijuca","Itanhangá","38415","December","0",0
+"2017","Planning Area 4.0","XXIV Barra da Tijuca","Itanhangá","38415","December","1",2.6
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Joá","818","January","0",0
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Joá","818","February","0",0
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Joá","818","March","0",0
@@ -13220,9 +13220,9 @@
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Recreio dos Bandeirantes","8224","July","2",24.32
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Recreio dos Bandeirantes","8224","August","0",0
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Recreio dos Bandeirantes","8224","September","1",12.16
-"2017","Planning Area 4.0","XXIV Barra da Tijuca","Recreio dos Bandeirantes","8224","October","1",12.16
-"2017","Planning Area 4.0","XXIV Barra da Tijuca","Recreio dos Bandeirantes","8224","November","0",0
-"2017","Planning Area 4.0","XXIV Barra da Tijuca","Recreio dos Bandeirantes","8224","December","0",0
+"2017","Planning Area 4.0","XXIV Barra da Tijuca","Recreio dos Bandeirantes","8224","October","5",60.8
+"2017","Planning Area 4.0","XXIV Barra da Tijuca","Recreio dos Bandeirantes","8224","November","4",48.64
+"2017","Planning Area 4.0","XXIV Barra da Tijuca","Recreio dos Bandeirantes","8224","December","1",12.16
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Vargem Grande","14039","January","0",0
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Vargem Grande","14039","February","0",0
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Vargem Grande","14039","March","0",0
@@ -13244,7 +13244,7 @@
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Vargem Pequena","2725","July","0",0
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Vargem Pequena","2725","August","0",0
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Vargem Pequena","2725","September","0",0
-"2017","Planning Area 4.0","XXIV Barra da Tijuca","Vargem Pequena","2725","October","0",0
+"2017","Planning Area 4.0","XXIV Barra da Tijuca","Vargem Pequena","2725","October","1",36.7
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Vargem Pequena","2725","November","0",0
 "2017","Planning Area 4.0","XXIV Barra da Tijuca","Vargem Pequena","2725","December","0",0
 "2017","Planning Area 4.0","XXXIV Cidade de Deus","Cidade de Deus","36515","January","7",19.17
@@ -13254,23 +13254,23 @@
 "2017","Planning Area 4.0","XXXIV Cidade de Deus","Cidade de Deus","36515","May","5",13.69
 "2017","Planning Area 4.0","XXXIV Cidade de Deus","Cidade de Deus","36515","June","0",0
 "2017","Planning Area 4.0","XXXIV Cidade de Deus","Cidade de Deus","36515","July","1",2.74
-"2017","Planning Area 4.0","XXXIV Cidade de Deus","Cidade de Deus","36515","August","0",0
-"2017","Planning Area 4.0","XXXIV Cidade de Deus","Cidade de Deus","36515","September","1",2.74
-"2017","Planning Area 4.0","XXXIV Cidade de Deus","Cidade de Deus","36515","October","4",10.95
+"2017","Planning Area 4.0","XXXIV Cidade de Deus","Cidade de Deus","36515","August","1",2.74
+"2017","Planning Area 4.0","XXXIV Cidade de Deus","Cidade de Deus","36515","September","5",13.69
+"2017","Planning Area 4.0","XXXIV Cidade de Deus","Cidade de Deus","36515","October","7",19.17
 "2017","Planning Area 4.0","XXXIV Cidade de Deus","Cidade de Deus","36515","November","0",0
-"2017","Planning Area 4.0","XXXIV Cidade de Deus","Cidade de Deus","36515","December","0",0
+"2017","Planning Area 4.0","XXXIV Cidade de Deus","Cidade de Deus","36515","December","1",2.74
 "2017","Planning Area 5.1","XVII Bangu","Bangu","243125","January","35",14.4
 "2017","Planning Area 5.1","XVII Bangu","Bangu","243125","February","25",10.28
 "2017","Planning Area 5.1","XVII Bangu","Bangu","243125","March","15",6.17
 "2017","Planning Area 5.1","XVII Bangu","Bangu","243125","April","12",4.94
-"2017","Planning Area 5.1","XVII Bangu","Bangu","243125","May","7",2.88
+"2017","Planning Area 5.1","XVII Bangu","Bangu","243125","May","8",3.29
 "2017","Planning Area 5.1","XVII Bangu","Bangu","243125","June","8",3.29
 "2017","Planning Area 5.1","XVII Bangu","Bangu","243125","July","8",3.29
 "2017","Planning Area 5.1","XVII Bangu","Bangu","243125","August","2",0.82
 "2017","Planning Area 5.1","XVII Bangu","Bangu","243125","September","5",2.06
-"2017","Planning Area 5.1","XVII Bangu","Bangu","243125","October","6",2.47
-"2017","Planning Area 5.1","XVII Bangu","Bangu","243125","November","0",0
-"2017","Planning Area 5.1","XVII Bangu","Bangu","243125","December","0",0
+"2017","Planning Area 5.1","XVII Bangu","Bangu","243125","October","9",3.7
+"2017","Planning Area 5.1","XVII Bangu","Bangu","243125","November","6",2.47
+"2017","Planning Area 5.1","XVII Bangu","Bangu","243125","December","2",0.82
 "2017","Planning Area 5.1","XVII Bangu","Gericinó","15167","January","0",0
 "2017","Planning Area 5.1","XVII Bangu","Gericinó","15167","February","0",0
 "2017","Planning Area 5.1","XVII Bangu","Gericinó","15167","March","0",0
@@ -13285,15 +13285,15 @@
 "2017","Planning Area 5.1","XVII Bangu","Gericinó","15167","December","0",0
 "2017","Planning Area 5.1","XVII Bangu","Padre Miguel","64228","January","11",17.13
 "2017","Planning Area 5.1","XVII Bangu","Padre Miguel","64228","February","5",7.78
-"2017","Planning Area 5.1","XVII Bangu","Padre Miguel","64228","March","5",7.78
+"2017","Planning Area 5.1","XVII Bangu","Padre Miguel","64228","March","6",9.34
 "2017","Planning Area 5.1","XVII Bangu","Padre Miguel","64228","April","9",14.01
 "2017","Planning Area 5.1","XVII Bangu","Padre Miguel","64228","May","2",3.11
 "2017","Planning Area 5.1","XVII Bangu","Padre Miguel","64228","June","1",1.56
 "2017","Planning Area 5.1","XVII Bangu","Padre Miguel","64228","July","0",0
 "2017","Planning Area 5.1","XVII Bangu","Padre Miguel","64228","August","3",4.67
-"2017","Planning Area 5.1","XVII Bangu","Padre Miguel","64228","September","2",3.11
+"2017","Planning Area 5.1","XVII Bangu","Padre Miguel","64228","September","1",1.56
 "2017","Planning Area 5.1","XVII Bangu","Padre Miguel","64228","October","1",1.56
-"2017","Planning Area 5.1","XVII Bangu","Padre Miguel","64228","November","0",0
+"2017","Planning Area 5.1","XVII Bangu","Padre Miguel","64228","November","2",3.11
 "2017","Planning Area 5.1","XVII Bangu","Padre Miguel","64228","December","0",0
 "2017","Planning Area 5.1","XVII Bangu","Senador Camará","105515","January","23",21.8
 "2017","Planning Area 5.1","XVII Bangu","Senador Camará","105515","February","24",22.75
@@ -13304,9 +13304,9 @@
 "2017","Planning Area 5.1","XVII Bangu","Senador Camará","105515","July","3",2.84
 "2017","Planning Area 5.1","XVII Bangu","Senador Camará","105515","August","12",11.37
 "2017","Planning Area 5.1","XVII Bangu","Senador Camará","105515","September","9",8.53
-"2017","Planning Area 5.1","XVII Bangu","Senador Camará","105515","October","6",5.69
-"2017","Planning Area 5.1","XVII Bangu","Senador Camará","105515","November","0",0
-"2017","Planning Area 5.1","XVII Bangu","Senador Camará","105515","December","0",0
+"2017","Planning Area 5.1","XVII Bangu","Senador Camará","105515","October","9",8.53
+"2017","Planning Area 5.1","XVII Bangu","Senador Camará","105515","November","1",0.95
+"2017","Planning Area 5.1","XVII Bangu","Senador Camará","105515","December","5",4.74
 "2017","Planning Area 5.1","XXXIII Realengo","Campo dos Afonsos","1365","January","0",0
 "2017","Planning Area 5.1","XXXIII Realengo","Campo dos Afonsos","1365","February","0",0
 "2017","Planning Area 5.1","XXXIII Realengo","Campo dos Afonsos","1365","March","0",0
@@ -13339,7 +13339,7 @@
 "2017","Planning Area 5.1","XXXIII Realengo","Jardim Sulacap","13062","June","0",0
 "2017","Planning Area 5.1","XXXIII Realengo","Jardim Sulacap","13062","July","0",0
 "2017","Planning Area 5.1","XXXIII Realengo","Jardim Sulacap","13062","August","0",0
-"2017","Planning Area 5.1","XXXIII Realengo","Jardim Sulacap","13062","September","0",0
+"2017","Planning Area 5.1","XXXIII Realengo","Jardim Sulacap","13062","September","2",15.31
 "2017","Planning Area 5.1","XXXIII Realengo","Jardim Sulacap","13062","October","0",0
 "2017","Planning Area 5.1","XXXIII Realengo","Jardim Sulacap","13062","November","0",0
 "2017","Planning Area 5.1","XXXIII Realengo","Jardim Sulacap","13062","December","0",0
@@ -13351,7 +13351,7 @@
 "2017","Planning Area 5.1","XXXIII Realengo","Magalhães Bastos","2443","June","0",0
 "2017","Planning Area 5.1","XXXIII Realengo","Magalhães Bastos","2443","July","0",0
 "2017","Planning Area 5.1","XXXIII Realengo","Magalhães Bastos","2443","August","1",40.93
-"2017","Planning Area 5.1","XXXIII Realengo","Magalhães Bastos","2443","September","1",40.93
+"2017","Planning Area 5.1","XXXIII Realengo","Magalhães Bastos","2443","September","2",81.87
 "2017","Planning Area 5.1","XXXIII Realengo","Magalhães Bastos","2443","October","0",0
 "2017","Planning Area 5.1","XXXIII Realengo","Magalhães Bastos","2443","November","0",0
 "2017","Planning Area 5.1","XXXIII Realengo","Magalhães Bastos","2443","December","0",0
@@ -13364,9 +13364,9 @@
 "2017","Planning Area 5.1","XXXIII Realengo","Realengo","180123","July","5",2.78
 "2017","Planning Area 5.1","XXXIII Realengo","Realengo","180123","August","1",0.56
 "2017","Planning Area 5.1","XXXIII Realengo","Realengo","180123","September","1",0.56
-"2017","Planning Area 5.1","XXXIII Realengo","Realengo","180123","October","1",0.56
-"2017","Planning Area 5.1","XXXIII Realengo","Realengo","180123","November","0",0
-"2017","Planning Area 5.1","XXXIII Realengo","Realengo","180123","December","0",0
+"2017","Planning Area 5.1","XXXIII Realengo","Realengo","180123","October","3",1.67
+"2017","Planning Area 5.1","XXXIII Realengo","Realengo","180123","November","2",1.11
+"2017","Planning Area 5.1","XXXIII Realengo","Realengo","180123","December","2",1.11
 "2017","Planning Area 5.1","XXXIII Realengo","Vila Militar","13184","January","2",15.17
 "2017","Planning Area 5.1","XXXIII Realengo","Vila Militar","13184","February","0",0
 "2017","Planning Area 5.1","XXXIII Realengo","Vila Militar","13184","March","0",0
@@ -13388,9 +13388,9 @@
 "2017","Planning Area 5.2","XVIII Campo Grande","Campo Grande","32837","July","8",24.36
 "2017","Planning Area 5.2","XVIII Campo Grande","Campo Grande","32837","August","3",9.14
 "2017","Planning Area 5.2","XVIII Campo Grande","Campo Grande","32837","September","9",27.41
-"2017","Planning Area 5.2","XVIII Campo Grande","Campo Grande","32837","October","5",15.23
-"2017","Planning Area 5.2","XVIII Campo Grande","Campo Grande","32837","November","0",0
-"2017","Planning Area 5.2","XVIII Campo Grande","Campo Grande","32837","December","0",0
+"2017","Planning Area 5.2","XVIII Campo Grande","Campo Grande","32837","October","11",33.5
+"2017","Planning Area 5.2","XVIII Campo Grande","Campo Grande","32837","November","18",54.82
+"2017","Planning Area 5.2","XVIII Campo Grande","Campo Grande","32837","December","5",15.23
 "2017","Planning Area 5.2","XVIII Campo Grande","Cosmos","77007","January","8",10.39
 "2017","Planning Area 5.2","XVIII Campo Grande","Cosmos","77007","February","11",14.28
 "2017","Planning Area 5.2","XVIII Campo Grande","Cosmos","77007","March","8",10.39
@@ -13399,9 +13399,9 @@
 "2017","Planning Area 5.2","XVIII Campo Grande","Cosmos","77007","June","4",5.19
 "2017","Planning Area 5.2","XVIII Campo Grande","Cosmos","77007","July","1",1.3
 "2017","Planning Area 5.2","XVIII Campo Grande","Cosmos","77007","August","2",2.6
-"2017","Planning Area 5.2","XVIII Campo Grande","Cosmos","77007","September","1",1.3
-"2017","Planning Area 5.2","XVIII Campo Grande","Cosmos","77007","October","0",0
-"2017","Planning Area 5.2","XVIII Campo Grande","Cosmos","77007","November","0",0
+"2017","Planning Area 5.2","XVIII Campo Grande","Cosmos","77007","September","4",5.19
+"2017","Planning Area 5.2","XVIII Campo Grande","Cosmos","77007","October","1",1.3
+"2017","Planning Area 5.2","XVIII Campo Grande","Cosmos","77007","November","2",2.6
 "2017","Planning Area 5.2","XVIII Campo Grande","Cosmos","77007","December","0",0
 "2017","Planning Area 5.2","XVIII Campo Grande","Inhoaíba","64649","January","4",6.19
 "2017","Planning Area 5.2","XVIII Campo Grande","Inhoaíba","64649","February","13",20.11
@@ -13411,10 +13411,10 @@
 "2017","Planning Area 5.2","XVIII Campo Grande","Inhoaíba","64649","June","1",1.55
 "2017","Planning Area 5.2","XVIII Campo Grande","Inhoaíba","64649","July","2",3.09
 "2017","Planning Area 5.2","XVIII Campo Grande","Inhoaíba","64649","August","2",3.09
-"2017","Planning Area 5.2","XVIII Campo Grande","Inhoaíba","64649","September","3",4.64
-"2017","Planning Area 5.2","XVIII Campo Grande","Inhoaíba","64649","October","0",0
-"2017","Planning Area 5.2","XVIII Campo Grande","Inhoaíba","64649","November","0",0
-"2017","Planning Area 5.2","XVIII Campo Grande","Inhoaíba","64649","December","0",0
+"2017","Planning Area 5.2","XVIII Campo Grande","Inhoaíba","64649","September","4",6.19
+"2017","Planning Area 5.2","XVIII Campo Grande","Inhoaíba","64649","October","1",1.55
+"2017","Planning Area 5.2","XVIII Campo Grande","Inhoaíba","64649","November","1",1.55
+"2017","Planning Area 5.2","XVIII Campo Grande","Inhoaíba","64649","December","2",3.09
 "2017","Planning Area 5.2","XVIII Campo Grande","Santíssimo","41458","January","2",4.82
 "2017","Planning Area 5.2","XVIII Campo Grande","Santíssimo","41458","February","2",4.82
 "2017","Planning Area 5.2","XVIII Campo Grande","Santíssimo","41458","March","0",0
@@ -13424,8 +13424,8 @@
 "2017","Planning Area 5.2","XVIII Campo Grande","Santíssimo","41458","July","3",7.24
 "2017","Planning Area 5.2","XVIII Campo Grande","Santíssimo","41458","August","0",0
 "2017","Planning Area 5.2","XVIII Campo Grande","Santíssimo","41458","September","1",2.41
-"2017","Planning Area 5.2","XVIII Campo Grande","Santíssimo","41458","October","0",0
-"2017","Planning Area 5.2","XVIII Campo Grande","Santíssimo","41458","November","0",0
+"2017","Planning Area 5.2","XVIII Campo Grande","Santíssimo","41458","October","1",2.41
+"2017","Planning Area 5.2","XVIII Campo Grande","Santíssimo","41458","November","1",2.41
 "2017","Planning Area 5.2","XVIII Campo Grande","Santíssimo","41458","December","0",0
 "2017","Planning Area 5.2","XVIII Campo Grande","Senador Vasconcelos","306","January","3",980.39
 "2017","Planning Area 5.2","XVIII Campo Grande","Senador Vasconcelos","306","February","3",980.39
@@ -13436,9 +13436,9 @@
 "2017","Planning Area 5.2","XVIII Campo Grande","Senador Vasconcelos","306","July","1",326.8
 "2017","Planning Area 5.2","XVIII Campo Grande","Senador Vasconcelos","306","August","0",0
 "2017","Planning Area 5.2","XVIII Campo Grande","Senador Vasconcelos","306","September","1",326.8
-"2017","Planning Area 5.2","XVIII Campo Grande","Senador Vasconcelos","306","October","0",0
-"2017","Planning Area 5.2","XVIII Campo Grande","Senador Vasconcelos","306","November","0",0
-"2017","Planning Area 5.2","XVIII Campo Grande","Senador Vasconcelos","306","December","0",0
+"2017","Planning Area 5.2","XVIII Campo Grande","Senador Vasconcelos","306","October","1",326.8
+"2017","Planning Area 5.2","XVIII Campo Grande","Senador Vasconcelos","306","November","2",653.59
+"2017","Planning Area 5.2","XVIII Campo Grande","Senador Vasconcelos","306","December","1",326.8
 "2017","Planning Area 5.2","XXVI Guaratiba","Barra de Guaratiba","3577","January","1",27.96
 "2017","Planning Area 5.2","XXVI Guaratiba","Barra de Guaratiba","3577","February","1",27.96
 "2017","Planning Area 5.2","XXVI Guaratiba","Barra de Guaratiba","3577","March","1",27.96
@@ -13460,9 +13460,9 @@
 "2017","Planning Area 5.2","XXVI Guaratiba","Guaratiba","110049","July","2",1.82
 "2017","Planning Area 5.2","XXVI Guaratiba","Guaratiba","110049","August","2",1.82
 "2017","Planning Area 5.2","XXVI Guaratiba","Guaratiba","110049","September","0",0
-"2017","Planning Area 5.2","XXVI Guaratiba","Guaratiba","110049","October","1",0.91
+"2017","Planning Area 5.2","XXVI Guaratiba","Guaratiba","110049","October","3",2.73
 "2017","Planning Area 5.2","XXVI Guaratiba","Guaratiba","110049","November","0",0
-"2017","Planning Area 5.2","XXVI Guaratiba","Guaratiba","110049","December","0",0
+"2017","Planning Area 5.2","XXVI Guaratiba","Guaratiba","110049","December","1",0.91
 "2017","Planning Area 5.2","XXVI Guaratiba","Pedra de Guaratiba","9488","January","5",52.7
 "2017","Planning Area 5.2","XXVI Guaratiba","Pedra de Guaratiba","9488","February","2",21.08
 "2017","Planning Area 5.2","XXVI Guaratiba","Pedra de Guaratiba","9488","March","1",10.54
@@ -13479,13 +13479,13 @@
 "2017","Planning Area 5.3","XIX Santa Cruz","Paciência","94626","February","17",17.97
 "2017","Planning Area 5.3","XIX Santa Cruz","Paciência","94626","March","7",7.4
 "2017","Planning Area 5.3","XIX Santa Cruz","Paciência","94626","April","11",11.62
-"2017","Planning Area 5.3","XIX Santa Cruz","Paciência","94626","May","6",6.34
+"2017","Planning Area 5.3","XIX Santa Cruz","Paciência","94626","May","7",7.4
 "2017","Planning Area 5.3","XIX Santa Cruz","Paciência","94626","June","5",5.28
 "2017","Planning Area 5.3","XIX Santa Cruz","Paciência","94626","July","5",5.28
 "2017","Planning Area 5.3","XIX Santa Cruz","Paciência","94626","August","2",2.11
-"2017","Planning Area 5.3","XIX Santa Cruz","Paciência","94626","September","1",1.06
-"2017","Planning Area 5.3","XIX Santa Cruz","Paciência","94626","October","1",1.06
-"2017","Planning Area 5.3","XIX Santa Cruz","Paciência","94626","November","0",0
+"2017","Planning Area 5.3","XIX Santa Cruz","Paciência","94626","September","3",3.17
+"2017","Planning Area 5.3","XIX Santa Cruz","Paciência","94626","October","3",3.17
+"2017","Planning Area 5.3","XIX Santa Cruz","Paciência","94626","November","2",2.11
 "2017","Planning Area 5.3","XIX Santa Cruz","Paciência","94626","December","0",0
 "2017","Planning Area 5.3","XIX Santa Cruz","Santa Cruz","217333","January","50",23.01
 "2017","Planning Area 5.3","XIX Santa Cruz","Santa Cruz","217333","February","53",24.39
@@ -13496,9 +13496,9 @@
 "2017","Planning Area 5.3","XIX Santa Cruz","Santa Cruz","217333","July","11",5.06
 "2017","Planning Area 5.3","XIX Santa Cruz","Santa Cruz","217333","August","11",5.06
 "2017","Planning Area 5.3","XIX Santa Cruz","Santa Cruz","217333","September","1",0.46
-"2017","Planning Area 5.3","XIX Santa Cruz","Santa Cruz","217333","October","1",0.46
-"2017","Planning Area 5.3","XIX Santa Cruz","Santa Cruz","217333","November","0",0
-"2017","Planning Area 5.3","XIX Santa Cruz","Santa Cruz","217333","December","0",0
+"2017","Planning Area 5.3","XIX Santa Cruz","Santa Cruz","217333","October","10",4.6
+"2017","Planning Area 5.3","XIX Santa Cruz","Santa Cruz","217333","November","19",8.74
+"2017","Planning Area 5.3","XIX Santa Cruz","Santa Cruz","217333","December","1",0.46
 "2017","Planning Area 5.3","XIX Santa Cruz","Sepetiba","56575","January","5",8.84
 "2017","Planning Area 5.3","XIX Santa Cruz","Sepetiba","56575","February","9",15.91
 "2017","Planning Area 5.3","XIX Santa Cruz","Sepetiba","56575","March","8",14.14
@@ -13507,19 +13507,19 @@
 "2017","Planning Area 5.3","XIX Santa Cruz","Sepetiba","56575","June","1",1.77
 "2017","Planning Area 5.3","XIX Santa Cruz","Sepetiba","56575","July","1",1.77
 "2017","Planning Area 5.3","XIX Santa Cruz","Sepetiba","56575","August","0",0
-"2017","Planning Area 5.3","XIX Santa Cruz","Sepetiba","56575","September","0",0
-"2017","Planning Area 5.3","XIX Santa Cruz","Sepetiba","56575","October","2",3.54
-"2017","Planning Area 5.3","XIX Santa Cruz","Sepetiba","56575","November","0",0
+"2017","Planning Area 5.3","XIX Santa Cruz","Sepetiba","56575","September","2",3.54
+"2017","Planning Area 5.3","XIX Santa Cruz","Sepetiba","56575","October","6",10.61
+"2017","Planning Area 5.3","XIX Santa Cruz","Sepetiba","56575","November","3",5.3
 "2017","Planning Area 5.3","XIX Santa Cruz","Sepetiba","56575","December","0",0
-"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"January","58",NA
-"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"February","35",NA
-"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"March","37",NA
-"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"April","14",NA
-"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"May","22",NA
+"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"January","53",NA
+"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"February","33",NA
+"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"March","36",NA
+"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"April","12",NA
+"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"May","20",NA
 "2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"June","5",NA
-"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"July","7",NA
-"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"August","4",NA
-"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"September","2",NA
-"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"October","12",NA
-"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"November","0",NA
-"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"December","0",NA
+"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"July","2",NA
+"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"August","3",NA
+"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"September","1",NA
+"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"October","9",NA
+"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"November","5",NA
+"2017","UNKNOWN","UNKNOWN","UNKNOWN",NA,"December","7",NA

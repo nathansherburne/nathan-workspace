@@ -27,13 +27,24 @@ def getRioData(out_dir, update_only=False):
     # Only download current year for updates
     if update_only:
         current_year_links = []
+        previous_year_links = []  # If updating the previous year just after the New Year
+        previous_year = str(int(CURRENT_YEAR) - 1)
         for link in links:
             if CURRENT_YEAR in link:
                 current_year_links.append(link)
-        #if len(current_year_links) == 0:
+            elif previous_year in link:
+                previous_year_links.append(link)
+        if len(current_year_links) == 0:
             # Print errror message to log file
-            # "No matching data for current year"
-        links = current_year_links
+            print "No matching data for current year: " + CURRENT_YEAR
+            print "Perhaps it is around the New Year right now and Rio has no data for " + CURRENT_YEAR
+            print "Trying previous year..."
+            if len(previous_year_links) == 0:
+                print "Warning: Could not find PDF for previous year either."
+            else:
+                links = previous_year_links
+        else:
+            links = current_year_links
 
     # Download PDF and HTM files
     for link in links:

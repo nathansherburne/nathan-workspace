@@ -23,7 +23,10 @@ then
 fi
 # For all of the files that started as HTML and didn't need the above conversion, just copy them over to the 'convert' folder so that all HTMLs are in one place.
 IFS=$'\r\n' GLOBIGNORE='*' command eval  'UNCONVERTED_HTMLs=($(python ~/Dropbox/LEPR03/nathan-workspace/code/scripts/rio/get_unconverted.py | grep ".htm"))'
-cp "${UNCONVERTED_HTMLs[@]}" ~/Dropbox/LEPR03/nathan-workspace/data/dengue/rio/convert/
+if [ "${#UNCONVERTED_HTMLs[@]}" -gt 0 ]
+then
+    cp "${UNCONVERTED_HTMLs[@]}" ~/Dropbox/LEPR03/nathan-workspace/data/dengue/rio/convert/
+fi
 
 # Now that all of our data is in HTML format, convert them all to CSV.
 # Only convert HTMLs that have been modified in the last hour. That is, since we are usually just going to be running an update,
