@@ -43,6 +43,7 @@ def getWHOData(out_dir, update_only=False):
 
     else:
         year = date.today().year
+        # TODO: The URL below does not work. It returns HTTPError 404.
         url = ("http://www.wpro.who.int/emerging_diseases/documents/dengue."
                 "updates."+str(year)+"/en/")
         print("Downloading PDFs from " + url)
