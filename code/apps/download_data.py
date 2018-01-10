@@ -10,6 +10,8 @@ import san_diego_dwn
 import sri_lanka_dwn
 import paho_dwn
 import taiwan_dwn
+import cme_scoreboards_dwn
+import who_dwn
 from argparse_lib import is_dir
 
 
@@ -33,8 +35,8 @@ def main(argv):
 
         if args.dataset == "SD":
             san_diego_dwn.getSanDiegoData(out_dir, args.update)
-#        if args.dataset == 'WHO':
-#            dw.getWHOData(out_dir, args.update)
+        if args.dataset == 'WHO':
+            who_dwn.getWHOData(out_dir, args.update)
         if args.dataset == 'MX':
             mexico_dwn.getMexicoData(out_dir, args.update)
         if args.dataset == 'TW':
@@ -49,8 +51,8 @@ def main(argv):
             sri_lanka_dwn.getSriLankaData(out_dir, args.update)
         if args.dataset == 'TN':
             tennessee_dwn.getTennesseeData(out_dir, args.update)
-#        if args.dataset == 'CME':
-#            dw.getCMEScoreboards(out_dir, args.update)
+        if args.dataset == 'CME':
+            cme_scoreboards_dwn.getCMEScoreboards(out_dir, args.update)
 
 
 if __name__ == "__main__":
