@@ -1,8 +1,7 @@
-#!/usr/local/bin/
 import sys, getopt
 import os
 import argparse
-#import download_lib as dw
+from argparse_lib import is_dir
 import mexico_dwn
 import rio_dwn
 import tennessee_dwn
@@ -12,8 +11,6 @@ import paho_dwn
 import taiwan_dwn
 import cme_scoreboards_dwn
 import who_dwn
-from argparse_lib import is_dir
-
 
 class MyAction(argparse.Action):
     def __call__(self, parser, namespace, values, option_string=None):
@@ -41,8 +38,9 @@ def main(argv):
             mexico_dwn.getMexicoData(out_dir, args.update)
         if args.dataset == 'TW':
             taiwan_dwn.getTaiwanData(out_dir, args.update)
-#        if args.dataset == 'PE':
-#            dw.getPeruData(out_dir, args.update)
+        if args.dataset == 'PE':
+            print "Peru not yet operational. See code/lib/python/download_lib/peru_dwn.py."
+            #dw.getPeruData(out_dir, args.update)
         if args.dataset == 'RIO':
             rio_dwn.getRioData(out_dir, args.update)
         if args.dataset == 'PAHO':
@@ -53,7 +51,6 @@ def main(argv):
             tennessee_dwn.getTennesseeData(out_dir, args.update)
         if args.dataset == 'CME':
             cme_scoreboards_dwn.getCMEScoreboards(out_dir, args.update)
-
 
 if __name__ == "__main__":
     main(sys.argv[1:])
