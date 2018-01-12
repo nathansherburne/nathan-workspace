@@ -237,8 +237,12 @@ public class Driver {
 				System.out.println("Making neighborhood #: " + (neighborhoodNum + 1) + "/"
 						+ document.getNeighborhoods().size() + " into HTML table.");
 			}
-			
-			String outputPagePath = addStringBeforeExtension(outputFilePath, "_" + String.valueOf(pageNum + 1));
+			String outputPagePath;
+			if(pages.size() == 1) {
+				outputPagePath = outputFilePath;
+			} else {
+				outputPagePath = addStringBeforeExtension(outputFilePath, "_" + String.valueOf(pageNum + 1));
+			}
 			PrintWriter writer = new PrintWriter(outputPagePath, "UTF-8");
 			writer.print(document.getTableString(neighborhoodNum)); // need to determine the right neighborhood to print
 			writer.close();
