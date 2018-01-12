@@ -50,9 +50,10 @@ def saveTable(html, filename, args):
             unqFilename = getChildFilename(filename, tnum)  # Get a unique filename for this table
         else:
             unqFilename = filename
-        csvfile = open(os.path.join(directory, unqFilename), 'w+b')
+        write_path = os.path.join(directory, unqFilename)
+        csvfile = open(write_path, 'w+b')
         csvfile.write(getCSV(str(table)))
-        print "File created: " + unqFilename
+        print "File created: " + write_path
         csvfile.close()
         if args.single:
             break
