@@ -1,0 +1,3 @@
+[submodule "scraping_scripts"]
+	path = scraping_scripts
+	url = https://github.com/predsci/scraping_scripts.git
