@@ -1,0 +1,1945 @@
+Code,Country,Year,Dengue
+660,Anguilla,2017,22
+660,Anguilla,2016,50
+660,Anguilla,2015,8
+660,Anguilla,2014,85
+660,Anguilla,2013,8
+660,Anguilla,2012,7
+660,Anguilla,2011,9
+660,Anguilla,2010,1
+660,Anguilla,2009,0
+660,Anguilla,2008,5
+660,Anguilla,2007,0
+660,Anguilla,2006,0
+660,Anguilla,2005,0
+660,Anguilla,2004,0
+660,Anguilla,2003,2
+660,Anguilla,2002,5
+660,Anguilla,2001,25
+660,Anguilla,2000,3
+660,Anguilla,1999,12
+660,Anguilla,1998,0
+660,Anguilla,1997,0
+660,Anguilla,1996,1
+660,Anguilla,1995,4
+660,Anguilla,1994,0
+660,Anguilla,1993,0
+660,Anguilla,1992,0
+660,Anguilla,1991,0
+660,Anguilla,1990,12
+660,Anguilla,1989,0
+660,Anguilla,1988,0
+660,Anguilla,1987,0
+660,Anguilla,1986,0
+660,Anguilla,1985,0
+660,Anguilla,1984,0
+660,Anguilla,1983,2
+660,Anguilla,1982,0
+660,Anguilla,1981,1
+660,Anguilla,1980,0
+28,Antigua and Barbuda,2017,1
+28,Antigua and Barbuda,2016,103
+28,Antigua and Barbuda,2015,14
+28,Antigua and Barbuda,2014,37
+28,Antigua and Barbuda,2013,3
+28,Antigua and Barbuda,2012,10
+28,Antigua and Barbuda,2011,7
+28,Antigua and Barbuda,2010,3
+28,Antigua and Barbuda,2009,0
+28,Antigua and Barbuda,2008,17
+28,Antigua and Barbuda,2007,0
+28,Antigua and Barbuda,2006,0
+28,Antigua and Barbuda,2005,0
+28,Antigua and Barbuda,2004,0
+28,Antigua and Barbuda,2003,0
+28,Antigua and Barbuda,2002,5
+28,Antigua and Barbuda,2001,20
+28,Antigua and Barbuda,2000,8
+28,Antigua and Barbuda,1999,2
+28,Antigua and Barbuda,1998,4
+28,Antigua and Barbuda,1997,7
+28,Antigua and Barbuda,1996,12
+28,Antigua and Barbuda,1995,56
+28,Antigua and Barbuda,1994,0
+28,Antigua and Barbuda,1993,0
+28,Antigua and Barbuda,1992,0
+28,Antigua and Barbuda,1991,1
+28,Antigua and Barbuda,1990,1
+28,Antigua and Barbuda,1989,0
+28,Antigua and Barbuda,1988,0
+28,Antigua and Barbuda,1987,0
+28,Antigua and Barbuda,1986,0
+28,Antigua and Barbuda,1985,0
+28,Antigua and Barbuda,1984,0
+28,Antigua and Barbuda,1983,0
+28,Antigua and Barbuda,1982,0
+28,Antigua and Barbuda,1981,0
+28,Antigua and Barbuda,1980,0
+32,Argentina,2018,4
+32,Argentina,2017,557
+32,Argentina,2016,79455
+32,Argentina,2015,4774
+32,Argentina,2014,3270
+32,Argentina,2013,9294
+32,Argentina,2012,2803
+32,Argentina,2011,213
+32,Argentina,2010,1185
+32,Argentina,2009,26600
+32,Argentina,2008,40
+32,Argentina,2007,173
+32,Argentina,2006,181
+32,Argentina,2005,34
+32,Argentina,2004,3284
+32,Argentina,2003,135
+32,Argentina,2002,214
+32,Argentina,2001,11
+32,Argentina,2000,1700
+32,Argentina,1999,3
+32,Argentina,1998,822
+32,Argentina,1997,0
+32,Argentina,1996,0
+32,Argentina,1995,0
+32,Argentina,1994,0
+32,Argentina,1993,0
+32,Argentina,1992,0
+32,Argentina,1991,0
+32,Argentina,1990,0
+32,Argentina,1989,0
+32,Argentina,1988,0
+32,Argentina,1987,0
+32,Argentina,1986,0
+32,Argentina,1985,0
+32,Argentina,1984,0
+32,Argentina,1983,0
+32,Argentina,1982,0
+32,Argentina,1981,0
+32,Argentina,1980,0
+533,Aruba,2017,1775
+533,Aruba,2016,1319
+533,Aruba,2015,335
+533,Aruba,2014,306
+533,Aruba,2013,527
+533,Aruba,2012,0
+533,Aruba,2011,3023
+533,Aruba,2010,1697
+533,Aruba,2009,845
+533,Aruba,2008,0
+533,Aruba,2007,0
+533,Aruba,2006,5
+533,Aruba,2005,0
+533,Aruba,2004,173
+533,Aruba,2003,0
+533,Aruba,2002,25
+533,Aruba,2001,0
+533,Aruba,2000,76
+533,Aruba,1999,130
+533,Aruba,1998,0
+533,Aruba,1997,0
+533,Aruba,1996,10
+533,Aruba,1995,37
+533,Aruba,1994,0
+533,Aruba,1993,0
+533,Aruba,1992,0
+533,Aruba,1991,0
+533,Aruba,1990,0
+533,Aruba,1989,0
+533,Aruba,1988,0
+533,Aruba,1987,0
+533,Aruba,1986,0
+533,Aruba,1985,23998
+533,Aruba,1984,0
+533,Aruba,1983,0
+533,Aruba,1982,0
+533,Aruba,1981,0
+533,Aruba,1980,0
+44,Bahamas,2017,14
+44,Bahamas,2016,82
+44,Bahamas,2015,10
+44,Bahamas,2014,136
+44,Bahamas,2013,3
+44,Bahamas,2012,3
+44,Bahamas,2011,6994
+44,Bahamas,2010,10
+44,Bahamas,2009,0
+44,Bahamas,2008,1
+44,Bahamas,2007,0
+44,Bahamas,2006,1
+44,Bahamas,2005,0
+44,Bahamas,2004,1
+44,Bahamas,2003,180
+44,Bahamas,2002,0
+44,Bahamas,2001,0
+44,Bahamas,2000,0
+44,Bahamas,1999,0
+44,Bahamas,1998,336
+44,Bahamas,1997,0
+44,Bahamas,1996,0
+44,Bahamas,1995,1
+44,Bahamas,1994,0
+44,Bahamas,1993,0
+44,Bahamas,1992,0
+44,Bahamas,1991,0
+44,Bahamas,1990,2
+44,Bahamas,1989,87
+44,Bahamas,1988,0
+44,Bahamas,1987,0
+44,Bahamas,1986,0
+44,Bahamas,1985,0
+44,Bahamas,1984,0
+44,Bahamas,1983,0
+44,Bahamas,1982,0
+44,Bahamas,1981,0
+44,Bahamas,1980,0
+52,Barbados,2017,398
+52,Barbados,2016,1433
+52,Barbados,2015,390
+52,Barbados,2014,1726
+52,Barbados,2013,2832
+52,Barbados,2012,908
+52,Barbados,2011,733
+52,Barbados,2010,2910
+52,Barbados,2009,55
+52,Barbados,2008,1
+52,Barbados,2007,0
+52,Barbados,2006,1
+52,Barbados,2005,320
+52,Barbados,2004,349
+52,Barbados,2003,557
+52,Barbados,2002,740
+52,Barbados,2001,1015
+52,Barbados,2000,744
+52,Barbados,1999,680
+52,Barbados,1998,852
+52,Barbados,1997,193
+52,Barbados,1996,130
+52,Barbados,1995,972
+52,Barbados,1994,0
+52,Barbados,1993,1
+52,Barbados,1992,4
+52,Barbados,1991,21
+52,Barbados,1990,236
+52,Barbados,1989,45
+52,Barbados,1988,10
+52,Barbados,1987,78
+52,Barbados,1986,0
+52,Barbados,1985,0
+52,Barbados,1984,63
+52,Barbados,1983,63
+52,Barbados,1982,99
+52,Barbados,1981,6
+52,Barbados,1980,0
+84,Belize,2017,2958
+84,Belize,2016,192
+84,Belize,2015,4571
+84,Belize,2014,3052
+84,Belize,2013,2678
+84,Belize,2012,1415
+84,Belize,2011,463
+84,Belize,2010,1592
+84,Belize,2009,1283
+84,Belize,2008,23
+84,Belize,2007,40
+84,Belize,2006,9
+84,Belize,2005,380
+84,Belize,2004,2
+84,Belize,2003,0
+84,Belize,2002,41
+84,Belize,2001,3
+84,Belize,2000,4
+84,Belize,1999,3
+84,Belize,1998,6
+84,Belize,1997,141
+84,Belize,1996,0
+84,Belize,1995,107
+84,Belize,1994,0
+84,Belize,1993,0
+84,Belize,1992,0
+84,Belize,1991,0
+84,Belize,1990,2
+84,Belize,1989,0
+84,Belize,1988,0
+84,Belize,1987,0
+84,Belize,1986,1
+84,Belize,1985,0
+84,Belize,1984,137
+84,Belize,1983,26
+84,Belize,1982,482
+84,Belize,1981,9
+84,Belize,1980,4
+60,Bermuda,2017,0
+60,Bermuda,2016,2
+60,Bermuda,2015,0
+60,Bermuda,2014,0
+60,Bermuda,2013,1
+60,Bermuda,2012,0
+60,Bermuda,2011,1
+60,Bermuda,2010,2
+60,Bermuda,2009,0
+60,Bermuda,2008,0
+60,Bermuda,2007,0
+60,Bermuda,2006,2
+60,Bermuda,2005,2
+60,Bermuda,2004,0
+60,Bermuda,2003,0
+60,Bermuda,2002,0
+60,Bermuda,2001,0
+60,Bermuda,2000,0
+60,Bermuda,1999,3
+60,Bermuda,1998,0
+60,Bermuda,1997,0
+60,Bermuda,1996,0
+60,Bermuda,1995,0
+60,Bermuda,1994,0
+60,Bermuda,1993,0
+60,Bermuda,1992,0
+60,Bermuda,1991,0
+60,Bermuda,1990,0
+60,Bermuda,1989,0
+60,Bermuda,1988,0
+60,Bermuda,1987,0
+60,Bermuda,1986,0
+60,Bermuda,1985,0
+60,Bermuda,1984,0
+60,Bermuda,1983,0
+60,Bermuda,1982,0
+60,Bermuda,1981,0
+60,Bermuda,1980,0
+68,Bolivia,2017,9309
+68,Bolivia,2016,31700
+68,Bolivia,2015,26927
+68,Bolivia,2014,23372
+68,Bolivia,2013,12987
+68,Bolivia,2012,49336
+68,Bolivia,2011,26585
+68,Bolivia,2010,9918
+68,Bolivia,2009,83651
+68,Bolivia,2008,3175
+68,Bolivia,2007,7114
+68,Bolivia,2006,2038
+68,Bolivia,2005,4423
+68,Bolivia,2004,7340
+68,Bolivia,2003,6454
+68,Bolivia,2002,890
+68,Bolivia,2001,176
+68,Bolivia,2000,73
+68,Bolivia,1999,43
+68,Bolivia,1998,49
+68,Bolivia,1997,539
+68,Bolivia,1996,52
+68,Bolivia,1995,7
+68,Bolivia,1994,54453
+68,Bolivia,1993,6915
+68,Bolivia,1992,3501
+68,Bolivia,1991,97397
+68,Bolivia,1990,40642
+68,Bolivia,1989,5334
+68,Bolivia,1988,4847
+68,Bolivia,1987,1994
+68,Bolivia,1986,0
+68,Bolivia,1985,0
+68,Bolivia,1984,0
+68,Bolivia,1983,0
+68,Bolivia,1982,0
+68,Bolivia,1981,0
+68,Bolivia,1980,0
+535,"Bonaire, Saint Eustatius and Saba",2014,0
+535,"Bonaire, Saint Eustatius and Saba",2013,444
+535,"Bonaire, Saint Eustatius and Saba",2012,121
+535,"Bonaire, Saint Eustatius and Saba",2011,939
+535,"Bonaire, Saint Eustatius and Saba",2010,154
+535,"Bonaire, Saint Eustatius and Saba",2009,0
+535,"Bonaire, Saint Eustatius and Saba",2008,0
+535,"Bonaire, Saint Eustatius and Saba",2007,0
+535,"Bonaire, Saint Eustatius and Saba",2006,0
+535,"Bonaire, Saint Eustatius and Saba",2005,0
+535,"Bonaire, Saint Eustatius and Saba",2004,0
+535,"Bonaire, Saint Eustatius and Saba",2003,0
+535,"Bonaire, Saint Eustatius and Saba",2002,0
+535,"Bonaire, Saint Eustatius and Saba",2001,0
+535,"Bonaire, Saint Eustatius and Saba",2000,0
+535,"Bonaire, Saint Eustatius and Saba",1999,0
+535,"Bonaire, Saint Eustatius and Saba",1998,0
+535,"Bonaire, Saint Eustatius and Saba",1997,0
+535,"Bonaire, Saint Eustatius and Saba",1996,0
+535,"Bonaire, Saint Eustatius and Saba",1995,0
+535,"Bonaire, Saint Eustatius and Saba",1994,0
+535,"Bonaire, Saint Eustatius and Saba",1993,20469
+535,"Bonaire, Saint Eustatius and Saba",1992,5495
+535,"Bonaire, Saint Eustatius and Saba",1991,1885
+535,"Bonaire, Saint Eustatius and Saba",1990,4137
+535,"Bonaire, Saint Eustatius and Saba",1989,659
+535,"Bonaire, Saint Eustatius and Saba",1988,203
+535,"Bonaire, Saint Eustatius and Saba",1987,87
+535,"Bonaire, Saint Eustatius and Saba",1986,484
+535,"Bonaire, Saint Eustatius and Saba",1985,17483
+535,"Bonaire, Saint Eustatius and Saba",1984,0
+535,"Bonaire, Saint Eustatius and Saba",1983,0
+535,"Bonaire, Saint Eustatius and Saba",1982,0
+535,"Bonaire, Saint Eustatius and Saba",1981,0
+535,"Bonaire, Saint Eustatius and Saba",1980,0
+76,Brazil,2017,251783
+76,Brazil,2016,1499674
+76,Brazil,2015,1647439
+76,Brazil,2014,590393
+76,Brazil,2013,1466638
+76,Brazil,2012,593093
+76,Brazil,2011,742942
+76,Brazil,2010,976669
+76,Brazil,2009,512437
+76,Brazil,2008,714470
+76,Brazil,2007,556872
+76,Brazil,2006,345294
+76,Brazil,2005,202923
+76,Brazil,2004,112774
+76,Brazil,2003,340476
+76,Brazil,2002,775430
+76,Brazil,2001,411709
+76,Brazil,2000,231353
+76,Brazil,1999,204061
+76,Brazil,1998,535178
+76,Brazil,1997,254039
+76,Brazil,1996,175680
+76,Brazil,1995,124663
+76,Brazil,1994,54453
+76,Brazil,1993,6915
+76,Brazil,1992,3501
+76,Brazil,1991,97021
+76,Brazil,1990,40368
+76,Brazil,1989,5334
+76,Brazil,1988,190
+76,Brazil,1987,89392
+76,Brazil,1986,47364
+76,Brazil,1985,0
+76,Brazil,1984,0
+76,Brazil,1983,0
+76,Brazil,1982,12000
+76,Brazil,1981,0
+76,Brazil,1980,0
+124,Canada,2018,0
+124,Canada,2017,0
+124,Canada,2016,0
+124,Canada,2015,0
+124,Canada,2014,0
+124,Canada,2013,0
+124,Canada,2012,0
+124,Canada,2011,0
+124,Canada,2010,0
+124,Canada,2009,0
+124,Canada,2008,0
+124,Canada,2007,0
+124,Canada,2006,0
+124,Canada,2005,0
+124,Canada,2004,0
+124,Canada,2003,0
+124,Canada,2002,0
+124,Canada,2001,0
+124,Canada,2000,0
+124,Canada,1999,0
+124,Canada,1998,0
+124,Canada,1997,0
+124,Canada,1996,0
+124,Canada,1995,0
+124,Canada,1994,0
+124,Canada,1993,0
+124,Canada,1992,0
+124,Canada,1991,0
+124,Canada,1990,0
+124,Canada,1989,0
+124,Canada,1988,0
+124,Canada,1987,0
+124,Canada,1986,0
+124,Canada,1985,0
+124,Canada,1984,0
+124,Canada,1983,0
+124,Canada,1982,0
+124,Canada,1981,0
+124,Canada,1980,0
+136,Cayman Islands,2017,31
+136,Cayman Islands,2016,150
+136,Cayman Islands,2015,40
+136,Cayman Islands,2014,105
+136,Cayman Islands,2013,69
+136,Cayman Islands,2012,53
+136,Cayman Islands,2011,2
+136,Cayman Islands,2010,8
+136,Cayman Islands,2009,0
+136,Cayman Islands,2008,1
+136,Cayman Islands,2007,9
+136,Cayman Islands,2006,0
+136,Cayman Islands,2005,1
+136,Cayman Islands,2004,0
+136,Cayman Islands,2003,1
+136,Cayman Islands,2002,1
+136,Cayman Islands,2001,0
+136,Cayman Islands,2000,0
+136,Cayman Islands,1999,1
+136,Cayman Islands,1998,2
+136,Cayman Islands,1997,0
+136,Cayman Islands,1996,0
+136,Cayman Islands,1995,1
+136,Cayman Islands,1994,0
+136,Cayman Islands,1993,0
+136,Cayman Islands,1992,0
+136,Cayman Islands,1991,0
+136,Cayman Islands,1990,0
+136,Cayman Islands,1989,0
+136,Cayman Islands,1988,0
+136,Cayman Islands,1987,0
+136,Cayman Islands,1986,0
+136,Cayman Islands,1985,0
+136,Cayman Islands,1984,0
+136,Cayman Islands,1983,0
+136,Cayman Islands,1982,0
+136,Cayman Islands,1981,0
+136,Cayman Islands,1980,0
+152,Chile,2017,10
+152,Chile,2016,33
+152,Chile,2015,40
+152,Chile,2014,25
+152,Chile,2013,44
+152,Chile,2012,32
+152,Chile,2011,1
+152,Chile,2010,23
+152,Chile,2009,51
+152,Chile,2008,25
+152,Chile,2007,28
+152,Chile,2006,3
+152,Chile,2005,0
+152,Chile,2004,0
+152,Chile,2003,0
+152,Chile,2002,636
+152,Chile,2001,0
+152,Chile,2000,0
+152,Chile,1999,0
+152,Chile,1998,0
+152,Chile,1997,0
+152,Chile,1996,0
+152,Chile,1995,0
+152,Chile,1994,0
+152,Chile,1993,0
+152,Chile,1992,0
+152,Chile,1991,0
+152,Chile,1990,0
+152,Chile,1989,0
+152,Chile,1988,0
+152,Chile,1987,0
+152,Chile,1986,0
+152,Chile,1985,0
+152,Chile,1984,0
+152,Chile,1983,0
+152,Chile,1982,0
+152,Chile,1981,0
+152,Chile,1980,0
+170,Colombia,2018,794
+170,Colombia,2017,25993
+170,Colombia,2016,102775
+170,Colombia,2015,95023
+170,Colombia,2014,102755
+170,Colombia,2013,123228
+170,Colombia,2012,48690
+170,Colombia,2011,30431
+170,Colombia,2010,138188
+170,Colombia,2009,37281
+170,Colombia,2008,20570
+170,Colombia,2007,33897
+170,Colombia,2006,25713
+170,Colombia,2005,21863
+170,Colombia,2004,21893
+170,Colombia,2003,42832
+170,Colombia,2002,66458
+170,Colombia,2001,42311
+170,Colombia,2000,19137
+170,Colombia,1999,18150
+170,Colombia,1998,52840
+170,Colombia,1997,16390
+170,Colombia,1996,29641
+170,Colombia,1995,49003
+170,Colombia,1994,774
+170,Colombia,1993,8449
+170,Colombia,1992,59853
+170,Colombia,1991,15008
+170,Colombia,1990,17311
+170,Colombia,1989,10090
+170,Colombia,1988,16308
+170,Colombia,1987,17510
+170,Colombia,1986,7881
+170,Colombia,1985,82270
+170,Colombia,1984,7540
+170,Colombia,1983,12919
+170,Colombia,1982,6776
+170,Colombia,1981,10790
+170,Colombia,1980,8964
+188,Costa Rica,2017,5561
+188,Costa Rica,2016,23298
+188,Costa Rica,2015,17388
+188,Costa Rica,2014,11136
+188,Costa Rica,2013,49717
+188,Costa Rica,2012,20945
+188,Costa Rica,2011,13798
+188,Costa Rica,2010,31731
+188,Costa Rica,2009,6930
+188,Costa Rica,2008,7056
+188,Costa Rica,2007,25804
+188,Costa Rica,2006,11980
+188,Costa Rica,2005,37694
+188,Costa Rica,2004,9386
+188,Costa Rica,2003,19531
+188,Costa Rica,2002,12197
+188,Costa Rica,2001,9163
+188,Costa Rica,2000,4899
+188,Costa Rica,1999,5806
+188,Costa Rica,1998,2628
+188,Costa Rica,1997,14251
+188,Costa Rica,1996,2307
+188,Costa Rica,1995,5132
+188,Costa Rica,1994,0
+188,Costa Rica,1993,0
+188,Costa Rica,1992,0
+188,Costa Rica,1991,0
+188,Costa Rica,1990,0
+188,Costa Rica,1989,0
+188,Costa Rica,1988,0
+188,Costa Rica,1987,0
+188,Costa Rica,1986,0
+188,Costa Rica,1985,0
+188,Costa Rica,1984,0
+188,Costa Rica,1983,0
+188,Costa Rica,1982,0
+188,Costa Rica,1981,0
+188,Costa Rica,1980,0
+192,Cuba,2017,1229
+192,Cuba,2016,1807
+192,Cuba,2015,1691
+192,Cuba,2014,0
+192,Cuba,2013,0
+192,Cuba,2012,0
+192,Cuba,2011,0
+192,Cuba,2010,0
+192,Cuba,2009,70
+192,Cuba,2008,0
+192,Cuba,2007,28
+192,Cuba,2006,0
+192,Cuba,2005,75
+192,Cuba,2004,0
+192,Cuba,2003,0
+192,Cuba,2002,2987
+192,Cuba,2001,11294
+192,Cuba,2000,138
+192,Cuba,1999,0
+192,Cuba,1998,0
+192,Cuba,1997,2602
+192,Cuba,1996,0
+192,Cuba,1995,0
+192,Cuba,1994,0
+192,Cuba,1993,0
+192,Cuba,1992,0
+192,Cuba,1991,0
+192,Cuba,1990,0
+192,Cuba,1989,0
+192,Cuba,1988,0
+192,Cuba,1987,0
+192,Cuba,1986,0
+192,Cuba,1985,0
+192,Cuba,1984,0
+192,Cuba,1983,0
+192,Cuba,1982,0
+192,Cuba,1981,323579
+192,Cuba,1980,0
+531,Curaçao,2014,194
+531,Curaçao,2013,568
+531,Curaçao,2012,524
+531,Curaçao,2011,1551
+531,Curaçao,2010,1721
+531,Curaçao,2009,0
+531,Curaçao,2008,0
+531,Curaçao,2007,0
+531,Curaçao,2006,0
+531,Curaçao,2005,265
+531,Curaçao,2004,0
+531,Curaçao,2003,0
+531,Curaçao,2002,0
+531,Curaçao,2001,0
+531,Curaçao,2000,10
+531,Curaçao,1999,3
+531,Curaçao,1998,3
+531,Curaçao,1997,0
+531,Curaçao,1996,0
+531,Curaçao,1995,0
+531,Curaçao,1994,0
+531,Curaçao,1993,0
+531,Curaçao,1992,0
+531,Curaçao,1991,0
+531,Curaçao,1990,0
+531,Curaçao,1989,0
+531,Curaçao,1988,0
+531,Curaçao,1987,0
+531,Curaçao,1986,0
+531,Curaçao,1985,0
+531,Curaçao,1984,0
+531,Curaçao,1983,0
+531,Curaçao,1982,0
+531,Curaçao,1981,0
+531,Curaçao,1980,0
+212,Dominica,2017,33
+212,Dominica,2016,351
+212,Dominica,2015,38
+212,Dominica,2014,184
+212,Dominica,2013,197
+212,Dominica,2012,3
+212,Dominica,2011,40
+212,Dominica,2010,631
+212,Dominica,2009,2
+212,Dominica,2008,80
+212,Dominica,2007,109
+212,Dominica,2006,19
+212,Dominica,2005,3
+212,Dominica,2004,4
+212,Dominica,2003,0
+212,Dominica,2002,0
+212,Dominica,2001,5
+212,Dominica,2000,15
+212,Dominica,1999,1
+212,Dominica,1998,1
+212,Dominica,1997,0
+212,Dominica,1996,3
+212,Dominica,1995,271
+212,Dominica,1994,0
+212,Dominica,1993,1
+212,Dominica,1992,0
+212,Dominica,1991,12
+212,Dominica,1990,6
+212,Dominica,1989,0
+212,Dominica,1988,0
+212,Dominica,1987,0
+212,Dominica,1986,0
+212,Dominica,1985,0
+212,Dominica,1984,0
+212,Dominica,1983,0
+212,Dominica,1982,0
+212,Dominica,1981,0
+212,Dominica,1980,0
+214,Dominican Republic,2018,30
+214,Dominican Republic,2017,1271
+214,Dominican Republic,2016,6004
+214,Dominican Republic,2015,15194
+214,Dominican Republic,2014,5963
+214,Dominican Republic,2013,16085
+214,Dominican Republic,2012,9144
+214,Dominican Republic,2011,2122
+214,Dominican Republic,2010,9950
+214,Dominican Republic,2009,6302
+214,Dominican Republic,2008,3967
+214,Dominican Republic,2007,9178
+214,Dominican Republic,2006,5683
+214,Dominican Republic,2005,2692
+214,Dominican Republic,2004,2204
+214,Dominican Republic,2003,5659
+214,Dominican Republic,2002,3042
+214,Dominican Republic,2001,3584
+214,Dominican Republic,2000,3346
+214,Dominican Republic,1999,1030
+214,Dominican Republic,1998,2697
+214,Dominican Republic,1997,416
+214,Dominican Republic,1996,55
+214,Dominican Republic,1995,173
+214,Dominican Republic,1994,0
+214,Dominican Republic,1993,0
+214,Dominican Republic,1992,107
+214,Dominican Republic,1991,17
+214,Dominican Republic,1990,37
+214,Dominican Republic,1989,7
+214,Dominican Republic,1988,156
+214,Dominican Republic,1987,20
+214,Dominican Republic,1986,6
+214,Dominican Republic,1985,92
+214,Dominican Republic,1984,260
+214,Dominican Republic,1983,538
+214,Dominican Republic,1982,435
+214,Dominican Republic,1981,619
+214,Dominican Republic,1980,54
+218,Ecuador,2018,144
+218,Ecuador,2017,11369
+218,Ecuador,2016,14111
+218,Ecuador,2015,42611
+218,Ecuador,2014,15381
+218,Ecuador,2013,11602
+218,Ecuador,2012,19077
+218,Ecuador,2011,7475
+218,Ecuador,2010,17209
+218,Ecuador,2009,4311
+218,Ecuador,2008,1864
+218,Ecuador,2007,9919
+218,Ecuador,2006,5698
+218,Ecuador,2005,11463
+218,Ecuador,2004,6037
+218,Ecuador,2003,9487
+218,Ecuador,2002,5517
+218,Ecuador,2001,10809
+218,Ecuador,2000,22931
+218,Ecuador,1999,2901
+218,Ecuador,1998,4606
+218,Ecuador,1997,3871
+218,Ecuador,1996,5189
+218,Ecuador,1995,6607
+218,Ecuador,1994,8145
+218,Ecuador,1993,9015
+218,Ecuador,1992,137
+218,Ecuador,1991,94
+218,Ecuador,1990,302
+218,Ecuador,1989,19
+218,Ecuador,1988,420025
+218,Ecuador,1987,0
+218,Ecuador,1986,0
+218,Ecuador,1985,0
+218,Ecuador,1984,0
+218,Ecuador,1983,0
+218,Ecuador,1982,0
+218,Ecuador,1981,0
+218,Ecuador,1980,0
+222,El Salvador,2018,163
+222,El Salvador,2017,4293
+222,El Salvador,2016,8583
+222,El Salvador,2015,49804
+222,El Salvador,2014,52930
+222,El Salvador,2013,28452
+222,El Salvador,2012,42393
+222,El Salvador,2011,20410
+222,El Salvador,2010,22036
+222,El Salvador,2009,14816
+222,El Salvador,2008,5774
+222,El Salvador,2007,12276
+222,El Salvador,2006,21598
+222,El Salvador,2005,14876
+222,El Salvador,2004,13036
+222,El Salvador,2003,7160
+222,El Salvador,2002,17497
+222,El Salvador,2001,985
+222,El Salvador,2000,2426
+222,El Salvador,1999,486
+222,El Salvador,1998,1684
+222,El Salvador,1997,423
+222,El Salvador,1996,788
+222,El Salvador,1995,9400
+222,El Salvador,1994,8145
+222,El Salvador,1993,9015
+222,El Salvador,1992,884
+222,El Salvador,1991,1272
+222,El Salvador,1990,2381
+222,El Salvador,1989,518
+222,El Salvador,1988,1712
+222,El Salvador,1987,2757
+222,El Salvador,1986,916
+222,El Salvador,1985,425
+222,El Salvador,1984,560
+222,El Salvador,1983,3814
+222,El Salvador,1982,5166
+222,El Salvador,1981,5185
+222,El Salvador,1980,2060
+254,French Guiana,2017,625
+254,French Guiana,2016,522
+254,French Guiana,2015,2603
+254,French Guiana,2014,1173
+254,French Guiana,2013,16177
+254,French Guiana,2012,662
+254,French Guiana,2011,659
+254,French Guiana,2010,10462
+254,French Guiana,2009,11326
+254,French Guiana,2008,460
+254,French Guiana,2007,661
+254,French Guiana,2006,15878
+254,French Guiana,2005,4365
+254,French Guiana,2004,3147
+254,French Guiana,2003,2178
+254,French Guiana,2002,280
+254,French Guiana,2001,2830
+254,French Guiana,2000,178
+254,French Guiana,1999,88
+254,French Guiana,1998,532
+254,French Guiana,1997,845
+254,French Guiana,1996,352
+254,French Guiana,1995,894
+254,French Guiana,1994,0
+254,French Guiana,1993,0
+254,French Guiana,1992,0
+254,French Guiana,1991,0
+254,French Guiana,1990,0
+254,French Guiana,1989,0
+254,French Guiana,1988,0
+254,French Guiana,1987,0
+254,French Guiana,1986,0
+254,French Guiana,1985,0
+254,French Guiana,1984,0
+254,French Guiana,1983,0
+254,French Guiana,1982,0
+254,French Guiana,1981,0
+254,French Guiana,1980,0
+308,Grenada,2017,195
+308,Grenada,2016,151
+308,Grenada,2015,25
+308,Grenada,2014,38
+308,Grenada,2013,155
+308,Grenada,2012,68
+308,Grenada,2011,85
+308,Grenada,2010,138
+308,Grenada,2009,23
+308,Grenada,2008,6
+308,Grenada,2007,0
+308,Grenada,2006,22
+308,Grenada,2005,0
+308,Grenada,2004,7
+308,Grenada,2003,17
+308,Grenada,2002,78
+308,Grenada,2001,12
+308,Grenada,2000,27
+308,Grenada,1999,85
+308,Grenada,1998,4
+308,Grenada,1997,22
+308,Grenada,1996,6
+308,Grenada,1995,72
+308,Grenada,1994,0
+308,Grenada,1993,1
+308,Grenada,1992,1
+308,Grenada,1991,1
+308,Grenada,1990,3
+308,Grenada,1989,1
+308,Grenada,1988,0
+308,Grenada,1987,0
+308,Grenada,1986,0
+308,Grenada,1985,0
+308,Grenada,1984,0
+308,Grenada,1983,0
+308,Grenada,1982,0
+308,Grenada,1981,0
+308,Grenada,1980,0
+312,Guadeloupe,2017,455
+312,Guadeloupe,2016,177
+312,Guadeloupe,2015,201
+312,Guadeloupe,2014,1389
+312,Guadeloupe,2013,12667
+312,Guadeloupe,2012,1080
+312,Guadeloupe,2011,101
+312,Guadeloupe,2010,40374
+312,Guadeloupe,2009,2232
+312,Guadeloupe,2008,277
+312,Guadeloupe,2007,3058
+312,Guadeloupe,2006,2936
+312,Guadeloupe,2005,3352
+312,Guadeloupe,2004,0
+312,Guadeloupe,2003,495
+312,Guadeloupe,2002,93
+312,Guadeloupe,2001,0
+312,Guadeloupe,2000,58
+312,Guadeloupe,1999,41
+312,Guadeloupe,1998,0
+312,Guadeloupe,1997,0
+312,Guadeloupe,1996,186
+312,Guadeloupe,1995,142
+312,Guadeloupe,1994,0
+312,Guadeloupe,1993,0
+312,Guadeloupe,1992,0
+312,Guadeloupe,1991,0
+312,Guadeloupe,1990,0
+312,Guadeloupe,1989,0
+312,Guadeloupe,1988,0
+312,Guadeloupe,1987,0
+312,Guadeloupe,1986,0
+312,Guadeloupe,1985,0
+312,Guadeloupe,1984,0
+312,Guadeloupe,1983,0
+312,Guadeloupe,1982,0
+312,Guadeloupe,1981,0
+312,Guadeloupe,1980,0
+320,Guatemala,2017,4045
+320,Guatemala,2016,8797
+320,Guatemala,2015,18008
+320,Guatemala,2014,19675
+320,Guatemala,2013,11670
+320,Guatemala,2012,9288
+320,Guatemala,2011,2541
+320,Guatemala,2010,16639
+320,Guatemala,2009,9962
+320,Guatemala,2008,3224
+320,Guatemala,2007,5844
+320,Guatemala,2006,2416
+320,Guatemala,2005,6277
+320,Guatemala,2004,6274
+320,Guatemala,2003,6706
+320,Guatemala,2002,7505
+320,Guatemala,2001,4508
+320,Guatemala,2000,8922
+320,Guatemala,1999,3613
+320,Guatemala,1998,4651
+320,Guatemala,1997,5373
+320,Guatemala,1996,3641
+320,Guatemala,1995,3978
+320,Guatemala,1994,2872
+320,Guatemala,1993,1907
+320,Guatemala,1992,1286
+320,Guatemala,1991,10968
+320,Guatemala,1990,5757
+320,Guatemala,1989,7448
+320,Guatemala,1988,5175
+320,Guatemala,1987,2318
+320,Guatemala,1986,0
+320,Guatemala,1985,0
+320,Guatemala,1984,0
+320,Guatemala,1983,2
+320,Guatemala,1982,33
+320,Guatemala,1981,104
+320,Guatemala,1980,30
+328,Guyana,2017,5
+328,Guyana,2016,303
+328,Guyana,2015,388
+328,Guyana,2014,822
+328,Guyana,2013,1120
+328,Guyana,2012,2169
+328,Guyana,2011,1093
+328,Guyana,2010,1466
+328,Guyana,2009,992
+328,Guyana,2008,324
+328,Guyana,2007,199
+328,Guyana,2006,118
+328,Guyana,2005,178
+328,Guyana,2004,47
+328,Guyana,2003,33
+328,Guyana,2002,198
+328,Guyana,2001,60
+328,Guyana,2000,19
+328,Guyana,1999,0
+328,Guyana,1998,42
+328,Guyana,1997,0
+328,Guyana,1996,0
+328,Guyana,1995,0
+328,Guyana,1994,0
+328,Guyana,1993,0
+328,Guyana,1992,0
+328,Guyana,1991,0
+328,Guyana,1990,0
+328,Guyana,1989,0
+328,Guyana,1988,0
+328,Guyana,1987,0
+328,Guyana,1986,0
+328,Guyana,1985,0
+328,Guyana,1984,0
+328,Guyana,1983,0
+328,Guyana,1982,0
+328,Guyana,1981,0
+328,Guyana,1980,0
+332,Haiti,2015,130
+332,Haiti,2014,0
+332,Haiti,2013,0
+332,Haiti,2012,240
+332,Haiti,2011,0
+332,Haiti,2010,0
+332,Haiti,2009,0
+332,Haiti,2008,0
+332,Haiti,2007,0
+332,Haiti,2006,0
+332,Haiti,2005,0
+332,Haiti,2004,0
+332,Haiti,2003,0
+332,Haiti,2002,0
+332,Haiti,2001,0
+332,Haiti,2000,0
+332,Haiti,1999,0
+332,Haiti,1998,0
+332,Haiti,1997,0
+332,Haiti,1996,0
+332,Haiti,1995,0
+332,Haiti,1994,0
+332,Haiti,1993,0
+332,Haiti,1992,0
+332,Haiti,1991,0
+332,Haiti,1990,0
+332,Haiti,1989,0
+332,Haiti,1988,0
+332,Haiti,1987,0
+332,Haiti,1986,0
+332,Haiti,1985,20
+332,Haiti,1984,328
+332,Haiti,1983,483
+332,Haiti,1982,211
+332,Haiti,1981,44
+332,Haiti,1980,255
+340,Honduras,2018,143
+340,Honduras,2017,5091
+340,Honduras,2016,22648
+340,Honduras,2015,43772
+340,Honduras,2014,41184
+340,Honduras,2013,34803
+340,Honduras,2012,12824
+340,Honduras,2011,6527
+340,Honduras,2010,60278
+340,Honduras,2009,13765
+340,Honduras,2008,13979
+340,Honduras,2007,25148
+340,Honduras,2006,7164
+340,Honduras,2005,15253
+340,Honduras,2004,15281
+340,Honduras,2003,15643
+340,Honduras,2002,30543
+340,Honduras,2001,8215
+340,Honduras,2000,13014
+340,Honduras,1999,17697
+340,Honduras,1998,22182
+340,Honduras,1997,11849
+340,Honduras,1996,5047
+340,Honduras,1995,27545
+340,Honduras,1994,3055
+340,Honduras,1993,2847
+340,Honduras,1992,2114
+340,Honduras,1991,5287
+340,Honduras,1990,1700
+340,Honduras,1989,2507
+340,Honduras,1988,844
+340,Honduras,1987,261
+340,Honduras,1986,569
+340,Honduras,1985,307
+340,Honduras,1984,378
+340,Honduras,1983,729
+340,Honduras,1982,1217
+340,Honduras,1981,1612
+340,Honduras,1980,2078
+388,Jamaica,2017,70
+388,Jamaica,2016,2266
+388,Jamaica,2015,88
+388,Jamaica,2014,880
+388,Jamaica,2013,846
+388,Jamaica,2012,4643
+388,Jamaica,2011,400
+388,Jamaica,2010,2729
+388,Jamaica,2009,70
+388,Jamaica,2008,355
+388,Jamaica,2007,1448
+388,Jamaica,2006,79
+388,Jamaica,2005,46
+388,Jamaica,2004,9
+388,Jamaica,2003,52
+388,Jamaica,2002,90
+388,Jamaica,2001,39
+388,Jamaica,2000,25
+388,Jamaica,1999,24
+388,Jamaica,1998,1467
+388,Jamaica,1997,1
+388,Jamaica,1996,46
+388,Jamaica,1995,1668
+388,Jamaica,1994,0
+388,Jamaica,1993,0
+388,Jamaica,1992,296
+388,Jamaica,1991,5
+388,Jamaica,1990,9
+388,Jamaica,1989,32
+388,Jamaica,1988,6
+388,Jamaica,1987,3
+388,Jamaica,1986,3
+388,Jamaica,1985,3
+388,Jamaica,1984,12
+388,Jamaica,1983,26
+388,Jamaica,1982,21
+388,Jamaica,1981,47
+388,Jamaica,1980,9
+474,Martinique,2017,72
+474,Martinique,2016,158
+474,Martinique,2015,207
+474,Martinique,2014,1669
+474,Martinique,2013,6926
+474,Martinique,2012,1511
+474,Martinique,2011,275
+474,Martinique,2010,36058
+474,Martinique,2009,1376
+474,Martinique,2008,586
+474,Martinique,2007,4754
+474,Martinique,2006,4084
+474,Martinique,2005,6077
+474,Martinique,2004,0
+474,Martinique,2003,791
+474,Martinique,2002,392
+474,Martinique,2001,4465
+474,Martinique,2000,171
+474,Martinique,1999,268
+474,Martinique,1998,44
+474,Martinique,1997,235
+474,Martinique,1996,402
+474,Martinique,1995,513
+474,Martinique,1994,0
+474,Martinique,1993,0
+474,Martinique,1992,38
+474,Martinique,1991,0
+474,Martinique,1990,4
+474,Martinique,1989,16
+474,Martinique,1988,97
+474,Martinique,1987,0
+474,Martinique,1986,0
+474,Martinique,1985,0
+474,Martinique,1984,0
+474,Martinique,1983,0
+474,Martinique,1982,0
+474,Martinique,1981,0
+474,Martinique,1980,0
+484,Mexico,2018,649
+484,Mexico,2017,89518
+484,Mexico,2016,129263
+484,Mexico,2015,214129
+484,Mexico,2014,116296
+484,Mexico,2013,212831
+484,Mexico,2012,148043
+484,Mexico,2011,59338
+484,Mexico,2010,45299
+484,Mexico,2009,227015
+484,Mexico,2008,18926
+484,Mexico,2007,32642
+484,Mexico,2006,18333
+484,Mexico,2005,8352
+484,Mexico,2004,4284
+484,Mexico,2003,2180
+484,Mexico,2002,6986
+484,Mexico,2001,5828
+484,Mexico,2000,21615
+484,Mexico,1999,14435
+484,Mexico,1998,22895
+484,Mexico,1997,51581
+484,Mexico,1996,33626
+484,Mexico,1995,35490
+484,Mexico,1994,6770
+484,Mexico,1993,2899
+484,Mexico,1992,11348
+484,Mexico,1991,5861
+484,Mexico,1990,14485
+484,Mexico,1989,7112
+484,Mexico,1988,10526
+484,Mexico,1987,13371
+484,Mexico,1986,19520
+484,Mexico,1985,13688
+484,Mexico,1984,27629
+484,Mexico,1983,19028
+484,Mexico,1982,32640
+484,Mexico,1981,17046
+484,Mexico,1980,51046
+500,Montserrat,2017,0
+500,Montserrat,2016,25
+500,Montserrat,2015,0
+500,Montserrat,2014,16
+500,Montserrat,2013,6
+500,Montserrat,2012,0
+500,Montserrat,2011,3
+500,Montserrat,2010,0
+500,Montserrat,2009,0
+500,Montserrat,2008,2
+500,Montserrat,2007,0
+500,Montserrat,2006,0
+500,Montserrat,2005,0
+500,Montserrat,2004,0
+500,Montserrat,2003,1
+500,Montserrat,2002,1
+500,Montserrat,2001,1
+500,Montserrat,2000,9
+500,Montserrat,1999,0
+500,Montserrat,1998,0
+500,Montserrat,1997,0
+500,Montserrat,1996,3
+500,Montserrat,1995,75
+500,Montserrat,1994,0
+500,Montserrat,1993,0
+500,Montserrat,1992,0
+500,Montserrat,1991,0
+500,Montserrat,1990,0
+500,Montserrat,1989,0
+500,Montserrat,1988,0
+500,Montserrat,1987,0
+500,Montserrat,1986,0
+500,Montserrat,1985,0
+500,Montserrat,1984,0
+500,Montserrat,1983,0
+500,Montserrat,1982,0
+500,Montserrat,1981,0
+500,Montserrat,1980,0
+558,Nicaragua,2018,1911
+558,Nicaragua,2017,64712
+558,Nicaragua,2016,88320
+558,Nicaragua,2015,49311
+558,Nicaragua,2014,35425
+558,Nicaragua,2013,77028
+558,Nicaragua,2012,30174
+558,Nicaragua,2011,11874
+558,Nicaragua,2010,5122
+558,Nicaragua,2009,16980
+558,Nicaragua,2008,1356
+558,Nicaragua,2007,1113
+558,Nicaragua,2006,1246
+558,Nicaragua,2005,1381
+558,Nicaragua,2004,849
+558,Nicaragua,2003,2329
+558,Nicaragua,2002,1843
+558,Nicaragua,2001,1188
+558,Nicaragua,2000,6045
+558,Nicaragua,1999,9652
+558,Nicaragua,1998,12728
+558,Nicaragua,1997,2990
+558,Nicaragua,1996,2694
+558,Nicaragua,1995,17648
+558,Nicaragua,1994,20469
+558,Nicaragua,1993,8938
+558,Nicaragua,1992,5495
+558,Nicaragua,1991,1885
+558,Nicaragua,1990,4137
+558,Nicaragua,1989,659
+558,Nicaragua,1988,203
+558,Nicaragua,1987,64
+558,Nicaragua,1986,484
+558,Nicaragua,1985,17469
+558,Nicaragua,1984,0
+558,Nicaragua,1983,0
+558,Nicaragua,1982,0
+558,Nicaragua,1981,0
+558,Nicaragua,1980,0
+591,Panama,2017,8736
+591,Panama,2016,7872
+591,Panama,2015,3341
+591,Panama,2014,4633
+591,Panama,2013,4759
+591,Panama,2012,1188
+591,Panama,2011,3806
+591,Panama,2010,1996
+591,Panama,2009,6755
+591,Panama,2008,2281
+591,Panama,2007,3396
+591,Panama,2006,4286
+591,Panama,2005,3996
+591,Panama,2004,365
+591,Panama,2003,293
+591,Panama,2002,701
+591,Panama,2001,1531
+591,Panama,2000,311
+591,Panama,1999,2781
+591,Panama,1998,2715
+591,Panama,1997,2628
+591,Panama,1996,811
+591,Panama,1995,3077
+591,Panama,1994,20469
+591,Panama,1993,13
+591,Panama,1992,0
+591,Panama,1991,0
+591,Panama,1990,0
+591,Panama,1989,0
+591,Panama,1988,0
+591,Panama,1987,0
+591,Panama,1986,0
+591,Panama,1985,0
+591,Panama,1984,0
+591,Panama,1983,0
+591,Panama,1982,0
+591,Panama,1981,0
+591,Panama,1980,0
+600,Paraguay,2018,90
+600,Paraguay,2017,1832
+600,Paraguay,2016,70167
+600,Paraguay,2015,68639
+600,Paraguay,2014,16912
+600,Paraguay,2013,142394
+600,Paraguay,2012,38944
+600,Paraguay,2011,42749
+600,Paraguay,2010,13493
+600,Paraguay,2009,6143
+600,Paraguay,2008,1953
+600,Paraguay,2007,28072
+600,Paraguay,2006,4271
+600,Paraguay,2005,405
+600,Paraguay,2004,164
+600,Paraguay,2003,137
+600,Paraguay,2002,1871
+600,Paraguay,2001,38
+600,Paraguay,2000,24282
+600,Paraguay,1999,1164
+600,Paraguay,1998,0
+600,Paraguay,1997,0
+600,Paraguay,1996,0
+600,Paraguay,1995,0
+600,Paraguay,1994,0
+600,Paraguay,1993,0
+600,Paraguay,1992,0
+600,Paraguay,1991,0
+600,Paraguay,1990,0
+600,Paraguay,1989,41000
+600,Paraguay,1988,0
+600,Paraguay,1987,0
+600,Paraguay,1986,0
+600,Paraguay,1985,0
+600,Paraguay,1984,0
+600,Paraguay,1983,0
+600,Paraguay,1982,0
+600,Paraguay,1981,0
+600,Paraguay,1980,0
+604,Peru,2018,526
+604,Peru,2017,75842
+604,Peru,2016,31744
+604,Peru,2015,35714
+604,Peru,2014,18948
+604,Peru,2013,13702
+604,Peru,2012,30709
+604,Peru,2011,29414
+604,Peru,2010,18422
+604,Peru,2009,8789
+604,Peru,2008,10214
+604,Peru,2007,6837
+604,Peru,2006,5523
+604,Peru,2005,6326
+604,Peru,2004,9704
+604,Peru,2003,3607
+604,Peru,2002,8849
+604,Peru,2001,22827
+604,Peru,2000,5486
+604,Peru,1999,554
+604,Peru,1998,988
+604,Peru,1997,1357
+604,Peru,1996,6395
+604,Peru,1995,2732
+604,Peru,1994,1471
+604,Peru,1993,897
+604,Peru,1992,1971
+604,Peru,1991,714
+604,Peru,1990,7858
+604,Peru,1989,0
+604,Peru,1988,0
+604,Peru,1987,0
+604,Peru,1986,0
+604,Peru,1985,0
+604,Peru,1984,0
+604,Peru,1983,0
+604,Peru,1982,0
+604,Peru,1981,0
+604,Peru,1980,0
+630,Puerto Rico,2018,0
+630,Puerto Rico,2017,9
+630,Puerto Rico,2016,204
+630,Puerto Rico,2015,1867
+630,Puerto Rico,2014,8662
+630,Puerto Rico,2013,18114
+630,Puerto Rico,2012,11749
+630,Puerto Rico,2011,5592
+630,Puerto Rico,2010,21232
+630,Puerto Rico,2009,6525
+630,Puerto Rico,2008,3254
+630,Puerto Rico,2007,10916
+630,Puerto Rico,2006,3029
+630,Puerto Rico,2005,5663
+630,Puerto Rico,2004,3266
+630,Puerto Rico,2003,3725
+630,Puerto Rico,2002,2860
+630,Puerto Rico,2001,5161
+630,Puerto Rico,2000,2385
+630,Puerto Rico,1999,4925
+630,Puerto Rico,1998,16895
+630,Puerto Rico,1997,6831
+630,Puerto Rico,1996,4607
+630,Puerto Rico,1995,6448
+630,Puerto Rico,1994,22000
+630,Puerto Rico,1993,6600
+630,Puerto Rico,1992,13009
+630,Puerto Rico,1991,10291
+630,Puerto Rico,1990,9438
+630,Puerto Rico,1989,8979
+630,Puerto Rico,1988,6523
+630,Puerto Rico,1987,5801
+630,Puerto Rico,1986,10597
+630,Puerto Rico,1985,2372
+630,Puerto Rico,1984,1865
+630,Puerto Rico,1983,2789
+630,Puerto Rico,1982,9536
+630,Puerto Rico,1981,8350
+630,Puerto Rico,1980,921
+652,Saint Barthelemy,2017,35
+652,Saint Barthelemy,2016,78
+652,Saint Barthelemy,2015,428
+652,Saint Barthelemy,2014,56
+652,Saint Barthelemy,2013,927
+652,Saint Barthelemy,2012,40
+652,Saint Barthelemy,2011,23
+652,Saint Barthelemy,2010,0
+652,Saint Barthelemy,2009,803
+652,Saint Barthelemy,2008,0
+652,Saint Barthelemy,2007,0
+652,Saint Barthelemy,2006,0
+652,Saint Barthelemy,2005,0
+652,Saint Barthelemy,2004,0
+652,Saint Barthelemy,2003,0
+652,Saint Barthelemy,2002,0
+652,Saint Barthelemy,2001,0
+652,Saint Barthelemy,2000,0
+652,Saint Barthelemy,1999,0
+652,Saint Barthelemy,1998,0
+652,Saint Barthelemy,1997,0
+652,Saint Barthelemy,1996,0
+652,Saint Barthelemy,1995,0
+652,Saint Barthelemy,1994,0
+652,Saint Barthelemy,1993,0
+652,Saint Barthelemy,1992,0
+652,Saint Barthelemy,1991,0
+652,Saint Barthelemy,1990,0
+652,Saint Barthelemy,1989,0
+652,Saint Barthelemy,1988,0
+652,Saint Barthelemy,1987,0
+652,Saint Barthelemy,1986,0
+652,Saint Barthelemy,1985,0
+652,Saint Barthelemy,1984,0
+652,Saint Barthelemy,1983,0
+652,Saint Barthelemy,1982,0
+652,Saint Barthelemy,1981,0
+652,Saint Barthelemy,1980,0
+659,Saint Kitts and Nevis,2017,9
+659,Saint Kitts and Nevis,2016,136
+659,Saint Kitts and Nevis,2015,5
+659,Saint Kitts and Nevis,2014,62
+659,Saint Kitts and Nevis,2013,100
+659,Saint Kitts and Nevis,2012,2
+659,Saint Kitts and Nevis,2011,45
+659,Saint Kitts and Nevis,2010,19
+659,Saint Kitts and Nevis,2009,2
+659,Saint Kitts and Nevis,2008,49
+659,Saint Kitts and Nevis,2007,0
+659,Saint Kitts and Nevis,2006,1
+659,Saint Kitts and Nevis,2005,0
+659,Saint Kitts and Nevis,2004,4
+659,Saint Kitts and Nevis,2003,2
+659,Saint Kitts and Nevis,2002,20
+659,Saint Kitts and Nevis,2001,81
+659,Saint Kitts and Nevis,2000,5
+659,Saint Kitts and Nevis,1999,1
+659,Saint Kitts and Nevis,1998,0
+659,Saint Kitts and Nevis,1997,0
+659,Saint Kitts and Nevis,1996,6
+659,Saint Kitts and Nevis,1995,27
+659,Saint Kitts and Nevis,1994,0
+659,Saint Kitts and Nevis,1993,0
+659,Saint Kitts and Nevis,1992,0
+659,Saint Kitts and Nevis,1991,8
+659,Saint Kitts and Nevis,1990,0
+659,Saint Kitts and Nevis,1989,0
+659,Saint Kitts and Nevis,1988,0
+659,Saint Kitts and Nevis,1987,0
+659,Saint Kitts and Nevis,1986,0
+659,Saint Kitts and Nevis,1985,0
+659,Saint Kitts and Nevis,1984,0
+659,Saint Kitts and Nevis,1983,0
+659,Saint Kitts and Nevis,1982,0
+659,Saint Kitts and Nevis,1981,0
+659,Saint Kitts and Nevis,1980,0
+662,Saint Lucia,2017,38
+662,Saint Lucia,2016,196
+662,Saint Lucia,2015,25
+662,Saint Lucia,2014,165
+662,Saint Lucia,2013,230
+662,Saint Lucia,2012,10
+662,Saint Lucia,2011,756
+662,Saint Lucia,2010,74
+662,Saint Lucia,2009,18
+662,Saint Lucia,2008,98
+662,Saint Lucia,2007,39
+662,Saint Lucia,2006,30
+662,Saint Lucia,2005,1
+662,Saint Lucia,2004,11
+662,Saint Lucia,2003,5
+662,Saint Lucia,2002,51
+662,Saint Lucia,2001,292
+662,Saint Lucia,2000,0
+662,Saint Lucia,1999,3
+662,Saint Lucia,1998,0
+662,Saint Lucia,1997,10
+662,Saint Lucia,1996,65
+662,Saint Lucia,1995,52
+662,Saint Lucia,1994,0
+662,Saint Lucia,1993,0
+662,Saint Lucia,1992,0
+662,Saint Lucia,1991,4
+662,Saint Lucia,1990,2
+662,Saint Lucia,1989,4
+662,Saint Lucia,1988,2
+662,Saint Lucia,1987,0
+662,Saint Lucia,1986,0
+662,Saint Lucia,1985,0
+662,Saint Lucia,1984,0
+662,Saint Lucia,1983,0
+662,Saint Lucia,1982,0
+662,Saint Lucia,1981,0
+662,Saint Lucia,1980,0
+663,Saint Martin,2017,157
+663,Saint Martin,2016,29
+663,Saint Martin,2015,1488
+663,Saint Martin,2014,403
+663,Saint Martin,2013,3064
+663,Saint Martin,2012,370
+663,Saint Martin,2011,168
+663,Saint Martin,2010,505
+663,Saint Martin,2009,1698
+663,Saint Martin,2008,0
+663,Saint Martin,2007,0
+663,Saint Martin,2006,0
+663,Saint Martin,2005,0
+663,Saint Martin,2004,0
+663,Saint Martin,2003,0
+663,Saint Martin,2002,0
+663,Saint Martin,2001,0
+663,Saint Martin,2000,0
+663,Saint Martin,1999,0
+663,Saint Martin,1998,0
+663,Saint Martin,1997,0
+663,Saint Martin,1996,0
+663,Saint Martin,1995,0
+663,Saint Martin,1994,0
+663,Saint Martin,1993,0
+663,Saint Martin,1992,0
+663,Saint Martin,1991,0
+663,Saint Martin,1990,0
+663,Saint Martin,1989,0
+663,Saint Martin,1988,0
+663,Saint Martin,1987,0
+663,Saint Martin,1986,0
+663,Saint Martin,1985,2
+663,Saint Martin,1984,0
+663,Saint Martin,1983,0
+663,Saint Martin,1982,0
+663,Saint Martin,1981,0
+663,Saint Martin,1980,0
+670,Saint Vincent and the Grenadines,2017,3
+670,Saint Vincent and the Grenadines,2016,89
+670,Saint Vincent and the Grenadines,2015,13
+670,Saint Vincent and the Grenadines,2014,117
+670,Saint Vincent and the Grenadines,2013,127
+670,Saint Vincent and the Grenadines,2012,87
+670,Saint Vincent and the Grenadines,2011,47
+670,Saint Vincent and the Grenadines,2010,216
+670,Saint Vincent and the Grenadines,2009,10
+670,Saint Vincent and the Grenadines,2008,6
+670,Saint Vincent and the Grenadines,2007,2
+670,Saint Vincent and the Grenadines,2006,5
+670,Saint Vincent and the Grenadines,2005,8
+670,Saint Vincent and the Grenadines,2004,4
+670,Saint Vincent and the Grenadines,2003,3
+670,Saint Vincent and the Grenadines,2002,121
+670,Saint Vincent and the Grenadines,2001,3
+670,Saint Vincent and the Grenadines,2000,5
+670,Saint Vincent and the Grenadines,1999,8
+670,Saint Vincent and the Grenadines,1998,88
+670,Saint Vincent and the Grenadines,1997,3
+670,Saint Vincent and the Grenadines,1996,190
+670,Saint Vincent and the Grenadines,1995,224
+670,Saint Vincent and the Grenadines,1994,0
+670,Saint Vincent and the Grenadines,1993,7
+670,Saint Vincent and the Grenadines,1992,7
+670,Saint Vincent and the Grenadines,1991,1
+670,Saint Vincent and the Grenadines,1990,9
+670,Saint Vincent and the Grenadines,1989,0
+670,Saint Vincent and the Grenadines,1988,1
+670,Saint Vincent and the Grenadines,1987,0
+670,Saint Vincent and the Grenadines,1986,0
+670,Saint Vincent and the Grenadines,1985,0
+670,Saint Vincent and the Grenadines,1984,0
+670,Saint Vincent and the Grenadines,1983,0
+670,Saint Vincent and the Grenadines,1982,0
+670,Saint Vincent and the Grenadines,1981,0
+670,Saint Vincent and the Grenadines,1980,0
+740,Suriname,2016,6
+740,Suriname,2015,15
+740,Suriname,2014,19
+740,Suriname,2013,21
+740,Suriname,2012,583
+740,Suriname,2011,363
+740,Suriname,2010,73
+740,Suriname,2009,51
+740,Suriname,2008,0
+740,Suriname,2007,41
+740,Suriname,2006,221
+740,Suriname,2005,2571
+740,Suriname,2004,361
+740,Suriname,2003,283
+740,Suriname,2002,1058
+740,Suriname,2001,736
+740,Suriname,2000,1065
+740,Suriname,1999,695
+740,Suriname,1998,1129
+740,Suriname,1997,90
+740,Suriname,1996,677
+740,Suriname,1995,344
+740,Suriname,1994,0
+740,Suriname,1993,0
+740,Suriname,1992,0
+740,Suriname,1991,0
+740,Suriname,1990,0
+740,Suriname,1989,0
+740,Suriname,1988,0
+740,Suriname,1987,0
+740,Suriname,1986,0
+740,Suriname,1985,0
+740,Suriname,1984,0
+740,Suriname,1983,0
+740,Suriname,1982,216
+740,Suriname,1981,0
+740,Suriname,1980,0
+780,Trinidad and Tobago,2017,300
+780,Trinidad and Tobago,2016,1801
+780,Trinidad and Tobago,2015,1687
+780,Trinidad and Tobago,2014,128
+780,Trinidad and Tobago,2013,0
+780,Trinidad and Tobago,2012,0
+780,Trinidad and Tobago,2011,1241
+780,Trinidad and Tobago,2010,4734
+780,Trinidad and Tobago,2009,24
+780,Trinidad and Tobago,2008,2350
+780,Trinidad and Tobago,2007,47
+780,Trinidad and Tobago,2006,35
+780,Trinidad and Tobago,2005,411
+780,Trinidad and Tobago,2004,448
+780,Trinidad and Tobago,2003,2129
+780,Trinidad and Tobago,2002,5700
+780,Trinidad and Tobago,2001,2072
+780,Trinidad and Tobago,2000,1968
+780,Trinidad and Tobago,1999,1135
+780,Trinidad and Tobago,1998,2848
+780,Trinidad and Tobago,1997,706
+780,Trinidad and Tobago,1996,3983
+780,Trinidad and Tobago,1995,312
+780,Trinidad and Tobago,1994,0
+780,Trinidad and Tobago,1993,38
+780,Trinidad and Tobago,1992,116
+780,Trinidad and Tobago,1991,36
+780,Trinidad and Tobago,1990,526
+780,Trinidad and Tobago,1989,11
+780,Trinidad and Tobago,1988,80
+780,Trinidad and Tobago,1987,125
+780,Trinidad and Tobago,1986,145
+780,Trinidad and Tobago,1985,7
+780,Trinidad and Tobago,1984,31
+780,Trinidad and Tobago,1983,118
+780,Trinidad and Tobago,1982,16
+780,Trinidad and Tobago,1981,14
+780,Trinidad and Tobago,1980,0
+796,Turks and Caicos Islands,2017,201
+796,Turks and Caicos Islands,2016,484
+796,Turks and Caicos Islands,2015,331
+796,Turks and Caicos Islands,2014,48
+796,Turks and Caicos Islands,2013,5
+796,Turks and Caicos Islands,2012,14
+796,Turks and Caicos Islands,2011,24
+796,Turks and Caicos Islands,2010,0
+796,Turks and Caicos Islands,2009,0
+796,Turks and Caicos Islands,2008,0
+796,Turks and Caicos Islands,2007,0
+796,Turks and Caicos Islands,2006,0
+796,Turks and Caicos Islands,2005,1
+796,Turks and Caicos Islands,2004,1
+796,Turks and Caicos Islands,2003,2
+796,Turks and Caicos Islands,2002,0
+796,Turks and Caicos Islands,2001,0
+796,Turks and Caicos Islands,2000,0
+796,Turks and Caicos Islands,1999,0
+796,Turks and Caicos Islands,1998,0
+796,Turks and Caicos Islands,1997,0
+796,Turks and Caicos Islands,1996,0
+796,Turks and Caicos Islands,1995,0
+796,Turks and Caicos Islands,1994,0
+796,Turks and Caicos Islands,1993,0
+796,Turks and Caicos Islands,1992,0
+796,Turks and Caicos Islands,1991,0
+796,Turks and Caicos Islands,1990,0
+796,Turks and Caicos Islands,1989,0
+796,Turks and Caicos Islands,1988,0
+796,Turks and Caicos Islands,1987,0
+796,Turks and Caicos Islands,1986,0
+796,Turks and Caicos Islands,1985,0
+796,Turks and Caicos Islands,1984,0
+796,Turks and Caicos Islands,1983,0
+796,Turks and Caicos Islands,1982,0
+796,Turks and Caicos Islands,1981,0
+796,Turks and Caicos Islands,1980,0
+840,United States of America,2018,2
+840,United States of America,2017,348
+840,United States of America,2016,990
+840,United States of America,2015,751
+840,United States of America,2014,470
+840,United States of America,2013,538
+840,United States of America,2012,186
+840,United States of America,2011,7
+840,United States of America,2010,65
+840,United States of America,2009,3
+840,United States of America,2008,0
+840,United States of America,2007,488
+840,United States of America,2006,143
+840,United States of America,2005,0
+840,United States of America,2004,0
+840,United States of America,2003,40
+840,United States of America,2002,29
+840,United States of America,2001,96
+840,United States of America,2000,0
+840,United States of America,1999,0
+840,United States of America,1998,0
+840,United States of America,1997,0
+840,United States of America,1996,0
+840,United States of America,1995,7
+840,United States of America,1994,0
+840,United States of America,1993,0
+840,United States of America,1992,0
+840,United States of America,1991,0
+840,United States of America,1990,0
+840,United States of America,1989,0
+840,United States of America,1988,0
+840,United States of America,1987,0
+840,United States of America,1986,14
+840,United States of America,1985,0
+840,United States of America,1984,0
+840,United States of America,1983,0
+840,United States of America,1982,0
+840,United States of America,1981,0
+840,United States of America,1980,63
+858,Uruguay,2018,0
+858,Uruguay,2017,0
+858,Uruguay,2016,1337
+858,Uruguay,2015,13
+858,Uruguay,2014,0
+858,Uruguay,2013,0
+858,Uruguay,2012,0
+858,Uruguay,2011,0
+858,Uruguay,2010,0
+858,Uruguay,2009,0
+858,Uruguay,2008,0
+858,Uruguay,2007,0
+858,Uruguay,2006,0
+858,Uruguay,2005,0
+858,Uruguay,2004,0
+858,Uruguay,2003,0
+858,Uruguay,2002,0
+858,Uruguay,2001,0
+858,Uruguay,2000,0
+858,Uruguay,1999,0
+858,Uruguay,1998,0
+858,Uruguay,1997,0
+858,Uruguay,1996,0
+858,Uruguay,1995,0
+858,Uruguay,1994,0
+858,Uruguay,1993,0
+858,Uruguay,1992,0
+858,Uruguay,1991,0
+858,Uruguay,1990,0
+858,Uruguay,1989,0
+858,Uruguay,1988,0
+858,Uruguay,1987,0
+858,Uruguay,1986,0
+858,Uruguay,1985,0
+858,Uruguay,1984,0
+858,Uruguay,1983,0
+858,Uruguay,1982,0
+858,Uruguay,1981,0
+858,Uruguay,1980,0
+862,Venezuela,2017,8256
+862,Venezuela,2016,29150
+862,Venezuela,2015,68109
+862,Venezuela,2014,74833
+862,Venezuela,2013,63176
+862,Venezuela,2012,47554
+862,Venezuela,2011,28719
+862,Venezuela,2010,103561
+862,Venezuela,2009,55571
+862,Venezuela,2008,40750
+862,Venezuela,2007,67724
+862,Venezuela,2006,34908
+862,Venezuela,2005,36836
+862,Venezuela,2004,26721
+862,Venezuela,2003,22504
+862,Venezuela,2002,31718
+862,Venezuela,2001,70098
+862,Venezuela,2000,16729
+862,Venezuela,1999,21340
+862,Venezuela,1998,26140
+862,Venezuela,1997,21054
+862,Venezuela,1996,5820
+862,Venezuela,1995,21520
+862,Venezuela,1994,15046
+862,Venezuela,1993,9059
+862,Venezuela,1992,3356
+862,Venezuela,1991,4579
+862,Venezuela,1990,4312
+862,Venezuela,1989,1360
+862,Venezuela,1988,12
+862,Venezuela,1987,58
+862,Venezuela,1986,0
+862,Venezuela,1985,2
+862,Venezuela,1984,20
+862,Venezuela,1983,6
+862,Venezuela,1982,39
+862,Venezuela,1981,71
+862,Venezuela,1980,39
+92,Virgin Islands (UK),2017,67
+92,Virgin Islands (UK),2016,100
+92,Virgin Islands (UK),2015,102
+92,Virgin Islands (UK),2014,205
+92,Virgin Islands (UK),2013,223
+92,Virgin Islands (UK),2012,12
+92,Virgin Islands (UK),2011,939
+92,Virgin Islands (UK),2010,9
+92,Virgin Islands (UK),2009,65
+92,Virgin Islands (UK),2008,15
+92,Virgin Islands (UK),2007,6
+92,Virgin Islands (UK),2006,0
+92,Virgin Islands (UK),2005,0
+92,Virgin Islands (UK),2004,0
+92,Virgin Islands (UK),2003,0
+92,Virgin Islands (UK),2002,0
+92,Virgin Islands (UK),2001,23
+92,Virgin Islands (UK),2000,3
+92,Virgin Islands (UK),1999,0
+92,Virgin Islands (UK),1998,1
+92,Virgin Islands (UK),1997,0
+92,Virgin Islands (UK),1996,0
+92,Virgin Islands (UK),1995,0
+92,Virgin Islands (UK),1994,0
+92,Virgin Islands (UK),1993,0
+92,Virgin Islands (UK),1992,0
+92,Virgin Islands (UK),1991,0
+92,Virgin Islands (UK),1990,0
+92,Virgin Islands (UK),1989,0
+92,Virgin Islands (UK),1988,0
+92,Virgin Islands (UK),1987,0
+92,Virgin Islands (UK),1986,0
+92,Virgin Islands (UK),1985,0
+92,Virgin Islands (UK),1984,0
+92,Virgin Islands (UK),1983,0
+92,Virgin Islands (UK),1982,0
+92,Virgin Islands (UK),1981,0
+92,Virgin Islands (UK),1980,0
+850,Virgin Islands (US),2018,0
+850,Virgin Islands (US),2017,1
+850,Virgin Islands (US),2016,11
+850,Virgin Islands (US),2015,3
+850,Virgin Islands (US),2014,7
+850,Virgin Islands (US),2013,0
+850,Virgin Islands (US),2012,4
+850,Virgin Islands (US),2011,0
+850,Virgin Islands (US),2010,0
+850,Virgin Islands (US),2009,0
+850,Virgin Islands (US),2008,0
+850,Virgin Islands (US),2007,73
+850,Virgin Islands (US),2006,0
+850,Virgin Islands (US),2005,0
+850,Virgin Islands (US),2004,0
+850,Virgin Islands (US),2003,0
+850,Virgin Islands (US),2002,0
+850,Virgin Islands (US),2001,0
+850,Virgin Islands (US),2000,0
+850,Virgin Islands (US),1999,0
+850,Virgin Islands (US),1998,0
+850,Virgin Islands (US),1997,0
+850,Virgin Islands (US),1996,0
+850,Virgin Islands (US),1995,0
+850,Virgin Islands (US),1994,0
+850,Virgin Islands (US),1993,0
+850,Virgin Islands (US),1992,48
+850,Virgin Islands (US),1991,62
+850,Virgin Islands (US),1990,339
+850,Virgin Islands (US),1989,275
+850,Virgin Islands (US),1988,380
+850,Virgin Islands (US),1987,77
+850,Virgin Islands (US),1986,74
+850,Virgin Islands (US),1985,43
+850,Virgin Islands (US),1984,73
+850,Virgin Islands (US),1983,1
+850,Virgin Islands (US),1982,2
+850,Virgin Islands (US),1981,127
+850,Virgin Islands (US),1980,0
