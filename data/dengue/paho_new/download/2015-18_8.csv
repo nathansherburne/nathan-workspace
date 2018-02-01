@@ -1,0 +1,227 @@
+﻿0,Incidence Rate (c),Lab Confirm Incidence rate,(SD/D) x100 (e),CFR (f),ID,Country or Subregion,Country_sp,Deaths,EW,Iso3166,Confirmed,Epidemiological Week (a),Number of Records,Population x 1000,Serotype,Severe Dengue (d),Total of Dengue Cases (b),Type,Year
+0,8.74,8.74,0,0.000,6,Virgin Islands (US),Islas Vírgenes (EUA),0,8,850,9,8,1,103,DEN,0,9,final,2016
+0,0.01,0.00,0,0.000,4,Argentina,Argentina,0,8,32,1,3,1,44271,DEN 1,0,4,Preliminar,2018
+0,,,,,1,Canada,Canadá,0,8,124,0,8,1,0,  ,0,0,Preliminar,2017
+0,0.00,0.00,0,0.000,1,United States of America,Estados Unidos de América,0,8,840,11,8,1,324460,DEN,0,11,Preliminar,2017
+0,214.40,1.60,0.248756219,0.000,2,Belize,Belice,0,8,84,6,8,1,375,DEN,2,804,Preliminar,2017
+0,18.10,,0,0.000,2,Costa Rica,Costa Rica,0,8,188,,8,1,4906,"DEN 1,2",0,888,final,2017
+0,8.31,0.30,0,0.000,2,El Salvador,El Salvador,0,8,222,19,8,1,6378,DEN 2,0,530,Preliminar,2017
+0,2.24,,0,0.000,2,Guatemala,Guatemala,0,8,320,,8,1,16914,"DEN 1,2,3,4",0,379,Preliminar,2017
+0,9.26,,1.515151515,0.000,2,Honduras,Honduras,0,8,340,,8,1,9265,"DEN 1,2,3",13,858,Preliminar,2017
+0,3.16,0.33,0.440744368,0.000,2,Mexico,México,0,8,484,423,8,1,129163,"DEN 1,2,3",18,4084,Preliminar,2017
+0,143.92,8.36,,0.000,2,Nicaragua,Nicaragua,0,8,558,520,8,1,6218,DEN 2,,8949,Preliminar,2017
+0,15.00,8.17,0.813008130,0.000,2,Panama,Panamá,0,8,591,335,8,1,4099,"DEN 1,2",5,615,Preliminar,2017
+0,26.55,3.77,0.306748466,0.000,3,Bolivia,Bolivia,0,8,68,417,8,1,11052,DEN,9,2934,Preliminar,2017
+0,12.74,3.31,1.28,0.000,3,Colombia,Colombia,0,8,170,1626,8,1,49066,"DEN 1,2,3,4",80,6250,Preliminar,2017
+0,10.24,10.24,0.176263220,0.000,3,Ecuador,Ecuador,0,8,218,1702,8,1,16625,DEN,3,1702,Preliminar,2017
+0,13.83,4.55,0.359793119,0.112,3,Peru,Perú,5,8,604,1465,8,1,32165,"DEN 2,3",16,4447,Preliminar,2017
+0,4.31,0.72,3.555878084,0.000,3,Venezuela,Venezuela,0,8,862,230,8,1,31977,DEN,49,1378,Preliminar,2017
+0,0.12,0.02,0,0.000,4,Argentina,Argentina,0,8,32,10,8,1,44271,"DEN 1,3",0,52,Preliminar,2017
+0,23.02,0.15,0.018681113,0.010,4,Brazil,Brasil,5,8,76,310,7,1,209288,"DEN 1,2,3,4",9,48177,Preliminar,2017
+0,62.88,0.53,0.023348120,0.000,4,Paraguay,Paraguay,0,8,600,36,8,1,6811,DEN 1,1,4283,Preliminar,2017
+0,0.87,0.87,0,0.000,3,Ecuador,Ecuador,0,8,218,144,2,1,16625,DEN,0,144,Preliminar,2018
+0,,,,,1,Canada,Canadá,0,8,124,0,3,1,0,  ,0,0,Preliminar,2018
+0,1.67,,3.288672351,0.000,3,Colombia,Colombia,0,8,170,,3,1,49066,DEN,27,821,Preliminar,2018
+0,0.32,,11.764705882,0.000,5,Dominican Republic,República Dominicana,0,8,214,,3,1,10767,DEN,4,34,Preliminar,2018
+0,1.32,1.32,,0.000,4,Paraguay,Paraguay,0,8,600,90,1,1,6811,DEN 1,,90,Preliminar,2018
+0,1.66,,1.313320826,0.000,3,Peru,Perú,0,8,604,,2,1,32165,DEN,7,533,Preliminar,2018
+0,0.00,0.00,,,5,Puerto Rico,Puerto Rico,0,8,630,0,3,1,3663,  ,0,0,Preliminar,2018
+0,0.00,0.00,0,0.000,1,United States of America,Estados Unidos de América,0,8,840,2,3,1,324460,DEN,0,2,Preliminar,2018
+0,0.00,0.00,,,4,Uruguay,Uruguay,0,8,858,0,3,1,3457,  ,0,0,Preliminar,2018
+0,0.00,0.00,,,4,Uruguay,Uruguay,0,8,858,0,8,1,3457,  ,0,0,Preliminar,2017
+0,1.35,0.03,4.137931034,0.000,5,Dominican Republic,República Dominicana,0,8,214,3,8,1,10767,DEN,6,145,Preliminar,2017
+0,0.05,0.05,0,0.000,5,Puerto Rico,Puerto Rico,0,8,630,2,8,1,3663,DEN 2,0,2,Preliminar,2017
+0,0.98,0.98,0,0.000,6,Virgin Islands (US),Islas Vírgenes (EUA),0,8,850,1,8,1,102,DEN,0,1,Preliminar,2017
+0,0.00,0.00,,,6,Anguilla,Anguila,0,8,660,0,8,1,17,  ,0,0,Preliminar,2017
+0,1.05,0.00,0,0.000,6,Antigua and Barbuda,Antigua y Barbuda,0,8,28,0,8,1,95,DEN,0,1,Preliminar,2017
+0,152.17,13.91,0,,6,Aruba,Aruba,,8,533,16,8,1,115,DEN,0,175,Preliminar,2017
+0,0.00,0.00,,,6,Bahamas,Bahamas,0,8,44,0,8,1,395,  ,0,0,Preliminar,2017
+0,17.47,5.14,0,0.000,6,Barbados,Barbados,0,8,52,15,4,1,292,DEN,0,51,Preliminar,2017
+0,0.00,0.00,,,6,Bermuda,Bermuda,0,8,60,0,8,1,71,  ,0,0,Preliminar,2017
+0,20.00,20.00,0,0.000,6,Virgin Islands (UK),Islas Vírgenes (RU),0,8,92,7,4,1,35,DEN,0,7,Preliminar,2017
+0,13.51,0.00,0,0.000,6,Dominica,Dominica,0,8,212,0,8,1,74,DEN,0,10,Preliminar,2017
+0,15.18,15.18,0,0.000,6,Grenada,Granada,0,8,308,17,8,1,112,DEN,0,17,Preliminar,2017
+0,3.33,0.00,0,0.000,6,Guadeloupe,Guadalupe,0,8,312,0,7,1,450,DEN,0,15,Preliminar,2017
+0,2.56,0.13,0,0.000,2,El Salvador,El Salvador,0,8,222,8,3,1,6378,DEN,0,163,Preliminar,2018
+0,0.66,0.00,0,0.000,6,Jamaica,Jamaica,0,8,388,0,8,1,2890,DEN,0,19,Preliminar,2017
+0,8.31,0.00,0,0.000,6,Martinique,Martinica,0,8,474,0,8,1,385,  ,0,32,Preliminar,2017
+0,0.00,0.00,,,6,Montserrat,Montserrat,0,8,500,0,8,1,5,  ,0,0,Preliminar,2017
+0,111.11,0.00,0,0.000,6,Saint Barthelemy,San Bartolomé,0,8,652,0,8,1,9,DEN,0,10,Preliminar,2017
+0,0.00,0.00,,,6,Saint Lucia,Santa Lucía,0,8,662,0,8,1,165,  ,0,0,Preliminar,2017
+0,114.29,0.00,0,0.000,6,Saint Martin,Isla de San Martín (Francia),0,8,663,0,8,1,42,DEN,0,48,Preliminar,2017
+0,1.96,0.00,0,0.000,6,Saint Vincent and the Grenadines,San Vicente y las Granadinas,0,8,670,0,8,1,102,DEN,0,2,Preliminar,2017
+0,39.62,39.62,0,0.000,6,Turks and Caicos Islands,Islas Turcas y Caicos,0,8,796,21,8,1,53,DEN,0,21,Preliminar,2017
+0,0.00,0.00,,,6,Antigua and Barbuda,Antigua y Barbuda,0,8,28,0,4,1,92,  ,0,0,Preliminar,2015
+0,0.92,0.02,0,0.000,4,Argentina,Argentina,0,8,32,7,8,1,42155,"DEN 1,4",0,387,Preliminar,2015
+0,0.77,0.00,0,0.000,6,Bahamas,Bahamas,0,8,44,0,2,1,388,DEN,0,3,Preliminar,2015
+0,0.00,0.00,,,6,Bermuda,Bermuda,0,8,60,0,4,1,70,  ,0,0,Preliminar,2015
+0,14.75,,1.599015990,,3,Bolivia,Bolivia,,8,68,,8,1,11025,DEN,26,1626,Final,2015
+0,50.88,2.58,0.037638975,0.023,4,Brazil,Brasil,24,8,76,5248,6,1,203657,"DEN 1,2,3,4",39,103616,Preliminar,2015
+0,,,,,1,Canada,Canadá,0,8,124,0,8,1,0,  ,0,0,Preliminar,2015
+0,0.04,0.04,0,0.000,4,Chile,Chile,0,8,152,7,8,1,17924,DEN,0,7,Preliminar,2015
+0,36.03,0.00,1.507256121,0.000,3,Colombia,Colombia,0,8,170,0,8,1,49529,"DEN 1,2,3,4",269,17847,Preliminar,2015
+0,13.75,0.00,0,0.000,2,Costa Rica,Costa Rica,0,8,188,0,8,1,5002,"DEN 1,2,3",0,688,Final,2015
+0,13.51,2.70,0,0.000,6,Dominica,Dominica,0,8,212,2,5,1,74,DEN,0,10,Preliminar,2015
+0,7.41,0.00,0.083125520,0.000,3,Ecuador,Ecuador,0,8,218,0,7,1,16226,"DEN 1,2,3,4",1,1203,Preliminar,2015
+0,22.80,2.97,0.409556314,0.000,2,El Salvador,El Salvador,0,8,222,191,8,1,6426,"DEN 1,2,3",6,1465,Preliminar,2015
+0,22.52,22.52,0,0.000,6,French Guiana,Guayana Francesa,0,8,254,59,8,1,262,"DEN 1,2,4",0,59,Preliminar,2015
+0,7.45,0.64,0,0.000,6,Guadeloupe,Guadalupe,0,8,312,3,8,1,470,DEN,0,35,Preliminar,2015
+0,9.42,0.10,0.065316786,0.065,2,Guatemala,Guatemala,1,8,320,17,7,1,16255,"DEN 1,2,3,4",1,1531,Preliminar,2015
+0,76.70,0.00,4.039622349,0.000,2,Honduras,Honduras,0,8,340,0,8,1,8424,DEN,261,6461,Preliminar,2015
+0,0.53,0.00,0,0.000,6,Jamaica,Jamaica,0,8,388,0,8,1,2813,DEN 4,0,15,Preliminar,2015
+0,7.39,0.74,0,0.000,6,Martinique,Martinica,0,8,474,3,8,1,406,DEN,0,30,Preliminar,2015
+0,6.51,1.03,3.841433481,0.000,2,Mexico,México,0,8,484,1289,8,1,125236,"DEN 1,2,3,4",313,8148,Preliminar,2015
+0,91.15,1.31,0,0.000,2,Nicaragua,Nicaragua,0,8,558,82,8,1,6257,"DEN 2,3",0,5703,Preliminar,2015
+0,8.17,0.00,0,0.000,2,Panama,Panamá,0,8,591,0,8,1,3988,"DEN 1,2,3",0,326,Preliminar,2015
+0,72.46,6.67,0,0.000,4,Paraguay,Paraguay,0,8,600,469,8,1,7033,"DEN 1,2,4",0,5096,Preliminar,2015
+0,11.13,3.49,0.403574517,0.086,3,Peru,Perú,3,8,604,1087,8,1,31161,"DEN 2,3",14,3469,Preliminar,2015
+0,9.43,0.22,0,0.000,5,Puerto Rico,Puerto Rico,0,8,630,8,8,1,3680,"DEN 1,2,3,4",0,347,Preliminar,2015
+0,88.89,88.89,0,0.000,6,Saint Barthelemy,San Bartolomé,0,8,652,8,7,1,9,DEN,0,8,Preliminar,2015
+0,5.77,0.00,0,0.000,6,Saint Kitts and Nevis,Saint Kitts y Nevis,0,8,659,0,5,1,52,DEN,0,3,Preliminar,2015
+0,18.75,0.00,0,0.000,6,Anguilla,Anguila,0,8,660,0,4,1,16,DEN,0,3,Preliminar,2015
+0,246.34,92.68,0,0.000,6,Saint Martin,Isla de San Martín (Francia),0,8,663,38,8,1,41,DEN,0,101,Preliminar,2015
+0,2.08,0.07,0,0.000,6,Trinidad and Tobago,Trinidad y Tobago,0,8,780,1,4,1,1347,DEN 1,0,28,Preliminar,2015
+0,0.00,0.00,,,6,Turks and Caicos Islands,Islas Turcas y Caicos,0,8,796,0,4,1,50,  ,0,0,Preliminar,2015
+0,0.01,0.01,0,0.000,1,United States of America,Estados Unidos de América,0,8,840,19,8,1,325128,DEN,0,19,Preliminar,2015
+0,0.00,0.00,,,6,Virgin Islands (US),Islas Vírgenes (EUA),0,8,850,0,8,1,104,  ,0,0,final,2015
+0,0.00,0.00,,,4,Uruguay,Uruguay,0,8,858,0,8,1,3430,  ,0,0,Preliminar,2015
+0,0.07,0.07,0,0.000,1,United States of America,Estados Unidos de América,0,8,840,231,8,1,324119,DEN,0,231,Final,2016
+0,1.64,0.00,5.921052632,0.000,2,Honduras,Honduras,0,8,340,0,3,1,9265,DEN,9,152,Preliminar,2018
+0,0.50,0.01,0,0.000,2,Mexico,México,0,8,484,17,3,1,129163,"DEN 1,2",0,649,Preliminar,2018
+0,30.73,0.90,,0.000,2,Nicaragua,Nicaragua,0,8,558,56,3,1,6218,DEN,,1911,Preliminar,2018
+0,2.13,2.13,0,0.000,6,Antigua and Barbuda,Antigua y Barbuda,0,8,28,2,4,1,94,DEN,0,2,Preliminar,2016
+0,44.36,17.76,0,0.000,4,Argentina,Argentina,0,8,32,7786,8,1,43847,"DEN 1,4",0,19451,Final,2016
+0,69.42,69.42,0,0.000,6,Barbados,Barbados,0,8,52,202,4,1,291,DEN,0,202,Preliminar,2016
+0,0.00,0.00,,,6,Bermuda,Bermuda,0,8,60,0,8,1,71,  ,0,0,Preliminar,2016
+0,229.39,4.94,0.025794641,0.014,4,Brazil,Brasil,67,8,76,10352,8,1,209568,"DEN 1,2,3,4",124,480720,Preliminar,2016
+0,,,,,1,Canada,Canadá,0,8,124,0,8,1,0,  ,0,0,Final,2016
+0,0.22,0.00,0,0.000,4,Chile,Chile,0,8,152,0,8,1,18132,DEN 1,0,40,Preliminar,2016
+0,52.13,15.58,1.454932576,0.000,3,Colombia,Colombia,0,8,170,7582,8,1,48654,"DEN 1,2,3,4",369,25362,Preliminar,2016
+0,110.67,0.00,0,0.000,2,Costa Rica,Costa Rica,0,8,188,0,8,1,4857,"DEN1,2,3",0,5375,Final,2016
+0,144.59,0.00,0,0.000,6,Dominica,Dominica,0,8,212,0,4,1,74,DEN,0,107,Preliminar,2016
+0,23.56,0.00,11.917098446,0.438,5,Dominican Republic,República Dominicana,11,8,214,0,8,1,10649,DEN,299,2509,Preliminar,2016
+0,17.91,17.91,0.238582140,0.000,3,Ecuador,Ecuador,0,8,218,2934,8,1,16385,"DEN 1,2,4",7,2934,Preliminar,2016
+0,38.14,0.70,1.919795222,0.000,2,El Salvador,El Salvador,0,8,222,43,8,1,6146,DEN 2,45,2344,Final,2016
+0,197.46,5.43,0,0.000,6,French Guiana,Guayana Francesa,0,8,254,15,4,1,276,"DEN 1,2",0,545,Preliminar,2016
+0,12.61,4.50,0,0.000,6,Grenada,Granada,0,8,308,5,8,1,111,DEN 1,0,14,Preliminar,2016
+0,1.91,1.91,0,0.000,6,Guadeloupe,Guadalupe,0,8,312,9,4,1,471,DEN,0,9,Preliminar,2016
+0,7.07,1.46,0,0.000,2,Guatemala,Guatemala,0,8,320,243,8,1,16673,"DEN 1,2,3,4",0,1179,Preliminar,2016
+0,8.30,8.30,0,0.000,6,Guyana,Guyana,0,8,328,64,4,1,771,DEN,0,64,Preliminar,2016
+0,61.65,0.00,2.218261042,0.020,2,Honduras,Honduras,1,8,340,0,8,1,8190,DEN,112,5049,Preliminar,2016
+0,10.52,0.82,0,0.000,6,Jamaica,Jamaica,0,8,388,23,8,1,2803,DEN,0,295,Preliminar,2016
+0,4.04,4.04,0,0.000,6,Martinique,Martinica,0,8,474,16,4,1,396,DEN,0,16,Preliminar,2016
+0,9.89,1.39,4.290091931,0.000,2,Mexico,México,0,8,484,1791,8,1,128632,"DEN1,2,3,4",546,12727,Final,2016
+0,0.00,0.00,,,6,Montserrat,Montserrat,0,8,500,0,8,1,5,  ,0,0,Preliminar,2016
+0,120.37,16.41,0,0.068,2,Nicaragua,Nicaragua,5,8,558,1009,8,1,6150,DEN,0,7403,Preliminar,2016
+0,12.46,6.42,0,0.000,2,Panama,Panamá,0,8,591,256,8,1,3990,"DEN 1,2,3",0,497,Preliminar,2016
+0,19.68,5.91,0.399744164,0.096,3,Peru,Perú,6,8,604,1877,8,1,31774,"DEN 1,2, 3",25,6254,Preliminar,2016
+0,2.09,2.09,0,0.000,5,Puerto Rico,Puerto Rico,0,8,630,77,8,1,3681,"DEN 1,2,3,4",0,77,Final,2016
+0,288.89,288.89,0,0.000,6,Saint Barthelemy,San Bartolomé,0,8,652,26,4,1,9,DEN 1,0,26,Preliminar,2016
+0,29.41,0.00,0,0.000,6,Anguilla,Anguila,0,8,660,0,8,1,17,DEN,0,5,Preliminar,2016
+0,0.00,0.00,,,6,Saint Martin,Isla de San Martín (Francia),0,8,663,0,4,1,41,  ,0,0,Preliminar,2016
+0,1.96,1.96,0,0.000,6,Saint Vincent and the Grenadines,San Vicente y las Granadinas,0,8,670,2,4,1,102,DEN,0,2,Preliminar,2016
+0,58.14,22.20,0,0.256,4,Paraguay,Paraguay,10,8,600,1493,8,1,6725,"DEN 1,3,4",0,3910,Final,2016
+0,301.96,301.96,0,0.000,6,Turks and Caicos Islands,Islas Turcas y Caicos,0,8,796,154,8,1,51,DEN,0,154,Preliminar,2016
+0,19.74,0.52,0,0.000,4,Uruguay,Uruguay,0,8,858,18,8,1,3444,DEN 1,0,680,Preliminar,2016
+0,0.00,0.00,,,6,Virgin Islands (US),Islas Vírgenes (EUA),0,8,850,0,3,1,102,  ,0,0,Preliminar,2018
+0,,,,,6,French Guiana,Guayana Francesa,,8,254,,-,1,283,  ,,,Preliminar,2017
+0,,,,,3,Bolivia,Bolivia,,8,68,,-,1,10888,  ,,,Preliminar,2016
+0,,,,,3,Venezuela,Venezuela,,8,862,,-,1,31293,  ,,,Preliminar,2015
+0,,,,,6,Cayman Islands,Islas Caimán,,8,136,,-,1,58,  ,,,Preliminar,2018
+0,,,,,6,Antigua and Barbuda,Antigua y Barbuda,,8,28,,-,1,95,  ,,,Preliminar,2018
+0,,,,,6,Trinidad and Tobago,Trinidad y Tobago,,8,780,,-,1,1369,  ,,,Preliminar,2018
+0,,,,,3,Venezuela,Venezuela,,8,862,,-,1,31977,  ,,,Preliminar,2018
+0,,,,,6,Martinique,Martinica,,8,474,,-,1,385,  ,,,Preliminar,2018
+0,,,,,6,Saint Kitts and Nevis,Saint Kitts y Nevis,,8,659,,-,1,53,  ,,,Preliminar,2018
+0,,,,,6,Saint Lucia,Santa Lucía,,8,662,,-,1,164,  ,,,Preliminar,2016
+0,,,,,6,Haiti,Haití,,8,332,,-,1,10981,  ,,,Preliminar,2017
+0,,,,,6,Guyana,Guyana,,8,328,,-,1,778,  ,,,Preliminar,2017
+0,,,,,6,Montserrat,Montserrat,,8,500,,-,1,5,  ,,,Preliminar,2015
+0,,,,,5,Cuba,Cuba,,8,192,,-,1,11249,  ,,,Preliminar,2015
+0,,,,,6,Bahamas,Bahamas,,8,44,,-,1,393,  ,,,Preliminar,2016
+0,,,,,4,Chile,Chile,,8,152,,-,1,18055,  ,,,Preliminar,2017
+0,,,,,6,Cayman Islands,Islas Caimán,,8,136,,-,1,57,  ,,,Preliminar,2016
+0,,,,,5,Cuba,Cuba,,8,192,,-,1,11485,  ,,,Preliminar,2018
+0,,,,,6,Grenada,Granada,,8,308,,-,1,112,  ,,,Preliminar,2018
+0,,,,,6,Suriname,Suriname,,8,740,,-,1,563,  ,,,Preliminar,2017
+0,,,,,2,Belize,Belice,,8,84,,-,1,348,  ,,,Preliminar,2015
+0,,,,,6,Aruba,Aruba,,8,533,,-,1,115,  ,,,Preliminar,2018
+0,,,,,2,Belize,Belice,,8,84,,-,1,375,  ,,,Preliminar,2018
+0,,,,,6,Aruba,Aruba,,8,533,,-,1,112,  ,,,Preliminar,2015
+0,,,,,6,Trinidad and Tobago,Trinidad y Tobago,,8,780,,-,1,1365,  ,,,Preliminar,2016
+0,,,,,3,Venezuela,Venezuela,,8,862,,-,1,31519,  ,,,Preliminar,2016
+0,,,,,6,"Bonaire, Saint Eustatius and Saba","Bonaire, San Eustaquio y Saba",,8,535,,-,1,26,  ,,,Preliminar,2017
+0,,,,,6,Virgin Islands (UK),Islas Vírgenes (RU),,8,92,,-,1,33,  ,,,Preliminar,2015
+0,,,,,6,Bermuda,Bermuda,,8,60,,-,1,71,  ,,,Preliminar,2018
+0,,,,,6,Haiti,Haití,,8,332,,-,1,10848,  ,,,Preliminar,2016
+0,,,,,6,Barbados,Barbados,,8,52,,-,1,292,  ,,,Preliminar,2018
+0,,,,,6,Guyana,Guyana,,8,328,,-,1,808,  ,,,Preliminar,2015
+0,,,,,6,Barbados,Barbados,,8,52,,-,1,291,  ,,,Preliminar,2015
+0,,,,,6,Virgin Islands (UK),Islas Vírgenes (RU),,8,92,,-,1,35,  ,,,Preliminar,2018
+0,,,,,6,Suriname,Suriname,,8,740,,-,1,548,  ,,,Preliminar,2015
+0,,,,,6,Turks and Caicos Islands,Islas Turcas y Caicos,,8,796,,-,1,53,  ,,,Preliminar,2018
+0,,,,,6,Saint Vincent and the Grenadines,San Vicente y las Granadinas,,8,670,,-,1,102,  ,,,Preliminar,2018
+0,,,,,6,Haiti,Haití,,8,332,,-,1,10981,  ,,,Preliminar,2018
+0,,,,,6,Guyana,Guyana,,8,328,,-,1,778,  ,,,Preliminar,2018
+0,,,,,5,Cuba,Cuba,,8,192,,-,1,11393,  ,,,Preliminar,2016
+0,,,,,2,Guatemala,Guatemala,,8,320,,-,1,16914,  ,,,Preliminar,2018
+0,,,,,6,Saint Kitts and Nevis,Saint Kitts y Nevis,,8,659,,-,1,52,  ,,,Preliminar,2016
+0,,,,,4,Chile,Chile,,8,152,,-,1,18055,  ,,,Preliminar,2018
+0,,,,,2,Panama,Panamá,,8,591,,-,1,4099,  ,,,Preliminar,2018
+0,,,,,6,Virgin Islands (UK),Islas Vírgenes (RU),,8,92,,-,1,34,  ,,,Preliminar,2016
+0,,,,,6,Saint Vincent and the Grenadines,San Vicente y las Granadinas,,8,670,,-,1,103,  ,,,Preliminar,2015
+0,,,,,2,Belize,Belice,,8,84,,-,1,367,  ,,,Preliminar,2016
+0,,,,,6,Curaçao,Curazao,,8,531,,-,1,150,  ,,,Preliminar,2018
+0,,,,,6,Haiti,Haití,,8,332,,-,1,10604,  ,,,Preliminar,2015
+0,,,,,6,Bahamas,Bahamas,,8,44,,-,1,395,  ,,,Preliminar,2018
+0,,,,,6,Saint Lucia,Santa Lucía,,8,662,,-,1,164,  ,,,Preliminar,2015
+0,,,,,2,Costa Rica,Costa Rica,,8,188,,-,1,4906,  ,,,Preliminar,2018
+0,,,,,6,Aruba,Aruba,,8,533,,-,1,114,  ,,,Preliminar,2016
+0,,,,,6,Trinidad and Tobago,Trinidad y Tobago,,8,780,,-,1,1369,  ,,,Preliminar,2017
+0,,,,,6,Saint Barthelemy,San Bartolomé,,8,652,,-,1,9,  ,,,Preliminar,2018
+0,,,,,6,Saint Martin,Isla de San Martín (Francia),,8,663,,-,1,42,  ,,,Preliminar,2018
+0,,,,,6,Grenada,Granada,,8,308,,-,1,111,  ,,,Preliminar,2015
+0,,,,,6,Suriname,Suriname,,8,740,,-,1,563,  ,,,Preliminar,2018
+0,,,,,6,Cayman Islands,Islas Caimán,,8,136,,-,1,58,  ,,,Preliminar,2017
+0,,,,,6,Curaçao,Curazao,,8,531,,-,1,150,  ,,,Preliminar,2017
+0,,,,,6,Montserrat,Montserrat,,8,500,,-,1,5,  ,,,Preliminar,2018
+0,,,,,3,Bolivia,Bolivia,,8,68,,-,1,11052,  ,,,Preliminar,2018
+0,,,,,6,Saint Kitts and Nevis,Saint Kitts y Nevis,,8,659,,-,1,53,  ,,,Preliminar,2017
+0,,,,,6,French Guiana,Guayana Francesa,,8,254,,-,1,283,  ,,,Preliminar,2018
+0,,,,,6,Guadeloupe,Guadalupe,,8,312,,-,1,450,  ,,,Preliminar,2018
+0,,,,,6,"Bonaire, Saint Eustatius and Saba","Bonaire, San Eustaquio y Saba",,8,535,,-,1,26,  ,,,Preliminar,2018
+0,,,,,6,Saint Lucia,Santa Lucía,,8,662,,-,1,165,  ,,,Preliminar,2018
+0,,,,,4,Brazil,Brasil,,8,76,,-,1,209288,  ,,,Preliminar,2018
+0,,,,,6,Dominica,Dominica,,8,212,,-,1,74,  ,,,Preliminar,2018
+0,,,,,6,Suriname,Suriname,,8,740,,-,1,548,  ,,,Preliminar,2016
+0,,,,,5,Cuba,Cuba,,8,192,,-,1,11485,  ,,,Preliminar,2017
+0,,,,,6,Jamaica,Jamaica,,8,388,,-,1,2890,  ,,,Preliminar,2018
+0,,,,,6,Anguilla,Anguila,,8,660,,-,1,17,  ,,,Preliminar,2018
+0,25.50,9.27,0,0.000,6,Non-Latin Caribbean,Caribe No Latino,0,8,,527,-,1,5686,  ,0,1450,Preliminar,2016
+0,6.60,0.06,0,0.740,5,Latin Caribbean,Caribe Latino,7,8,,8,-,1,14332,  ,0,946,Preliminar,2015
+0,179.19,6.97,0.024564135,0.015,4,Southern Cone,Cono Sur,77,8,,19649,-,1,281716,  ,124,504801,Preliminar,2016
+0,0.00,0.00,,,6,Non-Latin Caribbean,Caribe No Latino,0,8,,0,-,1,102,  ,0,0,Preliminar,2018
+0,1.90,0.05,0.313043478,0.000,2,Central America Ithsmus and Mexico,Istmo Centroamericano y México,0,8,,81,-,1,151024,  ,9,2875,Preliminar,2018
+0,0.24,0.00,11.764705882,0.000,5,Latin Caribbean,Caribe Latino,0,8,,0,-,1,14430,  ,4,34,Preliminar,2018
+0,0.00,0.00,0,0.000,1,North America,América del Norte,0,8,,2,-,1,324460,  ,0,2,Preliminar,2018
+0,0.00,0.00,0,0.000,1,North America,América del Norte,0,8,,11,-,1,324460,  ,0,11,Preliminar,2017
+0,11.86,3.86,0.939500928,0.030,3,Andean Subregion,Subregión Andina,5,8,,5440,-,1,140885,  ,157,16711,Preliminar,2017
+0,1.53,0.15,2.269692924,0.000,3,Andean Subregion,Subregión Andina,0,8,,144,-,1,97856,  ,34,1498,Preliminar,2018
+0,39.79,2.09,0.035745055,0.022,4,Southern Cone,Cono Sur,24,8,,5731,-,1,274199,  ,39,109106,Preliminar,2015
+0,7.56,1.42,0,0.000,6,Non-Latin Caribbean,Caribe No Latino,0,8,,77,-,1,5409,  ,0,409,Preliminar,2017
+0,1.02,0.03,4.081632653,0.000,5,Latin Caribbean,Caribe Latino,0,8,,5,-,1,14430,  ,6,147,Preliminar,2017
+0,19.80,1.91,2.033319836,0.017,2,Central America Ithsmus and Mexico,Istmo Centroamericano y México,6,8,,3342,-,1,174638,  ,703,34574,Preliminar,2016
+0,14.17,0.92,2.388783817,0.004,2,Central America Ithsmus and Mexico,Istmo Centroamericano y México,1,8,,1579,-,1,171588,  ,581,24322,Preliminar,2015
+0,9.65,0.73,0.222131291,0.000,2,Central America Ithsmus and Mexico,Istmo Centroamericano y México,0,8,,1303,-,1,177318,  ,38,17107,Preliminar,2017
+0,35.69,12.80,1.160636758,0.017,3,Andean Subregion,Subregión Andina,6,8,,12393,-,1,96813,  ,401,34550,Preliminar,2016
+0,19.90,0.13,0.019043266,0.010,4,Southern Cone,Cono Sur,5,8,,356,-,1,263827,  ,10,52512,Preliminar,2017
+0,0.07,0.07,0,0.000,1,North America,América del Norte,0,8,,231,-,1,324119,  ,0,231,Preliminar,2016
+0,18.05,0.54,11.562258314,0.425,5,Latin Caribbean,Caribe Latino,11,8,,77,-,1,14330,  ,299,2586,Preliminar,2016
+0,0.17,0.17,0,0.000,4,Southern Cone,Cono Sur,0,8,,91,-,1,54539,  ,0,94,Preliminar,2018
+0,4.80,1.82,0,0.000,6,Non-Latin Caribbean,Caribe No Latino,0,8,,114,-,1,6250,  ,0,300,Preliminar,2015
+0,22.37,1.01,1.283909712,0.012,3,Andean Subregion,Subregión Andina,3,8,,1087,-,1,107941,  ,310,24145,Preliminar,2015
+0,0.01,0.01,0,0.000,1,North America,América del Norte,0,8,,19,-,1,325128,  ,0,19,Preliminar,2015
+0,64.44,4.04,0.264099123,0.017,7,The Americas,Las Américas,100,8,,36219,-,1,897302,  ,1527,578192,Preliminar,2016
+0,9.38,0.78,0.242816208,0.012,7,The Americas,Las Américas,10,8,,7192,-,1,926329,  ,211,86897,Preliminar,2017
+0,0.70,0.05,1.043748612,0.000,7,The Americas,Las Américas,0,8,,318,-,1,642411,  ,47,4503,Preliminar,2018
+0,17.66,0.95,0.585502210,0.022,7,The Americas,Las Américas,35,8,,8538,-,1,899438,  ,930,158838,Preliminar,2015
