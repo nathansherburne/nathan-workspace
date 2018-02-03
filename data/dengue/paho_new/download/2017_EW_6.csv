@@ -1,0 +1,59 @@
+"X0","Incidence.Rate..c.","Lab.Confirm.Incidence.rate","X.SD.D..x100..e.","CFR..f.","ID","Country.or.Subregion","Country_sp","Deaths","EW","Iso3166","Confirmed","Epidemiological.Week..a.","Number.of.Records","Population.x.1000","Serotype","Severe.Dengue..d.","Total.of.Dengue.Cases..b.","Type","Year"
+0,NA,NA,NA,NA,1,"Canada","Canadá",0,6,124,0,"6",1,0,"  ",0,0,"Preliminar",2017
+0,0,0,0,0,1,"United States of America","Estados Unidos de América",0,6,840,7,"6",1,324460,"DEN",0,7,"Preliminar",2017
+0,136,0.8,0.392156863,0,2,"Belize","Belice",0,6,84,3,"6",1,375,"DEN",2,510,"Preliminar",2017
+0,15.47,NA,0,0,2,"Costa Rica","Costa Rica",0,6,188,NA,"6",1,4906,"DEN 1,2",0,759,"final",2017
+0,6.22,0.16,0,0,2,"El Salvador","El Salvador",0,6,222,10,"6",1,6378,"DEN 2",0,397,"Preliminar",2017
+0,1.33,NA,0,0,2,"Guatemala","Guatemala",0,6,320,NA,"6",1,16914,"DEN 1,2,3,4",0,225,"Preliminar",2017
+0,7.15,NA,1.057401813,0,2,"Honduras","Honduras",0,6,340,NA,"6",1,9265,"DEN 1,2,3",7,662,"Preliminar",2017
+0,2.27,0.24,0.44353463,0,2,"Mexico","México",0,6,484,312,"6",1,129163,"DEN 3",13,2931,"Preliminar",2017
+0,105.56,6.01,NA,0,2,"Nicaragua","Nicaragua",0,6,558,374,"6",1,6218,"DEN 2",NA,6564,"Preliminar",2017
+0,12.25,6.42,0.398406375,0,2,"Panama","Panamá",0,6,591,263,"6",1,4099,"DEN 1,2",2,502,"Preliminar",2017
+0,17.72,2.32,0.357507661,0,3,"Bolivia","Bolivia",0,6,68,256,"6",1,11052,"DEN",7,1958,"Preliminar",2017
+0,10.2,2.62,1.318154584,0,3,"Colombia","Colombia",0,6,170,1287,"6",1,49066,"DEN 1,2,3,4",66,5007,"Preliminar",2017
+0,5.89,5.89,0.102040816,0,3,"Ecuador","Ecuador",0,6,218,980,"6",1,16625,"DEN",1,980,"Preliminar",2017
+0,8.95,2.8,0.347463516,0.035,3,"Peru","Perú",1,6,604,901,"6",1,32165,"DEN 2,3",10,2878,"Preliminar",2017
+0,3.12,NA,3.603603604,0,3,"Venezuela","Venezuela",0,6,862,NA,"6",1,31977,"DEN",36,999,"Preliminar",2017
+0,0.08,0.02,0,0,4,"Argentina","Argentina",0,6,32,11,"6",1,44271,"DEN 1,3",0,37,"Preliminar",2017
+0,10.12,0.04,0.018891093,0.009,4,"Brazil","Brasil",2,6,76,83,"4",1,209288,"DEN 1,2,3,4",4,21174,"Preliminar",2017
+0,48.04,0.34,0.030562347,0,4,"Paraguay","Paraguay",0,6,600,23,"6",1,6811,"DEN 1",1,3272,"Preliminar",2017
+0,0,0,NA,NA,4,"Uruguay","Uruguay",0,6,858,0,"6",1,3457,"  ",0,0,"Preliminar",2017
+0,0.99,0.03,5.607476636,0,5,"Dominican Republic","República Dominicana",0,6,214,3,"6",1,10767,"DEN",6,107,"Preliminar",2017
+0,0.03,0.03,0,0,5,"Puerto Rico","Puerto Rico",0,6,630,1,"6",1,3663,"DEN 2",0,1,"Preliminar",2017
+0,0.98,0.98,0,0,6,"Virgin Islands (US)","Islas Vírgenes (EUA)",0,6,850,1,"6",1,102,"DEN",0,1,"Preliminar",2017
+0,0,0,NA,NA,6,"Anguilla","Anguila",0,6,660,0,"6",1,17,"  ",0,0,"Preliminar",2017
+0,0,NA,NA,NA,6,"Aruba","Aruba",NA,6,533,NA,"4",1,115,"  ",0,0,"Preliminar",2017
+0,0,0,NA,NA,6,"Bahamas","Bahamas",0,6,44,0,"6",1,395,"  ",0,0,"Preliminar",2017
+0,17.47,5.14,0,0,6,"Barbados","Barbados",0,6,52,15,"4",1,292,"DEN",0,51,"Preliminar",2017
+0,0,0,NA,NA,6,"Bermuda","Bermuda",0,6,60,0,"6",1,71,"  ",0,0,"Preliminar",2017
+0,20,20,0,0,6,"Virgin Islands (UK)","Islas Vírgenes (RU)",0,6,92,7,"4",1,35,"DEN",0,7,"Preliminar",2017
+0,3.33,0,0,0,6,"Guadeloupe","Guadalupe",0,6,312,0,"6",1,450,"DEN",0,15,"Preliminar",2017
+0,0.42,0,0,0,6,"Jamaica","Jamaica",0,6,388,0,"6",1,2890,"DEN",0,12,"Preliminar",2017
+0,3.9,0,0,0,6,"Martinique","Martinica",0,6,474,0,"6",1,385,"  ",0,15,"Preliminar",2017
+0,0,0,NA,NA,6,"Montserrat","Montserrat",0,6,500,0,"6",1,5,"  ",0,0,"Preliminar",2017
+0,111.11,0,0,0,6,"Saint Barthelemy","San Bartolomé",0,6,652,0,"6",1,9,"DEN",0,10,"Preliminar",2017
+0,0,0,NA,NA,6,"Saint Lucia","Santa Lucía",0,6,662,0,"6",1,165,"  ",0,0,"Preliminar",2017
+0,90.48,0,0,0,6,"Saint Martin","Isla de San Martín (Francia)",0,6,663,0,"6",1,42,"DEN",0,38,"Preliminar",2017
+0,NA,NA,NA,NA,6,"French Guiana","Guayana Francesa",NA,6,254,NA,"-",1,283,"  ",NA,NA,"Preliminar",2017
+0,NA,NA,NA,NA,6,"Haiti","Haití",NA,6,332,NA,"-",1,10981,"  ",NA,NA,"Preliminar",2017
+0,NA,NA,NA,NA,6,"Turks and Caicos Islands","Islas Turcas y Caicos",NA,6,796,NA,"-",1,53,"  ",NA,NA,"Preliminar",2017
+0,NA,NA,NA,NA,6,"Guyana","Guyana",NA,6,328,NA,"-",1,778,"  ",NA,NA,"Preliminar",2017
+0,NA,NA,NA,NA,4,"Chile","Chile",NA,6,152,NA,"-",1,18055,"  ",NA,NA,"Preliminar",2017
+0,NA,NA,NA,NA,6,"Dominica","Dominica",NA,6,212,NA,"-",1,74,"  ",NA,NA,"Preliminar",2017
+0,NA,NA,NA,NA,6,"Suriname","Suriname",NA,6,740,NA,"-",1,563,"  ",NA,NA,"Preliminar",2017
+0,NA,NA,NA,NA,6,"Bonaire, Saint Eustatius and Saba","Bonaire, San Eustaquio y Saba",NA,6,535,NA,"-",1,26,"  ",NA,NA,"Preliminar",2017
+0,NA,NA,NA,NA,6,"Saint Vincent and the Grenadines","San Vicente y las Granadinas",NA,6,670,NA,"-",1,102,"  ",NA,NA,"Preliminar",2017
+0,NA,NA,NA,NA,6,"Trinidad and Tobago","Trinidad y Tobago",NA,6,780,NA,"-",1,1369,"  ",NA,NA,"Preliminar",2017
+0,NA,NA,NA,NA,6,"Cayman Islands","Islas Caimán",NA,6,136,NA,"-",1,58,"  ",NA,NA,"Preliminar",2017
+0,NA,NA,NA,NA,6,"Curaçao","Curazao",NA,6,531,NA,"-",1,150,"  ",NA,NA,"Preliminar",2017
+0,NA,NA,NA,NA,6,"Saint Kitts and Nevis","Saint Kitts y Nevis",NA,6,659,NA,"-",1,53,"  ",NA,NA,"Preliminar",2017
+0,NA,NA,NA,NA,6,"Antigua and Barbuda","Antigua y Barbuda",NA,6,28,NA,"-",1,95,"  ",NA,NA,"Preliminar",2017
+0,NA,NA,NA,NA,5,"Cuba","Cuba",NA,6,192,NA,"-",1,11485,"  ",NA,NA,"Preliminar",2017
+0,NA,NA,NA,NA,6,"Grenada","Granada",NA,6,308,NA,"-",1,112,"  ",NA,NA,"Preliminar",2017
+0,0,0,0,0,1,"North America","América del Norte",0,6,NA,7,"-",1,324460,"  ",0,7,"Preliminar",2017
+0,8.39,2.43,1.015056674,0.008,3,"Andean Subregion","Subregión Andina",1,6,NA,3424,"-",1,140885,"  ",120,11822,"Preliminar",2017
+0,3,0.46,0,0,6,"Non-Latin Caribbean","Caribe No Latino",0,6,NA,23,"-",1,4973,"  ",0,149,"Preliminar",2017
+0,0.75,0.03,5.555555556,0,5,"Latin Caribbean","Caribe Latino",0,6,NA,4,"-",1,14430,"  ",6,108,"Preliminar",2017
+0,7.08,0.54,0.19123506,0,2,"Central America Ithsmus and Mexico","Istmo Centroamericano y México",0,6,NA,962,"-",1,177318,"  ",24,12550,"Preliminar",2017
+0,9.28,0.04,0.020422334,0.008,4,"Southern Cone","Cono Sur",2,6,NA,117,"-",1,263827,"  ",5,24483,"Preliminar",2017
+0,5.31,0.49,0.31556017,0.006,7,"The Americas","Las Américas",3,6,NA,4537,"-",1,925893,"  ",155,49119,"Preliminar",2017

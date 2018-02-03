@@ -1,0 +1,57 @@
+"X0","Incidence.Rate..c.","Lab.Confirm.Incidence.rate","X.SD.D..x100..e.","CFR..f.","ID","Country.or.Subregion","Country_sp","Deaths","EW","Iso3166","Confirmed","Epidemiological.Week..a.","Number.of.Records","Population.x.1000","Serotype","Severe.Dengue..d.","Total.of.Dengue.Cases..b.","Type","Year"
+0,8.74,8.74,0,0,6,"Virgin Islands (US)","Islas Vírgenes (EUA)",0,7,850,9,"7",1,103,"DEN",0,9,"final",2016
+0,0.06,0.06,0,0,1,"United States of America","Estados Unidos de América",0,7,840,205,"7",1,324119,"DEN",0,205,"Final",2016
+0,2.13,2.13,0,0,6,"Antigua and Barbuda","Antigua y Barbuda",0,7,28,2,"4",1,94,"DEN",0,2,"Preliminar",2016
+0,31.96,11.45,0,0,4,"Argentina","Argentina",0,7,32,5022,"7",1,43847,"DEN 1,4",0,14013,"Final",2016
+0,69.42,69.42,0,0,6,"Barbados","Barbados",0,7,52,202,"4",1,291,"DEN",0,202,"Preliminar",2016
+0,202.4,4.94,0.027112346,0.014,4,"Brazil","Brasil",60,7,76,10352,"7",1,209568,"DEN 1,2,3,4",115,424161,"Preliminar",2016
+0,NA,NA,NA,NA,1,"Canada","Canadá",0,7,124,0,"7",1,0,"  ",0,0,"Final",2016
+0,46.41,13.27,1.337348331,0,3,"Colombia","Colombia",0,7,170,6457,"7",1,48654,"DEN 1,2,3,4",302,22582,"Preliminar",2016
+0,103.03,0,0,0,2,"Costa Rica","Costa Rica",0,7,188,0,"7",1,4857,"DEN1,2,3",0,5004,"Final",2016
+0,144.59,0,0,0,6,"Dominica","Dominica",0,7,212,0,"4",1,74,"DEN",0,107,"Preliminar",2016
+0,21.53,0,12.036633232,0.48,5,"Dominican Republic","República Dominicana",11,7,214,0,"7",1,10649,"DEN",276,2293,"Preliminar",2016
+0,15.5,15.5,0.157480315,0,3,"Ecuador","Ecuador",0,7,218,2540,"7",1,16385,"DEN 1,2,4",4,2540,"Preliminar",2016
+0,35.18,0.67,2.081406105,0,2,"El Salvador","El Salvador",0,7,222,41,"7",1,6146,"DEN 2",45,2162,"Final",2016
+0,197.46,5.43,0,0,6,"French Guiana","Guayana Francesa",0,7,254,15,"4",1,276,"DEN 1,2",0,545,"Preliminar",2016
+0,0.9,0.9,0,0,6,"Grenada","Granada",0,7,308,1,"4",1,111,"DEN 1",0,1,"Preliminar",2016
+0,1.91,1.91,0,0,6,"Guadeloupe","Guadalupe",0,7,312,9,"4",1,471,"DEN",0,9,"Preliminar",2016
+0,6.55,1.46,0,0,2,"Guatemala","Guatemala",0,7,320,243,"7",1,16673,"DEN 1,2,3,4",0,1092,"Preliminar",2016
+0,8.3,8.3,0,0,6,"Guyana","Guyana",0,7,328,64,"4",1,771,"DEN",0,64,"Preliminar",2016
+0,56.47,0,1.924324324,0.022,2,"Honduras","Honduras",1,7,340,0,"7",1,8190,"DEN",89,4625,"Preliminar",2016
+0,8.78,0.82,0,0,6,"Jamaica","Jamaica",0,7,388,23,"7",1,2803,"DEN",0,246,"Preliminar",2016
+0,4.04,4.04,0,0,6,"Martinique","Martinica",0,7,474,16,"4",1,396,"DEN",0,16,"Preliminar",2016
+0,8.32,1.16,4.615959634,0,2,"Mexico","México",0,7,484,1496,"7",1,128632,"DEN1,2,3,4",494,10702,"Final",2016
+0,110.91,15.54,0,0.044,2,"Nicaragua","Nicaragua",3,7,558,956,"7",1,6150,"DEN",0,6821,"Preliminar",2016
+0,12.21,6.09,0,0,2,"Panama","Panamá",0,7,591,243,"7",1,3990,"DEN 1,2,3",0,487,"Preliminar",2016
+0,54.5,19.75,0,0.164,4,"Paraguay","Paraguay",6,7,600,1328,"7",1,6725,"DEN 1,3,4",0,3665,"Final",2016
+0,16.14,4.95,0.429017161,0.078,3,"Peru","Perú",4,7,604,1573,"7",1,31774,"DEN 1,2, 3",22,5128,"Preliminar",2016
+0,1.9,1.9,0,0,5,"Puerto Rico","Puerto Rico",0,7,630,70,"7",1,3681,"DEN 1,2,3,4",0,70,"Final",2016
+0,288.89,288.89,0,0,6,"Saint Barthelemy","San Bartolomé",0,7,652,26,"4",1,9,"DEN 1",0,26,"Preliminar",2016
+0,0,0,NA,NA,6,"Anguilla","Anguila",0,7,660,0,"4",1,17,"  ",0,0,"Preliminar",2016
+0,0,0,NA,NA,6,"Saint Martin","Isla de San Martín (Francia)",0,7,663,0,"4",1,41,"  ",0,0,"Preliminar",2016
+0,1.96,1.96,0,0,6,"Saint Vincent and the Grenadines","San Vicente y las Granadinas",0,7,670,2,"4",1,102,"DEN",0,2,"Preliminar",2016
+0,8.91,0.52,0,0,4,"Uruguay","Uruguay",0,7,858,18,"7",1,3444,"DEN 1",0,307,"Preliminar",2016
+0,NA,NA,NA,NA,3,"Bolivia","Bolivia",NA,7,68,NA,"-",1,10888,"  ",NA,NA,"Preliminar",2016
+0,NA,NA,NA,NA,6,"Saint Lucia","Santa Lucía",NA,7,662,NA,"-",1,164,"  ",NA,NA,"Preliminar",2016
+0,NA,NA,NA,NA,6,"Bahamas","Bahamas",NA,7,44,NA,"-",1,393,"  ",NA,NA,"Preliminar",2016
+0,NA,NA,NA,NA,6,"Cayman Islands","Islas Caimán",NA,7,136,NA,"-",1,57,"  ",NA,NA,"Preliminar",2016
+0,NA,NA,NA,NA,6,"Trinidad and Tobago","Trinidad y Tobago",NA,7,780,NA,"-",1,1365,"  ",NA,NA,"Preliminar",2016
+0,NA,NA,NA,NA,3,"Venezuela","Venezuela",NA,7,862,NA,"-",1,31519,"  ",NA,NA,"Preliminar",2016
+0,NA,NA,NA,NA,6,"Haiti","Haití",NA,7,332,NA,"-",1,10848,"  ",NA,NA,"Preliminar",2016
+0,NA,NA,NA,NA,6,"Montserrat","Montserrat",NA,7,500,NA,"-",1,5,"  ",NA,NA,"Preliminar",2016
+0,NA,NA,NA,NA,5,"Cuba","Cuba",NA,7,192,NA,"-",1,11393,"  ",NA,NA,"Preliminar",2016
+0,NA,NA,NA,NA,6,"Saint Kitts and Nevis","Saint Kitts y Nevis",NA,7,659,NA,"-",1,52,"  ",NA,NA,"Preliminar",2016
+0,NA,NA,NA,NA,6,"Virgin Islands (UK)","Islas Vírgenes (RU)",NA,7,92,NA,"-",1,34,"  ",NA,NA,"Preliminar",2016
+0,NA,NA,NA,NA,2,"Belize","Belice",NA,7,84,NA,"-",1,367,"  ",NA,NA,"Preliminar",2016
+0,NA,NA,NA,NA,6,"Bermuda","Bermuda",NA,7,60,NA,"-",1,71,"  ",NA,NA,"Preliminar",2016
+0,NA,NA,NA,NA,6,"Aruba","Aruba",NA,7,533,NA,"-",1,114,"  ",NA,NA,"Preliminar",2016
+0,NA,NA,NA,NA,6,"Turks and Caicos Islands","Islas Turcas y Caicos",NA,7,796,NA,"-",1,51,"  ",NA,NA,"Preliminar",2016
+0,NA,NA,NA,NA,4,"Chile","Chile",NA,7,152,NA,"-",1,18132,"  ",NA,NA,"Preliminar",2016
+0,NA,NA,NA,NA,6,"Suriname","Suriname",NA,7,740,NA,"-",1,548,"  ",NA,NA,"Preliminar",2016
+0,22.11,6.64,0,0,6,"Non-Latin Caribbean","Caribe No Latino",0,7,NA,369,"-",1,5559,"  ",0,1229,"Preliminar",2016
+0,167.74,6.34,0.026009508,0.015,4,"Southern Cone","Cono Sur",66,7,NA,16720,"-",1,263584,"  ",115,442146,"Preliminar",2016
+0,17.69,1.71,2.03282297,0.013,2,"Central America Ithsmus and Mexico","Istmo Centroamericano y México",4,7,NA,2979,"-",1,174638,"  ",628,30893,"Preliminar",2016
+0,31.25,10.92,1.084297521,0.013,3,"Andean Subregion","Subregión Andina",4,7,NA,10570,"-",1,96813,"  ",328,30250,"Preliminar",2016
+0,0.06,0.06,0,0,1,"North America","América del Norte",0,7,NA,205,"-",1,324119,"  ",0,205,"Preliminar",2016
+0,16.49,0.49,11.680067711,0.466,5,"Latin Caribbean","Caribe Latino",11,7,NA,70,"-",1,14330,"  ",276,2363,"Preliminar",2016
+0,57.69,3.52,0.265635415,0.017,7,"The Americas","Las Américas",85,7,NA,30913,"-",1,879043,"  ",1347,507086,"Preliminar",2016

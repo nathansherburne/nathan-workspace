@@ -1,0 +1,59 @@
+"X0","Incidence.Rate..c.","Lab.Confirm.Incidence.rate","X.SD.D..x100..e.","CFR..f.","ID","Country.or.Subregion","Country_sp","Deaths","EW","Iso3166","Confirmed","Epidemiological.Week..a.","Number.of.Records","Population.x.1000","Serotype","Severe.Dengue..d.","Total.of.Dengue.Cases..b.","Type","Year"
+0,0.01,0,0,0,4,"Argentina","Argentina",0,3,32,1,"3",1,44271,"DEN 1",0,4,"Preliminar",2018
+0,0.87,0.87,0,0,3,"Ecuador","Ecuador",0,3,218,144,"2",1,16625,"DEN",0,144,"Preliminar",2018
+0,NA,NA,NA,NA,1,"Canada","Canadá",0,3,124,0,"3",1,0,"  ",0,0,"Preliminar",2018
+0,1.67,NA,3.288672351,0,3,"Colombia","Colombia",0,3,170,NA,"3",1,49066,"DEN",27,821,"Preliminar",2018
+0,0.32,NA,11.764705882,0,5,"Dominican Republic","República Dominicana",0,3,214,NA,"3",1,10767,"DEN",4,34,"Preliminar",2018
+0,1.32,1.32,NA,0,4,"Paraguay","Paraguay",0,3,600,90,"1",1,6811,"DEN 1",NA,90,"Preliminar",2018
+0,1.66,NA,1.313320826,0,3,"Peru","Perú",0,3,604,NA,"2",1,32165,"DEN",7,533,"Preliminar",2018
+0,0,0,NA,NA,5,"Puerto Rico","Puerto Rico",0,3,630,0,"3",1,3663,"  ",0,0,"Preliminar",2018
+0,0,0,0,0,1,"United States of America","Estados Unidos de América",0,3,840,2,"3",1,324460,"DEN",0,2,"Preliminar",2018
+0,0,0,NA,NA,4,"Uruguay","Uruguay",0,3,858,0,"3",1,3457,"  ",0,0,"Preliminar",2018
+0,2.56,0.13,0,0,2,"El Salvador","El Salvador",0,3,222,8,"3",1,6378,"DEN",0,163,"Preliminar",2018
+0,1.64,0,5.921052632,0,2,"Honduras","Honduras",0,3,340,0,"3",1,9265,"DEN",9,152,"Preliminar",2018
+0,0.5,0.01,0,0,2,"Mexico","México",0,3,484,17,"3",1,129163,"DEN 1,2",0,649,"Preliminar",2018
+0,30.73,0.9,NA,0,2,"Nicaragua","Nicaragua",0,3,558,56,"3",1,6218,"DEN",NA,1911,"Preliminar",2018
+0,0,0,NA,NA,6,"Virgin Islands (US)","Islas Vírgenes (EUA)",0,3,850,0,"3",1,102,"  ",0,0,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Cayman Islands","Islas Caimán",NA,3,136,NA,"-",1,58,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Antigua and Barbuda","Antigua y Barbuda",NA,3,28,NA,"-",1,95,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Trinidad and Tobago","Trinidad y Tobago",NA,3,780,NA,"-",1,1369,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,3,"Venezuela","Venezuela",NA,3,862,NA,"-",1,31977,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Martinique","Martinica",NA,3,474,NA,"-",1,385,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Saint Kitts and Nevis","Saint Kitts y Nevis",NA,3,659,NA,"-",1,53,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,5,"Cuba","Cuba",NA,3,192,NA,"-",1,11485,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Grenada","Granada",NA,3,308,NA,"-",1,112,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Aruba","Aruba",NA,3,533,NA,"-",1,115,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,2,"Belize","Belice",NA,3,84,NA,"-",1,375,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Bermuda","Bermuda",NA,3,60,NA,"-",1,71,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Barbados","Barbados",NA,3,52,NA,"-",1,292,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Virgin Islands (UK)","Islas Vírgenes (RU)",NA,3,92,NA,"-",1,35,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Turks and Caicos Islands","Islas Turcas y Caicos",NA,3,796,NA,"-",1,53,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Saint Vincent and the Grenadines","San Vicente y las Granadinas",NA,3,670,NA,"-",1,102,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Haiti","Haití",NA,3,332,NA,"-",1,10981,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Guyana","Guyana",NA,3,328,NA,"-",1,778,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,2,"Guatemala","Guatemala",NA,3,320,NA,"-",1,16914,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,4,"Chile","Chile",NA,3,152,NA,"-",1,18055,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,2,"Panama","Panamá",NA,3,591,NA,"-",1,4099,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Curaçao","Curazao",NA,3,531,NA,"-",1,150,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Bahamas","Bahamas",NA,3,44,NA,"-",1,395,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,2,"Costa Rica","Costa Rica",NA,3,188,NA,"-",1,4906,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Saint Barthelemy","San Bartolomé",NA,3,652,NA,"-",1,9,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Saint Martin","Isla de San Martín (Francia)",NA,3,663,NA,"-",1,42,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Suriname","Suriname",NA,3,740,NA,"-",1,563,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Montserrat","Montserrat",NA,3,500,NA,"-",1,5,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,3,"Bolivia","Bolivia",NA,3,68,NA,"-",1,11052,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"French Guiana","Guayana Francesa",NA,3,254,NA,"-",1,283,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Guadeloupe","Guadalupe",NA,3,312,NA,"-",1,450,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Bonaire, Saint Eustatius and Saba","Bonaire, San Eustaquio y Saba",NA,3,535,NA,"-",1,26,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Saint Lucia","Santa Lucía",NA,3,662,NA,"-",1,165,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,4,"Brazil","Brasil",NA,3,76,NA,"-",1,209288,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Dominica","Dominica",NA,3,212,NA,"-",1,74,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Jamaica","Jamaica",NA,3,388,NA,"-",1,2890,"  ",NA,NA,"Preliminar",2018
+0,NA,NA,NA,NA,6,"Anguilla","Anguila",NA,3,660,NA,"-",1,17,"  ",NA,NA,"Preliminar",2018
+0,0,0,NA,NA,6,"Non-Latin Caribbean","Caribe No Latino",0,3,NA,0,"-",1,102,"  ",0,0,"Preliminar",2018
+0,1.9,0.05,0.313043478,0,2,"Central America Ithsmus and Mexico","Istmo Centroamericano y México",0,3,NA,81,"-",1,151024,"  ",9,2875,"Preliminar",2018
+0,0.24,0,11.764705882,0,5,"Latin Caribbean","Caribe Latino",0,3,NA,0,"-",1,14430,"  ",4,34,"Preliminar",2018
+0,0,0,0,0,1,"North America","América del Norte",0,3,NA,2,"-",1,324460,"  ",0,2,"Preliminar",2018
+0,1.53,0.15,2.269692924,0,3,"Andean Subregion","Subregión Andina",0,3,NA,144,"-",1,97856,"  ",34,1498,"Preliminar",2018
+0,0.17,0.17,0,0,4,"Southern Cone","Cono Sur",0,3,NA,91,"-",1,54539,"  ",0,94,"Preliminar",2018
+0,0.7,0.05,1.043748612,0,7,"The Americas","Las Américas",0,3,NA,318,"-",1,642411,"  ",47,4503,"Preliminar",2018
