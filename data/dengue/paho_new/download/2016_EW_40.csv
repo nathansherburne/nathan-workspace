@@ -1,4 +1,4 @@
-"X0","Incidence.Rate..c.","Lab.Confirm.Incidence.rate","X.SD.D..x100..e.","CFR..f.","ID","Country.or.Subregion","Country_sp","Deaths","EW","Iso3166","Confirmed","Epidemiological.Week..a.","Number.of.Records","Population.x.1000","Serotype","Severe.Dengue..d.","Total.of.Dengue.Cases..b.","Type","Year"
+"X0","Incidence_Rate","Lab_Confirm_Incidence_rate","X_SD_D_x100","CFR","ID","Country_or_Subregion","Country_sp","Deaths","EW","Iso3166","Confirmed","Epidemiological_Week","Number_of_Records","Population_x_1000","Serotype","Severe_Dengue","Total_of_Dengue_Cases","Type","Year","Week_Cases_Dengue","Week_Range"
 0,"39.36",3.19,0,0,6,"Antigua and Barbuda","Antigua y Barbuda",0,40,28,3,"36",1,94,"DEN 2",0,37,"Preliminar",2016
 0,"226.97",19.34,0,0,6,"Bahamas","Bahamas",0,40,44,76,"29",1,393,"DEN",0,892,"Preliminar",2016
 0,"473.88",137.8,0,0,6,"Barbados","Barbados",0,40,52,401,"40",1,291,"DEN",0,1379,"Preliminar",2016
