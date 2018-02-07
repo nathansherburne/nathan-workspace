@@ -1,4 +1,4 @@
-"X0","Incidence.Rate..c.","Lab.Confirm.Incidence.rate","X.SD.D..x100..e.","CFR..f.","ID","Country.or.Subregion","Country_sp","Deaths","EW","Iso3166","Confirmed","Epidemiological.Week..a.","Number.of.Records","Population.x.1000","Serotype","Severe.Dengue..d.","Total.of.Dengue.Cases..b.","Type","Year","Week.Cases.Dengue","Week.Range"
+"X0","Incidence_Rate","Lab_Confirm_Incidence_rate","X_SD_D_x100","CFR","ID","Country_or_Subregion","Country_sp","Deaths","EW","Iso3166","Confirmed","Epidemiological_Week","Number_of_Records","Population_x_1000","Serotype","Severe_Dengue","Total_of_Dengue_Cases","Type","Year","Week_Cases_Dengue","Week_Range"
 0,"18.75","0",0,0,6,"Anguilla","Anguila",0,10,660,0,4,1,16,"DEN",0,3,"Preliminar",2015,3,"0-4"
 0,"50.00","12.50",0,0,6,"Anguilla","Anguila",0,20,660,2,20,1,16,"DEN",0,8,"Preliminar",2015,5,"4-20"
 0,"50.00","12.50",0,0,6,"Anguilla","Anguila",0,28,660,2,28,1,16,"DEN",0,8,"Preliminar",2015,0,"20-28"

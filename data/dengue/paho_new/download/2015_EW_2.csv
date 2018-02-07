@@ -1,4 +1,4 @@
-"X0","Incidence.Rate..c.","Lab.Confirm.Incidence.rate","X.SD.D..x100..e.","CFR..f.","ID","Country.or.Subregion","Country_sp","Deaths","EW","Iso3166","Confirmed","Epidemiological.Week..a.","Number.of.Records","Population.x.1000","Serotype","Severe.Dengue..d.","Total.of.Dengue.Cases..b.","Type","Year"
+"X0","Incidence_Rate","Lab_Confirm_Incidence_rate","X_SD_D_x100","CFR","ID","Country_or_Subregion","Country_sp","Deaths","EW","Iso3166","Confirmed","Epidemiological_Week","Number_of_Records","Population_x_1000","Serotype","Severe_Dengue","Total_of_Dengue_Cases","Type","Year","Week_Cases_Dengue","Week_Range"
 0,0.13,0,0,0,4,"Argentina","Argentina",0,2,32,0,"1",1,42155,"DEN 1,4",0,55,"Preliminar",2015
 0,0.77,0,0,0,6,"Bahamas","Bahamas",0,2,44,0,"2",1,388,"DEN",0,3,"Preliminar",2015
 0,NA,NA,NA,NA,1,"Canada","Canadá",0,2,124,0,"2",1,0,"  ",0,0,"Preliminar",2015

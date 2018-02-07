@@ -1,4 +1,4 @@
-Letalidad,Country,Country sp,Total,Dengue,Dengue Grave,Fips,ISO3166Alpha2,ISO3166Alpha3,Code,Muertes,PAHO Code Num,PAHO Code,RegionLvl0,RegionLvl1,RegionLvl2,RegionLvl3,Region,TIS,Tipo,W Pais,Year
+"Letalidad","Country","Country_sp","Total","Dengue","Dengue_Grave","Fips","ISO3166Alpha2","ISO3166Alpha3","Code","Muertes","PAHO_Code_Num","PAHO_Code","RegionLvl0","RegionLvl1","RegionLvl2","RegionLvl3","Region","TIS","Tipo","W_Pais","Year"
 0,United States of America,Estados Unidos de América,990,990,0,US,US,USA,840,0,480,USA,AMR,NAR,NAR,NAR,NAR,USA,Final,USA,2016
 0,Virgin Islands (US),Islas Vírgenes (EUA),3,3,0,VQ,VI,VIR,850,0,483,VIS,AMR,LAC,NLC,CAR,NLC,VUS,final,VIS,2015
 ,Canada,Canadá,0,0,0,CA,CA,CAN,124,0,437,CAN,AMR,NAR,NAR,NAR,NAR,CAN,Preliminar,CAN,2017

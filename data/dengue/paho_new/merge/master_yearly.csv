@@ -1,4 +1,4 @@
-"Letalidad","Country","Country.sp","Total","Dengue","Dengue.Grave","Fips","ISO3166Alpha2","ISO3166Alpha3","Code","Muertes","PAHO.Code.Num","PAHO.Code","RegionLvl0","RegionLvl1","RegionLvl2","RegionLvl3","Region","TIS","Tipo","W.Pais","Year"
+"Letalidad","Country","Country_sp","Total","Dengue","Dengue_Grave","Fips","ISO3166Alpha2","ISO3166Alpha3","Code","Muertes","PAHO_Code_Num","PAHO_Code","RegionLvl0","RegionLvl1","RegionLvl2","RegionLvl3","Region","TIS","Tipo","W_Pais","Year"
 NA,"Antigua and Barbuda","Antigua y Barbuda",0,0,0,"AC","AG","ATG",28,0,431,"ANT","AMR","LAC","NLC","CAR","NLC","ANT","Final","ATG",1980
 NA,"Antigua and Barbuda","Antigua y Barbuda",0,0,0,"AC","AG","ATG",28,0,431,"ANT","AMR","LAC","NLC","CAR","NLC","ANT","Final","ATG",1981
 NA,"Antigua and Barbuda","Antigua y Barbuda",0,0,0,"AC","AG","ATG",28,0,431,"ANT","AMR","LAC","NLC","CAR","NLC","ANT","Final","ATG",1982
