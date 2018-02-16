@@ -1,0 +1,52 @@
+"Country.or.Subregion","Week","Probable","Lab.Confirm","Serotype","Severe.Dengue","Deaths","Population.x.1000"
+"Canada","Week 28",0,0,NA,0,0,NA
+"United States","Week 28",62,62,"DEN",0,0,325128
+"Belize","Week 00",NA,NA,NA,NA,NA,348
+"Costa Rica","Week 28",2802,NA,"DEN 1,2",0,0,5002
+"El Salvador","Week 28",2126,49,"DEN 2",53,0,6426
+"Guatemala","Week 24",1296,230,"DEN 1,2",NA,NA,16255
+"Honduras","Week 28",3437,0,"DEN 1, 2, 3",58,0,8721
+"Mexico","Week 28",5372,2622,"DEN 1,2,3,4",685,9,125236
+"Nicaragua","Week 26",33434,1325,"DEN",NA,2,6257
+"Panama","Week 25",2906,1305,"DEN 1,2",7,0,3988
+"Bolivia","Week 28",7647,NA,NA,76,NA,11025
+"Colombia","Week 28",16774,8357,"DEN",184,49,49529
+"Ecuador","Week 28",9713,9713,"DEN",9,4,16226
+"Peru","Week 28",68687,22079,"DEN 2,3",210,72,31161
+"Venezuela","Week 17",2722,309,"DEN",7,0,31028
+"Argentina","Week 28",7290,295,"DEN 1",0,0,42155
+"Brazil","Week 25",192123,NA,"DEN",131,57,203657
+"Chile","Week 28",5,5,"DEN 2",0,0,17924
+"Paraguay","Week 26",1285,285,"DEN 1",NA,0,7033
+"Uruguay","Week 28",0,0,NA,0,0,3430
+"Cuba","Week 25",270,NA,"DEN 2,3",NA,NA,11249
+"Dominican Republic","Week 27",624,NA,"DEN",31,0,10652
+"Puerto Rico","Week 28",9,9,"DEN 2",0,0,3680
+"American Virgin Islands","Week 19",1,1,"DEN",0,0,104
+"Anguilla","Week 12",15,2,"DEN",0,0,16
+"Antigua & Barbuda","Week 24",1,0,NA,0,0,92
+"Aruba","Week 24",661,8,"DEN",0,0,112
+"Bahamas","Week 20",4,0,NA,0,0,388
+"Barbados","Week 20",151,29,"DEN",0,0,291
+"Bermuda","Week 24",0,0,NA,0,0,70
+"British Virgin Islands","Week 20",28,28,"DEN",0,0,33
+"Cayman Islands","Week 24",12,0,NA,0,0,56
+"Curacao","Week 00",0,0,NA,0,0,148
+"Dominica","Week 28",22,0,NA,0,0,74
+"French Guiana","Week 17",165,0,NA,0,0,239
+"Grenada","Week 20",59,59,"DEN",0,0,111
+"Guadaloupe","Week 26",83,0,NA,0,0,411
+"Guyana","Week 00",NA,NA,NA,0,0,808
+"Haiti","Week 00",NA,NA,NA,0,0,10604
+"Jamaica","Week 28",64,11,"DEN",0,0,2813
+"Martinique","Week 26",73,1,"DEN 2",0,0,398
+"Montserrat","Week 24",0,0,NA,0,0,5
+"Netherlands Antilles","Week 00",NA,NA,NA,0,0,225
+"St. Bartolome","Week 26",30,0,NA,0,0,9
+"St. Kitts & Nevis","Week 24",4,0,NA,0,0,52
+"St. Lucia","Week 24",14,14,"DEN",0,0,164
+"St. Martin","Week 26",114,0,NA,0,0,41
+"St. Vincent & the Grenadines","Week 16",2,1,NA,0,0,103
+"Suriname","Week 00",NA,NA,NA,0,0,548
+"Trinidad & Tobago","Week 19",61,0,NA,0,0,1347
+"Turks & Caicos Islands","Week 24",157,157,"DEN",0,0,50

@@ -1,0 +1,55 @@
+"X0","Incidence_Rate","Lab_Confirm_Incidence_rate","X_SD_D_x100","CFR","ID","Country_or_Subregion","Country_sp","Deaths","EW","Iso3166","Confirmed","Epidemiological_Week","Number_of_Records","Population_x_1000","Serotype","Severe_Dengue","Total_of_Dengue_Cases","Type","Year","Week_Cases_Dengue","Week_Range"
+0,"17.39",6.52,0,0,6,"Antigua and Barbuda","Antigua y Barbuda",0,40,28,6,"28",1,92,"DEN",0,16,"Preliminar",2015
+0,"2.32",0.26,0,0,6,"Bahamas","Bahamas",0,40,44,1,"30",1,388,"DEN",0,9,"Preliminar",2015
+0,"33.33",5.5,0,0,6,"Barbados","Barbados",0,40,52,16,"32",1,291,"DEN 1",0,97,"Preliminar",2015
+0,"80.46",31.61,0,0,2,"Belize","Belice",0,40,84,110,"32",1,348,"DEN 2",0,280,"Preliminar",2015
+0,"312.12",312.12,0.970873786,0,6,"Virgin Islands (UK)","Islas Vírgenes (RU)",0,40,92,103,"40",1,33,"DEN",1,103,"Preliminar",2015
+0,"",NA,NA,NA,1,"Canada","Canadá",0,40,124,0,"40",1,0,"  ",0,0,"Preliminar",2015
+0,"154.94",0,0.077419355,0,2,"Costa Rica","Costa Rica",0,40,188,0,"40",1,5002,"DEN 1,2,3",6,7750,"Final",2015
+0,"33.78",2.7,0,0,6,"Dominica","Dominica",0,40,212,2,"24",1,74,"DEN",0,25,"Preliminar",2015
+0,"558.09",129.24,0.81699802,0.006,2,"El Salvador","El Salvador",2,40,222,8305,"40",1,6426,"DEN 1,2,3",293,35863,"Preliminar",2015
+0,"9.91",9.91,0,0,6,"Grenada","Granada",0,40,308,11,"32",1,111,"DEN",0,11,"Preliminar",2015
+0,"75.55",2.88,0.13028255,0.041,2,"Guatemala","Guatemala",5,40,320,468,"35",1,16255,"DEN 1,2,3,4",16,12281,"Preliminar",2015
+0,"17.57",17.57,0,0,6,"Guyana","Guyana",0,40,328,142,"24",1,808,"DEN",0,142,"Preliminar",2015
+0,"0.53",0,0,0,6,"Haiti","Haití",0,40,332,0,"22",1,10604,"DEN 1,2,3,4",0,56,"Preliminar",2015
+0,"465.03",0,2.100883239,0,2,"Honduras","Honduras",0,40,340,0,"40",1,8424,"DEN",823,39174,"Preliminar",2015
+0,"1.85",0.18,0,0,6,"Jamaica","Jamaica",0,40,388,5,"39",1,2813,"DEN 4",0,52,"Preliminar",2015
+0,"125.65",13.34,2.064626823,0.014,2,"Mexico","México",22,40,484,16701,"40",1,125236,"DEN 1,2,3,4",3249,157365,"Preliminar",2015
+0,"0.00",0,NA,NA,6,"Montserrat","Montserrat",0,40,500,0,"32",1,5,"  ",0,0,"Preliminar",2015
+0,"",NA,NA,NA,6,"Aruba","Aruba",NA,40,533,NA,"-",1,112,"  ",NA,NA,"Preliminar",2015
+0,"486.67",26.58,0.022987751,0.023,2,"Nicaragua","Nicaragua",7,40,558,1663,"40",1,6257,"DEN 2,3",7,30451,"Preliminar",2015
+0,"45.76",27.68,0.164383562,0.055,2,"Panama","Panamá",1,40,591,1104,"40",1,3988,"DEN 1,2,3",3,1825,"Preliminar",2015
+0,"39.92",0.87,0,0,5,"Puerto Rico","Puerto Rico",0,40,630,32,"40",1,3680,"DEN 1,2,3,4",0,1469,"Preliminar",2015
+0,"88.89",88.89,0,0,6,"Saint Barthelemy","San Bartolomé",0,40,652,8,"37",1,9,"DEN",0,8,"Preliminar",2015
+0,"9.62",1.92,0,0,6,"Saint Kitts and Nevis","Saint Kitts y Nevis",0,40,659,1,"24",1,52,"DEN",0,5,"Preliminar",2015
+0,"50.00",12.5,0,0,6,"Anguilla","Anguila",0,40,660,2,"28",1,16,"DEN",0,8,"Preliminar",2015
+0,"7.93",5.49,0,0,6,"Saint Lucia","Santa Lucía",0,40,662,9,"32",1,164,"DEN 1",0,13,"Preliminar",2015
+0,"0.97",0.97,0,0,6,"Saint Vincent and the Grenadines","San Vicente y las Granadinas",0,40,670,1,"28",1,103,"DEN",0,1,"Preliminar",2015
+0,"0.36",0.36,0,0,6,"Suriname","Suriname",0,40,740,2,"21",1,548,"DEN",0,2,"Preliminar",2015
+0,"2.08",0.07,0,0,6,"Trinidad and Tobago","Trinidad y Tobago",0,40,780,1,"4",1,1347,"DEN 1",0,28,"Preliminar",2015
+0,"192.00",192,0,0,6,"Turks and Caicos Islands","Islas Turcas y Caicos",0,40,796,96,"24",1,50,"DEN",0,96,"Preliminar",2015
+0,"0.12",0.12,0,0,1,"United States of America","Estados Unidos de América",0,40,840,397,"40",1,325128,"DEN",0,397,"Preliminar",2015
+0,"2.88",2.88,0,0,6,"Virgin Islands (US)","Islas Vírgenes (EUA)",0,40,850,3,"40",1,104,"DEN",0,3,"final",2015
+0,"246.34",148.78,0,0,6,"Saint Martin","Isla de San Martín (Francia)",0,40,663,61,"37",1,41,"DEN",0,101,"Preliminar",2015
+0,"0.00",0,NA,NA,6,"Bermuda","Bermuda",0,40,60,0,"32",1,70,"  ",0,0,"Preliminar",2015
+0,"359.92",118.7,0,0,6,"French Guiana","Guayana Francesa",0,40,254,311,"37",1,262,"DEN 1,2,4",0,943,"Preliminar",2015
+0,"7.45",2.98,0,0,6,"Guadeloupe","Guadalupe",0,40,312,14,"37",1,470,"DEN",0,35,"Preliminar",2015
+0,"7.39",1.97,0,0,6,"Martinique","Martinica",0,40,474,8,"37",1,406,"DEN",0,30,"Preliminar",2015
+0,"7.48",0.61,0,0,4,"Argentina","Argentina",0,40,32,258,"40",1,42155,"DEN 1,4",0,3153,"Preliminar",2015
+0,"209.88",NA,0.324128095,NA,3,"Bolivia","Bolivia",NA,40,68,NA,"40",1,11025,"DEN",75,23139,"Final",2015
+0,"729.36",228.4,0.093914287,0.051,4,"Brazil","Brasil",761,40,76,465153,"40",1,203657,"DEN 1,2,3,4",1395,1485397,"Preliminar",2015
+0,"0.04",0.04,0,0,4,"Chile","Chile",0,40,152,7,"9",1,17924,"DEN",0,7,"Preliminar",2015
+0,"142.61",0,1.322365534,0.071,3,"Colombia","Colombia",50,40,170,0,"40",1,49529,"DEN 1,2,3,4",934,70631,"Preliminar",2015
+0,"255.24",7.85,0.123140815,0.014,3,"Ecuador","Ecuador",6,40,218,1274,"40",1,16226,"DEN 1,2,3,4",51,41416,"Preliminar",2015
+0,"501.45",65.45,0.017013072,0.009,4,"Paraguay","Paraguay",3,40,600,4603,"39",1,7033,"DEN 1,2,4",6,35267,"Preliminar",2015
+0,"119.17",58.08,0.325829384,0.11,3,"Peru","Perú",41,40,604,18098,"40",1,31161,"DEN 2,3",121,37136,"Preliminar",2015
+0,"0.00",0,NA,NA,4,"Uruguay","Uruguay",0,40,858,0,"40",1,3430,"  ",0,0,"Preliminar",2015
+0,"52.75",0,0.521022658,0,3,"Venezuela","Venezuela",0,40,862,0,"30",1,31293,"DEN",86,16506,"Preliminar",2015
+0,"",NA,NA,NA,5,"Cuba","Cuba",NA,40,192,NA,"-",1,11249,"  ",NA,NA,"Preliminar",2015
+0,"69.13",0.22,0.979105683,0.979,5,"Latin Caribbean","Caribe Latino",97,40,NA,32,"-",1,14332,"  ",97,9907,"Preliminar",2015
+0,"555.74",171.42,0.091939752,0.05,4,"Southern Cone","Cono Sur",764,40,NA,470021,"-",1,274199,"  ",1401,1523824,"Preliminar",2015
+0,"165.75",16.49,1.542866567,0.013,2,"Central America Ithsmus and Mexico","Istmo Centroamericano y México",37,40,NA,28351,"-",1,171936,"  ",4397,284989,"Preliminar",2015
+0,"9.64",4.26,0.054824561,0,6,"Non-Latin Caribbean","Caribe No Latino",0,40,NA,805,"-",1,18917,"  ",1,1824,"Preliminar",2015
+0,"135.62",13.91,0.670980999,0.051,3,"Andean Subregion","Subregión Andina",97,40,NA,19372,"-",1,139234,"  ",1267,188828,"Preliminar",2015
+0,"0.12",0.12,0,0,1,"North America","América del Norte",0,40,NA,397,"-",1,325128,"  ",0,397,"Preliminar",2015
+0,"212.96",54.99,0.35640912,0.05,7,"The Americas","Las Américas",995,40,NA,518978,"-",1,943746,"  ",7163,2009769,"Preliminar",2015

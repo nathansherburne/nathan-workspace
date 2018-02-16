@@ -1,0 +1,51 @@
+"Country.or.Subregion","Week","Probable","Lab.Confirm","Serotype","Severe.Dengue","Deaths","Population.x.1000"
+"Canada","38",0,0,NA,0,0,0
+"United States of America","38",153,153,"DEN",0,0,325128
+"Belize","38",2626,18,"DEN",2,0,348
+"Costa Rica","34",4254,0,"DEN 1,2",0,0,5002
+"El Salvador","38",3112,154,"DEN 2",2,0,6246
+"Guatemala","37",2803,658,"DEN 1,2,3,4",30,9,16255
+"Honduras","38",4448,0,"DEN 1,2,3",82,0,8721
+"Mexico","38",44897,6928,"DEN 1,2,3",227,17,125236
+"Nicaragua","37",50508,1888,"DEN 2",0,2,6257
+"Panama","37",5540,2539,"DEN 1,2",12,0,3988
+"Bolivia","38",8003,850,"DEN",71,2,11025
+"Colombia","38",21183,5446,"DEN 1,2,3,4",222,41,49529
+"Ecuador","38",10765,10765,"DEN",15,4,16226
+"Peru","37",72702,24442,"DEN 2,3",232,82,31161
+"Venezuela","31",4929,860,"DEN",19,0,31028
+"Argentina","38",304,253,"DEN 1,3",0,0,42155
+"Brazil","35",219040,0,"DEN 1,2,3,4",184,88,203657
+"Chile","26",5,5,"DEN 2",0,0,17924
+"Paraguay","37",1382,313,"DEN 1",0,0,7033
+"Uruguay","38",0,0,NA,0,0,3430
+"Cuba","25",270,270,"DEN 2,3",0,0,11249
+"Dominican Republic","38",931,18,"DEN",59,1,10652
+"Puerto Rico","38",9,9,"DEN 2",0,0,3680
+"American Virgin Islands","38",1,1,"DEN",0,0,104
+"Anguilla","28",18,2,"DEN",0,0,16
+"Antigua & Barbuda","28",1,0,"DEN",0,0,92
+"Aruba","26",688,9,"DEN",0,0,112
+"Bahamas","28",4,0,"DEN",0,0,388
+"Barbados","28",192,29,"DEN",0,0,291
+"Bermuda","28",0,0,NA,0,0,70
+"Bonaire, Saba and St. Eustatius","0",0,0,NA,0,0,0
+"British Virgin Islands","32",42,42,"DEN",0,0,33
+"Cayman Islands","28",23,0,"DEN",0,0,56
+"Curacao","0",0,0,NA,0,0,0
+"Dominica","28",31,0,"DEN",0,0,74
+"French Guiana","26",455,0,"DEN",0,0,239
+"Grenada","28",80,80,"DEN",0,0,111
+"Guadaloupe","30",455,0,"DEN",0,0,411
+"Haiti","0",0,0,NA,0,0,0
+"Jamaica","35",73,14,"DEN 3",0,0,2813
+"Martinique","30",72,1,"DEN 2",0,0,398
+"Montserrat","28",0,0,NA,0,0,5
+"St. Bartolome","30",35,0,"DEN",0,0,9
+"St. Kitts & Nevis","28",7,0,"DEN",0,0,52
+"St. Lucia","24",14,14,"DEN",0,0,164
+"St. Martin","30",157,0,"DEN",0,0,41
+"St. Vincent & the Grenadines","28",3,0,"DEN",0,0,103
+"Suriname","0",0,0,NA,0,0,0
+"Trinidad & Tobago","32",206,0,"DEN",0,0,1347
+"Turks & Caicos Islands","24",157,157,"DEN",0,0,50
