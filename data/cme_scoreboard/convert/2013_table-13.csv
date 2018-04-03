@@ -1,5 +1,0 @@
-"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By"
-"2013-08-05T06:00Z(-7.0h, +7.0h)","----","----","2013-08-02T07:41Z","70.32","----","WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail"
-"2013-08-05T04:00Z","----","----","2013-08-03T05:25Z","46.58","Max Kp Range: -- - 4.0","WSA-ENLIL + Cone (NOAA/SWPC) ","Leila Mays (GSFC)"," Detail"
-"2013-08-15T21:00Z","----","----","2013-08-12T18:52Z","74.13","Dst min. in nT: -61 Dst min. time: 2013-08-16T08:00Z ","Anemomilos ","WKent Tobiska (SET SWD)"," Detail"
-"2013-08-08T18:20Z","----","----","---","---","Max Kp Range: -- - 4.0"," Average of all Methods ","Auto Generated (CCMC)"," Detail"

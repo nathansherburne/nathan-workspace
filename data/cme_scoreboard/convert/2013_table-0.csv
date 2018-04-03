@@ -1,5 +1,0 @@
-"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By"
-"2013-12-15T03:38Z(-7.0h, +7.0h)","13.63","----","2013-12-12T17:09Z","44.85","Max Kp Range: 3.0 - 4.0","WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail"
-"2013-12-15T00:00Z","10.00","----","2013-12-13T00:30Z","37.50","Max Kp Range: -- - 4.0","WSA-ENLIL + Cone (NOAA/SWPC) ","Leila Mays (GSFC)"," Detail"
-"2013-12-14T18:11Z(-16.1h, +13.9h)","4.18","----","2013-12-13T15:15Z","22.75","Max Kp Range: 2.0 - 6.0","Ensemble WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail"
-"2013-12-14T23:16Z","9.27","----","---","---","Max Kp Range: 2.5 - 4.66667"," Average of all Methods ","Auto Generated (CCMC)"," Detail"

@@ -1,10 +1,21 @@
 CME Scoreboard
 ====================
 
+How to update:
+rm download/*
+rm covnert/*
+rm format/*
+rm merge/master.csv
+
 To download:
-download_data.py -d CME -o data/cme_scoreboard/download/
+python download_data.py -d CME -o data/cme_scoreboard/download/
 
 To convert from html:
-HTML2CSV.py data/cme_scoreboard/download/* -o data/cme_scoreboard/convert/
+python HTML2CSV.py data/cme_scoreboard/download/* -o data/cme_scoreboard/convert/ -n
 
+To format the CSVs:
+cd cme_scoreboards/
+./format.sh
 
+To merge:
+./merge.R

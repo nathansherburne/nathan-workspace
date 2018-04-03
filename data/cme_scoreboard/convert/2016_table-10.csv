@@ -1,6 +1,0 @@
-"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By"
-"2016-05-06T10:00Z(-7.0h, +7.0h)","-5.80","----","2016-05-02T16:01Z","95.78","----","WSA-ENLIL + Cone (GSFC SWRC) ","Yaireska Collado (GSFC)"," Detail"
-"2016-05-06T12:00Z","-3.80","10.0","2016-05-03T02:52Z","84.93","Max Kp Range: -- - 5.0","WSA-ENLIL + Cone (Met Office) ","Met Office (Met Office)"," Detail"
-"2016-05-05T05:07Z","-34.68","0.0","2016-05-04T22:55Z","40.88","----","SPM2 ","Xinhua Zhao (NSSC CAS)"," Detail"
-"2016-05-06T17:54Z","2.10","----","2016-05-04T22:58Z","40.83","----","SPM ","Xinhua Zhao (NSSC CAS)"," Detail"
-"2016-05-06T05:15Z","-10.55","5.0","---","---","Max Kp Range: -- - 5.0"," Average of all Methods ","Auto Generated (CCMC)"," Detail"

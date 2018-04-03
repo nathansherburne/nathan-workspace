@@ -1,8 +1,0 @@
-"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By"
-"2013-05-19T12:00Z","-10.33","----","2013-05-17T13:07Z","57.22","----","Other (SIDC) ","Leila Mays (GSFC)"," Detail"
-"2013-05-19T11:59Z(-7.0h, +7.0h)","-10.35","----","2013-05-17T17:03Z","53.28","Max Kp Range: 5.0 - 6.0","WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail"
-"2013-05-19T15:37Z(-7.0h, +7.0h)","-6.72","----","2013-05-17T23:45Z","46.58","Max Kp Range: 5.0 - 6.0","WSA-ENLIL + Cone (GSFC SWRC) ","Leila Mays (GSFC)"," Detail"
-"2013-05-19T20:00Z","-2.33","----","2013-05-17T23:52Z","46.47","Dst min. in nT: -33 Dst min. time: 2013-05-20T07:00Z ","Anemomilos ","Leila Mays (GSFC)"," Detail"
-"2013-05-19T14:00Z","-8.33","----","2013-05-18T00:30Z","45.83","Max Kp Range: 5.0 - 6.0","WSA-ENLIL + Cone (NOAA/SWPC) ","Leila Mays (GSFC)"," Detail"
-"2013-05-18T20:55Z(-10.0h, +10.0h)","-25.42","----","2013-05-18T07:51Z","38.48","----"," STOA ","Leila Mays (GSFC)"," Detail"
-"2013-05-19T11:45Z","-10.58","----","---","---","Max Kp Range: 5.0 - 6.0"," Average of all Methods ","Auto Generated (CCMC)"," Detail"

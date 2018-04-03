@@ -1,5 +1,8 @@
-INPUT_DIR = "nathan/data/cme_scoreboard/format/"
-OUTPUT_DIR = "nathan/data/cme_scoreboard/merge/"
+#!/usr/bin/env Rscript
+library(plyr)
+
+INPUT_DIR = "format/"
+OUTPUT_DIR = "merge/"
 
 CSV.filenames = list.files(INPUT_DIR)
 all.dfs = lapply(CSV.filenames, function(filename) read.csv(paste0(INPUT_DIR, filename), stringsAsFactors=FALSE))

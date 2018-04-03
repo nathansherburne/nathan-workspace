@@ -1,7 +1,0 @@
-"Predicted Shock Arrival Time","Difference (hrs)","Confidence (%)","Submitted On","Lead Time (hrs)","Predicted Geomagnetic Storm Parameter(s)","Method","Submitted By"
-"2017-05-26T18:00Z(-7.0h, +7.0h)","-20.78","----","2017-05-23T21:18Z","89.48","Max Kp Range: 2.0 - 4.0","WSA-ENLIL + Cone (GSFC SWRC) ","Yaireska Collado (GSFC)"," Detail"
-"2017-05-26T15:00Z","-23.78","----","2017-05-24T08:20Z","78.45","Max Kp Range: 3.0 - 6.0","WSA-ENLIL + Cone (Met Office) ","Met Office (Met Office)"," Detail"
-"2017-05-26T12:00Z(-12.0h, +12.0h)","-26.78","20.0","2017-05-24T13:24Z","73.38","Max Kp Range: 3.0 - 5.0","Other (SIDC) ","Yaireska Collado (GSFC)"," Detail"
-"2017-05-27T21:07Z(-4.0h, +4.0h)","6.33","----","2017-05-25T09:23Z","53.40","----"," EAM (Effective Acceleration Model) ","Evangelos Paouris (UoA)"," Detail"
-"2017-05-27T15:00Z(-12.0h, +12.0h)","0.22","20.0","2017-05-25T13:42Z","49.08","Max Kp Range: 3.0 - 5.0","Other (SIDC) ","Leila Mays (GSFC)"," Detail"
-"2017-05-27T01:49Z","-12.97","20.0","---","---","Max Kp Range: 2.75 - 5.0"," Average of all Methods ","Auto Generated (CCMC)"," Detail"
