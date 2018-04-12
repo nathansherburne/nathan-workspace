@@ -2,10 +2,6 @@ CME Scoreboard
 ====================
 
 How to update:
-rm download/*
-rm covnert/*
-rm format/*
-rm merge/master.csv
 
 To download:
 python download_data.py -d CME -o data/cme_scoreboard/download/
