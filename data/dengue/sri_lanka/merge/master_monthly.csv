@@ -1,244 +1,2701 @@
-"year","RDHS","January","February","March","April","May","June","July","August","September","October","November","December","Total.Cases"
-"2010","Colombo ",584,606,294,224,296,700,1530,881,312,267,97,146,5937
-"2010","Gampaha ",608,623,306,205,295,381,686,417,174,101,77,87,3960
-"2010","Kalutara ",121,124,119,114,185,294,420,215,122,56,23,19,1812
-"2010","Kandy ",211,174,116,89,114,176,341,230,91,64,22,16,1644
-"2010","Matale ",138,113,35,46,35,35,97,43,23,21,19,45,650
-"2010","N Eliya ",28,11,15,6,14,13,45,44,21,21,6,3,227
-"2010","Galle ",36,79,86,115,83,145,228,169,105,49,11,7,1113
-"2010","Hambantota ",49,128,85,45,29,82,161,122,67,24,7,10,809
-"2010","Matara ",36,44,41,29,28,67,148,110,62,25,15,9,614
-"2010","Jaffna ",858,878,170,145,82,237,236,96,40,78,79,121,3020
-"2010","Kilinochchi ",0,0,0,1,0,4,5,18,12,2,5,6,53
-"2010","Mannar ",26,23,14,16,9,55,94,222,62,28,14,5,568
-"2010","Vavuniya ",336,91,40,14,6,21,27,22,12,3,3,4,579
-"2010","Mulativu ",0,0,0,0,1,0,2,8,7,3,1,1,23
-"2010","Batticaloa ",305,314,202,184,48,59,59,25,4,8,13,29,1250
-"2010","Ampara ",12,13,25,19,9,6,30,21,19,5,1,8,168
-"2010","Trincomalee ",233,283,145,60,22,38,89,46,21,17,11,22,987
-"2010","Kurunegala ",197,142,99,54,100,151,300,214,78,47,21,26,1429
-"2010","Puttalam ",208,189,86,50,51,106,137,82,49,31,25,45,1059
-"2010","Apura ",267,296,131,48,21,38,83,67,60,33,26,40,1110
-"2010","Polonnaruwa ",33,42,34,50,60,61,51,30,21,8,5,7,402
-"2010","Badulla ",71,68,49,47,69,118,372,319,120,43,26,40,1342
-"2010","Moneragala ",50,39,55,67,53,93,314,219,65,50,42,24,1071
-"2010","Ratnapura ",93,141,234,270,274,432,492,438,246,118,53,46,2837
-"2010","Kegalle ",90,136,76,49,53,117,161,104,64,25,22,21,918
-"2010","Kalmunai ",215,174,71,57,13,8,5,9,6,10,23,15,606
-"2010","TOTAL ",4805,4731,2528,2004,1950,3437,6113,4171,1863,1137,647,802,34188
-"2011","Colombo ",309,392,340,528,698,1610,2085,824,863,599,536,1339,10123
-"2011","Gampaha ",134,119,141,183,218,537,911,428,367,321,347,668,4374
-"2011","Kalutara ",48,52,57,133,148,185,188,107,93,100,111,194,1416
-"2011","Kandy ",26,28,32,62,53,81,218,99,251,255,182,348,1635
-"2011","Matale ",10,18,16,20,37,53,66,25,26,17,21,56,365
-"2011","N Eliya ",3,8,9,19,17,20,50,10,31,43,17,25,252
-"2011","Galle ",7,19,30,57,98,112,168,100,96,50,49,93,879
-"2011","Hambantota ",16,8,27,70,87,48,51,18,19,13,20,39,416
-"2011","Matara ",14,18,35,55,57,51,83,27,63,72,141,179,795
-"2011","Jaffna ",58,34,24,20,10,16,35,33,46,19,34,71,400
-"2011","Kilinochchi ",2,4,10,13,4,3,3,5,8,3,4,7,66
-"2011","Mannar ",8,5,4,2,2,2,2,1,0,17,8,49,100
-"2011","Vavuniya ",13,3,15,5,7,11,8,2,3,3,4,7,81
-"2011","Mulativu ",2,3,0,1,1,7,1,0,0,1,2,1,19
-"2011","Batticaloa ",31,41,104,185,141,112,53,21,35,123,289,558,1693
-"2011","Ampara ",12,6,2,20,10,29,20,11,24,13,16,33,196
-"2011","Trincomalee ",7,17,25,25,12,19,21,6,10,3,8,24,177
-"2011","Kurunegala ",31,49,60,59,91,116,178,84,84,71,82,135,1040
-"2011","Puttalam ",72,64,49,28,21,52,62,23,31,27,40,102,571
-"2011","Apura ",21,18,14,21,31,39,43,21,22,24,12,33,299
-"2011","Polonnaruwa ",5,38,20,28,38,44,36,23,18,16,6,32,304
-"2011","Badulla ",22,21,15,36,31,65,201,54,46,39,49,53,632
-"2011","Moneragala ",17,24,15,33,16,18,32,17,34,30,40,36,312
-"2011","Ratnapura ",47,38,40,113,89,118,153,86,117,87,91,181,1160
-"2011","Kegalle ",15,24,28,51,48,120,141,81,156,176,88,152,1080
-"2011","Kalmunai ",3,1,6,4,2,3,8,0,2,5,6,48,88
-"2011","TOTAL ",933,1052,1118,1771,1967,3471,4817,2106,2445,2127,2203,4463,28473
-"2012","Colombo ",1066,744,630,412,583,1251,1314,1231,525,726,853,682,10017
-"2012","Gampaha ",847,640,447,367,397,1180,969,884,479,570,737,489,8006
-"2012","Kalutara ",180,260,209,205,182,364,348,339,156,192,213,143,2791
-"2012","Kandy ",270,194,114,122,194,298,287,355,135,177,185,186,2517
-"2012","Matale ",45,47,59,35,32,81,29,62,46,44,47,69,596
-"2012","N Eliya ",24,35,41,25,18,58,30,30,21,17,30,13,342
-"2012","Galle ",105,105,161,90,99,221,217,241,78,60,78,58,1513
-"2012","Hambantota ",58,66,45,37,31,59,51,78,33,53,60,33,604
-"2012","Matara ",186,147,155,94,84,147,186,241,141,196,158,100,1835
-"2012","Jaffna ",91,40,43,24,27,34,26,36,41,143,205,184,894
-"2012","Kilinochchi ",8,2,5,3,19,16,8,11,6,2,5,8,93
-"2012","Mannar ",38,16,10,9,6,15,19,11,2,6,21,33,186
-"2012","Vavuniya ",13,5,5,2,5,2,3,16,20,13,9,11,104
-"2012","Mulativu ",2,1,1,1,3,4,5,3,2,0,6,14,42
-"2012","Batticaloa ",263,116,91,32,35,32,11,21,7,26,36,47,717
-"2012","Ampara ",18,6,4,9,21,15,29,13,9,11,14,6,155
-"2012","Trincomalee ",23,23,26,6,8,16,8,13,7,5,15,18,168
-"2012","Kurunegala ",159,148,114,100,140,342,406,401,320,311,497,599,3537
-"2012","Puttalam ",131,101,69,55,98,178,98,142,253,159,251,265,1800
-"2012","Apura ",38,37,36,26,29,56,31,34,26,27,34,119,493
-"2012","Polonnaruwa ",25,27,21,11,17,37,22,38,12,21,15,43,289
-"2012","Badulla ",40,22,13,11,20,57,48,40,35,41,49,54,430
-"2012","Moneragala ",16,23,23,15,22,38,33,36,16,17,29,19,287
-"2012","Ratnapura ",126,153,160,183,257,874,621,648,310,194,262,150,3938
-"2012","Kegalle ",173,144,121,146,213,557,385,331,174,148,156,157,2705
-"2012","Kalmunai ",41,43,25,8,10,23,9,11,3,22,69,138,402
-"2012","TOTAL ",3986,3145,2628,2028,2550,5955,5193,5266,2857,3181,4034,3638,44461
-"2013","Colombo ",757,845,791,610,748,830,1168,1298,685,619,1173,1259,10783
-"2013","Gampaha ",463,321,289,212,319,273,385,394,245,237,383,308,3829
-"2013","Kalutara ",159,153,168,115,164,140,178,210,148,108,166,219,1928
-"2013","Kandy ",193,215,134,83,156,186,191,240,110,59,96,100,1763
-"2013","Matale ",48,47,49,32,30,37,52,66,32,24,39,39,495
-"2013","N Eliya ",17,32,30,15,16,21,27,40,13,16,18,27,272
-"2013","Galle ",57,60,92,57,108,100,84,93,79,34,68,108,940
-"2013","Hambantota ",32,35,40,30,22,21,28,43,23,24,22,25,345
-"2013","Matara ",48,75,65,28,36,31,54,34,27,19,32,37,486
-"2013","Jaffna ",100,77,84,115,70,30,23,43,35,48,52,125,802
-"2013","Kilinochchi ",7,4,7,5,4,7,0,16,7,3,3,6,69
-"2013","Mannar ",23,10,7,4,10,2,1,2,4,5,1,1,70
-"2013","Vavuniya ",11,8,12,3,8,6,7,4,4,5,10,15,93
-"2013","Mulativu ",12,7,17,18,20,12,6,8,9,6,10,2,127
-"2013","Batticaloa ",52,74,93,67,79,48,32,26,19,22,14,30,556
-"2013","Ampara ",14,17,20,7,11,15,26,26,25,18,28,35,242
-"2013","Trincomalee ",25,45,31,23,20,5,15,13,5,4,7,14,207
-"2013","Kurunegala ",720,485,303,134,194,195,154,163,105,104,98,117,2772
-"2013","Puttalam ",175,170,98,67,53,56,46,83,39,31,51,55,924
-"2013","Apura ",80,74,90,36,47,28,23,33,38,28,30,63,570
-"2013","Polonnaruwa ",34,40,47,41,28,19,43,76,47,41,45,46,507
-"2013","Badulla ",42,49,45,32,46,46,77,58,38,26,50,33,542
-"2013","Moneragala ",34,19,27,23,17,18,28,26,19,24,20,16,271
-"2013","Ratnapura ",131,148,220,217,253,185,169,146,90,44,70,56,1729
-"2013","Kegalle ",134,106,99,91,113,104,98,137,62,83,117,93,1237
-"2013","Kalmunai ",94,142,138,44,42,12,9,4,4,4,8,3,504
-"2013","TOTAL ",3462,3258,2996,2109,2614,2427,2924,3282,1912,1636,2611,2832,32063
-"2014","Colombo ",1346,684,488,539,1744,2289,1859,1104,706,1089,1448,1415,14711
-"2014","Gampaha ",632,279,191,280,921,1111,932,772,569,1015,1111,998,8811
-"2014","Kalutara ",267,175,111,117,241,429,389,239,138,158,182,185,2631
-"2014","Kandy ",93,49,36,47,116,270,223,247,176,289,413,377,2336
-"2014","Matale ",40,35,18,14,14,81,75,55,27,81,101,108,649
-"2014","N Eliya ",27,14,6,11,25,60,39,34,18,29,16,35,314
-"2014","Galle ",136,49,61,35,75,139,197,107,71,125,109,120,1224
-"2014","Hambantota ",48,34,17,26,42,121,169,36,29,51,39,53,665
-"2014","Matara ",50,31,11,13,22,63,112,82,93,130,71,70,748
-"2014","Jaffna ",148,92,58,59,73,89,148,123,95,212,318,424,1839
-"2014","Kilinochchi ",10,10,4,6,0,1,8,3,4,10,15,19,90
-"2014","Mannar ",2,1,0,1,2,20,13,10,40,68,119,83,359
-"2014","Vavuniya ",6,12,14,9,6,33,16,5,4,7,14,16,142
-"2014","Mulativu ",23,9,17,4,6,10,6,6,5,5,17,26,134
-"2014","Batticaloa ",43,66,147,92,117,97,60,22,15,40,95,176,970
-"2014","Ampara ",22,16,7,13,9,21,17,19,3,10,15,6,158
-"2014","Trincomalee ",52,38,77,115,100,55,34,18,16,22,55,79,661
-"2014","Kurunegala ",163,106,94,61,61,303,318,296,195,287,316,264,2464
-"2014","Puttalam ",93,42,42,27,34,83,101,65,39,84,147,159,916
-"2014","Apura ",68,44,27,39,27,61,89,39,25,51,54,108,632
-"2014","Polonnaruwa ",75,45,38,33,24,62,79,33,27,42,53,47,558
-"2014","Badulla ",56,43,36,12,56,90,79,84,76,129,221,231,1113
-"2014","Moneragala ",23,24,21,9,10,34,48,32,20,27,44,21,313
-"2014","Ratnapura ",91,43,58,52,370,866,457,343,148,171,124,100,2823
-"2014","Kegalle ",84,58,54,60,179,320,242,231,89,132,151,124,1724
-"2014","Kalmunai ",12,12,15,8,18,28,11,17,12,33,204,147,517
-"2014","TOTAL ",3610,2011,1648,1682,4292,6736,5721,4022,2640,4297,5452,5391,47502
-"2015","Colombo ",1802,1101,537,317,515,515,907,711,401,769,985,1321,9881
-"2015","Gampaha ",817,492,255,193,264,225,317,233,186,277,387,496,4142
-"2015","Kalutara ",276,180,106,72,86,78,125,92,57,118,167,202,1559
-"2015","Kandy ",253,156,95,63,71,70,64,47,62,154,120,170,1325
-"2015","Matale ",166,92,26,16,10,16,8,7,8,12,18,22,401
-"2015","N Eliya ",38,26,13,5,8,8,15,5,6,15,14,27,180
-"2015","Galle ",150,118,70,35,26,20,46,80,75,131,151,128,1030
-"2015","Hambantota ",46,51,28,18,12,11,26,27,17,61,56,45,398
-"2015","Matara ",81,46,41,28,25,12,21,24,24,72,43,42,459
-"2015","Jaffna ",614,218,113,48,66,63,69,45,51,76,216,437,2016
-"2015","Kilinochchi ",18,11,3,0,2,4,9,7,7,14,11,6,92
-"2015","Mannar ",50,16,2,1,4,2,1,1,2,2,4,20,105
-"2015","Vavuniya ",32,15,8,4,15,9,5,4,11,19,16,59,197
-"2015","Mulativu ",36,17,8,10,12,14,13,7,2,2,6,15,142
-"2015","Batticaloa ",335,347,210,124,139,82,65,18,8,31,40,75,1474
-"2015","Ampara ",10,5,6,0,5,9,4,6,5,3,3,11,67
-"2015","Trincomalee ",131,96,59,81,65,39,30,9,8,6,15,48,587
-"2015","Kurunegala ",329,178,108,73,62,61,82,70,27,56,107,100,1253
-"2015","Puttalam ",256,85,34,20,32,42,65,14,12,23,77,79,739
-"2015","Apura ",122,78,27,18,12,15,18,13,14,12,29,43,401
-"2015","Polonnaruwa ",47,48,13,9,12,9,18,12,8,21,25,28,250
-"2015","Badulla ",195,60,30,31,22,30,33,19,10,35,54,47,566
-"2015","Moneragala ",46,29,15,7,7,18,16,14,2,16,23,30,223
-"2015","Ratnapura ",163,122,90,59,70,68,105,74,46,64,93,87,1041
-"2015","Kegalle ",104,57,36,40,54,38,50,49,36,70,80,97,711
-"2015","Kalmunai ",228,87,29,21,29,19,13,16,14,7,22,53,538
-"2015","TOTAL ",6345,3731,1962,1293,1625,1477,2125,1604,1099,2066,2762,3688,29777
-"2016","Colombo ",2184,1569,1016,942,693,1459,3191,1478,939,459,460,2377,16767
-"2016","Gampaha ",862,615,260,276,221,555,1625,687,526,219,220,1107,7173
-"2016","Kalutara ",321,294,197,312,249,343,683,293,195,106,121,388,3502
-"2016","Kandy ",335,207,93,109,154,504,1226,510,347,165,112,301,4063
-"2016","Matale ",51,42,33,21,29,89,348,133,135,78,66,123,1148
-"2016","N Eliya ",44,22,20,31,18,38,111,51,25,18,12,31,421
-"2016","Galle ",276,135,110,120,118,121,467,253,288,236,281,681,3086
-"2016","Hambantota ",97,79,47,43,42,82,176,47,57,30,47,153,900
-"2016","Matara ",139,92,43,56,35,119,282,144,115,82,86,191,1384
-"2016","Jaffna ",687,238,150,93,58,80,226,148,121,91,135,441,2468
-"2016","Kilinochchi ",15,16,5,7,4,4,8,8,3,5,1,10,86
-"2016","Mannar ",42,17,3,7,16,10,10,2,12,18,17,78,232
-"2016","Vavuniya ",69,22,19,26,13,7,30,12,20,12,5,33,268
-"2016","Mulativu ",29,18,19,22,9,18,22,12,7,7,7,12,182
-"2016","Batticaloa ",124,65,34,31,20,43,69,38,31,13,18,126,612
-"2016","Ampara ",38,19,18,18,7,22,61,17,20,7,4,29,260
-"2016","Trincomalee ",102,59,42,32,28,25,35,17,14,9,8,132,503
-"2016","Kurunegala ",241,170,105,98,194,361,598,227,125,67,110,260,2556
-"2016","Puttalam ",206,160,63,74,53,87,144,89,47,17,26,80,1046
-"2016","Apura ",98,65,33,50,29,40,137,91,70,28,30,60,731
-"2016","Polonnaruwa ",60,48,24,33,20,31,110,38,27,22,23,43,479
-"2016","Badulla ",85,40,55,43,32,107,169,72,127,200,105,150,1185
-"2016","Moneragala ",58,32,23,31,18,24,70,59,46,18,29,67,475
-"2016","Ratnapura ",211,135,169,237,241,395,681,275,196,139,143,308,3130
-"2016","Kegalle ",198,153,66,90,100,149,210,153,104,82,60,148,1513
-"2016","Kalmunai ",122,127,49,30,21,18,26,19,32,57,131,348,980
-"2016","TOTAL ",6694,4439,2696,2832,2422,4731,10715,4873,3629,2185,2257,7677,55150
-"2017","Colombo ",2734,1900,2467,2570,3333,5372,7471,3620,1251,823,1131,595,33267
-"2017","Gampaha ",1635,1087,1870,2072,3168,4901,9039,3553,1246,779,1069,431,30850
-"2017","Kalutara ",581,448,836,739,946,1248,2612,1477,663,337,441,81,10409
-"2017","Kandy ",252,207,369,443,862,2314,3855,2354,1090,821,884,387,13838
-"2017","Matale ",129,103,145,120,165,436,766,534,167,177,178,71,2991
-"2017","Nuwara Eliya ",50,32,42,37,57,94,294,159,39,27,22,19,872
-"2017","Galle ",872,567,424,265,394,623,1072,877,364,160,254,86,5958
-"2017","Hambantota ",301,225,339,333,272,384,529,359,237,174,244,68,3465
-"2017","Matara ",431,382,337,354,488,581,1789,1029,403,174,166,38,6172
-"2017","Jaffna ",625,478,863,499,301,288,376,290,341,593,509,289,5452
-"2017","Kilinochchi ",55,84,35,46,21,21,90,59,30,17,28,9,495
-"2017","Mannar ",147,91,65,90,60,23,23,5,3,6,8,5,526
-"2017","Vavuniya ",58,76,143,83,65,81,137,92,52,48,97,49,981
-"2017","Mulativu ",37,32,21,16,27,37,71,50,23,12,16,6,348
-"2017","Batticaloa ",217,465,828,1182,869,465,273,197,143,140,268,184,5231
-"2017","Ampara ",51,51,59,72,75,105,225,100,62,41,31,9,881
-"2017","Trincomalee ",387,661,2114,936,158,136,154,99,68,64,84,23,4884
-"2017","Kurunegala ",403,381,505,629,1281,2030,2300,1487,576,368,733,239,10932
-"2017","Puttalam ",196,132,212,318,612,783,1304,1192,419,501,1037,473,7179
-"2017","Anuradhapura ",166,147,255,193,249,378,709,299,96,77,126,49,2744
-"2017","Polonnaruwa ",54,64,98,172,160,190,320,104,54,51,59,14,1340
-"2017","Badulla ",226,130,139,167,186,400,1220,490,273,148,163,50,3592
-"2017","Moneragala ",97,97,112,126,164,449,569,348,300,357,334,108,3061
-"2017","Ratnapura ",439,360,507,519,1161,1908,3175,1661,740,251,189,56,10966
-"2017","Kegalle ",210,230,377,332,700,1945,2551,1684,746,264,229,32,9300
-"2017","Kalmunai ",574,294,378,197,162,127,197,151,128,159,190,143,2700
-"2017","TOTAL ",10927,8724,13540,12510,15936,25319,41121,22270,9514,6569,8490,3514,178434
-"2018","Colombo ",1159,615,84,NA,NA,NA,NA,NA,NA,NA,NA,NA,1858
-"2018","Gampaha ",711,398,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,1142
-"2018","Kalutara ",431,266,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,714
-"2018","Kandy ",481,271,29,NA,NA,NA,NA,NA,NA,NA,NA,NA,781
-"2018","Matale ",139,69,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,212
-"2018","Nuwara Eliya ",23,16,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,42
-"2018","Galle ",67,30,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,98
-"2018","Hambantota ",126,120,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,270
-"2018","Matara ",136,119,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,264
-"2018","Jaffna ",637,310,23,NA,NA,NA,NA,NA,NA,NA,NA,NA,970
-"2018","Kilinochchi ",38,28,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,72
-"2018","Mannar ",12,2,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,17
-"2018","Vavuniya ",71,46,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,124
-"2018","Mulativu ",10,2,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,12
-"2018","Batticaloa ",598,467,35,NA,NA,NA,NA,NA,NA,NA,NA,NA,1100
-"2018","Ampara ",24,14,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,38
-"2018","Trincomalee ",90,74,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,173
-"2018","Kurunegala ",505,309,42,NA,NA,NA,NA,NA,NA,NA,NA,NA,856
-"2018","Puttalam ",537,270,27,NA,NA,NA,NA,NA,NA,NA,NA,NA,834
-"2018","Anuradhapura ",107,95,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,208
-"2018","Polonnaruwa ",45,20,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,67
-"2018","Badulla ",74,28,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,103
-"2018","Moneragala ",185,120,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,329
-"2018","Ratnapura ",178,155,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,342
-"2018","Kegalle ",188,113,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,304
-"2018","Kalmunai ",573,229,31,NA,NA,NA,NA,NA,NA,NA,NA,NA,833
-"2018","TOTAL ",7145,4186,432,NA,NA,NA,NA,NA,NA,NA,NA,NA,11763
+"Year","Month","RDHS","Cases"
+2010,"January","Colombo",584
+2010,"January","Gampaha",608
+2010,"January","Kalutara",121
+2010,"January","Kandy",211
+2010,"January","Matale",138
+2010,"January","N Eliya",28
+2010,"January","Galle",36
+2010,"January","Matara",36
+2010,"January","Jaffna",858
+2010,"January","Kilinochchi",0
+2010,"January","Mannar",26
+2010,"January","Vavuniya",336
+2010,"January","Mulativu",0
+2010,"January","Batticaloa",305
+2010,"January","Ampara",12
+2010,"January","Trincomalee",233
+2010,"January","Kurunegala",197
+2010,"January","Puttalam",208
+2010,"January","Apura",267
+2010,"January","Polonnaruwa",33
+2010,"January","Badulla",71
+2010,"January","Moneragala",50
+2010,"January","Ratnapura",93
+2010,"January","Kegalle",90
+2010,"January","Kalmunai",215
+2010,"February","Colombo",606
+2010,"February","Gampaha",623
+2010,"February","Kalutara",124
+2010,"February","Kandy",174
+2010,"February","Matale",113
+2010,"February","N Eliya",11
+2010,"February","Galle",79
+2010,"February","Matara",44
+2010,"February","Jaffna",878
+2010,"February","Kilinochchi",0
+2010,"February","Mannar",23
+2010,"February","Vavuniya",91
+2010,"February","Mulativu",0
+2010,"February","Batticaloa",314
+2010,"February","Ampara",13
+2010,"February","Trincomalee",283
+2010,"February","Kurunegala",142
+2010,"February","Puttalam",189
+2010,"February","Apura",296
+2010,"February","Polonnaruwa",42
+2010,"February","Badulla",68
+2010,"February","Moneragala",39
+2010,"February","Ratnapura",141
+2010,"February","Kegalle",136
+2010,"February","Kalmunai",174
+2010,"March","Colombo",294
+2010,"March","Gampaha",306
+2010,"March","Kalutara",119
+2010,"March","Kandy",116
+2010,"March","Matale",35
+2010,"March","N Eliya",15
+2010,"March","Galle",86
+2010,"March","Matara",41
+2010,"March","Jaffna",170
+2010,"March","Kilinochchi",0
+2010,"March","Mannar",14
+2010,"March","Vavuniya",40
+2010,"March","Mulativu",0
+2010,"March","Batticaloa",202
+2010,"March","Ampara",25
+2010,"March","Trincomalee",145
+2010,"March","Kurunegala",99
+2010,"March","Puttalam",86
+2010,"March","Apura",131
+2010,"March","Polonnaruwa",34
+2010,"March","Badulla",49
+2010,"March","Moneragala",55
+2010,"March","Ratnapura",234
+2010,"March","Kegalle",76
+2010,"March","Kalmunai",71
+2010,"April","Colombo",224
+2010,"April","Gampaha",205
+2010,"April","Kalutara",114
+2010,"April","Kandy",89
+2010,"April","Matale",46
+2010,"April","N Eliya",6
+2010,"April","Galle",115
+2010,"April","Matara",29
+2010,"April","Jaffna",145
+2010,"April","Kilinochchi",1
+2010,"April","Mannar",16
+2010,"April","Vavuniya",14
+2010,"April","Mulativu",0
+2010,"April","Batticaloa",184
+2010,"April","Ampara",19
+2010,"April","Trincomalee",60
+2010,"April","Kurunegala",54
+2010,"April","Puttalam",50
+2010,"April","Apura",48
+2010,"April","Polonnaruwa",50
+2010,"April","Badulla",47
+2010,"April","Moneragala",67
+2010,"April","Ratnapura",270
+2010,"April","Kegalle",49
+2010,"April","Kalmunai",57
+2010,"May","Colombo",296
+2010,"May","Gampaha",295
+2010,"May","Kalutara",185
+2010,"May","Kandy",114
+2010,"May","Matale",35
+2010,"May","N Eliya",14
+2010,"May","Galle",83
+2010,"May","Matara",28
+2010,"May","Jaffna",82
+2010,"May","Kilinochchi",0
+2010,"May","Mannar",9
+2010,"May","Vavuniya",6
+2010,"May","Mulativu",1
+2010,"May","Batticaloa",48
+2010,"May","Ampara",9
+2010,"May","Trincomalee",22
+2010,"May","Kurunegala",100
+2010,"May","Puttalam",51
+2010,"May","Apura",21
+2010,"May","Polonnaruwa",60
+2010,"May","Badulla",69
+2010,"May","Moneragala",53
+2010,"May","Ratnapura",274
+2010,"May","Kegalle",53
+2010,"May","Kalmunai",13
+2010,"June","Colombo",700
+2010,"June","Gampaha",381
+2010,"June","Kalutara",294
+2010,"June","Kandy",176
+2010,"June","Matale",35
+2010,"June","N Eliya",13
+2010,"June","Galle",145
+2010,"June","Matara",67
+2010,"June","Jaffna",237
+2010,"June","Kilinochchi",4
+2010,"June","Mannar",55
+2010,"June","Vavuniya",21
+2010,"June","Mulativu",0
+2010,"June","Batticaloa",59
+2010,"June","Ampara",6
+2010,"June","Trincomalee",38
+2010,"June","Kurunegala",151
+2010,"June","Puttalam",106
+2010,"June","Apura",38
+2010,"June","Polonnaruwa",61
+2010,"June","Badulla",118
+2010,"June","Moneragala",93
+2010,"June","Ratnapura",432
+2010,"June","Kegalle",117
+2010,"June","Kalmunai",8
+2010,"July","Colombo",1530
+2010,"July","Gampaha",686
+2010,"July","Kalutara",420
+2010,"July","Kandy",341
+2010,"July","Matale",97
+2010,"July","N Eliya",45
+2010,"July","Galle",228
+2010,"July","Matara",148
+2010,"July","Jaffna",236
+2010,"July","Kilinochchi",5
+2010,"July","Mannar",94
+2010,"July","Vavuniya",27
+2010,"July","Mulativu",2
+2010,"July","Batticaloa",59
+2010,"July","Ampara",30
+2010,"July","Trincomalee",89
+2010,"July","Kurunegala",300
+2010,"July","Puttalam",137
+2010,"July","Apura",83
+2010,"July","Polonnaruwa",51
+2010,"July","Badulla",372
+2010,"July","Moneragala",314
+2010,"July","Ratnapura",492
+2010,"July","Kegalle",161
+2010,"July","Kalmunai",5
+2010,"August","Colombo",881
+2010,"August","Gampaha",417
+2010,"August","Kalutara",215
+2010,"August","Kandy",230
+2010,"August","Matale",43
+2010,"August","N Eliya",44
+2010,"August","Galle",169
+2010,"August","Matara",110
+2010,"August","Jaffna",96
+2010,"August","Kilinochchi",18
+2010,"August","Mannar",222
+2010,"August","Vavuniya",22
+2010,"August","Mulativu",8
+2010,"August","Batticaloa",25
+2010,"August","Ampara",21
+2010,"August","Trincomalee",46
+2010,"August","Kurunegala",214
+2010,"August","Puttalam",82
+2010,"August","Apura",67
+2010,"August","Polonnaruwa",30
+2010,"August","Badulla",319
+2010,"August","Moneragala",219
+2010,"August","Ratnapura",438
+2010,"August","Kegalle",104
+2010,"August","Kalmunai",9
+2010,"September","Colombo",312
+2010,"September","Gampaha",174
+2010,"September","Kalutara",122
+2010,"September","Kandy",91
+2010,"September","Matale",23
+2010,"September","N Eliya",21
+2010,"September","Galle",105
+2010,"September","Matara",62
+2010,"September","Jaffna",40
+2010,"September","Kilinochchi",12
+2010,"September","Mannar",62
+2010,"September","Vavuniya",12
+2010,"September","Mulativu",7
+2010,"September","Batticaloa",4
+2010,"September","Ampara",19
+2010,"September","Trincomalee",21
+2010,"September","Kurunegala",78
+2010,"September","Puttalam",49
+2010,"September","Apura",60
+2010,"September","Polonnaruwa",21
+2010,"September","Badulla",120
+2010,"September","Moneragala",65
+2010,"September","Ratnapura",246
+2010,"September","Kegalle",64
+2010,"September","Kalmunai",6
+2010,"October","Colombo",267
+2010,"October","Gampaha",101
+2010,"October","Kalutara",56
+2010,"October","Kandy",64
+2010,"October","Matale",21
+2010,"October","N Eliya",21
+2010,"October","Galle",49
+2010,"October","Matara",25
+2010,"October","Jaffna",78
+2010,"October","Kilinochchi",2
+2010,"October","Mannar",28
+2010,"October","Vavuniya",3
+2010,"October","Mulativu",3
+2010,"October","Batticaloa",8
+2010,"October","Ampara",5
+2010,"October","Trincomalee",17
+2010,"October","Kurunegala",47
+2010,"October","Puttalam",31
+2010,"October","Apura",33
+2010,"October","Polonnaruwa",8
+2010,"October","Badulla",43
+2010,"October","Moneragala",50
+2010,"October","Ratnapura",118
+2010,"October","Kegalle",25
+2010,"October","Kalmunai",10
+2010,"November","Colombo",97
+2010,"November","Gampaha",77
+2010,"November","Kalutara",23
+2010,"November","Kandy",22
+2010,"November","Matale",19
+2010,"November","N Eliya",6
+2010,"November","Galle",11
+2010,"November","Matara",15
+2010,"November","Jaffna",79
+2010,"November","Kilinochchi",5
+2010,"November","Mannar",14
+2010,"November","Vavuniya",3
+2010,"November","Mulativu",1
+2010,"November","Batticaloa",13
+2010,"November","Ampara",1
+2010,"November","Trincomalee",11
+2010,"November","Kurunegala",21
+2010,"November","Puttalam",25
+2010,"November","Apura",26
+2010,"November","Polonnaruwa",5
+2010,"November","Badulla",26
+2010,"November","Moneragala",42
+2010,"November","Ratnapura",53
+2010,"November","Kegalle",22
+2010,"November","Kalmunai",23
+2010,"December","Colombo",146
+2010,"December","Gampaha",87
+2010,"December","Kalutara",19
+2010,"December","Kandy",16
+2010,"December","Matale",45
+2010,"December","N Eliya",3
+2010,"December","Galle",7
+2010,"December","Matara",9
+2010,"December","Jaffna",121
+2010,"December","Kilinochchi",6
+2010,"December","Mannar",5
+2010,"December","Vavuniya",4
+2010,"December","Mulativu",1
+2010,"December","Batticaloa",29
+2010,"December","Ampara",8
+2010,"December","Trincomalee",22
+2010,"December","Kurunegala",26
+2010,"December","Puttalam",45
+2010,"December","Apura",40
+2010,"December","Polonnaruwa",7
+2010,"December","Badulla",40
+2010,"December","Moneragala",24
+2010,"December","Ratnapura",46
+2010,"December","Kegalle",21
+2010,"December","Kalmunai",15
+2011,"January","Colombo",309
+2011,"January","Gampaha",134
+2011,"January","Kalutara",48
+2011,"January","Kandy",26
+2011,"January","Matale",10
+2011,"January","N Eliya",3
+2011,"January","Galle",7
+2011,"January","Matara",14
+2011,"January","Jaffna",58
+2011,"January","Kilinochchi",2
+2011,"January","Mannar",8
+2011,"January","Vavuniya",13
+2011,"January","Mulativu",2
+2011,"January","Batticaloa",31
+2011,"January","Ampara",12
+2011,"January","Trincomalee",7
+2011,"January","Kurunegala",31
+2011,"January","Puttalam",72
+2011,"January","Apura",21
+2011,"January","Polonnaruwa",5
+2011,"January","Badulla",22
+2011,"January","Moneragala",17
+2011,"January","Ratnapura",47
+2011,"January","Kegalle",15
+2011,"January","Kalmunai",3
+2011,"February","Colombo",392
+2011,"February","Gampaha",119
+2011,"February","Kalutara",52
+2011,"February","Kandy",28
+2011,"February","Matale",18
+2011,"February","N Eliya",8
+2011,"February","Galle",19
+2011,"February","Matara",18
+2011,"February","Jaffna",34
+2011,"February","Kilinochchi",4
+2011,"February","Mannar",5
+2011,"February","Vavuniya",3
+2011,"February","Mulativu",3
+2011,"February","Batticaloa",41
+2011,"February","Ampara",6
+2011,"February","Trincomalee",17
+2011,"February","Kurunegala",49
+2011,"February","Puttalam",64
+2011,"February","Apura",18
+2011,"February","Polonnaruwa",38
+2011,"February","Badulla",21
+2011,"February","Moneragala",24
+2011,"February","Ratnapura",38
+2011,"February","Kegalle",24
+2011,"February","Kalmunai",1
+2011,"March","Colombo",340
+2011,"March","Gampaha",141
+2011,"March","Kalutara",57
+2011,"March","Kandy",32
+2011,"March","Matale",16
+2011,"March","N Eliya",9
+2011,"March","Galle",30
+2011,"March","Matara",35
+2011,"March","Jaffna",24
+2011,"March","Kilinochchi",10
+2011,"March","Mannar",4
+2011,"March","Vavuniya",15
+2011,"March","Mulativu",0
+2011,"March","Batticaloa",104
+2011,"March","Ampara",2
+2011,"March","Trincomalee",25
+2011,"March","Kurunegala",60
+2011,"March","Puttalam",49
+2011,"March","Apura",14
+2011,"March","Polonnaruwa",20
+2011,"March","Badulla",15
+2011,"March","Moneragala",15
+2011,"March","Ratnapura",40
+2011,"March","Kegalle",28
+2011,"March","Kalmunai",6
+2011,"April","Colombo",528
+2011,"April","Gampaha",183
+2011,"April","Kalutara",133
+2011,"April","Kandy",62
+2011,"April","Matale",20
+2011,"April","N Eliya",19
+2011,"April","Galle",57
+2011,"April","Matara",55
+2011,"April","Jaffna",20
+2011,"April","Kilinochchi",13
+2011,"April","Mannar",2
+2011,"April","Vavuniya",5
+2011,"April","Mulativu",1
+2011,"April","Batticaloa",185
+2011,"April","Ampara",20
+2011,"April","Trincomalee",25
+2011,"April","Kurunegala",59
+2011,"April","Puttalam",28
+2011,"April","Apura",21
+2011,"April","Polonnaruwa",28
+2011,"April","Badulla",36
+2011,"April","Moneragala",33
+2011,"April","Ratnapura",113
+2011,"April","Kegalle",51
+2011,"April","Kalmunai",4
+2011,"May","Colombo",698
+2011,"May","Gampaha",218
+2011,"May","Kalutara",148
+2011,"May","Kandy",53
+2011,"May","Matale",37
+2011,"May","N Eliya",17
+2011,"May","Galle",98
+2011,"May","Matara",57
+2011,"May","Jaffna",10
+2011,"May","Kilinochchi",4
+2011,"May","Mannar",2
+2011,"May","Vavuniya",7
+2011,"May","Mulativu",1
+2011,"May","Batticaloa",141
+2011,"May","Ampara",10
+2011,"May","Trincomalee",12
+2011,"May","Kurunegala",91
+2011,"May","Puttalam",21
+2011,"May","Apura",31
+2011,"May","Polonnaruwa",38
+2011,"May","Badulla",31
+2011,"May","Moneragala",16
+2011,"May","Ratnapura",89
+2011,"May","Kegalle",48
+2011,"May","Kalmunai",2
+2011,"June","Colombo",1610
+2011,"June","Gampaha",537
+2011,"June","Kalutara",185
+2011,"June","Kandy",81
+2011,"June","Matale",53
+2011,"June","N Eliya",20
+2011,"June","Galle",112
+2011,"June","Matara",51
+2011,"June","Jaffna",16
+2011,"June","Kilinochchi",3
+2011,"June","Mannar",2
+2011,"June","Vavuniya",11
+2011,"June","Mulativu",7
+2011,"June","Batticaloa",112
+2011,"June","Ampara",29
+2011,"June","Trincomalee",19
+2011,"June","Kurunegala",116
+2011,"June","Puttalam",52
+2011,"June","Apura",39
+2011,"June","Polonnaruwa",44
+2011,"June","Badulla",65
+2011,"June","Moneragala",18
+2011,"June","Ratnapura",118
+2011,"June","Kegalle",120
+2011,"June","Kalmunai",3
+2011,"July","Colombo",2085
+2011,"July","Gampaha",911
+2011,"July","Kalutara",188
+2011,"July","Kandy",218
+2011,"July","Matale",66
+2011,"July","N Eliya",50
+2011,"July","Galle",168
+2011,"July","Matara",83
+2011,"July","Jaffna",35
+2011,"July","Kilinochchi",3
+2011,"July","Mannar",2
+2011,"July","Vavuniya",8
+2011,"July","Mulativu",1
+2011,"July","Batticaloa",53
+2011,"July","Ampara",20
+2011,"July","Trincomalee",21
+2011,"July","Kurunegala",178
+2011,"July","Puttalam",62
+2011,"July","Apura",43
+2011,"July","Polonnaruwa",36
+2011,"July","Badulla",201
+2011,"July","Moneragala",32
+2011,"July","Ratnapura",153
+2011,"July","Kegalle",141
+2011,"July","Kalmunai",8
+2011,"August","Colombo",824
+2011,"August","Gampaha",428
+2011,"August","Kalutara",107
+2011,"August","Kandy",99
+2011,"August","Matale",25
+2011,"August","N Eliya",10
+2011,"August","Galle",100
+2011,"August","Matara",27
+2011,"August","Jaffna",33
+2011,"August","Kilinochchi",5
+2011,"August","Mannar",1
+2011,"August","Vavuniya",2
+2011,"August","Mulativu",0
+2011,"August","Batticaloa",21
+2011,"August","Ampara",11
+2011,"August","Trincomalee",6
+2011,"August","Kurunegala",84
+2011,"August","Puttalam",23
+2011,"August","Apura",21
+2011,"August","Polonnaruwa",23
+2011,"August","Badulla",54
+2011,"August","Moneragala",17
+2011,"August","Ratnapura",86
+2011,"August","Kegalle",81
+2011,"August","Kalmunai",0
+2011,"September","Colombo",863
+2011,"September","Gampaha",367
+2011,"September","Kalutara",93
+2011,"September","Kandy",251
+2011,"September","Matale",26
+2011,"September","N Eliya",31
+2011,"September","Galle",96
+2011,"September","Matara",63
+2011,"September","Jaffna",46
+2011,"September","Kilinochchi",8
+2011,"September","Mannar",0
+2011,"September","Vavuniya",3
+2011,"September","Mulativu",0
+2011,"September","Batticaloa",35
+2011,"September","Ampara",24
+2011,"September","Trincomalee",10
+2011,"September","Kurunegala",84
+2011,"September","Puttalam",31
+2011,"September","Apura",22
+2011,"September","Polonnaruwa",18
+2011,"September","Badulla",46
+2011,"September","Moneragala",34
+2011,"September","Ratnapura",117
+2011,"September","Kegalle",156
+2011,"September","Kalmunai",2
+2011,"October","Colombo",599
+2011,"October","Gampaha",321
+2011,"October","Kalutara",100
+2011,"October","Kandy",255
+2011,"October","Matale",17
+2011,"October","N Eliya",43
+2011,"October","Galle",50
+2011,"October","Matara",72
+2011,"October","Jaffna",19
+2011,"October","Kilinochchi",3
+2011,"October","Mannar",17
+2011,"October","Vavuniya",3
+2011,"October","Mulativu",1
+2011,"October","Batticaloa",123
+2011,"October","Ampara",13
+2011,"October","Trincomalee",3
+2011,"October","Kurunegala",71
+2011,"October","Puttalam",27
+2011,"October","Apura",24
+2011,"October","Polonnaruwa",16
+2011,"October","Badulla",39
+2011,"October","Moneragala",30
+2011,"October","Ratnapura",87
+2011,"October","Kegalle",176
+2011,"October","Kalmunai",5
+2011,"November","Colombo",536
+2011,"November","Gampaha",347
+2011,"November","Kalutara",111
+2011,"November","Kandy",182
+2011,"November","Matale",21
+2011,"November","N Eliya",17
+2011,"November","Galle",49
+2011,"November","Matara",141
+2011,"November","Jaffna",34
+2011,"November","Kilinochchi",4
+2011,"November","Mannar",8
+2011,"November","Vavuniya",4
+2011,"November","Mulativu",2
+2011,"November","Batticaloa",289
+2011,"November","Ampara",16
+2011,"November","Trincomalee",8
+2011,"November","Kurunegala",82
+2011,"November","Puttalam",40
+2011,"November","Apura",12
+2011,"November","Polonnaruwa",6
+2011,"November","Badulla",49
+2011,"November","Moneragala",40
+2011,"November","Ratnapura",91
+2011,"November","Kegalle",88
+2011,"November","Kalmunai",6
+2011,"December","Colombo",1339
+2011,"December","Gampaha",668
+2011,"December","Kalutara",194
+2011,"December","Kandy",348
+2011,"December","Matale",56
+2011,"December","N Eliya",25
+2011,"December","Galle",93
+2011,"December","Matara",179
+2011,"December","Jaffna",71
+2011,"December","Kilinochchi",7
+2011,"December","Mannar",49
+2011,"December","Vavuniya",7
+2011,"December","Mulativu",1
+2011,"December","Batticaloa",558
+2011,"December","Ampara",33
+2011,"December","Trincomalee",24
+2011,"December","Kurunegala",135
+2011,"December","Puttalam",102
+2011,"December","Apura",33
+2011,"December","Polonnaruwa",32
+2011,"December","Badulla",53
+2011,"December","Moneragala",36
+2011,"December","Ratnapura",181
+2011,"December","Kegalle",152
+2011,"December","Kalmunai",48
+2012,"January","Colombo",1066
+2012,"January","Gampaha",847
+2012,"January","Kalutara",180
+2012,"January","Kandy",270
+2012,"January","Matale",45
+2012,"January","N Eliya",24
+2012,"January","Galle",105
+2012,"January","Matara",186
+2012,"January","Jaffna",91
+2012,"January","Kilinochchi",8
+2012,"January","Mannar",38
+2012,"January","Vavuniya",13
+2012,"January","Mulativu",2
+2012,"January","Batticaloa",263
+2012,"January","Ampara",18
+2012,"January","Trincomalee",23
+2012,"January","Kurunegala",159
+2012,"January","Puttalam",131
+2012,"January","Apura",38
+2012,"January","Polonnaruwa",25
+2012,"January","Badulla",40
+2012,"January","Moneragala",16
+2012,"January","Ratnapura",126
+2012,"January","Kegalle",173
+2012,"January","Kalmunai",41
+2012,"February","Colombo",744
+2012,"February","Gampaha",640
+2012,"February","Kalutara",260
+2012,"February","Kandy",194
+2012,"February","Matale",47
+2012,"February","N Eliya",35
+2012,"February","Galle",105
+2012,"February","Matara",147
+2012,"February","Jaffna",40
+2012,"February","Kilinochchi",2
+2012,"February","Mannar",16
+2012,"February","Vavuniya",5
+2012,"February","Mulativu",1
+2012,"February","Batticaloa",116
+2012,"February","Ampara",6
+2012,"February","Trincomalee",23
+2012,"February","Kurunegala",148
+2012,"February","Puttalam",101
+2012,"February","Apura",37
+2012,"February","Polonnaruwa",27
+2012,"February","Badulla",22
+2012,"February","Moneragala",23
+2012,"February","Ratnapura",153
+2012,"February","Kegalle",144
+2012,"February","Kalmunai",43
+2012,"March","Colombo",630
+2012,"March","Gampaha",447
+2012,"March","Kalutara",209
+2012,"March","Kandy",114
+2012,"March","Matale",59
+2012,"March","N Eliya",41
+2012,"March","Galle",161
+2012,"March","Matara",155
+2012,"March","Jaffna",43
+2012,"March","Kilinochchi",5
+2012,"March","Mannar",10
+2012,"March","Vavuniya",5
+2012,"March","Mulativu",1
+2012,"March","Batticaloa",91
+2012,"March","Ampara",4
+2012,"March","Trincomalee",26
+2012,"March","Kurunegala",114
+2012,"March","Puttalam",69
+2012,"March","Apura",36
+2012,"March","Polonnaruwa",21
+2012,"March","Badulla",13
+2012,"March","Moneragala",23
+2012,"March","Ratnapura",160
+2012,"March","Kegalle",121
+2012,"March","Kalmunai",25
+2012,"April","Colombo",412
+2012,"April","Gampaha",367
+2012,"April","Kalutara",205
+2012,"April","Kandy",122
+2012,"April","Matale",35
+2012,"April","N Eliya",25
+2012,"April","Galle",90
+2012,"April","Matara",94
+2012,"April","Jaffna",24
+2012,"April","Kilinochchi",3
+2012,"April","Mannar",9
+2012,"April","Vavuniya",2
+2012,"April","Mulativu",1
+2012,"April","Batticaloa",32
+2012,"April","Ampara",9
+2012,"April","Trincomalee",6
+2012,"April","Kurunegala",100
+2012,"April","Puttalam",55
+2012,"April","Apura",26
+2012,"April","Polonnaruwa",11
+2012,"April","Badulla",11
+2012,"April","Moneragala",15
+2012,"April","Ratnapura",183
+2012,"April","Kegalle",146
+2012,"April","Kalmunai",8
+2012,"May","Colombo",583
+2012,"May","Gampaha",397
+2012,"May","Kalutara",182
+2012,"May","Kandy",194
+2012,"May","Matale",32
+2012,"May","N Eliya",18
+2012,"May","Galle",99
+2012,"May","Matara",84
+2012,"May","Jaffna",27
+2012,"May","Kilinochchi",19
+2012,"May","Mannar",6
+2012,"May","Vavuniya",5
+2012,"May","Mulativu",3
+2012,"May","Batticaloa",35
+2012,"May","Ampara",21
+2012,"May","Trincomalee",8
+2012,"May","Kurunegala",140
+2012,"May","Puttalam",98
+2012,"May","Apura",29
+2012,"May","Polonnaruwa",17
+2012,"May","Badulla",20
+2012,"May","Moneragala",22
+2012,"May","Ratnapura",257
+2012,"May","Kegalle",213
+2012,"May","Kalmunai",10
+2012,"June","Colombo",1251
+2012,"June","Gampaha",1180
+2012,"June","Kalutara",364
+2012,"June","Kandy",298
+2012,"June","Matale",81
+2012,"June","N Eliya",58
+2012,"June","Galle",221
+2012,"June","Matara",147
+2012,"June","Jaffna",34
+2012,"June","Kilinochchi",16
+2012,"June","Mannar",15
+2012,"June","Vavuniya",2
+2012,"June","Mulativu",4
+2012,"June","Batticaloa",32
+2012,"June","Ampara",15
+2012,"June","Trincomalee",16
+2012,"June","Kurunegala",342
+2012,"June","Puttalam",178
+2012,"June","Apura",56
+2012,"June","Polonnaruwa",37
+2012,"June","Badulla",57
+2012,"June","Moneragala",38
+2012,"June","Ratnapura",874
+2012,"June","Kegalle",557
+2012,"June","Kalmunai",23
+2012,"July","Colombo",1314
+2012,"July","Gampaha",969
+2012,"July","Kalutara",348
+2012,"July","Kandy",287
+2012,"July","Matale",29
+2012,"July","N Eliya",30
+2012,"July","Galle",217
+2012,"July","Matara",186
+2012,"July","Jaffna",26
+2012,"July","Kilinochchi",8
+2012,"July","Mannar",19
+2012,"July","Vavuniya",3
+2012,"July","Mulativu",5
+2012,"July","Batticaloa",11
+2012,"July","Ampara",29
+2012,"July","Trincomalee",8
+2012,"July","Kurunegala",406
+2012,"July","Puttalam",98
+2012,"July","Apura",31
+2012,"July","Polonnaruwa",22
+2012,"July","Badulla",48
+2012,"July","Moneragala",33
+2012,"July","Ratnapura",621
+2012,"July","Kegalle",385
+2012,"July","Kalmunai",9
+2012,"August","Colombo",1231
+2012,"August","Gampaha",884
+2012,"August","Kalutara",339
+2012,"August","Kandy",355
+2012,"August","Matale",62
+2012,"August","N Eliya",30
+2012,"August","Galle",241
+2012,"August","Matara",241
+2012,"August","Jaffna",36
+2012,"August","Kilinochchi",11
+2012,"August","Mannar",11
+2012,"August","Vavuniya",16
+2012,"August","Mulativu",3
+2012,"August","Batticaloa",21
+2012,"August","Ampara",13
+2012,"August","Trincomalee",13
+2012,"August","Kurunegala",401
+2012,"August","Puttalam",142
+2012,"August","Apura",34
+2012,"August","Polonnaruwa",38
+2012,"August","Badulla",40
+2012,"August","Moneragala",36
+2012,"August","Ratnapura",648
+2012,"August","Kegalle",331
+2012,"August","Kalmunai",11
+2012,"September","Colombo",525
+2012,"September","Gampaha",479
+2012,"September","Kalutara",156
+2012,"September","Kandy",135
+2012,"September","Matale",46
+2012,"September","N Eliya",21
+2012,"September","Galle",78
+2012,"September","Matara",141
+2012,"September","Jaffna",41
+2012,"September","Kilinochchi",6
+2012,"September","Mannar",2
+2012,"September","Vavuniya",20
+2012,"September","Mulativu",2
+2012,"September","Batticaloa",7
+2012,"September","Ampara",9
+2012,"September","Trincomalee",7
+2012,"September","Kurunegala",320
+2012,"September","Puttalam",253
+2012,"September","Apura",26
+2012,"September","Polonnaruwa",12
+2012,"September","Badulla",35
+2012,"September","Moneragala",16
+2012,"September","Ratnapura",310
+2012,"September","Kegalle",174
+2012,"September","Kalmunai",3
+2012,"October","Colombo",726
+2012,"October","Gampaha",570
+2012,"October","Kalutara",192
+2012,"October","Kandy",177
+2012,"October","Matale",44
+2012,"October","N Eliya",17
+2012,"October","Galle",60
+2012,"October","Matara",196
+2012,"October","Jaffna",143
+2012,"October","Kilinochchi",2
+2012,"October","Mannar",6
+2012,"October","Vavuniya",13
+2012,"October","Mulativu",0
+2012,"October","Batticaloa",26
+2012,"October","Ampara",11
+2012,"October","Trincomalee",5
+2012,"October","Kurunegala",311
+2012,"October","Puttalam",159
+2012,"October","Apura",27
+2012,"October","Polonnaruwa",21
+2012,"October","Badulla",41
+2012,"October","Moneragala",17
+2012,"October","Ratnapura",194
+2012,"October","Kegalle",148
+2012,"October","Kalmunai",22
+2012,"November","Colombo",853
+2012,"November","Gampaha",737
+2012,"November","Kalutara",213
+2012,"November","Kandy",185
+2012,"November","Matale",47
+2012,"November","N Eliya",30
+2012,"November","Galle",78
+2012,"November","Matara",158
+2012,"November","Jaffna",205
+2012,"November","Kilinochchi",5
+2012,"November","Mannar",21
+2012,"November","Vavuniya",9
+2012,"November","Mulativu",6
+2012,"November","Batticaloa",36
+2012,"November","Ampara",14
+2012,"November","Trincomalee",15
+2012,"November","Kurunegala",497
+2012,"November","Puttalam",251
+2012,"November","Apura",34
+2012,"November","Polonnaruwa",15
+2012,"November","Badulla",49
+2012,"November","Moneragala",29
+2012,"November","Ratnapura",262
+2012,"November","Kegalle",156
+2012,"November","Kalmunai",69
+2012,"December","Colombo",682
+2012,"December","Gampaha",489
+2012,"December","Kalutara",143
+2012,"December","Kandy",186
+2012,"December","Matale",69
+2012,"December","N Eliya",13
+2012,"December","Galle",58
+2012,"December","Matara",100
+2012,"December","Jaffna",184
+2012,"December","Kilinochchi",8
+2012,"December","Mannar",33
+2012,"December","Vavuniya",11
+2012,"December","Mulativu",14
+2012,"December","Batticaloa",47
+2012,"December","Ampara",6
+2012,"December","Trincomalee",18
+2012,"December","Kurunegala",599
+2012,"December","Puttalam",265
+2012,"December","Apura",119
+2012,"December","Polonnaruwa",43
+2012,"December","Badulla",54
+2012,"December","Moneragala",19
+2012,"December","Ratnapura",150
+2012,"December","Kegalle",157
+2012,"December","Kalmunai",138
+2013,"January","Colombo",757
+2013,"January","Gampaha",463
+2013,"January","Kalutara",159
+2013,"January","Kandy",193
+2013,"January","Matale",48
+2013,"January","N Eliya",17
+2013,"January","Galle",57
+2013,"January","Matara",48
+2013,"January","Jaffna",100
+2013,"January","Kilinochchi",7
+2013,"January","Mannar",23
+2013,"January","Vavuniya",11
+2013,"January","Mulativu",12
+2013,"January","Batticaloa",52
+2013,"January","Ampara",14
+2013,"January","Trincomalee",25
+2013,"January","Kurunegala",720
+2013,"January","Puttalam",175
+2013,"January","Apura",80
+2013,"January","Polonnaruwa",34
+2013,"January","Badulla",42
+2013,"January","Moneragala",34
+2013,"January","Ratnapura",131
+2013,"January","Kegalle",134
+2013,"January","Kalmunai",94
+2013,"February","Colombo",845
+2013,"February","Gampaha",321
+2013,"February","Kalutara",153
+2013,"February","Kandy",215
+2013,"February","Matale",47
+2013,"February","N Eliya",32
+2013,"February","Galle",60
+2013,"February","Matara",75
+2013,"February","Jaffna",77
+2013,"February","Kilinochchi",4
+2013,"February","Mannar",10
+2013,"February","Vavuniya",8
+2013,"February","Mulativu",7
+2013,"February","Batticaloa",74
+2013,"February","Ampara",17
+2013,"February","Trincomalee",45
+2013,"February","Kurunegala",485
+2013,"February","Puttalam",170
+2013,"February","Apura",74
+2013,"February","Polonnaruwa",40
+2013,"February","Badulla",49
+2013,"February","Moneragala",19
+2013,"February","Ratnapura",148
+2013,"February","Kegalle",106
+2013,"February","Kalmunai",142
+2013,"March","Colombo",791
+2013,"March","Gampaha",289
+2013,"March","Kalutara",168
+2013,"March","Kandy",134
+2013,"March","Matale",49
+2013,"March","N Eliya",30
+2013,"March","Galle",92
+2013,"March","Matara",65
+2013,"March","Jaffna",84
+2013,"March","Kilinochchi",7
+2013,"March","Mannar",7
+2013,"March","Vavuniya",12
+2013,"March","Mulativu",17
+2013,"March","Batticaloa",93
+2013,"March","Ampara",20
+2013,"March","Trincomalee",31
+2013,"March","Kurunegala",303
+2013,"March","Puttalam",98
+2013,"March","Apura",90
+2013,"March","Polonnaruwa",47
+2013,"March","Badulla",45
+2013,"March","Moneragala",27
+2013,"March","Ratnapura",220
+2013,"March","Kegalle",99
+2013,"March","Kalmunai",138
+2013,"April","Colombo",610
+2013,"April","Gampaha",212
+2013,"April","Kalutara",115
+2013,"April","Kandy",83
+2013,"April","Matale",32
+2013,"April","N Eliya",15
+2013,"April","Galle",57
+2013,"April","Matara",28
+2013,"April","Jaffna",115
+2013,"April","Kilinochchi",5
+2013,"April","Mannar",4
+2013,"April","Vavuniya",3
+2013,"April","Mulativu",18
+2013,"April","Batticaloa",67
+2013,"April","Ampara",7
+2013,"April","Trincomalee",23
+2013,"April","Kurunegala",134
+2013,"April","Puttalam",67
+2013,"April","Apura",36
+2013,"April","Polonnaruwa",41
+2013,"April","Badulla",32
+2013,"April","Moneragala",23
+2013,"April","Ratnapura",217
+2013,"April","Kegalle",91
+2013,"April","Kalmunai",44
+2013,"May","Colombo",748
+2013,"May","Gampaha",319
+2013,"May","Kalutara",164
+2013,"May","Kandy",156
+2013,"May","Matale",30
+2013,"May","N Eliya",16
+2013,"May","Galle",108
+2013,"May","Matara",36
+2013,"May","Jaffna",70
+2013,"May","Kilinochchi",4
+2013,"May","Mannar",10
+2013,"May","Vavuniya",8
+2013,"May","Mulativu",20
+2013,"May","Batticaloa",79
+2013,"May","Ampara",11
+2013,"May","Trincomalee",20
+2013,"May","Kurunegala",194
+2013,"May","Puttalam",53
+2013,"May","Apura",47
+2013,"May","Polonnaruwa",28
+2013,"May","Badulla",46
+2013,"May","Moneragala",17
+2013,"May","Ratnapura",253
+2013,"May","Kegalle",113
+2013,"May","Kalmunai",42
+2013,"June","Colombo",830
+2013,"June","Gampaha",273
+2013,"June","Kalutara",140
+2013,"June","Kandy",186
+2013,"June","Matale",37
+2013,"June","N Eliya",21
+2013,"June","Galle",100
+2013,"June","Matara",31
+2013,"June","Jaffna",30
+2013,"June","Kilinochchi",7
+2013,"June","Mannar",2
+2013,"June","Vavuniya",6
+2013,"June","Mulativu",12
+2013,"June","Batticaloa",48
+2013,"June","Ampara",15
+2013,"June","Trincomalee",5
+2013,"June","Kurunegala",195
+2013,"June","Puttalam",56
+2013,"June","Apura",28
+2013,"June","Polonnaruwa",19
+2013,"June","Badulla",46
+2013,"June","Moneragala",18
+2013,"June","Ratnapura",185
+2013,"June","Kegalle",104
+2013,"June","Kalmunai",12
+2013,"July","Colombo",1168
+2013,"July","Gampaha",385
+2013,"July","Kalutara",178
+2013,"July","Kandy",191
+2013,"July","Matale",52
+2013,"July","N Eliya",27
+2013,"July","Galle",84
+2013,"July","Matara",54
+2013,"July","Jaffna",23
+2013,"July","Kilinochchi",0
+2013,"July","Mannar",1
+2013,"July","Vavuniya",7
+2013,"July","Mulativu",6
+2013,"July","Batticaloa",32
+2013,"July","Ampara",26
+2013,"July","Trincomalee",15
+2013,"July","Kurunegala",154
+2013,"July","Puttalam",46
+2013,"July","Apura",23
+2013,"July","Polonnaruwa",43
+2013,"July","Badulla",77
+2013,"July","Moneragala",28
+2013,"July","Ratnapura",169
+2013,"July","Kegalle",98
+2013,"July","Kalmunai",9
+2013,"August","Colombo",1298
+2013,"August","Gampaha",394
+2013,"August","Kalutara",210
+2013,"August","Kandy",240
+2013,"August","Matale",66
+2013,"August","N Eliya",40
+2013,"August","Galle",93
+2013,"August","Matara",34
+2013,"August","Jaffna",43
+2013,"August","Kilinochchi",16
+2013,"August","Mannar",2
+2013,"August","Vavuniya",4
+2013,"August","Mulativu",8
+2013,"August","Batticaloa",26
+2013,"August","Ampara",26
+2013,"August","Trincomalee",13
+2013,"August","Kurunegala",163
+2013,"August","Puttalam",83
+2013,"August","Apura",33
+2013,"August","Polonnaruwa",76
+2013,"August","Badulla",58
+2013,"August","Moneragala",26
+2013,"August","Ratnapura",146
+2013,"August","Kegalle",137
+2013,"August","Kalmunai",4
+2013,"September","Colombo",685
+2013,"September","Gampaha",245
+2013,"September","Kalutara",148
+2013,"September","Kandy",110
+2013,"September","Matale",32
+2013,"September","N Eliya",13
+2013,"September","Galle",79
+2013,"September","Matara",27
+2013,"September","Jaffna",35
+2013,"September","Kilinochchi",7
+2013,"September","Mannar",4
+2013,"September","Vavuniya",4
+2013,"September","Mulativu",9
+2013,"September","Batticaloa",19
+2013,"September","Ampara",25
+2013,"September","Trincomalee",5
+2013,"September","Kurunegala",105
+2013,"September","Puttalam",39
+2013,"September","Apura",38
+2013,"September","Polonnaruwa",47
+2013,"September","Badulla",38
+2013,"September","Moneragala",19
+2013,"September","Ratnapura",90
+2013,"September","Kegalle",62
+2013,"September","Kalmunai",4
+2013,"October","Colombo",619
+2013,"October","Gampaha",237
+2013,"October","Kalutara",108
+2013,"October","Kandy",59
+2013,"October","Matale",24
+2013,"October","N Eliya",16
+2013,"October","Galle",34
+2013,"October","Matara",19
+2013,"October","Jaffna",48
+2013,"October","Kilinochchi",3
+2013,"October","Mannar",5
+2013,"October","Vavuniya",5
+2013,"October","Mulativu",6
+2013,"October","Batticaloa",22
+2013,"October","Ampara",18
+2013,"October","Trincomalee",4
+2013,"October","Kurunegala",104
+2013,"October","Puttalam",31
+2013,"October","Apura",28
+2013,"October","Polonnaruwa",41
+2013,"October","Badulla",26
+2013,"October","Moneragala",24
+2013,"October","Ratnapura",44
+2013,"October","Kegalle",83
+2013,"October","Kalmunai",4
+2013,"November","Colombo",1173
+2013,"November","Gampaha",383
+2013,"November","Kalutara",166
+2013,"November","Kandy",96
+2013,"November","Matale",39
+2013,"November","N Eliya",18
+2013,"November","Galle",68
+2013,"November","Matara",32
+2013,"November","Jaffna",52
+2013,"November","Kilinochchi",3
+2013,"November","Mannar",1
+2013,"November","Vavuniya",10
+2013,"November","Mulativu",10
+2013,"November","Batticaloa",14
+2013,"November","Ampara",28
+2013,"November","Trincomalee",7
+2013,"November","Kurunegala",98
+2013,"November","Puttalam",51
+2013,"November","Apura",30
+2013,"November","Polonnaruwa",45
+2013,"November","Badulla",50
+2013,"November","Moneragala",20
+2013,"November","Ratnapura",70
+2013,"November","Kegalle",117
+2013,"November","Kalmunai",8
+2013,"December","Colombo",1259
+2013,"December","Gampaha",308
+2013,"December","Kalutara",219
+2013,"December","Kandy",100
+2013,"December","Matale",39
+2013,"December","N Eliya",27
+2013,"December","Galle",108
+2013,"December","Matara",37
+2013,"December","Jaffna",125
+2013,"December","Kilinochchi",6
+2013,"December","Mannar",1
+2013,"December","Vavuniya",15
+2013,"December","Mulativu",2
+2013,"December","Batticaloa",30
+2013,"December","Ampara",35
+2013,"December","Trincomalee",14
+2013,"December","Kurunegala",117
+2013,"December","Puttalam",55
+2013,"December","Apura",63
+2013,"December","Polonnaruwa",46
+2013,"December","Badulla",33
+2013,"December","Moneragala",16
+2013,"December","Ratnapura",56
+2013,"December","Kegalle",93
+2013,"December","Kalmunai",3
+2014,"January","Colombo",1346
+2014,"January","Gampaha",632
+2014,"January","Kalutara",267
+2014,"January","Kandy",93
+2014,"January","Matale",40
+2014,"January","N Eliya",27
+2014,"January","Galle",136
+2014,"January","Matara",50
+2014,"January","Jaffna",148
+2014,"January","Kilinochchi",10
+2014,"January","Mannar",2
+2014,"January","Vavuniya",6
+2014,"January","Mulativu",23
+2014,"January","Batticaloa",43
+2014,"January","Ampara",22
+2014,"January","Trincomalee",52
+2014,"January","Kurunegala",163
+2014,"January","Puttalam",93
+2014,"January","Apura",68
+2014,"January","Polonnaruwa",75
+2014,"January","Badulla",56
+2014,"January","Moneragala",23
+2014,"January","Ratnapura",91
+2014,"January","Kegalle",84
+2014,"January","Kalmunai",12
+2014,"February","Colombo",684
+2014,"February","Gampaha",279
+2014,"February","Kalutara",175
+2014,"February","Kandy",49
+2014,"February","Matale",35
+2014,"February","N Eliya",14
+2014,"February","Galle",49
+2014,"February","Matara",31
+2014,"February","Jaffna",92
+2014,"February","Kilinochchi",10
+2014,"February","Mannar",1
+2014,"February","Vavuniya",12
+2014,"February","Mulativu",9
+2014,"February","Batticaloa",66
+2014,"February","Ampara",16
+2014,"February","Trincomalee",38
+2014,"February","Kurunegala",106
+2014,"February","Puttalam",42
+2014,"February","Apura",44
+2014,"February","Polonnaruwa",45
+2014,"February","Badulla",43
+2014,"February","Moneragala",24
+2014,"February","Ratnapura",43
+2014,"February","Kegalle",58
+2014,"February","Kalmunai",12
+2014,"March","Colombo",488
+2014,"March","Gampaha",191
+2014,"March","Kalutara",111
+2014,"March","Kandy",36
+2014,"March","Matale",18
+2014,"March","N Eliya",6
+2014,"March","Galle",61
+2014,"March","Matara",11
+2014,"March","Jaffna",58
+2014,"March","Kilinochchi",4
+2014,"March","Mannar",0
+2014,"March","Vavuniya",14
+2014,"March","Mulativu",17
+2014,"March","Batticaloa",147
+2014,"March","Ampara",7
+2014,"March","Trincomalee",77
+2014,"March","Kurunegala",94
+2014,"March","Puttalam",42
+2014,"March","Apura",27
+2014,"March","Polonnaruwa",38
+2014,"March","Badulla",36
+2014,"March","Moneragala",21
+2014,"March","Ratnapura",58
+2014,"March","Kegalle",54
+2014,"March","Kalmunai",15
+2014,"April","Colombo",539
+2014,"April","Gampaha",280
+2014,"April","Kalutara",117
+2014,"April","Kandy",47
+2014,"April","Matale",14
+2014,"April","N Eliya",11
+2014,"April","Galle",35
+2014,"April","Matara",13
+2014,"April","Jaffna",59
+2014,"April","Kilinochchi",6
+2014,"April","Mannar",1
+2014,"April","Vavuniya",9
+2014,"April","Mulativu",4
+2014,"April","Batticaloa",92
+2014,"April","Ampara",13
+2014,"April","Trincomalee",115
+2014,"April","Kurunegala",61
+2014,"April","Puttalam",27
+2014,"April","Apura",39
+2014,"April","Polonnaruwa",33
+2014,"April","Badulla",12
+2014,"April","Moneragala",9
+2014,"April","Ratnapura",52
+2014,"April","Kegalle",60
+2014,"April","Kalmunai",8
+2014,"May","Colombo",1744
+2014,"May","Gampaha",921
+2014,"May","Kalutara",241
+2014,"May","Kandy",116
+2014,"May","Matale",14
+2014,"May","N Eliya",25
+2014,"May","Galle",75
+2014,"May","Matara",22
+2014,"May","Jaffna",73
+2014,"May","Kilinochchi",0
+2014,"May","Mannar",2
+2014,"May","Vavuniya",6
+2014,"May","Mulativu",6
+2014,"May","Batticaloa",117
+2014,"May","Ampara",9
+2014,"May","Trincomalee",100
+2014,"May","Kurunegala",61
+2014,"May","Puttalam",34
+2014,"May","Apura",27
+2014,"May","Polonnaruwa",24
+2014,"May","Badulla",56
+2014,"May","Moneragala",10
+2014,"May","Ratnapura",370
+2014,"May","Kegalle",179
+2014,"May","Kalmunai",18
+2014,"June","Colombo",2289
+2014,"June","Gampaha",1111
+2014,"June","Kalutara",429
+2014,"June","Kandy",270
+2014,"June","Matale",81
+2014,"June","N Eliya",60
+2014,"June","Galle",139
+2014,"June","Matara",63
+2014,"June","Jaffna",89
+2014,"June","Kilinochchi",1
+2014,"June","Mannar",20
+2014,"June","Vavuniya",33
+2014,"June","Mulativu",10
+2014,"June","Batticaloa",97
+2014,"June","Ampara",21
+2014,"June","Trincomalee",55
+2014,"June","Kurunegala",303
+2014,"June","Puttalam",83
+2014,"June","Apura",61
+2014,"June","Polonnaruwa",62
+2014,"June","Badulla",90
+2014,"June","Moneragala",34
+2014,"June","Ratnapura",866
+2014,"June","Kegalle",320
+2014,"June","Kalmunai",28
+2014,"July","Colombo",1859
+2014,"July","Gampaha",932
+2014,"July","Kalutara",389
+2014,"July","Kandy",223
+2014,"July","Matale",75
+2014,"July","N Eliya",39
+2014,"July","Galle",197
+2014,"July","Matara",112
+2014,"July","Jaffna",148
+2014,"July","Kilinochchi",8
+2014,"July","Mannar",13
+2014,"July","Vavuniya",16
+2014,"July","Mulativu",6
+2014,"July","Batticaloa",60
+2014,"July","Ampara",17
+2014,"July","Trincomalee",34
+2014,"July","Kurunegala",318
+2014,"July","Puttalam",101
+2014,"July","Apura",89
+2014,"July","Polonnaruwa",79
+2014,"July","Badulla",79
+2014,"July","Moneragala",48
+2014,"July","Ratnapura",457
+2014,"July","Kegalle",242
+2014,"July","Kalmunai",11
+2014,"August","Colombo",1104
+2014,"August","Gampaha",772
+2014,"August","Kalutara",239
+2014,"August","Kandy",247
+2014,"August","Matale",55
+2014,"August","N Eliya",34
+2014,"August","Galle",107
+2014,"August","Matara",82
+2014,"August","Jaffna",123
+2014,"August","Kilinochchi",3
+2014,"August","Mannar",10
+2014,"August","Vavuniya",5
+2014,"August","Mulativu",6
+2014,"August","Batticaloa",22
+2014,"August","Ampara",19
+2014,"August","Trincomalee",18
+2014,"August","Kurunegala",296
+2014,"August","Puttalam",65
+2014,"August","Apura",39
+2014,"August","Polonnaruwa",33
+2014,"August","Badulla",84
+2014,"August","Moneragala",32
+2014,"August","Ratnapura",343
+2014,"August","Kegalle",231
+2014,"August","Kalmunai",17
+2014,"September","Colombo",706
+2014,"September","Gampaha",569
+2014,"September","Kalutara",138
+2014,"September","Kandy",176
+2014,"September","Matale",27
+2014,"September","N Eliya",18
+2014,"September","Galle",71
+2014,"September","Matara",93
+2014,"September","Jaffna",95
+2014,"September","Kilinochchi",4
+2014,"September","Mannar",40
+2014,"September","Vavuniya",4
+2014,"September","Mulativu",5
+2014,"September","Batticaloa",15
+2014,"September","Ampara",3
+2014,"September","Trincomalee",16
+2014,"September","Kurunegala",195
+2014,"September","Puttalam",39
+2014,"September","Apura",25
+2014,"September","Polonnaruwa",27
+2014,"September","Badulla",76
+2014,"September","Moneragala",20
+2014,"September","Ratnapura",148
+2014,"September","Kegalle",89
+2014,"September","Kalmunai",12
+2014,"October","Colombo",1089
+2014,"October","Gampaha",1015
+2014,"October","Kalutara",158
+2014,"October","Kandy",289
+2014,"October","Matale",81
+2014,"October","N Eliya",29
+2014,"October","Galle",125
+2014,"October","Matara",130
+2014,"October","Jaffna",212
+2014,"October","Kilinochchi",10
+2014,"October","Mannar",68
+2014,"October","Vavuniya",7
+2014,"October","Mulativu",5
+2014,"October","Batticaloa",40
+2014,"October","Ampara",10
+2014,"October","Trincomalee",22
+2014,"October","Kurunegala",287
+2014,"October","Puttalam",84
+2014,"October","Apura",51
+2014,"October","Polonnaruwa",42
+2014,"October","Badulla",129
+2014,"October","Moneragala",27
+2014,"October","Ratnapura",171
+2014,"October","Kegalle",132
+2014,"October","Kalmunai",33
+2014,"November","Colombo",1448
+2014,"November","Gampaha",1111
+2014,"November","Kalutara",182
+2014,"November","Kandy",413
+2014,"November","Matale",101
+2014,"November","N Eliya",16
+2014,"November","Galle",109
+2014,"November","Matara",71
+2014,"November","Jaffna",318
+2014,"November","Kilinochchi",15
+2014,"November","Mannar",119
+2014,"November","Vavuniya",14
+2014,"November","Mulativu",17
+2014,"November","Batticaloa",95
+2014,"November","Ampara",15
+2014,"November","Trincomalee",55
+2014,"November","Kurunegala",316
+2014,"November","Puttalam",147
+2014,"November","Apura",54
+2014,"November","Polonnaruwa",53
+2014,"November","Badulla",221
+2014,"November","Moneragala",44
+2014,"November","Ratnapura",124
+2014,"November","Kegalle",151
+2014,"November","Kalmunai",204
+2014,"December","Colombo",1415
+2014,"December","Gampaha",998
+2014,"December","Kalutara",185
+2014,"December","Kandy",377
+2014,"December","Matale",108
+2014,"December","N Eliya",35
+2014,"December","Galle",120
+2014,"December","Matara",70
+2014,"December","Jaffna",424
+2014,"December","Kilinochchi",19
+2014,"December","Mannar",83
+2014,"December","Vavuniya",16
+2014,"December","Mulativu",26
+2014,"December","Batticaloa",176
+2014,"December","Ampara",6
+2014,"December","Trincomalee",79
+2014,"December","Kurunegala",264
+2014,"December","Puttalam",159
+2014,"December","Apura",108
+2014,"December","Polonnaruwa",47
+2014,"December","Badulla",231
+2014,"December","Moneragala",21
+2014,"December","Ratnapura",100
+2014,"December","Kegalle",124
+2014,"December","Kalmunai",147
+2015,"January","Colombo",1802
+2015,"January","Gampaha",817
+2015,"January","Kalutara",276
+2015,"January","Kandy",253
+2015,"January","Matale",166
+2015,"January","N Eliya",38
+2015,"January","Galle",150
+2015,"January","Matara",81
+2015,"January","Jaffna",614
+2015,"January","Kilinochchi",18
+2015,"January","Mannar",50
+2015,"January","Vavuniya",32
+2015,"January","Mulativu",36
+2015,"January","Batticaloa",335
+2015,"January","Ampara",10
+2015,"January","Trincomalee",131
+2015,"January","Kurunegala",329
+2015,"January","Puttalam",256
+2015,"January","Apura",122
+2015,"January","Polonnaruwa",47
+2015,"January","Badulla",195
+2015,"January","Moneragala",46
+2015,"January","Ratnapura",163
+2015,"January","Kegalle",104
+2015,"January","Kalmunai",228
+2015,"February","Colombo",1101
+2015,"February","Gampaha",492
+2015,"February","Kalutara",180
+2015,"February","Kandy",156
+2015,"February","Matale",92
+2015,"February","N Eliya",26
+2015,"February","Galle",118
+2015,"February","Matara",46
+2015,"February","Jaffna",218
+2015,"February","Kilinochchi",11
+2015,"February","Mannar",16
+2015,"February","Vavuniya",15
+2015,"February","Mulativu",17
+2015,"February","Batticaloa",347
+2015,"February","Ampara",5
+2015,"February","Trincomalee",96
+2015,"February","Kurunegala",178
+2015,"February","Puttalam",85
+2015,"February","Apura",78
+2015,"February","Polonnaruwa",48
+2015,"February","Badulla",60
+2015,"February","Moneragala",29
+2015,"February","Ratnapura",122
+2015,"February","Kegalle",57
+2015,"February","Kalmunai",87
+2015,"March","Colombo",537
+2015,"March","Gampaha",255
+2015,"March","Kalutara",106
+2015,"March","Kandy",95
+2015,"March","Matale",26
+2015,"March","N Eliya",13
+2015,"March","Galle",70
+2015,"March","Matara",41
+2015,"March","Jaffna",113
+2015,"March","Kilinochchi",3
+2015,"March","Mannar",2
+2015,"March","Vavuniya",8
+2015,"March","Mulativu",8
+2015,"March","Batticaloa",210
+2015,"March","Ampara",6
+2015,"March","Trincomalee",59
+2015,"March","Kurunegala",108
+2015,"March","Puttalam",34
+2015,"March","Apura",27
+2015,"March","Polonnaruwa",13
+2015,"March","Badulla",30
+2015,"March","Moneragala",15
+2015,"March","Ratnapura",90
+2015,"March","Kegalle",36
+2015,"March","Kalmunai",29
+2015,"April","Colombo",317
+2015,"April","Gampaha",193
+2015,"April","Kalutara",72
+2015,"April","Kandy",63
+2015,"April","Matale",16
+2015,"April","N Eliya",5
+2015,"April","Galle",35
+2015,"April","Matara",28
+2015,"April","Jaffna",48
+2015,"April","Kilinochchi",0
+2015,"April","Mannar",1
+2015,"April","Vavuniya",4
+2015,"April","Mulativu",10
+2015,"April","Batticaloa",124
+2015,"April","Ampara",0
+2015,"April","Trincomalee",81
+2015,"April","Kurunegala",73
+2015,"April","Puttalam",20
+2015,"April","Apura",18
+2015,"April","Polonnaruwa",9
+2015,"April","Badulla",31
+2015,"April","Moneragala",7
+2015,"April","Ratnapura",59
+2015,"April","Kegalle",40
+2015,"April","Kalmunai",21
+2015,"May","Colombo",515
+2015,"May","Gampaha",264
+2015,"May","Kalutara",86
+2015,"May","Kandy",71
+2015,"May","Matale",10
+2015,"May","N Eliya",8
+2015,"May","Galle",26
+2015,"May","Matara",25
+2015,"May","Jaffna",66
+2015,"May","Kilinochchi",2
+2015,"May","Mannar",4
+2015,"May","Vavuniya",15
+2015,"May","Mulativu",12
+2015,"May","Batticaloa",139
+2015,"May","Ampara",5
+2015,"May","Trincomalee",65
+2015,"May","Kurunegala",62
+2015,"May","Puttalam",32
+2015,"May","Apura",12
+2015,"May","Polonnaruwa",12
+2015,"May","Badulla",22
+2015,"May","Moneragala",7
+2015,"May","Ratnapura",70
+2015,"May","Kegalle",54
+2015,"May","Kalmunai",29
+2015,"June","Colombo",515
+2015,"June","Gampaha",225
+2015,"June","Kalutara",78
+2015,"June","Kandy",70
+2015,"June","Matale",16
+2015,"June","N Eliya",8
+2015,"June","Galle",20
+2015,"June","Matara",12
+2015,"June","Jaffna",63
+2015,"June","Kilinochchi",4
+2015,"June","Mannar",2
+2015,"June","Vavuniya",9
+2015,"June","Mulativu",14
+2015,"June","Batticaloa",82
+2015,"June","Ampara",9
+2015,"June","Trincomalee",39
+2015,"June","Kurunegala",61
+2015,"June","Puttalam",42
+2015,"June","Apura",15
+2015,"June","Polonnaruwa",9
+2015,"June","Badulla",30
+2015,"June","Moneragala",18
+2015,"June","Ratnapura",68
+2015,"June","Kegalle",38
+2015,"June","Kalmunai",19
+2015,"July","Colombo",907
+2015,"July","Gampaha",317
+2015,"July","Kalutara",125
+2015,"July","Kandy",64
+2015,"July","Matale",8
+2015,"July","N Eliya",15
+2015,"July","Galle",46
+2015,"July","Matara",21
+2015,"July","Jaffna",69
+2015,"July","Kilinochchi",9
+2015,"July","Mannar",1
+2015,"July","Vavuniya",5
+2015,"July","Mulativu",13
+2015,"July","Batticaloa",65
+2015,"July","Ampara",4
+2015,"July","Trincomalee",30
+2015,"July","Kurunegala",82
+2015,"July","Puttalam",65
+2015,"July","Apura",18
+2015,"July","Polonnaruwa",18
+2015,"July","Badulla",33
+2015,"July","Moneragala",16
+2015,"July","Ratnapura",105
+2015,"July","Kegalle",50
+2015,"July","Kalmunai",13
+2015,"August","Colombo",711
+2015,"August","Gampaha",233
+2015,"August","Kalutara",92
+2015,"August","Kandy",47
+2015,"August","Matale",7
+2015,"August","N Eliya",5
+2015,"August","Galle",80
+2015,"August","Matara",24
+2015,"August","Jaffna",45
+2015,"August","Kilinochchi",7
+2015,"August","Mannar",1
+2015,"August","Vavuniya",4
+2015,"August","Mulativu",7
+2015,"August","Batticaloa",18
+2015,"August","Ampara",6
+2015,"August","Trincomalee",9
+2015,"August","Kurunegala",70
+2015,"August","Puttalam",14
+2015,"August","Apura",13
+2015,"August","Polonnaruwa",12
+2015,"August","Badulla",19
+2015,"August","Moneragala",14
+2015,"August","Ratnapura",74
+2015,"August","Kegalle",49
+2015,"August","Kalmunai",16
+2015,"September","Colombo",401
+2015,"September","Gampaha",186
+2015,"September","Kalutara",57
+2015,"September","Kandy",62
+2015,"September","Matale",8
+2015,"September","N Eliya",6
+2015,"September","Galle",75
+2015,"September","Matara",24
+2015,"September","Jaffna",51
+2015,"September","Kilinochchi",7
+2015,"September","Mannar",2
+2015,"September","Vavuniya",11
+2015,"September","Mulativu",2
+2015,"September","Batticaloa",8
+2015,"September","Ampara",5
+2015,"September","Trincomalee",8
+2015,"September","Kurunegala",27
+2015,"September","Puttalam",12
+2015,"September","Apura",14
+2015,"September","Polonnaruwa",8
+2015,"September","Badulla",10
+2015,"September","Moneragala",2
+2015,"September","Ratnapura",46
+2015,"September","Kegalle",36
+2015,"September","Kalmunai",14
+2015,"October","Colombo",769
+2015,"October","Gampaha",277
+2015,"October","Kalutara",118
+2015,"October","Kandy",154
+2015,"October","Matale",12
+2015,"October","N Eliya",15
+2015,"October","Galle",131
+2015,"October","Matara",72
+2015,"October","Jaffna",76
+2015,"October","Kilinochchi",14
+2015,"October","Mannar",2
+2015,"October","Vavuniya",19
+2015,"October","Mulativu",2
+2015,"October","Batticaloa",31
+2015,"October","Ampara",3
+2015,"October","Trincomalee",6
+2015,"October","Kurunegala",56
+2015,"October","Puttalam",23
+2015,"October","Apura",12
+2015,"October","Polonnaruwa",21
+2015,"October","Badulla",35
+2015,"October","Moneragala",16
+2015,"October","Ratnapura",64
+2015,"October","Kegalle",70
+2015,"October","Kalmunai",7
+2015,"November","Colombo",985
+2015,"November","Gampaha",387
+2015,"November","Kalutara",167
+2015,"November","Kandy",120
+2015,"November","Matale",18
+2015,"November","N Eliya",14
+2015,"November","Galle",151
+2015,"November","Matara",43
+2015,"November","Jaffna",216
+2015,"November","Kilinochchi",11
+2015,"November","Mannar",4
+2015,"November","Vavuniya",16
+2015,"November","Mulativu",6
+2015,"November","Batticaloa",40
+2015,"November","Ampara",3
+2015,"November","Trincomalee",15
+2015,"November","Kurunegala",107
+2015,"November","Puttalam",77
+2015,"November","Apura",29
+2015,"November","Polonnaruwa",25
+2015,"November","Badulla",54
+2015,"November","Moneragala",23
+2015,"November","Ratnapura",93
+2015,"November","Kegalle",80
+2015,"November","Kalmunai",22
+2015,"December","Colombo",1321
+2015,"December","Gampaha",496
+2015,"December","Kalutara",202
+2015,"December","Kandy",170
+2015,"December","Matale",22
+2015,"December","N Eliya",27
+2015,"December","Galle",128
+2015,"December","Matara",42
+2015,"December","Jaffna",437
+2015,"December","Kilinochchi",6
+2015,"December","Mannar",20
+2015,"December","Vavuniya",59
+2015,"December","Mulativu",15
+2015,"December","Batticaloa",75
+2015,"December","Ampara",11
+2015,"December","Trincomalee",48
+2015,"December","Kurunegala",100
+2015,"December","Puttalam",79
+2015,"December","Apura",43
+2015,"December","Polonnaruwa",28
+2015,"December","Badulla",47
+2015,"December","Moneragala",30
+2015,"December","Ratnapura",87
+2015,"December","Kegalle",97
+2015,"December","Kalmunai",53
+2016,"January","Colombo",2184
+2016,"January","Gampaha",862
+2016,"January","Kalutara",321
+2016,"January","Kandy",335
+2016,"January","Matale",51
+2016,"January","N Eliya",44
+2016,"January","Galle",276
+2016,"January","Matara",139
+2016,"January","Jaffna",687
+2016,"January","Kilinochchi",15
+2016,"January","Mannar",42
+2016,"January","Vavuniya",69
+2016,"January","Mulativu",29
+2016,"January","Batticaloa",124
+2016,"January","Ampara",38
+2016,"January","Trincomalee",102
+2016,"January","Kurunegala",241
+2016,"January","Puttalam",206
+2016,"January","Apura",98
+2016,"January","Polonnaruwa",60
+2016,"January","Badulla",85
+2016,"January","Moneragala",58
+2016,"January","Ratnapura",211
+2016,"January","Kegalle",198
+2016,"January","Kalmunai",122
+2016,"February","Colombo",1569
+2016,"February","Gampaha",615
+2016,"February","Kalutara",294
+2016,"February","Kandy",207
+2016,"February","Matale",42
+2016,"February","N Eliya",22
+2016,"February","Galle",135
+2016,"February","Matara",92
+2016,"February","Jaffna",238
+2016,"February","Kilinochchi",16
+2016,"February","Mannar",17
+2016,"February","Vavuniya",22
+2016,"February","Mulativu",18
+2016,"February","Batticaloa",65
+2016,"February","Ampara",19
+2016,"February","Trincomalee",59
+2016,"February","Kurunegala",170
+2016,"February","Puttalam",160
+2016,"February","Apura",65
+2016,"February","Polonnaruwa",48
+2016,"February","Badulla",40
+2016,"February","Moneragala",32
+2016,"February","Ratnapura",135
+2016,"February","Kegalle",153
+2016,"February","Kalmunai",127
+2016,"March","Colombo",1016
+2016,"March","Gampaha",260
+2016,"March","Kalutara",197
+2016,"March","Kandy",93
+2016,"March","Matale",33
+2016,"March","N Eliya",20
+2016,"March","Galle",110
+2016,"March","Matara",43
+2016,"March","Jaffna",150
+2016,"March","Kilinochchi",5
+2016,"March","Mannar",3
+2016,"March","Vavuniya",19
+2016,"March","Mulativu",19
+2016,"March","Batticaloa",34
+2016,"March","Ampara",18
+2016,"March","Trincomalee",42
+2016,"March","Kurunegala",105
+2016,"March","Puttalam",63
+2016,"March","Apura",33
+2016,"March","Polonnaruwa",24
+2016,"March","Badulla",55
+2016,"March","Moneragala",23
+2016,"March","Ratnapura",169
+2016,"March","Kegalle",66
+2016,"March","Kalmunai",49
+2016,"April","Colombo",942
+2016,"April","Gampaha",276
+2016,"April","Kalutara",312
+2016,"April","Kandy",109
+2016,"April","Matale",21
+2016,"April","N Eliya",31
+2016,"April","Galle",120
+2016,"April","Matara",56
+2016,"April","Jaffna",93
+2016,"April","Kilinochchi",7
+2016,"April","Mannar",7
+2016,"April","Vavuniya",26
+2016,"April","Mulativu",22
+2016,"April","Batticaloa",31
+2016,"April","Ampara",18
+2016,"April","Trincomalee",32
+2016,"April","Kurunegala",98
+2016,"April","Puttalam",74
+2016,"April","Apura",50
+2016,"April","Polonnaruwa",33
+2016,"April","Badulla",43
+2016,"April","Moneragala",31
+2016,"April","Ratnapura",237
+2016,"April","Kegalle",90
+2016,"April","Kalmunai",30
+2016,"May","Colombo",693
+2016,"May","Gampaha",221
+2016,"May","Kalutara",249
+2016,"May","Kandy",154
+2016,"May","Matale",29
+2016,"May","N Eliya",18
+2016,"May","Galle",118
+2016,"May","Matara",35
+2016,"May","Jaffna",58
+2016,"May","Kilinochchi",4
+2016,"May","Mannar",16
+2016,"May","Vavuniya",13
+2016,"May","Mulativu",9
+2016,"May","Batticaloa",20
+2016,"May","Ampara",7
+2016,"May","Trincomalee",28
+2016,"May","Kurunegala",194
+2016,"May","Puttalam",53
+2016,"May","Apura",29
+2016,"May","Polonnaruwa",20
+2016,"May","Badulla",32
+2016,"May","Moneragala",18
+2016,"May","Ratnapura",241
+2016,"May","Kegalle",100
+2016,"May","Kalmunai",21
+2016,"June","Colombo",1459
+2016,"June","Gampaha",555
+2016,"June","Kalutara",343
+2016,"June","Kandy",504
+2016,"June","Matale",89
+2016,"June","N Eliya",38
+2016,"June","Galle",121
+2016,"June","Matara",119
+2016,"June","Jaffna",80
+2016,"June","Kilinochchi",4
+2016,"June","Mannar",10
+2016,"June","Vavuniya",7
+2016,"June","Mulativu",18
+2016,"June","Batticaloa",43
+2016,"June","Ampara",22
+2016,"June","Trincomalee",25
+2016,"June","Kurunegala",361
+2016,"June","Puttalam",87
+2016,"June","Apura",40
+2016,"June","Polonnaruwa",31
+2016,"June","Badulla",107
+2016,"June","Moneragala",24
+2016,"June","Ratnapura",395
+2016,"June","Kegalle",149
+2016,"June","Kalmunai",18
+2016,"July","Colombo",3191
+2016,"July","Gampaha",1625
+2016,"July","Kalutara",683
+2016,"July","Kandy",1226
+2016,"July","Matale",348
+2016,"July","N Eliya",111
+2016,"July","Galle",467
+2016,"July","Matara",282
+2016,"July","Jaffna",226
+2016,"July","Kilinochchi",8
+2016,"July","Mannar",10
+2016,"July","Vavuniya",30
+2016,"July","Mulativu",22
+2016,"July","Batticaloa",69
+2016,"July","Ampara",61
+2016,"July","Trincomalee",35
+2016,"July","Kurunegala",598
+2016,"July","Puttalam",144
+2016,"July","Apura",137
+2016,"July","Polonnaruwa",110
+2016,"July","Badulla",169
+2016,"July","Moneragala",70
+2016,"July","Ratnapura",681
+2016,"July","Kegalle",210
+2016,"July","Kalmunai",26
+2016,"August","Colombo",1478
+2016,"August","Gampaha",687
+2016,"August","Kalutara",293
+2016,"August","Kandy",510
+2016,"August","Matale",133
+2016,"August","N Eliya",51
+2016,"August","Galle",253
+2016,"August","Matara",144
+2016,"August","Jaffna",148
+2016,"August","Kilinochchi",8
+2016,"August","Mannar",2
+2016,"August","Vavuniya",12
+2016,"August","Mulativu",12
+2016,"August","Batticaloa",38
+2016,"August","Ampara",17
+2016,"August","Trincomalee",17
+2016,"August","Kurunegala",227
+2016,"August","Puttalam",89
+2016,"August","Apura",91
+2016,"August","Polonnaruwa",38
+2016,"August","Badulla",72
+2016,"August","Moneragala",59
+2016,"August","Ratnapura",275
+2016,"August","Kegalle",153
+2016,"August","Kalmunai",19
+2016,"September","Colombo",939
+2016,"September","Gampaha",526
+2016,"September","Kalutara",195
+2016,"September","Kandy",347
+2016,"September","Matale",135
+2016,"September","N Eliya",25
+2016,"September","Galle",288
+2016,"September","Matara",115
+2016,"September","Jaffna",121
+2016,"September","Kilinochchi",3
+2016,"September","Mannar",12
+2016,"September","Vavuniya",20
+2016,"September","Mulativu",7
+2016,"September","Batticaloa",31
+2016,"September","Ampara",20
+2016,"September","Trincomalee",14
+2016,"September","Kurunegala",125
+2016,"September","Puttalam",47
+2016,"September","Apura",70
+2016,"September","Polonnaruwa",27
+2016,"September","Badulla",127
+2016,"September","Moneragala",46
+2016,"September","Ratnapura",196
+2016,"September","Kegalle",104
+2016,"September","Kalmunai",32
+2016,"October","Colombo",459
+2016,"October","Gampaha",219
+2016,"October","Kalutara",106
+2016,"October","Kandy",165
+2016,"October","Matale",78
+2016,"October","N Eliya",18
+2016,"October","Galle",236
+2016,"October","Matara",82
+2016,"October","Jaffna",91
+2016,"October","Kilinochchi",5
+2016,"October","Mannar",18
+2016,"October","Vavuniya",12
+2016,"October","Mulativu",7
+2016,"October","Batticaloa",13
+2016,"October","Ampara",7
+2016,"October","Trincomalee",9
+2016,"October","Kurunegala",67
+2016,"October","Puttalam",17
+2016,"October","Apura",28
+2016,"October","Polonnaruwa",22
+2016,"October","Badulla",200
+2016,"October","Moneragala",18
+2016,"October","Ratnapura",139
+2016,"October","Kegalle",82
+2016,"October","Kalmunai",57
+2016,"November","Colombo",460
+2016,"November","Gampaha",220
+2016,"November","Kalutara",121
+2016,"November","Kandy",112
+2016,"November","Matale",66
+2016,"November","N Eliya",12
+2016,"November","Galle",281
+2016,"November","Matara",86
+2016,"November","Jaffna",135
+2016,"November","Kilinochchi",1
+2016,"November","Mannar",17
+2016,"November","Vavuniya",5
+2016,"November","Mulativu",7
+2016,"November","Batticaloa",18
+2016,"November","Ampara",4
+2016,"November","Trincomalee",8
+2016,"November","Kurunegala",110
+2016,"November","Puttalam",26
+2016,"November","Apura",30
+2016,"November","Polonnaruwa",23
+2016,"November","Badulla",105
+2016,"November","Moneragala",29
+2016,"November","Ratnapura",143
+2016,"November","Kegalle",60
+2016,"November","Kalmunai",131
+2016,"December","Colombo",2377
+2016,"December","Gampaha",1107
+2016,"December","Kalutara",388
+2016,"December","Kandy",301
+2016,"December","Matale",123
+2016,"December","N Eliya",31
+2016,"December","Galle",681
+2016,"December","Matara",191
+2016,"December","Jaffna",441
+2016,"December","Kilinochchi",10
+2016,"December","Mannar",78
+2016,"December","Vavuniya",33
+2016,"December","Mulativu",12
+2016,"December","Batticaloa",126
+2016,"December","Ampara",29
+2016,"December","Trincomalee",132
+2016,"December","Kurunegala",260
+2016,"December","Puttalam",80
+2016,"December","Apura",60
+2016,"December","Polonnaruwa",43
+2016,"December","Badulla",150
+2016,"December","Moneragala",67
+2016,"December","Ratnapura",308
+2016,"December","Kegalle",148
+2016,"December","Kalmunai",348
+2017,"January","Colombo",2734
+2017,"January","Gampaha",1635
+2017,"January","Kalutara",581
+2017,"January","Kandy",252
+2017,"January","Matale",129
+2017,"January","Nuwara Eliya",50
+2017,"January","Galle",872
+2017,"January","Matara",431
+2017,"January","Jaffna",625
+2017,"January","Kilinochchi",55
+2017,"January","Mannar",147
+2017,"January","Vavuniya",58
+2017,"January","Mulativu",37
+2017,"January","Batticaloa",217
+2017,"January","Ampara",51
+2017,"January","Trincomalee",387
+2017,"January","Kurunegala",403
+2017,"January","Puttalam",196
+2017,"January","Anuradhapura",166
+2017,"January","Polonnaruwa",54
+2017,"January","Badulla",226
+2017,"January","Moneragala",97
+2017,"January","Ratnapura",439
+2017,"January","Kegalle",210
+2017,"January","Kalmunai",574
+2017,"February","Colombo",1900
+2017,"February","Gampaha",1087
+2017,"February","Kalutara",448
+2017,"February","Kandy",207
+2017,"February","Matale",103
+2017,"February","Nuwara Eliya",32
+2017,"February","Galle",567
+2017,"February","Matara",382
+2017,"February","Jaffna",478
+2017,"February","Kilinochchi",84
+2017,"February","Mannar",91
+2017,"February","Vavuniya",76
+2017,"February","Mulativu",32
+2017,"February","Batticaloa",465
+2017,"February","Ampara",51
+2017,"February","Trincomalee",661
+2017,"February","Kurunegala",381
+2017,"February","Puttalam",132
+2017,"February","Anuradhapura",147
+2017,"February","Polonnaruwa",64
+2017,"February","Badulla",130
+2017,"February","Moneragala",97
+2017,"February","Ratnapura",360
+2017,"February","Kegalle",230
+2017,"February","Kalmunai",294
+2017,"March","Colombo",2467
+2017,"March","Gampaha",1870
+2017,"March","Kalutara",836
+2017,"March","Kandy",369
+2017,"March","Matale",145
+2017,"March","Nuwara Eliya",42
+2017,"March","Galle",424
+2017,"March","Matara",337
+2017,"March","Jaffna",863
+2017,"March","Kilinochchi",35
+2017,"March","Mannar",65
+2017,"March","Vavuniya",143
+2017,"March","Mulativu",21
+2017,"March","Batticaloa",828
+2017,"March","Ampara",59
+2017,"March","Trincomalee",2114
+2017,"March","Kurunegala",505
+2017,"March","Puttalam",212
+2017,"March","Anuradhapura",255
+2017,"March","Polonnaruwa",98
+2017,"March","Badulla",139
+2017,"March","Moneragala",112
+2017,"March","Ratnapura",507
+2017,"March","Kegalle",377
+2017,"March","Kalmunai",378
+2017,"April","Colombo",2570
+2017,"April","Gampaha",2072
+2017,"April","Kalutara",739
+2017,"April","Kandy",443
+2017,"April","Matale",120
+2017,"April","Nuwara Eliya",37
+2017,"April","Galle",265
+2017,"April","Matara",354
+2017,"April","Jaffna",499
+2017,"April","Kilinochchi",46
+2017,"April","Mannar",90
+2017,"April","Vavuniya",83
+2017,"April","Mulativu",16
+2017,"April","Batticaloa",1182
+2017,"April","Ampara",72
+2017,"April","Trincomalee",936
+2017,"April","Kurunegala",629
+2017,"April","Puttalam",318
+2017,"April","Anuradhapura",193
+2017,"April","Polonnaruwa",172
+2017,"April","Badulla",167
+2017,"April","Moneragala",126
+2017,"April","Ratnapura",519
+2017,"April","Kegalle",332
+2017,"April","Kalmunai",197
+2017,"May","Colombo",3333
+2017,"May","Gampaha",3168
+2017,"May","Kalutara",946
+2017,"May","Kandy",862
+2017,"May","Matale",165
+2017,"May","Nuwara Eliya",57
+2017,"May","Galle",394
+2017,"May","Matara",488
+2017,"May","Jaffna",301
+2017,"May","Kilinochchi",21
+2017,"May","Mannar",60
+2017,"May","Vavuniya",65
+2017,"May","Mulativu",27
+2017,"May","Batticaloa",869
+2017,"May","Ampara",75
+2017,"May","Trincomalee",158
+2017,"May","Kurunegala",1281
+2017,"May","Puttalam",612
+2017,"May","Anuradhapura",249
+2017,"May","Polonnaruwa",160
+2017,"May","Badulla",186
+2017,"May","Moneragala",164
+2017,"May","Ratnapura",1161
+2017,"May","Kegalle",700
+2017,"May","Kalmunai",162
+2017,"June","Colombo",5372
+2017,"June","Gampaha",4901
+2017,"June","Kalutara",1248
+2017,"June","Kandy",2314
+2017,"June","Matale",436
+2017,"June","Nuwara Eliya",94
+2017,"June","Galle",623
+2017,"June","Matara",581
+2017,"June","Jaffna",288
+2017,"June","Kilinochchi",21
+2017,"June","Mannar",23
+2017,"June","Vavuniya",81
+2017,"June","Mulativu",37
+2017,"June","Batticaloa",465
+2017,"June","Ampara",105
+2017,"June","Trincomalee",136
+2017,"June","Kurunegala",2030
+2017,"June","Puttalam",783
+2017,"June","Anuradhapura",378
+2017,"June","Polonnaruwa",190
+2017,"June","Badulla",400
+2017,"June","Moneragala",449
+2017,"June","Ratnapura",1908
+2017,"June","Kegalle",1945
+2017,"June","Kalmunai",127
+2017,"July","Colombo",7471
+2017,"July","Gampaha",9039
+2017,"July","Kalutara",2612
+2017,"July","Kandy",3855
+2017,"July","Matale",766
+2017,"July","Nuwara Eliya",294
+2017,"July","Galle",1072
+2017,"July","Matara",1789
+2017,"July","Jaffna",376
+2017,"July","Kilinochchi",90
+2017,"July","Mannar",23
+2017,"July","Vavuniya",137
+2017,"July","Mulativu",71
+2017,"July","Batticaloa",273
+2017,"July","Ampara",225
+2017,"July","Trincomalee",154
+2017,"July","Kurunegala",2300
+2017,"July","Puttalam",1304
+2017,"July","Anuradhapura",709
+2017,"July","Polonnaruwa",320
+2017,"July","Badulla",1220
+2017,"July","Moneragala",569
+2017,"July","Ratnapura",3175
+2017,"July","Kegalle",2551
+2017,"July","Kalmunai",197
+2017,"August","Colombo",3620
+2017,"August","Gampaha",3553
+2017,"August","Kalutara",1477
+2017,"August","Kandy",2354
+2017,"August","Matale",534
+2017,"August","Nuwara Eliya",159
+2017,"August","Galle",877
+2017,"August","Matara",1029
+2017,"August","Jaffna",290
+2017,"August","Kilinochchi",59
+2017,"August","Mannar",5
+2017,"August","Vavuniya",92
+2017,"August","Mulativu",50
+2017,"August","Batticaloa",197
+2017,"August","Ampara",100
+2017,"August","Trincomalee",99
+2017,"August","Kurunegala",1487
+2017,"August","Puttalam",1192
+2017,"August","Anuradhapura",299
+2017,"August","Polonnaruwa",104
+2017,"August","Badulla",490
+2017,"August","Moneragala",348
+2017,"August","Ratnapura",1661
+2017,"August","Kegalle",1684
+2017,"August","Kalmunai",151
+2017,"September","Colombo",1251
+2017,"September","Gampaha",1246
+2017,"September","Kalutara",663
+2017,"September","Kandy",1090
+2017,"September","Matale",167
+2017,"September","Nuwara Eliya",39
+2017,"September","Galle",364
+2017,"September","Matara",403
+2017,"September","Jaffna",341
+2017,"September","Kilinochchi",30
+2017,"September","Mannar",3
+2017,"September","Vavuniya",52
+2017,"September","Mulativu",23
+2017,"September","Batticaloa",143
+2017,"September","Ampara",62
+2017,"September","Trincomalee",68
+2017,"September","Kurunegala",576
+2017,"September","Puttalam",419
+2017,"September","Anuradhapura",96
+2017,"September","Polonnaruwa",54
+2017,"September","Badulla",273
+2017,"September","Moneragala",300
+2017,"September","Ratnapura",740
+2017,"September","Kegalle",746
+2017,"September","Kalmunai",128
+2017,"October","Colombo",823
+2017,"October","Gampaha",779
+2017,"October","Kalutara",337
+2017,"October","Kandy",821
+2017,"October","Matale",177
+2017,"October","Nuwara Eliya",27
+2017,"October","Galle",160
+2017,"October","Matara",174
+2017,"October","Jaffna",593
+2017,"October","Kilinochchi",17
+2017,"October","Mannar",6
+2017,"October","Vavuniya",48
+2017,"October","Mulativu",12
+2017,"October","Batticaloa",140
+2017,"October","Ampara",41
+2017,"October","Trincomalee",64
+2017,"October","Kurunegala",368
+2017,"October","Puttalam",501
+2017,"October","Anuradhapura",77
+2017,"October","Polonnaruwa",51
+2017,"October","Badulla",148
+2017,"October","Moneragala",357
+2017,"October","Ratnapura",251
+2017,"October","Kegalle",264
+2017,"October","Kalmunai",159
+2017,"November","Colombo",1131
+2017,"November","Gampaha",1069
+2017,"November","Kalutara",441
+2017,"November","Kandy",884
+2017,"November","Matale",178
+2017,"November","Nuwara Eliya",22
+2017,"November","Galle",254
+2017,"November","Matara",166
+2017,"November","Jaffna",509
+2017,"November","Kilinochchi",28
+2017,"November","Mannar",8
+2017,"November","Vavuniya",97
+2017,"November","Mulativu",16
+2017,"November","Batticaloa",268
+2017,"November","Ampara",31
+2017,"November","Trincomalee",84
+2017,"November","Kurunegala",733
+2017,"November","Puttalam",1037
+2017,"November","Anuradhapura",126
+2017,"November","Polonnaruwa",59
+2017,"November","Badulla",163
+2017,"November","Moneragala",334
+2017,"November","Ratnapura",189
+2017,"November","Kegalle",229
+2017,"November","Kalmunai",190
+2017,"December","Colombo",595
+2017,"December","Gampaha",431
+2017,"December","Kalutara",81
+2017,"December","Kandy",387
+2017,"December","Matale",71
+2017,"December","Nuwara Eliya",19
+2017,"December","Galle",86
+2017,"December","Matara",38
+2017,"December","Jaffna",289
+2017,"December","Kilinochchi",9
+2017,"December","Mannar",5
+2017,"December","Vavuniya",49
+2017,"December","Mulativu",6
+2017,"December","Batticaloa",184
+2017,"December","Ampara",9
+2017,"December","Trincomalee",23
+2017,"December","Kurunegala",239
+2017,"December","Puttalam",473
+2017,"December","Anuradhapura",49
+2017,"December","Polonnaruwa",14
+2017,"December","Badulla",50
+2017,"December","Moneragala",108
+2017,"December","Ratnapura",56
+2017,"December","Kegalle",32
+2017,"December","Kalmunai",143
+2018,"January","Colombo",1177
+2018,"January","Gampaha",711
+2018,"January","Kalutara",431
+2018,"January","Kandy",481
+2018,"January","Matale",139
+2018,"January","Nuwara Eliya",23
+2018,"January","Galle",76
+2018,"January","Matara",136
+2018,"January","Jaffna",637
+2018,"January","Kilinochchi",38
+2018,"January","Mannar",12
+2018,"January","Vavuniya",71
+2018,"January","Mulativu",10
+2018,"January","Batticaloa",598
+2018,"January","Ampara",24
+2018,"January","Trincomalee",94
+2018,"January","Kurunegala",505
+2018,"January","Puttalam",537
+2018,"January","Anuradhapura",107
+2018,"January","Polonnaruwa",45
+2018,"January","Badulla",76
+2018,"January","Moneragala",185
+2018,"January","Ratnapura",178
+2018,"January","Kegalle",188
+2018,"January","Kalmunai",573
+2018,"February","Colombo",616
+2018,"February","Gampaha",404
+2018,"February","Kalutara",314
+2018,"February","Kandy",271
+2018,"February","Matale",69
+2018,"February","Nuwara Eliya",16
+2018,"February","Galle",38
+2018,"February","Matara",120
+2018,"February","Jaffna",310
+2018,"February","Kilinochchi",30
+2018,"February","Mannar",2
+2018,"February","Vavuniya",46
+2018,"February","Mulativu",2
+2018,"February","Batticaloa",496
+2018,"February","Ampara",14
+2018,"February","Trincomalee",88
+2018,"February","Kurunegala",309
+2018,"February","Puttalam",270
+2018,"February","Anuradhapura",120
+2018,"February","Polonnaruwa",20
+2018,"February","Badulla",39
+2018,"February","Moneragala",120
+2018,"February","Ratnapura",199
+2018,"February","Kegalle",114
+2018,"February","Kalmunai",230
+2018,"March","Colombo",468
+2018,"March","Gampaha",239
+2018,"March","Kalutara",302
+2018,"March","Kandy",178
+2018,"March","Matale",68
+2018,"March","Nuwara Eliya",10
+2018,"March","Galle",15
+2018,"March","Matara",94
+2018,"March","Jaffna",200
+2018,"March","Kilinochchi",27
+2018,"March","Mannar",5
+2018,"March","Vavuniya",42
+2018,"March","Mulativu",2
+2018,"March","Batticaloa",548
+2018,"March","Ampara",14
+2018,"March","Trincomalee",37
+2018,"March","Kurunegala",175
+2018,"March","Puttalam",124
+2018,"March","Anuradhapura",54
+2018,"March","Polonnaruwa",17
+2018,"March","Badulla",23
+2018,"March","Moneragala",81
+2018,"March","Ratnapura",138
+2018,"March","Kegalle",99
+2018,"March","Kalmunai",120
+2018,"April","Colombo",84
+2018,"April","Gampaha",34
+2018,"April","Kalutara",15
+2018,"April","Kandy",30
+2018,"April","Matale",11
+2018,"April","Nuwara Eliya",4
+2018,"April","Galle",0
+2018,"April","Matara",13
+2018,"April","Jaffna",17
+2018,"April","Kilinochchi",2
+2018,"April","Mannar",3
+2018,"April","Vavuniya",3
+2018,"April","Mulativu",0
+2018,"April","Batticaloa",116
+2018,"April","Ampara",1
+2018,"April","Trincomalee",1
+2018,"April","Kurunegala",30
+2018,"April","Puttalam",1
+2018,"April","Anuradhapura",0
+2018,"April","Polonnaruwa",6
+2018,"April","Badulla",4
+2018,"April","Moneragala",8
+2018,"April","Ratnapura",20
+2018,"April","Kegalle",13
+2018,"April","Kalmunai",25
+2018,"May","Colombo",NA
+2018,"May","Gampaha",NA
+2018,"May","Kalutara",NA
+2018,"May","Kandy",NA
+2018,"May","Matale",NA
+2018,"May","Nuwara Eliya",NA
+2018,"May","Galle",NA
+2018,"May","Matara",NA
+2018,"May","Jaffna",NA
+2018,"May","Kilinochchi",NA
+2018,"May","Mannar",NA
+2018,"May","Vavuniya",NA
+2018,"May","Mulativu",NA
+2018,"May","Batticaloa",NA
+2018,"May","Ampara",NA
+2018,"May","Trincomalee",NA
+2018,"May","Kurunegala",NA
+2018,"May","Puttalam",NA
+2018,"May","Anuradhapura",NA
+2018,"May","Polonnaruwa",NA
+2018,"May","Badulla",NA
+2018,"May","Moneragala",NA
+2018,"May","Ratnapura",NA
+2018,"May","Kegalle",NA
+2018,"May","Kalmunai",NA
+2018,"June","Colombo",NA
+2018,"June","Gampaha",NA
+2018,"June","Kalutara",NA
+2018,"June","Kandy",NA
+2018,"June","Matale",NA
+2018,"June","Nuwara Eliya",NA
+2018,"June","Galle",NA
+2018,"June","Matara",NA
+2018,"June","Jaffna",NA
+2018,"June","Kilinochchi",NA
+2018,"June","Mannar",NA
+2018,"June","Vavuniya",NA
+2018,"June","Mulativu",NA
+2018,"June","Batticaloa",NA
+2018,"June","Ampara",NA
+2018,"June","Trincomalee",NA
+2018,"June","Kurunegala",NA
+2018,"June","Puttalam",NA
+2018,"June","Anuradhapura",NA
+2018,"June","Polonnaruwa",NA
+2018,"June","Badulla",NA
+2018,"June","Moneragala",NA
+2018,"June","Ratnapura",NA
+2018,"June","Kegalle",NA
+2018,"June","Kalmunai",NA
+2018,"July","Colombo",NA
+2018,"July","Gampaha",NA
+2018,"July","Kalutara",NA
+2018,"July","Kandy",NA
+2018,"July","Matale",NA
+2018,"July","Nuwara Eliya",NA
+2018,"July","Galle",NA
+2018,"July","Matara",NA
+2018,"July","Jaffna",NA
+2018,"July","Kilinochchi",NA
+2018,"July","Mannar",NA
+2018,"July","Vavuniya",NA
+2018,"July","Mulativu",NA
+2018,"July","Batticaloa",NA
+2018,"July","Ampara",NA
+2018,"July","Trincomalee",NA
+2018,"July","Kurunegala",NA
+2018,"July","Puttalam",NA
+2018,"July","Anuradhapura",NA
+2018,"July","Polonnaruwa",NA
+2018,"July","Badulla",NA
+2018,"July","Moneragala",NA
+2018,"July","Ratnapura",NA
+2018,"July","Kegalle",NA
+2018,"July","Kalmunai",NA
+2018,"August","Colombo",NA
+2018,"August","Gampaha",NA
+2018,"August","Kalutara",NA
+2018,"August","Kandy",NA
+2018,"August","Matale",NA
+2018,"August","Nuwara Eliya",NA
+2018,"August","Galle",NA
+2018,"August","Matara",NA
+2018,"August","Jaffna",NA
+2018,"August","Kilinochchi",NA
+2018,"August","Mannar",NA
+2018,"August","Vavuniya",NA
+2018,"August","Mulativu",NA
+2018,"August","Batticaloa",NA
+2018,"August","Ampara",NA
+2018,"August","Trincomalee",NA
+2018,"August","Kurunegala",NA
+2018,"August","Puttalam",NA
+2018,"August","Anuradhapura",NA
+2018,"August","Polonnaruwa",NA
+2018,"August","Badulla",NA
+2018,"August","Moneragala",NA
+2018,"August","Ratnapura",NA
+2018,"August","Kegalle",NA
+2018,"August","Kalmunai",NA
+2018,"September","Colombo",NA
+2018,"September","Gampaha",NA
+2018,"September","Kalutara",NA
+2018,"September","Kandy",NA
+2018,"September","Matale",NA
+2018,"September","Nuwara Eliya",NA
+2018,"September","Galle",NA
+2018,"September","Matara",NA
+2018,"September","Jaffna",NA
+2018,"September","Kilinochchi",NA
+2018,"September","Mannar",NA
+2018,"September","Vavuniya",NA
+2018,"September","Mulativu",NA
+2018,"September","Batticaloa",NA
+2018,"September","Ampara",NA
+2018,"September","Trincomalee",NA
+2018,"September","Kurunegala",NA
+2018,"September","Puttalam",NA
+2018,"September","Anuradhapura",NA
+2018,"September","Polonnaruwa",NA
+2018,"September","Badulla",NA
+2018,"September","Moneragala",NA
+2018,"September","Ratnapura",NA
+2018,"September","Kegalle",NA
+2018,"September","Kalmunai",NA
+2018,"October","Colombo",NA
+2018,"October","Gampaha",NA
+2018,"October","Kalutara",NA
+2018,"October","Kandy",NA
+2018,"October","Matale",NA
+2018,"October","Nuwara Eliya",NA
+2018,"October","Galle",NA
+2018,"October","Matara",NA
+2018,"October","Jaffna",NA
+2018,"October","Kilinochchi",NA
+2018,"October","Mannar",NA
+2018,"October","Vavuniya",NA
+2018,"October","Mulativu",NA
+2018,"October","Batticaloa",NA
+2018,"October","Ampara",NA
+2018,"October","Trincomalee",NA
+2018,"October","Kurunegala",NA
+2018,"October","Puttalam",NA
+2018,"October","Anuradhapura",NA
+2018,"October","Polonnaruwa",NA
+2018,"October","Badulla",NA
+2018,"October","Moneragala",NA
+2018,"October","Ratnapura",NA
+2018,"October","Kegalle",NA
+2018,"October","Kalmunai",NA
+2018,"November","Colombo",NA
+2018,"November","Gampaha",NA
+2018,"November","Kalutara",NA
+2018,"November","Kandy",NA
+2018,"November","Matale",NA
+2018,"November","Nuwara Eliya",NA
+2018,"November","Galle",NA
+2018,"November","Matara",NA
+2018,"November","Jaffna",NA
+2018,"November","Kilinochchi",NA
+2018,"November","Mannar",NA
+2018,"November","Vavuniya",NA
+2018,"November","Mulativu",NA
+2018,"November","Batticaloa",NA
+2018,"November","Ampara",NA
+2018,"November","Trincomalee",NA
+2018,"November","Kurunegala",NA
+2018,"November","Puttalam",NA
+2018,"November","Anuradhapura",NA
+2018,"November","Polonnaruwa",NA
+2018,"November","Badulla",NA
+2018,"November","Moneragala",NA
+2018,"November","Ratnapura",NA
+2018,"November","Kegalle",NA
+2018,"November","Kalmunai",NA
+2018,"December","Colombo",NA
+2018,"December","Gampaha",NA
+2018,"December","Kalutara",NA
+2018,"December","Kandy",NA
+2018,"December","Matale",NA
+2018,"December","Nuwara Eliya",NA
+2018,"December","Galle",NA
+2018,"December","Matara",NA
+2018,"December","Jaffna",NA
+2018,"December","Kilinochchi",NA
+2018,"December","Mannar",NA
+2018,"December","Vavuniya",NA
+2018,"December","Mulativu",NA
+2018,"December","Batticaloa",NA
+2018,"December","Ampara",NA
+2018,"December","Trincomalee",NA
+2018,"December","Kurunegala",NA
+2018,"December","Puttalam",NA
+2018,"December","Anuradhapura",NA
+2018,"December","Polonnaruwa",NA
+2018,"December","Badulla",NA
+2018,"December","Moneragala",NA
+2018,"December","Ratnapura",NA
+2018,"December","Kegalle",NA
+2018,"December","Kalmunai",NA
