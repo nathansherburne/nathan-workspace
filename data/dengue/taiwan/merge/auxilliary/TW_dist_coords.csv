@@ -1,0 +1,379 @@
+"City","District","lon","lat"
+"Changhua County","Beidou Township",120.5336665,23.869208
+"Changhua County","Dacheng Township",NA,NA
+"Changhua County","Dacun Township",120.5394232,23.9910777
+"Changhua County","Erlin Township",120.4011911,23.9141358
+"Changhua County","Ershui Township",120.6257423,23.8062757
+"Changhua County","Fangyuan Township",120.3550808,23.9455949
+"Changhua County","Fenyuan Township",120.6283561,24.0133127
+"Changhua County","Fuxing Township",120.4242401,24.0377011
+"Changhua County","Hemei Township",120.5163949,24.1246022
+"Changhua County","Huatan Township",120.5624474,24.0288453
+"Changhua County","Lukang Township",120.447285,24.0755127
+"Changhua County","Other",NA,NA
+"Changhua County","Pitou Township",120.4703258,23.8776623
+"Changhua County","Puxin Township",NA,NA
+"Changhua County","Puyan Township",120.447285,23.9898141
+"Changhua County","Shengang Township",120.4933624,24.1724928
+"Changhua County","Shetou Township",NA,NA
+"Changhua County","Tianwei Township",NA,NA
+"Changhua County","Tianzhong Township",120.5854674,23.8525401
+"Changhua County","Xianxi Township",120.4530456,24.1331612
+"Changhua County","Xihu Township",120.4933624,23.9583265
+"Changhua County","Xiushui Township",NA,NA
+"Changhua County","Xizhou Township",120.5163949,23.8247844
+"Changhua County","Yongjing Township",120.5451797,23.9202279
+"Changhua County","Yuanlin Township",120.5854674,23.959574
+"Changhua County","Zhutang Township",120.4242401,23.8448257
+"Nantou County","Caotun Township",120.7234992,23.9933816
+"Nantou County","Guoxing Township",120.8728615,24.0564429
+"Nantou County","Jiji Township",NA,NA
+"Nantou County","Lugu Township",120.7809676,23.7348372
+"Nantou County","Mingjian Township",NA,NA
+"Nantou County","Other",NA,NA
+"Nantou County","Puli Township",NA,NA
+"Nantou County","Ren'ai Township",121.1252135,24.0213745
+"Nantou County","Shuili Township",NA,NA
+"Nantou County","Xinyi Township",NA,NA
+"Nantou County","Yuchi Township",NA,NA
+"Nantou County","Zhongliao Township",NA,NA
+"Nantou County","Zhushan Township",120.6890055,23.712201
+"Taichung City","Beitun District",120.6861019,24.1815237
+"Taichung City","Central District",NA,NA
+"Taichung City","Da'an District",120.5912217,24.3702355
+"Taichung City","Dadu District",120.5624474,24.1358732
+"Taichung City","Dajia District",120.6487508,24.3788233
+"Taichung City","Dali District",120.6812114,24.1046899
+"Taichung City","Daya District",120.6545022,24.2225023
+"Taichung City","Dongshi District",120.8272085,24.2599898
+"Taichung City","East District",120.6944233,24.1427702
+"Taichung City","Fengyuan District",120.7223572,24.2521156
+"Taichung City","Heping District",121.3084088,24.3207261
+"Taichung City","Houli District",NA,NA
+"Taichung City","Longjing District",120.5163949,24.2102428
+"Taichung City","Nantun District",120.6084832,24.1471183
+"Taichung City","North District",120.6832556,24.1573171
+"Taichung City","Other",NA,NA
+"Taichung City","Qingshui District",120.5854674,24.301983
+"Taichung City","Shalu District",120.5854674,24.2377939
+"Taichung City","Shengang District",NA,NA
+"Taichung City","Shigang District",120.7771553,24.2742426
+"Taichung City","South District",120.6624117,24.1208445
+"Taichung City","Taiping District",120.7170701,24.1240719
+"Taichung City","Tanzi District",NA,NA
+"Taichung City","Waipu District",120.6533224,24.3317733
+"Taichung City","West District",NA,NA
+"Taichung City","Wufeng District",120.734995,24.0442951
+"Taichung City","Wuqi District",120.5394232,24.2479737
+"Taichung City","Wuri District",120.6380936,24.107787
+"Taichung City","Xinshe District",NA,NA
+"Taichung City","Xitun District",120.6424333,24.1769764
+"Hualien County","Fengbin Township",NA,NA
+"Hualien County","Fenglin Township",121.4570447,23.7443841
+"Hualien County","Fuli Township",121.2855249,23.154416
+"Hualien County","Guangfu Township",NA,NA
+"Hualien County","Ji'an Township",121.5841779,23.9732022
+"Hualien County","Other",NA,NA
+"Hualien County","Ruisui Township",NA,NA
+"Hualien County","Shoufeng Township",NA,NA
+"Hualien County","Wanrong Township",NA,NA
+"Hualien County","Xincheng Township",121.6043742,24.0327075
+"Hualien County","Xiulin Township",121.5370003,24.2258575
+"Hualien County","Yuli Township",NA,NA
+"Hualien County","Zhuoxi Township",NA,NA
+"Taitung County","Beinan Township",NA,NA
+"Taitung County","Changbin Township",NA,NA
+"Taitung County","Chenggong Township",NA,NA
+"Taitung County","Chishang Township",NA,NA
+"Taitung County","Daren Township",NA,NA
+"Taitung County","Dawu Township",NA,NA
+"Taitung County","Donghe Township",121.2855249,23.0691722
+"Taitung County","Guanshan Township",NA,NA
+"Taitung County","Haiduan Township",121.03351,23.1028073
+"Taitung County","Jinfeng Township",NA,NA
+"Taitung County","Lanyu Township",NA,NA
+"Taitung County","Ludao Township",121.4901443,22.6620886
+"Taitung County","Luye Township",NA,NA
+"Taitung County","Other",NA,NA
+"Taitung County","Taimali Township",NA,NA
+"Taitung County","Yanping Township",NA,NA
+"Kaohsiung City","Alian District",NA,NA
+"Kaohsiung City","Daliao District",120.4011911,22.584481
+"Kaohsiung City","Dashe District",120.3608455,22.7377083
+"Kaohsiung City","Dashu District",120.4242401,22.708371
+"Kaohsiung City","Fengshan District",120.3493158,22.6113591
+"Kaohsiung City","Gangshan District",120.2858846,22.8016472
+"Kaohsiung City","Gushan District",NA,NA
+"Kaohsiung City","Hunei District",NA,NA
+"Kaohsiung City","Jiaxian District",120.6314948,23.114592
+"Kaohsiung City","Lingya District",NA,NA
+"Kaohsiung City","Linyuan District",120.4011911,22.4986756
+"Kaohsiung City","Liugui District",120.6545022,23.0026195
+"Kaohsiung City","Luzhu District",120.2628111,22.8494042
+"Kaohsiung City","Maolin District",120.734995,22.9319405
+"Kaohsiung City","Meinong District",120.5509358,22.885385
+"Kaohsiung City","Mituo District",120.2455033,22.7832231
+"Kaohsiung City","Namaxia District",120.734995,23.2742978
+"Kaohsiung City","Nanzi District",120.3031871,22.7175372
+"Kaohsiung City","Neimen District",120.4703258,22.9560087
+"Kaohsiung City","Niaosong District",120.3723741,22.6602052
+"Kaohsiung City","Other",NA,NA
+"Kaohsiung City","Qianjin District",120.2945362,22.6254162
+"Kaohsiung City","Qianzhen District",120.3147208,22.5970794
+"Kaohsiung City","Qiaotou District",120.3089541,22.7539012
+"Kaohsiung City","Qieding District",120.2108809,22.8763476
+"Kaohsiung City","Qijin District",120.2659394,22.6141771
+"Kaohsiung City","Qishan District",120.4703258,22.8702492
+"Kaohsiung City","Renwu District",120.3608455,22.6947932
+"Kaohsiung City","Sanmin District",NA,NA
+"Kaohsiung City","Shanlin District",120.5624474,23.0007902
+"Kaohsiung City","Taoyuan District",120.8498944,23.2280755
+"Kaohsiung City","Tianliao District",120.4011911,22.8633474
+"Kaohsiung City","Xiaogang District",120.3608455,22.5553185
+"Kaohsiung City","Xinxing District",NA,NA
+"Kaohsiung City","Yanchao District",NA,NA
+"Kaohsiung City","Yancheng District",120.2830007,22.6224414
+"Kaohsiung City","Yong'an District",120.2397336,22.8112691
+"Kaohsiung City","Ziguan District",NA,NA
+"Kaohsiung City","Zuoying District",120.2916524,22.6877358
+"Penghu County","Baisha Township",NA,NA
+"Penghu County","Huxi Township",NA,NA
+"Penghu County","Other",NA,NA
+"Penghu County","Qimei Township",119.4353441,23.2087756
+"Penghu County","Wang'an Township",119.5,23.3833333
+"Penghu County","Xiyu Township",119.5136711,23.6054584
+"Pingtung County","Changzhi Township",120.5624474,22.700828
+"Pingtung County","Chaozhou Township",NA,NA
+"Pingtung County","Checheng Township",120.7464897,22.0843074
+"Pingtung County","Chunri Township",NA,NA
+"Pingtung County","Donggang Township",NA,NA
+"Pingtung County","Fangliao Township",NA,NA
+"Pingtung County","Fangshan Township",NA,NA
+"Pingtung County","Gaoshu Township",120.6003824,22.8254924
+"Pingtung County","Hengchun Township",NA,NA
+"Pingtung County","Jiadong Township",120.5394232,22.427078
+"Pingtung County","Jiuru Township",120.4703258,22.7416068
+"Pingtung County","Kanding Township",120.4991209,22.5158427
+"Pingtung County","Laiyi Township",NA,NA
+"Pingtung County","Ligang Township",NA,NA
+"Pingtung County","Linbian Township",NA,NA
+"Pingtung County","Linluo Township",120.5336665,22.6586565
+"Pingtung County","Liuqiu Township",NA,NA
+"Pingtung County","Majia Township",NA,NA
+"Pingtung County","Manzhou Township",120.8384093,22.04385
+"Pingtung County","Mudan Township",NA,NA
+"Pingtung County","Nanzhou Township",120.5163949,22.4747339
+"Pingtung County","Neipu Township",120.5663201,22.6151342
+"Pingtung County","Other",NA,NA
+"Pingtung County","Sandimen Township",120.6890055,22.8133088
+"Pingtung County","Shizi Township",120.734995,22.2471686
+"Pingtung County","Taiwu Township",120.6890055,22.5992424
+"Pingtung County","Wandan Township",120.4703258,22.591522
+"Pingtung County","Wanluan Township",NA,NA
+"Pingtung County","Wutai Township",120.7809676,22.7509887
+"Pingtung County","Xinpi Township",120.5854674,22.4817586
+"Pingtung County","Xinyuan Township",120.442154,22.4774001
+"Pingtung County","Yanpu Township",120.5624474,22.7436807
+"Pingtung County","Zhutian Township",120.5326679,22.5939138
+"Hsinchu City","East District",120.9933678,24.7920604
+"Hsinchu City","North District",120.9474747,24.8238676
+"Hsinchu City","Other",NA,NA
+"Hsinchu City","Xiangshan District",120.9302603,24.7798216
+"Hsinchu County","Baoshan Township",120.9991032,24.7427912
+"Hsinchu County","Beipu Township",121.067907,24.6631393
+"Hsinchu County","Emei Township",120.9991032,24.6788411
+"Hsinchu County","Guanxi Township",NA,NA
+"Hsinchu County","Hengshan Township",121.1366715,24.7113011
+"Hsinchu County","Hukou Township",NA,NA
+"Hsinchu County","Jianshi Township",121.3084088,24.5760667
+"Hsinchu County","Other",NA,NA
+"Hsinchu County","Qionglin Township",121.1080244,24.765792
+"Hsinchu County","Wufeng Township",NA,NA
+"Hsinchu County","Xinfeng Township",120.9991032,24.9132859
+"Hsinchu County","Xinpu Township",NA,NA
+"Hsinchu County","Zhudong Township",NA,NA
+"Miaoli County","Dahu Township",120.8728615,24.3980966
+"Miaoli County","Gongguan Township",120.8384093,24.5019211
+"Miaoli County","Houlong Township",120.7906035,24.6144348
+"Miaoli County","Nanzhuang Township",121.0105733,24.5802942
+"Miaoli County","Other",NA,NA
+"Miaoli County","Sanwan Township",120.9302603,24.6305288
+"Miaoli County","Sanyi Township",120.769476,24.3892633
+"Miaoli County","Shitan Township",NA,NA
+"Miaoli County","Tai'an Township",121.03351,24.3831955
+"Miaoli County","Tongluo Township",120.792458,24.4481942
+"Miaoli County","Tongxiao Township",120.7234992,24.485028
+"Miaoli County","Toufen Township",NA,NA
+"Miaoli County","Touwu Township",120.8545433,24.5765856
+"Miaoli County","Xihu Township",NA,NA
+"Miaoli County","Yuanli Township",120.6775054,24.4098262
+"Miaoli County","Zaoqiao Township",NA,NA
+"Miaoli County","Zhunan Township",NA,NA
+"Miaoli County","Zhuolan Township",NA,NA
+"Taoyuan City","Bade District",121.2912463,24.9469059
+"Taoyuan City","Daxi District",NA,NA
+"Taoyuan City","Dayuan District",NA,NA
+"Taoyuan City","Fuxing District",NA,NA
+"Taoyuan City","Guanyin District",NA,NA
+"Taoyuan City","Guishan District",121.3655989,25.0199092
+"Taoyuan City","Longtan District",121.2053963,24.8444927
+"Taoyuan City","Luzhu District",NA,NA
+"Taoyuan City","Other",NA,NA
+"Taoyuan City","Pingzhen District",121.2053963,24.9296022
+"Taoyuan City","Taoyuan District",121.2300015,24.9553806
+"Taoyuan City","Xinwu District",NA,NA
+"Taoyuan City","Yangmei District",121.1366715,24.9242108
+"Taoyuan City","Zhongli District",121.2053963,24.9721514
+"Chiayi City","East District",120.4760853,23.4853348
+"Chiayi City","Other",NA,NA
+"Chiayi City","West District",120.4242401,23.4803964
+"Chiayi County","Alishan Township",120.7809676,23.4354677
+"Chiayi County","Budai Township",120.1704766,23.3627901
+"Chiayi County","Dalin Township",120.4542004,23.6040709
+"Chiayi County","Dapu Township",120.5969758,23.3040182
+"Chiayi County","Dongshi Township",120.1704766,23.4701923
+"Chiayi County","Fanlu Township",120.6084832,23.4407355
+"Chiayi County","Liujiao Township",120.2873266,23.529833
+"Chiayi County","Lucao Township",NA,NA
+"Chiayi County","Meishan Township",120.6890055,23.5410247
+"Chiayi County","Minxiong Township",120.440409,23.5203579
+"Chiayi County","Other",NA,NA
+"Chiayi County","Shuishang Township",120.4001659,23.4287422
+"Chiayi County","Xikou Township",120.4011911,23.5925564
+"Chiayi County","Xingang Township",120.3550808,23.538123
+"Chiayi County","Yizhu Township",120.2166519,23.3530108
+"Chiayi County","Zhongpu Township",120.5509358,23.3995944
+"Chiayi County","Zhuqi Township",120.6084832,23.5049724
+"Tainan City","Anding District",NA,NA
+"Tainan City","Annan District",120.1358346,23.0585336
+"Tainan City","Anping District",120.1647036,22.9934043
+"Tainan City","Baihe District",120.4588059,23.3336369
+"Tainan City","Beimen District",120.1242853,23.2866026
+"Tainan City","Danei District",120.4011911,23.1421962
+"Tainan City","Dongshan District",120.447285,23.2825014
+"Tainan City","East District",120.2224227,22.98133
+"Tainan City","Guanmiao District",NA,NA
+"Tainan City","Guantian District",NA,NA
+"Tainan City","Guiren District",120.2858846,22.9519268
+"Tainan City","Houbi District",120.3550808,23.3665101
+"Tainan City","Jiali District",NA,NA
+"Tainan City","Jiangjun District",NA,NA
+"Tainan City","Liujia District",NA,NA
+"Tainan City","Liuying District",120.3550808,23.2806957
+"Tainan City","Longqi District",NA,NA
+"Tainan City","Madou District",120.2397336,23.1763401
+"Tainan City","Nanhua District",NA,NA
+"Tainan City","Nanxi District",NA,NA
+"Tainan City","North District",NA,NA
+"Tainan City","Other",NA,NA
+"Tainan City","Qigu District",NA,NA
+"Tainan City","Rende District",NA,NA
+"Tainan City","Shanhua District",NA,NA
+"Tainan City","Shanshang District",NA,NA
+"Tainan City","South District",120.1877943,22.9563522
+"Tainan City","West Central District",NA,NA
+"Tainan City","Xiaying District",NA,NA
+"Tainan City","Xigang District",NA,NA
+"Tainan City","Xinhua District",120.3320195,23.0280873
+"Tainan City","Xinshi District",120.2858846,23.0807324
+"Tainan City","Xinying District",120.3089541,23.3119567
+"Tainan City","Xuejia District",120.1704766,23.2553798
+"Tainan City","Yanshui District",120.2397336,23.2622306
+"Tainan City","Yongkang District",120.2628111,23.0211779
+"Tainan City","Yujing District",120.4703258,23.1060822
+"Tainan City","Zuozhen District",120.4242401,23.0300785
+"Yunlin County","Baozhong Township",NA,NA
+"Yunlin County","Beigang Township",120.2858846,23.5958633
+"Yunlin County","Citong Township",120.5394232,23.7769338
+"Yunlin County","Dapi Township",NA,NA
+"Yunlin County","Dongshi Township",120.2570421,23.693257
+"Yunlin County","Dounan Township",120.4760808,23.6771369
+"Yunlin County","Erlun Township",NA,NA
+"Yunlin County","Gukeng Township",120.5969758,23.6466411
+"Yunlin County","Huwei Township",NA,NA
+"Yunlin County","Kouhu Township",120.1630864,23.6178327
+"Yunlin County","Linnei Township",120.6084832,23.7618842
+"Yunlin County","Lunbei Township",120.3531749,23.7601594
+"Yunlin County","Mailiao Township",120.2562662,23.7485306
+"Yunlin County","Other",NA,NA
+"Yunlin County","Shuilin Township",120.2397336,23.5628088
+"Yunlin County","Sihu Township",120.1935663,23.6370834
+"Yunlin County","Taixi Township",120.1935663,23.7229714
+"Yunlin County","Tuku Township",120.3550808,23.6882639
+"Yunlin County","Xiluo Township",120.447285,23.7755286
+"Yunlin County","Yuanchang Township",120.3320195,23.6288771
+"Keelung City","Anle District",121.7024448,25.1474144
+"Keelung City","Nuannuan District",121.748042,25.0836163
+"Keelung City","Other",NA,NA
+"Keelung City","Qidu District",121.685341,25.1143924
+"Keelung City","Ren'ai District",121.7451927,25.1187161
+"Keelung City","Xinyi District",121.7822278,25.1284336
+"Keelung City","Zhongshan District",121.7252457,25.152587
+"Keelung City","Zhongzheng District",121.7736823,25.1489988
+"Kinmen County","Jincheng Township",118.3155101,24.4320647
+"Kinmen County","Jinhu Township",NA,NA
+"Kinmen County","Jinning Township",118.3345061,24.4567205
+"Kinmen County","Jinsha Township",NA,NA
+"Kinmen County","Lieyu Township",NA,NA
+"Kinmen County","Other",NA,NA
+"Kinmen County","Wuqiu Township",NA,NA
+"Lienchiang County","Beigan Township",NA,NA
+"Lienchiang County","Dongyin Township",120.4904831,26.3656992
+"Lienchiang County","Juguang Township",NA,NA
+"Lienchiang County","Nangan Township",119.9306863,26.1534361
+"Lienchiang County","Other",NA,NA
+"New Taipei City","Bali District",121.3983016,25.1443896
+"New Taipei City","Banqiao District",121.4618415,25.0114095
+"New Taipei City","Gongliao District",NA,NA
+"New Taipei City","Jinshan District",NA,NA
+"New Taipei City","Linkou District",121.3881378,25.0790108
+"New Taipei City","Luzhou District",NA,NA
+"New Taipei City","Other",NA,NA
+"New Taipei City","Pinglin District",121.7107613,24.9350844
+"New Taipei City","Pingxi District",121.7408654,25.0248314
+"New Taipei City","Ruifang District",NA,NA
+"New Taipei City","Sanchong District",121.4867114,25.0614534
+"New Taipei City","Sanxia District",121.3744903,24.9358605
+"New Taipei City","Sanzhi District",NA,NA
+"New Taipei City","Shenkeng District",NA,NA
+"New Taipei City","Shiding District",121.6452827,25.0098662
+"New Taipei City","Shimen District",121.5671383,25.2908277
+"New Taipei City","Shuangxi District",121.822098,24.9971842
+"New Taipei City","Shulin District",121.4198606,24.9815605
+"New Taipei City","Taishan District",121.4327919,25.0581641
+"New Taipei City","Tamsui District",121.4433706,25.1719805
+"New Taipei City","Tucheng District",121.438034,24.968371
+"New Taipei City","Wanli District",121.6397184,25.1676024
+"New Taipei City","Wugu District",121.4386586,25.0848317
+"New Taipei City","Wulai District",121.5497801,24.8663721
+"New Taipei City","Xindian District",121.5394822,24.978282
+"New Taipei City","Xinzhuang District",121.4178347,25.0265985
+"New Taipei City","Xizhi District",121.6397184,25.0616059
+"New Taipei City","Yingge District",121.3427262,24.9614967
+"New Taipei City","Yonghe District",NA,NA
+"New Taipei City","Zhonghe District",121.4853103,24.9962178
+"Taipei City","Beitou District",121.515018,25.1151759
+"Taipei City","Da'an District",121.5427093,25.0261583
+"Taipei City","Datong District",121.5113064,25.0627243
+"Taipei City","Nangang District",121.6111949,25.0312347
+"Taipei City","Neihu District",121.5909027,25.0689422
+"Taipei City","Other",NA,NA
+"Taipei City","Shilin District",NA,NA
+"Taipei City","Songshan District",121.5638621,25.0541591
+"Taipei City","Wanhua District",121.4970294,25.0262857
+"Taipei City","Wenshan District",121.57125,24.9929212
+"Taipei City","Xinyi District",121.5769572,25.0287024
+"Taipei City","Zhongshan District",NA,NA
+"Taipei City","Zhongzheng District",121.5198716,25.0421407
+"Yilan County","Datong Township",NA,NA
+"Yilan County","Dongshan Township",121.7537404,24.631919
+"Yilan County","Jiaoxi Township",NA,NA
+"Yilan County","Luodong Township",121.7708337,24.675606
+"Yilan County","Nan'ao Township",121.6739371,24.4065995
+"Yilan County","Other",NA,NA
+"Yilan County","Sanxing Township",121.662532,24.6744894
+"Yilan County","Su'ao Township",121.8533264,24.594229
+"Yilan County","Toucheng Township",NA,NA
+"Yilan County","Wujie Township",NA,NA
+"Yilan County","Yuanshan Township",NA,NA
+"Yilan County","Zhuangwei Township",NA,NA
