@@ -12,10 +12,14 @@ def main():
     args = parser.parse_args()
 
     draw = cv2.imread(args.draw)
+    colors = [(255,0,0), (0,0,255), (255,255,0), (0,255,255), (255,0,255)]
+    i = 0
     for p_coords in args.input:
         with open(p_coords, 'rb') as csvfile:
             for row in csv.DictReader(csvfile):
-                cv2.circle(draw, (int(row['x']), int(row['y'])), 1, (0,0,255), -1)
+                cv2.circle(draw, (int(row['x']), int(row['y'])), 1, colors[i], -1)
+
+        i = 0 if i >= len(colors) - 1 else i + 1
 
     cv2.imwrite(args.output, draw)
 
