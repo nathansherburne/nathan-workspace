@@ -8,7 +8,7 @@ COLORS = [(255,0,0), (0,0,255), (255,255,0), (0,255,255), (255,0,255)]
 
 def main():
     parser = argparse.ArgumentParser(description='Process some integers.')
-    parser.add_argument('-i', '--input', help='csv/txt files of x,y coordinates to draw')
+    parser.add_argument('-i', '--input', help='csv/txt file of x,y coordinates to draw')
     parser.add_argument('-d', '--draw', help='image to draw coords on')
     parser.add_argument('-o', '--output', help='the output image path')
     args = parser.parse_args()
