@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Wufeng Township",
+               "short_name" : "Wufeng Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Hsinchu County",
+               "short_name" : "Hsinchu County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "311",
+               "short_name" : "311",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Wufeng Township, Hsinchu County, Taiwan 311",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.6719371,
+                  "lng" : 121.2204554
+               },
+               "southwest" : {
+                  "lat" : 24.4963506,
+                  "lng" : 121.0565983
+               }
+            },
+            "location" : {
+               "lat" : 24.5915441,
+               "lng" : 121.1481284
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.6719371,
+                  "lng" : 121.2204554
+               },
+               "southwest" : {
+                  "lat" : 24.4963506,
+                  "lng" : 121.0565983
+               }
+            }
+         },
+         "place_id" : "ChIJJzERbMVEaDQRaLTL9Azr1Do",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Taiping District",
+               "short_name" : "Taiping District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "406",
+               "short_name" : "406",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Taiping District, Taichung City, Taiwan 406",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.1693703,
+                  "lng" : 120.8378002
+               },
+               "southwest" : {
+                  "lat" : 24.0403117,
+                  "lng" : 120.6995378
+               }
+            },
+            "location" : {
+               "lat" : 24.1240719,
+               "lng" : 120.7170701
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.1693703,
+                  "lng" : 120.8378002
+               },
+               "southwest" : {
+                  "lat" : 24.0403117,
+                  "lng" : 120.6995378
+               }
+            }
+         },
+         "place_id" : "ChIJlbVybVIiaTQRC0WRiBgf30s",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

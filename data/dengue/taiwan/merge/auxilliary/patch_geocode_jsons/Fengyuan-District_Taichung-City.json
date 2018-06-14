@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Fengyuan District",
+               "short_name" : "Fengyuan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "420",
+               "short_name" : "420",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Fengyuan District, Taichung City, Taiwan 420",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.2836617,
+                  "lng" : 120.7748441
+               },
+               "southwest" : {
+                  "lat" : 24.2167568,
+                  "lng" : 120.6956844
+               }
+            },
+            "location" : {
+               "lat" : 24.2521156,
+               "lng" : 120.7223572
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.2836617,
+                  "lng" : 120.7748441
+               },
+               "southwest" : {
+                  "lat" : 24.2167568,
+                  "lng" : 120.6956844
+               }
+            }
+         },
+         "place_id" : "ChIJqSoTgT0aaTQRn5xtL0UdEPA",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

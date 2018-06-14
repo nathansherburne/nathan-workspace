@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Taishan District",
+               "short_name" : "Taishan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "243",
+               "short_name" : "243",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Taishan District, New Taipei City, Taiwan 243",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.0766842,
+                  "lng" : 121.4484287
+               },
+               "southwest" : {
+                  "lat" : 25.0287832,
+                  "lng" : 121.3769834
+               }
+            },
+            "location" : {
+               "lat" : 25.0581641,
+               "lng" : 121.4327919
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.0766842,
+                  "lng" : 121.4484287
+               },
+               "southwest" : {
+                  "lat" : 25.0287832,
+                  "lng" : 121.3769834
+               }
+            }
+         },
+         "place_id" : "ChIJBQXlP7CnQjQR_1Ddt-suhXM",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

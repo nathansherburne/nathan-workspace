@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shilin District",
+               "short_name" : "Shilin District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taipei City",
+               "short_name" : "Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "111",
+               "short_name" : "111",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Shilin District, Taipei City, Taiwan 111",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.1953736,
+                  "lng" : 121.6078303
+               },
+               "southwest" : {
+                  "lat" : 25.0741867,
+                  "lng" : 121.4570603
+               }
+            },
+            "location" : {
+               "lat" : 25.0950492,
+               "lng" : 121.5246077
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.1953736,
+                  "lng" : 121.6078303
+               },
+               "southwest" : {
+                  "lat" : 25.0741867,
+                  "lng" : 121.4570603
+               }
+            }
+         },
+         "place_id" : "ChIJ-z9oHnSuQjQR_iPcXEDU4bk",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

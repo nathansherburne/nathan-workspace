@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lugu Township",
+               "short_name" : "Lugu Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Nantou County",
+               "short_name" : "Nantou County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "558",
+               "short_name" : "558",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Lugu Township, Nantou County, Taiwan 558",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.8182565,
+                  "lng" : 120.8406856
+               },
+               "southwest" : {
+                  "lat" : 23.6490894,
+                  "lng" : 120.7136328
+               }
+            },
+            "location" : {
+               "lat" : 23.7348372,
+               "lng" : 120.7809676
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8182565,
+                  "lng" : 120.8406856
+               },
+               "southwest" : {
+                  "lat" : 23.6490894,
+                  "lng" : 120.7136328
+               }
+            }
+         },
+         "place_id" : "ChIJeWx978DTbjQRtbYmW1k4R2I",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

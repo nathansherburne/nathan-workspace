@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Dashu District",
+               "short_name" : "Dashu District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "840",
+               "short_name" : "840",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Dashu District, Kaohsiung City, Taiwan 840",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.7778031,
+                  "lng" : 120.4560756
+               },
+               "southwest" : {
+                  "lat" : 22.6429302,
+                  "lng" : 120.3897876
+               }
+            },
+            "location" : {
+               "lat" : 22.708371,
+               "lng" : 120.4242401
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.7778031,
+                  "lng" : 120.4560756
+               },
+               "southwest" : {
+                  "lat" : 22.6429302,
+                  "lng" : 120.3897876
+               }
+            }
+         },
+         "place_id" : "ChIJ9ehvk9oQbjQR2-Qr0OravU8",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

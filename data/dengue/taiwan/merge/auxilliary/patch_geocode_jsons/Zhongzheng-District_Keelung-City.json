@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Zhongzheng District",
+               "short_name" : "Zhongzheng District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Keelung City",
+               "short_name" : "Keelung City",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "202",
+               "short_name" : "202",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Zhongzheng District, Keelung City, Taiwan 202",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.1956281,
+                  "lng" : 121.8084506
+               },
+               "southwest" : {
+                  "lat" : 25.1217659,
+                  "lng" : 121.7421542
+               }
+            },
+            "location" : {
+               "lat" : 25.1489988,
+               "lng" : 121.7736823
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.1956281,
+                  "lng" : 121.8084506
+               },
+               "southwest" : {
+                  "lat" : 25.1217659,
+                  "lng" : 121.7421542
+               }
+            }
+         },
+         "place_id" : "ChIJ822rjRpPXTQR3gJeywe2-mI",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xuejia District",
+               "short_name" : "Xuejia District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "726",
+               "short_name" : "726",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xuejia District, Tainan City, Taiwan 726",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.3012397,
+                  "lng" : 120.2324748
+               },
+               "southwest" : {
+                  "lat" : 23.2068157,
+                  "lng" : 120.1334057
+               }
+            },
+            "location" : {
+               "lat" : 23.2553798,
+               "lng" : 120.1704766
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.3012397,
+                  "lng" : 120.2324748
+               },
+               "southwest" : {
+                  "lat" : 23.2068157,
+                  "lng" : 120.1334057
+               }
+            }
+         },
+         "place_id" : "ChIJIT10R22AbjQRml6Ucy-hgzc",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

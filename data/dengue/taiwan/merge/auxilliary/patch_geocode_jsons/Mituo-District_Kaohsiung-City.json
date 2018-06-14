@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Mituo District",
+               "short_name" : "Mituo District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "827",
+               "short_name" : "827",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Mituo District, Kaohsiung City, Taiwan 827",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.8045241,
+                  "lng" : 120.2620875
+               },
+               "southwest" : {
+                  "lat" : 22.7438989,
+                  "lng" : 120.215499
+               }
+            },
+            "location" : {
+               "lat" : 22.7832231,
+               "lng" : 120.2455033
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.8045241,
+                  "lng" : 120.2620875
+               },
+               "southwest" : {
+                  "lat" : 22.7438989,
+                  "lng" : 120.215499
+               }
+            }
+         },
+         "place_id" : "ChIJ-erS9jkJbjQRvaiAITrzlf8",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

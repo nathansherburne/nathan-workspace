@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xinyi District",
+               "short_name" : "Xinyi District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taipei City",
+               "short_name" : "Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "110",
+               "short_name" : "110",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xinyi District, Taipei City, Taiwan 110",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.0493106,
+                  "lng" : 121.5920455
+               },
+               "southwest" : {
+                  "lat" : 25.0081179,
+                  "lng" : 121.5525867
+               }
+            },
+            "location" : {
+               "lat" : 25.0287024,
+               "lng" : 121.5769572
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.0493106,
+                  "lng" : 121.5920455
+               },
+               "southwest" : {
+                  "lat" : 25.0081179,
+                  "lng" : 121.5525867
+               }
+            }
+         },
+         "place_id" : "ChIJxUN17K2rQjQRzThIo3q9jUA",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

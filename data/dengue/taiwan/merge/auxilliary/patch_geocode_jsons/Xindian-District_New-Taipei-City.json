@@ -1,0 +1,54 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xindian District",
+               "short_name" : "Xindian District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Xindian District, New Taipei City, Taiwan",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.9951252,
+                  "lng" : 121.6105685
+               },
+               "southwest" : {
+                  "lat" : 24.8616459,
+                  "lng" : 121.4573717
+               }
+            },
+            "location" : {
+               "lat" : 24.978282,
+               "lng" : 121.5394822
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.9951252,
+                  "lng" : 121.6105685
+               },
+               "southwest" : {
+                  "lat" : 24.8616459,
+                  "lng" : 121.4573717
+               }
+            }
+         },
+         "place_id" : "ChIJ4U9_M94DaDQRj5bw-yevm-I",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

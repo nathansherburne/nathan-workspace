@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xiluo Township",
+               "short_name" : "Xiluo Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Yunlin County",
+               "short_name" : "Yunlin County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "648",
+               "short_name" : "648",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xiluo Township, Yunlin County, Taiwan 648",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.8207264,
+                  "lng" : 120.5133707
+               },
+               "southwest" : {
+                  "lat" : 23.7382268,
+                  "lng" : 120.4166411
+               }
+            },
+            "location" : {
+               "lat" : 23.7755286,
+               "lng" : 120.447285
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8207264,
+                  "lng" : 120.5133707
+               },
+               "southwest" : {
+                  "lat" : 23.7382268,
+                  "lng" : 120.4166411
+               }
+            }
+         },
+         "place_id" : "ChIJQeNqLJy2bjQR7UNIFeiICRY",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Toufen",
+               "short_name" : "Toufen",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Toufen City",
+               "short_name" : "Toufen City",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Miaoli County",
+               "short_name" : "Miaoli County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Toufen, Toufen City, Miaoli County, Taiwan",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.7032653,
+                  "lng" : 120.9721581
+               },
+               "southwest" : {
+                  "lat" : 24.630135,
+                  "lng" : 120.8763
+               }
+            },
+            "location" : {
+               "lat" : 24.6884438,
+               "lng" : 120.9024836
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.7032653,
+                  "lng" : 120.9721581
+               },
+               "southwest" : {
+                  "lat" : 24.630135,
+                  "lng" : 120.8763
+               }
+            }
+         },
+         "place_id" : "ChIJC61tyLZMaDQRw3ZNvdg54pU",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

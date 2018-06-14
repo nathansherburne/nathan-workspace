@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Dongshi District",
+               "short_name" : "Dongshi District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "423",
+               "short_name" : "423",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Dongshi District, Taichung City, Taiwan 423",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.3257923,
+                  "lng" : 120.9059429
+               },
+               "southwest" : {
+                  "lat" : 24.1586802,
+                  "lng" : 120.7480704
+               }
+            },
+            "location" : {
+               "lat" : 24.2599898,
+               "lng" : 120.8272085
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.3257923,
+                  "lng" : 120.9059429
+               },
+               "southwest" : {
+                  "lat" : 24.1586802,
+                  "lng" : 120.7480704
+               }
+            }
+         },
+         "place_id" : "ChIJD4tJ_UEcaTQRRdyJGCMwG4E",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

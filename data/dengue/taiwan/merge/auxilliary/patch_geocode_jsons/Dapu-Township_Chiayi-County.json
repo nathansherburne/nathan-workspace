@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Dapu Township",
+               "short_name" : "Dapu Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Chiayi County",
+               "short_name" : "Chiayi County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "607",
+               "short_name" : "607",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Dapu Township, Chiayi County, Taiwan 607",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.3670536,
+                  "lng" : 120.6629642
+               },
+               "southwest" : {
+                  "lat" : 23.2148,
+                  "lng" : 120.5190005
+               }
+            },
+            "location" : {
+               "lat" : 23.3040182,
+               "lng" : 120.5969758
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.3670536,
+                  "lng" : 120.6629642
+               },
+               "southwest" : {
+                  "lat" : 23.2148,
+                  "lng" : 120.5190005
+               }
+            }
+         },
+         "place_id" : "ChIJu_d2zE7ybjQRUv3HNccG95w",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

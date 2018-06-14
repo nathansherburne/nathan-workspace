@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Dajia District",
+               "short_name" : "Dajia District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "437",
+               "short_name" : "437",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Dajia District, Taichung City, Taiwan 437",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.4403191,
+                  "lng" : 120.7062054
+               },
+               "southwest" : {
+                  "lat" : 24.314999,
+                  "lng" : 120.5865889
+               }
+            },
+            "location" : {
+               "lat" : 24.3788233,
+               "lng" : 120.6487508
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.4403191,
+                  "lng" : 120.7062054
+               },
+               "southwest" : {
+                  "lat" : 24.314999,
+                  "lng" : 120.5865889
+               }
+            }
+         },
+         "place_id" : "ChIJ6RfUTlwOaTQRBndwnBHxS6E",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

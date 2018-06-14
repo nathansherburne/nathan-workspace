@@ -1,0 +1,44 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Nangan Township",
+               "short_name" : "Nangan Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            }
+         ],
+         "formatted_address" : "Nangan Township",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 26.1755716,
+                  "lng" : 119.9742028
+               },
+               "southwest" : {
+                  "lat" : 26.0850526,
+                  "lng" : 119.9090904
+               }
+            },
+            "location" : {
+               "lat" : 26.1534361,
+               "lng" : 119.9306863
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 26.1755716,
+                  "lng" : 119.9742028
+               },
+               "southwest" : {
+                  "lat" : 26.0850526,
+                  "lng" : 119.9090904
+               }
+            }
+         },
+         "place_id" : "ChIJb1ykNI1wQTQR_-ZK_RzLLt0",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

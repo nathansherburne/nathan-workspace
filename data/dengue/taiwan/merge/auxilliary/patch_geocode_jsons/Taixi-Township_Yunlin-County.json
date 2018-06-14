@@ -1,0 +1,60 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Taixi Township",
+               "short_name" : "Taixi Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Yunlin County",
+               "short_name" : "Yunlin County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "636",
+               "short_name" : "636",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Taixi Township, Yunlin County, Taiwan 636",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.7630828,
+                  "lng" : 120.2429512
+               },
+               "southwest" : {
+                  "lat" : 23.6580144,
+                  "lng" : 120.1594154
+               }
+            },
+            "location" : {
+               "lat" : 23.7229714,
+               "lng" : 120.1935663
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.7630828,
+                  "lng" : 120.2429512
+               },
+               "southwest" : {
+                  "lat" : 23.6580144,
+                  "lng" : 120.1594154
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJfZDlnQCnbjQRgftEvOEuLHs",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shuilin Township",
+               "short_name" : "Shuilin Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Yunlin County",
+               "short_name" : "Yunlin County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "652",
+               "short_name" : "652",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Shuilin Township, Yunlin County, Taiwan 652",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.6336356,
+                  "lng" : 120.2777474
+               },
+               "southwest" : {
+                  "lat" : 23.5043147,
+                  "lng" : 120.182528
+               }
+            },
+            "location" : {
+               "lat" : 23.5628088,
+               "lng" : 120.2397336
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.6336356,
+                  "lng" : 120.2777474
+               },
+               "southwest" : {
+                  "lat" : 23.5043147,
+                  "lng" : 120.182528
+               }
+            }
+         },
+         "place_id" : "ChIJoRINx12fbjQRH7YeonZMhBw",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

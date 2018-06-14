@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Zhunan Township",
+               "short_name" : "Zhunan Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Miaoli County",
+               "short_name" : "Miaoli County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "350",
+               "short_name" : "350",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Zhunan Township, Miaoli County, Taiwan 350",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.741082,
+                  "lng" : 120.9342749
+               },
+               "southwest" : {
+                  "lat" : 24.6474877,
+                  "lng" : 120.8294008
+               }
+            },
+            "location" : {
+               "lat" : 24.7009219,
+               "lng" : 120.8786026
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.741082,
+                  "lng" : 120.9342749
+               },
+               "southwest" : {
+                  "lat" : 24.6474877,
+                  "lng" : 120.8294008
+               }
+            }
+         },
+         "place_id" : "ChIJE79hezizaTQRDjjR2xeSpGs",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

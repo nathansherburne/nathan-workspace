@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Meishan Township",
+               "short_name" : "Meishan Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Chiayi County",
+               "short_name" : "Chiayi County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "603",
+               "short_name" : "603",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Meishan Township, Chiayi County, Taiwan 603",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.5968098,
+                  "lng" : 120.7465886
+               },
+               "southwest" : {
+                  "lat" : 23.4982919,
+                  "lng" : 120.5146999
+               }
+            },
+            "location" : {
+               "lat" : 23.5410247,
+               "lng" : 120.6890055
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.5968098,
+                  "lng" : 120.7465886
+               },
+               "southwest" : {
+                  "lat" : 23.4982919,
+                  "lng" : 120.5146999
+               }
+            }
+         },
+         "place_id" : "ChIJExsQRdvDbjQRg-lKEdDy8xE",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

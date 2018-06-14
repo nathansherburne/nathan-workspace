@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Namaxia District",
+               "short_name" : "Namaxia District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "849",
+               "short_name" : "849",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Namaxia District, Kaohsiung City, Taiwan 849",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.3708418,
+                  "lng" : 120.8235631
+               },
+               "southwest" : {
+                  "lat" : 23.1692339,
+                  "lng" : 120.6382655
+               }
+            },
+            "location" : {
+               "lat" : 23.2742978,
+               "lng" : 120.734995
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.3708418,
+                  "lng" : 120.8235631
+               },
+               "southwest" : {
+                  "lat" : 23.1692339,
+                  "lng" : 120.6382655
+               }
+            }
+         },
+         "place_id" : "ChIJM_VPdJT6bjQRGK_LDmx_1d8",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

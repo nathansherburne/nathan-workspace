@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shanshang District",
+               "short_name" : "Shanshang District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "743",
+               "short_name" : "743",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Shanshang District, Tainan City, Taiwan 743",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.137653,
+                  "lng" : 120.4194915
+               },
+               "southwest" : {
+                  "lat" : 23.0714953,
+                  "lng" : 120.3311084
+               }
+            },
+            "location" : {
+               "lat" : 23.0893067,
+               "lng" : 120.3723741
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.137653,
+                  "lng" : 120.4194915
+               },
+               "southwest" : {
+                  "lat" : 23.0714953,
+                  "lng" : 120.3311084
+               }
+            }
+         },
+         "place_id" : "ChIJa94vfpBkbjQREUicgyrTTNQ",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

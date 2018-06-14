@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Budai Township",
+               "short_name" : "Budai Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Chiayi County",
+               "short_name" : "Chiayi County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "625",
+               "short_name" : "625",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Budai Township, Chiayi County, Taiwan 625",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.4529487,
+                  "lng" : 120.2376153
+               },
+               "southwest" : {
+                  "lat" : 23.3099141,
+                  "lng" : 120.1174411
+               }
+            },
+            "location" : {
+               "lat" : 23.3627901,
+               "lng" : 120.1704766
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.4529487,
+                  "lng" : 120.2376153
+               },
+               "southwest" : {
+                  "lat" : 23.3099141,
+                  "lng" : 120.1174411
+               }
+            }
+         },
+         "place_id" : "ChIJcWwqwI2CbjQRHquUtgaJ1AM",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

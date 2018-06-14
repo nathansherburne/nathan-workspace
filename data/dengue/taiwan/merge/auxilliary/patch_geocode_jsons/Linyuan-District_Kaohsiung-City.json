@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Linyuan District",
+               "short_name" : "Linyuan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "832",
+               "short_name" : "832",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Linyuan District, Kaohsiung City, Taiwan 832",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.5378817,
+                  "lng" : 120.4274678
+               },
+               "southwest" : {
+                  "lat" : 22.4755962,
+                  "lng" : 120.3602872
+               }
+            },
+            "location" : {
+               "lat" : 22.4986756,
+               "lng" : 120.4011911
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.5378817,
+                  "lng" : 120.4274678
+               },
+               "southwest" : {
+                  "lat" : 22.4755962,
+                  "lng" : 120.3602872
+               }
+            }
+         },
+         "place_id" : "ChIJQy0KlX7icTQRz1g4ARaAkz4",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

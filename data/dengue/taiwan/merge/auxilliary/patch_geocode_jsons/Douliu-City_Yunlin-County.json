@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Douliu",
+               "short_name" : "Douliu",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Douliu City",
+               "short_name" : "Douliu City",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Yunlin County",
+               "short_name" : "Yunlin County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "640",
+               "short_name" : "640",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Douliu, Douliu City, Yunlin County, Taiwan 640",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.7326519,
+                  "lng" : 120.6012851
+               },
+               "southwest" : {
+                  "lat" : 23.6872635,
+                  "lng" : 120.4985913
+               }
+            },
+            "location" : {
+               "lat" : 23.7077947,
+               "lng" : 120.5409089
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.7326519,
+                  "lng" : 120.6012851
+               },
+               "southwest" : {
+                  "lat" : 23.6872635,
+                  "lng" : 120.4985913
+               }
+            }
+         },
+         "place_id" : "ChIJmRA0WhPIbjQR22u4bnnjk6U",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

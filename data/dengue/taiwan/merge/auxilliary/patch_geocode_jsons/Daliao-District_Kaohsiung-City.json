@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Daliao District",
+               "short_name" : "Daliao District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "831",
+               "short_name" : "831",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Daliao District, Kaohsiung City, Taiwan 831",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.651702,
+                  "lng" : 120.4470915
+               },
+               "southwest" : {
+                  "lat" : 22.5325472,
+                  "lng" : 120.3684637
+               }
+            },
+            "location" : {
+               "lat" : 22.584481,
+               "lng" : 120.4011911
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.651702,
+                  "lng" : 120.4470915
+               },
+               "southwest" : {
+                  "lat" : 22.5325472,
+                  "lng" : 120.3684637
+               }
+            }
+         },
+         "place_id" : "ChIJzbCZxHUcbjQRqvEj-XJu8wk",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

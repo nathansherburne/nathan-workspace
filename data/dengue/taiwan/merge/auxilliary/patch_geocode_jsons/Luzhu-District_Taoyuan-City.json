@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Luzhu District",
+               "short_name" : "Luzhu District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taoyuan City",
+               "short_name" : "Taoyuan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "338",
+               "short_name" : "338",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Luzhu District, Taoyuan City, Taiwan 338",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.1220093,
+                  "lng" : 121.3551061
+               },
+               "southwest" : {
+                  "lat" : 24.9869728,
+                  "lng" : 121.2321862
+               }
+            },
+            "location" : {
+               "lat" : 25.0784359,
+               "lng" : 121.2969674
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.1220093,
+                  "lng" : 121.3551061
+               },
+               "southwest" : {
+                  "lat" : 24.9869728,
+                  "lng" : 121.2321862
+               }
+            }
+         },
+         "place_id" : "ChIJm3oMG3GgQjQRD1iw8fR8tok",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

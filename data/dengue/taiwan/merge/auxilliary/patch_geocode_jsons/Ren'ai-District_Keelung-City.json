@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Ren’ai District",
+               "short_name" : "Ren’ai District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Keelung City",
+               "short_name" : "Keelung City",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "200",
+               "short_name" : "200",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Ren’ai District, Keelung City, Taiwan 200",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.1360836,
+                  "lng" : 121.754977
+               },
+               "southwest" : {
+                  "lat" : 25.1059374,
+                  "lng" : 121.7319652
+               }
+            },
+            "location" : {
+               "lat" : 25.1187161,
+               "lng" : 121.7451927
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.1360836,
+                  "lng" : 121.754977
+               },
+               "southwest" : {
+                  "lat" : 25.1059374,
+                  "lng" : 121.7319652
+               }
+            }
+         },
+         "place_id" : "ChIJM9uTuSJOXTQRuNc9S-5JYrc",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Niaosong District",
+               "short_name" : "Niaosong District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "833",
+               "short_name" : "833",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Niaosong District, Kaohsiung City, Taiwan 833",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.6966319,
+                  "lng" : 120.4028616
+               },
+               "southwest" : {
+                  "lat" : 22.637701,
+                  "lng" : 120.3308202
+               }
+            },
+            "location" : {
+               "lat" : 22.6602052,
+               "lng" : 120.3723741
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.6966319,
+                  "lng" : 120.4028616
+               },
+               "southwest" : {
+                  "lat" : 22.637701,
+                  "lng" : 120.3308202
+               }
+            }
+         },
+         "place_id" : "ChIJOWvuVpUabjQR0tfCvEcJg3Y",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

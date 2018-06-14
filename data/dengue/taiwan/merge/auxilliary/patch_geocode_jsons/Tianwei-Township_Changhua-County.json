@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Tianwei Township",
+               "short_name" : "Tianwei Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Changhua County",
+               "short_name" : "Changhua County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "522",
+               "short_name" : "522",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Tianwei Township, Changhua County, Taiwan 522",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.9255704,
+                  "lng" : 120.5706442
+               },
+               "southwest" : {
+                  "lat" : 23.8698559,
+                  "lng" : 120.4739284
+               }
+            },
+            "location" : {
+               "lat" : 23.9038461,
+               "lng" : 120.5221524
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.9255704,
+                  "lng" : 120.5706442
+               },
+               "southwest" : {
+                  "lat" : 23.8698559,
+                  "lng" : 120.4739284
+               }
+            }
+         },
+         "place_id" : "ChIJ86aSsoBKaTQRek461pTXXYs",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

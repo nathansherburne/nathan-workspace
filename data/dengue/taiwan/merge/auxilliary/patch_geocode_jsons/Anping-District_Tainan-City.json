@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Anping District",
+               "short_name" : "Anping District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "708",
+               "short_name" : "708",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Anping District, Tainan City, Taiwan 708",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.0058205,
+                  "lng" : 120.1870781
+               },
+               "southwest" : {
+                  "lat" : 22.9625432,
+                  "lng" : 120.1399996
+               }
+            },
+            "location" : {
+               "lat" : 22.9934043,
+               "lng" : 120.1647036
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.0058205,
+                  "lng" : 120.1870781
+               },
+               "southwest" : {
+                  "lat" : 22.9625432,
+                  "lng" : 120.1399996
+               }
+            }
+         },
+         "place_id" : "ChIJz9oVvv51bjQRBsI834UwXwI",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

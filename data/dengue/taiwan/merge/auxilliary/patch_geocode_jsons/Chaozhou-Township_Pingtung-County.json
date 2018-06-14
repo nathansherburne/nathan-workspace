@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Chaozhou Township",
+               "short_name" : "Chaozhou Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "920",
+               "short_name" : "920",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Chaozhou Township, Pingtung County, Taiwan 920",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.5659622,
+                  "lng" : 120.6056448
+               },
+               "southwest" : {
+                  "lat" : 22.5034287,
+                  "lng" : 120.508386
+               }
+            },
+            "location" : {
+               "lat" : 22.5294168,
+               "lng" : 120.5624474
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.5659622,
+                  "lng" : 120.6056448
+               },
+               "southwest" : {
+                  "lat" : 22.5034287,
+                  "lng" : 120.508386
+               }
+            }
+         },
+         "place_id" : "ChIJOSjQ4LshbjQR5Zb0ZlEKAps",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

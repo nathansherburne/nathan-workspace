@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Fuxing Township",
+               "short_name" : "Fuxing Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Changhua County",
+               "short_name" : "Changhua County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "506",
+               "short_name" : "506",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Fuxing Township, Changhua County, Taiwan 506",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.0599329,
+                  "lng" : 120.4973827
+               },
+               "southwest" : {
+                  "lat" : 23.9936768,
+                  "lng" : 120.3730998
+               }
+            },
+            "location" : {
+               "lat" : 24.0377011,
+               "lng" : 120.4242401
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.0599329,
+                  "lng" : 120.4973827
+               },
+               "southwest" : {
+                  "lat" : 23.9936768,
+                  "lng" : 120.3730998
+               }
+            }
+         },
+         "place_id" : "ChIJHboc0UpPaTQRNuMkhgOM-cw",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

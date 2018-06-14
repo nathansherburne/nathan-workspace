@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Guanmiao District",
+               "short_name" : "Guanmiao District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "718",
+               "short_name" : "718",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Guanmiao District, Tainan City, Taiwan 718",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.0138142,
+                  "lng" : 120.3732646
+               },
+               "southwest" : {
+                  "lat" : 22.8874908,
+                  "lng" : 120.2952302
+               }
+            },
+            "location" : {
+               "lat" : 22.9637053,
+               "lng" : 120.3320195
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.0138142,
+                  "lng" : 120.3732646
+               },
+               "southwest" : {
+                  "lat" : 22.8874908,
+                  "lng" : 120.2952302
+               }
+            }
+         },
+         "place_id" : "ChIJ53gz8AJybjQRn7O0LRfC0mk",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

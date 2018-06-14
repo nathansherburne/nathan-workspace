@@ -1,0 +1,44 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Juguang Township",
+               "short_name" : "Juguang Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            }
+         ],
+         "formatted_address" : "Juguang Township",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.983235,
+                  "lng" : 119.993349
+               },
+               "southwest" : {
+                  "lat" : 25.9415435,
+                  "lng" : 119.9205919
+               }
+            },
+            "location" : {
+               "lat" : 25.9768466,
+               "lng" : 119.9306863
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.983235,
+                  "lng" : 119.993349
+               },
+               "southwest" : {
+                  "lat" : 25.9415435,
+                  "lng" : 119.9205919
+               }
+            }
+         },
+         "place_id" : "ChIJo6hj0UyDQTQRmCoSUpctECk",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

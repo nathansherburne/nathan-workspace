@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Liujia District",
+               "short_name" : "Liujia District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "734",
+               "short_name" : "734",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Liujia District, Tainan City, Taiwan 734",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.2638691,
+                  "lng" : 120.4770233
+               },
+               "southwest" : {
+                  "lat" : 23.1923348,
+                  "lng" : 120.2844329
+               }
+            },
+            "location" : {
+               "lat" : 23.2426813,
+               "lng" : 120.3320195
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.2638691,
+                  "lng" : 120.4770233
+               },
+               "southwest" : {
+                  "lat" : 23.1923348,
+                  "lng" : 120.2844329
+               }
+            }
+         },
+         "place_id" : "ChIJR95tIU-IbjQRBEW5x0Qr7Dg",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

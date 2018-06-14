@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Zhutang Township",
+               "short_name" : "Zhutang Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Changhua County",
+               "short_name" : "Changhua County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "525",
+               "short_name" : "525",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Zhutang Township, Changhua County, Taiwan 525",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.8882329,
+                  "lng" : 120.458823
+               },
+               "southwest" : {
+                  "lat" : 23.81666,
+                  "lng" : 120.3655285
+               }
+            },
+            "location" : {
+               "lat" : 23.8448257,
+               "lng" : 120.4242401
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8882329,
+                  "lng" : 120.458823
+               },
+               "southwest" : {
+                  "lat" : 23.81666,
+                  "lng" : 120.3655285
+               }
+            }
+         },
+         "place_id" : "ChIJAwLWUBOzbjQRRx53Xe6Lr2A",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,44 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Qijin District",
+               "short_name" : "Qijin District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            }
+         ],
+         "formatted_address" : "Qijin District",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.6178078,
+                  "lng" : 120.3176512
+               },
+               "southwest" : {
+                  "lat" : 20.5170001,
+                  "lng" : 116.6665
+               }
+            },
+            "location" : {
+               "lat" : 22.6141771,
+               "lng" : 120.2659394
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.6178078,
+                  "lng" : 120.3176512
+               },
+               "southwest" : {
+                  "lat" : 20.5170001,
+                  "lng" : 116.6665
+               }
+            }
+         },
+         "place_id" : "ChIJtT-kzq8DbjQRmdG0FjtzdWk",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

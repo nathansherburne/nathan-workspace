@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Heping District",
+               "short_name" : "Heping District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "424",
+               "short_name" : "424",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Heping District, Taichung City, Taiwan 424",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.4416976,
+                  "lng" : 121.4509512
+               },
+               "southwest" : {
+                  "lat" : 24.1073838,
+                  "lng" : 120.8653486
+               }
+            },
+            "location" : {
+               "lat" : 24.3207261,
+               "lng" : 121.3084088
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.4416976,
+                  "lng" : 121.4509512
+               },
+               "southwest" : {
+                  "lat" : 24.1073838,
+                  "lng" : 120.8653486
+               }
+            }
+         },
+         "place_id" : "ChIJsVHVN3fxaDQRFnl6gcmBeyc",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

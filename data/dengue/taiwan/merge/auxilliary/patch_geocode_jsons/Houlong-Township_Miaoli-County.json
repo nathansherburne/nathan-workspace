@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Houlong Township",
+               "short_name" : "Houlong Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Miaoli County",
+               "short_name" : "Miaoli County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "356",
+               "short_name" : "356",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Houlong Township, Miaoli County, Taiwan 356",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.6697357,
+                  "lng" : 120.8447561
+               },
+               "southwest" : {
+                  "lat" : 24.5600188,
+                  "lng" : 120.7079463
+               }
+            },
+            "location" : {
+               "lat" : 24.6190374,
+               "lng" : 120.792458
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.6697357,
+                  "lng" : 120.8447561
+               },
+               "southwest" : {
+                  "lat" : 24.5600188,
+                  "lng" : 120.7079463
+               }
+            }
+         },
+         "place_id" : "ChIJ4T3F3l6uaTQRkec7C3MPzGo",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

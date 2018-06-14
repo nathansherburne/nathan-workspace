@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Daxi District",
+               "short_name" : "Daxi District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taoyuan City",
+               "short_name" : "Taoyuan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "335",
+               "short_name" : "335",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Daxi District, Taoyuan City, Taiwan 335",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.9385018,
+                  "lng" : 121.3581869
+               },
+               "southwest" : {
+                  "lat" : 24.8034534,
+                  "lng" : 121.2431076
+               }
+            },
+            "location" : {
+               "lat" : 24.8658422,
+               "lng" : 121.2969674
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.9385018,
+                  "lng" : 121.3581869
+               },
+               "southwest" : {
+                  "lat" : 24.8034534,
+                  "lng" : 121.2431076
+               }
+            }
+         },
+         "place_id" : "ChIJG7F1kIYXaDQROgnxerDxDiw",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

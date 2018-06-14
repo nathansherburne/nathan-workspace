@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Qishan District",
+               "short_name" : "Qishan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "842",
+               "short_name" : "842",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Qishan District, Kaohsiung City, Taiwan 842",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.9801512,
+                  "lng" : 120.5292581
+               },
+               "southwest" : {
+                  "lat" : 22.7717633,
+                  "lng" : 120.4154208
+               }
+            },
+            "location" : {
+               "lat" : 22.8702492,
+               "lng" : 120.4703258
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.9801512,
+                  "lng" : 120.5292581
+               },
+               "southwest" : {
+                  "lat" : 22.7717633,
+                  "lng" : 120.4154208
+               }
+            }
+         },
+         "place_id" : "ChIJISi3bwZrbjQRgrRpV5ri924",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

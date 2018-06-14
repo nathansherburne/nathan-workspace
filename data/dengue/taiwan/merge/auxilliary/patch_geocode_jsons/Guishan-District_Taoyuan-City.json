@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Guishan District",
+               "short_name" : "Guishan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taoyuan City",
+               "short_name" : "Taoyuan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "333",
+               "short_name" : "333",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Guishan District, Taoyuan City, Taiwan 333",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.0661143,
+                  "lng" : 121.4121644
+               },
+               "southwest" : {
+                  "lat" : 24.9767908,
+                  "lng" : 121.2935808
+               }
+            },
+            "location" : {
+               "lat" : 25.0199092,
+               "lng" : 121.3655989
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.0661143,
+                  "lng" : 121.4121644
+               },
+               "southwest" : {
+                  "lat" : 24.9767908,
+                  "lng" : 121.2935808
+               }
+            }
+         },
+         "place_id" : "ChIJ0Ue3PwgeaDQRq4Z5s-l6M9s",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

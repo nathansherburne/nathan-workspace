@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shalu District",
+               "short_name" : "Shalu District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "433",
+               "short_name" : "433",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Shalu District, Taichung City, Taiwan 433",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.2689239,
+                  "lng" : 120.6331631
+               },
+               "southwest" : {
+                  "lat" : 24.1926494,
+                  "lng" : 120.5466685
+               }
+            },
+            "location" : {
+               "lat" : 24.2377939,
+               "lng" : 120.5854674
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.2689239,
+                  "lng" : 120.6331631
+               },
+               "southwest" : {
+                  "lat" : 24.1926494,
+                  "lng" : 120.5466685
+               }
+            }
+         },
+         "place_id" : "ChIJKQ2IF0wUaTQRMZ-gtjbSDIg",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

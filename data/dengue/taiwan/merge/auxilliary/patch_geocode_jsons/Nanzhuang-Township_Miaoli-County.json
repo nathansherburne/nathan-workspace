@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Nanzhuang Township",
+               "short_name" : "Nanzhuang Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Miaoli County",
+               "short_name" : "Miaoli County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "353",
+               "short_name" : "353",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Nanzhuang Township, Miaoli County, Taiwan 353",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.6465617,
+                  "lng" : 121.0830935
+               },
+               "southwest" : {
+                  "lat" : 24.4917845,
+                  "lng" : 120.9482326
+               }
+            },
+            "location" : {
+               "lat" : 24.5802942,
+               "lng" : 121.0105733
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.6465617,
+                  "lng" : 121.0830935
+               },
+               "southwest" : {
+                  "lat" : 24.4917845,
+                  "lng" : 120.9482326
+               }
+            }
+         },
+         "place_id" : "ChIJK2FcpbxRaDQRQahVpF_kR-g",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

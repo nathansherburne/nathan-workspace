@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Huwei Township",
+               "short_name" : "Huwei Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Yunlin County",
+               "short_name" : "Yunlin County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "632",
+               "short_name" : "632",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Huwei Township, Yunlin County, Taiwan 632",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.7469929,
+                  "lng" : 120.5033306
+               },
+               "southwest" : {
+                  "lat" : 23.6686107,
+                  "lng" : 120.3698434
+               }
+            },
+            "location" : {
+               "lat" : 23.7162184,
+               "lng" : 120.4242401
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.7469929,
+                  "lng" : 120.5033306
+               },
+               "southwest" : {
+                  "lat" : 23.6686107,
+                  "lng" : 120.3698434
+               }
+            }
+         },
+         "place_id" : "ChIJF6jDpVS3bjQRlOpMnOgRNfc",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

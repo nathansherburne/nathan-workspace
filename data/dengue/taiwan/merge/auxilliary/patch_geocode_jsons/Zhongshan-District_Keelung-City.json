@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Zhongshan District",
+               "short_name" : "Zhongshan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Keelung City",
+               "short_name" : "Keelung City",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "203",
+               "short_name" : "203",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Zhongshan District, Keelung City, Taiwan 203",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.1666607,
+                  "lng" : 121.7535845
+               },
+               "southwest" : {
+                  "lat" : 25.1287861,
+                  "lng" : 121.7054271
+               }
+            },
+            "location" : {
+               "lat" : 25.152587,
+               "lng" : 121.7252457
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.1666607,
+                  "lng" : 121.7535845
+               },
+               "southwest" : {
+                  "lat" : 25.1287861,
+                  "lng" : 121.7054271
+               }
+            }
+         },
+         "place_id" : "ChIJec-c6npOXTQRrxukOfklM6A",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

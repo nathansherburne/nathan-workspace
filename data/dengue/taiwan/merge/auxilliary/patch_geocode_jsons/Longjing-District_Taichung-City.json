@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Longjing District",
+               "short_name" : "Longjing District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "434",
+               "short_name" : "434",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Longjing District, Taichung City, Taiwan 434",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.2902657,
+                  "lng" : 120.5979208
+               },
+               "southwest" : {
+                  "lat" : 24.1702198,
+                  "lng" : 120.4607975
+               }
+            },
+            "location" : {
+               "lat" : 24.2102428,
+               "lng" : 120.5163949
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.2902657,
+                  "lng" : 120.5979208
+               },
+               "southwest" : {
+                  "lat" : 24.1702198,
+                  "lng" : 120.4607975
+               }
+            }
+         },
+         "place_id" : "ChIJT1RiFS0VaTQRZlufy9Aq4IY",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

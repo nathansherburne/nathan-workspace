@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xinfeng Township",
+               "short_name" : "Xinfeng Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Hsinchu County",
+               "short_name" : "Hsinchu County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "304",
+               "short_name" : "304",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xinfeng Township, Hsinchu County, Taiwan 304",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.9463726,
+                  "lng" : 121.0463111
+               },
+               "southwest" : {
+                  "lat" : 24.8614702,
+                  "lng" : 120.9489572
+               }
+            },
+            "location" : {
+               "lat" : 24.9132859,
+               "lng" : 120.9991032
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.9463726,
+                  "lng" : 121.0463111
+               },
+               "southwest" : {
+                  "lat" : 24.8614702,
+                  "lng" : 120.9489572
+               }
+            }
+         },
+         "place_id" : "ChIJz90aloIxaDQR1ELsL6Bnnbo",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

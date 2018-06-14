@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Dapi Township",
+               "short_name" : "Dapi Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Yunlin County",
+               "short_name" : "Yunlin County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "631",
+               "short_name" : "631",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Dapi Township, Yunlin County, Taiwan 631",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.6795316,
+                  "lng" : 120.4744678
+               },
+               "southwest" : {
+                  "lat" : 23.6074945,
+                  "lng" : 120.3665118
+               }
+            },
+            "location" : {
+               "lat" : 23.6519084,
+               "lng" : 120.4242401
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.6795316,
+                  "lng" : 120.4744678
+               },
+               "southwest" : {
+                  "lat" : 23.6074945,
+                  "lng" : 120.3665118
+               }
+            }
+         },
+         "place_id" : "ChIJzUQCQ8K7bjQRxNad3MF4UmM",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

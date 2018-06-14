@@ -1,0 +1,49 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Jincheng",
+               "short_name" : "Jincheng",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "893",
+               "short_name" : "893",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Jincheng 893",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.4430565,
+                  "lng" : 118.331949
+               },
+               "southwest" : {
+                  "lat" : 24.3976507,
+                  "lng" : 118.2945219
+               }
+            },
+            "location" : {
+               "lat" : 24.4320647,
+               "lng" : 118.3155101
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.4430565,
+                  "lng" : 118.331949
+               },
+               "southwest" : {
+                  "lat" : 24.3976507,
+                  "lng" : 118.2945219
+               }
+            }
+         },
+         "place_id" : "ChIJMbo1U2miFDQRqBAVmGw3KUM",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

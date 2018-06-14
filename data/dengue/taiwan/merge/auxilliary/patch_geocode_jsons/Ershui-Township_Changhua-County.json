@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Ershui Township",
+               "short_name" : "Ershui Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Changhua County",
+               "short_name" : "Changhua County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "530",
+               "short_name" : "530",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Ershui Township, Changhua County, Taiwan 530",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.841964,
+                  "lng" : 120.6839483
+               },
+               "southwest" : {
+                  "lat" : 23.7856174,
+                  "lng" : 120.5818804
+               }
+            },
+            "location" : {
+               "lat" : 23.8062757,
+               "lng" : 120.6257423
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.841964,
+                  "lng" : 120.6839483
+               },
+               "southwest" : {
+                  "lat" : 23.7856174,
+                  "lng" : 120.5818804
+               }
+            }
+         },
+         "place_id" : "ChIJN5rjwbzMbjQRoSqoltv_DNY",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

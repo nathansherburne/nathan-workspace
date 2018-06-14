@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xiaogang District",
+               "short_name" : "Xiaogang District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "812",
+               "short_name" : "812",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xiaogang District, Kaohsiung City, Taiwan 812",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.5878939,
+                  "lng" : 120.3988794
+               },
+               "southwest" : {
+                  "lat" : 22.506603,
+                  "lng" : 120.2985406
+               }
+            },
+            "location" : {
+               "lat" : 22.5553185,
+               "lng" : 120.3608455
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.5878939,
+                  "lng" : 120.3988794
+               },
+               "southwest" : {
+                  "lat" : 22.506603,
+                  "lng" : 120.2985406
+               }
+            }
+         },
+         "place_id" : "ChIJr7dO-DMdbjQRZHXfEKValxc",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "East District",
+               "short_name" : "East District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Chiayi City",
+               "short_name" : "Chiayi City",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "600",
+               "short_name" : "600",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "East District, Chiayi City, Taiwan 600",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.5183403,
+                  "lng" : 120.5093995
+               },
+               "southwest" : {
+                  "lat" : 23.4434208,
+                  "lng" : 120.4325472
+               }
+            },
+            "location" : {
+               "lat" : 23.4853348,
+               "lng" : 120.4760853
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.5183403,
+                  "lng" : 120.5093995
+               },
+               "southwest" : {
+                  "lat" : 23.4434208,
+                  "lng" : 120.4325472
+               }
+            }
+         },
+         "place_id" : "ChIJV2yZrVKUbjQRXk2q36HY7qU",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

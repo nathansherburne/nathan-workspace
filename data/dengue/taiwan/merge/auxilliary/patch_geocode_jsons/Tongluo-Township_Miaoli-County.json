@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Tongluo Township",
+               "short_name" : "Tongluo Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Miaoli County",
+               "short_name" : "Miaoli County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "366",
+               "short_name" : "366",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Tongluo Township, Miaoli County, Taiwan 366",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.5337616,
+                  "lng" : 120.8450082
+               },
+               "southwest" : {
+                  "lat" : 24.388041,
+                  "lng" : 120.7511764
+               }
+            },
+            "location" : {
+               "lat" : 24.4481942,
+               "lng" : 120.792458
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.5337616,
+                  "lng" : 120.8450082
+               },
+               "southwest" : {
+                  "lat" : 24.388041,
+                  "lng" : 120.7511764
+               }
+            }
+         },
+         "place_id" : "ChIJz_s5fUkHaTQRRBjU77mM18Q",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

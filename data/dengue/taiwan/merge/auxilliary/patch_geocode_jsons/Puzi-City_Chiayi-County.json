@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Puzi City",
+               "short_name" : "Puzi City",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Chiayi County",
+               "short_name" : "Chiayi County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "613",
+               "short_name" : "613",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Puzi City, Chiayi County, Taiwan 613",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.4914444,
+                  "lng" : 120.294726
+               },
+               "southwest" : {
+                  "lat" : 23.3945966,
+                  "lng" : 120.206228
+               }
+            },
+            "location" : {
+               "lat" : 23.4464152,
+               "lng" : 120.2570421
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.4914444,
+                  "lng" : 120.294726
+               },
+               "southwest" : {
+                  "lat" : 23.3945966,
+                  "lng" : 120.206228
+               }
+            }
+         },
+         "place_id" : "ChIJ2eU-5X-cbjQR9pZQuICjj_I",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

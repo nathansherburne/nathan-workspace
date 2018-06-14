@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Zuoying District",
+               "short_name" : "Zuoying District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "813",
+               "short_name" : "813",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Zuoying District, Kaohsiung City, Taiwan 813",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.709535,
+                  "lng" : 120.32465
+               },
+               "southwest" : {
+                  "lat" : 22.654725,
+                  "lng" : 120.251309
+               }
+            },
+            "location" : {
+               "lat" : 22.6877358,
+               "lng" : 120.2916524
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.709535,
+                  "lng" : 120.32465
+               },
+               "southwest" : {
+                  "lat" : 22.654725,
+                  "lng" : 120.251309
+               }
+            }
+         },
+         "place_id" : "ChIJleH1kaIFbjQR3vyIql2nV-w",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

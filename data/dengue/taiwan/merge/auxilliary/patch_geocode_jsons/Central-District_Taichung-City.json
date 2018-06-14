@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Central District",
+               "short_name" : "Central District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "400",
+               "short_name" : "400",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Central District, Taichung City, Taiwan 400",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.1482219,
+                  "lng" : 120.6860935
+               },
+               "southwest" : {
+                  "lat" : 24.1355153,
+                  "lng" : 120.6737534
+               }
+            },
+            "location" : {
+               "lat" : 24.1402601,
+               "lng" : 120.6818181
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.1482219,
+                  "lng" : 120.6860935
+               },
+               "southwest" : {
+                  "lat" : 24.1355153,
+                  "lng" : 120.6737534
+               }
+            }
+         },
+         "place_id" : "ChIJhWQL0xI9aTQRDQcDJZldnMg",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

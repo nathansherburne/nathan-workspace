@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shitan Township",
+               "short_name" : "Shitan Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Miaoli County",
+               "short_name" : "Miaoli County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "354",
+               "short_name" : "354",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Shitan Township, Miaoli County, Taiwan 354",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.6012056,
+                  "lng" : 120.9745048
+               },
+               "southwest" : {
+                  "lat" : 24.4445191,
+                  "lng" : 120.8647437
+               }
+            },
+            "location" : {
+               "lat" : 24.5238661,
+               "lng" : 120.9302603
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.6012056,
+                  "lng" : 120.9745048
+               },
+               "southwest" : {
+                  "lat" : 24.4445191,
+                  "lng" : 120.8647437
+               }
+            }
+         },
+         "place_id" : "ChIJp-OSOpZUaDQROZnXjeZBxdU",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

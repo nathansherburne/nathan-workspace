@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Tongxiao Township",
+               "short_name" : "Tongxiao Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Miaoli County",
+               "short_name" : "Miaoli County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "357",
+               "short_name" : "357",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Tongxiao Township, Miaoli County, Taiwan 357",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.5736684,
+                  "lng" : 120.7634302
+               },
+               "southwest" : {
+                  "lat" : 24.4046835,
+                  "lng" : 120.64946
+               }
+            },
+            "location" : {
+               "lat" : 24.485028,
+               "lng" : 120.7234992
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.5736684,
+                  "lng" : 120.7634302
+               },
+               "southwest" : {
+                  "lat" : 24.4046835,
+                  "lng" : 120.64946
+               }
+            }
+         },
+         "place_id" : "ChIJ1QIrAQYIaTQRc0yugRXF7WA",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

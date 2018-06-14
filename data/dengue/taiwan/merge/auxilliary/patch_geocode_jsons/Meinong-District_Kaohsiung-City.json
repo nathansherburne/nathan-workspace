@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Meinong District",
+               "short_name" : "Meinong District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "843",
+               "short_name" : "843",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Meinong District, Kaohsiung City, Taiwan 843",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.9833814,
+                  "lng" : 120.6282579
+               },
+               "southwest" : {
+                  "lat" : 22.8282985,
+                  "lng" : 120.4952844
+               }
+            },
+            "location" : {
+               "lat" : 22.885385,
+               "lng" : 120.5509358
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.9833814,
+                  "lng" : 120.6282579
+               },
+               "southwest" : {
+                  "lat" : 22.8282985,
+                  "lng" : 120.4952844
+               }
+            }
+         },
+         "place_id" : "ChIJy-T55ydCbjQRZhh9qxt3YoY",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

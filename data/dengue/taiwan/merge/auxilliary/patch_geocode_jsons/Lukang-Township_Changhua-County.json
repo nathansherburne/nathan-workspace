@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lukang Township",
+               "short_name" : "Lukang Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Changhua County",
+               "short_name" : "Changhua County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "505",
+               "short_name" : "505",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Lukang Township, Changhua County, Taiwan 505",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.1266223,
+                  "lng" : 120.4927852
+               },
+               "southwest" : {
+                  "lat" : 24.0401538,
+                  "lng" : 120.3644228
+               }
+            },
+            "location" : {
+               "lat" : 24.0755127,
+               "lng" : 120.447285
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.1266223,
+                  "lng" : 120.4927852
+               },
+               "southwest" : {
+                  "lat" : 24.0401538,
+                  "lng" : 120.3644228
+               }
+            }
+         },
+         "place_id" : "ChIJvVcjPtFFaTQR2JxDbQt1uB8",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Yongjing Township",
+               "short_name" : "Yongjing Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Changhua County",
+               "short_name" : "Changhua County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "512",
+               "short_name" : "512",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Yongjing Township, Changhua County, Taiwan 512",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.938456,
+                  "lng" : 120.5771804
+               },
+               "southwest" : {
+                  "lat" : 23.8983357,
+                  "lng" : 120.4939475
+               }
+            },
+            "location" : {
+               "lat" : 23.9202279,
+               "lng" : 120.5451797
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.938456,
+                  "lng" : 120.5771804
+               },
+               "southwest" : {
+                  "lat" : 23.8983357,
+                  "lng" : 120.4939475
+               }
+            }
+         },
+         "place_id" : "ChIJe5o_FvM1aTQRnNtKFUmVxGo",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

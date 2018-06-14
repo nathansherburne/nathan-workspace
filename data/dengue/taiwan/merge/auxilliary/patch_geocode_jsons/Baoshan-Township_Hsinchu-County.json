@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Baoshan Township",
+               "short_name" : "Baoshan Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Hsinchu County",
+               "short_name" : "Hsinchu County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "308",
+               "short_name" : "308",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Baoshan Township, Hsinchu County, Taiwan 308",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.7805726,
+                  "lng" : 121.0697843
+               },
+               "southwest" : {
+                  "lat" : 24.7040247,
+                  "lng" : 120.9354184
+               }
+            },
+            "location" : {
+               "lat" : 24.7427912,
+               "lng" : 120.9991032
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.7805726,
+                  "lng" : 121.0697843
+               },
+               "southwest" : {
+                  "lat" : 24.7040247,
+                  "lng" : 120.9354184
+               }
+            }
+         },
+         "place_id" : "ChIJX5Jdg5BJaDQRkPZfyJBQV24",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

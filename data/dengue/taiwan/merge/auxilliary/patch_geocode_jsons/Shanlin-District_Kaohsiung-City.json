@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shanlin District",
+               "short_name" : "Shanlin District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "846",
+               "short_name" : "846",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Shanlin District, Kaohsiung City, Taiwan 846",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.0622708,
+                  "lng" : 120.6236734
+               },
+               "southwest" : {
+                  "lat" : 22.9114096,
+                  "lng" : 120.5021444
+               }
+            },
+            "location" : {
+               "lat" : 23.0007902,
+               "lng" : 120.5624474
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.0622708,
+                  "lng" : 120.6236734
+               },
+               "southwest" : {
+                  "lat" : 22.9114096,
+                  "lng" : 120.5021444
+               }
+            }
+         },
+         "place_id" : "ChIJ4X63e9JCbjQR5htvNUk1_eA",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

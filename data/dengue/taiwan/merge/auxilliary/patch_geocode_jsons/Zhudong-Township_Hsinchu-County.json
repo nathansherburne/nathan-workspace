@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Zhudong Township",
+               "short_name" : "Zhudong Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Hsinchu County",
+               "short_name" : "Hsinchu County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "310",
+               "short_name" : "310",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Zhudong Township, Hsinchu County, Taiwan 310",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.8020457,
+                  "lng" : 121.1286503
+               },
+               "southwest" : {
+                  "lat" : 24.6399992,
+                  "lng" : 121.0205963
+               }
+            },
+            "location" : {
+               "lat" : 24.774922,
+               "lng" : 121.0449768
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.8020457,
+                  "lng" : 121.1286503
+               },
+               "southwest" : {
+                  "lat" : 24.6399992,
+                  "lng" : 121.0205963
+               }
+            }
+         },
+         "place_id" : "ChIJh2C1RXlIaDQRt9ANOhPVSCs",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

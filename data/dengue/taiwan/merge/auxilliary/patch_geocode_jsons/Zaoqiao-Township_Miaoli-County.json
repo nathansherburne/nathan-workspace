@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Zaoqiao Township",
+               "short_name" : "Zaoqiao Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Miaoli County",
+               "short_name" : "Miaoli County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "361",
+               "short_name" : "361",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Zaoqiao Township, Miaoli County, Taiwan 361",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.6662124,
+                  "lng" : 120.9494158
+               },
+               "southwest" : {
+                  "lat" : 24.5895198,
+                  "lng" : 120.8134239
+               }
+            },
+            "location" : {
+               "lat" : 24.6248068,
+               "lng" : 120.8613785
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.6662124,
+                  "lng" : 120.9494158
+               },
+               "southwest" : {
+                  "lat" : 24.5895198,
+                  "lng" : 120.8134239
+               }
+            }
+         },
+         "place_id" : "ChIJSRtDB1mtaTQRE2P3ga96RlQ",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

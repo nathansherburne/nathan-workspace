@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xinshe District",
+               "short_name" : "Xinshe District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "426",
+               "short_name" : "426",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xinshe District, Taichung City, Taiwan 426",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.2701089,
+                  "lng" : 120.8980891
+               },
+               "southwest" : {
+                  "lat" : 24.0850016,
+                  "lng" : 120.7663903
+               }
+            },
+            "location" : {
+               "lat" : 24.1867194,
+               "lng" : 120.8154358
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.2701089,
+                  "lng" : 120.8980891
+               },
+               "southwest" : {
+                  "lat" : 24.0850016,
+                  "lng" : 120.7663903
+               }
+            }
+         },
+         "place_id" : "ChIJ7YlBU-EeaTQRwlzyiqxrSDk",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

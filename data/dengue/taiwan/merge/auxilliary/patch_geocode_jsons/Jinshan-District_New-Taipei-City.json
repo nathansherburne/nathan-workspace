@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Jinshan District",
+               "short_name" : "Jinshan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "208",
+               "short_name" : "208",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Jinshan District, New Taipei City, Taiwan 208",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.2751261,
+                  "lng" : 121.6548197
+               },
+               "southwest" : {
+                  "lat" : 25.162959,
+                  "lng" : 121.5594145
+               }
+            },
+            "location" : {
+               "lat" : 25.2223616,
+               "lng" : 121.6367773
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.2751261,
+                  "lng" : 121.6548197
+               },
+               "southwest" : {
+                  "lat" : 25.162959,
+                  "lng" : 121.5594145
+               }
+            }
+         },
+         "place_id" : "ChIJIWMpPl2zQjQR4X9_x7mYhks",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

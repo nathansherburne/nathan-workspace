@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shenkeng District",
+               "short_name" : "Shenkeng District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "222",
+               "short_name" : "222",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Shenkeng District, New Taipei City, Taiwan 222",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.0256355,
+                  "lng" : 121.6457649
+               },
+               "southwest" : {
+                  "lat" : 24.9692583,
+                  "lng" : 121.5956238
+               }
+            },
+            "location" : {
+               "lat" : 25.0033792,
+               "lng" : 121.6169002
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.0256355,
+                  "lng" : 121.6457649
+               },
+               "southwest" : {
+                  "lat" : 24.9692583,
+                  "lng" : 121.5956238
+               }
+            }
+         },
+         "place_id" : "ChIJN5U5zM6qQjQRLKU2Ut9qv4I",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

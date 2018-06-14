@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Nuannuan District",
+               "short_name" : "Nuannuan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Keelung City",
+               "short_name" : "Keelung City",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "205",
+               "short_name" : "205",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Nuannuan District, Keelung City, Taiwan 205",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.1135315,
+                  "lng" : 121.7757137
+               },
+               "southwest" : {
+                  "lat" : 25.0524664,
+                  "lng" : 121.7195434
+               }
+            },
+            "location" : {
+               "lat" : 25.0836163,
+               "lng" : 121.748042
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.1135315,
+                  "lng" : 121.7757137
+               },
+               "southwest" : {
+                  "lat" : 25.0524664,
+                  "lng" : 121.7195434
+               }
+            }
+         },
+         "place_id" : "ChIJC1FED7xRXTQRH6v4p0h_DDA",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

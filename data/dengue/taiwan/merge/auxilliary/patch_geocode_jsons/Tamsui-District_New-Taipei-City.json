@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Tamsui District",
+               "short_name" : "Tamsui District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "251",
+               "short_name" : "251",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Tamsui District, New Taipei City, Taiwan 251",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.2443731,
+                  "lng" : 121.5225509
+               },
+               "southwest" : {
+                  "lat" : 25.1229828,
+                  "lng" : 121.4049894
+               }
+            },
+            "location" : {
+               "lat" : 25.1719805,
+               "lng" : 121.4433706
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.2443731,
+                  "lng" : 121.5225509
+               },
+               "southwest" : {
+                  "lat" : 25.1229828,
+                  "lng" : 121.4049894
+               }
+            }
+         },
+         "place_id" : "ChIJ5Sf2QxmwQjQRsn3QcZ95QNI",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

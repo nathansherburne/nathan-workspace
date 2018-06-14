@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Luzhu District",
+               "short_name" : "Luzhu District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "821",
+               "short_name" : "821",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Luzhu District, Kaohsiung City, Taiwan 821",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.9019018,
+                  "lng" : 120.306844
+               },
+               "southwest" : {
+                  "lat" : 22.8166663,
+                  "lng" : 120.2133918
+               }
+            },
+            "location" : {
+               "lat" : 22.8494042,
+               "lng" : 120.2628111
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.9019018,
+                  "lng" : 120.306844
+               },
+               "southwest" : {
+                  "lat" : 22.8166663,
+                  "lng" : 120.2133918
+               }
+            }
+         },
+         "place_id" : "ChIJyQk1XpgMbjQRzIgFrHOLnuM",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

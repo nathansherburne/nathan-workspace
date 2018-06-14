@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xiangshan District",
+               "short_name" : "Xiangshan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Hsinchu City",
+               "short_name" : "Hsinchu City",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "300",
+               "short_name" : "300",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xiangshan District, Hsinchu City, Taiwan 300",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.8272887,
+                  "lng" : 120.9635184
+               },
+               "southwest" : {
+                  "lat" : 24.7125478,
+                  "lng" : 120.8785096
+               }
+            },
+            "location" : {
+               "lat" : 24.7798216,
+               "lng" : 120.9302603
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.8272887,
+                  "lng" : 120.9635184
+               },
+               "southwest" : {
+                  "lat" : 24.7125478,
+                  "lng" : 120.8785096
+               }
+            }
+         },
+         "place_id" : "ChIJ1fT05-pKaDQR0lvkLIM8VGo",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

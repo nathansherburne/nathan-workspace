@@ -1,0 +1,54 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shulin District",
+               "short_name" : "Shulin District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Shulin District, New Taipei City, Taiwan",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.0203324,
+                  "lng" : 121.4320432
+               },
+               "southwest" : {
+                  "lat" : 24.9424985,
+                  "lng" : 121.3613611
+               }
+            },
+            "location" : {
+               "lat" : 24.9815605,
+               "lng" : 121.4198606
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.0203324,
+                  "lng" : 121.4320432
+               },
+               "southwest" : {
+                  "lat" : 24.9424985,
+                  "lng" : 121.3613611
+               }
+            }
+         },
+         "place_id" : "ChIJExKsKKsdaDQRX7Z5j6Nt_ug",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sanyi Township",
+               "short_name" : "Sanyi Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Miaoli County",
+               "short_name" : "Miaoli County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "367",
+               "short_name" : "367",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Sanyi Township, Miaoli County, Taiwan 367",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.438124,
+                  "lng" : 120.8229572
+               },
+               "southwest" : {
+                  "lat" : 24.3206318,
+                  "lng" : 120.7243425
+               }
+            },
+            "location" : {
+               "lat" : 24.3892633,
+               "lng" : 120.769476
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.438124,
+                  "lng" : 120.8229572
+               },
+               "southwest" : {
+                  "lat" : 24.3206318,
+                  "lng" : 120.7243425
+               }
+            }
+         },
+         "place_id" : "ChIJpQGa6TgEaTQRzwO8OL9_YHo",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

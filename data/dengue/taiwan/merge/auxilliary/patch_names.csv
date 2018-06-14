@@ -1,54 +1,54 @@
-region,city,district
-Taipei,Taipei City,Songshan Dist.
-Taipei,Taipei City,Da'an Dist.
-Taipei,Taipei City,Datong Dist.
-Taipei,Taipei City,Zhongshan Dist.
-Taipei,Taipei City,Neihu Dist.
-Taipei,Taipei City,Nangang Dist.
-Taipei,Taipei City,Shilin Dist.
-Taipei,Taipei City,Beitou Dist.
-Taipei,Taipei City,Xinyi Dist.
-Taipei,Taipei City,Zhongzheng Dist.
-Taipei,Taipei City,Wanhua Dist.
-Taipei,Taipei City,Wenshan Dist.
+area,city,town
+Taipei,Taipei City,Songshan District
+Taipei,Taipei City,Da'an District
+Taipei,Taipei City,Datong District
+Taipei,Taipei City,Zhongshan District
+Taipei,Taipei City,Neihu District
+Taipei,Taipei City,Nangang District
+Taipei,Taipei City,Shilin District
+Taipei,Taipei City,Beitou District
+Taipei,Taipei City,Xinyi District
+Taipei,Taipei City,Zhongzheng District
+Taipei,Taipei City,Wanhua District
+Taipei,Taipei City,Wenshan District
 Taipei,Taipei City,Other
-Taipei,Keelung City,Zhongzheng Dist.
-Taipei,Keelung City,Qidu Dist.
-Taipei,Keelung City,Nuannuan Dist.
-Taipei,Keelung City,Ren'ai Dist.
-Taipei,Keelung City,Zhongshan Dist.
-Taipei,Keelung City,Anle Dist.
-Taipei,Keelung City,Xinyi Dist.
+Taipei,Keelung City,Zhongzheng District
+Taipei,Keelung City,Qidu District
+Taipei,Keelung City,Nuannuan District
+Taipei,Keelung City,Ren'ai District
+Taipei,Keelung City,Zhongshan District
+Taipei,Keelung City,Anle District
+Taipei,Keelung City,Xinyi District
 Taipei,Keelung City,Other
-Taipei,New Taipei City,Banqiao Dist.
-Taipei,New Taipei City,Sanchong Dist.
-Taipei,New Taipei City,Yonghe Dist.
-Taipei,New Taipei City,Zhonghe Dist.
-Taipei,New Taipei City,Xindian Dist.
-Taipei,New Taipei City,Xinzhuang Dist.
-Taipei,New Taipei City,Shulin Dist.
-Taipei,New Taipei City,Yingge Dist.
-Taipei,New Taipei City,Sanxia Dist.
-Taipei,New Taipei City,Tamsui Dist.
-Taipei,New Taipei City,Xizhi Dist.
-Taipei,New Taipei City,Ruifang Dist.
-Taipei,New Taipei City,Tucheng Dist.
-Taipei,New Taipei City,Luzhou Dist.
-Taipei,New Taipei City,Wugu Dist.
-Taipei,New Taipei City,Taishan Dist.
-Taipei,New Taipei City,Linkou Dist.
-Taipei,New Taipei City,Shenkeng Dist.
-Taipei,New Taipei City,Shiding Dist.
-Taipei,New Taipei City,Pinglin Dist.
-Taipei,New Taipei City,Sanzhi Dist.
-Taipei,New Taipei City,Shimen Dist.
-Taipei,New Taipei City,Bali Dist.
-Taipei,New Taipei City,Pingxi Dist.
-Taipei,New Taipei City,Shuangxi Dist.
-Taipei,New Taipei City,Gongliao Dist.
-Taipei,New Taipei City,Jinshan Dist.
-Taipei,New Taipei City,Wanli Dist.
-Taipei,New Taipei City,Wulai Dist.
+Taipei,New Taipei City,Banqiao District
+Taipei,New Taipei City,Sanchong District
+Taipei,New Taipei City,Yonghe District
+Taipei,New Taipei City,Zhonghe District
+Taipei,New Taipei City,Xindian District
+Taipei,New Taipei City,Xinzhuang District
+Taipei,New Taipei City,Shulin District
+Taipei,New Taipei City,Yingge District
+Taipei,New Taipei City,Sanxia District
+Taipei,New Taipei City,Tamsui District
+Taipei,New Taipei City,Xizhi District
+Taipei,New Taipei City,Ruifang District
+Taipei,New Taipei City,Tucheng District
+Taipei,New Taipei City,Luzhou District
+Taipei,New Taipei City,Wugu District
+Taipei,New Taipei City,Taishan District
+Taipei,New Taipei City,Linkou District
+Taipei,New Taipei City,Shenkeng District
+Taipei,New Taipei City,Shiding District
+Taipei,New Taipei City,Pinglin District
+Taipei,New Taipei City,Sanzhi District
+Taipei,New Taipei City,Shimen District
+Taipei,New Taipei City,Bali District
+Taipei,New Taipei City,Pingxi District
+Taipei,New Taipei City,Shuangxi District
+Taipei,New Taipei City,Gongliao District
+Taipei,New Taipei City,Jinshan District
+Taipei,New Taipei City,Wanli District
+Taipei,New Taipei City,Wulai District
 Taipei,New Taipei City,Other
 Taipei,Yilan County,Yilan City
 Taipei,Yilan County,Luodong Township
@@ -75,23 +75,23 @@ Taipei,Lienchiang County,Beigan Township
 Taipei,Lienchiang County,Juguang Township
 Taipei,Lienchiang County,Dongyin Township
 Taipei,Lienchiang County,Other
-Northern,Hsinchu City,East Dist.
-Northern,Hsinchu City,North Dist.
-Northern,Hsinchu City,Xiangshan Dist.
+Northern,Hsinchu City,East District
+Northern,Hsinchu City,North District
+Northern,Hsinchu City,Xiangshan District
 Northern,Hsinchu City,Other
-Northern,Taoyuan City,Taoyuan Dist.
-Northern,Taoyuan City,Zhongli Dist.
-Northern,Taoyuan City,Daxi Dist.
-Northern,Taoyuan City,Yangmei Dist.
-Northern,Taoyuan City,Luzhu Dist.
-Northern,Taoyuan City,Dayuan Dist.
-Northern,Taoyuan City,Guishan Dist.
-Northern,Taoyuan City,Bade Dist.
-Northern,Taoyuan City,Longtan Dist.
-Northern,Taoyuan City,Pingzhen Dist.
-Northern,Taoyuan City,Xinwu Dist.
-Northern,Taoyuan City,Guanyin Dist.
-Northern,Taoyuan City,Fuxing Dist.
+Northern,Taoyuan City,Taoyuan District
+Northern,Taoyuan City,Zhongli District
+Northern,Taoyuan City,Daxi District
+Northern,Taoyuan City,Yangmei District
+Northern,Taoyuan City,Luzhu District
+Northern,Taoyuan City,Dayuan District
+Northern,Taoyuan City,Guishan District
+Northern,Taoyuan City,Bade District
+Northern,Taoyuan City,Longtan District
+Northern,Taoyuan City,Pingzhen District
+Northern,Taoyuan City,Xinwu District
+Northern,Taoyuan City,Guanyin District
+Northern,Taoyuan City,Fuxing District
 Northern,Taoyuan City,Other
 Northern,Hsinchu County,Guanxi Township
 Northern,Hsinchu County,Xinpu Township
@@ -126,35 +126,35 @@ Northern,Miaoli County,Sanwan Township
 Northern,Miaoli County,Shitan Township
 Northern,Miaoli County,Tai'an Township
 Northern,Miaoli County,Other
-Central,Taichung City,Fengyuan Dist.
-Central,Taichung City,Dongshi Dist.
-Central,Taichung City,Dajia Dist.
-Central,Taichung City,Qingshui Dist.
-Central,Taichung City,Shalu Dist.
-Central,Taichung City,Wuqi Dist.
-Central,Taichung City,Houli Dist.
-Central,Taichung City,Shengang Dist.
-Central,Taichung City,Tanzi Dist.
-Central,Taichung City,Daya Dist.
-Central,Taichung City,Xinshe Dist.
-Central,Taichung City,Shigang Dist.
-Central,Taichung City,Waipu Dist.
-Central,Taichung City,Da'an Dist.
-Central,Taichung City,Wuri Dist.
-Central,Taichung City,Dadu Dist.
-Central,Taichung City,Longjing Dist.
-Central,Taichung City,Wufeng Dist.
-Central,Taichung City,Taiping Dist.
-Central,Taichung City,Dali Dist.
-Central,Taichung City,Heping Dist.
-Central,Taichung City,Central Dist.
-Central,Taichung City,East Dist.
-Central,Taichung City,West Dist.
-Central,Taichung City,South Dist.
-Central,Taichung City,North Dist.
-Central,Taichung City,Xitun Dist.
-Central,Taichung City,Nantun Dist.
-Central,Taichung City,Beitun Dist.
+Central,Taichung City,Fengyuan District
+Central,Taichung City,Dongshi District
+Central,Taichung City,Dajia District
+Central,Taichung City,Qingshui District
+Central,Taichung City,Shalu District
+Central,Taichung City,Wuqi District
+Central,Taichung City,Houli District
+Central,Taichung City,Shengang District
+Central,Taichung City,Tanzi District
+Central,Taichung City,Daya District
+Central,Taichung City,Xinshe District
+Central,Taichung City,Shigang District
+Central,Taichung City,Waipu District
+Central,Taichung City,Da'an District
+Central,Taichung City,Wuri District
+Central,Taichung City,Dadu District
+Central,Taichung City,Longjing District
+Central,Taichung City,Wufeng District
+Central,Taichung City,Taiping District
+Central,Taichung City,Dali District
+Central,Taichung City,Heping District
+Central,Taichung City,Central District
+Central,Taichung City,East District
+Central,Taichung City,West District
+Central,Taichung City,South District
+Central,Taichung City,North District
+Central,Taichung City,Xitun District
+Central,Taichung City,Nantun District
+Central,Taichung City,Beitun District
 Central,Taichung City,Other
 Central,Changhua County,Changhua City
 Central,Changhua County,Lukang Township
@@ -197,46 +197,46 @@ Central,Nantou County,Shuili Township
 Central,Nantou County,Xinyi Township
 Central,Nantou County,Ren'ai Township
 Central,Nantou County,Other
-Southern,Tainan City,Xinying Dist.
-Southern,Tainan City,Yanshui Dist.
-Southern,Tainan City,Baihe Dist.
-Southern,Tainan City,Madou Dist.
-Southern,Tainan City,Jiali Dist.
-Southern,Tainan City,Xinhua Dist.
-Southern,Tainan City,Shanhua Dist.
-Southern,Tainan City,Xuejia Dist.
-Southern,Tainan City,Liuying Dist.
-Southern,Tainan City,Houbi Dist.
-Southern,Tainan City,Dongshan Dist.
-Southern,Tainan City,Xiaying Dist.
-Southern,Tainan City,Liujia Dist.
-Southern,Tainan City,Guantian Dist.
-Southern,Tainan City,Danei Dist.
-Southern,Tainan City,Xigang Dist.
-Southern,Tainan City,Qigu Dist.
-Southern,Tainan City,Jiangjun Dist.
-Southern,Tainan City,Beimen Dist.
-Southern,Tainan City,Xinshi Dist.
-Southern,Tainan City,Anding Dist.
-Southern,Tainan City,Shanshang Dist.
-Southern,Tainan City,Yujing Dist.
-Southern,Tainan City,Nanxi Dist.
-Southern,Tainan City,Nanhua Dist.
-Southern,Tainan City,Zuozhen Dist.
-Southern,Tainan City,Rende Dist.
-Southern,Tainan City,Guiren Dist.
-Southern,Tainan City,Guanmiao Dist.
-Southern,Tainan City,Longqi Dist.
-Southern,Tainan City,Yongkang Dist.
-Southern,Tainan City,East Dist.
-Southern,Tainan City,South Dist.
-Southern,Tainan City,West Central Dist.
-Southern,Tainan City,North Dist.
-Southern,Tainan City,Annan Dist.
-Southern,Tainan City,Anping Dist.
+Southern,Tainan City,Xinying District
+Southern,Tainan City,Yanshui District
+Southern,Tainan City,Baihe District
+Southern,Tainan City,Madou District
+Southern,Tainan City,Jiali District
+Southern,Tainan City,Xinhua District
+Southern,Tainan City,Shanhua District
+Southern,Tainan City,Xuejia District
+Southern,Tainan City,Liuying District
+Southern,Tainan City,Houbi District
+Southern,Tainan City,Dongshan District
+Southern,Tainan City,Xiaying District
+Southern,Tainan City,Liujia District
+Southern,Tainan City,Guantian District
+Southern,Tainan City,Danei District
+Southern,Tainan City,Xigang District
+Southern,Tainan City,Qigu District
+Southern,Tainan City,Jiangjun District
+Southern,Tainan City,Beimen District
+Southern,Tainan City,Xinshi District
+Southern,Tainan City,Anding District
+Southern,Tainan City,Shanshang District
+Southern,Tainan City,Yujing District
+Southern,Tainan City,Nanxi District
+Southern,Tainan City,Nanhua District
+Southern,Tainan City,Zuozhen District
+Southern,Tainan City,Rende District
+Southern,Tainan City,Guiren District
+Southern,Tainan City,Guanmiao District
+Southern,Tainan City,Longqi District
+Southern,Tainan City,Yongkang District
+Southern,Tainan City,East District
+Southern,Tainan City,South District
+Southern,Tainan City,West Central District
+Southern,Tainan City,North District
+Southern,Tainan City,Annan District
+Southern,Tainan City,Anping District
 Southern,Tainan City,Other
-Southern,Chiayi City,East Dist.
-Southern,Chiayi City,West Dist.
+Southern,Chiayi City,East District
+Southern,Chiayi City,West District
 Southern,Chiayi City,Other
 Southern,Yunlin County,Douliu City
 Southern,Yunlin County,Dounan Township
@@ -278,44 +278,44 @@ Southern,Chiayi County,Fanlu Township
 Southern,Chiayi County,Dapu Township
 Southern,Chiayi County,Alishan Township
 Southern,Chiayi County,Other
-Kaoping,Kaohsiung City,Fengshan Dist.
-Kaoping,Kaohsiung City,Gangshan Dist.
-Kaoping,Kaohsiung City,Qishan Dist.
-Kaoping,Kaohsiung City,Meinong Dist.
-Kaoping,Kaohsiung City,Linyuan Dist.
-Kaoping,Kaohsiung City,Daliao Dist.
-Kaoping,Kaohsiung City,Dashu Dist.
-Kaoping,Kaohsiung City,Renwu Dist.
-Kaoping,Kaohsiung City,Dashe Dist.
-Kaoping,Kaohsiung City,Niaosong Dist.
-Kaoping,Kaohsiung City,Qiaotou Dist.
-Kaoping,Kaohsiung City,Yanchao Dist.
-Kaoping,Kaohsiung City,Tianliao Dist.
-Kaoping,Kaohsiung City,Alian Dist.
-Kaoping,Kaohsiung City,Luzhu Dist.
-Kaoping,Kaohsiung City,Hunei Dist.
-Kaoping,Kaohsiung City,Qieding Dist.
-Kaoping,Kaohsiung City,Yong'an Dist.
-Kaoping,Kaohsiung City,Mituo Dist.
-Kaoping,Kaohsiung City,Ziguan Dist.
-Kaoping,Kaohsiung City,Liugui Dist.
-Kaoping,Kaohsiung City,Jiaxian Dist.
-Kaoping,Kaohsiung City,Shanlin Dist.
-Kaoping,Kaohsiung City,Neimen Dist.
-Kaoping,Kaohsiung City,Maolin Dist.
-Kaoping,Kaohsiung City,Taoyuan Dist.
-Kaoping,Kaohsiung City,Namaxia Dist.
-Kaoping,Kaohsiung City,Yancheng Dist.
-Kaoping,Kaohsiung City,Gushan Dist.
-Kaoping,Kaohsiung City,Zuoying Dist.
-Kaoping,Kaohsiung City,Nanzi Dist.
-Kaoping,Kaohsiung City,Sanmin Dist.
-Kaoping,Kaohsiung City,Xinxing Dist.
-Kaoping,Kaohsiung City,Qianjin Dist.
-Kaoping,Kaohsiung City,Lingya Dist.
-Kaoping,Kaohsiung City,Qianzhen Dist.
-Kaoping,Kaohsiung City,Qijin Dist.
-Kaoping,Kaohsiung City,Xiaogang Dist.
+Kaoping,Kaohsiung City,Fengshan District
+Kaoping,Kaohsiung City,Gangshan District
+Kaoping,Kaohsiung City,Qishan District
+Kaoping,Kaohsiung City,Meinong District
+Kaoping,Kaohsiung City,Linyuan District
+Kaoping,Kaohsiung City,Daliao District
+Kaoping,Kaohsiung City,Dashu District
+Kaoping,Kaohsiung City,Renwu District
+Kaoping,Kaohsiung City,Dashe District
+Kaoping,Kaohsiung City,Niaosong District
+Kaoping,Kaohsiung City,Qiaotou District
+Kaoping,Kaohsiung City,Yanchao District
+Kaoping,Kaohsiung City,Tianliao District
+Kaoping,Kaohsiung City,Alian District
+Kaoping,Kaohsiung City,Luzhu District
+Kaoping,Kaohsiung City,Hunei District
+Kaoping,Kaohsiung City,Qieding District
+Kaoping,Kaohsiung City,Yong'an District
+Kaoping,Kaohsiung City,Mituo District
+Kaoping,Kaohsiung City,Ziguan District
+Kaoping,Kaohsiung City,Liugui District
+Kaoping,Kaohsiung City,Jiaxian District
+Kaoping,Kaohsiung City,Shanlin District
+Kaoping,Kaohsiung City,Neimen District
+Kaoping,Kaohsiung City,Maolin District
+Kaoping,Kaohsiung City,Taoyuan District
+Kaoping,Kaohsiung City,Namaxia District
+Kaoping,Kaohsiung City,Yancheng District
+Kaoping,Kaohsiung City,Gushan District
+Kaoping,Kaohsiung City,Zuoying District
+Kaoping,Kaohsiung City,Nanzi District
+Kaoping,Kaohsiung City,Sanmin District
+Kaoping,Kaohsiung City,Xinxing District
+Kaoping,Kaohsiung City,Qianjin District
+Kaoping,Kaohsiung City,Lingya District
+Kaoping,Kaohsiung City,Qianzhen District
+Kaoping,Kaohsiung City,Qijin District
+Kaoping,Kaohsiung City,Xiaogang District
 Kaoping,Kaohsiung City,Other
 Kaoping,Pingtung County,Pingtung City
 Kaoping,Pingtung County,Chaozhou Township

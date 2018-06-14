@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "East District",
+               "short_name" : "East District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "701",
+               "short_name" : "701",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "East District, Tainan City, Taiwan 701",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.0016995,
+                  "lng" : 120.249448
+               },
+               "southwest" : {
+                  "lat" : 22.959466,
+                  "lng" : 120.2111904
+               }
+            },
+            "location" : {
+               "lat" : 22.98133,
+               "lng" : 120.2224227
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.0016995,
+                  "lng" : 120.249448
+               },
+               "southwest" : {
+                  "lat" : 22.959466,
+                  "lng" : 120.2111904
+               }
+            }
+         },
+         "place_id" : "ChIJLzlyOqJ2bjQRCoruH6qSblk",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

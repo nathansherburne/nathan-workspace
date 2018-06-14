@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xitun District",
+               "short_name" : "Xitun District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "407",
+               "short_name" : "407",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xitun District, Taichung City, Taiwan 407",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.2147597,
+                  "lng" : 120.6694232
+               },
+               "southwest" : {
+                  "lat" : 24.1543588,
+                  "lng" : 120.5830663
+               }
+            },
+            "location" : {
+               "lat" : 24.1769764,
+               "lng" : 120.6424333
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.2147597,
+                  "lng" : 120.6694232
+               },
+               "southwest" : {
+                  "lat" : 24.1543588,
+                  "lng" : 120.5830663
+               }
+            }
+         },
+         "place_id" : "ChIJFZui3QUWaTQR8fG1Vh66860",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xizhi District",
+               "short_name" : "Xizhi District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "221",
+               "short_name" : "221",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xizhi District, New Taipei City, Taiwan 221",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.1400505,
+                  "lng" : 121.7300824
+               },
+               "southwest" : {
+                  "lat" : 25.0274577,
+                  "lng" : 121.595489
+               }
+            },
+            "location" : {
+               "lat" : 25.0616059,
+               "lng" : 121.6397184
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.1400505,
+                  "lng" : 121.7300824
+               },
+               "southwest" : {
+                  "lat" : 25.0274577,
+                  "lng" : 121.595489
+               }
+            }
+         },
+         "place_id" : "ChIJNwa5SwNTXTQRAavHJ1LyIsk",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

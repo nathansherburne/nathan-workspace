@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Zhuangwei Township",
+               "short_name" : "Zhuangwei Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Yilan County",
+               "short_name" : "Yilan County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "263",
+               "short_name" : "263",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Zhuangwei Township, Yilan County, Taiwan 263",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.8092212,
+                  "lng" : 121.8354005
+               },
+               "southwest" : {
+                  "lat" : 24.7119156,
+                  "lng" : 121.7707069
+               }
+            },
+            "location" : {
+               "lat" : 24.769569,
+               "lng" : 121.7993168
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.8092212,
+                  "lng" : 121.8354005
+               },
+               "southwest" : {
+                  "lat" : 24.7119156,
+                  "lng" : 121.7707069
+               }
+            }
+         },
+         "place_id" : "ChIJnSgA96z6ZzQRVmtLttyBaxo",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

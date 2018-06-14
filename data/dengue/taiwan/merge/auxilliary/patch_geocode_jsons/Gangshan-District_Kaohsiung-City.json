@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Gangshan District",
+               "short_name" : "Gangshan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "820",
+               "short_name" : "820",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Gangshan District, Kaohsiung City, Taiwan 820",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.8421441,
+                  "lng" : 120.3509873
+               },
+               "southwest" : {
+                  "lat" : 22.7657613,
+                  "lng" : 120.2522991
+               }
+            },
+            "location" : {
+               "lat" : 22.8016472,
+               "lng" : 120.2858846
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.8421441,
+                  "lng" : 120.3509873
+               },
+               "southwest" : {
+                  "lat" : 22.7657613,
+                  "lng" : 120.2522991
+               }
+            }
+         },
+         "place_id" : "ChIJi4gWi8sNbjQRZgVbWCT-c1o",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

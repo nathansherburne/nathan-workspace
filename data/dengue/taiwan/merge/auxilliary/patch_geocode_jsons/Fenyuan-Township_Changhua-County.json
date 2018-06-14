@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Fenyuan Township",
+               "short_name" : "Fenyuan Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Changhua County",
+               "short_name" : "Changhua County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "502",
+               "short_name" : "502",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Fenyuan Township, Changhua County, Taiwan 502",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.0467005,
+                  "lng" : 120.6786707
+               },
+               "southwest" : {
+                  "lat" : 23.9523525,
+                  "lng" : 120.5919564
+               }
+            },
+            "location" : {
+               "lat" : 24.0133127,
+               "lng" : 120.6283561
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.0467005,
+                  "lng" : 120.6786707
+               },
+               "southwest" : {
+                  "lat" : 23.9523525,
+                  "lng" : 120.5919564
+               }
+            }
+         },
+         "place_id" : "ChIJESaYHacwaTQRY2h0ranVA6s",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

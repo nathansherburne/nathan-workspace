@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Linkou District",
+               "short_name" : "Linkou District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "244",
+               "short_name" : "244",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Linkou District, New Taipei City, Taiwan 244",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.1370723,
+                  "lng" : 121.4150344
+               },
+               "southwest" : {
+                  "lat" : 25.062543,
+                  "lng" : 121.2826735
+               }
+            },
+            "location" : {
+               "lat" : 25.0790108,
+               "lng" : 121.3881378
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.1370723,
+                  "lng" : 121.4150344
+               },
+               "southwest" : {
+                  "lat" : 25.062543,
+                  "lng" : 121.2826735
+               }
+            }
+         },
+         "place_id" : "ChIJVTnwI0qhQjQRSx-QpDlctCo",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

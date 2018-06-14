@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sanxia District",
+               "short_name" : "Sanxia District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "237",
+               "short_name" : "237",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Sanxia District, New Taipei City, Taiwan 237",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.9521219,
+                  "lng" : 121.4972
+               },
+               "southwest" : {
+                  "lat" : 24.7900797,
+                  "lng" : 121.3175693
+               }
+            },
+            "location" : {
+               "lat" : 24.9358605,
+               "lng" : 121.3744903
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.9521219,
+                  "lng" : 121.4972
+               },
+               "southwest" : {
+                  "lat" : 24.7900797,
+                  "lng" : 121.3175693
+               }
+            }
+         },
+         "place_id" : "ChIJoaKoxowaaDQRsMDdbvMHgU4",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

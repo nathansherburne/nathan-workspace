@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Taibao",
+               "short_name" : "Taibao",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Taibao City",
+               "short_name" : "Taibao City",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Chiayi County",
+               "short_name" : "Chiayi County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "612",
+               "short_name" : "612",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Taibao, Taibao City, Chiayi County, Taiwan 612",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.511129,
+                  "lng" : 120.3902427
+               },
+               "southwest" : {
+                  "lat" : 23.4390001,
+                  "lng" : 120.2901313
+               }
+            },
+            "location" : {
+               "lat" : 23.4964492,
+               "lng" : 120.3837086
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.511129,
+                  "lng" : 120.3902427
+               },
+               "southwest" : {
+                  "lat" : 23.4390001,
+                  "lng" : 120.2901313
+               }
+            }
+         },
+         "place_id" : "ChIJMR3KtgiXbjQRGXq-cBxmwzY",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sanxing",
+               "short_name" : "Sanxing",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Sanxing Township",
+               "short_name" : "Sanxing Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Yilan County",
+               "short_name" : "Yilan County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "266",
+               "short_name" : "266",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Sanxing, Sanxing Township, Yilan County, Taiwan 266",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.7034568,
+                  "lng" : 121.7485042
+               },
+               "southwest" : {
+                  "lat" : 24.6598895,
+                  "lng" : 121.6180835
+               }
+            },
+            "location" : {
+               "lat" : 24.6664544,
+               "lng" : 121.6524489
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.7034568,
+                  "lng" : 121.7485042
+               },
+               "southwest" : {
+                  "lat" : 24.6598895,
+                  "lng" : 121.6180835
+               }
+            }
+         },
+         "place_id" : "ChIJFwldT7XhZzQRbHjxUN3o9kM",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

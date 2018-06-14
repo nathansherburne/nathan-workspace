@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Luzhou District",
+               "short_name" : "Luzhou District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "247",
+               "short_name" : "247",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Luzhou District, New Taipei City, Taiwan 247",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.103185,
+                  "lng" : 121.4911583
+               },
+               "southwest" : {
+                  "lat" : 25.0726625,
+                  "lng" : 121.4546066
+               }
+            },
+            "location" : {
+               "lat" : 25.0868908,
+               "lng" : 121.4715241
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.103185,
+                  "lng" : 121.4911583
+               },
+               "southwest" : {
+                  "lat" : 25.0726625,
+                  "lng" : 121.4546066
+               }
+            }
+         },
+         "place_id" : "ChIJ-zjtdMuoQjQR8I4yD5aCVtU",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

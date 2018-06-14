@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sanchong District",
+               "short_name" : "Sanchong District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "241",
+               "short_name" : "241",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Sanchong District, New Taipei City, Taiwan 241",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.0947444,
+                  "lng" : 121.5070133
+               },
+               "southwest" : {
+                  "lat" : 25.0385005,
+                  "lng" : 121.4651345
+               }
+            },
+            "location" : {
+               "lat" : 25.0614534,
+               "lng" : 121.4867114
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.0947444,
+                  "lng" : 121.5070133
+               },
+               "southwest" : {
+                  "lat" : 25.0385005,
+                  "lng" : 121.4651345
+               }
+            }
+         },
+         "place_id" : "ChIJsx6SBd6oQjQRxoyoQEbNGOg",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

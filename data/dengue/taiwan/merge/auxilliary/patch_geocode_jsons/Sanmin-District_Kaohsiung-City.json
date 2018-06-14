@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sanmin District",
+               "short_name" : "Sanmin District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "807",
+               "short_name" : "807",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Sanmin District, Kaohsiung City, Taiwan 807",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.6805139,
+                  "lng" : 120.3502201
+               },
+               "southwest" : {
+                  "lat" : 22.6317508,
+                  "lng" : 120.281726
+               }
+            },
+            "location" : {
+               "lat" : 22.6483444,
+               "lng" : 120.3262535
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.6805139,
+                  "lng" : 120.3502201
+               },
+               "southwest" : {
+                  "lat" : 22.6317508,
+                  "lng" : 120.281726
+               }
+            }
+         },
+         "place_id" : "ChIJqVHYHh4FbjQRAdvA5_BbrSU",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

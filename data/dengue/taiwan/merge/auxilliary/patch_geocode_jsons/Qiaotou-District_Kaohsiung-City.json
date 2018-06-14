@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Qiaotou District",
+               "short_name" : "Qiaotou District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "825",
+               "short_name" : "825",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Qiaotou District, Kaohsiung City, Taiwan 825",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.7777195,
+                  "lng" : 120.3376538
+               },
+               "southwest" : {
+                  "lat" : 22.72836,
+                  "lng" : 120.2629918
+               }
+            },
+            "location" : {
+               "lat" : 22.7539012,
+               "lng" : 120.3089541
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.7777195,
+                  "lng" : 120.3376538
+               },
+               "southwest" : {
+                  "lat" : 22.72836,
+                  "lng" : 120.2629918
+               }
+            }
+         },
+         "place_id" : "ChIJv7EGAFcObjQRJFYCZoEDtNQ",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

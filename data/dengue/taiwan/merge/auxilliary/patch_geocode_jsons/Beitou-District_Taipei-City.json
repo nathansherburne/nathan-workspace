@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Beitou District",
+               "short_name" : "Beitou District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taipei City",
+               "short_name" : "Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "112",
+               "short_name" : "112",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Beitou District, Taipei City, Taiwan 112",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.2103038,
+                  "lng" : 121.5761183
+               },
+               "southwest" : {
+                  "lat" : 25.0959931,
+                  "lng" : 121.4587389
+               }
+            },
+            "location" : {
+               "lat" : 25.1151759,
+               "lng" : 121.515018
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.2103038,
+                  "lng" : 121.5761183
+               },
+               "southwest" : {
+                  "lat" : 25.0959931,
+                  "lng" : 121.4587389
+               }
+            }
+         },
+         "place_id" : "ChIJd0tacReuQjQRi1K2WQ3Eswo",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

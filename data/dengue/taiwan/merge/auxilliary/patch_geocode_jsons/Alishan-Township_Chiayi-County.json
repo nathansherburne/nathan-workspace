@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Alishan Township",
+               "short_name" : "Alishan Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Chiayi County",
+               "short_name" : "Chiayi County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "605",
+               "short_name" : "605",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Alishan Township, Chiayi County, Taiwan 605",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.6148445,
+                  "lng" : 120.9576495
+               },
+               "southwest" : {
+                  "lat" : 23.2843953,
+                  "lng" : 120.6419273
+               }
+            },
+            "location" : {
+               "lat" : 23.4354677,
+               "lng" : 120.7809676
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.6148445,
+                  "lng" : 120.9576495
+               },
+               "southwest" : {
+                  "lat" : 23.2843953,
+                  "lng" : 120.6419273
+               }
+            }
+         },
+         "place_id" : "ChIJKxKvSVTnbjQR7LSozO_p2ZE",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

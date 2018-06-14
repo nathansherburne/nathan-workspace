@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Wenshan District",
+               "short_name" : "Wenshan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taipei City",
+               "short_name" : "Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "116",
+               "short_name" : "116",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Wenshan District, Taipei City, Taiwan 116",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.0155059,
+                  "lng" : 121.6199979
+               },
+               "southwest" : {
+                  "lat" : 24.9605084,
+                  "lng" : 121.5305452
+               }
+            },
+            "location" : {
+               "lat" : 24.9929212,
+               "lng" : 121.57125
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.0155059,
+                  "lng" : 121.6199979
+               },
+               "southwest" : {
+                  "lat" : 24.9605084,
+                  "lng" : 121.5305452
+               }
+            }
+         },
+         "place_id" : "ChIJC_hgv3uqQjQRGticx96-Xyg",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

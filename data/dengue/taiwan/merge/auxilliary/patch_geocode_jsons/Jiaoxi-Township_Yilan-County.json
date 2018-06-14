@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Jiaoxi Township",
+               "short_name" : "Jiaoxi Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Yilan County",
+               "short_name" : "Yilan County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "262",
+               "short_name" : "262",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Jiaoxi Township, Yilan County, Taiwan 262",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.8565793,
+                  "lng" : 121.8204366
+               },
+               "southwest" : {
+                  "lat" : 24.7703883,
+                  "lng" : 121.6235027
+               }
+            },
+            "location" : {
+               "lat" : 24.8068769,
+               "lng" : 121.7309452
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.8565793,
+                  "lng" : 121.8204366
+               },
+               "southwest" : {
+                  "lat" : 24.7703883,
+                  "lng" : 121.6235027
+               }
+            }
+         },
+         "place_id" : "ChIJQbJmzn37ZzQRuGQwpLQ0bX4",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
