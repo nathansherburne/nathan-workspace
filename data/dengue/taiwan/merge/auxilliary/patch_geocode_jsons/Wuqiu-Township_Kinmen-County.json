@@ -1,0 +1,49 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Wuqiu Township",
+               "short_name" : "Wuqiu Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "896",
+               "short_name" : "896",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Wuqiu Township, 896",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.9991203,
+                  "lng" : 119.476997
+               },
+               "southwest" : {
+                  "lat" : 24.9790876,
+                  "lng" : 119.4455389
+               }
+            },
+            "location" : {
+               "lat" : 24.9911547,
+               "lng" : 119.4542045
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.9991203,
+                  "lng" : 119.476997
+               },
+               "southwest" : {
+                  "lat" : 24.9790876,
+                  "lng" : 119.4455389
+               }
+            }
+         },
+         "place_id" : "ChIJqdoAd_9YajQRS6oKEJSjfqc",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

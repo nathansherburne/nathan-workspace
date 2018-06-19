@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Gushan District",
+               "short_name" : "Gushan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "804",
+               "short_name" : "804",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Gushan District, Kaohsiung City, Taiwan 804",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.6741543,
+                  "lng" : 120.3087622
+               },
+               "southwest" : {
+                  "lat" : 22.6135352,
+                  "lng" : 120.2498697
+               }
+            },
+            "location" : {
+               "lat" : 22.6495866,
+               "lng" : 120.2685799
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.6741543,
+                  "lng" : 120.3087622
+               },
+               "southwest" : {
+                  "lat" : 22.6135352,
+                  "lng" : 120.2498697
+               }
+            }
+         },
+         "place_id" : "ChIJ0xw1kEEEbjQR1DYaa-9zGz0",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

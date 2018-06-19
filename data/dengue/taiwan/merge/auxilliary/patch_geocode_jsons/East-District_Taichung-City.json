@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "East District",
+               "short_name" : "East District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "401",
+               "short_name" : "401",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "East District, Taichung City, Taiwan 401",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.152728,
+                  "lng" : 120.7128635
+               },
+               "southwest" : {
+                  "lat" : 24.1217041,
+                  "lng" : 120.6824983
+               }
+            },
+            "location" : {
+               "lat" : 24.1427702,
+               "lng" : 120.6944233
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.152728,
+                  "lng" : 120.7128635
+               },
+               "southwest" : {
+                  "lat" : 24.1217041,
+                  "lng" : 120.6824983
+               }
+            }
+         },
+         "place_id" : "ChIJtx9lYjg9aTQRDEI7IdeNICo",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

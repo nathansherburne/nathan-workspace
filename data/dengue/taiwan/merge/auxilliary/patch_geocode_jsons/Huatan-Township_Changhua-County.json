@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Huatan Township",
+               "short_name" : "Huatan Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Changhua County",
+               "short_name" : "Changhua County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "503",
+               "short_name" : "503",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Huatan Township, Changhua County, Taiwan 503",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.0563378,
+                  "lng" : 120.6051021
+               },
+               "southwest" : {
+                  "lat" : 24.0020105,
+                  "lng" : 120.5174241
+               }
+            },
+            "location" : {
+               "lat" : 24.0288453,
+               "lng" : 120.5624474
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.0563378,
+                  "lng" : 120.6051021
+               },
+               "southwest" : {
+                  "lat" : 24.0020105,
+                  "lng" : 120.5174241
+               }
+            }
+         },
+         "place_id" : "ChIJkxbBtDo4aTQRZ-cJXnAASu8",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

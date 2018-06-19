@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Dali District",
+               "short_name" : "Dali District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "412",
+               "short_name" : "412",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Dali District, Taichung City, Taiwan 412",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.1249699,
+                  "lng" : 120.741504
+               },
+               "southwest" : {
+                  "lat" : 24.0687643,
+                  "lng" : 120.6508064
+               }
+            },
+            "location" : {
+               "lat" : 24.1046899,
+               "lng" : 120.6812114
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.1249699,
+                  "lng" : 120.741504
+               },
+               "southwest" : {
+                  "lat" : 24.0687643,
+                  "lng" : 120.6508064
+               }
+            }
+         },
+         "place_id" : "ChIJd28lQMc8aTQRo2xdcLPtSe8",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

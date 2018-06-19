@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Jianshi Township",
+               "short_name" : "Jianshi Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Hsinchu County",
+               "short_name" : "Hsinchu County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "313",
+               "short_name" : "313",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Jianshi Township, Hsinchu County, Taiwan 313",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.7653005,
+                  "lng" : 121.4123307
+               },
+               "southwest" : {
+                  "lat" : 24.4275283,
+                  "lng" : 121.15189
+               }
+            },
+            "location" : {
+               "lat" : 24.5760667,
+               "lng" : 121.3084088
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.7653005,
+                  "lng" : 121.4123307
+               },
+               "southwest" : {
+                  "lat" : 24.4275283,
+                  "lng" : 121.15189
+               }
+            }
+         },
+         "place_id" : "ChIJX0B_5sZpaDQRpdLrgoRBj3U",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Gukeng",
+               "short_name" : "Gukeng",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Gukeng Township",
+               "short_name" : "Gukeng Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Yunlin County",
+               "short_name" : "Yunlin County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "646",
+               "short_name" : "646",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Gukeng, Gukeng Township, Yunlin County, Taiwan 646",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.6953427,
+                  "lng" : 120.6112681
+               },
+               "southwest" : {
+                  "lat" : 23.6038918,
+                  "lng" : 120.5323492
+               }
+            },
+            "location" : {
+               "lat" : 23.6449781,
+               "lng" : 120.563741
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.6953427,
+                  "lng" : 120.6112681
+               },
+               "southwest" : {
+                  "lat" : 23.6038918,
+                  "lng" : 120.5323492
+               }
+            }
+         },
+         "place_id" : "ChIJ0Y46fLDHbjQRb_ueBMFbD0U",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

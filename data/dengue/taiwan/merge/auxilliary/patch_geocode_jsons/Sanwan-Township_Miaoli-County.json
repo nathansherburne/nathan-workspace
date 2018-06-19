@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sanwan Township",
+               "short_name" : "Sanwan Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Miaoli County",
+               "short_name" : "Miaoli County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "352",
+               "short_name" : "352",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Sanwan Township, Miaoli County, Taiwan 352",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.6793709,
+                  "lng" : 121.0108376
+               },
+               "southwest" : {
+                  "lat" : 24.5831339,
+                  "lng" : 120.8966341
+               }
+            },
+            "location" : {
+               "lat" : 24.6305288,
+               "lng" : 120.9302603
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.6793709,
+                  "lng" : 121.0108376
+               },
+               "southwest" : {
+                  "lat" : 24.5831339,
+                  "lng" : 120.8966341
+               }
+            }
+         },
+         "place_id" : "ChIJybljWpdNaDQRywA6lC6yzVE",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

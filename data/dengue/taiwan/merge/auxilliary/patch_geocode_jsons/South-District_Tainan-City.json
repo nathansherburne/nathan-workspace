@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "South District",
+               "short_name" : "South District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "702",
+               "short_name" : "702",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "South District, Tainan City, Taiwan 702",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.9886439,
+                  "lng" : 120.2167753
+               },
+               "southwest" : {
+                  "lat" : 22.9117615,
+                  "lng" : 120.1486875
+               }
+            },
+            "location" : {
+               "lat" : 22.9563522,
+               "lng" : 120.1877943
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.9886439,
+                  "lng" : 120.2167753
+               },
+               "southwest" : {
+                  "lat" : 22.9117615,
+                  "lng" : 120.1486875
+               }
+            }
+         },
+         "place_id" : "ChIJpVV-mqJ1bjQRYrY88A8gqNs",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

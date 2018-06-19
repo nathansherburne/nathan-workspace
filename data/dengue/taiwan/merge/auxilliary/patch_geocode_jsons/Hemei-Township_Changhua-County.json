@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Hemei Township",
+               "short_name" : "Hemei Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Changhua County",
+               "short_name" : "Changhua County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "508",
+               "short_name" : "508",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Hemei Township, Changhua County, Taiwan 508",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.161487,
+                  "lng" : 120.5496028
+               },
+               "southwest" : {
+                  "lat" : 24.0763202,
+                  "lng" : 120.4773903
+               }
+            },
+            "location" : {
+               "lat" : 24.1246022,
+               "lng" : 120.5163949
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.161487,
+                  "lng" : 120.5496028
+               },
+               "southwest" : {
+                  "lat" : 24.0763202,
+                  "lng" : 120.4773903
+               }
+            }
+         },
+         "place_id" : "ChIJ_ferzLNAaTQRi3Y697iP5d4",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

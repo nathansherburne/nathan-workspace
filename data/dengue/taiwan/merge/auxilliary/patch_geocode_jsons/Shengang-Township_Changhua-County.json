@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shengang Township",
+               "short_name" : "Shengang Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Changhua County",
+               "short_name" : "Changhua County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "509",
+               "short_name" : "509",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Shengang Township, Changhua County, Taiwan 509",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.1982565,
+                  "lng" : 120.5197594
+               },
+               "southwest" : {
+                  "lat" : 24.1320218,
+                  "lng" : 120.4383723
+               }
+            },
+            "location" : {
+               "lat" : 24.1724928,
+               "lng" : 120.4933624
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.1982565,
+                  "lng" : 120.5197594
+               },
+               "southwest" : {
+                  "lat" : 24.1320218,
+                  "lng" : 120.4383723
+               }
+            }
+         },
+         "place_id" : "ChIJC3_tgKpBaTQRG6P9DuZPXLA",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

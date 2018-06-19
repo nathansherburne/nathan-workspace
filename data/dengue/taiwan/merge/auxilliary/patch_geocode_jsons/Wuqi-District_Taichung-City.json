@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Wuqi District",
+               "short_name" : "Wuqi District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "435",
+               "short_name" : "435",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Wuqi District, Taichung City, Taiwan 435",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.2773935,
+                  "lng" : 120.56281
+               },
+               "southwest" : {
+                  "lat" : 24.2182251,
+                  "lng" : 120.4973827
+               }
+            },
+            "location" : {
+               "lat" : 24.2479737,
+               "lng" : 120.5394232
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.2773935,
+                  "lng" : 120.56281
+               },
+               "southwest" : {
+                  "lat" : 24.2182251,
+                  "lng" : 120.4973827
+               }
+            }
+         },
+         "place_id" : "ChIJkZgx-9IUaTQRCQGpNNaM4Hw",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

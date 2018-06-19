@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Baozhong",
+               "short_name" : "Baozhong",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Baozhong Township",
+               "short_name" : "Baozhong Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Yunlin County",
+               "short_name" : "Yunlin County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "634",
+               "short_name" : "634",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Baozhong, Baozhong Township, Yunlin County, Taiwan 634",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.7278222,
+                  "lng" : 120.3239591
+               },
+               "southwest" : {
+                  "lat" : 23.6907964,
+                  "lng" : 120.2732488
+               }
+            },
+            "location" : {
+               "lat" : 23.6944368,
+               "lng" : 120.3103204
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.7278222,
+                  "lng" : 120.3239591
+               },
+               "southwest" : {
+                  "lat" : 23.6907964,
+                  "lng" : 120.2732488
+               }
+            }
+         },
+         "place_id" : "ChIJeSnUGxulbjQRvK6rSfXMFno",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

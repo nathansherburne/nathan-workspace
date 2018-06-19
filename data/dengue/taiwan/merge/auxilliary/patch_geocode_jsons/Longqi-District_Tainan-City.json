@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Longqi District",
+               "short_name" : "Longqi District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "719",
+               "short_name" : "719",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Longqi District, Tainan City, Taiwan 719",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.0086531,
+                  "lng" : 120.4352253
+               },
+               "southwest" : {
+                  "lat" : 22.9054774,
+                  "lng" : 120.3471561
+               }
+            },
+            "location" : {
+               "lat" : 22.9540045,
+               "lng" : 120.378138
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.0086531,
+                  "lng" : 120.4352253
+               },
+               "southwest" : {
+                  "lat" : 22.9054774,
+                  "lng" : 120.3471561
+               }
+            }
+         },
+         "place_id" : "ChIJ6cBpIopubjQRxRbFoBfAP10",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

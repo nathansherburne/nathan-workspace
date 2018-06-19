@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Guanyin District",
+               "short_name" : "Guanyin District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taoyuan City",
+               "short_name" : "Taoyuan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "328",
+               "short_name" : "328",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Guanyin District, Taoyuan City, Taiwan 328",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.0800917,
+                  "lng" : 121.1687011
+               },
+               "southwest" : {
+                  "lat" : 24.9640521,
+                  "lng" : 121.0222944
+               }
+            },
+            "location" : {
+               "lat" : 25.0359365,
+               "lng" : 121.1137544
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.0800917,
+                  "lng" : 121.1687011
+               },
+               "southwest" : {
+                  "lat" : 24.9640521,
+                  "lng" : 121.0222944
+               }
+            }
+         },
+         "place_id" : "ChIJh9CHcREmaDQReBqK4Qhno_Y",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

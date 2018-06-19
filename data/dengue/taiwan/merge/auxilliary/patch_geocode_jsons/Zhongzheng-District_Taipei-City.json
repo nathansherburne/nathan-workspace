@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Zhongzheng District",
+               "short_name" : "Zhongzheng District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taipei City",
+               "short_name" : "Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "100",
+               "short_name" : "100",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Zhongzheng District, Taipei City, Taiwan 100",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.0499358,
+                  "lng" : 121.537079
+               },
+               "southwest" : {
+                  "lat" : 25.0086658,
+                  "lng" : 121.5040875
+               }
+            },
+            "location" : {
+               "lat" : 25.0421407,
+               "lng" : 121.5198716
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.0499358,
+                  "lng" : 121.537079
+               },
+               "southwest" : {
+                  "lat" : 25.0086658,
+                  "lng" : 121.5040875
+               }
+            }
+         },
+         "place_id" : "ChIJHS0e0JupQjQRfXn-xB6KGLo",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

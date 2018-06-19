@@ -1,0 +1,118 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Minxiong Township",
+               "short_name" : "Minxiong Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Chiayi County",
+               "short_name" : "Chiayi County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "621",
+               "short_name" : "621",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Minxiong Township, Chiayi County, Taiwan 621",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.5849183,
+                  "lng" : 120.5192007
+               },
+               "southwest" : {
+                  "lat" : 23.4984124,
+                  "lng" : 120.3742516
+               }
+            },
+            "location" : {
+               "lat" : 23.5479954,
+               "lng" : 120.4588059
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.5849183,
+                  "lng" : 120.5192007
+               },
+               "southwest" : {
+                  "lat" : 23.4984124,
+                  "lng" : 120.3742516
+               }
+            }
+         },
+         "place_id" : "ChIJBzsJ2w--bjQR9l7BJeHbgKQ",
+         "types" : [ "administrative_area_level_3", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Minxiong",
+               "short_name" : "Minxiong",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Minxiong Township",
+               "short_name" : "Minxiong Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Chiayi County",
+               "short_name" : "Chiayi County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "621",
+               "short_name" : "621",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Minxiong, Minxiong Township, Chiayi County, Taiwan 621",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.5672199,
+                  "lng" : 120.4803928
+               },
+               "southwest" : {
+                  "lat" : 23.5081832,
+                  "lng" : 120.4043699
+               }
+            },
+            "location" : {
+               "lat" : 23.5203579,
+               "lng" : 120.440409
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.5672199,
+                  "lng" : 120.4803928
+               },
+               "southwest" : {
+                  "lat" : 23.5081832,
+                  "lng" : 120.4043699
+               }
+            }
+         },
+         "place_id" : "ChIJE01_n_aVbjQRqie6zSHPF_U",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

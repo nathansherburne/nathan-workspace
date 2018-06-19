@@ -1,0 +1,49 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Jinning Township",
+               "short_name" : "Jinning Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "892",
+               "short_name" : "892",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Jinning Township, 892",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.4902523,
+                  "lng" : 118.3663325
+               },
+               "southwest" : {
+                  "lat" : 24.4129698,
+                  "lng" : 118.288313
+               }
+            },
+            "location" : {
+               "lat" : 24.4567205,
+               "lng" : 118.3345061
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.4902523,
+                  "lng" : 118.3663325
+               },
+               "southwest" : {
+                  "lat" : 24.4129698,
+                  "lng" : 118.288313
+               }
+            }
+         },
+         "place_id" : "ChIJNxDvFPSiFDQRGQaN9Fnpr4k",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Beipu Township",
+               "short_name" : "Beipu Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Hsinchu County",
+               "short_name" : "Hsinchu County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "314",
+               "short_name" : "314",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Beipu Township, Hsinchu County, Taiwan 314",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.7313205,
+                  "lng" : 121.0964707
+               },
+               "southwest" : {
+                  "lat" : 24.6139369,
+                  "lng" : 121.0339232
+               }
+            },
+            "location" : {
+               "lat" : 24.6631393,
+               "lng" : 121.067907
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.7313205,
+                  "lng" : 121.0964707
+               },
+               "southwest" : {
+                  "lat" : 24.6139369,
+                  "lng" : 121.0339232
+               }
+            }
+         },
+         "place_id" : "ChIJAYuxHU1PaDQRFIxVcBzO9e8",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

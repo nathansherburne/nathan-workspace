@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Tianliao District",
+               "short_name" : "Tianliao District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "823",
+               "short_name" : "823",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Tianliao District, Kaohsiung City, Taiwan 823",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.9227549,
+                  "lng" : 120.4496792
+               },
+               "southwest" : {
+                  "lat" : 22.808465,
+                  "lng" : 120.3420976
+               }
+            },
+            "location" : {
+               "lat" : 22.8633474,
+               "lng" : 120.4011911
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.9227549,
+                  "lng" : 120.4496792
+               },
+               "southwest" : {
+                  "lat" : 22.808465,
+                  "lng" : 120.3420976
+               }
+            }
+         },
+         "place_id" : "ChIJfdkYGdpsbjQRgc1B8jZ2c5c",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

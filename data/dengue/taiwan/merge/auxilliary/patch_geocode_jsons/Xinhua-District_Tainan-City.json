@@ -1,0 +1,54 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xinhua District",
+               "short_name" : "Xinhua District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Xinhua District, Tainan City, Taiwan",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.0835558,
+                  "lng" : 120.392751
+               },
+               "southwest" : {
+                  "lat" : 22.9886797,
+                  "lng" : 120.2778813
+               }
+            },
+            "location" : {
+               "lat" : 23.0280873,
+               "lng" : 120.3320195
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.0835558,
+                  "lng" : 120.392751
+               },
+               "southwest" : {
+                  "lat" : 22.9886797,
+                  "lng" : 120.2778813
+               }
+            }
+         },
+         "place_id" : "ChIJsURYDwdwbjQRvV10Kl8WZaE",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

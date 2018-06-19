@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Taoyuan District",
+               "short_name" : "Taoyuan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "848",
+               "short_name" : "848",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Taoyuan District, Kaohsiung City, Taiwan 848",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.4717267,
+                  "lng" : 121.0490147
+               },
+               "southwest" : {
+                  "lat" : 22.9751944,
+                  "lng" : 120.6658318
+               }
+            },
+            "location" : {
+               "lat" : 23.2280755,
+               "lng" : 120.8498944
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.4717267,
+                  "lng" : 121.0490147
+               },
+               "southwest" : {
+                  "lat" : 22.9751944,
+                  "lng" : 120.6658318
+               }
+            }
+         },
+         "place_id" : "ChIJ9dj9C6n9bjQRtgWtGc9cdB8",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

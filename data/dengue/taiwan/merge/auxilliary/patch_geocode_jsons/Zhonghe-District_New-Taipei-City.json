@@ -1,0 +1,54 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Zhonghe District",
+               "short_name" : "Zhonghe District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Zhonghe District, New Taipei City, Taiwan",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.0169557,
+                  "lng" : 121.5318173
+               },
+               "southwest" : {
+                  "lat" : 24.9636206,
+                  "lng" : 121.4641871
+               }
+            },
+            "location" : {
+               "lat" : 24.9962178,
+               "lng" : 121.4853103
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.0169557,
+                  "lng" : 121.5318173
+               },
+               "southwest" : {
+                  "lat" : 24.9636206,
+                  "lng" : 121.4641871
+               }
+            }
+         },
+         "place_id" : "ChIJi_nCaXsCaDQRuY7K-IyXeY0",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

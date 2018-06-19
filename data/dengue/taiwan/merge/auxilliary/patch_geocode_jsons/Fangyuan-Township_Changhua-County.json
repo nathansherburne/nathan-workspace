@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Fangyuan Township",
+               "short_name" : "Fangyuan Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Changhua County",
+               "short_name" : "Changhua County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "528",
+               "short_name" : "528",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Fangyuan Township, Changhua County, Taiwan 528",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.0399017,
+                  "lng" : 120.4088176
+               },
+               "southwest" : {
+                  "lat" : 23.8773009,
+                  "lng" : 120.2969887
+               }
+            },
+            "location" : {
+               "lat" : 23.9455949,
+               "lng" : 120.3550808
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.0399017,
+                  "lng" : 120.4088176
+               },
+               "southwest" : {
+                  "lat" : 23.8773009,
+                  "lng" : 120.2969887
+               }
+            }
+         },
+         "place_id" : "ChIJ7fOG5fJNaTQRAvo9Sjgb78o",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Yuanli Township",
+               "short_name" : "Yuanli Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Miaoli County",
+               "short_name" : "Miaoli County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "358",
+               "short_name" : "358",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Yuanli Township, Miaoli County, Taiwan 358",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.4622111,
+                  "lng" : 120.7484161
+               },
+               "southwest" : {
+                  "lat" : 24.3540924,
+                  "lng" : 120.6208251
+               }
+            },
+            "location" : {
+               "lat" : 24.4098262,
+               "lng" : 120.6775054
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.4622111,
+                  "lng" : 120.7484161
+               },
+               "southwest" : {
+                  "lat" : 24.3540924,
+                  "lng" : 120.6208251
+               }
+            }
+         },
+         "place_id" : "ChIJb0hr4DkPaTQRorvM8b9Vb-E",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

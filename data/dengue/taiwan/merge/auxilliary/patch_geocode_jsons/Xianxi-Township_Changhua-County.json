@@ -1,0 +1,54 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xianxi Township",
+               "short_name" : "Xianxi Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Changhua County",
+               "short_name" : "Changhua County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Xianxi Township, Changhua County, Taiwan",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.1588457,
+                  "lng" : 120.4866359
+               },
+               "southwest" : {
+                  "lat" : 24.1022794,
+                  "lng" : 120.4020042
+               }
+            },
+            "location" : {
+               "lat" : 24.1331612,
+               "lng" : 120.4530456
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.1588457,
+                  "lng" : 120.4866359
+               },
+               "southwest" : {
+                  "lat" : 24.1022794,
+                  "lng" : 120.4020042
+               }
+            }
+         },
+         "place_id" : "ChIJGT51J1NBaTQRYKKJTCCP2OU",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

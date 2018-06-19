@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Tucheng District",
+               "short_name" : "Tucheng District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "236",
+               "short_name" : "236",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Tucheng District, New Taipei City, Taiwan 236",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.9963796,
+                  "lng" : 121.4818401
+               },
+               "southwest" : {
+                  "lat" : 24.9355805,
+                  "lng" : 121.4075519
+               }
+            },
+            "location" : {
+               "lat" : 24.968371,
+               "lng" : 121.438034
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.9963796,
+                  "lng" : 121.4818401
+               },
+               "southwest" : {
+                  "lat" : 24.9355805,
+                  "lng" : 121.4075519
+               }
+            }
+         },
+         "place_id" : "ChIJN0E2xNQcaDQRa0mQy5Dt7FY",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

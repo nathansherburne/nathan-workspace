@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xinyi Township",
+               "short_name" : "Xinyi Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Nantou County",
+               "short_name" : "Nantou County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "556",
+               "short_name" : "556",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xinyi Township, Nantou County, Taiwan 556",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.8647835,
+                  "lng" : 121.2412328
+               },
+               "southwest" : {
+                  "lat" : 23.435385,
+                  "lng" : 120.8039398
+               }
+            },
+            "location" : {
+               "lat" : 23.6679756,
+               "lng" : 120.9876321
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8647835,
+                  "lng" : 121.2412328
+               },
+               "southwest" : {
+                  "lat" : 23.435385,
+                  "lng" : 120.8039398
+               }
+            }
+         },
+         "place_id" : "ChIJGWlVUIUubzQRNFe16IdHtno",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

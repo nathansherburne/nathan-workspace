@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Fengshan District",
+               "short_name" : "Fengshan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "830",
+               "short_name" : "830",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Fengshan District, Kaohsiung City, Taiwan 830",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.6486215,
+                  "lng" : 120.3876154
+               },
+               "southwest" : {
+                  "lat" : 22.583527,
+                  "lng" : 120.3205388
+               }
+            },
+            "location" : {
+               "lat" : 22.6113591,
+               "lng" : 120.3493158
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.6486215,
+                  "lng" : 120.3876154
+               },
+               "southwest" : {
+                  "lat" : 22.583527,
+                  "lng" : 120.3205388
+               }
+            }
+         },
+         "place_id" : "ChIJL2cK5E8bbjQRRo1rQ25e2l0",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

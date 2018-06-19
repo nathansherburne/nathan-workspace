@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Pinglin District",
+               "short_name" : "Pinglin District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "232",
+               "short_name" : "232",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Pinglin District, New Taipei City, Taiwan 232",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.9854429,
+                  "lng" : 121.7940943
+               },
+               "southwest" : {
+                  "lat" : 24.8388437,
+                  "lng" : 121.6446944
+               }
+            },
+            "location" : {
+               "lat" : 24.9350844,
+               "lng" : 121.7107613
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.9854429,
+                  "lng" : 121.7940943
+               },
+               "southwest" : {
+                  "lat" : 24.8388437,
+                  "lng" : 121.6446944
+               }
+            }
+         },
+         "place_id" : "ChIJe8YFzSz_ZzQRqAwAKBTWNVw",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

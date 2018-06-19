@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Pingxi District",
+               "short_name" : "Pingxi District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "226",
+               "short_name" : "226",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Pingxi District, New Taipei City, Taiwan 226",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.0773756,
+                  "lng" : 121.8168657
+               },
+               "southwest" : {
+                  "lat" : 24.9740033,
+                  "lng" : 121.701041
+               }
+            },
+            "location" : {
+               "lat" : 25.0248314,
+               "lng" : 121.7408654
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.0773756,
+                  "lng" : 121.8168657
+               },
+               "southwest" : {
+                  "lat" : 24.9740033,
+                  "lng" : 121.701041
+               }
+            }
+         },
+         "place_id" : "ChIJ80ZvfCxRXTQRP-deVWhEP8E",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

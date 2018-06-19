@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Dayuan District",
+               "short_name" : "Dayuan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taoyuan City",
+               "short_name" : "Taoyuan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "337",
+               "short_name" : "337",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Dayuan District, Taoyuan City, Taiwan 337",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.123137,
+                  "lng" : 121.2732153
+               },
+               "southwest" : {
+                  "lat" : 25.0013531,
+                  "lng" : 121.1520073
+               }
+            },
+            "location" : {
+               "lat" : 25.0492632,
+               "lng" : 121.193945
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.123137,
+                  "lng" : 121.2732153
+               },
+               "southwest" : {
+                  "lat" : 25.0013531,
+                  "lng" : 121.1520073
+               }
+            }
+         },
+         "place_id" : "ChIJQSNbFYEgaDQRa5a0eIR0wEk",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

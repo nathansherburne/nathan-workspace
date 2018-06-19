@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Jiji",
+               "short_name" : "Jiji",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Jiji Township",
+               "short_name" : "Jiji Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Nantou County",
+               "short_name" : "Nantou County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "552",
+               "short_name" : "552",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Jiji, Jiji Township, Nantou County, Taiwan 552",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.8451213,
+                  "lng" : 120.8032133
+               },
+               "southwest" : {
+                  "lat" : 23.8212981,
+                  "lng" : 120.7477591
+               }
+            },
+            "location" : {
+               "lat" : 23.8279876,
+               "lng" : 120.7925043
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8451213,
+                  "lng" : 120.8032133
+               },
+               "southwest" : {
+                  "lat" : 23.8212981,
+                  "lng" : 120.7477591
+               }
+            }
+         },
+         "place_id" : "ChIJ8UCPpJEsaTQR0r7YArAi2F8",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

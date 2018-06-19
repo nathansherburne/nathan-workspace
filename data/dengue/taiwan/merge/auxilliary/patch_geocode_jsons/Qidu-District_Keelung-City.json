@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Qidu District",
+               "short_name" : "Qidu District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Keelung City",
+               "short_name" : "Keelung City",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "206",
+               "short_name" : "206",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Qidu District, Keelung City, Taiwan 206",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.1557607,
+                  "lng" : 121.7304675
+               },
+               "southwest" : {
+                  "lat" : 25.0549664,
+                  "lng" : 121.6267973
+               }
+            },
+            "location" : {
+               "lat" : 25.1143924,
+               "lng" : 121.685341
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.1557607,
+                  "lng" : 121.7304675
+               },
+               "southwest" : {
+                  "lat" : 25.0549664,
+                  "lng" : 121.6267973
+               }
+            }
+         },
+         "place_id" : "ChIJGUbxHV5SXTQRyM5ajCIR108",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

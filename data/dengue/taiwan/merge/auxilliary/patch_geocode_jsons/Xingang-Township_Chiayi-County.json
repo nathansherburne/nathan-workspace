@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xingang Township",
+               "short_name" : "Xingang Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Chiayi County",
+               "short_name" : "Chiayi County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "616",
+               "short_name" : "616",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xingang Township, Chiayi County, Taiwan 616",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.5961007,
+                  "lng" : 120.4015777
+               },
+               "southwest" : {
+                  "lat" : 23.5020102,
+                  "lng" : 120.3033984
+               }
+            },
+            "location" : {
+               "lat" : 23.538123,
+               "lng" : 120.3550808
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.5961007,
+                  "lng" : 120.4015777
+               },
+               "southwest" : {
+                  "lat" : 23.5020102,
+                  "lng" : 120.3033984
+               }
+            }
+         },
+         "place_id" : "ChIJO5BLef2XbjQRTD6JAA0t7SI",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

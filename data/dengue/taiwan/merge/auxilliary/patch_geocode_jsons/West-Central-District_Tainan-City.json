@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "West Central District",
+               "short_name" : "West Central District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "700",
+               "short_name" : "700",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "West Central District, Tainan City, Taiwan 700",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.007536,
+                  "lng" : 120.2122595
+               },
+               "southwest" : {
+                  "lat" : 22.9812766,
+                  "lng" : 120.1594634
+               }
+            },
+            "location" : {
+               "lat" : 22.9948212,
+               "lng" : 120.1964522
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.007536,
+                  "lng" : 120.2122595
+               },
+               "southwest" : {
+                  "lat" : 22.9812766,
+                  "lng" : 120.1594634
+               }
+            }
+         },
+         "place_id" : "ChIJ46LFiW12bjQRTi0d1pRarMc",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

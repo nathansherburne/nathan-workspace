@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Alian District",
+               "short_name" : "Alian District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "822",
+               "short_name" : "822",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Alian District, Kaohsiung City, Taiwan 822",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.9048883,
+                  "lng" : 120.3579627
+               },
+               "southwest" : {
+                  "lat" : 22.8345596,
+                  "lng" : 120.2777049
+               }
+            },
+            "location" : {
+               "lat" : 22.8778606,
+               "lng" : 120.3320195
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.9048883,
+                  "lng" : 120.3579627
+               },
+               "southwest" : {
+                  "lat" : 22.8345596,
+                  "lng" : 120.2777049
+               }
+            }
+         },
+         "place_id" : "ChIJQ19lKTUNbjQRrFQYXlGkkIY",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

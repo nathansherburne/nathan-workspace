@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Gongguan Township",
+               "short_name" : "Gongguan Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Miaoli County",
+               "short_name" : "Miaoli County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "363",
+               "short_name" : "363",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Gongguan Township, Miaoli County, Taiwan 363",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.5605572,
+                  "lng" : 120.9078437
+               },
+               "southwest" : {
+                  "lat" : 24.4353562,
+                  "lng" : 120.8109186
+               }
+            },
+            "location" : {
+               "lat" : 24.5019211,
+               "lng" : 120.8384093
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.5605572,
+                  "lng" : 120.9078437
+               },
+               "southwest" : {
+                  "lat" : 24.4353562,
+                  "lng" : 120.8109186
+               }
+            }
+         },
+         "place_id" : "ChIJWylckPqqaTQR-3GUXeO3jTs",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

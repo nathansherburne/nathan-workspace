@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xiushui Township",
+               "short_name" : "Xiushui Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Changhua County",
+               "short_name" : "Changhua County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "504",
+               "short_name" : "504",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xiushui Township, Changhua County, Taiwan 504",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.0777999,
+                  "lng" : 120.5351842
+               },
+               "southwest" : {
+                  "lat" : 23.9907958,
+                  "lng" : 120.4784809
+               }
+            },
+            "location" : {
+               "lat" : 24.0348603,
+               "lng" : 120.5106372
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.0777999,
+                  "lng" : 120.5351842
+               },
+               "southwest" : {
+                  "lat" : 23.9907958,
+                  "lng" : 120.4784809
+               }
+            }
+         },
+         "place_id" : "ChIJp73O6eBHaTQRDMOaV0meGpY",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

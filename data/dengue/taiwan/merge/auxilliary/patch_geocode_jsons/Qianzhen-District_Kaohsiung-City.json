@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Qianzhen District",
+               "short_name" : "Qianzhen District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "806",
+               "short_name" : "806",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Qianzhen District, Kaohsiung City, Taiwan 806",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.6183229,
+                  "lng" : 120.3394077
+               },
+               "southwest" : {
+                  "lat" : 22.5612452,
+                  "lng" : 120.2818466
+               }
+            },
+            "location" : {
+               "lat" : 22.5970794,
+               "lng" : 120.3147208
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.6183229,
+                  "lng" : 120.3394077
+               },
+               "southwest" : {
+                  "lat" : 22.5612452,
+                  "lng" : 120.2818466
+               }
+            }
+         },
+         "place_id" : "ChIJu18SXxIDbjQR0ojWyZ8rX94",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

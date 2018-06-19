@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Qingshui District",
+               "short_name" : "Qingshui District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "436",
+               "short_name" : "436",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Qingshui District, Taichung City, Taiwan 436",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.3339773,
+                  "lng" : 120.6470112
+               },
+               "southwest" : {
+                  "lat" : 24.2578332,
+                  "lng" : 120.4861077
+               }
+            },
+            "location" : {
+               "lat" : 24.301983,
+               "lng" : 120.5854674
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.3339773,
+                  "lng" : 120.6470112
+               },
+               "southwest" : {
+                  "lat" : 24.2578332,
+                  "lng" : 120.4861077
+               }
+            }
+         },
+         "place_id" : "ChIJfXoMyQwTaTQRVMTeK8W08Jg",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

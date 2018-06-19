@@ -1,0 +1,54 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Zhongli District",
+               "short_name" : "Zhongli District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taoyuan City",
+               "short_name" : "Taoyuan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Zhongli District, Taoyuan City, Taiwan",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.0285002,
+                  "lng" : 121.2668923
+               },
+               "southwest" : {
+                  "lat" : 24.9250665,
+                  "lng" : 121.1514872
+               }
+            },
+            "location" : {
+               "lat" : 24.9721514,
+               "lng" : 121.2053963
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.0285002,
+                  "lng" : 121.2668923
+               },
+               "southwest" : {
+                  "lat" : 24.9250665,
+                  "lng" : 121.1514872
+               }
+            }
+         },
+         "place_id" : "ChIJGeZQzNYjaDQRvtBcPSA0xac",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

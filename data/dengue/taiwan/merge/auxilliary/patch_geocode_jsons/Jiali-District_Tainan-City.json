@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Jiali District",
+               "short_name" : "Jiali District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "722",
+               "short_name" : "722",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Jiali District, Tainan City, Taiwan 722",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.2133119,
+                  "lng" : 120.2158919
+               },
+               "southwest" : {
+                  "lat" : 23.1162821,
+                  "lng" : 120.1448185
+               }
+            },
+            "location" : {
+               "lat" : 23.1694465,
+               "lng" : 120.1704766
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.2133119,
+                  "lng" : 120.2158919
+               },
+               "southwest" : {
+                  "lat" : 23.1162821,
+                  "lng" : 120.1448185
+               }
+            }
+         },
+         "place_id" : "ChIJSXoaS0h_bjQRP62HLapokAo",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

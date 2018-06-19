@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Dongshi Township",
+               "short_name" : "Dongshi Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Chiayi County",
+               "short_name" : "Chiayi County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "614",
+               "short_name" : "614",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Dongshi Township, Chiayi County, Taiwan 614",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.5203817,
+                  "lng" : 120.2265565
+               },
+               "southwest" : {
+                  "lat" : 23.3910674,
+                  "lng" : 120.1189351
+               }
+            },
+            "location" : {
+               "lat" : 23.4701923,
+               "lng" : 120.1704766
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.5203817,
+                  "lng" : 120.2265565
+               },
+               "southwest" : {
+                  "lat" : 23.3910674,
+                  "lng" : 120.1189351
+               }
+            }
+         },
+         "place_id" : "ChIJHZgTBXedbjQRiVxkYrOHjFg",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

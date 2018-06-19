@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Zhubei City",
+               "short_name" : "Zhubei City",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Hsinchu County",
+               "short_name" : "Hsinchu County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "302",
+               "short_name" : "302",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Zhubei City, Hsinchu County, Taiwan 302",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.8814981,
+                  "lng" : 121.0666223
+               },
+               "southwest" : {
+                  "lat" : 24.7838966,
+                  "lng" : 120.932081
+               }
+            },
+            "location" : {
+               "lat" : 24.8346871,
+               "lng" : 120.9933678
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.8814981,
+                  "lng" : 121.0666223
+               },
+               "southwest" : {
+                  "lat" : 24.7838966,
+                  "lng" : 120.932081
+               }
+            }
+         },
+         "place_id" : "ChIJyUmXqJA2aDQRF8wXPlfgZLk",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

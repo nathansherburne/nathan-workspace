@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Ziguan District",
+               "short_name" : "Ziguan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "826",
+               "short_name" : "826",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Ziguan District, Kaohsiung City, Taiwan 826",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.7707808,
+                  "lng" : 120.276222
+               },
+               "southwest" : {
+                  "lat" : 22.7174585,
+                  "lng" : 120.2430049
+               }
+            },
+            "location" : {
+               "lat" : 22.7486104,
+               "lng" : 120.2570421
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.7707808,
+                  "lng" : 120.276222
+               },
+               "southwest" : {
+                  "lat" : 22.7174585,
+                  "lng" : 120.2430049
+               }
+            }
+         },
+         "place_id" : "ChIJF2UXSi4PbjQR-ddEFKI-kWM",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

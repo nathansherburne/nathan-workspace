@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Wujie Township",
+               "short_name" : "Wujie Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Yilan County",
+               "short_name" : "Yilan County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "268",
+               "short_name" : "268",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Wujie Township, Yilan County, Taiwan 268",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.7184761,
+                  "lng" : 121.8451337
+               },
+               "southwest" : {
+                  "lat" : 24.6427117,
+                  "lng" : 121.7406655
+               }
+            },
+            "location" : {
+               "lat" : 24.6887633,
+               "lng" : 121.8050125
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.7184761,
+                  "lng" : 121.8451337
+               },
+               "southwest" : {
+                  "lat" : 24.6427117,
+                  "lng" : 121.7406655
+               }
+            }
+         },
+         "place_id" : "ChIJKVEgTuHlZzQRhrjH31nIFhk",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Maolin District",
+               "short_name" : "Maolin District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "851",
+               "short_name" : "851",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Maolin District, Kaohsiung City, Taiwan 851",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.0022785,
+                  "lng" : 120.8695532
+               },
+               "southwest" : {
+                  "lat" : 22.8352292,
+                  "lng" : 120.6491177
+               }
+            },
+            "location" : {
+               "lat" : 22.9319405,
+               "lng" : 120.734995
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.0022785,
+                  "lng" : 120.8695532
+               },
+               "southwest" : {
+                  "lat" : 22.8352292,
+                  "lng" : 120.6491177
+               }
+            }
+         },
+         "place_id" : "ChIJtd_y30xObjQR9MCR3mpNwBQ",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

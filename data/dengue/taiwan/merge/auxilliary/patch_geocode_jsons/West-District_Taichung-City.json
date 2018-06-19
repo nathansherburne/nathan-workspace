@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "West District",
+               "short_name" : "West District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "403",
+               "short_name" : "403",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "West District, Taichung City, Taiwan 403",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.1636034,
+                  "lng" : 120.6824983
+               },
+               "southwest" : {
+                  "lat" : 24.128342,
+                  "lng" : 120.6498103
+               }
+            },
+            "location" : {
+               "lat" : 24.1430604,
+               "lng" : 120.6631289
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.1636034,
+                  "lng" : 120.6824983
+               },
+               "southwest" : {
+                  "lat" : 24.128342,
+                  "lng" : 120.6498103
+               }
+            }
+         },
+         "place_id" : "ChIJFeLmWHU9aTQRfObf-Rb2xQQ",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

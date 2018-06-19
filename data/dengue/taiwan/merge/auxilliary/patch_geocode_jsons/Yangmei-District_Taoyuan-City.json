@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Yangmei District",
+               "short_name" : "Yangmei District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taoyuan City",
+               "short_name" : "Taoyuan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "326",
+               "short_name" : "326",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Yangmei District, Taoyuan City, Taiwan 326",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.9592191,
+                  "lng" : 121.1890452
+               },
+               "southwest" : {
+                  "lat" : 24.8720378,
+                  "lng" : 121.0575541
+               }
+            },
+            "location" : {
+               "lat" : 24.9242108,
+               "lng" : 121.1366715
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.9592191,
+                  "lng" : 121.1890452
+               },
+               "southwest" : {
+                  "lat" : 24.8720378,
+                  "lng" : 121.0575541
+               }
+            }
+         },
+         "place_id" : "ChIJy-FwPNU6aDQRU-UdNkugHPk",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

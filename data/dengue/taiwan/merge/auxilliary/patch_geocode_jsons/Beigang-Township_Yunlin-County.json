@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Beigang Township",
+               "short_name" : "Beigang Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Yunlin County",
+               "short_name" : "Yunlin County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "651",
+               "short_name" : "651",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Beigang Township, Yunlin County, Taiwan 651",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.6343971,
+                  "lng" : 120.3362902
+               },
+               "southwest" : {
+                  "lat" : 23.5438527,
+                  "lng" : 120.2625299
+               }
+            },
+            "location" : {
+               "lat" : 23.5958633,
+               "lng" : 120.2858846
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.6343971,
+                  "lng" : 120.3362902
+               },
+               "southwest" : {
+                  "lat" : 23.5438527,
+                  "lng" : 120.2625299
+               }
+            }
+         },
+         "place_id" : "ChIJy-kAQ_aibjQRhNvncLlOYrU",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

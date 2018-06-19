@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Qianjin District",
+               "short_name" : "Qianjin District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "801",
+               "short_name" : "801",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Qianjin District, Kaohsiung City, Taiwan 801",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.636042,
+                  "lng" : 120.3021389
+               },
+               "southwest" : {
+                  "lat" : 22.6179633,
+                  "lng" : 120.2859446
+               }
+            },
+            "location" : {
+               "lat" : 22.6254162,
+               "lng" : 120.2945362
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.636042,
+                  "lng" : 120.3021389
+               },
+               "southwest" : {
+                  "lat" : 22.6179633,
+                  "lng" : 120.2859446
+               }
+            }
+         },
+         "place_id" : "ChIJKeGx3XwEbjQR6t4eJP9LlG8",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

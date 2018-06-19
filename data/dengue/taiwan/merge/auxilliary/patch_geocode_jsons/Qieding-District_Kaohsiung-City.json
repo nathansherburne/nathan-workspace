@@ -1,0 +1,60 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Jiading District",
+               "short_name" : "Jiading District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "852",
+               "short_name" : "852",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Jiading District, Kaohsiung City, Taiwan 852",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.9202457,
+                  "lng" : 120.220542
+               },
+               "southwest" : {
+                  "lat" : 22.8480835,
+                  "lng" : 120.1746925
+               }
+            },
+            "location" : {
+               "lat" : 22.8763476,
+               "lng" : 120.2108809
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.9202457,
+                  "lng" : 120.220542
+               },
+               "southwest" : {
+                  "lat" : 22.8480835,
+                  "lng" : 120.1746925
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJaWwLdNoKbjQR8HlH2I2EKCw",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

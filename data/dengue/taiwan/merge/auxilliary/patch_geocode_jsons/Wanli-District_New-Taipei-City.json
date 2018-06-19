@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Wanli District",
+               "short_name" : "Wanli District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "207",
+               "short_name" : "207",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Wanli District, New Taipei City, Taiwan 207",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.2227113,
+                  "lng" : 121.7085816
+               },
+               "southwest" : {
+                  "lat" : 25.1302074,
+                  "lng" : 121.5893548
+               }
+            },
+            "location" : {
+               "lat" : 25.1676024,
+               "lng" : 121.6397184
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.2227113,
+                  "lng" : 121.7085816
+               },
+               "southwest" : {
+                  "lat" : 25.1302074,
+                  "lng" : 121.5893548
+               }
+            }
+         },
+         "place_id" : "ChIJ_aSIhd9MXTQREuMg8oI8bO0",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

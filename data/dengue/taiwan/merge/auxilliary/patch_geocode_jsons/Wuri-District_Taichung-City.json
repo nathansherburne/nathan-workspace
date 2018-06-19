@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Wuri District",
+               "short_name" : "Wuri District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "414",
+               "short_name" : "414",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Wuri District, Taichung City, Taiwan 414",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.1385819,
+                  "lng" : 120.6633005
+               },
+               "southwest" : {
+                  "lat" : 24.0258764,
+                  "lng" : 120.5815883
+               }
+            },
+            "location" : {
+               "lat" : 24.107787,
+               "lng" : 120.6380936
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.1385819,
+                  "lng" : 120.6633005
+               },
+               "southwest" : {
+                  "lat" : 24.0258764,
+                  "lng" : 120.5815883
+               }
+            }
+         },
+         "place_id" : "ChIJnbWkBv07aTQRdUXoWtpLzdE",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

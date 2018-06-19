@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Neimen District",
+               "short_name" : "Neimen District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "845",
+               "short_name" : "845",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Neimen District, Kaohsiung City, Taiwan 845",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.0281242,
+                  "lng" : 120.537332
+               },
+               "southwest" : {
+                  "lat" : 22.8855863,
+                  "lng" : 120.407748
+               }
+            },
+            "location" : {
+               "lat" : 22.9560087,
+               "lng" : 120.4703258
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.0281242,
+                  "lng" : 120.537332
+               },
+               "southwest" : {
+                  "lat" : 22.8855863,
+                  "lng" : 120.407748
+               }
+            }
+         },
+         "place_id" : "ChIJ45ixcgVpbjQRwoOEQXo4VrU",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

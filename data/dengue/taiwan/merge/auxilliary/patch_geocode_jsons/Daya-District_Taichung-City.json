@@ -1,0 +1,54 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Daya District",
+               "short_name" : "Daya District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Daya District, Taichung City, Taiwan",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.2591569,
+                  "lng" : 120.6827615
+               },
+               "southwest" : {
+                  "lat" : 24.2015261,
+                  "lng" : 120.5963838
+               }
+            },
+            "location" : {
+               "lat" : 24.2225023,
+               "lng" : 120.6545022
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.2591569,
+                  "lng" : 120.6827615
+               },
+               "southwest" : {
+                  "lat" : 24.2015261,
+                  "lng" : 120.5963838
+               }
+            }
+         },
+         "place_id" : "ChIJe2L-mpMWaTQRit__DGSe_Yg",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

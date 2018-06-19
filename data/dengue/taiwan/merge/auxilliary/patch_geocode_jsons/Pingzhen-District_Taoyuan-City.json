@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Pingzhen District",
+               "short_name" : "Pingzhen District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taoyuan City",
+               "short_name" : "Taoyuan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "324",
+               "short_name" : "324",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Pingzhen District, Taoyuan City, Taiwan 324",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.9695521,
+                  "lng" : 121.2583535
+               },
+               "southwest" : {
+                  "lat" : 24.8724235,
+                  "lng" : 121.1769489
+               }
+            },
+            "location" : {
+               "lat" : 24.9296022,
+               "lng" : 121.2053963
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.9695521,
+                  "lng" : 121.2583535
+               },
+               "southwest" : {
+                  "lat" : 24.8724235,
+                  "lng" : 121.1769489
+               }
+            }
+         },
+         "place_id" : "ChIJJQJAG-IiaDQR79ek-I6G394",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

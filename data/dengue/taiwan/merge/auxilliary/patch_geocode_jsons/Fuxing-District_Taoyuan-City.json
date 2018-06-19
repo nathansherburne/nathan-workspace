@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Fuxing District",
+               "short_name" : "Fuxing District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taoyuan City",
+               "short_name" : "Taoyuan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "336",
+               "short_name" : "336",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Fuxing District, Taoyuan City, Taiwan 336",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.8459055,
+                  "lng" : 121.4798128
+               },
+               "southwest" : {
+                  "lat" : 24.5864837,
+                  "lng" : 121.2432727
+               }
+            },
+            "location" : {
+               "lat" : 24.709089,
+               "lng" : 121.3770336
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.8459055,
+                  "lng" : 121.4798128
+               },
+               "southwest" : {
+                  "lat" : 24.5864837,
+                  "lng" : 121.2432727
+               }
+            }
+         },
+         "place_id" : "ChIJnwIb6WYTaDQRiuwM21DdtXQ",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

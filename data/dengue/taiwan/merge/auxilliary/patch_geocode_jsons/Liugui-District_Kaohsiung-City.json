@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Liugui District",
+               "short_name" : "Liugui District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "844",
+               "short_name" : "844",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Liugui District, Kaohsiung City, Taiwan 844",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.1407799,
+                  "lng" : 120.745508
+               },
+               "southwest" : {
+                  "lat" : 22.8637286,
+                  "lng" : 120.5922967
+               }
+            },
+            "location" : {
+               "lat" : 23.0026195,
+               "lng" : 120.6545022
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.1407799,
+                  "lng" : 120.745508
+               },
+               "southwest" : {
+                  "lat" : 22.8637286,
+                  "lng" : 120.5922967
+               }
+            }
+         },
+         "place_id" : "ChIJeX1RVfxabjQRUg_qw8SE0B4",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

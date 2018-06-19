@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Yuchi Township",
+               "short_name" : "Yuchi Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Nantou County",
+               "short_name" : "Nantou County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "555",
+               "short_name" : "555",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Yuchi Township, Nantou County, Taiwan 555",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.9332557,
+                  "lng" : 120.9949437
+               },
+               "southwest" : {
+                  "lat" : 23.8098539,
+                  "lng" : 120.8655809
+               }
+            },
+            "location" : {
+               "lat" : 23.8753852,
+               "lng" : 120.9187827
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.9332557,
+                  "lng" : 120.9949437
+               },
+               "southwest" : {
+                  "lat" : 23.8098539,
+                  "lng" : 120.8655809
+               }
+            }
+         },
+         "place_id" : "ChIJ12Qd4GfWaDQRkdiK0I66fbc",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

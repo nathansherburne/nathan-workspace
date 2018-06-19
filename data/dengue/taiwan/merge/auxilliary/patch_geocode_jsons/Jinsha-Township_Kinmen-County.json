@@ -1,0 +1,49 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Jinsha Township",
+               "short_name" : "Jinsha Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "890",
+               "short_name" : "890",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Jinsha Township, 890",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.5295396,
+                  "lng" : 118.4733776
+               },
+               "southwest" : {
+                  "lat" : 24.4471858,
+                  "lng" : 118.3779268
+               }
+            },
+            "location" : {
+               "lat" : 24.4811092,
+               "lng" : 118.4279933
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.5295396,
+                  "lng" : 118.4733776
+               },
+               "southwest" : {
+                  "lat" : 24.4471858,
+                  "lng" : 118.3779268
+               }
+            }
+         },
+         "place_id" : "ChIJ5_osjTy7FDQRmaqkZINQR38",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

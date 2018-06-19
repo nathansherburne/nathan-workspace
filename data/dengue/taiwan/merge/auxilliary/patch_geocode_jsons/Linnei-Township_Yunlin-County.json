@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Linnei Township",
+               "short_name" : "Linnei Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Yunlin County",
+               "short_name" : "Yunlin County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "643",
+               "short_name" : "643",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Linnei Township, Yunlin County, Taiwan 643",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.7913344,
+                  "lng" : 120.6559726
+               },
+               "southwest" : {
+                  "lat" : 23.713481,
+                  "lng" : 120.5705026
+               }
+            },
+            "location" : {
+               "lat" : 23.7618842,
+               "lng" : 120.6084832
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.7913344,
+                  "lng" : 120.6559726
+               },
+               "southwest" : {
+                  "lat" : 23.713481,
+                  "lng" : 120.5705026
+               }
+            }
+         },
+         "place_id" : "ChIJQ6G_zv3LbjQRxUQK7ebOHfs",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

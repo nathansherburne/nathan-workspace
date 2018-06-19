@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xinzhuang District",
+               "short_name" : "Xinzhuang District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "242",
+               "short_name" : "242",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xinzhuang District, New Taipei City, Taiwan 242",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.0691992,
+                  "lng" : 121.4687036
+               },
+               "southwest" : {
+                  "lat" : 24.9952292,
+                  "lng" : 121.3906683
+               }
+            },
+            "location" : {
+               "lat" : 25.0265985,
+               "lng" : 121.4178347
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.0691992,
+                  "lng" : 121.4687036
+               },
+               "southwest" : {
+                  "lat" : 24.9952292,
+                  "lng" : 121.3906683
+               }
+            }
+         },
+         "place_id" : "ChIJzR9IRumnQjQRpRMgY89zysA",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

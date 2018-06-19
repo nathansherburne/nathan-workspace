@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xihu Township",
+               "short_name" : "Xihu Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Miaoli County",
+               "short_name" : "Miaoli County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "368",
+               "short_name" : "368",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xihu Township, Miaoli County, Taiwan 368",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.5814946,
+                  "lng" : 120.7921462
+               },
+               "southwest" : {
+                  "lat" : 24.4872369,
+                  "lng" : 120.7244887
+               }
+            },
+            "location" : {
+               "lat" : 24.5387937,
+               "lng" : 120.769476
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.5814946,
+                  "lng" : 120.7921462
+               },
+               "southwest" : {
+                  "lat" : 24.4872369,
+                  "lng" : 120.7244887
+               }
+            }
+         },
+         "place_id" : "ChIJ5dGj3gGpaTQRDF-NXEqanQM",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

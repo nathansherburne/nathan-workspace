@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Donggang Township",
+               "short_name" : "Donggang Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "928",
+               "short_name" : "928",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Donggang Township, Pingtung County, Taiwan 928",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.5004886,
+                  "lng" : 120.5035631
+               },
+               "southwest" : {
+                  "lat" : 22.4300156,
+                  "lng" : 120.4353488
+               }
+            },
+            "location" : {
+               "lat" : 22.4628783,
+               "lng" : 120.4703258
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.5004886,
+                  "lng" : 120.5035631
+               },
+               "southwest" : {
+                  "lat" : 22.4300156,
+                  "lng" : 120.4353488
+               }
+            }
+         },
+         "place_id" : "ChIJ2-wGj7rhcTQRQ7tOpAos6sY",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

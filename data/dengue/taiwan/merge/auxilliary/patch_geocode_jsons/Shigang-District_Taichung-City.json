@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shigang District",
+               "short_name" : "Shigang District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "422",
+               "short_name" : "422",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Shigang District, Taichung City, Taiwan 422",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.284246,
+                  "lng" : 120.8242637
+               },
+               "southwest" : {
+                  "lat" : 24.2411426,
+                  "lng" : 120.7604581
+               }
+            },
+            "location" : {
+               "lat" : 24.2742426,
+               "lng" : 120.7771553
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.284246,
+                  "lng" : 120.8242637
+               },
+               "southwest" : {
+                  "lat" : 24.2411426,
+                  "lng" : 120.7604581
+               }
+            }
+         },
+         "place_id" : "ChIJDWmWypwbaTQRhIXJtC6R5jY",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

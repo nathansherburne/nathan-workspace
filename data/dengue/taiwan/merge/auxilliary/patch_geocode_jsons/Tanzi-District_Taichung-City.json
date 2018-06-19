@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Tanzi District",
+               "short_name" : "Tanzi District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "427",
+               "short_name" : "427",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Tanzi District, Taichung City, Taiwan 427",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.2368055,
+                  "lng" : 120.7536884
+               },
+               "southwest" : {
+                  "lat" : 24.1858402,
+                  "lng" : 120.6699303
+               }
+            },
+            "location" : {
+               "lat" : 24.2163612,
+               "lng" : 120.7062535
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.2368055,
+                  "lng" : 120.7536884
+               },
+               "southwest" : {
+                  "lat" : 24.1858402,
+                  "lng" : 120.6699303
+               }
+            }
+         },
+         "place_id" : "ChIJIcn5nmIXaTQRzsltuSWM0G8",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

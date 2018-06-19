@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Ruifang District",
+               "short_name" : "Ruifang District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "224",
+               "short_name" : "224",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Ruifang District, New Taipei City, Taiwan 224",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.1363145,
+                  "lng" : 121.9251267
+               },
+               "southwest" : {
+                  "lat" : 25.0419889,
+                  "lng" : 121.7499834
+               }
+            },
+            "location" : {
+               "lat" : 25.103052,
+               "lng" : 121.822098
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.1363145,
+                  "lng" : 121.9251267
+               },
+               "southwest" : {
+                  "lat" : 25.0419889,
+                  "lng" : 121.7499834
+               }
+            }
+         },
+         "place_id" : "ChIJBwV6yTRFXTQRPyNtPcQzR0g",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

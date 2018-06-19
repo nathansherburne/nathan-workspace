@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lingya District",
+               "short_name" : "Lingya District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "802",
+               "short_name" : "802",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Lingya District, Kaohsiung City, Taiwan 802",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.6385307,
+                  "lng" : 120.3455786
+               },
+               "southwest" : {
+                  "lat" : 22.6092062,
+                  "lng" : 120.2900034
+               }
+            },
+            "location" : {
+               "lat" : 22.6268814,
+               "lng" : 120.3262535
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.6385307,
+                  "lng" : 120.3455786
+               },
+               "southwest" : {
+                  "lat" : 22.6092062,
+                  "lng" : 120.2900034
+               }
+            }
+         },
+         "place_id" : "ChIJYVwgg5cEbjQRJSX2BEuTr-s",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

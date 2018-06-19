@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shuishang",
+               "short_name" : "Shuishang",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Shuishang Township",
+               "short_name" : "Shuishang Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Chiayi County",
+               "short_name" : "Chiayi County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "608",
+               "short_name" : "608",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Shuishang, Shuishang Township, Chiayi County, Taiwan 608",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.4522235,
+                  "lng" : 120.4374498
+               },
+               "southwest" : {
+                  "lat" : 23.4213238,
+                  "lng" : 120.3861519
+               }
+            },
+            "location" : {
+               "lat" : 23.4287422,
+               "lng" : 120.4001659
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.4522235,
+                  "lng" : 120.4374498
+               },
+               "southwest" : {
+                  "lat" : 23.4213238,
+                  "lng" : 120.3861519
+               }
+            }
+         },
+         "place_id" : "ChIJbWd7ukaRbjQRtDwqKJUmvFc",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

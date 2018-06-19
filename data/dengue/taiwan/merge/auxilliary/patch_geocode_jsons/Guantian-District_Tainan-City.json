@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Guantian District",
+               "short_name" : "Guantian District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "720",
+               "short_name" : "720",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Guantian District, Tainan City, Taiwan 720",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.2289903,
+                  "lng" : 120.4305326
+               },
+               "southwest" : {
+                  "lat" : 23.1505931,
+                  "lng" : 120.286906
+               }
+            },
+            "location" : {
+               "lat" : 23.1948768,
+               "lng" : 120.3550808
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.2289903,
+                  "lng" : 120.4305326
+               },
+               "southwest" : {
+                  "lat" : 23.1505931,
+                  "lng" : 120.286906
+               }
+            }
+         },
+         "place_id" : "ChIJmdAaxrtibjQRkO-o3PfkVHc",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

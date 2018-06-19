@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Qigu District",
+               "short_name" : "Qigu District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "724",
+               "short_name" : "724",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Qigu District, Tainan City, Taiwan 724",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.1958608,
+                  "lng" : 120.178106
+               },
+               "southwest" : {
+                  "lat" : 23.0430789,
+                  "lng" : 120.0277765
+               }
+            },
+            "location" : {
+               "lat" : 23.1195166,
+               "lng" : 120.1011836
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.1958608,
+                  "lng" : 120.178106
+               },
+               "southwest" : {
+                  "lat" : 23.0430789,
+                  "lng" : 120.0277765
+               }
+            }
+         },
+         "place_id" : "ChIJx41NYQXXbTQRkxL3t5elpl8",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

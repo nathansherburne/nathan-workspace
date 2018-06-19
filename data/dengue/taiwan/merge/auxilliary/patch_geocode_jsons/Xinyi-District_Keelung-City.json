@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xinyi District",
+               "short_name" : "Xinyi District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Keelung City",
+               "short_name" : "Keelung City",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "201",
+               "short_name" : "201",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xinyi District, Keelung City, Taiwan 201",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.1450183,
+                  "lng" : 121.7988746
+               },
+               "southwest" : {
+                  "lat" : 25.1101283,
+                  "lng" : 121.7462227
+               }
+            },
+            "location" : {
+               "lat" : 25.1284336,
+               "lng" : 121.7822278
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.1450183,
+                  "lng" : 121.7988746
+               },
+               "southwest" : {
+                  "lat" : 25.1101283,
+                  "lng" : 121.7462227
+               }
+            }
+         },
+         "place_id" : "ChIJ_6uOXLZPXTQR5ljxOY5jw8Y",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

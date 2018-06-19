@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Jiaxian District",
+               "short_name" : "Jiaxian District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "847",
+               "short_name" : "847",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Jiaxian District, Kaohsiung City, Taiwan 847",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.2086496,
+                  "lng" : 120.6912928
+               },
+               "southwest" : {
+                  "lat" : 23.0362677,
+                  "lng" : 120.5414228
+               }
+            },
+            "location" : {
+               "lat" : 23.114592,
+               "lng" : 120.6314948
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.2086496,
+                  "lng" : 120.6912928
+               },
+               "southwest" : {
+                  "lat" : 23.0362677,
+                  "lng" : 120.5414228
+               }
+            }
+         },
+         "place_id" : "ChIJOVIOkDNfbjQR2PnaCI38yek",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

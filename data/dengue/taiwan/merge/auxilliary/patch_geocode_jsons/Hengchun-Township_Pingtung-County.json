@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Hengchun",
+               "short_name" : "Hengchun",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Hengchun Township",
+               "short_name" : "Hengchun Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "946",
+               "short_name" : "946",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Hengchun, Hengchun Township, Pingtung County, Taiwan 946",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.0193247,
+                  "lng" : 120.7679091
+               },
+               "southwest" : {
+                  "lat" : 21.9464205,
+                  "lng" : 120.7376126
+               }
+            },
+            "location" : {
+               "lat" : 22.0008277,
+               "lng" : 120.7447638
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.0193247,
+                  "lng" : 120.7679091
+               },
+               "southwest" : {
+                  "lat" : 21.9464205,
+                  "lng" : 120.7376126
+               }
+            }
+         },
+         "place_id" : "ChIJJbhHUM6wcTQRgq5FoTQKB6Q",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

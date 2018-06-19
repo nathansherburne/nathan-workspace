@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xinxing District",
+               "short_name" : "Xinxing District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "800",
+               "short_name" : "800",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xinxing District, Kaohsiung City, Taiwan 800",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.6369116,
+                  "lng" : 120.3179725
+               },
+               "southwest" : {
+                  "lat" : 22.6199579,
+                  "lng" : 120.297062
+               }
+            },
+            "location" : {
+               "lat" : 22.6283893,
+               "lng" : 120.3060706
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.6369116,
+                  "lng" : 120.3179725
+               },
+               "southwest" : {
+                  "lat" : 22.6199579,
+                  "lng" : 120.297062
+               }
+            }
+         },
+         "place_id" : "ChIJ2TQANo4EbjQRTwQuwS_1UAk",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

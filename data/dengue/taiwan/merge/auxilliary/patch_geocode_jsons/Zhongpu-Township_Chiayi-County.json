@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Zhongpu Township",
+               "short_name" : "Zhongpu Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Chiayi County",
+               "short_name" : "Chiayi County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "606",
+               "short_name" : "606",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Zhongpu Township, Chiayi County, Taiwan 606",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.4621309,
+                  "lng" : 120.6048973
+               },
+               "southwest" : {
+                  "lat" : 23.3363873,
+                  "lng" : 120.4383886
+               }
+            },
+            "location" : {
+               "lat" : 23.3995944,
+               "lng" : 120.5509358
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.4621309,
+                  "lng" : 120.6048973
+               },
+               "southwest" : {
+                  "lat" : 23.3363873,
+                  "lng" : 120.4383886
+               }
+            }
+         },
+         "place_id" : "ChIJpdmbXTGTbjQRGUiTI719DU0",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

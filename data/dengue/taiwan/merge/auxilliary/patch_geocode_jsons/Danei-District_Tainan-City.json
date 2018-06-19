@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Danei District",
+               "short_name" : "Danei District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "742",
+               "short_name" : "742",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Danei District, Tainan City, Taiwan 742",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.2013244,
+                  "lng" : 120.458068
+               },
+               "southwest" : {
+                  "lat" : 23.099917,
+                  "lng" : 120.3393245
+               }
+            },
+            "location" : {
+               "lat" : 23.1421962,
+               "lng" : 120.4011911
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.2013244,
+                  "lng" : 120.458068
+               },
+               "southwest" : {
+                  "lat" : 23.099917,
+                  "lng" : 120.3393245
+               }
+            }
+         },
+         "place_id" : "ChIJyfaDqa1jbjQRrJwJcRK4VqA",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

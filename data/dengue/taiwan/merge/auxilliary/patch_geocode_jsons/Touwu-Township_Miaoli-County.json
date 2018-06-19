@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Touwu",
+               "short_name" : "Touwu",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Touwu Township",
+               "short_name" : "Touwu Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Miaoli County",
+               "short_name" : "Miaoli County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "362",
+               "short_name" : "362",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Touwu, Touwu Township, Miaoli County, Taiwan 362",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.5879872,
+                  "lng" : 120.8886538
+               },
+               "southwest" : {
+                  "lat" : 24.5605159,
+                  "lng" : 120.8423522
+               }
+            },
+            "location" : {
+               "lat" : 24.5765856,
+               "lng" : 120.8545433
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.5879872,
+                  "lng" : 120.8886538
+               },
+               "southwest" : {
+                  "lat" : 24.5605159,
+                  "lng" : 120.8423522
+               }
+            }
+         },
+         "place_id" : "ChIJ4-8pD2CsaTQRTcigTsln2hg",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

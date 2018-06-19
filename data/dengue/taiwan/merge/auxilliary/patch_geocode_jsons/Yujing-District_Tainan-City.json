@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Yujing District",
+               "short_name" : "Yujing District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "714",
+               "short_name" : "714",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Yujing District, Tainan City, Taiwan 714",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.1899265,
+                  "lng" : 120.5272672
+               },
+               "southwest" : {
+                  "lat" : 23.0627613,
+                  "lng" : 120.4063556
+               }
+            },
+            "location" : {
+               "lat" : 23.1060822,
+               "lng" : 120.4703258
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.1899265,
+                  "lng" : 120.5272672
+               },
+               "southwest" : {
+                  "lat" : 23.0627613,
+                  "lng" : 120.4063556
+               }
+            }
+         },
+         "place_id" : "ChIJ3blqsBFhbjQRQ84GQWoI10g",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

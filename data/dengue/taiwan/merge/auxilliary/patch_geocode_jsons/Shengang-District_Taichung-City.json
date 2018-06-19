@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shengang District",
+               "short_name" : "Shengang District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "429",
+               "short_name" : "429",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Shengang District, Taichung City, Taiwan 429",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.299302,
+                  "lng" : 120.7140077
+               },
+               "southwest" : {
+                  "lat" : 24.2288596,
+                  "lng" : 120.630597
+               }
+            },
+            "location" : {
+               "lat" : 24.2466151,
+               "lng" : 120.6830982
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.299302,
+                  "lng" : 120.7140077
+               },
+               "southwest" : {
+                  "lat" : 24.2288596,
+                  "lng" : 120.630597
+               }
+            }
+         },
+         "place_id" : "ChIJH3Dg0tsQaTQR3zrOG_QfiTg",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

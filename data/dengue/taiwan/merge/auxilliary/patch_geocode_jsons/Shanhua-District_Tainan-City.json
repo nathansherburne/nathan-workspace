@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shanhua District",
+               "short_name" : "Shanhua District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "741",
+               "short_name" : "741",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Shanhua District, Tainan City, Taiwan 741",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.176445,
+                  "lng" : 120.3462894
+               },
+               "southwest" : {
+                  "lat" : 23.1048975,
+                  "lng" : 120.2549038
+               }
+            },
+            "location" : {
+               "lat" : 23.1402613,
+               "lng" : 120.3089541
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.176445,
+                  "lng" : 120.3462894
+               },
+               "southwest" : {
+                  "lat" : 23.1048975,
+                  "lng" : 120.2549038
+               }
+            }
+         },
+         "place_id" : "ChIJiWIJSoZ8bjQRbqKULPmX4g4",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

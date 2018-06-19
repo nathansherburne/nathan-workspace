@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Annan District",
+               "short_name" : "Annan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "709",
+               "short_name" : "709",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Annan District, Tainan City, Taiwan 709",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.091447,
+                  "lng" : 120.2469756
+               },
+               "southwest" : {
+                  "lat" : 22.9970981,
+                  "lng" : 120.062518
+               }
+            },
+            "location" : {
+               "lat" : 23.0585336,
+               "lng" : 120.1358346
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.091447,
+                  "lng" : 120.2469756
+               },
+               "southwest" : {
+                  "lat" : 22.9970981,
+                  "lng" : 120.062518
+               }
+            }
+         },
+         "place_id" : "ChIJ9X8ZZ3fYbTQR_OX-zpGqvK4",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

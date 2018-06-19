@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Dalin",
+               "short_name" : "Dalin",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Dalin Township",
+               "short_name" : "Dalin Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Chiayi County",
+               "short_name" : "Chiayi County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "622",
+               "short_name" : "622",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Dalin, Dalin Township, Chiayi County, Taiwan 622",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.6252754,
+                  "lng" : 120.5075986
+               },
+               "southwest" : {
+                  "lat" : 23.5797776,
+                  "lng" : 120.4370857
+               }
+            },
+            "location" : {
+               "lat" : 23.6040709,
+               "lng" : 120.4542004
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.6252754,
+                  "lng" : 120.5075986
+               },
+               "southwest" : {
+                  "lat" : 23.5797776,
+                  "lng" : 120.4370857
+               }
+            }
+         },
+         "place_id" : "ChIJCSMMHre-bjQRby--PamwiWo",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

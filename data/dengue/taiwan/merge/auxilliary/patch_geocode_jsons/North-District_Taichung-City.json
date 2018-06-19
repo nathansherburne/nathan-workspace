@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "North District",
+               "short_name" : "North District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "404",
+               "short_name" : "404",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "North District, Taichung City, Taiwan 404",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.1739834,
+                  "lng" : 120.7045623
+               },
+               "southwest" : {
+                  "lat" : 24.1422531,
+                  "lng" : 120.6625957
+               }
+            },
+            "location" : {
+               "lat" : 24.1573171,
+               "lng" : 120.6832556
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.1739834,
+                  "lng" : 120.7045623
+               },
+               "southwest" : {
+                  "lat" : 24.1422531,
+                  "lng" : 120.6625957
+               }
+            }
+         },
+         "place_id" : "ChIJ79x6WWE9aTQR-cafzbhR77s",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

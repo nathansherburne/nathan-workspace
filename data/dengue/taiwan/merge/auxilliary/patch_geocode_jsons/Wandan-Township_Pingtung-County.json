@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Wandan Township",
+               "short_name" : "Wandan Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "913",
+               "short_name" : "913",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Wandan Township, Pingtung County, Taiwan 913",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.630301,
+                  "lng" : 120.5231531
+               },
+               "southwest" : {
+                  "lat" : 22.5249433,
+                  "lng" : 120.4334657
+               }
+            },
+            "location" : {
+               "lat" : 22.591522,
+               "lng" : 120.4703258
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.630301,
+                  "lng" : 120.5231531
+               },
+               "southwest" : {
+                  "lat" : 22.5249433,
+                  "lng" : 120.4334657
+               }
+            }
+         },
+         "place_id" : "ChIJyWgz5tQebjQR7uJoAHnehIE",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

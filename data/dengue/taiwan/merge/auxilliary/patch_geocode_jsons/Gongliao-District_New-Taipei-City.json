@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Gongliao District",
+               "short_name" : "Gongliao District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "228",
+               "short_name" : "228",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Gongliao District, New Taipei City, Taiwan 228",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.1217397,
+                  "lng" : 122.0069052
+               },
+               "southwest" : {
+                  "lat" : 24.9607377,
+                  "lng" : 121.8606235
+               }
+            },
+            "location" : {
+               "lat" : 25.0168762,
+               "lng" : 121.9459786
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.1217397,
+                  "lng" : 122.0069052
+               },
+               "southwest" : {
+                  "lat" : 24.9607377,
+                  "lng" : 121.8606235
+               }
+            }
+         },
+         "place_id" : "ChIJe9pl5ehcXTQRfTXeo9kk8s8",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

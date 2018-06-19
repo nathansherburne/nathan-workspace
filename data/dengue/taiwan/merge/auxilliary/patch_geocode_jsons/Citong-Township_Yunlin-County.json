@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Citong Township",
+               "short_name" : "Citong Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Yunlin County",
+               "short_name" : "Yunlin County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "647",
+               "short_name" : "647",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Citong Township, Yunlin County, Taiwan 647",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.8014992,
+                  "lng" : 120.5937674
+               },
+               "southwest" : {
+                  "lat" : 23.7293205,
+                  "lng" : 120.4770519
+               }
+            },
+            "location" : {
+               "lat" : 23.7769338,
+               "lng" : 120.5394232
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8014992,
+                  "lng" : 120.5937674
+               },
+               "southwest" : {
+                  "lat" : 23.7293205,
+                  "lng" : 120.4770519
+               }
+            }
+         },
+         "place_id" : "ChIJFaBZ6fjJbjQRobWYRyA7YBk",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

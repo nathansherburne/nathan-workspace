@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Tuku Township",
+               "short_name" : "Tuku Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Yunlin County",
+               "short_name" : "Yunlin County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "633",
+               "short_name" : "633",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Tuku Township, Yunlin County, Taiwan 633",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.7483509,
+                  "lng" : 120.4073893
+               },
+               "southwest" : {
+                  "lat" : 23.6437823,
+                  "lng" : 120.3296759
+               }
+            },
+            "location" : {
+               "lat" : 23.6882639,
+               "lng" : 120.3550808
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.7483509,
+                  "lng" : 120.4073893
+               },
+               "southwest" : {
+                  "lat" : 23.6437823,
+                  "lng" : 120.3296759
+               }
+            }
+         },
+         "place_id" : "ChIJGSjMzOq6bjQRPQVCJnhyNlQ",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

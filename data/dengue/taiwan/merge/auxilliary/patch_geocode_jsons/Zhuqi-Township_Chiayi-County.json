@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Zhuqi Township",
+               "short_name" : "Zhuqi Township",
+               "types" : [ "administrative_area_level_3", "locality", "political" ]
+            },
+            {
+               "long_name" : "Chiayi County",
+               "short_name" : "Chiayi County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "604",
+               "short_name" : "604",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Zhuqi Township, Chiayi County, Taiwan 604",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.5533393,
+                  "lng" : 120.7158199
+               },
+               "southwest" : {
+                  "lat" : 23.4497071,
+                  "lng" : 120.4831592
+               }
+            },
+            "location" : {
+               "lat" : 23.5049724,
+               "lng" : 120.6084832
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.5533393,
+                  "lng" : 120.7158199
+               },
+               "southwest" : {
+                  "lat" : 23.4497071,
+                  "lng" : 120.4831592
+               }
+            }
+         },
+         "place_id" : "ChIJN_ZX0-DBbjQRbitkAUd0rdo",
+         "types" : [ "administrative_area_level_3", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

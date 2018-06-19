@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Nantun District",
+               "short_name" : "Nantun District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "408",
+               "short_name" : "408",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Nantun District, Taichung City, Taiwan 408",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.171036,
+                  "lng" : 120.6551521
+               },
+               "southwest" : {
+                  "lat" : 24.1093521,
+                  "lng" : 120.5742811
+               }
+            },
+            "location" : {
+               "lat" : 24.1471183,
+               "lng" : 120.6084832
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.171036,
+                  "lng" : 120.6551521
+               },
+               "southwest" : {
+                  "lat" : 24.1093521,
+                  "lng" : 120.5742811
+               }
+            }
+         },
+         "place_id" : "ChIJGwhbrH4-aTQRKb23MfTkFD8",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

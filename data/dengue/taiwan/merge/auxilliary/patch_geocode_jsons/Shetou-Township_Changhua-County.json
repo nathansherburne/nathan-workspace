@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shetou",
+               "short_name" : "Shetou",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Shetou Township",
+               "short_name" : "Shetou Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Changhua County",
+               "short_name" : "Changhua County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "511",
+               "short_name" : "511",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Shetou, Shetou Township, Changhua County, Taiwan 511",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.9354682,
+                  "lng" : 120.6159091
+               },
+               "southwest" : {
+                  "lat" : 23.8810137,
+                  "lng" : 120.5729585
+               }
+            },
+            "location" : {
+               "lat" : 23.8992037,
+               "lng" : 120.5827201
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.9354682,
+                  "lng" : 120.6159091
+               },
+               "southwest" : {
+                  "lat" : 23.8810137,
+                  "lng" : 120.5729585
+               }
+            }
+         },
+         "place_id" : "ChIJ1Wjpg0U0aTQRPArHQIhlQww",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

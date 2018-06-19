@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Renwu District",
+               "short_name" : "Renwu District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "814",
+               "short_name" : "814",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Renwu District, Kaohsiung City, Taiwan 814",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.7421194,
+                  "lng" : 120.4032608
+               },
+               "southwest" : {
+                  "lat" : 22.6689119,
+                  "lng" : 120.3148913
+               }
+            },
+            "location" : {
+               "lat" : 22.6947932,
+               "lng" : 120.3608455
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.7421194,
+                  "lng" : 120.4032608
+               },
+               "southwest" : {
+                  "lat" : 22.6689119,
+                  "lng" : 120.3148913
+               }
+            }
+         },
+         "place_id" : "ChIJ7S6uNhEQbjQRs-XflSl9j84",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

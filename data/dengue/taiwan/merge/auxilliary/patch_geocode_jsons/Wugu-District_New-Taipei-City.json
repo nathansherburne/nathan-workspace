@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Wugu District",
+               "short_name" : "Wugu District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "248",
+               "short_name" : "248",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Wugu District, New Taipei City, Taiwan 248",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.1322668,
+                  "lng" : 121.4710029
+               },
+               "southwest" : {
+                  "lat" : 25.0607704,
+                  "lng" : 121.3999816
+               }
+            },
+            "location" : {
+               "lat" : 25.0848317,
+               "lng" : 121.4386586
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.1322668,
+                  "lng" : 121.4710029
+               },
+               "southwest" : {
+                  "lat" : 25.0607704,
+                  "lng" : 121.3999816
+               }
+            }
+         },
+         "place_id" : "ChIJVezEygemQjQR2UPW1bGW6w0",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

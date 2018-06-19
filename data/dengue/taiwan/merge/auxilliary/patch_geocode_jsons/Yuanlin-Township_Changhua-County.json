@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Yuanlin City",
+               "short_name" : "Yuanlin City",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Changhua County",
+               "short_name" : "Changhua County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "510",
+               "short_name" : "510",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Yuanlin City, Changhua County, Taiwan 510",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.9904417,
+                  "lng" : 120.6376326
+               },
+               "southwest" : {
+                  "lat" : 23.9232616,
+                  "lng" : 120.5440136
+               }
+            },
+            "location" : {
+               "lat" : 23.959574,
+               "lng" : 120.5854674
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.9904417,
+                  "lng" : 120.6376326
+               },
+               "southwest" : {
+                  "lat" : 23.9232616,
+                  "lng" : 120.5440136
+               }
+            }
+         },
+         "place_id" : "ChIJWcqaNu82aTQRI3d1WE6G_v0",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

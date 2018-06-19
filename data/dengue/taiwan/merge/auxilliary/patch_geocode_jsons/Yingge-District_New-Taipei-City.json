@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Yingge District",
+               "short_name" : "Yingge District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "239",
+               "short_name" : "239",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Yingge District, New Taipei City, Taiwan 239",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.9823133,
+                  "lng" : 121.3822931
+               },
+               "southwest" : {
+                  "lat" : 24.9280449,
+                  "lng" : 121.3157741
+               }
+            },
+            "location" : {
+               "lat" : 24.9614967,
+               "lng" : 121.3427262
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.9823133,
+                  "lng" : 121.3822931
+               },
+               "southwest" : {
+                  "lat" : 24.9280449,
+                  "lng" : 121.3157741
+               }
+            }
+         },
+         "place_id" : "ChIJaVrwUKkeaDQRDsu-mBXyz-w",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shiding District",
+               "short_name" : "Shiding District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "223",
+               "short_name" : "223",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Shiding District, New Taipei City, Taiwan 223",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.0418921,
+                  "lng" : 121.72681
+               },
+               "southwest" : {
+                  "lat" : 24.8574633,
+                  "lng" : 121.5663369
+               }
+            },
+            "location" : {
+               "lat" : 25.0098662,
+               "lng" : 121.6452827
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.0418921,
+                  "lng" : 121.72681
+               },
+               "southwest" : {
+                  "lat" : 24.8574633,
+                  "lng" : 121.5663369
+               }
+            }
+         },
+         "place_id" : "ChIJwWwLFOz_ZzQR2XWHU1sZD7E",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

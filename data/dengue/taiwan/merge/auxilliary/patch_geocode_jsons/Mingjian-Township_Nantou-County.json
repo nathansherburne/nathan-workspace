@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Mingjian Township",
+               "short_name" : "Mingjian Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Nantou County",
+               "short_name" : "Nantou County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "551",
+               "short_name" : "551",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Mingjian Township, Nantou County, Taiwan 551",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.8902945,
+                  "lng" : 120.7372499
+               },
+               "southwest" : {
+                  "lat" : 23.801311,
+                  "lng" : 120.6155614
+               }
+            },
+            "location" : {
+               "lat" : 23.8537843,
+               "lng" : 120.6775054
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8902945,
+                  "lng" : 120.7372499
+               },
+               "southwest" : {
+                  "lat" : 23.801311,
+                  "lng" : 120.6155614
+               }
+            }
+         },
+         "place_id" : "ChIJI3mGy-cyaTQRhxnAyQW1bjk",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

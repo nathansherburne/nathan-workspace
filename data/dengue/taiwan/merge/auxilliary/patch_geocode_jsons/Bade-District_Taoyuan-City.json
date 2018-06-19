@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Bade District",
+               "short_name" : "Bade District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taoyuan City",
+               "short_name" : "Taoyuan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "334",
+               "short_name" : "334",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Bade District, Taoyuan City, Taiwan 334",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.9872202,
+                  "lng" : 121.3316215
+               },
+               "southwest" : {
+                  "lat" : 24.9088324,
+                  "lng" : 121.2517861
+               }
+            },
+            "location" : {
+               "lat" : 24.9469059,
+               "lng" : 121.2912463
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.9872202,
+                  "lng" : 121.3316215
+               },
+               "southwest" : {
+                  "lat" : 24.9088324,
+                  "lng" : 121.2517861
+               }
+            }
+         },
+         "place_id" : "ChIJ9SzqGMQYaDQR-Qp5A286VBg",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

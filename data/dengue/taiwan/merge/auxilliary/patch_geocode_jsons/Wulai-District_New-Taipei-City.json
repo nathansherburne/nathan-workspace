@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Wulai District",
+               "short_name" : "Wulai District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "233",
+               "short_name" : "233",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Wulai District, New Taipei City, Taiwan 233",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.8937542,
+                  "lng" : 121.7075062
+               },
+               "southwest" : {
+                  "lat" : 24.6731851,
+                  "lng" : 121.4233015
+               }
+            },
+            "location" : {
+               "lat" : 24.8663721,
+               "lng" : 121.5497801
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.8937542,
+                  "lng" : 121.7075062
+               },
+               "southwest" : {
+                  "lat" : 24.6731851,
+                  "lng" : 121.4233015
+               }
+            }
+         },
+         "place_id" : "ChIJnRWOyugIaDQRLDBG8CUw98Y",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Yanchao District",
+               "short_name" : "Yanchao District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "824",
+               "short_name" : "824",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Yanchao District, Kaohsiung City, Taiwan 824",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.8312151,
+                  "lng" : 120.4318174
+               },
+               "southwest" : {
+                  "lat" : 22.7474381,
+                  "lng" : 120.3134945
+               }
+            },
+            "location" : {
+               "lat" : 22.7823697,
+               "lng" : 120.378138
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.8312151,
+                  "lng" : 120.4318174
+               },
+               "southwest" : {
+                  "lat" : 22.7474381,
+                  "lng" : 120.3134945
+               }
+            }
+         },
+         "place_id" : "ChIJNeDGUzkSbjQR5hT7unyXBH0",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

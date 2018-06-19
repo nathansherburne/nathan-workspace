@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Guoxing Township",
+               "short_name" : "Guoxing Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Nantou County",
+               "short_name" : "Nantou County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "544",
+               "short_name" : "544",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Guoxing Township, Nantou County, Taiwan 544",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.1278597,
+                  "lng" : 120.9570908
+               },
+               "southwest" : {
+                  "lat" : 23.892625,
+                  "lng" : 120.7797546
+               }
+            },
+            "location" : {
+               "lat" : 24.0564429,
+               "lng" : 120.8728615
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.1278597,
+                  "lng" : 120.9570908
+               },
+               "southwest" : {
+                  "lat" : 23.892625,
+                  "lng" : 120.7797546
+               }
+            }
+         },
+         "place_id" : "ChIJE8kaExQnaTQRmTLTENnI7Zo",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shuangxi District",
+               "short_name" : "Shuangxi District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "New Taipei City",
+               "short_name" : "New Taipei City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "227",
+               "short_name" : "227",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Shuangxi District, New Taipei City, Taiwan 227",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.0973627,
+                  "lng" : 121.8972477
+               },
+               "southwest" : {
+                  "lat" : 24.8996723,
+                  "lng" : 121.7636373
+               }
+            },
+            "location" : {
+               "lat" : 24.9971842,
+               "lng" : 121.822098
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.0973627,
+                  "lng" : 121.8972477
+               },
+               "southwest" : {
+                  "lat" : 24.8996723,
+                  "lng" : 121.7636373
+               }
+            }
+         },
+         "place_id" : "ChIJLzAqpvNZXTQRkuGRHQ4W0gg",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

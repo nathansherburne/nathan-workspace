@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Longtan District",
+               "short_name" : "Longtan District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taoyuan City",
+               "short_name" : "Taoyuan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "325",
+               "short_name" : "325",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Longtan District, Taoyuan City, Taiwan 325",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.894012,
+                  "lng" : 121.2678164
+               },
+               "southwest" : {
+                  "lat" : 24.79938,
+                  "lng" : 121.1499565
+               }
+            },
+            "location" : {
+               "lat" : 24.8444927,
+               "lng" : 121.2053963
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.894012,
+                  "lng" : 121.2678164
+               },
+               "southwest" : {
+                  "lat" : 24.79938,
+                  "lng" : 121.1499565
+               }
+            }
+         },
+         "place_id" : "ChIJpabgBVE8aDQRwgUFszWVpGI",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

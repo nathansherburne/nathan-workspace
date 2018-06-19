@@ -1,0 +1,65 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lunbei",
+               "short_name" : "Lunbei",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Lunbei Township",
+               "short_name" : "Lunbei Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Yunlin County",
+               "short_name" : "Yunlin County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "637",
+               "short_name" : "637",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Lunbei, Lunbei Township, Yunlin County, Taiwan 637",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.8029041,
+                  "lng" : 120.3805586
+               },
+               "southwest" : {
+                  "lat" : 23.7476608,
+                  "lng" : 120.3031071
+               }
+            },
+            "location" : {
+               "lat" : 23.7601594,
+               "lng" : 120.3531749
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8029041,
+                  "lng" : 120.3805586
+               },
+               "southwest" : {
+                  "lat" : 23.7476608,
+                  "lng" : 120.3031071
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJIbkLki2wbjQRVSnQHFg6h-8",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

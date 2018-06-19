@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Beitun District",
+               "short_name" : "Beitun District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taichung City",
+               "short_name" : "Taichung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "406",
+               "short_name" : "406",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Beitun District, Taichung City, Taiwan 406",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.2192064,
+                  "lng" : 120.8026788
+               },
+               "southwest" : {
+                  "lat" : 24.156767,
+                  "lng" : 120.6575064
+               }
+            },
+            "location" : {
+               "lat" : 24.1815237,
+               "lng" : 120.6861019
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.2192064,
+                  "lng" : 120.8026788
+               },
+               "southwest" : {
+                  "lat" : 24.156767,
+                  "lng" : 120.6575064
+               }
+            }
+         },
+         "place_id" : "ChIJNVraxTYYaTQRfxhvM1N18W0",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

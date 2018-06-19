@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Hunei District",
+               "short_name" : "Hunei District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "829",
+               "short_name" : "829",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Hunei District, Kaohsiung City, Taiwan 829",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.9212293,
+                  "lng" : 120.2608676
+               },
+               "southwest" : {
+                  "lat" : 22.868228,
+                  "lng" : 120.1877271
+               }
+            },
+            "location" : {
+               "lat" : 22.8954184,
+               "lng" : 120.2224227
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.9212293,
+                  "lng" : 120.2608676
+               },
+               "southwest" : {
+                  "lat" : 22.868228,
+                  "lng" : 120.1877271
+               }
+            }
+         },
+         "place_id" : "ChIJq71c2ct0bjQRVzwAqJ5ejvo",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

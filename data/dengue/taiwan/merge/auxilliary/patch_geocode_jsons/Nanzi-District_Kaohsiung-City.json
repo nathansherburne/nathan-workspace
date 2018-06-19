@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Nanzi District",
+               "short_name" : "Nanzi District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Kaohsiung City",
+               "short_name" : "Kaohsiung City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "811",
+               "short_name" : "811",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Nanzi District, Kaohsiung City, Taiwan 811",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.7562173,
+                  "lng" : 120.3408181
+               },
+               "southwest" : {
+                  "lat" : 22.6947572,
+                  "lng" : 120.2549305
+               }
+            },
+            "location" : {
+               "lat" : 22.7175372,
+               "lng" : 120.3031871
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.7562173,
+                  "lng" : 120.3408181
+               },
+               "southwest" : {
+                  "lat" : 22.6947572,
+                  "lng" : 120.2549305
+               }
+            }
+         },
+         "place_id" : "ChIJ5yYNc6APbjQRJarASHgR8a4",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

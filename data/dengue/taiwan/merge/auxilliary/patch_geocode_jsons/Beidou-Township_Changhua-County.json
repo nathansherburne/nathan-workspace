@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Beidou Township",
+               "short_name" : "Beidou Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Changhua County",
+               "short_name" : "Changhua County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "521",
+               "short_name" : "521",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Beidou Township, Changhua County, Taiwan 521",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.8949102,
+                  "lng" : 120.5732233
+               },
+               "southwest" : {
+                  "lat" : 23.8409853,
+                  "lng" : 120.499104
+               }
+            },
+            "location" : {
+               "lat" : 23.869208,
+               "lng" : 120.5336665
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.8949102,
+                  "lng" : 120.5732233
+               },
+               "southwest" : {
+                  "lat" : 23.8409853,
+                  "lng" : 120.499104
+               }
+            }
+         },
+         "place_id" : "ChIJFfRZm1s1aTQRaNPfvKPIOBo",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

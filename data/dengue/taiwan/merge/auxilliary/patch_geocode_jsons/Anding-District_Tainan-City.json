@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Anding District",
+               "short_name" : "Anding District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "745",
+               "short_name" : "745",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Anding District, Tainan City, Taiwan 745",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.1350462,
+                  "lng" : 120.2692322
+               },
+               "southwest" : {
+                  "lat" : 23.0665573,
+                  "lng" : 120.187335
+               }
+            },
+            "location" : {
+               "lat" : 23.095298,
+               "lng" : 120.2166519
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.1350462,
+                  "lng" : 120.2692322
+               },
+               "southwest" : {
+                  "lat" : 23.0665573,
+                  "lng" : 120.187335
+               }
+            }
+         },
+         "place_id" : "ChIJs6q4f595bjQRS2sI5cAThaE",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

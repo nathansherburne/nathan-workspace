@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Rende District",
+               "short_name" : "Rende District",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Tainan City",
+               "short_name" : "Tainan City",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "717",
+               "short_name" : "717",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Rende District, Tainan City, Taiwan 717",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.9965074,
+                  "lng" : 120.2751824
+               },
+               "southwest" : {
+                  "lat" : 22.8939965,
+                  "lng" : 120.1920581
+               }
+            },
+            "location" : {
+               "lat" : 22.9401228,
+               "lng" : 120.2397336
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.9965074,
+                  "lng" : 120.2751824
+               },
+               "southwest" : {
+                  "lat" : 22.8939965,
+                  "lng" : 120.1920581
+               }
+            }
+         },
+         "place_id" : "ChIJZ3MrNGl0bjQRAJKeIIYH9h8",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

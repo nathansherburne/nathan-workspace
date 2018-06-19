@@ -1,0 +1,44 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Beigan",
+               "short_name" : "Beigan",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            }
+         ],
+         "formatted_address" : "Beigan",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 26.228092,
+                  "lng" : 120.0002171
+               },
+               "southwest" : {
+                  "lat" : 26.2222533,
+                  "lng" : 119.9956804
+               }
+            },
+            "location" : {
+               "lat" : 26.2245753,
+               "lng" : 119.9982607
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 26.228092,
+                  "lng" : 120.0002171
+               },
+               "southwest" : {
+                  "lat" : 26.2222533,
+                  "lng" : 119.9956804
+               }
+            }
+         },
+         "place_id" : "ChIJlTak3BRlQTQR1Mmb4Xtp-RA",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

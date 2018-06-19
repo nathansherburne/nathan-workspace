@@ -1,0 +1,65 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Liujiao",
+               "short_name" : "Liujiao",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Liujiao Township",
+               "short_name" : "Liujiao Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Chiayi County",
+               "short_name" : "Chiayi County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "615",
+               "short_name" : "615",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Liujiao, Liujiao Township, Chiayi County, Taiwan 615",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.5611058,
+                  "lng" : 120.3135328
+               },
+               "southwest" : {
+                  "lat" : 23.4795357,
+                  "lng" : 120.222054
+               }
+            },
+            "location" : {
+               "lat" : 23.529833,
+               "lng" : 120.2873266
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.5611058,
+                  "lng" : 120.3135328
+               },
+               "southwest" : {
+                  "lat" : 23.4795357,
+                  "lng" : 120.222054
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJn8Y1YfqYbjQRpf4iFfuoVkw",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Fanlu Township",
+               "short_name" : "Fanlu Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Chiayi County",
+               "short_name" : "Chiayi County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "602",
+               "short_name" : "602",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Fanlu Township, Chiayi County, Taiwan 602",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.498216,
+                  "lng" : 120.6826564
+               },
+               "southwest" : {
+                  "lat" : 23.3397186,
+                  "lng" : 120.4951441
+               }
+            },
+            "location" : {
+               "lat" : 23.4407355,
+               "lng" : 120.6084832
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.498216,
+                  "lng" : 120.6826564
+               },
+               "southwest" : {
+                  "lat" : 23.3397186,
+                  "lng" : 120.4951441
+               }
+            }
+         },
+         "place_id" : "ChIJIZ_22o7rbjQR5LXqp7yOmDM",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
