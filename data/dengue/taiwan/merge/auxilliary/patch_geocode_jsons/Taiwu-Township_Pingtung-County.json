@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Taiwu",
+               "short_name" : "Taiwu",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Taiwu Township",
+               "short_name" : "Taiwu Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "921",
+               "short_name" : "921",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Taiwu, Taiwu Township, Pingtung County, Taiwan 921",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.5928798,
+                  "lng" : 120.6662605
+               },
+               "southwest" : {
+                  "lat" : 22.5501644,
+                  "lng" : 120.6281958
+               }
+            },
+            "location" : {
+               "lat" : 22.5779544,
+               "lng" : 120.6348032
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.5928798,
+                  "lng" : 120.6662605
+               },
+               "southwest" : {
+                  "lat" : 22.5501644,
+                  "lng" : 120.6281958
+               }
+            }
+         },
+         "place_id" : "ChIJe6l6bQMkbjQR5zoqvShzvlI",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

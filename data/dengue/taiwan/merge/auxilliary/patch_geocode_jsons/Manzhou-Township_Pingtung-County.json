@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Manzhou Township",
+               "short_name" : "Manzhou Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "947",
+               "short_name" : "947",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Manzhou Township, Pingtung County, Taiwan 947",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.1453253,
+                  "lng" : 120.9020904
+               },
+               "southwest" : {
+                  "lat" : 21.9703595,
+                  "lng" : 120.7701672
+               }
+            },
+            "location" : {
+               "lat" : 22.04385,
+               "lng" : 120.8384093
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.1453253,
+                  "lng" : 120.9020904
+               },
+               "southwest" : {
+                  "lat" : 21.9703595,
+                  "lng" : 120.7701672
+               }
+            }
+         },
+         "place_id" : "ChIJ9ViyB5e1cTQRnvkrZcfbH8M",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Neipu",
+               "short_name" : "Neipu",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Neipu Township",
+               "short_name" : "Neipu Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "912",
+               "short_name" : "912",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Neipu, Neipu Township, Pingtung County, Taiwan 912",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.693338,
+                  "lng" : 120.619258
+               },
+               "southwest" : {
+                  "lat" : 22.5919627,
+                  "lng" : 120.5392926
+               }
+            },
+            "location" : {
+               "lat" : 22.6151342,
+               "lng" : 120.5663201
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.693338,
+                  "lng" : 120.619258
+               },
+               "southwest" : {
+                  "lat" : 22.5919627,
+                  "lng" : 120.5392926
+               }
+            }
+         },
+         "place_id" : "ChIJlazIaPsibjQRTtUM1rjhZtg",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

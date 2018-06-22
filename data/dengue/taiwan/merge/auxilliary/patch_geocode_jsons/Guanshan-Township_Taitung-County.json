@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Guanshan",
+               "short_name" : "Guanshan",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Guanshan Township",
+               "short_name" : "Guanshan Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taitung County",
+               "short_name" : "Taitung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "956",
+               "short_name" : "956",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Guanshan, Guanshan Township, Taitung County, Taiwan 956",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.07975,
+                  "lng" : 121.1821616
+               },
+               "southwest" : {
+                  "lat" : 23.0081399,
+                  "lng" : 121.1465286
+               }
+            },
+            "location" : {
+               "lat" : 23.0495603,
+               "lng" : 121.1646339
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.07975,
+                  "lng" : 121.1821616
+               },
+               "southwest" : {
+                  "lat" : 23.0081399,
+                  "lng" : 121.1465286
+               }
+            }
+         },
+         "place_id" : "ChIJv2YdtvcJbzQR6NJ-AtqRcXE",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xiulin Township",
+               "short_name" : "Xiulin Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Hualien County",
+               "short_name" : "Hualien County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "972",
+               "short_name" : "972",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xiulin Township, Hualien County, Taiwan 972",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.37056,
+                  "lng" : 121.773601
+               },
+               "southwest" : {
+                  "lat" : 23.8186925,
+                  "lng" : 121.2599694
+               }
+            },
+            "location" : {
+               "lat" : 24.2258575,
+               "lng" : 121.5370003
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.37056,
+                  "lng" : 121.773601
+               },
+               "southwest" : {
+                  "lat" : 23.8186925,
+                  "lng" : 121.2599694
+               }
+            }
+         },
+         "place_id" : "ChIJgdePU5ibaDQRv-5nN7MDY1s",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

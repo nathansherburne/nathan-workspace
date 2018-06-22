@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Yanping Township",
+               "short_name" : "Yanping Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taitung County",
+               "short_name" : "Taitung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "953",
+               "short_name" : "953",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Yanping Township, Taitung County, Taiwan 953",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.9960038,
+                  "lng" : 121.1941935
+               },
+               "southwest" : {
+                  "lat" : 22.7775576,
+                  "lng" : 120.8208308
+               }
+            },
+            "location" : {
+               "lat" : 22.931996,
+               "lng" : 121.03351
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.9960038,
+                  "lng" : 121.1941935
+               },
+               "southwest" : {
+                  "lat" : 22.7775576,
+                  "lng" : 120.8208308
+               }
+            }
+         },
+         "place_id" : "ChIJpc2mVeaxbzQR5BWHkpKD3xs",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

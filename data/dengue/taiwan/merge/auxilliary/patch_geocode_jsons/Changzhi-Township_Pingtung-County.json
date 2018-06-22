@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Changzhi Township",
+               "short_name" : "Changzhi Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "908",
+               "short_name" : "908",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Changzhi Township, Pingtung County, Taiwan 908",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.7226182,
+                  "lng" : 120.6134463
+               },
+               "southwest" : {
+                  "lat" : 22.6594277,
+                  "lng" : 120.5081074
+               }
+            },
+            "location" : {
+               "lat" : 22.700828,
+               "lng" : 120.5624474
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.7226182,
+                  "lng" : 120.6134463
+               },
+               "southwest" : {
+                  "lat" : 22.6594277,
+                  "lng" : 120.5081074
+               }
+            }
+         },
+         "place_id" : "ChIJ4xm7jac9bjQRwr0YGSqmt2c",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

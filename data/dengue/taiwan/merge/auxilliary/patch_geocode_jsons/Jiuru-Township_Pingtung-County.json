@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Jiuru",
+               "short_name" : "Jiuru",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Jiuru Township",
+               "short_name" : "Jiuru Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "904",
+               "short_name" : "904",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Jiuru, Jiuru Township, Pingtung County, Taiwan 904",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.7642892,
+                  "lng" : 120.5089697
+               },
+               "southwest" : {
+                  "lat" : 22.712069,
+                  "lng" : 120.4748236
+               }
+            },
+            "location" : {
+               "lat" : 22.7335733,
+               "lng" : 120.4891517
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.7642892,
+                  "lng" : 120.5089697
+               },
+               "southwest" : {
+                  "lat" : 22.712069,
+                  "lng" : 120.4748236
+               }
+            }
+         },
+         "place_id" : "ChIJezf9smYWbjQRPiPyr3uBZC8",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

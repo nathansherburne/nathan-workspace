@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Huxi Township",
+               "short_name" : "Huxi Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Penghu County",
+               "short_name" : "Penghu County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "885",
+               "short_name" : "885",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Huxi Township, Penghu County, Taiwan 885",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.6276674,
+                  "lng" : 119.7269552
+               },
+               "southwest" : {
+                  "lat" : 23.5340494,
+                  "lng" : 119.6029826
+               }
+            },
+            "location" : {
+               "lat" : 23.5773682,
+               "lng" : 119.6615055
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.6276674,
+                  "lng" : 119.7269552
+               },
+               "southwest" : {
+                  "lat" : 23.5340494,
+                  "lng" : 119.6029826
+               }
+            }
+         },
+         "place_id" : "ChIJ7VhTZkREbDQRZHkpcVmudoA",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

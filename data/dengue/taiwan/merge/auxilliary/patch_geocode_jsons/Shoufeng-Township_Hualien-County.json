@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shoufeng Township",
+               "short_name" : "Shoufeng Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Hualien County",
+               "short_name" : "Hualien County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "974",
+               "short_name" : "974",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Shoufeng Township, Hualien County, Taiwan 974",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.9483056,
+                  "lng" : 121.611316
+               },
+               "southwest" : {
+                  "lat" : 23.7312656,
+                  "lng" : 121.4412939
+               }
+            },
+            "location" : {
+               "lat" : 23.8593411,
+               "lng" : 121.5598345
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.9483056,
+                  "lng" : 121.611316
+               },
+               "southwest" : {
+                  "lat" : 23.7312656,
+                  "lng" : 121.4412939
+               }
+            }
+         },
+         "place_id" : "ChIJY1EK8NGlaDQRjyv2gwFjAbE",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

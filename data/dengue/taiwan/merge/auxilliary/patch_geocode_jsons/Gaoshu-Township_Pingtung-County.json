@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Gaoshu",
+               "short_name" : "Gaoshu",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Gaoshu Township",
+               "short_name" : "Gaoshu Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "906",
+               "short_name" : "906",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Gaoshu, Gaoshu Township, Pingtung County, Taiwan 906",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.8528048,
+                  "lng" : 120.6184899
+               },
+               "southwest" : {
+                  "lat" : 22.7840446,
+                  "lng" : 120.558524
+               }
+            },
+            "location" : {
+               "lat" : 22.8254924,
+               "lng" : 120.6003824
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.8528048,
+                  "lng" : 120.6184899
+               },
+               "southwest" : {
+                  "lat" : 22.7840446,
+                  "lng" : 120.558524
+               }
+            }
+         },
+         "place_id" : "ChIJtedpDko_bjQRn-VG-97MMxg",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

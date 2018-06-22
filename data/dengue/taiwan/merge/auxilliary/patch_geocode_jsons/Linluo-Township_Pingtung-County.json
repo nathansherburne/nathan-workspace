@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Linluo Township",
+               "short_name" : "Linluo Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "909",
+               "short_name" : "909",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Linluo Township, Pingtung County, Taiwan 909",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.6708479,
+                  "lng" : 120.5612278
+               },
+               "southwest" : {
+                  "lat" : 22.6207188,
+                  "lng" : 120.5063175
+               }
+            },
+            "location" : {
+               "lat" : 22.6586565,
+               "lng" : 120.5336665
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.6708479,
+                  "lng" : 120.5612278
+               },
+               "southwest" : {
+                  "lat" : 22.6207188,
+                  "lng" : 120.5063175
+               }
+            }
+         },
+         "place_id" : "ChIJqSHm0q4ibjQR-JlSzXhPIVU",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Beinan",
+               "short_name" : "Beinan",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Beinan Township",
+               "short_name" : "Beinan Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taitung County",
+               "short_name" : "Taitung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "954",
+               "short_name" : "954",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Beinan, Beinan Township, Taitung County, Taiwan 954",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.8753723,
+                  "lng" : 121.0993259
+               },
+               "southwest" : {
+                  "lat" : 22.7636699,
+                  "lng" : 121.0384867
+               }
+            },
+            "location" : {
+               "lat" : 22.7848196,
+               "lng" : 121.0834446
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.8753723,
+                  "lng" : 121.0993259
+               },
+               "southwest" : {
+                  "lat" : 22.7636699,
+                  "lng" : 121.0384867
+               }
+            }
+         },
+         "place_id" : "ChIJh2mg3Wm3bzQRgUc_i15wLus",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

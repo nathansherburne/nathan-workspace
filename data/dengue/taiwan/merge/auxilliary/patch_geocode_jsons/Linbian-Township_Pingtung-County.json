@@ -1,0 +1,118 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Linbian Township",
+               "short_name" : "Linbian Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "927",
+               "short_name" : "927",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Linbian Township, Pingtung County, Taiwan 927",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.4684362,
+                  "lng" : 120.5428001
+               },
+               "southwest" : {
+                  "lat" : 22.4146289,
+                  "lng" : 120.4821674
+               }
+            },
+            "location" : {
+               "lat" : 22.4384228,
+               "lng" : 120.5106372
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.4684362,
+                  "lng" : 120.5428001
+               },
+               "southwest" : {
+                  "lat" : 22.4146289,
+                  "lng" : 120.4821674
+               }
+            }
+         },
+         "place_id" : "ChIJT65wu4ngcTQRXgPwHWoj_qA",
+         "types" : [ "administrative_area_level_3", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Linbian",
+               "short_name" : "Linbian",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Linbian Township",
+               "short_name" : "Linbian Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "927",
+               "short_name" : "927",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Linbian, Linbian Township, Pingtung County, Taiwan 927",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.440455,
+                  "lng" : 120.5217907
+               },
+               "southwest" : {
+                  "lat" : 22.4162038,
+                  "lng" : 120.4999471
+               }
+            },
+            "location" : {
+               "lat" : 22.4347039,
+               "lng" : 120.5147274
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.440455,
+                  "lng" : 120.5217907
+               },
+               "southwest" : {
+                  "lat" : 22.4162038,
+                  "lng" : 120.4999471
+               }
+            }
+         },
+         "place_id" : "ChIJUz_ZDY_gcTQRsaoTsBa5S3w",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

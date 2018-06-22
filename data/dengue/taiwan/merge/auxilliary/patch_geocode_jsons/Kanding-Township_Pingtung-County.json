@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Kanding Township",
+               "short_name" : "Kanding Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "924",
+               "short_name" : "924",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Kanding Township, Pingtung County, Taiwan 924",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.5475307,
+                  "lng" : 120.5300823
+               },
+               "southwest" : {
+                  "lat" : 22.4893913,
+                  "lng" : 120.4655116
+               }
+            },
+            "location" : {
+               "lat" : 22.5158427,
+               "lng" : 120.4991209
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.5475307,
+                  "lng" : 120.5300823
+               },
+               "southwest" : {
+                  "lat" : 22.4893913,
+                  "lng" : 120.4655116
+               }
+            }
+         },
+         "place_id" : "ChIJObDMmLsfbjQRnu5574b1DKw",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

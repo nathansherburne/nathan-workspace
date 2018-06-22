@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Jiadong Township",
+               "short_name" : "Jiadong Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "931",
+               "short_name" : "931",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Jiadong Township, Pingtung County, Taiwan 931",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.4631223,
+                  "lng" : 120.5765934
+               },
+               "southwest" : {
+                  "lat" : 22.3962295,
+                  "lng" : 120.5119268
+               }
+            },
+            "location" : {
+               "lat" : 22.427078,
+               "lng" : 120.5394232
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.4631223,
+                  "lng" : 120.5765934
+               },
+               "southwest" : {
+                  "lat" : 22.3962295,
+                  "lng" : 120.5119268
+               }
+            }
+         },
+         "place_id" : "ChIJExjKOzHecTQRbxEytO-vCok",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,54 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Wang-an",
+               "short_name" : "Wang-an",
+               "types" : [ "establishment", "natural_feature" ]
+            },
+            {
+               "long_name" : "Wang’an Township",
+               "short_name" : "Wang’an Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Penghu County",
+               "short_name" : "Penghu County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "882",
+               "short_name" : "882",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Wang-an, Wang’an Township, Penghu County, Taiwan 882",
+         "geometry" : {
+            "location" : {
+               "lat" : 23.3833333,
+               "lng" : 119.5
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.3935745,
+                  "lng" : 119.5160074
+               },
+               "southwest" : {
+                  "lat" : 23.3730913,
+                  "lng" : 119.4839926
+               }
+            }
+         },
+         "place_id" : "ChIJIZOWvFKrbTQR8KuJpzIF_vE",
+         "types" : [ "establishment", "natural_feature" ]
+      }
+   ],
+   "status" : "OK"
+}

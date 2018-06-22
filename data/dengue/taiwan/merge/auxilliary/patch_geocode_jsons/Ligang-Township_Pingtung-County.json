@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Ligang Township",
+               "short_name" : "Ligang Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "905",
+               "short_name" : "905",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Ligang Township, Pingtung County, Taiwan 905",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.8383469,
+                  "lng" : 120.5666811
+               },
+               "southwest" : {
+                  "lat" : 22.7556998,
+                  "lng" : 120.4543003
+               }
+            },
+            "location" : {
+               "lat" : 22.7962363,
+               "lng" : 120.5163949
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.8383469,
+                  "lng" : 120.5666811
+               },
+               "southwest" : {
+                  "lat" : 22.7556998,
+                  "lng" : 120.4543003
+               }
+            }
+         },
+         "place_id" : "ChIJ1zROAnIVbjQRs9HKTfkMooA",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

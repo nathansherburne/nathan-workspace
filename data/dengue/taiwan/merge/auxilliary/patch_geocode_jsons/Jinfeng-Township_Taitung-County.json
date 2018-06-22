@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Jinfeng Township",
+               "short_name" : "Jinfeng Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taitung County",
+               "short_name" : "Taitung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "964",
+               "short_name" : "964",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Jinfeng Township, Taitung County, Taiwan 964",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.675457,
+                  "lng" : 121.0052589
+               },
+               "southwest" : {
+                  "lat" : 22.4765343,
+                  "lng" : 120.7390581
+               }
+            },
+            "location" : {
+               "lat" : 22.5604145,
+               "lng" : 120.8728615
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.675457,
+                  "lng" : 121.0052589
+               },
+               "southwest" : {
+                  "lat" : 22.4765343,
+                  "lng" : 120.7390581
+               }
+            }
+         },
+         "place_id" : "ChIJN5IeUGctbjQRmbHChjK_X34",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

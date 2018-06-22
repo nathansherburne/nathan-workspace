@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Chunri Township",
+               "short_name" : "Chunri Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "942",
+               "short_name" : "942",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Chunri Township, Pingtung County, Taiwan 942",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.4708788,
+                  "lng" : 120.7895868
+               },
+               "southwest" : {
+                  "lat" : 22.3408822,
+                  "lng" : 120.6159563
+               }
+            },
+            "location" : {
+               "lat" : 22.3851778,
+               "lng" : 120.6890055
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.4708788,
+                  "lng" : 120.7895868
+               },
+               "southwest" : {
+                  "lat" : 22.3408822,
+                  "lng" : 120.6159563
+               }
+            }
+         },
+         "place_id" : "ChIJ862gBS3YcTQRQbDrrHVSORY",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

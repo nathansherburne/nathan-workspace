@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Ji'an",
+               "short_name" : "Ji'an",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Ji’an Township",
+               "short_name" : "Ji’an Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Hualien County",
+               "short_name" : "Hualien County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "973",
+               "short_name" : "973",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Ji'an, Ji’an Township, Hualien County, Taiwan 973",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.9964182,
+                  "lng" : 121.6008414
+               },
+               "southwest" : {
+                  "lat" : 23.9246345,
+                  "lng" : 121.5248003
+               }
+            },
+            "location" : {
+               "lat" : 23.9732022,
+               "lng" : 121.5841779
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.9964182,
+                  "lng" : 121.6008414
+               },
+               "southwest" : {
+                  "lat" : 23.9246345,
+                  "lng" : 121.5248003
+               }
+            }
+         },
+         "place_id" : "ChIJSUOSKXifaDQRoImSux7lMU4",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

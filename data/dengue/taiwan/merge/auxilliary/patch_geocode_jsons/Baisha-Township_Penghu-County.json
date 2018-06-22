@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Baisha Township",
+               "short_name" : "Baisha Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Penghu County",
+               "short_name" : "Penghu County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "884",
+               "short_name" : "884",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Baisha Township, Penghu County, Taiwan 884",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.775773,
+                  "lng" : 119.6756456
+               },
+               "southwest" : {
+                  "lat" : 23.6061034,
+                  "lng" : 119.5436792
+               }
+            },
+            "location" : {
+               "lat" : 23.6640444,
+               "lng" : 119.5948541
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.775773,
+                  "lng" : 119.6756456
+               },
+               "southwest" : {
+                  "lat" : 23.6061034,
+                  "lng" : 119.5436792
+               }
+            }
+         },
+         "place_id" : "ChIJma2cWalCbDQR1u_K5Xevj9k",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

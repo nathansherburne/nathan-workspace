@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Xincheng",
+               "short_name" : "Xincheng",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Xincheng Township",
+               "short_name" : "Xincheng Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Hualien County",
+               "short_name" : "Hualien County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "971",
+               "short_name" : "971",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Xincheng, Xincheng Township, Hualien County, Taiwan 971",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 24.0544349,
+                  "lng" : 121.6159108
+               },
+               "southwest" : {
+                  "lat" : 24.0137725,
+                  "lng" : 121.6007493
+               }
+            },
+            "location" : {
+               "lat" : 24.0327075,
+               "lng" : 121.6043742
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.0544349,
+                  "lng" : 121.6159108
+               },
+               "southwest" : {
+                  "lat" : 24.0137725,
+                  "lng" : 121.6007493
+               }
+            }
+         },
+         "place_id" : "ChIJySD7WQ2eaDQRxR25_N-ahik",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Checheng Township",
+               "short_name" : "Checheng Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "944",
+               "short_name" : "944",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Checheng Township, Pingtung County, Taiwan 944",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.1427462,
+                  "lng" : 120.7957187
+               },
+               "southwest" : {
+                  "lat" : 22.0096617,
+                  "lng" : 120.6856883
+               }
+            },
+            "location" : {
+               "lat" : 22.0843074,
+               "lng" : 120.7464897
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.1427462,
+                  "lng" : 120.7957187
+               },
+               "southwest" : {
+                  "lat" : 22.0096617,
+                  "lng" : 120.6856883
+               }
+            }
+         },
+         "place_id" : "ChIJYcCwysC3cTQRXAxljgLZiTQ",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

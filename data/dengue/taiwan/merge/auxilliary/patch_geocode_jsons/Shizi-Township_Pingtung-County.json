@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shizi Township",
+               "short_name" : "Shizi Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "943",
+               "short_name" : "943",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Shizi Township, Pingtung County, Taiwan 943",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.3673447,
+                  "lng" : 120.8681767
+               },
+               "southwest" : {
+                  "lat" : 22.1113246,
+                  "lng" : 120.62457
+               }
+            },
+            "location" : {
+               "lat" : 22.2471686,
+               "lng" : 120.734995
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3673447,
+                  "lng" : 120.8681767
+               },
+               "southwest" : {
+                  "lat" : 22.1113246,
+                  "lng" : 120.62457
+               }
+            }
+         },
+         "place_id" : "ChIJ5WNEALrPcTQRK5-BTvI1WkY",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

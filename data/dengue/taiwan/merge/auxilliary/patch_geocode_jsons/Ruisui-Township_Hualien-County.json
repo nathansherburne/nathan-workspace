@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Ruisui Township",
+               "short_name" : "Ruisui Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Hualien County",
+               "short_name" : "Hualien County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "978",
+               "short_name" : "978",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Ruisui Township, Hualien County, Taiwan 978",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.6054534,
+                  "lng" : 121.4924991
+               },
+               "southwest" : {
+                  "lat" : 23.4344934,
+                  "lng" : 121.3252056
+               }
+            },
+            "location" : {
+               "lat" : 23.5205619,
+               "lng" : 121.4113308
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.6054534,
+                  "lng" : 121.4924991
+               },
+               "southwest" : {
+                  "lat" : 23.4344934,
+                  "lng" : 121.3252056
+               }
+            }
+         },
+         "place_id" : "ChIJbaqGc6VPbzQRQ3jrCQPmH0c",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

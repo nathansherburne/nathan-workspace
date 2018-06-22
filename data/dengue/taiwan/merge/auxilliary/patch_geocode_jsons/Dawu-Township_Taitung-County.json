@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Dawu Township",
+               "short_name" : "Dawu Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taitung County",
+               "short_name" : "Taitung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "965",
+               "short_name" : "965",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Dawu Township, Taitung County, Taiwan 965",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.4635301,
+                  "lng" : 120.9466126
+               },
+               "southwest" : {
+                  "lat" : 22.2915018,
+                  "lng" : 120.8544754
+               }
+            },
+            "location" : {
+               "lat" : 22.4141954,
+               "lng" : 120.907304
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.4635301,
+                  "lng" : 120.9466126
+               },
+               "southwest" : {
+                  "lat" : 22.2915018,
+                  "lng" : 120.8544754
+               }
+            }
+         },
+         "place_id" : "ChIJAwrlEcwqcDQRhAxQwXmaKfo",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Haiduan",
+               "short_name" : "Haiduan",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Haiduan Township",
+               "short_name" : "Haiduan Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taitung County",
+               "short_name" : "Taitung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "957",
+               "short_name" : "957",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Haiduan, Haiduan Township, Taitung County, Taiwan 957",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.1324969,
+                  "lng" : 121.1778739
+               },
+               "southwest" : {
+                  "lat" : 23.0426256,
+                  "lng" : 121.1416271
+               }
+            },
+            "location" : {
+               "lat" : 23.1305611,
+               "lng" : 121.1756856
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.1324969,
+                  "lng" : 121.1778739
+               },
+               "southwest" : {
+                  "lat" : 23.0426256,
+                  "lng" : 121.1416271
+               }
+            }
+         },
+         "place_id" : "ChIJPX6DoB4MbzQRKiQpYSN1CSA",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

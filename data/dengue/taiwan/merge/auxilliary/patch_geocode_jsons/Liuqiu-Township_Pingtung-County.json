@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lambai Island",
+               "short_name" : "Lambai Island",
+               "types" : [ "establishment", "natural_feature" ]
+            },
+            {
+               "long_name" : "Liuqiu Township",
+               "short_name" : "Liuqiu Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "929",
+               "short_name" : "929",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Lambai Island, Liuqiu Township, Pingtung County, Taiwan 929",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.3559483,
+                  "lng" : 120.389889
+               },
+               "southwest" : {
+                  "lat" : 22.3217444,
+                  "lng" : 120.3526404
+               }
+            },
+            "location" : {
+               "lat" : 22.3404158,
+               "lng" : 120.3715149
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3559483,
+                  "lng" : 120.389889
+               },
+               "southwest" : {
+                  "lat" : 22.3217444,
+                  "lng" : 120.3526404
+               }
+            }
+         },
+         "place_id" : "ChIJVakFmYvvcTQRW2lecOLzlcY",
+         "types" : [ "establishment", "natural_feature" ]
+      }
+   ],
+   "status" : "OK"
+}

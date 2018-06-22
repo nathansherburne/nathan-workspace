@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Qimei Township",
+               "short_name" : "Qimei Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Penghu County",
+               "short_name" : "Penghu County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "883",
+               "short_name" : "883",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Qimei Township, Penghu County, Taiwan 883",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.2214727,
+                  "lng" : 119.4480324
+               },
+               "southwest" : {
+                  "lat" : 23.1865723,
+                  "lng" : 119.4106298
+               }
+            },
+            "location" : {
+               "lat" : 23.2087756,
+               "lng" : 119.4353441
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.2214727,
+                  "lng" : 119.4480324
+               },
+               "southwest" : {
+                  "lat" : 23.1865723,
+                  "lng" : 119.4106298
+               }
+            }
+         },
+         "place_id" : "ChIJ6aSV_8cHbTQR1rJTfWAefck",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Luye Township",
+               "short_name" : "Luye Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taitung County",
+               "short_name" : "Taitung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "955",
+               "short_name" : "955",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Luye Township, Taitung County, Taiwan 955",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.0093543,
+                  "lng" : 121.2194329
+               },
+               "southwest" : {
+                  "lat" : 22.8886634,
+                  "lng" : 121.0855611
+               }
+            },
+            "location" : {
+               "lat" : 22.9580514,
+               "lng" : 121.1595842
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.0093543,
+                  "lng" : 121.2194329
+               },
+               "southwest" : {
+                  "lat" : 22.8886634,
+                  "lng" : 121.0855611
+               }
+            }
+         },
+         "place_id" : "ChIJkxg-oKCmbzQRzc9wY__pp_0",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

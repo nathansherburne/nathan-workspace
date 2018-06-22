@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Guangfu Township",
+               "short_name" : "Guangfu Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Hualien County",
+               "short_name" : "Hualien County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "976",
+               "short_name" : "976",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Guangfu Township, Hualien County, Taiwan 976",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.7130207,
+                  "lng" : 121.5249687
+               },
+               "southwest" : {
+                  "lat" : 23.5846994,
+                  "lng" : 121.3575964
+               }
+            },
+            "location" : {
+               "lat" : 23.6350647,
+               "lng" : 121.422761
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.7130207,
+                  "lng" : 121.5249687
+               },
+               "southwest" : {
+                  "lat" : 23.5846994,
+                  "lng" : 121.3575964
+               }
+            }
+         },
+         "place_id" : "ChIJlxgIaFRNbzQR7he3lZXG8xU",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

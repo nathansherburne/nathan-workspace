@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lanyu Township",
+               "short_name" : "Lanyu Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Taitung County",
+               "short_name" : "Taitung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "952",
+               "short_name" : "952",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Lanyu Township, Taitung County, Taiwan 952",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.0882268,
+                  "lng" : 121.6012348
+               },
+               "southwest" : {
+                  "lat" : 21.9999617,
+                  "lng" : 121.4994105
+               }
+            },
+            "location" : {
+               "lat" : 22.0435616,
+               "lng" : 121.548418
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.0882268,
+                  "lng" : 121.6012348
+               },
+               "southwest" : {
+                  "lat" : 21.9999617,
+                  "lng" : 121.4994105
+               }
+            }
+         },
+         "place_id" : "ChIJYyKROyUJcDQRy4zQUkrxM-o",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

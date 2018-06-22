@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Fuli Township",
+               "short_name" : "Fuli Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Hualien County",
+               "short_name" : "Hualien County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "983",
+               "short_name" : "983",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Fuli Township, Hualien County, Taiwan 983",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.2995769,
+                  "lng" : 121.3786281
+               },
+               "southwest" : {
+                  "lat" : 23.0977983,
+                  "lng" : 121.2119874
+               }
+            },
+            "location" : {
+               "lat" : 23.154416,
+               "lng" : 121.2855249
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.2995769,
+                  "lng" : 121.3786281
+               },
+               "southwest" : {
+                  "lat" : 23.0977983,
+                  "lng" : 121.2119874
+               }
+            }
+         },
+         "place_id" : "ChIJi2obQRJtbzQRmlmG00Dgyf0",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Yanpu Township",
+               "short_name" : "Yanpu Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "907",
+               "short_name" : "907",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Yanpu Township, Pingtung County, Taiwan 907",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.7730868,
+                  "lng" : 120.6346312
+               },
+               "southwest" : {
+                  "lat" : 22.7075368,
+                  "lng" : 120.5048402
+               }
+            },
+            "location" : {
+               "lat" : 22.7436807,
+               "lng" : 120.5624474
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.7730868,
+                  "lng" : 120.6346312
+               },
+               "southwest" : {
+                  "lat" : 22.7075368,
+                  "lng" : 120.5048402
+               }
+            }
+         },
+         "place_id" : "ChIJ1W7g7Hw-bjQR6k7Or4_bV7w",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

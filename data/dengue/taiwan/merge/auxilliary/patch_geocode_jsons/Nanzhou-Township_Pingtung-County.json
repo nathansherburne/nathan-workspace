@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Nanzhou Township",
+               "short_name" : "Nanzhou Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "926",
+               "short_name" : "926",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Nanzhou Township, Pingtung County, Taiwan 926",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.5034818,
+                  "lng" : 120.5464451
+               },
+               "southwest" : {
+                  "lat" : 22.4587641,
+                  "lng" : 120.4870904
+               }
+            },
+            "location" : {
+               "lat" : 22.4747339,
+               "lng" : 120.5163949
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.5034818,
+                  "lng" : 120.5464451
+               },
+               "southwest" : {
+                  "lat" : 22.4587641,
+                  "lng" : 120.4870904
+               }
+            }
+         },
+         "place_id" : "ChIJP3xhSQPgcTQRcpl4ADYtg4I",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

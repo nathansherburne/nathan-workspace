@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Wutai Township",
+               "short_name" : "Wutai Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "902",
+               "short_name" : "902",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Wutai Township, Pingtung County, Taiwan 902",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.866437,
+                  "lng" : 120.9042007
+               },
+               "southwest" : {
+                  "lat" : 22.6298459,
+                  "lng" : 120.7017623
+               }
+            },
+            "location" : {
+               "lat" : 22.7509887,
+               "lng" : 120.7809676
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.866437,
+                  "lng" : 120.9042007
+               },
+               "southwest" : {
+                  "lat" : 22.6298459,
+                  "lng" : 120.7017623
+               }
+            }
+         },
+         "place_id" : "ChIJ8yYKkQo2bjQRqOOKk9DPtAY",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Fangshan Township",
+               "short_name" : "Fangshan Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "941",
+               "short_name" : "941",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Fangshan Township, Pingtung County, Taiwan 941",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.3565961,
+                  "lng" : 120.7175521
+               },
+               "southwest" : {
+                  "lat" : 22.1420362,
+                  "lng" : 120.606404
+               }
+            },
+            "location" : {
+               "lat" : 22.2606439,
+               "lng" : 120.6573779
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3565961,
+                  "lng" : 120.7175521
+               },
+               "southwest" : {
+                  "lat" : 22.1420362,
+                  "lng" : 120.606404
+               }
+            }
+         },
+         "place_id" : "ChIJmwwK9PzEcTQRi3ujeqZlBBY",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

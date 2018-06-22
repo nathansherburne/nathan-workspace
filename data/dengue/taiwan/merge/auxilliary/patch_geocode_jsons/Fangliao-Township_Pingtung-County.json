@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Fangliao Township",
+               "short_name" : "Fangliao Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "940",
+               "short_name" : "940",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Fangliao Township, Pingtung County, Taiwan 940",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.4577411,
+                  "lng" : 120.640272
+               },
+               "southwest" : {
+                  "lat" : 22.3405638,
+                  "lng" : 120.5454246
+               }
+            },
+            "location" : {
+               "lat" : 22.3960688,
+               "lng" : 120.5854674
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.4577411,
+                  "lng" : 120.640272
+               },
+               "southwest" : {
+                  "lat" : 22.3405638,
+                  "lng" : 120.5454246
+               }
+            }
+         },
+         "place_id" : "ChIJr9p1l5becTQRg2ejXaVVQ0I",
+         "types" : [ "administrative_area_level_3", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

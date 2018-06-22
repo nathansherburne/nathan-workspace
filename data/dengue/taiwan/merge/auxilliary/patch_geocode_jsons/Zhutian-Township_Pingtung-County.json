@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Zhutian",
+               "short_name" : "Zhutian",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Zhutian Township",
+               "short_name" : "Zhutian Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "911",
+               "short_name" : "911",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Zhutian, Zhutian Township, Pingtung County, Taiwan 911",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.6246018,
+                  "lng" : 120.547403
+               },
+               "southwest" : {
+                  "lat" : 22.5664515,
+                  "lng" : 120.5055575
+               }
+            },
+            "location" : {
+               "lat" : 22.5939138,
+               "lng" : 120.5326679
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.6246018,
+                  "lng" : 120.547403
+               },
+               "southwest" : {
+                  "lat" : 22.5664515,
+                  "lng" : 120.5055575
+               }
+            }
+         },
+         "place_id" : "ChIJqYMuO0ofbjQRQo5VM7jFK0Y",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

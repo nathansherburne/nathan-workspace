@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Majia",
+               "short_name" : "Majia",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Majia Township",
+               "short_name" : "Majia Township",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Pingtung County",
+               "short_name" : "Pingtung County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Taiwan",
+               "short_name" : "TW",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "903",
+               "short_name" : "903",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Majia, Majia Township, Pingtung County, Taiwan 903",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.709781,
+                  "lng" : 120.6510112
+               },
+               "southwest" : {
+                  "lat" : 22.6890584,
+                  "lng" : 120.6344644
+               }
+            },
+            "location" : {
+               "lat" : 22.6903584,
+               "lng" : 120.6378794
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.709781,
+                  "lng" : 120.6510112
+               },
+               "southwest" : {
+                  "lat" : 22.6890584,
+                  "lng" : 120.6344644
+               }
+            }
+         },
+         "place_id" : "ChIJsaJiIpQ7bjQRaBPM3XpOm_s",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
