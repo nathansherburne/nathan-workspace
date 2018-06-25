@@ -1,0 +1,14 @@
+"abbr.name","region.name","num.sites.reporting","total.sites","total.regional.ILI","total.regional.patients","percent.ILI","compared.to.state"
+"X.ILI.CHR","Hamilton County (Chattanooga)","3","4","1","513","0.2%",""
+"X.ILI.ETR","East Tennessee Region","6","9","6","1812","0.3%",""
+"X.ILI.JMR","Jackson-Madison County","1181","13144","12120","59994550148","2.0%1.1%0.4%0.0%","higher"
+"X.ILI.KKR",NA,NA,NA,NA,NA,NA,NA
+"X.ILI.MCR",NA,NA,NA,NA,NA,NA,NA
+"X.ILI.MSR",NA,NA,NA,NA,NA,NA,NA
+"X.ILI.NDR","Nashville-Davidson County","7322","11534","0000","77629351104","0.0%0.0%0.0%0.0%",""
+"X.ILI.NER",NA,NA,NA,NA,NA,NA,NA
+"X.ILI.SCR",NA,NA,NA,NA,NA,NA,NA
+"X.ILI.SER",NA,NA,NA,NA,NA,NA,NA
+"X.ILI.SUL","Sullivan County (Tri-Cities)","135","246","000","331194279","0.0%0.0%0.0%",""
+"X.ILI.UCR",NA,NA,NA,NA,NA,NA,NA
+"X.ILI.WTR",NA,NA,NA,NA,NA,NA,NA
